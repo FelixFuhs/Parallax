@@ -1,11 +1,13 @@
 from __future__ import annotations
 
 import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import json
 import os
 import re
 import socket
 import sys
+import threading
 import time
 from dataclasses import asdict, dataclass, fields
 from datetime import date, datetime, timezone
@@ -60,6 +62,17 @@ class RunStats:
     total_flags: int = 0
 
 
+@dataclass(frozen=True)
+class TickerRunResult:
+    ticker: str
+    done: int
+    failed: int
+    skipped: int
+    total_cost_usd: float
+    total_flags: int
+    output: str
+
+
 class OpenRouterError(RuntimeError):
     """Raised when the OpenRouter request or response cannot be used."""
 
@@ -91,14 +104,17 @@ TIER_CONFIGS: dict[str, TierConfig] = {
 class RateLimiter:
     def __init__(self, min_interval_seconds: float) -> None:
         self._min_interval_seconds = min_interval_seconds
-        self._last_started_at: float | None = None
+        self._lock = threading.Lock()
+        self._next_available_at = 0.0
 
     def wait(self) -> None:
-        if self._last_started_at is not None:
-            remaining = self._min_interval_seconds - (time.monotonic() - self._last_started_at)
-            if remaining > 0:
-                time.sleep(remaining)
-        self._last_started_at = time.monotonic()
+        with self._lock:
+            now = time.monotonic()
+            ready_at = max(now, self._next_available_at)
+            delay = ready_at - now
+            self._next_available_at = ready_at + self._min_interval_seconds
+        if delay > 0:
+            time.sleep(delay)
 
 
 def main() -> int:
@@ -133,6 +149,10 @@ def main() -> int:
         _print_dry_run(prompt_template, tickers, _tiers_for_cli(args.tier))
         return 0
 
+    if args.parallel < 1:
+        print("Error: --parallel must be at least 1.", file=sys.stderr)
+        return 1
+
     api_key = os.getenv("OPENROUTER_API_KEY")
     if not api_key:
         print("Error: set OPENROUTER_API_KEY before running this script.", file=sys.stderr)
@@ -147,71 +167,23 @@ def main() -> int:
     stats = RunStats()
     run_date = date.today().isoformat()
 
-    for ticker in tickers:
-        prompt = _render_prompt(prompt_template, ticker)
-        for tier_name in selected_tiers:
-            config = TIER_CONFIGS[tier_name]
-            report_path = _report_path(DEFAULT_REPORTS_DIR, ticker, run_date, tier_name)
-
-            if report_path.exists():
-                stats.skipped += 1
-                print(
-                    f"Skip {ticker} {tier_name}: report already exists at {report_path}",
-                    file=sys.stderr,
-                )
-                continue
-
-            api_result: ApiResult | None = None
-            try:
-                api_result = _request_openrouter(
-                    prompt=prompt,
-                    config=config,
-                    api_key=api_key,
-                    rate_limiter=rate_limiters[tier_name],
-                )
-                stats.total_cost_usd += api_result.estimated_cost_usd
-
-                raw_report = _extract_report_payload(api_result.payload)
-                valuation_input = parse_input(raw_report)
-                valuation_result = run_dcf(valuation_input)
-                quality_flags = _validate_quality(valuation_input, raw_report)
-                saved_report = _build_saved_report(
-                    valuation_input=valuation_input,
-                    valuation_result=valuation_result,
-                    config=config,
-                    usage=api_result.usage,
-                    estimated_cost_usd=api_result.estimated_cost_usd,
-                    quality_flags=quality_flags,
-                )
-                _write_json(report_path, saved_report)
-            except (OpenRouterError, ParseError, DCFError, OSError, ValueError) as exc:
-                stats.failed += 1
-                print(
-                    _format_request_log(
-                        ticker=ticker,
-                        config=config,
-                        usage=api_result.usage if api_result else None,
-                        cost_usd=api_result.estimated_cost_usd if api_result else None,
-                        quality_flags=[],
-                        outcome=f"failed: {exc}",
-                    )
-                )
-                _print_running_totals(stats)
-                continue
-
-            stats.done += 1
-            stats.total_flags += len(quality_flags)
-            print(
-                _format_request_log(
-                    ticker=ticker,
-                    config=config,
-                    usage=api_result.usage,
-                    cost_usd=api_result.estimated_cost_usd,
-                    quality_flags=quality_flags,
-                    outcome=f"saved={report_path}",
-                )
-            )
-            _print_running_totals(stats)
+    for result in _run_tickers(
+        tickers=tickers,
+        selected_tiers=selected_tiers,
+        prompt_template=prompt_template,
+        api_key=api_key,
+        rate_limiters=rate_limiters,
+        run_date=run_date,
+        parallel=args.parallel,
+    ):
+        if result.output:
+            print(result.output)
+        stats.done += result.done
+        stats.failed += result.failed
+        stats.skipped += result.skipped
+        stats.total_cost_usd += result.total_cost_usd
+        stats.total_flags += result.total_flags
+        _print_running_totals(stats)
 
     _print_summary(stats)
     return 1 if stats.failed else 0
@@ -224,6 +196,7 @@ def _parse_args() -> argparse.Namespace:
     cli.add_argument("tickers", nargs="*", help="Ticker symbols to research.")
     cli.add_argument("--file", dest="ticker_file", help="Path to a text file containing ticker symbols.")
     cli.add_argument("--tier", choices=("cheap", "full", "both"), default="cheap", help="Model tier to run.")
+    cli.add_argument("--parallel", type=int, default=1, help="Number of tickers to process concurrently.")
     cli.add_argument("--dry-run", action="store_true", help="Print the rendered prompt without calling the API.")
     cli.add_argument(
         "--compare",
@@ -304,6 +277,150 @@ def _print_dry_run(prompt_template: str, tickers: list[str], tiers: list[str]) -
         print(_render_prompt(prompt_template, ticker))
 
 
+def _run_tickers(
+    *,
+    tickers: list[str],
+    selected_tiers: list[str],
+    prompt_template: str,
+    api_key: str,
+    rate_limiters: dict[str, RateLimiter],
+    run_date: str,
+    parallel: int,
+):
+    if parallel == 1:
+        for ticker in tickers:
+            yield _process_ticker(
+                ticker=ticker,
+                selected_tiers=selected_tiers,
+                prompt_template=prompt_template,
+                api_key=api_key,
+                rate_limiters=rate_limiters,
+                run_date=run_date,
+            )
+        return
+
+    with ThreadPoolExecutor(max_workers=parallel) as executor:
+        futures = {
+            executor.submit(
+                _process_ticker,
+                ticker=ticker,
+                selected_tiers=selected_tiers,
+                prompt_template=prompt_template,
+                api_key=api_key,
+                rate_limiters=rate_limiters,
+                run_date=run_date,
+            ): ticker
+            for ticker in tickers
+        }
+        for future in as_completed(futures):
+            ticker = futures[future]
+            try:
+                yield future.result()
+            except Exception as exc:
+                yield TickerRunResult(
+                    ticker=ticker,
+                    done=0,
+                    failed=1,
+                    skipped=0,
+                    total_cost_usd=0.0,
+                    total_flags=0,
+                    output=f"{ticker}\n{ticker} | failed: unexpected worker error: {exc}",
+                )
+
+
+def _process_ticker(
+    *,
+    ticker: str,
+    selected_tiers: list[str],
+    prompt_template: str,
+    api_key: str,
+    rate_limiters: dict[str, RateLimiter],
+    run_date: str,
+) -> TickerRunResult:
+    lines = [ticker]
+    prompt = _render_prompt(prompt_template, ticker)
+    done = 0
+    failed = 0
+    skipped = 0
+    total_cost_usd = 0.0
+    total_flags = 0
+
+    for tier_name in selected_tiers:
+        config = TIER_CONFIGS[tier_name]
+        report_path = _report_path(DEFAULT_REPORTS_DIR, ticker, run_date, tier_name)
+        if report_path.exists():
+            skipped += 1
+            lines.append(f"Skip {ticker} {tier_name}: report already exists at {report_path}")
+            continue
+
+        api_result: ApiResult | None = None
+        extraction_warnings: list[str] = []
+        request_logs: list[str] = []
+        try:
+            api_result = _request_openrouter(
+                prompt=prompt,
+                config=config,
+                api_key=api_key,
+                rate_limiter=rate_limiters[tier_name],
+                log_lines=request_logs,
+            )
+            total_cost_usd += api_result.estimated_cost_usd
+
+            raw_report, extraction_warnings = _extract_report_payload(api_result.payload, config)
+            valuation_input = parse_input(raw_report)
+            valuation_result = run_dcf(valuation_input)
+            quality_flags = _validate_quality(valuation_input, raw_report)
+            saved_report = _build_saved_report(
+                valuation_input=valuation_input,
+                valuation_result=valuation_result,
+                config=config,
+                usage=api_result.usage,
+                estimated_cost_usd=api_result.estimated_cost_usd,
+                quality_flags=quality_flags,
+            )
+            _write_json(report_path, saved_report)
+        except (OpenRouterError, ParseError, DCFError, OSError, ValueError) as exc:
+            failed += 1
+            lines.extend(request_logs)
+            lines.append(
+                _format_request_log(
+                    ticker=ticker,
+                    config=config,
+                    usage=api_result.usage if api_result else None,
+                    cost_usd=api_result.estimated_cost_usd if api_result else None,
+                    quality_flags=[],
+                    outcome=f"failed: {exc}",
+                )
+            )
+            continue
+
+        done += 1
+        total_flags += len(quality_flags)
+        lines.extend(request_logs)
+        for warning in extraction_warnings:
+            lines.append(f"Warning: {ticker} {tier_name}: {warning}")
+        lines.append(
+            _format_request_log(
+                ticker=ticker,
+                config=config,
+                usage=api_result.usage,
+                cost_usd=api_result.estimated_cost_usd,
+                quality_flags=quality_flags,
+                outcome=f"saved={report_path}",
+            )
+        )
+
+    return TickerRunResult(
+        ticker=ticker,
+        done=done,
+        failed=failed,
+        skipped=skipped,
+        total_cost_usd=total_cost_usd,
+        total_flags=total_flags,
+        output="\n".join(lines),
+    )
+
+
 def _load_dotenv(path: Path) -> None:
     if not path.exists():
         return
@@ -338,18 +455,20 @@ def _request_openrouter(
     config: TierConfig,
     api_key: str,
     rate_limiter: RateLimiter,
+    log_lines: list[str],
 ) -> ApiResult:
     body = {
         "model": config.model,
         "messages": [{"role": "user", "content": prompt}],
         "reasoning": {"effort": config.reasoning_effort},
-        "response_format": {"type": "json_object"},
         "max_tokens": config.max_tokens,
         "stream": False,
         "provider": {"require_parameters": True},
         # Response healing only works on non-streaming requests and helps salvage malformed JSON.
         "plugins": [{"id": "response-healing"}],
     }
+    if config.tier != "cheap":
+        body["response_format"] = {"type": "json_object"}
     encoded_body = json.dumps(body).encode("utf-8")
 
     headers = {
@@ -385,10 +504,9 @@ def _request_openrouter(
             response_body = exc.read().decode("utf-8", errors="replace")
             if _is_retryable_status(exc.code) and attempt <= MAX_RETRIES:
                 delay = _retry_delay_seconds(attempt, exc.headers.get("Retry-After"))
-                print(
+                log_lines.append(
                     f"Retry {attempt}/{MAX_RETRIES} for {config.model} after HTTP {exc.code}; "
-                    f"sleeping {delay:.1f}s",
-                    file=sys.stderr,
+                    f"sleeping {delay:.1f}s"
                 )
                 time.sleep(delay)
                 last_error = exc
@@ -399,10 +517,9 @@ def _request_openrouter(
         except (error.URLError, socket.timeout, TimeoutError) as exc:
             if attempt <= MAX_RETRIES:
                 delay = _retry_delay_seconds(attempt, None)
-                print(
+                log_lines.append(
                     f"Retry {attempt}/{MAX_RETRIES} for {config.model} after network error; "
-                    f"sleeping {delay:.1f}s",
-                    file=sys.stderr,
+                    f"sleeping {delay:.1f}s"
                 )
                 time.sleep(delay)
                 last_error = exc
@@ -412,7 +529,10 @@ def _request_openrouter(
     raise OpenRouterError(f"OpenRouter request failed after retries: {last_error}")
 
 
-def _extract_report_payload(payload: Mapping[str, Any]) -> Mapping[str, Any]:
+def _extract_report_payload(
+    payload: Mapping[str, Any],
+    config: TierConfig,
+) -> tuple[Mapping[str, Any], list[str]]:
     choices = payload.get("choices")
     if not isinstance(choices, list) or not choices:
         raise OpenRouterError("OpenRouter response did not include choices[0].")
@@ -426,7 +546,9 @@ def _extract_report_payload(payload: Mapping[str, Any]) -> Mapping[str, Any]:
         raise OpenRouterError("OpenRouter response did not include a message object.")
 
     content = message.get("content")
-    return _extract_json_object(content)
+    if config.tier == "cheap":
+        return _extract_json_object_with_healing(content)
+    return _extract_json_object(content), []
 
 
 def _extract_json_object(content: Any) -> Mapping[str, Any]:
@@ -462,6 +584,52 @@ def _extract_json_object(content: Any) -> Mapping[str, Any]:
                 return parsed
 
     raise OpenRouterError("Unable to parse a JSON object from choices[0].message.content.")
+
+
+def _extract_json_object_with_healing(content: Any) -> tuple[Mapping[str, Any], list[str]]:
+    text = _content_to_text(content).strip()
+    if not text:
+        raise OpenRouterError("Model returned empty message content.")
+
+    warnings: list[str] = []
+    parsed = _parse_brace_wrapped_json(text)
+    if parsed is not None:
+        start = text.find("{")
+        end = text.rfind("}")
+        if start != 0 or end != len(text) - 1:
+            warnings.append("healed JSON by slicing from the first '{' to the last '}'.")
+        return parsed, warnings
+
+    stripped = _strip_markdown_code_fences(text)
+    if stripped != text:
+        parsed = _parse_brace_wrapped_json(stripped)
+        if parsed is not None:
+            warnings.append("healed JSON by stripping markdown code fences before parsing.")
+            return parsed, warnings
+
+    raise OpenRouterError("Unable to parse healed JSON from the cheap-tier response.")
+
+
+def _parse_brace_wrapped_json(text: str) -> Mapping[str, Any] | None:
+    start = text.find("{")
+    end = text.rfind("}")
+    if start == -1 or end == -1 or end <= start:
+        return None
+    candidate = text[start : end + 1]
+    try:
+        parsed = json.loads(candidate)
+    except json.JSONDecodeError:
+        return None
+    if isinstance(parsed, Mapping):
+        return parsed
+    return None
+
+
+def _strip_markdown_code_fences(text: str) -> str:
+    stripped = text.strip()
+    if not stripped.startswith("```"):
+        return stripped
+    return re.sub(r"^```(?:json)?\s*|\s*```$", "", stripped, flags=re.DOTALL).strip()
 
 
 def _content_to_text(content: Any) -> str:
