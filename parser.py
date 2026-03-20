@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from dataclasses import dataclass, field, replace
 from pathlib import Path
 from typing import Any, Literal, Mapping, TypeAlias, cast
@@ -18,7 +19,8 @@ _FORECAST_FIELDS = (
 )
 _TERMINAL_METHODS = {"gordon_growth", "exit_multiple", "average"}
 _MISSING_STRINGS = {"", "na", "n/a", "none", "null", "-"}
-_CURRENCY_MARKERS = "$€£¥"
+_CURRENCY_MARKERS = "$\u20ac\u00a3\u00a5"
+_MARKDOWN_LINK_RE = re.compile(r"^\[(?P<label>[^\]]+)\]\((?P<url>https?://[^)]+)\)$")
 
 
 class ParseError(ValueError):
@@ -500,7 +502,7 @@ def _parse_comps(raw_value: Any) -> tuple[ComparableCompany, ...]:
                     f"comps[{index}].ev_ntm_ebitda",
                 ),
                 pe_ntm=_coerce_number(data.get("pe_ntm"), f"comps[{index}].pe_ntm"),
-                source=_coerce_text(data.get("source")),
+                source=_coerce_url_text(data.get("source")),
                 notes=_coerce_text(data.get("notes")),
             )
         )
@@ -516,7 +518,7 @@ def _parse_presentation(raw_value: Any) -> PresentationContent:
         sources.append(
             SourceReference(
                 label=_coerce_text(source.get("label")),
-                url=_coerce_text(source.get("url")),
+                url=_coerce_url_text(source.get("url")),
                 notes=_coerce_text(source.get("notes")),
             )
         )
@@ -719,6 +721,17 @@ def _coerce_text(value: Any) -> str | None:
         text = value.strip()
         return text or None
     return str(value)
+
+
+def _coerce_url_text(value: Any) -> str | None:
+    text = _coerce_text(value)
+    if text is None:
+        return None
+
+    match = _MARKDOWN_LINK_RE.match(text)
+    if match:
+        return match.group("url")
+    return text
 
 
 def _mapping(value: Any, path: str) -> Mapping[str, Any]:

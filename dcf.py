@@ -2,8 +2,11 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from dataclasses import asdict, dataclass
+from pathlib import Path
+from typing import Any, Mapping
 
 from parser import (
     Assumptions,
@@ -50,6 +53,7 @@ class ScenarioValuation:
     enterprise_value: float
     equity_value: float
     net_debt: float
+    investments_adjustment: float
     per_share_value: float
     current_price: float | None
     upside_downside_pct: float | None
@@ -67,6 +71,12 @@ class DCFResult:
     ticker: str | None
     currency: str | None
     scenarios: dict[str, ScenarioValuation]
+
+
+@dataclass(frozen=True)
+class CliInput:
+    raw_payload: Mapping[str, Any]
+    output_root: Path
 
 
 def run_dcf(valuation_input: ValuationInput) -> DCFResult:
@@ -158,12 +168,13 @@ def value_scenario(valuation_input: ValuationInput, scenario_name: str) -> Scena
     enterprise_value = pv_fcff_total + terminal_value_present_value
 
     net_debt = _net_debt(assumptions)
+    investments_adjustment = _investments_adjustment(assumptions, net_debt)
     equity_value = (
         enterprise_value
         - net_debt
         - assumptions.minority_interest
         - assumptions.preferred_equity
-        + assumptions.investments
+        + investments_adjustment
     )
     per_share_value = equity_value / assumptions.diluted_shares
     current_price = assumptions.current_price
@@ -178,6 +189,7 @@ def value_scenario(valuation_input: ValuationInput, scenario_name: str) -> Scena
         enterprise_value=enterprise_value,
         equity_value=equity_value,
         net_debt=net_debt,
+        investments_adjustment=investments_adjustment,
         per_share_value=per_share_value,
         current_price=current_price,
         upside_downside_pct=upside_downside_pct,
@@ -281,33 +293,114 @@ def _net_debt(assumptions: Assumptions) -> float:
     return assumptions.debt - assumptions.cash
 
 
-def _load_cli_input() -> ValuationInput:
+def _investments_adjustment(assumptions: Assumptions, net_debt: float) -> float:
+    investments = assumptions.investments
+    if investments == 0.0:
+        return 0.0
+
+    if assumptions.net_debt_override is None:
+        return investments
+
+    net_debt_excluding_investments = assumptions.debt - assumptions.cash
+    net_debt_including_investments = net_debt_excluding_investments - investments
+    tolerance = max(1.0, abs(investments) * 0.01)
+
+    if abs(net_debt - net_debt_including_investments) <= tolerance and abs(
+        net_debt - net_debt_excluding_investments
+    ) > tolerance:
+        return 0.0
+
+    return investments
+
+
+def _load_cli_input() -> CliInput:
     cli = argparse.ArgumentParser(description="Run a three-scenario FCFF DCF from normalized research JSON.")
     cli.add_argument(
         "input_path",
         nargs="?",
         help="Path to a JSON file. If omitted, JSON is read from stdin.",
     )
+    cli.add_argument(
+        "--output-dir",
+        default="valuations",
+        help="Root directory where company valuation artifacts will be saved.",
+    )
     args = cli.parse_args()
 
     if args.input_path:
-        return parse_input(args.input_path)
+        try:
+            raw_text = Path(args.input_path).read_text(encoding="utf-8")
+        except OSError as exc:
+            raise ParseError(f"Unable to read JSON file '{args.input_path}'.") from exc
+        raw_payload = _load_raw_payload(raw_text)
+        return CliInput(raw_payload=raw_payload, output_root=Path(args.output_dir))
 
     payload = sys.stdin.read()
     if not payload.strip():
         raise ParseError("Provide JSON via stdin or pass a file path argument.")
-    return parse_input(payload)
+    return CliInput(raw_payload=_load_raw_payload(payload), output_root=Path(args.output_dir))
+
+
+def _load_raw_payload(text: str) -> Mapping[str, Any]:
+    try:
+        payload = json.loads(text)
+    except json.JSONDecodeError as exc:
+        raise ParseError(f"Invalid JSON: {exc.msg}") from exc
+    if not isinstance(payload, Mapping):
+        raise ParseError("Top-level JSON value must be an object.")
+    return payload
+
+
+def _save_run_artifacts(
+    *,
+    raw_payload: Mapping[str, Any],
+    valuation_input: ValuationInput,
+    results: DCFResult,
+    output_root: Path,
+) -> Path:
+    company_dir = output_root / _company_folder_name(valuation_input)
+    company_dir.mkdir(parents=True, exist_ok=True)
+
+    _write_json(company_dir / "research_input.json", raw_payload)
+    _write_json(company_dir / "normalized_input.json", asdict(valuation_input))
+    _write_json(company_dir / "dcf_output.json", asdict(results))
+    return company_dir
+
+
+def _write_json(path: Path, payload: Any) -> None:
+    path.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
+
+
+def _company_folder_name(valuation_input: ValuationInput) -> str:
+    parts = [valuation_input.ticker, valuation_input.company_name]
+    slug_parts = [_slugify(part) for part in parts if part]
+    if not slug_parts:
+        return "unknown-company"
+    return "_".join(dict.fromkeys(slug_parts))
+
+
+def _slugify(value: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+    return slug or "unknown"
 
 
 def main() -> int:
     try:
-        valuation_input = _load_cli_input()
+        cli_input = _load_cli_input()
+        valuation_input = parse_input(cli_input.raw_payload)
         results = run_dcf(valuation_input)
-    except (ParseError, DCFError) as exc:
+        artifacts_dir = _save_run_artifacts(
+            raw_payload=cli_input.raw_payload,
+            valuation_input=valuation_input,
+            results=results,
+            output_root=cli_input.output_root,
+        )
+    except (ParseError, DCFError, OSError) as exc:
         print(f"Error: {exc}", file=sys.stderr)
         return 1
 
     print(json.dumps(asdict(results), indent=2))
+    print(f"Saved valuation artifacts to {artifacts_dir}", file=sys.stderr)
     return 0
 
 
