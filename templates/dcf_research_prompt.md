@@ -59,6 +59,9 @@ What to collect:
   - `bull`: modestly better growth, margins, and valuation assumptions
   - `bear`: modestly weaker growth, margins, and valuation assumptions
   - Only override values that change versus the base case.
+- Validation support:
+  - include `validation_support.forecast_revenue` with the absolute base-case revenue for each forecast year
+  - this is used for automated QA to confirm the growth series chains correctly from the last historical year
 
 Quality bar:
 - Numbers must tie logically and be internally consistent.
@@ -303,6 +306,15 @@ Output schema:
         "notes": "what it supports"
       }
     ]
+  },
+  "validation_support": {
+    "forecast_revenue": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0
+    }
   },
   "notes": [
     "short note 1",
