@@ -21,6 +21,9 @@ _TERMINAL_METHODS = {"gordon_growth", "exit_multiple", "average"}
 _MISSING_STRINGS = {"", "na", "n/a", "none", "null", "-"}
 _CURRENCY_MARKERS = "$\u20ac\u00a3\u00a5"
 _MARKDOWN_LINK_RE = re.compile(r"^\[(?P<label>[^\]]+)\]\((?P<url>https?://[^)]+)\)$")
+DEFAULT_TAX_RATE = 0.21
+DEFAULT_TERMINAL_GROWTH = 0.02
+DEFAULT_NOL_UTILIZATION_PCT = 0.8
 
 
 class ParseError(ValueError):
@@ -165,6 +168,7 @@ class ValuationInput:
     scenarios: dict[str, ScenarioOverrides] = field(default_factory=dict)
     presentation: PresentationContent = field(default_factory=PresentationContent)
     notes: tuple[str, ...] = ()
+    quality_flags: tuple[str, ...] = ()
 
     @property
     def last_historical_year(self) -> int:
@@ -181,6 +185,7 @@ def parse_input(payload: str | bytes | os.PathLike[str] | Mapping[str, Any]) -> 
 
 
 def parse_valuation_json(raw: Mapping[str, Any]) -> ValuationInput:
+    quality_flags: list[str] = []
     historical_data = _mapping(raw.get("historical"), "historical")
     historical = HistoricalFinancials(
         revenue=_parse_year_map(historical_data.get("revenue"), "historical.revenue"),
@@ -207,6 +212,7 @@ def parse_valuation_json(raw: Mapping[str, Any]) -> ValuationInput:
         raw.get("assumptions"),
         "assumptions",
         partial=False,
+        quality_flags=quality_flags,
     )
     if assumptions.wacc <= 0.0:
         raise ParseError(
@@ -249,6 +255,7 @@ def parse_valuation_json(raw: Mapping[str, Any]) -> ValuationInput:
         scenarios=scenarios,
         presentation=_parse_presentation(raw.get("presentation")),
         notes=_parse_string_list(raw.get("notes"), "notes"),
+        quality_flags=tuple(quality_flags),
     )
 
 
@@ -325,6 +332,7 @@ def _parse_assumptions(
     path: str,
     *,
     partial: bool,
+    quality_flags: list[str] | None = None,
 ) -> Assumptions | PartialAssumptions:
     data = _mapping(raw_value, path)
     method = _parse_terminal_method(data.get("terminal_method"), f"{path}.terminal_method", partial=partial)
@@ -367,22 +375,35 @@ def _parse_assumptions(
         return PartialAssumptions(**common)
 
     return Assumptions(
-        tax_rate=common["tax_rate"] or 0.0,
-        wacc=common["wacc"] or 0.0,
-        terminal_growth=common["terminal_growth"] or 0.0,
+        tax_rate=_default_number(
+            common["tax_rate"],
+            DEFAULT_TAX_RATE,
+            quality_flags=quality_flags,
+            flag_name="default_tax_rate",
+        ),
+        wacc=_default_number(common["wacc"], 0.0),
+        terminal_growth=_default_number(
+            common["terminal_growth"],
+            DEFAULT_TERMINAL_GROWTH,
+            quality_flags=quality_flags,
+            flag_name="default_terminal_growth",
+        ),
         terminal_exit_ebitda_multiple=common["terminal_exit_ebitda_multiple"],
-        terminal_method=cast(TerminalMethod, common["terminal_method"] or "average"),
-        cash=common["cash"] or 0.0,
-        debt=common["debt"] or 0.0,
+        terminal_method=cast(
+            TerminalMethod,
+            common["terminal_method"] if common["terminal_method"] is not None else "average",
+        ),
+        cash=_default_number(common["cash"], 0.0),
+        debt=_default_number(common["debt"], 0.0),
         net_debt_override=common["net_debt_override"],
-        investments=common["investments"] or 0.0,
-        minority_interest=common["minority_interest"] or 0.0,
-        preferred_equity=common["preferred_equity"] or 0.0,
-        diluted_shares=common["diluted_shares"] or 0.0,
+        investments=_default_number(common["investments"], 0.0),
+        minority_interest=_default_number(common["minority_interest"], 0.0),
+        preferred_equity=_default_number(common["preferred_equity"], 0.0),
+        diluted_shares=_default_number(common["diluted_shares"], 0.0),
         current_price=common["current_price"],
         target_ebit_margin=common["target_ebit_margin"],
-        nol_balance=common["nol_balance"] or 0.0,
-        nol_utilization_pct=common["nol_utilization_pct"] or 0.8,
+        nol_balance=_default_number(common["nol_balance"], 0.0),
+        nol_utilization_pct=_default_number(common["nol_utilization_pct"], DEFAULT_NOL_UTILIZATION_PCT),
     )
 
 
@@ -638,6 +659,7 @@ def _coerce_number(value: Any, path: str, *, ratio: bool = False) -> float | Non
         return None
     if isinstance(value, bool):
         raise ParseError(f"{path} must be numeric, not boolean.")
+    had_percent_suffix = False
     if isinstance(value, (int, float)):
         number = float(value)
     elif isinstance(value, str):
@@ -650,6 +672,7 @@ def _coerce_number(value: Any, path: str, *, ratio: bool = False) -> float | Non
             text = text[1:-1].strip()
 
         if text.endswith("%"):
+            had_percent_suffix = True
             ratio = True
             text = text[:-1].strip()
 
@@ -669,9 +692,26 @@ def _coerce_number(value: Any, path: str, *, ratio: bool = False) -> float | Non
     else:
         raise ParseError(f"{path} must be numeric or null.")
 
-    if ratio and abs(number) > 1.0 and abs(number) <= 100.0:
-        number /= 100.0
+    if ratio:
+        if had_percent_suffix:
+            number /= 100.0
+        elif abs(number) > 1.0:
+            number /= 100.0
     return number
+
+
+def _default_number(
+    value: float | None,
+    default: float,
+    *,
+    quality_flags: list[str] | None = None,
+    flag_name: str | None = None,
+) -> float:
+    if value is not None:
+        return value
+    if quality_flags is not None and flag_name is not None and flag_name not in quality_flags:
+        quality_flags.append(flag_name)
+    return default
 
 
 def _coerce_int(value: Any, path: str) -> int | None:

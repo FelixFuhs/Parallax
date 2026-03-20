@@ -592,44 +592,37 @@ def _extract_json_object_with_healing(content: Any) -> tuple[Mapping[str, Any], 
         raise OpenRouterError("Model returned empty message content.")
 
     warnings: list[str] = []
-    parsed = _parse_brace_wrapped_json(text)
-    if parsed is not None:
-        start = text.find("{")
-        end = text.rfind("}")
-        if start != 0 or end != len(text) - 1:
-            warnings.append("healed JSON by slicing from the first '{' to the last '}'.")
-        return parsed, warnings
-
     stripped = _strip_markdown_code_fences(text)
     if stripped != text:
-        parsed = _parse_brace_wrapped_json(stripped)
-        if parsed is not None:
-            warnings.append("healed JSON by stripping markdown code fences before parsing.")
-            return parsed, warnings
+        warnings.append("healed JSON by stripping markdown code fences before parsing.")
+
+    parsed = _extract_first_json_object(stripped)
+    if parsed is not None:
+        _, start, end = parsed
+        if start != 0 or end != len(stripped):
+            warnings.append("healed JSON by extracting the first JSON object from surrounding text.")
+        return parsed[0], warnings
 
     raise OpenRouterError("Unable to parse healed JSON from the cheap-tier response.")
 
 
-def _parse_brace_wrapped_json(text: str) -> Mapping[str, Any] | None:
-    start = text.find("{")
-    end = text.rfind("}")
-    if start == -1 or end == -1 or end <= start:
-        return None
-    candidate = text[start : end + 1]
-    try:
-        parsed = json.loads(candidate)
-    except json.JSONDecodeError:
-        return None
-    if isinstance(parsed, Mapping):
-        return parsed
+def _extract_first_json_object(text: str) -> tuple[Mapping[str, Any], int, int] | None:
+    decoder = json.JSONDecoder()
+    for index, char in enumerate(text):
+        if char != "{":
+            continue
+        try:
+            parsed, end = decoder.raw_decode(text[index:])
+        except json.JSONDecodeError:
+            continue
+        if isinstance(parsed, Mapping):
+            return parsed, index, index + end
     return None
 
 
 def _strip_markdown_code_fences(text: str) -> str:
     stripped = text.strip()
-    if not stripped.startswith("```"):
-        return stripped
-    return re.sub(r"^```(?:json)?\s*|\s*```$", "", stripped, flags=re.DOTALL).strip()
+    return re.sub(r"```(?:json)?|```", "", stripped, flags=re.IGNORECASE).strip()
 
 
 def _content_to_text(content: Any) -> str:
@@ -825,6 +818,8 @@ def _build_saved_report(
     quality_flags: list[str],
 ) -> dict[str, Any]:
     report = asdict(valuation_input)
+    parser_quality_flags = report.pop("quality_flags", [])
+    meta_quality_flags = list(dict.fromkeys([*parser_quality_flags, *quality_flags]))
     report["_valuation"] = asdict(valuation_result)
     report["_meta"] = {
         "model": config.model,
@@ -837,7 +832,7 @@ def _build_saved_report(
             "completion": usage.completion_tokens,
             "reasoning": usage.reasoning_tokens,
         },
-        "quality_flags": quality_flags,
+        "quality_flags": meta_quality_flags,
     }
     return report
 
