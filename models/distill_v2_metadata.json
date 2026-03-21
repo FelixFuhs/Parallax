@@ -1,0 +1,595 @@
+{
+  "artifacts": {
+    "elasticnet_coefficients_plot": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\plots\\elasticnet_coefficients.png",
+    "elasticnet_model": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\models\\distill_elasticnet_v2.pkl",
+    "feature_importance_plot": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\plots\\feature_importance_v2.png",
+    "feature_spec": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\models\\feature_spec.json",
+    "metadata": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\models\\distill_v2_metadata.json",
+    "predicted_vs_actual_plot": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\plots\\predicted_vs_actual_v2.png",
+    "xgboost_model": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\models\\distill_xgb_v2.json"
+  },
+  "comparison": {
+    "elasticnet_cv_mean": {
+      "mae": 0.18932400932400933,
+      "r2": 0.29465400271370423,
+      "spearman": 0.6473270013568522
+    },
+    "verdict": "Verdict: Elastic Net wins.",
+    "xgboost_cv": {
+      "mae": 0.3622377622377623,
+      "r2": -1.1058970879866403,
+      "spearman": -0.07439319694957858
+    }
+  },
+  "coverage": {
+    "asset_growth_1y": {
+      "coverage": 1.0,
+      "non_null": 66.0
+    },
+    "cash_earnings_gap": {
+      "coverage": 1.0,
+      "non_null": 66.0
+    },
+    "fcf_to_ev": {
+      "coverage": 0.8636363636363636,
+      "non_null": 57.0
+    },
+    "gross_profitability_assets": {
+      "coverage": 0.8181818181818182,
+      "non_null": 54.0
+    },
+    "momentum_12_1": {
+      "coverage": 1.0,
+      "non_null": 66.0
+    }
+  },
+  "elasticnet": {
+    "coefficients": {
+      "asset_growth_1y": -0.0,
+      "cash_earnings_gap": 0.010644804061128173,
+      "fcf_to_ev": 0.11200187558097512,
+      "gross_profitability_assets": -0.0,
+      "momentum_12_1": -0.04735597639122153
+    },
+    "cv_mean_metrics": {
+      "mae": 0.18932400932400933,
+      "r2": 0.29465400271370423,
+      "spearman": 0.6473270013568522
+    },
+    "cv_repeat_metrics": [
+      {
+        "mae": 0.18694638694638696,
+        "r2": 0.32775284417075456,
+        "spearman": 0.6638764220853774
+      },
+      {
+        "mae": 0.19020979020979017,
+        "r2": 0.3178165118463627,
+        "spearman": 0.6589082559231814
+      },
+      {
+        "mae": 0.18414918414918413,
+        "r2": 0.32867132867132864,
+        "spearman": 0.6643356643356645
+      },
+      {
+        "mae": 0.1953379953379953,
+        "r2": 0.21502974637303007,
+        "spearman": 0.6075148731865151
+      },
+      {
+        "mae": 0.1916083916083916,
+        "r2": 0.29610687819643045,
+        "spearman": 0.6480534390982153
+      },
+      {
+        "mae": 0.20046620046620048,
+        "r2": 0.26679887276902203,
+        "spearman": 0.6333994363845111
+      },
+      {
+        "mae": 0.20326340326340328,
+        "r2": 0.16392860870472836,
+        "spearman": 0.5819643043523641
+      },
+      {
+        "mae": 0.18041958041958042,
+        "r2": 0.35255192568625404,
+        "spearman": 0.6762759628431272
+      },
+      {
+        "mae": 0.18974358974358976,
+        "r2": 0.29827784156142356,
+        "spearman": 0.649138920780712
+      },
+      {
+        "mae": 0.17109557109557108,
+        "r2": 0.379605469157708,
+        "spearman": 0.6898027345788541
+      }
+    ]
+  },
+  "feature_order": [
+    "fcf_to_ev",
+    "gross_profitability_assets",
+    "asset_growth_1y",
+    "cash_earnings_gap",
+    "momentum_12_1"
+  ],
+  "full_sample_predictions": {
+    "elasticnet": {
+      "bottom10": [
+        {
+          "actual_percentile": 0.38461538461538464,
+          "actual_upside": -0.418600803653716,
+          "company_name": "Chevron Corp",
+          "predicted_percentile": 0.0,
+          "ticker": "CVX"
+        },
+        {
+          "actual_percentile": 0.26153846153846155,
+          "actual_upside": -0.5593680102947651,
+          "company_name": "Mosaic Co",
+          "predicted_percentile": 0.015384615384615385,
+          "ticker": "MOS"
+        },
+        {
+          "actual_percentile": 0.2153846153846154,
+          "actual_upside": -0.5825562997801992,
+          "company_name": "AIR PRODUCTS AND CHEMICALS, INC.",
+          "predicted_percentile": 0.03076923076923077,
+          "ticker": "APD"
+        },
+        {
+          "actual_percentile": 0.0,
+          "actual_upside": -2.28062325603784,
+          "company_name": "EXELON CORPORATION",
+          "predicted_percentile": 0.046153846153846156,
+          "ticker": "EXC"
+        },
+        {
+          "actual_percentile": 0.1076923076923077,
+          "actual_upside": -0.7110520942756078,
+          "company_name": "CATERPILLAR INC",
+          "predicted_percentile": 0.06153846153846154,
+          "ticker": "CAT"
+        },
+        {
+          "actual_percentile": 0.046153846153846156,
+          "actual_upside": -0.9366421289587632,
+          "company_name": "Tesla, Inc.",
+          "predicted_percentile": 0.07692307692307693,
+          "ticker": "TSLA"
+        },
+        {
+          "actual_percentile": 0.15384615384615385,
+          "actual_upside": -0.6622938835971686,
+          "company_name": "Quanta Services, Inc.",
+          "predicted_percentile": 0.09230769230769231,
+          "ticker": "PWR"
+        },
+        {
+          "actual_percentile": 0.03076923076923077,
+          "actual_upside": -1.2661211311783511,
+          "company_name": "The Southern Company",
+          "predicted_percentile": 0.1076923076923077,
+          "ticker": "SO"
+        },
+        {
+          "actual_percentile": 0.676923076923077,
+          "actual_upside": -0.1514734949861507,
+          "company_name": "ALPHABET INC.",
+          "predicted_percentile": 0.12307692307692308,
+          "ticker": "GOOGL"
+        },
+        {
+          "actual_percentile": 0.2,
+          "actual_upside": -0.5863015747799987,
+          "company_name": "ADVANCED MICRO DEVICES, INC.",
+          "predicted_percentile": 0.13846153846153847,
+          "ticker": "AMD"
+        }
+      ],
+      "top10": [
+        {
+          "actual_percentile": 0.8307692307692308,
+          "actual_upside": 0.09243115439887606,
+          "company_name": "EPAM SYSTEMS, INC.",
+          "predicted_percentile": 1.0,
+          "ticker": "EPAM"
+        },
+        {
+          "actual_percentile": 0.8769230769230769,
+          "actual_upside": 0.20378421523320367,
+          "company_name": "MATCH GROUP, INC.",
+          "predicted_percentile": 0.9846153846153847,
+          "ticker": "MTCH"
+        },
+        {
+          "actual_percentile": 1.0,
+          "actual_upside": 1.6938101947549518,
+          "company_name": "OMNICOM GROUP INC.",
+          "predicted_percentile": 0.9692307692307692,
+          "ticker": "OMC"
+        },
+        {
+          "actual_percentile": 0.8153846153846154,
+          "actual_upside": 0.08993294004228036,
+          "company_name": "T-MOBILE US, INC.",
+          "predicted_percentile": 0.9538461538461539,
+          "ticker": "TMUS"
+        },
+        {
+          "actual_percentile": 0.8923076923076924,
+          "actual_upside": 0.21180356939441602,
+          "company_name": "Booking Holdings Inc.",
+          "predicted_percentile": 0.9384615384615385,
+          "ticker": "BKNG"
+        },
+        {
+          "actual_percentile": 0.8461538461538461,
+          "actual_upside": 0.19394261993029538,
+          "company_name": "DEVON ENERGY CORP/DE",
+          "predicted_percentile": 0.9230769230769231,
+          "ticker": "DVN"
+        },
+        {
+          "actual_percentile": 0.9384615384615385,
+          "actual_upside": 0.470530595414721,
+          "company_name": "GENERAL MILLS, INC.",
+          "predicted_percentile": 0.9076923076923077,
+          "ticker": "GIS"
+        },
+        {
+          "actual_percentile": 0.6153846153846154,
+          "actual_upside": -0.21870069532293457,
+          "company_name": "Airbnb, Inc.",
+          "predicted_percentile": 0.8923076923076924,
+          "ticker": "ABNB"
+        },
+        {
+          "actual_percentile": 0.7076923076923077,
+          "actual_upside": -0.07427708004752442,
+          "company_name": "EQT CORPORATION",
+          "predicted_percentile": 0.8769230769230769,
+          "ticker": "EQT"
+        },
+        {
+          "actual_percentile": 0.8615384615384616,
+          "actual_upside": 0.19791420612225008,
+          "company_name": "Verizon Communications Inc.",
+          "predicted_percentile": 0.8615384615384616,
+          "ticker": "VZ"
+        }
+      ]
+    },
+    "xgboost_ranker": {
+      "bottom10": [
+        {
+          "actual_percentile": 0.8307692307692308,
+          "actual_upside": 0.09243115439887606,
+          "company_name": "EPAM SYSTEMS, INC.",
+          "predicted_percentile": 0.5,
+          "ticker": "EPAM"
+        },
+        {
+          "actual_percentile": 0.7076923076923077,
+          "actual_upside": -0.07427708004752442,
+          "company_name": "EQT CORPORATION",
+          "predicted_percentile": 0.5,
+          "ticker": "EQT"
+        },
+        {
+          "actual_percentile": 0.36923076923076925,
+          "actual_upside": -0.427535906757027,
+          "company_name": "EATON CORPORATION plc",
+          "predicted_percentile": 0.5,
+          "ticker": "ETN"
+        },
+        {
+          "actual_percentile": 0.0,
+          "actual_upside": -2.28062325603784,
+          "company_name": "EXELON CORPORATION",
+          "predicted_percentile": 0.5,
+          "ticker": "EXC"
+        },
+        {
+          "actual_percentile": 0.7846153846153846,
+          "actual_upside": 0.0221527831221362,
+          "company_name": "DIAMONDBACK ENERGY, INC.",
+          "predicted_percentile": 0.5,
+          "ticker": "FANG"
+        },
+        {
+          "actual_percentile": 0.6461538461538462,
+          "actual_upside": -0.18197354784863162,
+          "company_name": "FORTINET, INC.",
+          "predicted_percentile": 0.5,
+          "ticker": "FTNT"
+        },
+        {
+          "actual_percentile": 0.9384615384615385,
+          "actual_upside": 0.470530595414721,
+          "company_name": "GENERAL MILLS, INC.",
+          "predicted_percentile": 0.5,
+          "ticker": "GIS"
+        },
+        {
+          "actual_percentile": 0.676923076923077,
+          "actual_upside": -0.1514734949861507,
+          "company_name": "ALPHABET INC.",
+          "predicted_percentile": 0.5,
+          "ticker": "GOOGL"
+        },
+        {
+          "actual_percentile": 0.6307692307692307,
+          "actual_upside": -0.2154531257179183,
+          "company_name": "HCA Healthcare, Inc.",
+          "predicted_percentile": 0.5,
+          "ticker": "HCA"
+        },
+        {
+          "actual_percentile": 0.9076923076923077,
+          "actual_upside": 0.24179094632089404,
+          "company_name": "Zoetis Inc.",
+          "predicted_percentile": 0.5,
+          "ticker": "ZTS"
+        }
+      ],
+      "top10": [
+        {
+          "actual_percentile": 0.4,
+          "actual_upside": -0.4138212067426509,
+          "company_name": "Apple Inc.",
+          "predicted_percentile": 0.5,
+          "ticker": "AAPL"
+        },
+        {
+          "actual_percentile": 0.27692307692307694,
+          "actual_upside": -0.5486352055981234,
+          "company_name": "O REILLY AUTOMOTIVE INC",
+          "predicted_percentile": 0.5,
+          "ticker": "ORLY"
+        },
+        {
+          "actual_percentile": 0.9230769230769231,
+          "actual_upside": 0.31857873800516967,
+          "company_name": "KIMBERLY-CLARK CORPORATION",
+          "predicted_percentile": 0.5,
+          "ticker": "KMB"
+        },
+        {
+          "actual_percentile": 0.7384615384615385,
+          "actual_upside": -0.0169855865406201,
+          "company_name": "KINDER MORGAN, INC.",
+          "predicted_percentile": 0.5,
+          "ticker": "KMI"
+        },
+        {
+          "actual_percentile": 0.2923076923076923,
+          "actual_upside": -0.5396832243884117,
+          "company_name": "Kroger Co.",
+          "predicted_percentile": 0.5,
+          "ticker": "KR"
+        },
+        {
+          "actual_percentile": 0.5076923076923077,
+          "actual_upside": -0.3104315492469074,
+          "company_name": "ELI LILLY AND COMPANY",
+          "predicted_percentile": 0.5,
+          "ticker": "LLY"
+        },
+        {
+          "actual_percentile": 0.6,
+          "actual_upside": -0.234430908016649,
+          "company_name": "LOCKHEED MARTIN CORPORATION",
+          "predicted_percentile": 0.5,
+          "ticker": "LMT"
+        },
+        {
+          "actual_percentile": 0.9538461538461539,
+          "actual_upside": 0.5414644239995003,
+          "company_name": "MONDELEZ INTERNATIONAL, INC.",
+          "predicted_percentile": 0.5,
+          "ticker": "MDLZ"
+        },
+        {
+          "actual_percentile": 0.4307692307692308,
+          "actual_upside": -0.40155893961166944,
+          "company_name": "Meta Platforms, Inc.",
+          "predicted_percentile": 0.5,
+          "ticker": "META"
+        },
+        {
+          "actual_percentile": 0.26153846153846155,
+          "actual_upside": -0.5593680102947651,
+          "company_name": "Mosaic Co",
+          "predicted_percentile": 0.5,
+          "ticker": "MOS"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-03-21T16:18:04.023088+00:00",
+  "matched_tickers": [
+    "AAPL",
+    "ABBV",
+    "ABNB",
+    "AEP",
+    "ALB",
+    "AMD",
+    "APA",
+    "APD",
+    "AVGO",
+    "AXON",
+    "BKNG",
+    "CAT",
+    "CMG",
+    "COP",
+    "COST",
+    "CSCO",
+    "CVX",
+    "DHI",
+    "DHR",
+    "DIS",
+    "DVN",
+    "EA",
+    "EPAM",
+    "EQT",
+    "ETN",
+    "EXC",
+    "FANG",
+    "FTNT",
+    "GIS",
+    "GOOGL",
+    "HCA",
+    "HON",
+    "ISRG",
+    "JCI",
+    "KDP",
+    "KMB",
+    "KMI",
+    "KR",
+    "LLY",
+    "LMT",
+    "MDLZ",
+    "META",
+    "MOS",
+    "MTCH",
+    "NEE",
+    "NEM",
+    "NFLX",
+    "NVDA",
+    "OMC",
+    "ORLY",
+    "PEP",
+    "PG",
+    "PSX",
+    "PWR",
+    "REGN",
+    "SHW",
+    "SO",
+    "STZ",
+    "TMUS",
+    "TSLA",
+    "UNP",
+    "VMC",
+    "VST",
+    "VZ",
+    "WM",
+    "ZTS"
+  ],
+  "monotonic_constraints": [
+    1,
+    1,
+    -1,
+    1,
+    0
+  ],
+  "surprises": [
+    "Elastic Net: GOOGL is bottom-10 predicted despite 0.68 actual upside percentile.",
+    "XGBoost Ranker: ORLY is top-10 predicted despite only 0.28 actual upside percentile.",
+    "XGBoost Ranker: KR is top-10 predicted despite only 0.29 actual upside percentile.",
+    "XGBoost Ranker: MOS is top-10 predicted despite only 0.26 actual upside percentile.",
+    "XGBoost Ranker: EPAM is bottom-10 predicted despite 0.83 actual upside percentile.",
+    "XGBoost Ranker: EQT is bottom-10 predicted despite 0.71 actual upside percentile.",
+    "XGBoost Ranker: FANG is bottom-10 predicted despite 0.78 actual upside percentile.",
+    "XGBoost Ranker: GIS is bottom-10 predicted despite 0.94 actual upside percentile."
+  ],
+  "xgboost_ranker": {
+    "cv_fold_assignments": [
+      0,
+      3,
+      3,
+      1,
+      1,
+      0,
+      1,
+      4,
+      1,
+      0,
+      4,
+      2,
+      0,
+      0,
+      4,
+      2,
+      0,
+      1,
+      4,
+      1,
+      4,
+      3,
+      4,
+      4,
+      2,
+      1,
+      2,
+      2,
+      1,
+      3,
+      0,
+      2,
+      2,
+      0,
+      1,
+      3,
+      1,
+      3,
+      4,
+      3,
+      1,
+      0,
+      4,
+      3,
+      2,
+      0,
+      3,
+      2,
+      1,
+      3,
+      2,
+      4,
+      3,
+      3,
+      0,
+      4,
+      1,
+      4,
+      2,
+      2,
+      4,
+      3,
+      0,
+      0,
+      2,
+      0
+    ],
+    "cv_metrics": {
+      "mae": 0.3622377622377623,
+      "r2": -1.1058970879866403,
+      "spearman": -0.07439319694957858
+    },
+    "degenerate_constant_scores": true,
+    "feature_importance": {
+      "asset_growth_1y": 0.0,
+      "cash_earnings_gap": 0.0,
+      "fcf_to_ev": 0.0,
+      "gross_profitability_assets": 0.0,
+      "momentum_12_1": 0.0
+    },
+    "ignored_features": [
+      "fcf_to_ev",
+      "gross_profitability_assets",
+      "asset_growth_1y",
+      "cash_earnings_gap",
+      "momentum_12_1"
+    ],
+    "loo_metrics": {
+      "mae": 0.3291375291375291,
+      "r2": -0.859200500991546,
+      "spearman": 0.07035123437376924
+    },
+    "used_features": []
+  }
+}

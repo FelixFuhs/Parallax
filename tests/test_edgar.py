@@ -180,6 +180,8 @@ def test_compute_derived_fields_leaves_asset_growth_null_without_prior_assets():
         "operating_cash_flow": None,
         "capex": None,
         "current_price": 10.0,
+        "price_return_1m": None,
+        "price_return_12m": None,
         "shares_outstanding": 5.0,
         "operating_income": None,
         "total_equity": 80.0,
@@ -202,3 +204,63 @@ def test_compute_derived_fields_leaves_asset_growth_null_without_prior_assets():
     assert record["gross_profitability_assets"] == pytest.approx(0.25)
     assert record["book_to_market"] == pytest.approx(1.6)
     assert record["asset_growth_1y"] is None
+
+
+def test_compute_derived_fields_computes_consensus_features():
+    record = {
+        "operating_cash_flow": 120.0,
+        "capex": -20.0,
+        "current_price": 10.0,
+        "price_return_1m": 0.10,
+        "price_return_12m": 0.32,
+        "shares_outstanding": 5.0,
+        "operating_income": 30.0,
+        "total_equity": 80.0,
+        "total_debt": 40.0,
+        "cash": 5.0,
+        "net_income": 80.0,
+        "revenue": 100.0,
+        "total_assets": 200.0,
+        "gross_profit": 50.0,
+        "current_assets": 60.0,
+        "current_liabilities": 30.0,
+    }
+
+    compute_derived_fields(
+        record,
+        current_total_assets_for_growth=200.0,
+        prior_total_assets=160.0,
+    )
+
+    assert record["free_cash_flow"] == pytest.approx(100.0)
+    assert record["fcf_to_ev"] == pytest.approx(100.0 / 85.0)
+    assert record["cash_earnings_gap"] == pytest.approx(0.2)
+    assert record["momentum_12_1"] == pytest.approx(0.2)
+    assert record["gross_profitability_assets"] == pytest.approx(0.25)
+    assert record["asset_growth_1y"] == pytest.approx(0.25)
+
+
+def test_compute_derived_fields_nulls_fcf_to_ev_for_non_positive_ev():
+    record = {
+        "operating_cash_flow": 120.0,
+        "capex": 20.0,
+        "current_price": 4.0,
+        "price_return_1m": -1.0,
+        "price_return_12m": 0.15,
+        "shares_outstanding": 5.0,
+        "operating_income": None,
+        "total_equity": 80.0,
+        "total_debt": 5.0,
+        "cash": 30.0,
+        "net_income": 80.0,
+        "revenue": 100.0,
+        "total_assets": 200.0,
+        "gross_profit": 50.0,
+        "current_assets": None,
+        "current_liabilities": None,
+    }
+
+    compute_derived_fields(record)
+
+    assert record["fcf_to_ev"] is None
+    assert record["momentum_12_1"] is None

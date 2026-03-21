@@ -1,0 +1,42 @@
+{
+  "feature_order": [
+    "fcf_to_ev",
+    "gross_profitability_assets",
+    "asset_growth_1y",
+    "cash_earnings_gap",
+    "momentum_12_1"
+  ],
+  "features": [
+    {
+      "description": "(operating cash flow - capex) / (market cap + total debt - cash), null when EV <= 0",
+      "economic_rationale": "Higher free cash flow relative to enterprise value indicates cheaper cash generation.",
+      "monotonic_constraint": 1,
+      "name": "fcf_to_ev"
+    },
+    {
+      "description": "gross_profit / total_assets",
+      "economic_rationale": "Higher gross profits on the asset base are associated with better business quality.",
+      "monotonic_constraint": 1,
+      "name": "gross_profitability_assets"
+    },
+    {
+      "description": "(current total assets - prior-year total assets) / prior-year total assets",
+      "economic_rationale": "Aggressive balance-sheet expansion is often linked to weaker subsequent returns.",
+      "monotonic_constraint": -1,
+      "name": "asset_growth_1y"
+    },
+    {
+      "description": "(operating cash flow - net income) / total_assets",
+      "economic_rationale": "Cash earnings above accounting earnings can signal stronger earnings quality.",
+      "monotonic_constraint": 1,
+      "name": "cash_earnings_gap"
+    },
+    {
+      "description": "(1 + price_return_12m) / (1 + price_return_1m) - 1",
+      "economic_rationale": "Intermediate-term momentum can capture trend persistence without the most recent month.",
+      "monotonic_constraint": 0,
+      "name": "momentum_12_1"
+    }
+  ],
+  "generated_at": "2026-03-21T16:18:01.122106+00:00"
+}

@@ -62,9 +62,11 @@ DERIVED_FIELD_NAMES = (
     "price_return_3m",
     "price_return_6m",
     "price_return_12m",
+    "momentum_12_1",
     "market_cap",
     "free_cash_flow",
     "fcf_yield",
+    "fcf_to_ev",
     "roic",
     "roe",
     "gross_margin",
@@ -76,6 +78,7 @@ DERIVED_FIELD_NAMES = (
     "current_ratio",
     "asset_turnover",
     "asset_growth_1y",
+    "cash_earnings_gap",
     "accruals",
     "capex_intensity",
 )
@@ -728,6 +731,8 @@ def compute_derived_fields(
     operating_cash_flow = coerce_float(record.get("operating_cash_flow"))
     capex = abs_if_present(coerce_float(record.get("capex")))
     current_price = coerce_float(record.get("current_price"))
+    price_return_1m = coerce_float(record.get("price_return_1m"))
+    price_return_12m = coerce_float(record.get("price_return_12m"))
     shares_outstanding = coerce_float(record.get("shares_outstanding"))
     operating_income = coerce_float(record.get("operating_income"))
     total_equity = coerce_float(record.get("total_equity"))
@@ -748,14 +753,30 @@ def compute_derived_fields(
     if operating_cash_flow is not None and capex is not None:
         free_cash_flow = operating_cash_flow - capex
 
+    enterprise_value = None
+    if market_cap is not None and total_debt is not None and cash is not None:
+        enterprise_value = market_cap + total_debt - cash
+
+    fcf_to_ev = None
+    if free_cash_flow is not None and enterprise_value is not None and enterprise_value > 0:
+        fcf_to_ev = free_cash_flow / enterprise_value
+
     roic_denominator = None
     if total_equity is not None and total_debt is not None and cash is not None:
         roic_denominator = total_equity + total_debt - cash
 
+    momentum_12_1 = None
+    if price_return_12m is not None and price_return_1m is not None:
+        recent_month_gross_return = 1.0 + price_return_1m
+        if recent_month_gross_return != 0.0:
+            momentum_12_1 = ((1.0 + price_return_12m) / recent_month_gross_return) - 1.0
+
     record["capex"] = capex
+    record["momentum_12_1"] = momentum_12_1
     record["market_cap"] = market_cap
     record["free_cash_flow"] = free_cash_flow
     record["fcf_yield"] = safe_divide(free_cash_flow, market_cap)
+    record["fcf_to_ev"] = fcf_to_ev
     record["roic"] = safe_divide(
         operating_income * (1.0 - 0.21) if operating_income is not None else None,
         roic_denominator,
@@ -774,6 +795,12 @@ def compute_derived_fields(
         if current_total_assets_for_growth is not None and prior_total_assets is not None
         else None,
         prior_total_assets,
+    )
+    record["cash_earnings_gap"] = safe_divide(
+        operating_cash_flow - net_income
+        if operating_cash_flow is not None and net_income is not None
+        else None,
+        total_assets,
     )
     record["accruals"] = safe_divide(
         net_income - operating_cash_flow
