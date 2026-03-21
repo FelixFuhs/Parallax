@@ -1,0 +1,691 @@
+{
+  "_meta": {
+    "cost_usd": 0.019344,
+    "generated_at": "2026-03-21T14:41:05Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 9285,
+      "prompt": 2514,
+      "reasoning": 5788
+    }
+  },
+  "_valuation": {
+    "company_name": "Devon Energy Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 48.66,
+        "description": "Base case",
+        "enterprise_value": 43003557911.71657,
+        "equity_value": 36775557911.71657,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 47706391024.197464,
+        "implied_market_cap": 36775557911.71657,
+        "investments_adjustment": 727000000.0,
+        "net_debt": 6955000000.0,
+        "per_share_value": 58.097247885808166,
+        "projected_years": [
+          {
+            "capex": 3718108160.0,
+            "cash_taxes": 802338240.0,
+            "da": 3700232640.0,
+            "delta_nwc": 69112000.0,
+            "discount_factor": 0.9132420091324202,
+            "ebit": 4021992000.0,
+            "ebit_margin": 0.225,
+            "ebitda": 7722224640.0,
+            "fcff": 3132666240.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 375000000.0,
+            "nwc": -446888000.0,
+            "present_value_fcff": 2860882410.9589043,
+            "revenue": 17875520000.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 3811239619.2,
+            "cash_taxes": 911737322.496,
+            "da": 3811239619.2,
+            "delta_nwc": 2860083.199999988,
+            "discount_factor": 0.8340109672442193,
+            "ebit": 4144260556.8,
+            "ebit_margin": 0.224,
+            "ebitda": 7955500176.0,
+            "fcff": 3229663151.104,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -444027916.8,
+            "present_value_fcff": 2693574488.5252604,
+            "revenue": 18501163200.0,
+            "revenue_growth": 0.035,
+            "year": 2027
+          },
+          {
+            "capex": 3887464411.5839996,
+            "cash_taxes": 934897078.58976,
+            "da": 3906520609.68,
+            "delta_nwc": 5735360.592000008,
+            "discount_factor": 0.7616538513645839,
+            "ebit": 4249532175.408,
+            "ebit_margin": 0.223,
+            "ebitda": 8156052785.087999,
+            "fcff": 3327955934.32224,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -438292556.208,
+            "present_value_fcff": 2534750454.5481563,
+            "revenue": 19056198096.0,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 3976723643.4656644,
+            "cash_taxes": 956764447.0288819,
+            "da": 4015903186.7510395,
+            "delta_nwc": 7317580.0688640475,
+            "discount_factor": 0.6955742934836383,
+            "ebit": 4348929304.676736,
+            "ebit_margin": 0.222,
+            "ebitda": 8364832491.427775,
+            "fcff": 3424026820.864365,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -430974976.13913596,
+            "present_value_fcff": 2381665036.791759,
+            "revenue": 19589771642.688,
+            "revenue_growth": 0.028,
+            "year": 2029
+          },
+          {
+            "capex": 4056062218.618551,
+            "cash_taxes": 980683558.204604,
+            "da": 4096221250.4860606,
+            "delta_nwc": 9305141.530276716,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 4457652537.293654,
+            "ebit_margin": 0.222,
+            "ebitda": 8553873787.779715,
+            "fcff": 3507822869.426284,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -421669834.60885924,
+            "present_value_fcff": 2228266131.5679784,
+            "revenue": 20079515933.7552,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 47706391024.197464,
+        "terminal_value_present_value": 30304419389.32451,
+        "upside_downside_pct": 0.19394261993029538
+      },
+      "bear": {
+        "current_price": 48.66,
+        "description": "Modestly weaker cycle and execution: lower revenue growth and EBIT margin; slightly higher capital intensity and less favorable working capital dynamics.",
+        "enterprise_value": 40847362398.0126,
+        "equity_value": 34619362398.0126,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 45207670767.46426,
+        "implied_market_cap": 34619362398.0126,
+        "investments_adjustment": 727000000.0,
+        "net_debt": 6955000000.0,
+        "per_share_value": 54.69093585783982,
+        "projected_years": [
+          {
+            "capex": 3771390960.0,
+            "cash_taxes": 782429379.6,
+            "da": 3718022220.0,
+            "delta_nwc": 106839660.0,
+            "discount_factor": 0.9132420091324202,
+            "ebit": 3931497180.0,
+            "ebit_margin": 0.221,
+            "ebitda": 7649519400.0,
+            "fcff": 2988859400.3999996,
+            "nol_balance_end": 0.0,
+            "nol_used": 375000000.0,
+            "nwc": -409160340.0,
+            "present_value_fcff": 2729551963.835616,
+            "revenue": 17789580000.0,
+            "revenue_growth": 0.035,
+            "year": 2026
+          },
+          {
+            "capex": 3847886154.0,
+            "cash_taxes": 886846142.16,
+            "da": 3811239619.2,
+            "delta_nwc": 6048457.200000048,
+            "discount_factor": 0.8340109672442193,
+            "ebit": 4031118828.0,
+            "ebit_margin": 0.22,
+            "ebitda": 7842358447.2,
+            "fcff": 3101577693.84,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -403111882.79999995,
+            "present_value_fcff": 2586749812.4225936,
+            "revenue": 18323267400.0,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 3887739260.595,
+            "cash_taxes": 904885398.9153,
+            "da": 3887739260.595,
+            "delta_nwc": 8703552.014999926,
+            "discount_factor": 0.7616538513645839,
+            "ebit": 4113115449.615,
+            "ebit_margin": 0.219,
+            "ebitda": 8000854710.209999,
+            "fcff": 3199526498.6847,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -394408330.785,
+            "present_value_fcff": 2436931680.266244,
+            "revenue": 18781349085.0,
+            "revenue_growth": 0.025,
+            "year": 2028
+          },
+          {
+            "capex": 3957943943.4747295,
+            "cash_taxes": 921470832.6652818,
+            "da": 3957943943.4747295,
+            "delta_nwc": 10141928.505900085,
+            "discount_factor": 0.6955742934836383,
+            "ebit": 4188503784.84219,
+            "ebit_margin": 0.218,
+            "ebitda": 8146447728.316919,
+            "fcff": 3256891023.6710086,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -384266402.27909994,
+            "present_value_fcff": 2265409672.7431655,
+            "revenue": 19213320113.954998,
+            "revenue_growth": 0.023,
+            "year": 2029
+          },
+          {
+            "capex": 4021443966.4513507,
+            "cash_taxes": 940821720.1512526,
+            "da": 4021443966.4513507,
+            "delta_nwc": 11547205.388486922,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 4276462364.3238754,
+            "ebit_margin": 0.218,
+            "ebitda": 8297906330.775227,
+            "fcff": 3324093438.7841363,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -372719196.890613,
+            "present_value_fcff": 2111556114.2976012,
+            "revenue": 19616799836.348053,
+            "revenue_growth": 0.021,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 45207670767.46426,
+        "terminal_value_present_value": 28717163154.44738,
+        "upside_downside_pct": 0.12394031767036218
+      },
+      "bull": {
+        "current_price": 48.66,
+        "description": "Modestly better operating performance: slightly higher revenue growth and EBIT margin; small capital efficiency improvements (lower capex % and more negative NWC %).",
+        "enterprise_value": 44296632668.73135,
+        "equity_value": 38068632668.73135,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 49164530405.545555,
+        "implied_market_cap": 38068632668.73135,
+        "investments_adjustment": 727000000.0,
+        "net_debt": 6955000000.0,
+        "per_share_value": 60.14002001379361,
+        "projected_years": [
+          {
+            "capex": 3700060760.0,
+            "cash_taxes": 822398354.8,
+            "da": 3700060760.0,
+            "delta_nwc": 49002040.0,
+            "discount_factor": 0.9132420091324202,
+            "ebit": 4113174340.0,
+            "ebit_margin": 0.229,
+            "ebitda": 7813235100.0,
+            "fcff": 3241773945.2,
+            "nol_balance_end": 0.0,
+            "nol_used": 375000000.0,
+            "nwc": -466997960.0,
+            "present_value_fcff": 2960524150.86758,
+            "revenue": 17961460000.0,
+            "revenue_growth": 0.045,
+            "year": 2026
+          },
+          {
+            "capex": 3829383272.0,
+            "cash_taxes": 936984706.9440001,
+            "da": 3829383272.0,
+            "delta_nwc": 0.0,
+            "discount_factor": 0.8340109672442193,
+            "ebit": 4259021395.2000003,
+            "ebit_margin": 0.228,
+            "ebitda": 8088404667.200001,
+            "fcff": 3322036688.2560005,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -466997960.0,
+            "present_value_fcff": 2770615031.59317,
+            "revenue": 18679918400.0,
+            "revenue_growth": 0.04,
+            "year": 2027
+          },
+          {
+            "capex": 3917160208.5615997,
+            "cash_taxes": 959414805.7619838,
+            "da": 3936456564.2687993,
+            "delta_nwc": 3885423.027200043,
+            "discount_factor": 0.7616538513645839,
+            "ebit": 4360976389.827199,
+            "ebit_margin": 0.226,
+            "ebitda": 8297432954.095999,
+            "fcff": 3416972516.745215,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -463112536.97279996,
+            "present_value_fcff": 2602550277.385928,
+            "revenue": 19296355707.199997,
+            "revenue_growth": 0.033,
+            "year": 2028
+          },
+          {
+            "capex": 4014799768.4400315,
+            "cash_taxes": 983824695.7315919,
+            "da": 4034675014.8184476,
+            "delta_nwc": 5981870.269232035,
+            "discount_factor": 0.6955742934836383,
+            "ebit": 4471930435.1435995,
+            "ebit_margin": 0.225,
+            "ebitda": 8506605449.962048,
+            "fcff": 3501999115.5211916,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -457130666.7035679,
+            "present_value_fcff": 2435900560.558979,
+            "revenue": 19875246378.415997,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 4102787484.157279,
+            "cash_taxes": 1010387962.5163448,
+            "da": 4143611240.2185454,
+            "delta_nwc": 8069350.0296369195,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 4592672556.892476,
+            "ebit_margin": 0.225,
+            "ebitda": 8736283797.111021,
+            "fcff": 3615039000.407761,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -449061316.673931,
+            "present_value_fcff": 2296372784.1318965,
+            "revenue": 20411878030.63323,
+            "revenue_growth": 0.027,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 49164530405.545555,
+        "terminal_value_present_value": 31230669864.193794,
+        "upside_downside_pct": 0.23592314043965512
+      }
+    },
+    "ticker": "DVN"
+  },
+  "assumptions": {
+    "cash": 1434000000.0,
+    "current_price": 48.66,
+    "debt": 8389000000.0,
+    "diluted_shares": 633000000.0,
+    "investments": 727000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 375000000.0,
+    "nol_utilization_pct": 0.2,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.222,
+    "tax_rate": 0.22,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.095
+  },
+  "company_name": "Devon Energy Corporation",
+  "comps": [
+    {
+      "company_name": "EOG Resources, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue and EV/NTM EBITDA not pulled from free sources in this run; would require paid datasets (e.g., FactSet/CapIQ) or an explicit public table that includes NTM multiples.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "EOG"
+    },
+    {
+      "company_name": "ConocoPhillips",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward EV/NTM multiples not available from free sources in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "COP"
+    },
+    {
+      "company_name": "Hess Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward EV/NTM Revenue/EBITDA not available from free sources in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "HES"
+    },
+    {
+      "company_name": "Pioneer Natural Resources",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward EV/NTM Revenue/EBITDA not available from free sources in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PXD"
+    },
+    {
+      "company_name": "Occidental Petroleum",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward EV/NTM Revenue/EBITDA not available from free sources in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "OXY"
+    },
+    {
+      "company_name": "Marathon Oil",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward EV/NTM Revenue/EBITDA not available from free sources in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "MRO"
+    },
+    {
+      "company_name": "Chesapeake Energy",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward EV/NTM Revenue/EBITDA not available from free sources in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CHK"
+    },
+    {
+      "company_name": "Coterra Energy (merger referenced by Devon)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward EV/NTM Revenue/EBITDA not available from free sources in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CTRA"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.208,
+      "2027": 0.206,
+      "2028": 0.204,
+      "2029": 0.203,
+      "2030": 0.202
+    },
+    "da_pct_sales": {
+      "2026": 0.207,
+      "2027": 0.206,
+      "2028": 0.205,
+      "2029": 0.205,
+      "2030": 0.204
+    },
+    "ebit_margin": {
+      "2026": 0.225,
+      "2027": 0.224,
+      "2028": 0.223,
+      "2029": 0.222,
+      "2030": 0.222
+    },
+    "nwc_pct_sales": {
+      "2026": -0.025,
+      "2027": -0.024,
+      "2028": -0.023,
+      "2029": -0.022,
+      "2030": -0.021
+    },
+    "revenue_growth": {
+      "2026": 0.04,
+      "2027": 0.035,
+      "2028": 0.03,
+      "2029": 0.028,
+      "2030": 0.025
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 3883000000.0,
+      "2024": 3645000000.0,
+      "2025": 3592000000.0
+    },
+    "da": {
+      "2023": 2554000000.0,
+      "2024": 3255000000.0,
+      "2025": 3595000000.0
+    },
+    "ebit": {
+      "2023": 4931000000.0,
+      "2024": 4075000000.0,
+      "2025": 3921000000.0
+    },
+    "nwc": {
+      "2023": -184000000.0,
+      "2024": -243000000.0,
+      "2025": -516000000.0
+    },
+    "revenue": {
+      "2023": 15258000000.0,
+      "2024": 15940000000.0,
+      "2025": 17188000000.0
+    }
+  },
+  "notes": [
+    "Monetary amounts in historicals are converted from the 10-K financial statement presentation (stated as millions of USD) to full USD units by multiplying by 1,000,000.",
+    "EBIT definition used here is an accounting-derived proxy: EBIT = net earnings + income tax expense + financing costs, net (per the consolidated statements of comprehensive earnings in Devon\u2019s FY2025 10-K).",
+    "NWC definition used here is a simplified DCF working capital measure: NWC = (Total current assets - cash, cash equivalents, and restricted cash) - (Total current liabilities - short-term debt). Negative NWC indicates the company is funding operations with payables/other current liabilities net of short-term debt.",
+    "WACC and peer NTM multiple fields are not directly disclosed in Devon\u2019s filings; WACC is a modeled placeholder and comps include nulls due to lack of accessible free NTM EV/Revenue/EV/EBITDA data in this run. Replace with FactSet/CapIQ outputs for production use."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Merger closing and integration milestones for the Devon-Coterra combination (expected in 2Q 2026).",
+      "Execution of business optimization targets and sustained cost/capital discipline that can translate into higher realized margins.",
+      "Commodity price improvements or improved differentials that lift realized EBIT above the base-case margin path."
+    ],
+    "company_overview": [
+      "Devon Energy is a U.S. oil and gas producer with a diversified multi-basin portfolio anchored by a world-class Delaware Basin position.",
+      "The company operates a disciplined cash-return model focused on free cash flow generation and capital returns.",
+      "Devon announced an all-stock merger with Coterra Energy, expected to close in 2Q 2026, creating a large-scale shale operator."
+    ],
+    "current_context": [
+      "In its FY2025 results release (Feb. 17, 2026), Devon reported Q4 2025 production outperformance versus the top end of guidance and continued progress on its business optimization plan.",
+      "Devon highlighted strong cash generation in Q4 2025 (operating cash flow and free cash flow provided in the release) and stated end-of-Q4 cash and total debt levels, along with a stated net debt-to-EBITDAX ratio.",
+      "Management described disciplined capital spending in Q4 2025 (including investments and timing/cost management) and discussed the go-forward capital-return posture post-merger close."
+    ],
+    "investment_highlights": [
+      "Base-case revenue and margin assumptions are anchored to recent historical performance and a gradual normalization/taper after FY2025, consistent with upstream cycle variability.",
+      "Capital intensity is modeled using historical capex as a percentage of sales, with modest improvement in the base-case to reflect ongoing cost management and business optimization initiatives.",
+      "Working capital is modeled as a relatively small but negative percentage of sales (payables-driven funding), consistent with recent balance-sheet patterns.",
+      "The planned Devon-Coterra combination is positioned as an acceleration lever (scale and targeted annual sustainable pre-tax synergies), supporting the bull-case operating outlook.",
+      "Terminal assumptions (gordon growth) reflect a long-run stable margin and reinvestment/conversion profile rather than cyclical extremes."
+    ],
+    "key_risks": [
+      "Downside risk from commodity price declines, differential pressure, or realized cost inflation reducing EBIT margins.",
+      "Merger execution and synergy capture risk (timing, costs, and operational disruption) relative to expectations.",
+      "Capital allocation risk (over/under-shooting capex needs) potentially impacting production/recovery and long-run cash flows."
+    ],
+    "sources": [
+      {
+        "label": "Devon Energy FY2025 Form 10-K (PDF)",
+        "notes": "Provides FY2025-FY2023 income statement items (total revenues, DD&A proxy) and FY2025-FY2024 balance sheet items plus FY2025-FY2023 cash flow (capital expenditures). Also provides effective tax rate and NOL-related disclosures.",
+        "url": "https://s2.q4cdn.com/462548525/files/doc_financials/quarterly/2025/q4/Q4-2025-DVN-10-K.pdf"
+      },
+      {
+        "label": "Devon Energy FY2024 Form 10-K (PDF)",
+        "notes": "Provides FY2024 and FY2023 balance sheet items used to compute FY2023 NWC.",
+        "url": "https://s2.q4cdn.com/462548525/files/doc_financials/quarterly/2024/q4/Q4-2024-DVN-10-K.pdf"
+      },
+      {
+        "label": "Devon Energy Q4 & FY2025 Earnings Release (PDF, Feb. 17, 2026)",
+        "notes": "Provides the latest operational and financial highlights, including merger context, production outperformance, capital discipline, cash/credit, and leverage commentary.",
+        "url": "https://s2.q4cdn.com/462548525/files/doc_financials/quarterly/2025/q4/Q4-2025-DVN-Earnings-Release.pdf"
+      },
+      {
+        "label": "Devon Energy FY2025 Results Press Release Page (HTML)",
+        "notes": "Confirms the Feb. 17, 2026 release timing and links to the underlying investor materials.",
+        "url": "https://investors.devonenergy.com/investors/press-releases/press-release-details/2026/Devon-Energy-Reports-Fourth-Quarter-and-Full-Year-2025-Results-and-Declares-Quarterly-Fixed-Dividend/"
+      }
+    ],
+    "subtitle": "Devon Energy (DVN) DCF & Comps Input Package (FY2023-25 actuals; FY2026-30 base-case drivers)",
+    "valuation_summary": [
+      "The DCF input package uses FY2023-25 accounting fundamentals (revenue, DD&A, capex) and a consistent EBIT definition derived from the income statement.",
+      "Forecast drivers are intentionally modest (gradual growth, stable-to-slightly lower EBIT margin, stable DD&A and capex intensity) to avoid promotional assumptions.",
+      "Cash/debt and NOL inputs incorporate the most recent balance sheet and the disclosed NOL availability/limitations framework."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 48.66,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.218,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.095
+      },
+      "description": "Modestly weaker cycle and execution: lower revenue growth and EBIT margin; slightly higher capital intensity and less favorable working capital dynamics.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.212,
+          "2027": 0.21,
+          "2028": 0.207,
+          "2029": 0.206,
+          "2030": 0.205
+        },
+        "da_pct_sales": {
+          "2026": 0.209,
+          "2027": 0.208,
+          "2028": 0.207,
+          "2029": 0.206,
+          "2030": 0.205
+        },
+        "ebit_margin": {
+          "2026": 0.221,
+          "2027": 0.22,
+          "2028": 0.219,
+          "2029": 0.218,
+          "2030": 0.218
+        },
+        "nwc_pct_sales": {
+          "2026": -0.023,
+          "2027": -0.022,
+          "2028": -0.021,
+          "2029": -0.02,
+          "2030": -0.019
+        },
+        "revenue_growth": {
+          "2026": 0.035,
+          "2027": 0.03,
+          "2028": 0.025,
+          "2029": 0.023,
+          "2030": 0.021
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 48.66,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.225,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.095
+      },
+      "description": "Modestly better operating performance: slightly higher revenue growth and EBIT margin; small capital efficiency improvements (lower capex % and more negative NWC %).",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.206,
+          "2027": 0.205,
+          "2028": 0.203,
+          "2029": 0.202,
+          "2030": 0.201
+        },
+        "da_pct_sales": {
+          "2026": 0.206,
+          "2027": 0.205,
+          "2028": 0.204,
+          "2029": 0.203,
+          "2030": 0.203
+        },
+        "ebit_margin": {
+          "2026": 0.229,
+          "2027": 0.228,
+          "2028": 0.226,
+          "2029": 0.225,
+          "2030": 0.225
+        },
+        "nwc_pct_sales": {
+          "2026": -0.026,
+          "2027": -0.025,
+          "2028": -0.024,
+          "2029": -0.023,
+          "2030": -0.022
+        },
+        "revenue_growth": {
+          "2026": 0.045,
+          "2027": 0.04,
+          "2028": 0.033,
+          "2029": 0.03,
+          "2030": 0.027
+        }
+      }
+    }
+  },
+  "ticker": "DVN"
+}

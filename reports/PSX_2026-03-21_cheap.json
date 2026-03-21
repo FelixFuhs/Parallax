@@ -1,0 +1,667 @@
+{
+  "_meta": {
+    "cost_usd": 0.022022,
+    "generated_at": "2026-03-21T14:53:22Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10183,
+      "prompt": 2514,
+      "reasoning": 7032
+    }
+  },
+  "_valuation": {
+    "company_name": "Phillips 66 Company",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 175.47,
+        "description": "Base case",
+        "enterprise_value": 90431523648.98077,
+        "equity_value": 70683523648.98077,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 99329888223.3191,
+        "implied_market_cap": 70683523648.98077,
+        "investments_adjustment": 0.0,
+        "net_debt": 18600000000.0,
+        "per_share_value": 173.22142870896863,
+        "projected_years": [
+          {
+            "capex": 2216967060.0,
+            "cash_taxes": 1209254759.9999998,
+            "da": 3090317719.9999995,
+            "delta_nwc": -373597360.0000005,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 6046273799.999999,
+            "ebit_margin": 0.045,
+            "ebitda": 9136591519.999998,
+            "fcff": 6083967059.999998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3493402639.9999995,
+            "present_value_fcff": 5607342912.442394,
+            "revenue": 134361639999.99998,
+            "revenue_growth": 0.015,
+            "year": 2026
+          },
+          {
+            "capex": 2103431474.1999998,
+            "cash_taxes": 1275629410.1599998,
+            "da": 2985515640.7999997,
+            "delta_nwc": -100771229.99999952,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 6378147050.799999,
+            "ebit_margin": 0.047,
+            "ebitda": 9363662691.599998,
+            "fcff": 6085373037.239998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3392631410.0,
+            "present_value_fcff": 5169252298.61751,
+            "revenue": 135705256399.99998,
+            "revenue_growth": 0.01,
+            "year": 2027
+          },
+          {
+            "capex": 2055934634.4599998,
+            "cash_taxes": 1315798166.0544,
+            "da": 2878308488.244,
+            "delta_nwc": -103135994.86400032,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 6578990830.271999,
+            "ebit_margin": 0.048,
+            "ebitda": 9457299318.515999,
+            "fcff": 6188702512.8656,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3289495415.1359997,
+            "present_value_fcff": 4845185316.101083,
+            "revenue": 137062308963.99998,
+            "revenue_growth": 0.01,
+            "year": 2028
+          },
+          {
+            "capex": 2007277514.7777798,
+            "cash_taxes": 1356642734.125672,
+            "da": 2768658641.0727997,
+            "delta_nwc": -105537977.90228033,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 6783213670.62836,
+            "ebit_margin": 0.049,
+            "ebitda": 9551872311.70116,
+            "fcff": 6293490040.699987,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3183957437.2337193,
+            "present_value_fcff": 4541220571.6655855,
+            "revenue": 138432932053.63998,
+            "revenue_growth": 0.01,
+            "year": 2029
+          },
+          {
+            "capex": 2027350289.9255579,
+            "cash_taxes": 1398172613.741764,
+            "da": 2656527966.109351,
+            "delta_nwc": -107977687.00183868,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 6990863068.70882,
+            "ebit_margin": 0.05,
+            "ebitda": 9647391034.818172,
+            "fcff": 6329845818.152688,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3075979750.2318807,
+            "present_value_fcff": 4209634991.483892,
+            "revenue": 139817261374.1764,
+            "revenue_growth": 0.01,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 99329888223.3191,
+        "terminal_value_present_value": 66058887558.67031,
+        "upside_downside_pct": -0.01281456255218194
+      },
+      "bear": {
+        "current_price": 175.47,
+        "description": "Modestly weaker operating backdrop: slightly lower long-run revenue growth and EBIT margin; slightly higher discount rate.",
+        "enterprise_value": 76227419263.83838,
+        "equity_value": 56479419263.83838,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 82898094544.62733,
+        "implied_market_cap": 56479419263.83837,
+        "investments_adjustment": 0.0,
+        "net_debt": 18600000000.0,
+        "per_share_value": 138.41196918988066,
+        "projected_years": [
+          {
+            "capex": 2266144744.0,
+            "cash_taxes": 1119742108.8,
+            "da": 3132611851.9999995,
+            "delta_nwc": -267828936.00000048,
+            "discount_factor": 0.9182736455463728,
+            "ebit": 5598710544.0,
+            "ebit_margin": 0.042,
+            "ebitda": 8731322396.0,
+            "fcff": 5613264479.199999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3599171063.9999995,
+            "present_value_fcff": 5154512836.730945,
+            "revenue": 133302631999.99998,
+            "revenue_growth": 0.007,
+            "year": 2026
+          },
+          {
+            "capex": 2143506322.5599995,
+            "cash_taxes": 1152134648.3759997,
+            "da": 3014305766.0999994,
+            "delta_nwc": -115973289.84000063,
+            "discount_factor": 0.8432264881050255,
+            "ebit": 5760673241.879998,
+            "ebit_margin": 0.043,
+            "ebitda": 8774979007.979998,
+            "fcff": 5595311326.883999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3483197774.159999,
+            "present_value_fcff": 4718114720.022665,
+            "revenue": 133969145159.99997,
+            "revenue_growth": 0.005,
+            "year": 2027
+          },
+          {
+            "capex": 2084827836.9799194,
+            "cash_taxes": 1183644191.3176317,
+            "da": 2891857967.423759,
+            "delta_nwc": -120572230.64399958,
+            "discount_factor": 0.774312661253467,
+            "ebit": 5918220956.588159,
+            "ebit_margin": 0.044,
+            "ebitda": 8810078924.011917,
+            "fcff": 5662179126.358366,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3362625543.5159993,
+            "present_value_fcff": 4384296987.824377,
+            "revenue": 134505021740.63997,
+            "revenue_growth": 0.004,
+            "year": 2028
+          },
+          {
+            "capex": 2023628052.087928,
+            "cash_taxes": 1214176831.2527568,
+            "da": 2765625004.520169,
+            "delta_nwc": -124820660.17531443,
+            "discount_factor": 0.7110309102419349,
+            "ebit": 6070884156.263784,
+            "ebit_margin": 0.045,
+            "ebitda": 8836509160.783953,
+            "fcff": 5723524937.618584,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3237804883.340685,
+            "present_value_fcff": 4069603146.187355,
+            "revenue": 134908536805.86188,
+            "revenue_growth": 0.003,
+            "year": 2029
+          },
+          {
+            "capex": 2029698936.2441916,
+            "cash_taxes": 1244882014.229771,
+            "da": 2706265248.325589,
+            "delta_nwc": -125599847.76625776,
+            "discount_factor": 0.6529209460440173,
+            "ebit": 6224410071.148854,
+            "ebit_margin": 0.046,
+            "ebitda": 8930675319.474443,
+            "fcff": 5781694216.766739,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3112205035.574427,
+            "present_value_fcff": 3774989257.748563,
+            "revenue": 135313262416.27945,
+            "revenue_growth": 0.003,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 82898094544.62733,
+        "terminal_value_present_value": 54125902315.32447,
+        "upside_downside_pct": -0.21119297207567866
+      },
+      "bull": {
+        "current_price": 175.47,
+        "description": "Modestly stronger operating backdrop: slightly higher long-run revenue growth and EBIT margin; slightly lower discount rate.",
+        "enterprise_value": 101272452756.75577,
+        "equity_value": 81524452756.75577,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 112208267360.98438,
+        "implied_market_cap": 81524452756.75577,
+        "investments_adjustment": 0.0,
+        "net_debt": 18600000000.0,
+        "per_share_value": 199.78888222058353,
+        "projected_years": [
+          {
+            "capex": 2156140288.0,
+            "cash_taxes": 1266732419.2,
+            "da": 3032072280.0,
+            "delta_nwc": -430651416.0,
+            "discount_factor": 0.9242144177449167,
+            "ebit": 6333662096.0,
+            "ebit_margin": 0.047,
+            "ebitda": 9365734376.0,
+            "fcff": 6373513084.8,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3436348584.0,
+            "present_value_fcff": 5890492684.65804,
+            "revenue": 134758768000.0,
+            "revenue_growth": 0.018,
+            "year": 2026
+          },
+          {
+            "capex": 2086550860.2048,
+            "cash_taxes": 1336483557.5168002,
+            "da": 2932081274.1439996,
+            "delta_nwc": -95139690.2079997,
+            "discount_factor": 0.8541722899675755,
+            "ebit": 6682417787.584001,
+            "ebit_margin": 0.049,
+            "ebitda": 9614499061.728,
+            "fcff": 6286604334.214401,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3341208893.7920003,
+            "present_value_fcff": 5369843220.276001,
+            "revenue": 136375873216.0,
+            "revenue_growth": 0.012,
+            "year": 2027
+          },
+          {
+            "capex": 2042583278.679962,
+            "cash_taxes": 1380123836.9459202,
+            "da": 2829253865.739136,
+            "delta_nwc": -97917876.96908808,
+            "discount_factor": 0.789438345626225,
+            "ebit": 6900619184.729601,
+            "ebit_margin": 0.05,
+            "ebitda": 9729873050.468737,
+            "fcff": 6405083811.811943,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3243291016.822912,
+            "present_value_fcff": 5056418767.994135,
+            "revenue": 138012383694.592,
+            "revenue_growth": 0.012,
+            "year": 2028
+          },
+          {
+            "capex": 2011226865.1045506,
+            "cash_taxes": 1424619029.4490566,
+            "da": 2793370645.9785423,
+            "delta_nwc": -58848480.407373905,
+            "discount_factor": 0.7296103009484519,
+            "ebit": 7123095147.245283,
+            "ebit_margin": 0.051,
+            "ebitda": 9916465793.223825,
+            "fcff": 6539468379.077593,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3184442536.4155383,
+            "present_value_fcff": 4771263492.101687,
+            "revenue": 139668532298.92712,
+            "revenue_growth": 0.012,
+            "year": 2029
+          },
+          {
+            "capex": 2007092676.5485024,
+            "cash_taxes": 1469983368.7397482,
+            "da": 2756218816.3870277,
+            "delta_nwc": -74862333.31222486,
+            "discount_factor": 0.6743163594717669,
+            "ebit": 7349916843.698741,
+            "ebit_margin": 0.052,
+            "ebitda": 10106135660.08577,
+            "fcff": 6703921948.109743,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3109580203.1033134,
+            "present_value_fcff": 4520564242.232238,
+            "revenue": 141344554686.51425,
+            "revenue_growth": 0.012,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 112208267360.98438,
+        "terminal_value_present_value": 75663870349.49367,
+        "upside_downside_pct": 0.13859282054244915
+      }
+    },
+    "ticker": "PSX"
+  },
+  "assumptions": {
+    "cash": 1116000000.0,
+    "current_price": 175.47,
+    "debt": 19716000000.0,
+    "diluted_shares": 408053000.0,
+    "investments": 0.0,
+    "minority_interest": 1148000000.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.05,
+    "tax_rate": 0.2,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Phillips 66 Company",
+  "comps": [
+    {
+      "company_name": "Valero Energy Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM not populated (market multiples not retrieved in this run).",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "VLO"
+    },
+    {
+      "company_name": "Marathon Petroleum Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM not populated (market multiples not retrieved in this run).",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "MPC"
+    },
+    {
+      "company_name": "HollyFrontier Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM not populated (market multiples not retrieved in this run).",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "HFC"
+    },
+    {
+      "company_name": "PBF Energy Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM not populated (market multiples not retrieved in this run).",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PBF"
+    },
+    {
+      "company_name": "Enterprise Products Partners L.P.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM not populated (market multiples not retrieved in this run).",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "EPD"
+    },
+    {
+      "company_name": "Oneok, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM not populated (market multiples not retrieved in this run).",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "OKE"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0165,
+      "2027": 0.0155,
+      "2028": 0.015,
+      "2029": 0.0145,
+      "2030": 0.0145
+    },
+    "da_pct_sales": {
+      "2026": 0.023,
+      "2027": 0.022,
+      "2028": 0.021,
+      "2029": 0.02,
+      "2030": 0.019
+    },
+    "ebit_margin": {
+      "2026": 0.045,
+      "2027": 0.047,
+      "2028": 0.048,
+      "2029": 0.049,
+      "2030": 0.05
+    },
+    "nwc_pct_sales": {
+      "2026": 0.026,
+      "2027": 0.025,
+      "2028": 0.024,
+      "2029": 0.023,
+      "2030": 0.022
+    },
+    "revenue_growth": {
+      "2026": 0.015,
+      "2027": 0.01,
+      "2028": 0.01,
+      "2029": 0.01,
+      "2030": 0.01
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 2155000000.0,
+      "2024": 1859000000.0,
+      "2025": 2233000000.0
+    },
+    "da": {
+      "2023": 1977000000.0,
+      "2024": 2363000000.0,
+      "2025": 3251000000.0
+    },
+    "ebit": {
+      "2023": 10366000000.0,
+      "2024": 3582000000.0,
+      "2025": 6459000000.0
+    },
+    "nwc": {
+      "2023": 2244000000.0,
+      "2024": 2916000000.0,
+      "2025": 3867000000.0
+    },
+    "revenue": {
+      "2023": 147399000000.0,
+      "2024": 143153000000.0,
+      "2025": 132376000000.0
+    }
+  },
+  "notes": [
+    "EBIT definition: used EBIT proxy = (income before income taxes) + (interest and debt expense) because the filing line item is not presented as a standalone EBIT in the extracted tables.",
+    "Capex definition: historical capex uses the cash-flow line 'Capital expenditures and investments' (absolute outflow). This may include investment components beyond pure PP&E capex.",
+    "NWC definition: NWC = (Total Current Assets \u2212 Cash and cash equivalents) \u2212 (Total Current Liabilities \u2212 Short-term debt). This is a simplified working-capital construction and may differ from a refined DCF NWC excluding additional cash-like/receivable/tax items.",
+    "Comps: EV/NTM revenue, EV/NTM EBITDA, and P/E NTM were not populated due to missing forward-multiple retrieval in this run; comps are provided only as a peer set."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained refining and marketing margin resilience (or normalization after any one-off items) can move EBIT margin toward/away from the base-case path.",
+      "Execution and ramp of Midstream and Chemicals organic growth opportunities can lift the revenue growth profile and steady-state margins.",
+      "Capital return trajectory (dividends and buybacks) may increase if operating cash flows remain strong."
+    ],
+    "company_overview": [
+      "Phillips 66 is an integrated downstream energy provider operating through Midstream, Chemicals, Refining, Marketing and Specialties (M&S), and Renewable Fuels segments.",
+      "The company\u2019s value proposition spans from gathering/transport and processing in Midstream to conversion/refining and branded/marketing activities, plus Chemicals and Renewable Fuels.",
+      "Management emphasizes disciplined capital allocation and shareholder returns while pursuing organic growth initiatives (notably in Midstream and Chemicals)."
+    ],
+    "current_context": [
+      "Q4 2025 results released Feb 4, 2026: EPS $2.47 and quarterly revenue ~$32.16B (beat vs. consensus EPS per market coverage).",
+      "Recent annual filings show ongoing integration-driven accounting movements (including elevated 2025 depreciation and cash-flow working-capital impacts).",
+      "Capital discipline remains central: the company budgeted ~$2.4B of capital expenditures and investments for 2026 (exclusive of acquisitions and equity-affiliate share)."
+    ],
+    "investment_highlights": [
+      "Base-case EBIT margin normalizes toward ~5.0% by 2030, reflecting a recovery from a low 2024 margin environment and some 2025 normalization.",
+      "Base-case capital intensity stays near historical levels (capex+investments roughly mid- to high-1% of sales), consistent with ongoing organic growth and maintenance needs.",
+      "Base-case working capital intensity gradually improves versus 2025, partially offsetting revenue growth assumptions to keep free cash flow conversion stable.",
+      "Terminal valuation uses a Gordon growth approach with conservative long-run growth relative to WACC to avoid over-reliance on cyclical earnings."
+    ],
+    "key_risks": [
+      "Commodity and crack-spread volatility can compress margins and reduce cash generation versus forecast.",
+      "Working capital swings (receivables/payables/taxes) can cause cash-flow timing volatility even if earnings are stable.",
+      "Regulatory/environmental liabilities and litigation/contingencies could create unexpected non-operating charges."
+    ],
+    "sources": [
+      {
+        "label": "Phillips 66 \u2014 2025 Form 10-K (annual report PDF)",
+        "notes": "Provides consolidated revenue, computed EBIT proxy inputs (income before income taxes + interest/debt expense), cash-flow D&A, cash-flow capital expenditures and investments, balance-sheet cash/current assets/current liabilities/short-term debt, and diluted share count.",
+        "url": "https://fortune.com/company-assets/1514/quartr/annual-report-10-k-89c70-2026-02-20-05-15-47.pdf"
+      },
+      {
+        "label": "Phillips 66 \u2014 2024 Form 10-K (annual report PDF)",
+        "notes": "Supports historical balance sheet components for 2023 and cross-checks current-asset/current-liability and cash/short-term debt levels used in NWC.",
+        "url": "https://fortune.com/company-assets/1514/quartr/annual-report-10-k-1365e-2025-02-21-07-00-42.pdf"
+      },
+      {
+        "label": "MarketBeat \u2014 PSX earnings coverage (Q4 2025)",
+        "notes": "Used for high-level latest-quarter earnings context (EPS and revenue beat/miss coverage).",
+        "url": "https://www.marketbeat.com/stocks/NYSE/PSX/earnings/"
+      }
+    ],
+    "subtitle": "Phillips 66 (PSX) DCF inputs \u2014 integrated downstream cash-flow normalization",
+    "valuation_summary": [
+      "DCF inputs are anchored to PSX\u2019s consolidated revenue, cash-flow D&A, and cash-flow capex+investments from the latest 10-K.",
+      "Forecast driver build uses simple chains (revenue growth \u00d7 revenue base; EBIT margin; D&A/capex/NWC as % of sales) to keep the model QA-consistent.",
+      "Scenario cases change only a limited set of operating levers (growth and margins) and macro discount/terminal assumptions, keeping deltas realistic."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 175.47,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.046,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.018,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.089
+      },
+      "description": "Modestly weaker operating backdrop: slightly lower long-run revenue growth and EBIT margin; slightly higher discount rate.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.017,
+          "2027": 0.016,
+          "2028": 0.0155,
+          "2029": 0.015,
+          "2030": 0.015
+        },
+        "da_pct_sales": {
+          "2026": 0.0235,
+          "2027": 0.0225,
+          "2028": 0.0215,
+          "2029": 0.0205,
+          "2030": 0.02
+        },
+        "ebit_margin": {
+          "2026": 0.042,
+          "2027": 0.043,
+          "2028": 0.044,
+          "2029": 0.045,
+          "2030": 0.046
+        },
+        "nwc_pct_sales": {
+          "2026": 0.027,
+          "2027": 0.026,
+          "2028": 0.025,
+          "2029": 0.024,
+          "2030": 0.023
+        },
+        "revenue_growth": {
+          "2026": 0.007,
+          "2027": 0.005,
+          "2028": 0.004,
+          "2029": 0.003,
+          "2030": 0.003
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 175.47,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.052,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.021,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.082
+      },
+      "description": "Modestly stronger operating backdrop: slightly higher long-run revenue growth and EBIT margin; slightly lower discount rate.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.016,
+          "2027": 0.0153,
+          "2028": 0.0148,
+          "2029": 0.0144,
+          "2030": 0.0142
+        },
+        "da_pct_sales": {
+          "2026": 0.0225,
+          "2027": 0.0215,
+          "2028": 0.0205,
+          "2029": 0.02,
+          "2030": 0.0195
+        },
+        "ebit_margin": {
+          "2026": 0.047,
+          "2027": 0.049,
+          "2028": 0.05,
+          "2029": 0.051,
+          "2030": 0.052
+        },
+        "nwc_pct_sales": {
+          "2026": 0.0255,
+          "2027": 0.0245,
+          "2028": 0.0235,
+          "2029": 0.0228,
+          "2030": 0.022
+        },
+        "revenue_growth": {
+          "2026": 0.018,
+          "2027": 0.012,
+          "2028": 0.012,
+          "2029": 0.012,
+          "2030": 0.012
+        }
+      }
+    }
+  },
+  "ticker": "PSX"
+}

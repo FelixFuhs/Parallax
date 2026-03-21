@@ -1,0 +1,693 @@
+{
+  "_meta": {
+    "cost_usd": 0.026677,
+    "generated_at": "2026-03-21T14:53:28Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12696,
+      "prompt": 2514,
+      "reasoning": 8243
+    }
+  },
+  "_valuation": {
+    "company_name": "Newmont Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 95.8,
+        "description": "Base case",
+        "enterprise_value": 66817739466.902115,
+        "equity_value": 73954739466.90211,
+        "exit_multiple_terminal_value": 75901963487.7682,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 73954739466.90211,
+        "investments_adjustment": 4780000000.0,
+        "net_debt": -2532000000.0,
+        "per_share_value": 66.74615475352176,
+        "projected_years": [
+          {
+            "capex": 3078450200.0000005,
+            "cash_taxes": 1500423774.0,
+            "da": 2748616250.0,
+            "delta_nwc": 777055350.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 5937011100.0,
+            "ebit_margin": 0.27,
+            "ebitda": 8685627350.0,
+            "fcff": 3329698025.9999995,
+            "nol_balance_end": 0.0,
+            "nol_used": 1524000000.0,
+            "nwc": -109944650.0,
+            "present_value_fcff": 3068846106.912442,
+            "revenue": 21988930000.0,
+            "revenue_growth": -0.03,
+            "year": 2026
+          },
+          {
+            "capex": 3146615883.0,
+            "cash_taxes": 2218946904.1600003,
+            "da": 2866916693.4,
+            "delta_nwc": 63328118.4,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 6526314424.000001,
+            "ebit_margin": 0.28,
+            "ebitda": 9393231117.400002,
+            "fcff": 3964340211.8399997,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -46616531.6,
+            "present_value_fcff": 3367529751.61078,
+            "revenue": 23308265800.0,
+            "revenue_growth": 0.06,
+            "year": 2027
+          },
+          {
+            "capex": 3181578281.7000003,
+            "cash_taxes": 2371499503.821,
+            "da": 2985788848.98,
+            "delta_nwc": 46616531.6,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 6974998540.65,
+            "ebit_margin": 0.285,
+            "ebitda": 9960787389.63,
+            "fcff": 4361093072.508999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 0.0,
+            "present_value_fcff": 3414335084.4774475,
+            "revenue": 24473679090.0,
+            "revenue_growth": 0.05,
+            "year": 2028
+          },
+          {
+            "capex": 3226609851.2256002,
+            "cash_taxes": 2485497901.02222,
+            "da": 3050154624.9867,
+            "delta_nwc": 25207889.462700002,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 7310287944.183,
+            "ebit_margin": 0.29,
+            "ebitda": 10360442569.1697,
+            "fcff": 4623126927.45918,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 25207889.462700002,
+            "present_value_fcff": 3335929503.76126,
+            "revenue": 25207889462.7,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 3239717953.7462044,
+            "cash_taxes": 2535207859.0426645,
+            "da": 3085445670.2344804,
+            "delta_nwc": 26216205.041208006,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 7456493703.06666,
+            "ebit_margin": 0.29,
+            "ebitda": 10541939373.30114,
+            "fcff": 4740797355.471064,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 51424094.50390801,
+            "present_value_fcff": 3152845583.9939523,
+            "revenue": 25712047251.954002,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 75901963487.7682,
+        "terminal_value_present_value": 50478253436.14623,
+        "upside_downside_pct": -0.3032760464141778
+      },
+      "bear": {
+        "current_price": 95.8,
+        "description": "Modestly weaker revenue momentum and less favorable normalized margin; higher sustaining intensity and more working-capital drag.",
+        "enterprise_value": 58772774631.89023,
+        "equity_value": 65909774631.89023,
+        "exit_multiple_terminal_value": 67278293309.2756,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 65909774631.89023,
+        "investments_adjustment": 4780000000.0,
+        "net_debt": -2532000000.0,
+        "per_share_value": 59.48535616596591,
+        "projected_years": [
+          {
+            "capex": 3122654750.0,
+            "cash_taxes": 1312361750.0,
+            "da": 2735014850.0,
+            "delta_nwc": 628573400.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 5383887500.0,
+            "ebit_margin": 0.25,
+            "ebitda": 8118902350.0,
+            "fcff": 3055312450.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 1524000000.0,
+            "nwc": -258426600.0,
+            "present_value_fcff": 2815956175.115207,
+            "revenue": 21535550000.0,
+            "revenue_growth": -0.05,
+            "year": 2026
+          },
+          {
+            "capex": 3149789542.9999995,
+            "cash_taxes": 1960854898.6000001,
+            "da": 2772702062.5,
+            "delta_nwc": 36610435.0,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 5767220290.0,
+            "ebit_margin": 0.26,
+            "ebitda": 8539922352.5,
+            "fcff": 3392667475.9,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -221816165.0,
+            "present_value_fcff": 2881919323.7486467,
+            "revenue": 22181616500.0,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 3152894969.3100004,
+            "cash_taxes": 2097360566.5410004,
+            "da": 2833036059.38,
+            "delta_nwc": 39039645.03999999,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 6168707548.650001,
+            "ebit_margin": 0.27,
+            "ebitda": 9001743608.03,
+            "fcff": 3712448427.139,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -182776519.96,
+            "present_value_fcff": 2906505938.613547,
+            "revenue": 22847064995.0,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 3169344856.1064005,
+            "cash_taxes": 2178924588.5731506,
+            "da": 2866392774.2727003,
+            "delta_nwc": 42952482.19060001,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 6408601731.097501,
+            "ebit_margin": 0.275,
+            "ebitda": 9274994505.370201,
+            "fcff": 3883772578.50005,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -139824037.7694,
+            "present_value_fcff": 2802430418.5906773,
+            "revenue": 23304006294.9,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 3153964211.9517665,
+            "cash_taxes": 2200713834.458882,
+            "da": 2871519655.6575785,
+            "delta_nwc": 45675852.33800399,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 6472687748.408476,
+            "ebit_margin": 0.275,
+            "ebitda": 9344207404.066055,
+            "fcff": 3943853505.3174014,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -94148185.43139601,
+            "present_value_fcff": 2622841723.831394,
+            "revenue": 23537046357.849003,
+            "revenue_growth": 0.01,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 67278293309.2756,
+        "terminal_value_present_value": 44743121051.99075,
+        "upside_downside_pct": -0.37906726340327856
+      },
+      "bull": {
+        "current_price": 95.8,
+        "description": "Modestly better post-trough revenue momentum and normalized margin expansion; slightly more favorable operating leverage assumptions.",
+        "enterprise_value": 72913953563.7287,
+        "equity_value": 80050953563.7287,
+        "exit_multiple_terminal_value": 83042540663.78186,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 80050953563.7287,
+        "investments_adjustment": 4780000000.0,
+        "net_debt": -2532000000.0,
+        "per_share_value": 72.24815303585622,
+        "projected_years": [
+          {
+            "capex": 3141923400.0000005,
+            "cash_taxes": 1618347912.0000005,
+            "da": 2760404130.0,
+            "delta_nwc": 842115380.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 6283846800.000001,
+            "ebit_margin": 0.28,
+            "ebitda": 9044250930.0,
+            "fcff": 3441864237.9999995,
+            "nol_balance_end": 0.0,
+            "nol_used": 1524000000.0,
+            "nwc": -44884620.0,
+            "present_value_fcff": 3172225104.147465,
+            "revenue": 22442310000.0,
+            "revenue_growth": -0.01,
+            "year": 2026
+          },
+          {
+            "capex": 3193765136.1000004,
+            "cash_taxes": 2367708589.62,
+            "da": 2905605875.7,
+            "delta_nwc": 44884620.0,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 6963848792.999999,
+            "ebit_margin": 0.29,
+            "ebitda": 9869454668.699999,
+            "fcff": 4263096322.9799986,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 0.0,
+            "present_value_fcff": 3621309709.681666,
+            "revenue": 24013271700.0,
+            "revenue_growth": 0.07,
+            "year": 2027
+          },
+          {
+            "capex": 3258120704.256,
+            "cash_taxes": 2553043020.6006,
+            "da": 3054488160.24,
+            "delta_nwc": 50908136.004,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 7508950060.589999,
+            "ebit_margin": 0.295,
+            "ebitda": 10563438220.829998,
+            "fcff": 4701366359.9693985,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 50908136.004,
+            "present_value_fcff": 3680737796.909842,
+            "revenue": 25454068002.0,
+            "revenue_growth": 0.06,
+            "year": 2028
+          },
+          {
+            "capex": 3335501070.9820805,
+            "cash_taxes": 2745170325.8796964,
+            "da": 3150195455.9275203,
+            "delta_nwc": 28508556.162240006,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 8074030370.234401,
+            "ebit_margin": 0.305,
+            "ebitda": 11224225826.16192,
+            "fcff": 5115045873.137904,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 79416692.16624,
+            "present_value_fcff": 3690885564.907232,
+            "revenue": 26472230722.08,
+            "revenue_growth": 0.04,
+            "year": 2029
+          },
+          {
+            "capex": 3381033307.8240576,
+            "cash_taxes": 2827525435.6560874,
+            "da": 3217434921.961603,
+            "delta_nwc": 29648898.408729598,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 8316251281.341433,
+            "ebit_margin": 0.305,
+            "ebitda": 11533686203.303036,
+            "fcff": 5295478561.414161,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 109065590.5749696,
+            "present_value_fcff": 3521733781.3905196,
+            "revenue": 27266397643.7424,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 83042540663.78186,
+        "terminal_value_present_value": 55227061606.69198,
+        "upside_downside_pct": -0.24584391403072836
+      }
+    },
+    "ticker": "NEM"
+  },
+  "assumptions": {
+    "cash": 7647000000.0,
+    "current_price": 95.8,
+    "debt": 5115000000.0,
+    "diluted_shares": 1108000000.0,
+    "investments": 4780000000.0,
+    "minority_interest": 175000000.0,
+    "net_debt_override": null,
+    "nol_balance": 1524000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.29,
+    "tax_rate": 0.34,
+    "terminal_exit_ebitda_multiple": 7.2,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.085
+  },
+  "company_name": "Newmont Corporation",
+  "comps": [
+    {
+      "company_name": "Agnico Eagle Mines Limited",
+      "ev_ntm_ebitda": 9.68,
+      "ev_ntm_revenue": 7.17,
+      "notes": "Assumes MarketScreener 'EV / Sales (Y)' and 'EV / EBITDA (Y)' correspond to next-year (NTM) estimates; treat as proxy for EV/NTM revenue and EV/NTM EBITDA.",
+      "pe_ntm": 17.74,
+      "source": "MarketScreener sector valuations table (treated as forward/NTM proxies). ([marketscreener.com](https://www.marketscreener.com/quote/stock/BARRICK-GOLD-CORPORATION-52035152/valuation/))",
+      "ticker": "AEM"
+    },
+    {
+      "company_name": "AngloGold Ashanti plc",
+      "ev_ntm_ebitda": 10.31,
+      "ev_ntm_revenue": 6.42,
+      "notes": "Assumes MarketScreener 'EV / Sales (Y)' and 'EV / EBITDA (Y)' correspond to next-year (NTM) estimates.",
+      "pe_ntm": 19.78,
+      "source": "MarketScreener sector valuations table (treated as forward/NTM proxies). ([marketscreener.com](https://www.marketscreener.com/quote/stock/BARRICK-GOLD-CORPORATION-52035152/valuation/))",
+      "ticker": "AU"
+    },
+    {
+      "company_name": "Kinross Gold Corporation",
+      "ev_ntm_ebitda": 6.37,
+      "ev_ntm_revenue": 4.24,
+      "notes": "Assumes MarketScreener 'EV / Sales (Y)' and 'EV / EBITDA (Y)' correspond to next-year (NTM) estimates.",
+      "pe_ntm": 12.73,
+      "source": "MarketScreener sector valuations table (treated as forward/NTM proxies). ([marketscreener.com](https://www.marketscreener.com/quote/stock/BARRICK-GOLD-CORPORATION-52035152/valuation/))",
+      "ticker": "KGC"
+    },
+    {
+      "company_name": "Northern Star Resources Limited",
+      "ev_ntm_ebitda": 9.05,
+      "ev_ntm_revenue": 5.02,
+      "notes": "Assumes MarketScreener entry corresponds to Northern Star Resources Ltd; treated as proxy for NTM multiples.",
+      "pe_ntm": 20.29,
+      "source": "MarketScreener sector valuations table (treated as forward/NTM proxies). ([marketscreener.com](https://www.marketscreener.com/quote/stock/BARRICK-GOLD-CORPORATION-52035152/valuation/))",
+      "ticker": "NST"
+    },
+    {
+      "company_name": "Alamos Gold Inc.",
+      "ev_ntm_ebitda": 10.21,
+      "ev_ntm_revenue": 7.48,
+      "notes": "Assumes MarketScreener 'EV / Sales (Y)' and 'EV / EBITDA (Y)' correspond to next-year (NTM) estimates.",
+      "pe_ntm": 20.66,
+      "source": "MarketScreener sector valuations table (treated as forward/NTM proxies). ([marketscreener.com](https://www.marketscreener.com/quote/stock/BARRICK-GOLD-CORPORATION-52035152/valuation/))",
+      "ticker": "AGI"
+    },
+    {
+      "company_name": "Royal Gold, Inc.",
+      "ev_ntm_ebitda": 14.28,
+      "ev_ntm_revenue": 12.25,
+      "notes": "Royalty/streaming-like business model can distort EV/EBITDA vs pure-play producers; included as high-quality precious metals exposure.",
+      "pe_ntm": 24.39,
+      "source": "MarketScreener sector valuations table (treated as forward/NTM proxies). ([marketscreener.com](https://www.marketscreener.com/quote/stock/BARRICK-GOLD-CORPORATION-52035152/valuation/))",
+      "ticker": "RGLD"
+    },
+    {
+      "company_name": "Lundin Gold Inc.",
+      "ev_ntm_ebitda": 12.31,
+      "ev_ntm_revenue": 9.08,
+      "notes": "Small-to-mid cap producer; included for valuation dispersion context (NTM proxy assumption).",
+      "pe_ntm": 19.57,
+      "source": "MarketScreener sector valuations table (treated as forward/NTM proxies). ([marketscreener.com](https://www.marketscreener.com/quote/stock/BARRICK-GOLD-CORPORATION-52035152/valuation/))",
+      "ticker": "LUG"
+    },
+    {
+      "company_name": "Wheaton Precious Metals Corp.",
+      "ev_ntm_ebitda": 40.42,
+      "ev_ntm_revenue": 32.7,
+      "notes": "Streaming/royalty economics can produce much higher EV/Revenue and EV/EBITDA than miners; included for scenario range rather than direct normalization.",
+      "pe_ntm": 53.09,
+      "source": "MarketScreener sector valuations table (treated as forward/NTM proxies). ([marketscreener.com](https://www.marketscreener.com/quote/stock/BARRICK-GOLD-CORPORATION-52035152/valuation/))",
+      "ticker": "WPM"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.14,
+      "2027": 0.135,
+      "2028": 0.13,
+      "2029": 0.128,
+      "2030": 0.126
+    },
+    "da_pct_sales": {
+      "2026": 0.125,
+      "2027": 0.123,
+      "2028": 0.122,
+      "2029": 0.121,
+      "2030": 0.12
+    },
+    "ebit_margin": {
+      "2026": 0.27,
+      "2027": 0.28,
+      "2028": 0.285,
+      "2029": 0.29,
+      "2030": 0.29
+    },
+    "nwc_pct_sales": {
+      "2026": -0.005,
+      "2027": -0.002,
+      "2028": 0.0,
+      "2029": 0.001,
+      "2030": 0.002
+    },
+    "revenue_growth": {
+      "2026": -0.03,
+      "2027": 0.06,
+      "2028": 0.05,
+      "2029": 0.03,
+      "2030": 0.02
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 2666000000.0,
+      "2024": 3402000000.0,
+      "2025": 3035000000.0
+    },
+    "da": {
+      "2023": 2108000000.0,
+      "2024": 2576000000.0,
+      "2025": 2521000000.0
+    },
+    "ebit": {
+      "2023": -1788000000.0,
+      "2024": 4952000000.0,
+      "2025": 11571000000.0
+    },
+    "nwc": {
+      "2023": 412000000.0,
+      "2024": -416000000.0,
+      "2025": -887000000.0
+    },
+    "revenue": {
+      "2023": 11812000000.0,
+      "2024": 18682000000.0,
+      "2025": 22669000000.0
+    }
+  },
+  "notes": [
+    "Historical financials (Sales, Depreciation and amortization, and cash-flow 'Additions to property, plant and mine development') and balance-sheet items are taken from Newmont\u2019s 2025 Form 10-K. ([s24.q4cdn.com](https://s24.q4cdn.com/382246808/files/doc_earnings/2025/q4/filing/Q4-2025-10-K.pdf))",
+    "EBIT is approximated from the Consolidated Statements of Operations as: 'Income (loss) before income and mining tax and other items' + absolute 'Interest expense, net of capitalized interest' (i.e., add back interest expense to remove interest effect). ([s24.q4cdn.com](https://s24.q4cdn.com/382246808/files/doc_earnings/2025/q4/filing/Q4-2025-10-K.pdf))",
+    "NWC is computed (for historical years) as: (Current assets \u2212 Cash and cash equivalents \u2212 Investments \u2212 Assets held for sale) \u2212 (Current liabilities \u2212 Current debt \u2212 Liabilities held for sale). This intentionally excludes cash/investments and debt-related items from operating working capital, producing negative NWC in 2024\u20132025. ([s24.q4cdn.com](https://s24.q4cdn.com/382246808/files/doc_earnings/2025/q4/filing/Q4-2025-10-K.pdf))",
+    "Forecast driver ratios (revenue growth, EBIT margin, D&A %, capex %, NWC %) are base-case modeling assumptions (not explicitly disclosed as 5-year annual guidance). They are designed to normalize from recent volatility while remaining consistent with the company\u2019s 2026 guidance framing. ([newmont.com](https://www.newmont.com/investors/news-release/news-details/2026/Newmont-Reports-Fourth-Quarter-and-Full-Year-2025-Results-Provides-2026-Guidance-and-Announces-Enhanced-Capital-Allocation-Framework/default.aspx?utm_source=openai))",
+    "Tax rate (0.34) and WACC (0.085) are modeling assumptions rather than fixed company-reported constants, given Newmont\u2019s effective tax rate volatility. ([s24.q4cdn.com](https://s24.q4cdn.com/382246808/files/doc_earnings/2025/q4/filing/Q4-2025-10-K.pdf))",
+    "NOL balance reflects reported net operating loss carryforwards at 12/31/2025; NOL utilization is an assumed planning haircut (0.80) due to limited ability to extract a definitive utilization schedule directly from the filing narrative. ([s24.q4cdn.com](https://s24.q4cdn.com/382246808/files/doc_earnings/2025/q4/filing/Q4-2025-10-K.pdf))",
+    "Comps multiples use MarketScreener\u2019s 'EV / Sales (Y)' and 'EV / EBITDA (Y)' as forward/NTM proxies, and 'P/E (Y)' as a forward P/E proxy; these are not guaranteed to exactly match 'NTM' conventions used in every DCF pipeline. ([marketscreener.com](https://www.marketscreener.com/quote/stock/BARRICK-GOLD-CORPORATION-52035152/valuation/))",
+    "Current price is based on the latest available trade prior to the as-of date in the web finance tool."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Execution against 2026 guidance and clarity on timing/shape of production recovery into 2027.",
+      "Operational cost performance versus guidance, especially sustaining cost trajectory and development ramp milestones.",
+      "Capital allocation actions (dividend framework and buybacks/debt movements) that could change net cash/debt and per-share value."
+    ],
+    "company_overview": [
+      "Newmont is a global gold mining company with significant production and development assets across multiple geographies.",
+      "Revenue is primarily generated from the sale of produced metals (including gold and base metals where applicable), with profitability driven by realized metal prices, production volumes, and operating cost intensity.",
+      "The company funds growth and sustaining needs through a capital allocation framework that balances investment, dividends, and debt/share repurchases."
+    ],
+    "current_context": [
+      "Newmont reported full-year 2025 results and provided 2026 guidance, framing 2026 as a production/cost trough year within its longer-term outlook. ([newmont.com](https://www.newmont.com/investors/news-release/news-details/2026/Newmont-Reports-Fourth-Quarter-and-Full-Year-2025-Results-Provides-2026-Guidance-and-Announces-Enhanced-Capital-Allocation-Framework/default.aspx?utm_source=openai))",
+      "2026 guidance highlighted changes in production outlook and capital spending priorities, which informs near-term revenue and margin normalization in this input package. ([newmont.com](https://www.newmont.com/investors/news-release/news-details/2026/Newmont-Reports-Fourth-Quarter-and-Full-Year-2025-Results-Provides-2026-Guidance-and-Announces-Enhanced-Capital-Allocation-Framework/default.aspx?utm_source=openai))",
+      "Market context (price proxy): current NEM price is approximately $95.8/share based on the latest available trade prior to this as-of date."
+    ],
+    "investment_highlights": [
+      "Base-case revenue profile reflects a near-term trough with gradual normalization as operations recover in 2027\u20132030, consistent with the company\u2019s longer-term production narrative. ([newmont.com](https://www.newmont.com/investors/news-release/news-details/2026/Newmont-Reports-Fourth-Quarter-and-Full-Year-2025-Results-Provides-2026-Guidance-and-Announces-Enhanced-Capital-Allocation-Framework/default.aspx?utm_source=openai))",
+      "Margin assumptions use a normalized EBIT margin trajectory rather than mechanically repeating 2025 period effects, improving robustness of the DCF FCF path.",
+      "Capital intensity moderates versus the more elevated recent ratio, reflecting a transition from one-off/cycle-heavy spending into sustaining/development cadence.",
+      "Working-capital drag is modeled as moderating over time (NWC % of sales moves toward ~0), consistent with a return to steadier operating cash conversion."
+    ],
+    "key_risks": [
+      "Commodity price risk (gold and copper realizations) impacting revenue and margin simultaneously.",
+      "Cost inflation and/or operational disruption (labor, ore grade/recovery variance, or project execution delays) reducing margins versus base case.",
+      "Working-capital and sustaining capex intensity could remain elevated longer than modeled, pressuring free cash flow."
+    ],
+    "sources": [
+      {
+        "label": "Newmont 2025 Form 10-K (includes consolidated financial statements and NOL disclosures)",
+        "notes": "Historical revenue, depreciation/amortization, cash flow capex, and balance-sheet items used for the NWC definition; NOL carryforwards. ([s24.q4cdn.com](https://s24.q4cdn.com/382246808/files/doc_earnings/2025/q4/filing/Q4-2025-10-K.pdf))",
+        "url": null
+      },
+      {
+        "label": "Newmont Q4 & Full Year 2025 results and 2026 guidance news release",
+        "notes": "Near-term operational framing used to contextualize the base-case trough-to-recovery shape. ([newmont.com](https://www.newmont.com/investors/news-release/news-details/2026/Newmont-Reports-Fourth-Quarter-and-Full-Year-2025-Results-Provides-2026-Guidance-and-Announces-Enhanced-Capital-Allocation-Framework/default.aspx?utm_source=openai))",
+        "url": null
+      },
+      {
+        "label": "Newmont Q4 2025 Results & 2026 Guidance presentation",
+        "notes": "Additional guidance details informing the directional assumptions. ([newmont.com](https://www.newmont.com/investors/events-and-presentations/presentation/presentation-details/2026/Fourth-Quarter-2025-Results-Presentation/default.aspx?utm_source=openai))",
+        "url": null
+      },
+      {
+        "label": "MarketScreener sector valuation table (forward/NTM proxies for EV/Revenue, EV/EBITDA, P/E)",
+        "notes": "Used to populate peer multiples and calibrate terminal exit multiple directionally. ([marketscreener.com](https://www.marketscreener.com/quote/stock/BARRICK-GOLD-CORPORATION-52035152/valuation/))",
+        "url": null
+      }
+    ],
+    "subtitle": "Newmont (NEM) DCF & comps valuation input package (2026\u20132030)",
+    "valuation_summary": [
+      "DCF uses an explicit terminal exit EBITDA multiple (exit_multiple) grounded in gold/precious-metals peer forward valuation ranges.",
+      "Comps provide cross-checks for EV/Revenue and EV/EBITDA (forward/NTM proxies) and help bracket the terminal multiple used for the DCF."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.275,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 7.2,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.085
+      },
+      "description": "Modestly weaker revenue momentum and less favorable normalized margin; higher sustaining intensity and more working-capital drag.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.145,
+          "2027": 0.142,
+          "2028": 0.138,
+          "2029": 0.136,
+          "2030": 0.134
+        },
+        "da_pct_sales": {
+          "2026": 0.127,
+          "2027": 0.125,
+          "2028": 0.124,
+          "2029": 0.123,
+          "2030": 0.122
+        },
+        "ebit_margin": {
+          "2026": 0.25,
+          "2027": 0.26,
+          "2028": 0.27,
+          "2029": 0.275,
+          "2030": 0.275
+        },
+        "nwc_pct_sales": {
+          "2026": -0.012,
+          "2027": -0.01,
+          "2028": -0.008,
+          "2029": -0.006,
+          "2030": -0.004
+        },
+        "revenue_growth": {
+          "2026": -0.05,
+          "2027": 0.03,
+          "2028": 0.03,
+          "2029": 0.02,
+          "2030": 0.01
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.305,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 7.2,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.085
+      },
+      "description": "Modestly better post-trough revenue momentum and normalized margin expansion; slightly more favorable operating leverage assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.14,
+          "2027": 0.133,
+          "2028": 0.128,
+          "2029": 0.126,
+          "2030": 0.124
+        },
+        "da_pct_sales": {
+          "2026": 0.123,
+          "2027": 0.121,
+          "2028": 0.12,
+          "2029": 0.119,
+          "2030": 0.118
+        },
+        "ebit_margin": {
+          "2026": 0.28,
+          "2027": 0.29,
+          "2028": 0.295,
+          "2029": 0.305,
+          "2030": 0.305
+        },
+        "nwc_pct_sales": {
+          "2026": -0.002,
+          "2027": 0.0,
+          "2028": 0.002,
+          "2029": 0.003,
+          "2030": 0.004
+        },
+        "revenue_growth": {
+          "2026": -0.01,
+          "2027": 0.07,
+          "2028": 0.06,
+          "2029": 0.04,
+          "2030": 0.03
+        }
+      }
+    }
+  },
+  "ticker": "NEM"
+}

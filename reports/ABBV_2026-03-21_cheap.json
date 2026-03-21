@@ -1,0 +1,669 @@
+{
+  "_meta": {
+    "cost_usd": 0.019953,
+    "generated_at": "2026-03-21T14:52:03Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 9734,
+      "prompt": 2515,
+      "reasoning": 5826
+    }
+  },
+  "_valuation": {
+    "company_name": "AbbVie Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 205.07,
+        "description": "Base case",
+        "enterprise_value": 376360772291.7104,
+        "equity_value": 316846772291.7104,
+        "exit_multiple_terminal_value": 395555131047.7166,
+        "gordon_terminal_value": 434491301320.76154,
+        "implied_market_cap": 316846772291.7104,
+        "investments_adjustment": 296000000.0,
+        "net_debt": 59768000000.0,
+        "per_share_value": 178.70658335685866,
+        "projected_years": [
+          {
+            "capex": 1264177200.0,
+            "cash_taxes": 3168870848.0,
+            "da": 8492677600.0,
+            "delta_nwc": -214216000.0,
+            "discount_factor": 0.9302325581395349,
+            "ebit": 15234956000.0,
+            "ebit_margin": 0.235,
+            "ebitda": 23727633600.0,
+            "fcff": 19508801552.0,
+            "nol_balance_end": 70453008800.0,
+            "nol_used": 3046991200.0,
+            "nwc": -13614216000.0,
+            "present_value_fcff": 18147722373.953487,
+            "revenue": 64829600000.0,
+            "revenue_growth": 0.06,
+            "year": 2026
+          },
+          {
+            "capex": 1293350520.0,
+            "cash_taxes": 3369790744.32,
+            "da": 8917311480.0,
+            "delta_nwc": -544568640.0,
+            "discount_factor": 0.8653326122228232,
+            "ebit": 16200917040.0,
+            "ebit_margin": 0.238,
+            "ebitda": 25118228520.0,
+            "fcff": 20999655895.68,
+            "nol_balance_end": 67212825392.0,
+            "nol_used": 3240183408.0,
+            "nwc": -14158784640.0,
+            "present_value_fcff": 18171687091.989185,
+            "revenue": 68071080000.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 1315984154.1,
+            "cash_taxes": 3536227257.7632,
+            "da": 9247456218.0,
+            "delta_nwc": -494876751.5999985,
+            "discount_factor": 0.804960569509603,
+            "ebit": 17001092585.4,
+            "ebit_margin": 0.239,
+            "ebitda": 26248548803.4,
+            "fcff": 21891214143.1368,
+            "nol_balance_end": 63812606874.92,
+            "nol_used": 3400218517.08,
+            "nwc": -14653661391.599998,
+            "present_value_fcff": 17621564203.916073,
+            "revenue": 71134278600.0,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 1368623520.264,
+            "cash_taxes": 3685370231.647104,
+            "da": 9617354466.720001,
+            "delta_nwc": -438187156.1760006,
+            "discount_factor": 0.7488005297763749,
+            "ebit": 17718126113.688,
+            "ebit_margin": 0.2395,
+            "ebitda": 27335480580.408,
+            "fcff": 22719673984.672897,
+            "nol_balance_end": 60268981652.182396,
+            "nol_used": 3543625222.7376003,
+            "nwc": -15091848547.776,
+            "present_value_fcff": 17012503916.069588,
+            "revenue": 73979649744.0,
+            "revenue_growth": 0.04,
+            "year": 2029
+          },
+          {
+            "capex": 1378240874.7307198,
+            "cash_taxes": 3822321359.2531967,
+            "da": 9877392935.57016,
+            "delta_nwc": -375076824.2020798,
+            "discount_factor": 0.6965586323501163,
+            "ebit": 18376544996.4096,
+            "ebit_margin": 0.24,
+            "ebitda": 28253937931.97976,
+            "fcff": 23428452522.19792,
+            "nol_balance_end": 56593672652.900475,
+            "nol_used": 3675308999.28192,
+            "nwc": -15466925371.978079,
+            "present_value_fcff": 16319290846.941816,
+            "revenue": 76568937485.04,
+            "revenue_growth": 0.035,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "average",
+        "terminal_value": 415023216184.2391,
+        "terminal_value_present_value": 289088003858.8402,
+        "upside_downside_pct": -0.12855813450598008
+      },
+      "bear": {
+        "current_price": 205.07,
+        "description": "Modestly weaker growth and margin normalization versus base; higher effective reinvestment needs and less favorable working-capital dynamics; slightly higher discount rate and more conservative terminal assumptions.",
+        "enterprise_value": 320494198568.0902,
+        "equity_value": 260980198568.0902,
+        "exit_multiple_terminal_value": 336386566814.64105,
+        "gordon_terminal_value": 360505452842.346,
+        "implied_market_cap": 260980198568.0902,
+        "investments_adjustment": 296000000.0,
+        "net_debt": 59768000000.0,
+        "per_share_value": 147.19695350710109,
+        "projected_years": [
+          {
+            "capex": 1272128000.0,
+            "cash_taxes": 3042930176.0,
+            "da": 8396044800.0,
+            "delta_nwc": -275376000.0,
+            "discount_factor": 0.9276437847866419,
+            "ebit": 14629472000.0,
+            "ebit_margin": 0.23,
+            "ebitda": 23025516800.0,
+            "fcff": 18985834624.0,
+            "nol_balance_end": 70574105600.0,
+            "nol_used": 2925894400.0,
+            "nwc": -13675376000.0,
+            "present_value_fcff": 17612091487.94063,
+            "revenue": 63606400000.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 1283736167.9999998,
+            "cash_taxes": 3190512289.5360003,
+            "da": 8689906368.0,
+            "delta_nwc": -346972911.9999981,
+            "discount_factor": 0.8605229914532856,
+            "ebit": 15339001392.0,
+            "ebit_margin": 0.233,
+            "ebitda": 24028907760.0,
+            "fcff": 19901632214.463997,
+            "nol_balance_end": 67506305321.6,
+            "nol_used": 3067800278.4,
+            "nwc": -14022348911.999998,
+            "present_value_fcff": 17125812087.993635,
+            "revenue": 65832623999.99999,
+            "revenue_growth": 0.035,
+            "year": 2027
+          },
+          {
+            "capex": 1288344451.6799998,
+            "cash_taxes": 3300331639.58784,
+            "da": 8882795956.32,
+            "delta_nwc": -285055261.9200001,
+            "discount_factor": 0.7982588046876489,
+            "ebit": 15866979036.48,
+            "ebit_margin": 0.234,
+            "ebitda": 24749774992.8,
+            "fcff": 20446154163.452156,
+            "nol_balance_end": 64332909514.304,
+            "nol_used": 3173395807.296,
+            "nwc": -14307404173.919998,
+            "present_value_fcff": 16321322582.976713,
+            "revenue": 67807602719.99999,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 1320553062.9719996,
+            "cash_taxes": 3390068221.0274873,
+            "da": 9104865855.227999,
+            "delta_nwc": -218679518.77199745,
+            "discount_factor": 0.7404998188197114,
+            "ebit": 16298404908.785995,
+            "ebit_margin": 0.2345,
+            "ebitda": 25403270764.013992,
+            "fcff": 20911328998.786507,
+            "nol_balance_end": 61073228532.5468,
+            "nol_used": 3259680981.7571993,
+            "nwc": -14526083692.691996,
+            "present_value_fcff": 15484835334.880785,
+            "revenue": 69502792787.99998,
+            "revenue_growth": 0.025,
+            "year": 2029
+          },
+          {
+            "capex": 1311517699.9095595,
+            "cash_taxes": 3465242441.7069874,
+            "da": 9216070323.688797,
+            "delta_nwc": -148735976.5663185,
+            "discount_factor": 0.6869200545637396,
+            "ebit": 16659819431.283594,
+            "ebit_margin": 0.235,
+            "ebitda": 25875889754.97239,
+            "fcff": 21247865589.92216,
+            "nol_balance_end": 57741264646.29008,
+            "nol_used": 3331963886.256719,
+            "nwc": -14674819669.258314,
+            "present_value_fcff": 14595584990.392336,
+            "revenue": 70892848643.75998,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "average",
+        "terminal_value": 348446009828.4935,
+        "terminal_value_present_value": 239354552083.90613,
+        "upside_downside_pct": -0.28221117907494475
+      },
+      "bull": {
+        "current_price": 205.07,
+        "description": "Modestly stronger revenue growth, better-than-base operating leverage, and slightly improved working-capital efficiency; slightly lower discount rate and higher terminal value assumptions.",
+        "enterprise_value": 436900852220.44995,
+        "equity_value": 377386852220.44995,
+        "exit_multiple_terminal_value": 455616013739.14386,
+        "gordon_terminal_value": 517836767681.414,
+        "implied_market_cap": 377386852220.44995,
+        "investments_adjustment": 296000000.0,
+        "net_debt": 59768000000.0,
+        "per_share_value": 212.8521445123801,
+        "projected_years": [
+          {
+            "capex": 1255003200.0,
+            "cash_taxes": 3297355776.0000005,
+            "da": 8586864000.000001,
+            "delta_nwc": -140824000.0,
+            "discount_factor": 0.9328358208955223,
+            "ebit": 15852672000.000002,
+            "ebit_margin": 0.24,
+            "ebitda": 24439536000.000004,
+            "fcff": 20028001024.000004,
+            "nol_balance_end": 70329465600.0,
+            "nol_used": 3170534400.0000005,
+            "nwc": -13540824000.0,
+            "present_value_fcff": 18682836776.119404,
+            "revenue": 66052800000.00001,
+            "revenue_growth": 0.08,
+            "year": 2026
+          },
+          {
+            "capex": 1301405292.0,
+            "cash_taxes": 3555579950.2079997,
+            "da": 9145010160.0,
+            "delta_nwc": -739461096.0000019,
+            "discount_factor": 0.870182668745823,
+            "ebit": 17094134376.0,
+            "ebit_margin": 0.243,
+            "ebitda": 26239144536.0,
+            "fcff": 22121620389.792,
+            "nol_balance_end": 66910638724.8,
+            "nol_used": 3418826875.2000003,
+            "nwc": -14280285096.000002,
+            "present_value_fcff": 19249850667.771214,
+            "revenue": 70346232000.0,
+            "revenue_growth": 0.065,
+            "year": 2027
+          },
+          {
+            "capex": 1335874945.6799998,
+            "cash_taxes": 3766573624.6195197,
+            "da": 9573770444.04,
+            "delta_nwc": -636985130.7599983,
+            "discount_factor": 0.8117375641285662,
+            "ebit": 18108527041.44,
+            "ebit_margin": 0.244,
+            "ebitda": 27682297485.48,
+            "fcff": 23216834045.94048,
+            "nol_balance_end": 63288933316.512,
+            "nol_used": 3621705408.288,
+            "nwc": -14917270226.76,
+            "present_value_fcff": 18845976315.22889,
+            "revenue": 74215274760.0,
+            "revenue_growth": 0.055,
+            "year": 2028
+          },
+          {
+            "capex": 1402668692.964,
+            "cash_taxes": 3963006613.8542876,
+            "da": 10052458966.242,
+            "delta_nwc": -590011434.342001,
+            "discount_factor": 0.7572178769856027,
+            "ebit": 19052916412.760998,
+            "ebit_margin": 0.2445,
+            "ebitda": 29105375379.003,
+            "fcff": 24329711506.52671,
+            "nol_balance_end": 59478350033.9598,
+            "nol_used": 3810583282.5522,
+            "nwc": -15507281661.102001,
+            "present_value_fcff": 18422892494.644344,
+            "revenue": 77926038498.0,
+            "revenue_growth": 0.05,
+            "year": 2029
+          },
+          {
+            "capex": 1425072429.0321748,
+            "cash_taxes": 4149810913.3416934,
+            "da": 10423386909.49248,
+            "delta_nwc": -534962254.28876686,
+            "discount_factor": 0.7063599598746294,
+            "ebit": 19951014006.450447,
+            "ebit_margin": 0.245,
+            "ebitda": 30374400915.942924,
+            "fcff": 25334479827.857826,
+            "nol_balance_end": 55488147232.66971,
+            "nol_used": 3990202801.2900896,
+            "nwc": -16042243915.390768,
+            "present_value_fcff": 17895262154.65026,
+            "revenue": 81432710230.40999,
+            "revenue_growth": 0.045,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "average",
+        "terminal_value": 486726390710.27893,
+        "terminal_value_present_value": 343804033812.0358,
+        "upside_downside_pct": 0.03794872244784764
+      }
+    },
+    "ticker": "ABBV"
+  },
+  "assumptions": {
+    "cash": 5229000000.0,
+    "current_price": 205.07,
+    "debt": 64997000000.0,
+    "diluted_shares": 1773000000.0,
+    "investments": 296000000.0,
+    "minority_interest": 42000000.0,
+    "net_debt_override": null,
+    "nol_balance": 73500000000.0,
+    "nol_utilization_pct": 0.2,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.24,
+    "tax_rate": 0.26,
+    "terminal_exit_ebitda_multiple": 14.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "average",
+    "wacc": 0.075
+  },
+  "company_name": "AbbVie Inc.",
+  "comps": [
+    {
+      "company_name": "Pfizer Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward (NTM) EV/revenue and EV/EBITDA not available from accessible public sources in this run; P/E (NTM) not captured. Fill with your preferred data vendor output.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PFE"
+    },
+    {
+      "company_name": "Merck & Co., Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward (NTM) EV/revenue and EV/EBITDA not available from accessible public sources in this run; P/E (NTM) not captured. Fill with your preferred data vendor output.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "MRK"
+    },
+    {
+      "company_name": "Bristol-Myers Squibb Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward (NTM) EV/revenue and EV/EBITDA not available from accessible public sources in this run; P/E (NTM) not captured. Fill with your preferred data vendor output.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "BMY"
+    },
+    {
+      "company_name": "Johnson & Johnson",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward (NTM) EV/revenue and EV/EBITDA not available from accessible public sources in this run; P/E (NTM) not captured. Fill with your preferred data vendor output.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "JNJ"
+    },
+    {
+      "company_name": "Amgen Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward (NTM) EV/revenue and EV/EBITDA not available from accessible public sources in this run; P/E (NTM) not captured. Fill with your preferred data vendor output.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "AMGN"
+    },
+    {
+      "company_name": "Novartis AG (ADR)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward (NTM) EV/revenue and EV/EBITDA not available from accessible public sources in this run; P/E (NTM) not captured. Fill with your preferred data vendor output.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "NVS"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0195,
+      "2027": 0.019,
+      "2028": 0.0185,
+      "2029": 0.0185,
+      "2030": 0.018
+    },
+    "da_pct_sales": {
+      "2026": 0.131,
+      "2027": 0.131,
+      "2028": 0.13,
+      "2029": 0.13,
+      "2030": 0.129
+    },
+    "ebit_margin": {
+      "2026": 0.235,
+      "2027": 0.238,
+      "2028": 0.239,
+      "2029": 0.2395,
+      "2030": 0.24
+    },
+    "nwc_pct_sales": {
+      "2026": -0.21,
+      "2027": -0.208,
+      "2028": -0.206,
+      "2029": -0.204,
+      "2030": -0.202
+    },
+    "revenue_growth": {
+      "2026": 0.06,
+      "2027": 0.05,
+      "2028": 0.045,
+      "2029": 0.04,
+      "2030": 0.035
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 777000000.0,
+      "2024": 974000000.0,
+      "2025": 1214000000.0
+    },
+    "da": {
+      "2023": 8698000000.0,
+      "2024": 8386000000.0,
+      "2025": 8139000000.0
+    },
+    "ebit": {
+      "2023": 12757000000.0,
+      "2024": 9137000000.0,
+      "2025": 15075000000.0
+    },
+    "nwc": {
+      "2023": -10462000000.0,
+      "2024": -11887000000.0,
+      "2025": -13400000000.0
+    },
+    "revenue": {
+      "2023": 54318000000.0,
+      "2024": 56334000000.0,
+      "2025": 61160000000.0
+    }
+  },
+  "notes": [
+    "EBIT proxy: \u2018ebit\u2019 uses AbbVie\u2019s \u2018Operating earnings\u2019 line from the consolidated statements of earnings (includes acquired IPR&D/milestones and any impairment charges), not a separately defined EBIT metric. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm))",
+    "D&A definition: \u2018da\u2019 equals Depreciation + Amortization of intangible assets from the cash flow statement reconciling net earnings to cash from operating activities. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm))",
+    "Capex definition: \u2018capex\u2019 equals \u2018Acquisitions of property and equipment\u2019 from the cash flow statement (cash outflow line). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm))",
+    "NWC calculation: NWC = (Total current assets \u2212 Cash and equivalents) \u2212 (Total current liabilities \u2212 Current portion of long-term debt and finance lease obligations). This yields negative NWC consistent with a payables-heavy working-capital model for a pharma distributor/marketer. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm))",
+    "Current price timing: finance quote timestamp is March 20, 2026; set as_of_date to 2026-03-20.",
+    "Comps gap: EV/NTM Revenue, EV/NTM EBITDA, and P/E (NTM) are set to null because forward-NTM multiples were not captured from accessible public sources in this run; populate from your preferred market-data terminal/vendor.",
+    "Tax and NOL utilization: base-case tax_rate (0.26) is a normalized assumption rather than FY2025 GAAP effective tax rate (which was much higher due to discrete factors). NOL utilization is modeled conservatively at 0.20 given large valuation allowances and uncertainty around realizability/timing. ([news.abbvie.com](https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Sustained outperformance/underperformance in Immunology franchise growth (Skyrizi/Rinvoq) and any changes in Humira decline trajectory. ([news.abbvie.com](https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results))",
+      "Pipeline/regulatory milestones and commercial launches that change the medium-term growth mix. ([news.abbvie.com](https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results))",
+      "Changes in payer behavior or U.S. government pricing dynamics under ongoing policy implementation. ([news.abbvie.com](https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results))"
+    ],
+    "company_overview": [
+      "AbbVie is a global biopharmaceutical company that discovers, develops, manufactures, and sells therapies across multiple therapeutic areas. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm))",
+      "FY2025 net revenues were $61.160B, with major growth led by Immunology franchises (Skyrizi and Rinvoq) following Humira loss of exclusivity. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm))",
+      "FY2025 top franchise net revenues included Skyrizi ($17.562B), Rinvoq ($8.304B), and Humira ($4.540B). ([news.abbvie.com](https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results))"
+    ],
+    "current_context": [
+      "FY2025 delivered net revenues of $61.160B (+8.6% reported) and operating earnings of $15.075B. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm))",
+      "AbbVie guided FY2026 adjusted diluted EPS to $14.37 to $14.57 (excluding unfavorable acquired IPR&D and milestones expense impact). ([news.abbvie.com](https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results))",
+      "Management cited continued momentum for 2026 growth supported by innovation investments, and announced a multi-year U.S. investment commitment under a voluntary agreement (details in press release). ([news.abbvie.com](https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes continued franchise resilience as Skyrizi and Rinvoq scale and Humira decline does not accelerate materially beyond current expectations. ([news.abbvie.com](https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results))",
+      "EBIT margin in the base case is modeled to normalize from 2024\u2019s lower level toward a mid-20% range by maintaining operating leverage as revenue grows. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm))",
+      "D&A intensity and capex intensity are held near recent historical levels (D&A supported by the existing intangible asset base; capex from recent cash-flow trends). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm))",
+      "Working capital is modeled using the company\u2019s structurally negative NWC profile (payables-heavy working capital), improving modestly toward less negative levels over time. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm))"
+    ],
+    "key_risks": [
+      "More severe-than-modeled pricing pressure (U.S. and international) and rebate/chargeback headwinds. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm))",
+      "Unexpected impairment charges or acquisition/IPR&D timing effects that distort GAAP operating earnings and tax outcomes. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm))",
+      "Greater working-capital cash drag if payables turnover, inventory, or accrual dynamics shift unfavorably."
+    ],
+    "sources": [
+      {
+        "label": "AbbVie 2025 Annual Report on Form 10-K (SEC)",
+        "notes": "Consolidated net revenues, operating earnings, cash flow D&A components, capex (property & equipment acquisitions), balance sheet cash/debt/current assets/current liabilities, and NOL carryforward amounts. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm))",
+        "url": null
+      },
+      {
+        "label": "AbbVie 2024 Annual Report on Form 10-K (SEC)",
+        "notes": "Balance sheet line items for computing NWC for FY2023. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1551152/000155115225000020/abbv-20241231.htm))",
+        "url": null
+      },
+      {
+        "label": "AbbVie FY2025 financial results press release (Feb 4, 2026)",
+        "notes": "FY2025 franchise performance, FY2026 adjusted diluted EPS guidance range, and near-term strategic/trading context. ([news.abbvie.com](https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results))",
+        "url": null
+      }
+    ],
+    "subtitle": "AbbVie (ABBV) \u2014 DCF base case with bull/bear sensitivities",
+    "valuation_summary": [
+      "DCF base case chains explicit revenue growth and EBIT margin assumptions from FY2025, with a terminal growth rate of 2.0% and a terminal value built using an \u2018average\u2019 method between Gordon growth and an exit multiple.",
+      "The WACC (7.5%) and terminal multiple (14.0x) are set to reflect a large-cap, mature biopharma risk profile; bull/bear scenarios move discount rate, terminal growth, and operating assumptions modestly."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.235,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 13.0,
+        "terminal_growth": 0.018,
+        "terminal_method": "average",
+        "wacc": 0.078
+      },
+      "description": "Modestly weaker growth and margin normalization versus base; higher effective reinvestment needs and less favorable working-capital dynamics; slightly higher discount rate and more conservative terminal assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.02,
+          "2027": 0.0195,
+          "2028": 0.019,
+          "2029": 0.019,
+          "2030": 0.0185
+        },
+        "da_pct_sales": {
+          "2026": 0.132,
+          "2027": 0.132,
+          "2028": 0.131,
+          "2029": 0.131,
+          "2030": 0.13
+        },
+        "ebit_margin": {
+          "2026": 0.23,
+          "2027": 0.233,
+          "2028": 0.234,
+          "2029": 0.2345,
+          "2030": 0.235
+        },
+        "nwc_pct_sales": {
+          "2026": -0.215,
+          "2027": -0.213,
+          "2028": -0.211,
+          "2029": -0.209,
+          "2030": -0.207
+        },
+        "revenue_growth": {
+          "2026": 0.04,
+          "2027": 0.035,
+          "2028": 0.03,
+          "2029": 0.025,
+          "2030": 0.02
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.245,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 15.0,
+        "terminal_growth": 0.022,
+        "terminal_method": "average",
+        "wacc": 0.072
+      },
+      "description": "Modestly stronger revenue growth, better-than-base operating leverage, and slightly improved working-capital efficiency; slightly lower discount rate and higher terminal value assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.019,
+          "2027": 0.0185,
+          "2028": 0.018,
+          "2029": 0.018,
+          "2030": 0.0175
+        },
+        "da_pct_sales": {
+          "2026": 0.13,
+          "2027": 0.13,
+          "2028": 0.129,
+          "2029": 0.129,
+          "2030": 0.128
+        },
+        "ebit_margin": {
+          "2026": 0.24,
+          "2027": 0.243,
+          "2028": 0.244,
+          "2029": 0.2445,
+          "2030": 0.245
+        },
+        "nwc_pct_sales": {
+          "2026": -0.205,
+          "2027": -0.203,
+          "2028": -0.201,
+          "2029": -0.199,
+          "2030": -0.197
+        },
+        "revenue_growth": {
+          "2026": 0.08,
+          "2027": 0.065,
+          "2028": 0.055,
+          "2029": 0.05,
+          "2030": 0.045
+        }
+      }
+    }
+  },
+  "ticker": "ABBV"
+}

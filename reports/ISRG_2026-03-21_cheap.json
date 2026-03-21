@@ -1,0 +1,677 @@
+{
+  "_meta": {
+    "cost_usd": 0.020701,
+    "generated_at": "2026-03-21T14:44:09Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10235,
+      "prompt": 2515,
+      "reasoning": 5923
+    }
+  },
+  "_valuation": {
+    "company_name": "Intuitive Surgical, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 477.97,
+        "description": "Base case",
+        "enterprise_value": 30697756682.103218,
+        "equity_value": 39614156682.10322,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 36525431053.67489,
+        "implied_market_cap": 39614156682.10322,
+        "investments_adjustment": 5666100000.0,
+        "net_debt": -3368000000.0,
+        "per_share_value": 109.2201728207974,
+        "projected_years": [
+          {
+            "capex": 614449935.0000001,
+            "cash_taxes": 417109975.05320007,
+            "da": 714996288.0000001,
+            "delta_nwc": 228386145.00000024,
+            "discount_factor": 0.8810572687224669,
+            "ebit": 3262170564.0000005,
+            "ebit_margin": 0.292,
+            "ebitda": 3977166852.0000005,
+            "fcff": 2717220796.9468,
+            "nol_balance_end": 0.0,
+            "nol_used": 85400000.0,
+            "nwc": 2066786145.0000002,
+            "present_value_fcff": 2394027133.8738327,
+            "revenue": 11171817000.000002,
+            "revenue_growth": 0.11,
+            "year": 2026
+          },
+          {
+            "capex": 675894928.5000002,
+            "cash_taxes": 472768840.0878301,
+            "da": 786495916.8000003,
+            "delta_nwc": 206678614.50000024,
+            "discount_factor": 0.7762619107686933,
+            "ebit": 3600676619.100001,
+            "ebit_margin": 0.293,
+            "ebitda": 4387172535.900002,
+            "fcff": 3031830152.812171,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2273464759.5000005,
+            "present_value_fcff": 2353494267.5481153,
+            "revenue": 12288998700.000004,
+            "revenue_growth": 0.1,
+            "year": 2027
+          },
+          {
+            "capex": 736725472.0650003,
+            "cash_taxes": 517076800.3226828,
+            "da": 857280549.3120004,
+            "delta_nwc": 191216819.7720003,
+            "discount_factor": 0.6839311989151483,
+            "ebit": 3938132523.4020014,
+            "ebit_margin": 0.294,
+            "ebitda": 4795413072.714002,
+            "fcff": 3350393980.5543184,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2464681579.272001,
+            "present_value_fcff": 2291438971.958611,
+            "revenue": 13395008583.000006,
+            "revenue_growth": 0.09,
+            "year": 2028
+          },
+          {
+            "capex": 795663509.8302004,
+            "cash_taxes": 558442944.3484974,
+            "da": 925862993.2569605,
+            "delta_nwc": 197174526.34176064,
+            "discount_factor": 0.6025825541102628,
+            "ebit": 4253183125.274162,
+            "ebit_margin": 0.294,
+            "ebitda": 5179046118.531122,
+            "fcff": 3627765138.010664,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2661856105.6137614,
+            "present_value_fcff": 2186027982.574636,
+            "revenue": 14466609269.640007,
+            "revenue_growth": 0.08,
+            "year": 2029
+          },
+          {
+            "capex": 851359955.5183145,
+            "cash_taxes": 599566378.8557934,
+            "da": 990673402.7849478,
+            "delta_nwc": 186329927.3929634,
+            "discount_factor": 0.5309097393041963,
+            "ebit": 4566385215.961868,
+            "ebit_margin": 0.295,
+            "ebitda": 5557058618.746816,
+            "fcff": 3919802356.979745,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2848186033.006725,
+            "present_value_fcff": 2081061247.4680905,
+            "revenue": 15479271918.514809,
+            "revenue_growth": 0.07,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 36525431053.67489,
+        "terminal_value_present_value": 19391707078.67993,
+        "upside_downside_pct": -0.7714915730677712
+      },
+      "bear": {
+        "current_price": 477.97,
+        "description": "Moderately lower growth and slightly compressed EBIT margin vs. base case; slightly higher discount rate and lower terminal growth.",
+        "enterprise_value": 26336659248.290276,
+        "equity_value": 35253059248.290276,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 30874793237.33486,
+        "implied_market_cap": 35253059248.290276,
+        "investments_adjustment": 5666100000.0,
+        "net_debt": -3368000000.0,
+        "per_share_value": 97.19619313010828,
+        "projected_years": [
+          {
+            "capex": 608914350.0,
+            "cash_taxes": 407436630.84799993,
+            "da": 708554880.0,
+            "delta_nwc": 209766450.0,
+            "discount_factor": 0.8733624454148472,
+            "ebit": 3188496959.9999995,
+            "ebit_margin": 0.288,
+            "ebitda": 3897051839.9999995,
+            "fcff": 2670934409.1519995,
+            "nol_balance_end": 0.0,
+            "nol_used": 85400000.0,
+            "nwc": 2048166450.0,
+            "present_value_fcff": 2332693807.1196504,
+            "revenue": 11071170000.0,
+            "revenue_growth": 0.1,
+            "year": 2026
+          },
+          {
+            "capex": 663716641.5,
+            "cash_taxes": 457912592.06121,
+            "da": 772324819.2,
+            "delta_nwc": 184334980.5,
+            "discount_factor": 0.7627619610610018,
+            "ebit": 3487529261.7,
+            "ebit_margin": 0.289,
+            "ebitda": 4259854080.8999996,
+            "fcff": 2953889866.83879,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2232501430.5,
+            "present_value_fcff": 2253114827.5881767,
+            "revenue": 12067575300.0,
+            "revenue_growth": 0.09,
+            "year": 2027
+          },
+          {
+            "capex": 716813972.82,
+            "cash_taxes": 496256829.8739479,
+            "da": 834110804.7360001,
+            "delta_nwc": 165567133.11600018,
+            "discount_factor": 0.666167651581661,
+            "ebit": 3779564583.9599996,
+            "ebit_margin": 0.29,
+            "ebitda": 4613675388.695999,
+            "fcff": 3235037452.886051,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2398068563.616,
+            "present_value_fcff": 2155077302.767819,
+            "revenue": 13032981324.0,
+            "revenue_growth": 0.08,
+            "year": 2028
+          },
+          {
+            "capex": 766990950.9174,
+            "cash_taxes": 530994807.9651243,
+            "da": 892498561.06752,
+            "delta_nwc": 167864799.45311975,
+            "discount_factor": 0.5818058092416253,
+            "ebit": 4044134104.8371997,
+            "ebit_margin": 0.29,
+            "ebitda": 4936632665.904719,
+            "fcff": 3470782107.5690756,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2565933363.06912,
+            "present_value_fcff": 2019321192.7955797,
+            "revenue": 13945290016.68,
+            "revenue_growth": 0.07,
+            "year": 2029
+          },
+          {
+            "capex": 813010407.972444,
+            "cash_taxes": 564795374.0169733,
+            "da": 946048474.7315713,
+            "delta_nwc": 153956001.78414726,
+            "discount_factor": 0.50812734431583,
+            "ebit": 4301564158.545113,
+            "ebit_margin": 0.291,
+            "ebitda": 5247612633.276684,
+            "fcff": 3715850849.503119,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2719889364.853267,
+            "present_value_fcff": 1888125424.0317407,
+            "revenue": 14782007417.680801,
+            "revenue_growth": 0.06,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 30874793237.33486,
+        "terminal_value_present_value": 15688326693.98731,
+        "upside_downside_pct": -0.796647921145452
+      },
+      "bull": {
+        "current_price": 477.97,
+        "description": "Moderately higher top-line growth and gradual margin expansion vs. base case; slightly lower discount rate and higher terminal growth.",
+        "enterprise_value": 36173823925.71988,
+        "equity_value": 45090223925.71988,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 43464611826.45395,
+        "implied_market_cap": 45090223925.71988,
+        "investments_adjustment": 5666100000.0,
+        "net_debt": -3368000000.0,
+        "per_share_value": 124.31823525150229,
+        "projected_years": [
+          {
+            "capex": 619985520.0000001,
+            "cash_taxes": 428369113.39040005,
+            "da": 721437696.0000001,
+            "delta_nwc": 247005840.00000024,
+            "discount_factor": 0.8888888888888888,
+            "ebit": 3347921808.0000005,
+            "ebit_margin": 0.297,
+            "ebitda": 4069359504.0000005,
+            "fcff": 2773999030.6096,
+            "nol_balance_end": 0.0,
+            "nol_used": 85400000.0,
+            "nwc": 2085405840.0000002,
+            "present_value_fcff": 2465776916.097422,
+            "revenue": 11272464000.000002,
+            "revenue_growth": 0.12,
+            "year": 2026
+          },
+          {
+            "capex": 688183927.2000002,
+            "cash_taxes": 489579050.7840961,
+            "da": 800795842.5600003,
+            "delta_nwc": 229394642.40000033,
+            "discount_factor": 0.7901234567901234,
+            "ebit": 3728705641.920001,
+            "ebit_margin": 0.298,
+            "ebitda": 4529501484.480001,
+            "fcff": 3122343864.0959044,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2314800482.4000006,
+            "present_value_fcff": 2467037127.1868873,
+            "revenue": 12512435040.000004,
+            "revenue_growth": 0.11,
+            "year": 2027
+          },
+          {
+            "capex": 757002319.9200003,
+            "cash_taxes": 540344126.855333,
+            "da": 880875426.8160003,
+            "delta_nwc": 217716369.69600058,
+            "discount_factor": 0.7023319615912208,
+            "ebit": 4115339884.6560016,
+            "ebit_margin": 0.299,
+            "ebitda": 4996215311.472002,
+            "fcff": 3481152495.000668,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2532516852.096001,
+            "present_value_fcff": 2444924660.4119916,
+            "revenue": 13763678544.000006,
+            "revenue_growth": 0.1,
+            "year": 2028
+          },
+          {
+            "capex": 825132528.7128004,
+            "cash_taxes": 588975098.272313,
+            "da": 960154215.2294405,
+            "delta_nwc": 227926516.68864012,
+            "discount_factor": 0.6242950769699741,
+            "ebit": 4485720474.275042,
+            "ebit_margin": 0.299,
+            "ebitda": 5445874689.504482,
+            "fcff": 3803840545.8307285,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2760443368.7846413,
+            "present_value_fcff": 2374718926.340903,
+            "revenue": 15002409612.960007,
+            "revenue_growth": 0.09,
+            "year": 2029
+          },
+          {
+            "capex": 891143131.0098245,
+            "cash_taxes": 638220507.8268543,
+            "da": 1036966552.4477957,
+            "delta_nwc": 220835469.50277138,
+            "discount_factor": 0.5549289573066436,
+            "ebit": 4860780714.599043,
+            "ebit_margin": 0.3,
+            "ebitda": 5897747267.046839,
+            "fcff": 4147548158.707388,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2981278838.2874126,
+            "present_value_fcff": 2301594575.0905805,
+            "revenue": 16202602381.996809,
+            "revenue_growth": 0.08,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 43464611826.45395,
+        "terminal_value_present_value": 24119771720.5921,
+        "upside_downside_pct": -0.7399036858976458
+      }
+    },
+    "ticker": "ISRG"
+  },
+  "assumptions": {
+    "cash": 3368000000.0,
+    "current_price": 477.97,
+    "debt": 0.0,
+    "diluted_shares": 362700000.0,
+    "investments": 5666100000.0,
+    "minority_interest": 117700000.0,
+    "net_debt_override": null,
+    "nol_balance": 85400000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.295,
+    "tax_rate": 0.1313,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.135
+  },
+  "company_name": "Intuitive Surgical, Inc.",
+  "comps": [
+    {
+      "company_name": "Medtronic plc",
+      "ev_ntm_ebitda": 13.79,
+      "ev_ntm_revenue": 3.67,
+      "notes": "EV / Sales and EV / EBITDA taken from StockAnalysis valuation ratios; not explicitly labeled NTM in the page. ([stockanalysis.com](https://stockanalysis.com/stocks/mdt/statistics/))",
+      "pe_ntm": 14.49,
+      "source": "StockAnalysis.com (statistics page valuation ratios)",
+      "ticker": "MDT"
+    },
+    {
+      "company_name": "Stryker Corporation",
+      "ev_ntm_ebitda": 20.25,
+      "ev_ntm_revenue": 5.6,
+      "notes": "EV / Sales and EV / EBITDA taken from StockAnalysis valuation ratios; not explicitly labeled NTM in the page. ([stockanalysis.com](https://stockanalysis.com/stocks/syk/statistics/))",
+      "pe_ntm": 22.42,
+      "source": "StockAnalysis.com (statistics page valuation ratios)",
+      "ticker": "SYK"
+    },
+    {
+      "company_name": "Boston Scientific Corporation",
+      "ev_ntm_ebitda": 21.19,
+      "ev_ntm_revenue": 5.63,
+      "notes": "EV / Sales and EV / EBITDA taken from StockAnalysis valuation ratios; not explicitly labeled NTM in the page. ([stockanalysis.com](https://stockanalysis.com/stocks/bsx/statistics/))",
+      "pe_ntm": 20.03,
+      "source": "StockAnalysis.com (statistics page valuation ratios)",
+      "ticker": "BSX"
+    },
+    {
+      "company_name": "Edwards Lifesciences Corporation",
+      "ev_ntm_ebitda": 24.74,
+      "ev_ntm_revenue": 7.32,
+      "notes": "EV / Sales and EV / EBITDA taken from StockAnalysis valuation ratios; not explicitly labeled NTM in the page. ([stockanalysis.com](https://stockanalysis.com/stocks/ew/statistics/))",
+      "pe_ntm": 27.9,
+      "source": "StockAnalysis.com (statistics page valuation ratios)",
+      "ticker": "EW"
+    },
+    {
+      "company_name": "Zimmer Biomet Holdings",
+      "ev_ntm_ebitda": 9.89,
+      "ev_ntm_revenue": 3.0,
+      "notes": "EV / Sales and EV / EBITDA taken from StockAnalysis valuation ratios; not explicitly labeled NTM in the page. ([stockanalysis.com](https://stockanalysis.com/stocks/zbh/statistics/))",
+      "pe_ntm": 10.45,
+      "source": "StockAnalysis.com (statistics page valuation ratios)",
+      "ticker": "ZBH"
+    },
+    {
+      "company_name": "Hologic, Inc.",
+      "ev_ntm_ebitda": 12.57,
+      "ev_ntm_revenue": 4.11,
+      "notes": "EV / Sales and EV / EBITDA taken from StockAnalysis valuation ratios; not explicitly labeled NTM in the page. ([stockanalysis.com](https://stockanalysis.com/stocks/holx/statistics/))",
+      "pe_ntm": 16.74,
+      "source": "StockAnalysis.com (statistics page valuation ratios)",
+      "ticker": "HOLX"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.055,
+      "2027": 0.055,
+      "2028": 0.055,
+      "2029": 0.055,
+      "2030": 0.055
+    },
+    "da_pct_sales": {
+      "2026": 0.064,
+      "2027": 0.064,
+      "2028": 0.064,
+      "2029": 0.064,
+      "2030": 0.064
+    },
+    "ebit_margin": {
+      "2026": 0.292,
+      "2027": 0.293,
+      "2028": 0.294,
+      "2029": 0.294,
+      "2030": 0.295
+    },
+    "nwc_pct_sales": {
+      "2026": 0.185,
+      "2027": 0.185,
+      "2028": 0.184,
+      "2029": 0.184,
+      "2030": 0.184
+    },
+    "revenue_growth": {
+      "2026": 0.11,
+      "2027": 0.1,
+      "2028": 0.09,
+      "2029": 0.08,
+      "2030": 0.07
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 1064200000.0,
+      "2024": 1111200000.0,
+      "2025": 539800000.0
+    },
+    "da": {
+      "2023": 454800000.0,
+      "2024": 499700000.0,
+      "2025": 677100000.0
+    },
+    "ebit": {
+      "2023": 1766800000.0,
+      "2024": 2348900000.0,
+      "2025": 2945500000.0
+    },
+    "nwc": {
+      "2023": 1006100000.0,
+      "2024": 1352400000.0,
+      "2025": 1838400000.0
+    },
+    "revenue": {
+      "2023": 7124100000.0,
+      "2024": 8352100000.0,
+      "2025": 10064700000.0
+    }
+  },
+  "notes": [
+    "Historical FY2023-FY2025 financials are sourced from Intuitive Surgical\u2019s FY2025 Form 10-K: total revenue and Income from operations (used as EBIT proxy). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+    "EBIT is defined here as Income from operations (i.e., interest is excluded). If your DCF pipeline computes EBIT differently (e.g., EBIT = pre-tax + interest), adjust accordingly. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+    "D&A is approximated using cash-flow line items: (1) Depreciation and loss on disposal of property, plant and equipment, net plus (2) Amortization of intangible and other assets. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+    "Capex is approximated as 'Purchases of property, plant, and equipment' from the cash-flow statement. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+    "NWC construction: (Accounts receivable + Inventory + Prepaids and other current assets) \u2212 (Accounts payable + Accrued compensation and employee benefits + Deferred revenue + Other accrued liabilities), excluding Cash and Investments by not including them in current assets. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+    "NWC may differ from a pipeline\u2019s alternative working-capital definition (e.g., exclusion/inclusion of lease-related receivables within prepaids and other current assets, or treatment of deferred commissions/revenue). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+    "Tax rate is set to FY2025 effective tax rate (GAAP) derived from the company\u2019s income tax expense versus income before taxes. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+    "WACC is set to 0.135 (13.47%) based on market-data proxy from StockAnalysis.com; this is an input assumption rather than a filing-derived capital structure model. ([stockanalysis.com](https://stockanalysis.com/stocks/isrg/statistics/))",
+    "NOL balance is set to $85.4M federal/state net operating loss carryforwards as of Dec 31, 2025; NOL utilization percent is a modeling assumption (0.80) because the filing does not provide a pipeline-ready utilization rate. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+    "Comps: EV/Sales and EV/EBITDA are taken from StockAnalysis.com valuation ratios; the site is not explicitly labeling these as NTM within the captured snippet, so they are treated as directional. ([stockanalysis.com](https://stockanalysis.com/stocks/mdt/statistics/))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Re-acceleration (or further deceleration) in da Vinci procedure growth relative to the 2026 guided 13%-15% range. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/01/22/3224266/7637/en/Intuitive-Announces-Fourth-Quarter-Earnings.html?utm_source=openai))",
+      "Sustained improvement in operating margin/operating leverage if mix shifts toward higher-margin activity and/or gross margin holds. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+      "Changes in working capital intensity (inventory/receivables/deferred revenue) that affect free-cash-flow conversion vs. base-case NWC assumptions. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))"
+    ],
+    "company_overview": [
+      "Intuitive Surgical is a global technology leader in minimally invasive robotic-assisted surgery, anchored by the da Vinci platform. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+      "The company reports one operating segment under US GAAP, simplifying model structure for DCF inputs. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+      "Revenue is split between Product and Service lines, with Service forming a recurring component tied to the installed base. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))"
+    ],
+    "current_context": [
+      "In its Q4 2025 press release (Jan 22, 2026), management guided worldwide da Vinci procedure growth for 2026 at approximately 13%-15% (vs. 18% in 2025). ([globenewswire.com](https://www.globenewswire.com/news-release/2026/01/22/3224266/7637/en/Intuitive-Announces-Fourth-Quarter-Earnings.html?utm_source=openai))",
+      "FY2025 results show Total revenue of $10,064.7M and Income from operations (EBIT proxy) of $2,945.5M. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+      "Balance sheet remains liquid, with Cash and cash equivalents of $3,368.0M and Short-term + long-term investments of $5,666.1M as of Dec 31, 2025. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))"
+    ],
+    "investment_highlights": [
+      "Base case models continued deceleration in revenue growth (from FY2025\u2019s strong rate) while maintaining near-recent EBIT margin levels. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+      "DCF build emphasizes operating profitability (EBIT margin) supported by scale across Service and Product revenues. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+      "Cash generation is reinforced by recurring economics: FY2025 operating cash flow of $3,030.5M with maintenance/normalization capex assumptions in the model. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+      "Working capital intensity is explicitly modeled via NWC as a percent of sales to reflect the ongoing build of receivables/inventory/deferred revenue typical for the business model. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))"
+    ],
+    "key_risks": [
+      "Procedure growth shortfall or adverse regional mix versus the guided cadence can pressure revenue growth and margin trajectory. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/01/22/3224266/7637/en/Intuitive-Announces-Fourth-Quarter-Earnings.html?utm_source=openai))",
+      "Tariffs/reimbursement/regulatory dynamics and competitive pressures could constrain margins or utilization economics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+      "Model sensitivity to WACC and terminal growth is high given the long-duration nature of cash flows (especially with gordon-growth terminalization). ([stockanalysis.com](https://stockanalysis.com/stocks/isrg/statistics/))"
+    ],
+    "sources": [
+      {
+        "label": "FY2025 Form 10-K (SEC filing)",
+        "notes": "Used for historical revenue, income from operations (EBIT proxy), cash flow (depreciation/amortization proxy and capex proxy), balance sheet (cash/investments and working capital components), and NOL carryforwards. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000010/isrg-20251231.htm))",
+        "url": null
+      },
+      {
+        "label": "Q4 2025 press release (Jan 22, 2026) \u2014 guidance for 2026 procedure growth",
+        "notes": "Used for the latest reported 2026 da Vinci procedure growth range. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/01/22/3224266/7637/en/Intuitive-Announces-Fourth-Quarter-Earnings.html?utm_source=openai))",
+        "url": null
+      },
+      {
+        "label": "Market data for current price and discount-rate/tax-rate proxies",
+        "notes": "Current share price used in the model, and WACC/effective tax-rate proxies from StockAnalysis.com statistics. ([stockanalysis.com](https://stockanalysis.com/stocks/isrg/statistics/))",
+        "url": null
+      },
+      {
+        "label": "Peer valuation multiples (EV/Sales, EV/EBITDA, forward P/E)",
+        "notes": "StockAnalysis.com peer statistics pages used to populate comps. ([stockanalysis.com](https://stockanalysis.com/stocks/mdt/statistics/))",
+        "url": null
+      }
+    ],
+    "subtitle": "DCF & Comps Input Pack \u2014 Intuitive Surgical (ISRG)",
+    "valuation_summary": [
+      "DCF base case uses a gordon-growth terminal approach with terminal growth set to 0.025 and a risk-adjusted WACC set to ~0.135 (13.47% on a market-data basis). ([stockanalysis.com](https://stockanalysis.com/stocks/isrg/statistics/))",
+      "Comps use EV/Sales, EV/EBITDA, and forward P/E from a focused medtech peer set to triangulate the implied valuation range alongside the DCF. ([stockanalysis.com](https://stockanalysis.com/stocks/mdt/statistics/))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.291,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.145
+      },
+      "description": "Moderately lower growth and slightly compressed EBIT margin vs. base case; slightly higher discount rate and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.055,
+          "2027": 0.055,
+          "2028": 0.055,
+          "2029": 0.055,
+          "2030": 0.055
+        },
+        "da_pct_sales": {
+          "2026": 0.064,
+          "2027": 0.064,
+          "2028": 0.064,
+          "2029": 0.064,
+          "2030": 0.064
+        },
+        "ebit_margin": {
+          "2026": 0.288,
+          "2027": 0.289,
+          "2028": 0.29,
+          "2029": 0.29,
+          "2030": 0.291
+        },
+        "nwc_pct_sales": {
+          "2026": 0.185,
+          "2027": 0.185,
+          "2028": 0.184,
+          "2029": 0.184,
+          "2030": 0.184
+        },
+        "revenue_growth": {
+          "2026": 0.1,
+          "2027": 0.09,
+          "2028": 0.08,
+          "2029": 0.07,
+          "2030": 0.06
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.3,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.027,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.125
+      },
+      "description": "Moderately higher top-line growth and gradual margin expansion vs. base case; slightly lower discount rate and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.055,
+          "2027": 0.055,
+          "2028": 0.055,
+          "2029": 0.055,
+          "2030": 0.055
+        },
+        "da_pct_sales": {
+          "2026": 0.064,
+          "2027": 0.064,
+          "2028": 0.064,
+          "2029": 0.064,
+          "2030": 0.064
+        },
+        "ebit_margin": {
+          "2026": 0.297,
+          "2027": 0.298,
+          "2028": 0.299,
+          "2029": 0.299,
+          "2030": 0.3
+        },
+        "nwc_pct_sales": {
+          "2026": 0.185,
+          "2027": 0.185,
+          "2028": 0.184,
+          "2029": 0.184,
+          "2030": 0.184
+        },
+        "revenue_growth": {
+          "2026": 0.12,
+          "2027": 0.11,
+          "2028": 0.1,
+          "2029": 0.09,
+          "2030": 0.08
+        }
+      }
+    }
+  },
+  "ticker": "ISRG"
+}

@@ -1,0 +1,659 @@
+{
+  "_meta": {
+    "cost_usd": 0.026932,
+    "generated_at": "2026-03-21T14:54:53Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12165,
+      "prompt": 2514,
+      "reasoning": 8978
+    }
+  },
+  "_valuation": {
+    "company_name": "Zoetis Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 115.67,
+        "description": "Base case",
+        "enterprise_value": 70481553426.66083,
+        "equity_value": 63751553426.66083,
+        "exit_multiple_terminal_value": 87936775149.54568,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 63751553426.66083,
+        "investments_adjustment": 0.0,
+        "net_debt": 6730000000.0,
+        "per_share_value": 143.6379587609378,
+        "projected_years": [
+          {
+            "capex": 675300044.0,
+            "cash_taxes": 733375847.7839999,
+            "da": 526336799.0,
+            "delta_nwc": 43241324.0,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 3594979646.0,
+            "ebit_margin": 0.362,
+            "ebitda": 4121316445.0,
+            "fcff": 2669399229.216,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2264241324.0,
+            "present_value_fcff": 2464819232.886427,
+            "revenue": 9930883000.0,
+            "revenue_growth": 0.049,
+            "year": 2026
+          },
+          {
+            "capex": 695310773.245,
+            "cash_taxes": 768494826.57222,
+            "da": 547946400.408,
+            "delta_nwc": 60379768.63999987,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 3767131502.805,
+            "ebit_margin": 0.363,
+            "ebitda": 4315077903.212999,
+            "fcff": 2790892534.75578,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2324621092.64,
+            "present_value_fcff": 2379502693.567576,
+            "revenue": 10377772735.0,
+            "revenue_growth": 0.045,
+            "year": 2027
+          },
+          {
+            "capex": 719107006.126355,
+            "cash_taxes": 805183574.0777202,
+            "da": 568797421.3871621,
+            "delta_nwc": 86820446.70101023,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 3946978304.3025503,
+            "ebit_margin": 0.365,
+            "ebitda": 4515775725.689713,
+            "fcff": 2904664698.784627,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2411441539.34101,
+            "present_value_fcff": 2286707608.452699,
+            "revenue": 10813639189.87,
+            "revenue_growth": 0.042,
+            "year": 2028
+          },
+          {
+            "capex": 742248193.992677,
+            "cash_taxes": 839685138.7313519,
+            "da": 590424699.7669021,
+            "delta_nwc": 85211476.81617594,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 4116103621.232117,
+            "ebit_margin": 0.366,
+            "ebitda": 4706528320.99902,
+            "fcff": 3039383511.458814,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2496653016.157186,
+            "present_value_fcff": 2209386401.2693777,
+            "revenue": 11246184757.464802,
+            "revenue_growth": 0.04,
+            "year": 2029
+          },
+          {
+            "capex": 764616855.4752744,
+            "cash_taxes": 871593174.0031432,
+            "da": 612860838.3580444,
+            "delta_nwc": 94872814.61397314,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 4272515558.8389378,
+            "ebit_margin": 0.366,
+            "ebitda": 4885376397.196982,
+            "fcff": 3154293553.1045914,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2591525830.771159,
+            "present_value_fcff": 2117189956.847068,
+            "revenue": 11673539778.248465,
+            "revenue_growth": 0.038,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 87936775149.54568,
+        "terminal_value_present_value": 59023947533.63767,
+        "upside_downside_pct": 0.24179094632089404
+      },
+      "bear": {
+        "current_price": 115.67,
+        "description": "Modestly weaker growth and margins; slightly higher discount rate and lower terminal multiple.",
+        "enterprise_value": 65036243465.45461,
+        "equity_value": 58306243465.45461,
+        "exit_multiple_terminal_value": 81374566191.77039,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 58306243465.45461,
+        "investments_adjustment": 0.0,
+        "net_debt": 6730000000.0,
+        "per_share_value": 131.3691877960382,
+        "projected_years": [
+          {
+            "capex": 683271258.0,
+            "cash_taxes": 725218171.752,
+            "da": 529782787.0,
+            "delta_nwc": 56570860.0,
+            "discount_factor": 0.9208103130755064,
+            "ebit": 3554991038.0,
+            "ebit_margin": 0.359,
+            "ebitda": 4084773825.0,
+            "fcff": 2619713535.248,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2277570860.0,
+            "present_value_fcff": 2412259240.5598526,
+            "revenue": 9902482000.0,
+            "revenue_growth": 0.046,
+            "year": 2026
+          },
+          {
+            "capex": 701650264.592,
+            "cash_taxes": 757782285.7593598,
+            "da": 549969986.8052,
+            "delta_nwc": 54384431.14400005,
+            "discount_factor": 0.8478916326662121,
+            "ebit": 3714619047.8399997,
+            "ebit_margin": 0.36,
+            "ebitda": 4264589034.6452,
+            "fcff": 2750772053.14984,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2331955291.144,
+            "present_value_fcff": 2332356607.2378063,
+            "revenue": 10318386244.0,
+            "revenue_growth": 0.042,
+            "year": 2027
+          },
+          {
+            "capex": 718293821.603572,
+            "cash_taxes": 791709882.6534413,
+            "da": 569274655.6290996,
+            "delta_nwc": 80225453.04709959,
+            "discount_factor": 0.780747359729477,
+            "ebit": 3880930797.3207912,
+            "ebit_margin": 0.362,
+            "ebitda": 4450205452.949891,
+            "fcff": 2859976295.645778,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2412180744.1910996,
+            "present_value_fcff": 2232918941.714331,
+            "revenue": 10720803307.515999,
+            "revenue_growth": 0.039,
+            "year": 2028
+          },
+          {
+            "capex": 739311956.4879571,
+            "cash_taxes": 823271112.8097172,
+            "da": 589226070.5843868,
+            "delta_nwc": 78133214.50517654,
+            "discount_factor": 0.7189202207453748,
+            "ebit": 4035642709.851555,
+            "ebit_margin": 0.363,
+            "ebitda": 4624868780.435942,
+            "fcff": 2984152496.633091,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2490313958.696276,
+            "present_value_fcff": 2145367571.617323,
+            "revenue": 11117473029.89409,
+            "revenue_growth": 0.037,
+            "year": 2029
+          },
+          {
+            "capex": 759434582.6720653,
+            "cash_taxes": 852085601.7580571,
+            "da": 609848983.0548402,
+            "delta_nwc": 87160988.55436945,
+            "discount_factor": 0.6619891535408606,
+            "ebit": 4176890204.6963587,
+            "ebit_margin": 0.363,
+            "ebitda": 4786739187.751199,
+            "fcff": 3088058014.766707,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2577474947.2506456,
+            "present_value_fcff": 2044260911.2804828,
+            "revenue": 11506584585.940382,
+            "revenue_growth": 0.035,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 81374566191.77039,
+        "terminal_value_present_value": 53869080193.044815,
+        "upside_downside_pct": 0.1357239370280816
+      },
+      "bull": {
+        "current_price": 115.67,
+        "description": "Modestly higher growth and margin durability; slightly lower discount rate and higher terminal multiple.",
+        "enterprise_value": 75891380844.92523,
+        "equity_value": 69161380844.92523,
+        "exit_multiple_terminal_value": 94727576118.47798,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 69161380844.92523,
+        "investments_adjustment": 0.0,
+        "net_debt": 6730000000.0,
+        "per_share_value": 155.8267843791617,
+        "projected_years": [
+          {
+            "capex": 667272028.0,
+            "cash_taxes": 741568286.64,
+            "da": 522862410.0,
+            "delta_nwc": 29798184.0,
+            "discount_factor": 0.9250693802035153,
+            "ebit": 3635138660.0,
+            "ebit_margin": 0.365,
+            "ebitda": 4158001070.0,
+            "fcff": 2719362571.36,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2250798184.0,
+            "present_value_fcff": 2515599048.4366326,
+            "revenue": 9959284000.0,
+            "revenue_growth": 0.052,
+            "year": 2026
+          },
+          {
+            "capex": 694082420.528,
+            "cash_taxes": 779292779.6436479,
+            "da": 545872339.7536,
+            "delta_nwc": 66288994.3039999,
+            "discount_factor": 0.8557533581901159,
+            "ebit": 3820062645.312,
+            "ebit_margin": 0.366,
+            "ebitda": 4365934985.065599,
+            "fcff": 2826270790.5899525,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2317087178.304,
+            "present_value_fcff": 2418590720.201986,
+            "revenue": 10437329632.0,
+            "revenue_growth": 0.048,
+            "year": 2027
+          },
+          {
+            "capex": 719862624.7190399,
+            "cash_taxes": 818811014.5895115,
+            "da": 568255193.149424,
+            "delta_nwc": 93361913.55823994,
+            "discount_factor": 0.7916312286680074,
+            "ebit": 4013779483.2819195,
+            "ebit_margin": 0.368,
+            "ebitda": 4582034676.431343,
+            "fcff": 2949999123.5645523,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2410449091.86224,
+            "present_value_fcff": 2335311430.7569513,
+            "revenue": 10907009465.439999,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 745128712.1457317,
+            "cash_taxes": 856340594.4348412,
+            "da": 591552565.3676038,
+            "delta_nwc": 92273300.07762241,
+            "discount_factor": 0.7323138100536609,
+            "ebit": 4197748011.935496,
+            "ebit_margin": 0.369,
+            "ebitda": 4789300577.3031,
+            "fcff": 3095557970.644904,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2502722391.9398623,
+            "present_value_fcff": 2266919851.7249484,
+            "revenue": 11376010872.453918,
+            "revenue_growth": 0.043,
+            "year": 2029
+          },
+          {
+            "capex": 769757775.6845943,
+            "cash_taxes": 891450558.8066695,
+            "da": 615806220.5476754,
+            "delta_nwc": 102611618.06953382,
+            "discount_factor": 0.6774410823808149,
+            "ebit": 4369855680.42485,
+            "ebit_margin": 0.369,
+            "ebitda": 4985661900.972526,
+            "fcff": 3221841948.4117284,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2605334010.009396,
+            "present_value_fcff": 2182608096.791955,
+            "revenue": 11842427318.224527,
+            "revenue_growth": 0.041,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 94727576118.47798,
+        "terminal_value_present_value": 64172351697.01276,
+        "upside_downside_pct": 0.34716680538740974
+      }
+    },
+    "ticker": "ZTS"
+  },
+  "assumptions": {
+    "cash": 2312000000.0,
+    "current_price": 115.67,
+    "debt": 9042000000.0,
+    "diluted_shares": 443835000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.366,
+    "tax_rate": 0.204,
+    "terminal_exit_ebitda_multiple": 18.0,
+    "terminal_growth": 0.025,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.083
+  },
+  "company_name": "Zoetis Inc.",
+  "comps": [
+    {
+      "company_name": "IDEXX Laboratories, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E sourced from Yahoo Finance key statistics. EV/NTM revenue and EV/NTM EBITDA not captured in accessible excerpts; set to null.",
+      "pe_ntm": 46.95,
+      "source": "https://uk.finance.yahoo.com/quote/IDXX/key-statistics/",
+      "ticker": "IDXX"
+    },
+    {
+      "company_name": "Elanco Animal Health Incorporated",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E sourced from Disfold (forward multiple not guaranteed to be NTM in all providers). EV/NTM revenue and EV/NTM EBITDA not captured; set to null.",
+      "pe_ntm": 21.74,
+      "source": "https://disfold.com/stock/nyse-elan/",
+      "ticker": "ELAN"
+    },
+    {
+      "company_name": "Merck & Co., Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E sourced from Yahoo Finance excerpt (forward P/E shown across several quarter dates; used the first value in the excerpt). EV/NTM revenue/EBITDA not captured; set to null.",
+      "pe_ntm": 22.03,
+      "source": "https://uk.finance.yahoo.com/quote/MRK/key-statistics/",
+      "ticker": "MRK"
+    },
+    {
+      "company_name": "Bayer Aktiengesellschaft (ADR)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E and EV/NTM multiples not reliably captured from primary/high-quality sources within the available excerpts; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "BAYRY"
+    },
+    {
+      "company_name": "Phibro Animal Health Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Comps valuation multiples not pulled due to source-access limitations; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PAHC"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.068,
+      "2027": 0.067,
+      "2028": 0.0665,
+      "2029": 0.066,
+      "2030": 0.0655
+    },
+    "da_pct_sales": {
+      "2026": 0.053,
+      "2027": 0.0528,
+      "2028": 0.0526,
+      "2029": 0.0525,
+      "2030": 0.0525
+    },
+    "ebit_margin": {
+      "2026": 0.362,
+      "2027": 0.363,
+      "2028": 0.365,
+      "2029": 0.366,
+      "2030": 0.366
+    },
+    "nwc_pct_sales": {
+      "2026": 0.228,
+      "2027": 0.224,
+      "2028": 0.223,
+      "2029": 0.222,
+      "2030": 0.222
+    },
+    "revenue_growth": {
+      "2026": 0.049,
+      "2027": 0.045,
+      "2028": 0.042,
+      "2029": 0.04,
+      "2030": 0.038
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 732000000.0,
+      "2024": 655000000.0,
+      "2025": 621000000.0
+    },
+    "da": {
+      "2023": 491000000.0,
+      "2024": 497000000.0,
+      "2025": 487000000.0
+    },
+    "ebit": {
+      "2023": 3072000000.0,
+      "2024": 3252000000.0,
+      "2025": 3489000000.0
+    },
+    "nwc": {
+      "2023": 2416000000.0,
+      "2024": 1937000000.0,
+      "2025": 2221000000.0
+    },
+    "revenue": {
+      "2023": 8544000000.0,
+      "2024": 9256000000.0,
+      "2025": 9467000000.0
+    }
+  },
+  "notes": [
+    "EBIT is not explicitly labeled in the extracted 10-K lines used here; EBIT was approximated as Income before provision for taxes on income + (Interest expense, net of capitalized interest - Interest income). Validate against the DCF engine\u2019s intended EBIT definition.",
+    "NWC is computed as (Total current assets - Cash and cash equivalents) - (Total current liabilities - short-term borrowings - current portion of long-term debt), i.e., non-cash working capital excluding interest-bearing debt. This is a model-choice definition and may differ from other NWC constructions that include/exclude specific current assets/liabilities.",
+    "NOL inputs: the 10-K provides tax-effected 'net operating loss/credit carryforwards' within deferred tax assets but does not provide an undiscounted NOL face value and an explicit utilization rate suitable for DCF cash tax-shield modeling; therefore nol_balance and nol_utilization_pct are set to null.",
+    "Comps: EV/NTM Revenue and EV/NTM EBITDA were not consistently available from accessible excerpts in the research workflow; set to null for the affected peers rather than forcing potentially inconsistent proxies."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Regulatory and commercial milestones for Zoetis\u2019 long-acting osteoarthritis (OA) pain products (e.g., Lenivia and Portela).",
+      "Ongoing pipeline execution and franchise performance (companion animal and livestock) that sustains mid-single-digit revenue growth.",
+      "Any margin outperformance from disciplined operating expense management and mix."
+    ],
+    "company_overview": [
+      "Zoetis is a global leader in animal health, focused on discovery, development, manufacture, and commercialization of medicines, vaccines, diagnostics, and related services.",
+      "Commercial operations are managed across two regional segments: U.S. and International.",
+      "Zoetis\u2019 product portfolio spans companion animal and livestock, with ongoing investment in innovation and lifecycle management."
+    ],
+    "current_context": [
+      "FY2025 reported revenue was $9.467B (reported +2% YoY) and organic operational revenue growth was +6%.",
+      "In its FY2025 results release, Zoetis provided FY2026 revenue guidance of $9.825B to $10.025B, implying 3% to 5% organic operational growth in revenue.",
+      "Zoetis emphasized continued execution across key franchises while navigating a dynamic operating environment."
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth chains from FY2025 to align with FY2026 guidance (3% to 5% organic operational growth) and then gradually normalizes toward mid-single digits.",
+      "EBIT margin is modeled as broadly stable to slightly improving, consistent with historical operating leverage rather than aggressive expansion.",
+      "Reinvestment assumptions use historical D&A and capex intensity (as % of sales) with modest normalization to avoid over-projecting long-run free cash flow.",
+      "Non-cash working capital intensity is held in a narrow band around recent history to reflect steady commercial dynamics.",
+      "Terminal value is grounded in an economically reasonable exit multiple and conservative terminal growth."
+    ],
+    "key_risks": [
+      "Franchise-specific competitive pressure (e.g., OA pain or dermatology categories) leading to weaker volume/mix than modeled.",
+      "FX and macro volatility affecting reported revenue growth and earnings conversion.",
+      "Regulatory, pricing, and reimbursement dynamics across geographies that could pressure margins."
+    ],
+    "sources": [
+      {
+        "label": "Zoetis FY2025 Form 10-K (SEC) - financial statements, tax disclosures, liquidity",
+        "notes": "Used for FY2025/FY2024/FY2023 revenue, income-before-tax components, D&A, capex, and tax/NOL/credit carryforward disclosure; also used for FY2025 balance sheet items.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1555280/000155528026000011/zts-20251231.htm"
+      },
+      {
+        "label": "Zoetis FY2025 results press release (FY2026 guidance)",
+        "notes": "Used for FY2025 revenue/organic operational growth and FY2026 revenue guidance range and 3% to 5% organic operational revenue growth expectation.",
+        "url": "https://investor.zoetis.com/news/news-details/2026/Zoetis-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+      },
+      {
+        "label": "Zoetis FY2024 Form 10-K (SEC) - FY2023 balance sheet for NWC",
+        "notes": "Used for FY2023 balance sheet items (current assets/liabilities and short-term debt) to compute non-cash working capital.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1555280/000155528025000102/zts-20241231.htm"
+      }
+    ],
+    "subtitle": "Zoetis (ZTS) DCF inputs: conservative growth, durable margins, and stable reinvestment",
+    "valuation_summary": [
+      "DCF base case is anchored on FY2025 financials (revenue, D&A, capex) with sober growth and margin assumptions drawn from guidance and recent performance.",
+      "Terminal assumptions (Gordon/exit multiple) are chosen to be consistent with a mature, high-moat animal health franchise rather than peak-cycle expectations.",
+      "Comps are included as directional context; forward EV/NTM revenue/EBITDA were not consistently available from accessible sources, so the DCF weighting is higher."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 115.67,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.363,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 17.0,
+        "terminal_growth": 0.023,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.086
+      },
+      "description": "Modestly weaker growth and margins; slightly higher discount rate and lower terminal multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.069,
+          "2027": 0.068,
+          "2028": 0.067,
+          "2029": 0.0665,
+          "2030": 0.066
+        },
+        "da_pct_sales": {
+          "2026": 0.0535,
+          "2027": 0.0533,
+          "2028": 0.0531,
+          "2029": 0.053,
+          "2030": 0.053
+        },
+        "ebit_margin": {
+          "2026": 0.359,
+          "2027": 0.36,
+          "2028": 0.362,
+          "2029": 0.363,
+          "2030": 0.363
+        },
+        "nwc_pct_sales": {
+          "2026": 0.23,
+          "2027": 0.226,
+          "2028": 0.225,
+          "2029": 0.224,
+          "2030": 0.224
+        },
+        "revenue_growth": {
+          "2026": 0.046,
+          "2027": 0.042,
+          "2028": 0.039,
+          "2029": 0.037,
+          "2030": 0.035
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 115.67,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.369,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 19.0,
+        "terminal_growth": 0.027,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.081
+      },
+      "description": "Modestly higher growth and margin durability; slightly lower discount rate and higher terminal multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.067,
+          "2027": 0.0665,
+          "2028": 0.066,
+          "2029": 0.0655,
+          "2030": 0.065
+        },
+        "da_pct_sales": {
+          "2026": 0.0525,
+          "2027": 0.0523,
+          "2028": 0.0521,
+          "2029": 0.052,
+          "2030": 0.052
+        },
+        "ebit_margin": {
+          "2026": 0.365,
+          "2027": 0.366,
+          "2028": 0.368,
+          "2029": 0.369,
+          "2030": 0.369
+        },
+        "nwc_pct_sales": {
+          "2026": 0.226,
+          "2027": 0.222,
+          "2028": 0.221,
+          "2029": 0.22,
+          "2030": 0.22
+        },
+        "revenue_growth": {
+          "2026": 0.052,
+          "2027": 0.048,
+          "2028": 0.045,
+          "2029": 0.043,
+          "2030": 0.041
+        }
+      }
+    }
+  },
+  "ticker": "ZTS"
+}

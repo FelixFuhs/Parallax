@@ -1,0 +1,674 @@
+{
+  "_meta": {
+    "cost_usd": 0.021903,
+    "generated_at": "2026-03-21T14:43:40Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10753,
+      "prompt": 2514,
+      "reasoning": 6367
+    }
+  },
+  "_valuation": {
+    "company_name": "Vulcan Materials Company",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 258.4,
+        "description": "Base case",
+        "enterprise_value": 21322458569.511932,
+        "equity_value": 17159658569.511932,
+        "exit_multiple_terminal_value": 22709000884.953148,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 17159658569.511934,
+        "investments_adjustment": 33700000.0,
+        "net_debt": 4172700000.0,
+        "per_share_value": 129.31166970242603,
+        "projected_years": [
+          {
+            "capex": 695243305.0,
+            "cash_taxes": 368887918.3,
+            "da": 736139970.0,
+            "delta_nwc": 33436635.0,
+            "discount_factor": 0.9302325581395349,
+            "ebit": 1676763265.0,
+            "ebit_margin": 0.205,
+            "ebitda": 2412903235.0,
+            "fcff": 1315335376.7,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 777036635.0,
+            "present_value_fcff": 1223567792.27907,
+            "revenue": 8179333000.0,
+            "revenue_growth": 0.03,
+            "year": 2026
+          },
+          {
+            "capex": 704240571.3,
+            "cash_taxes": 372576797.483,
+            "da": 746159652.9249998,
+            "delta_nwc": 19425915.87499988,
+            "discount_factor": 0.8653326122228232,
+            "ebit": 1693530897.6499999,
+            "ebit_margin": 0.202,
+            "ebitda": 2439690550.575,
+            "fcff": 1343447265.9169998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 796462550.8749999,
+            "present_value_fcff": 1162528731.9995673,
+            "revenue": 8383816324.999999,
+            "revenue_growth": 0.025,
+            "year": 2027
+          },
+          {
+            "capex": 709773890.0745,
+            "cash_taxes": 378147005.04933,
+            "da": 752531353.3319999,
+            "delta_nwc": 7377758.366000056,
+            "discount_factor": 0.804960569509603,
+            "ebit": 1718850022.9515,
+            "ebit_margin": 0.201,
+            "ebitda": 2471381376.2834997,
+            "fcff": 1376082722.7936697,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 803840309.2409999,
+            "present_value_fcff": 1107692332.2323177,
+            "revenue": 8551492651.499999,
+            "revenue_growth": 0.02,
+            "year": 2028
+          },
+          {
+            "capex": 722549820.0958409,
+            "cash_taxes": 383038458.845988,
+            "da": 757371498.1727489,
+            "delta_nwc": 14469125.566337943,
+            "discount_factor": 0.7488005297763749,
+            "ebit": 1741083903.8453999,
+            "ebit_margin": 0.2,
+            "ebitda": 2498455402.018149,
+            "fcff": 1378397997.5099816,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 818309434.8073379,
+            "present_value_fcff": 1032145150.7781686,
+            "revenue": 8705419519.227,
+            "revenue_growth": 0.018,
+            "year": 2029
+          },
+          {
+            "capex": 725979755.3864163,
+            "cash_taxes": 387602362.0831379,
+            "da": 761393401.9906317,
+            "delta_nwc": 5057848.740670919,
+            "discount_factor": 0.6965586323501163,
+            "ebit": 1761828918.559718,
+            "ebit_margin": 0.199,
+            "ebitda": 2523222320.5503497,
+            "fcff": 1404582354.3401244,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 823367283.5480088,
+            "present_value_fcff": 978373963.7622634,
+            "revenue": 8853411651.053858,
+            "revenue_growth": 0.017,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 22709000884.953148,
+        "terminal_value_present_value": 15818150598.460545,
+        "upside_downside_pct": -0.4995678417088776
+      },
+      "bear": {
+        "current_price": 258.4,
+        "description": "Modest underperformance: softer demand/pricing and margin compression; higher reinvestment and working-capital intensity vs base case.",
+        "enterprise_value": 19317981590.39272,
+        "equity_value": 15155181590.39272,
+        "exit_multiple_terminal_value": 20707550840.708588,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 15155181590.39272,
+        "investments_adjustment": 33700000.0,
+        "net_debt": 4172700000.0,
+        "per_share_value": 114.2063420526957,
+        "projected_years": [
+          {
+            "capex": 708147592.4999999,
+            "cash_taxes": 361725046.1,
+            "da": 740706102.4999999,
+            "delta_nwc": 37804239.99999988,
+            "discount_factor": 0.9259259259259258,
+            "ebit": 1644204755.0,
+            "ebit_margin": 0.202,
+            "ebitda": 2384910857.5,
+            "fcff": 1277233978.9,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 781404239.9999999,
+            "present_value_fcff": 1182624054.537037,
+            "revenue": 8139627499.999999,
+            "revenue_growth": 0.025,
+            "year": 2026
+          },
+          {
+            "capex": 714008124.2999998,
+            "cash_taxes": 363479949.789,
+            "da": 738915384.4499999,
+            "delta_nwc": 15628084.800000072,
+            "discount_factor": 0.8573388203017832,
+            "ebit": 1652181589.9499998,
+            "ebit_margin": 0.199,
+            "ebitda": 2391096974.3999996,
+            "fcff": 1297980815.5109997,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 797032324.8,
+            "present_value_fcff": 1112809341.144547,
+            "revenue": 8302420049.999999,
+            "revenue_growth": 0.02,
+            "year": 2027
+          },
+          {
+            "capex": 716291289.8137499,
+            "cash_taxes": 367078218.6386699,
+            "da": 741572158.8659998,
+            "delta_nwc": 3528528.5212498903,
+            "discount_factor": 0.7938322410201696,
+            "ebit": 1668537357.4484997,
+            "ebit_margin": 0.198,
+            "ebitda": 2410109516.3144994,
+            "fcff": 1323211479.3408298,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 800560853.3212498,
+            "present_value_fcff": 1050407933.9887447,
+            "revenue": 8426956350.749998,
+            "revenue_growth": 0.015,
+            "year": 2028
+          },
+          {
+            "capex": 725603076.5813286,
+            "cash_taxes": 369972203.9886445,
+            "da": 742676090.147948,
+            "delta_nwc": 10407291.093176246,
+            "discount_factor": 0.7350298527964533,
+            "ebit": 1681691836.3120203,
+            "ebit_margin": 0.197,
+            "ebitda": 2424367926.4599686,
+            "fcff": 1318385354.7968187,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 810968144.4144261,
+            "present_value_fcff": 969052593.2653055,
+            "revenue": 8536506783.309748,
+            "revenue_growth": 0.013,
+            "year": 2029
+          },
+          {
+            "capex": 725671368.6355951,
+            "cash_taxes": 372511302.56627214,
+            "da": 742949258.365014,
+            "delta_nwc": 1092672.8682636023,
+            "discount_factor": 0.6805831970337529,
+            "ebit": 1693233193.483055,
+            "ebit_margin": 0.196,
+            "ebitda": 2436182451.848069,
+            "fcff": 1336907107.7779384,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 812060817.2826897,
+            "present_value_fcff": 909876513.5486574,
+            "revenue": 8638944864.709465,
+            "revenue_growth": 0.012,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 20707550840.708588,
+        "terminal_value_present_value": 14093211153.908428,
+        "upside_downside_pct": -0.5580249920561311
+      },
+      "bull": {
+        "current_price": 258.4,
+        "description": "Modest outperformance: slightly higher demand/pricing, margin expansion, and more efficient reinvestment/working capital vs base case.",
+        "enterprise_value": 23107945625.06651,
+        "equity_value": 18945145625.06651,
+        "exit_multiple_terminal_value": 24648941427.5432,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 18945145625.06651,
+        "investments_adjustment": 33700000.0,
+        "net_debt": 4172700000.0,
+        "per_share_value": 142.76673417533164,
+        "projected_years": [
+          {
+            "capex": 682180195.5,
+            "cash_taxes": 376103201.75999993,
+            "da": 731494426.4999999,
+            "delta_nwc": 28989618.99999988,
+            "discount_factor": 0.9328358208955223,
+            "ebit": 1709560007.9999998,
+            "ebit_margin": 0.208,
+            "ebitda": 2441054434.4999995,
+            "fcff": 1353781418.2399998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 772589618.9999999,
+            "present_value_fcff": 1262855800.5970147,
+            "revenue": 8219038499.999999,
+            "revenue_growth": 0.035,
+            "year": 2026
+          },
+          {
+            "capex": 694179991.7099999,
+            "cash_taxes": 381798995.4404999,
+            "da": 736508039.9849999,
+            "delta_nwc": 23177688.570000052,
+            "discount_factor": 0.870182668745823,
+            "ebit": 1735449979.2749996,
+            "ebit_margin": 0.205,
+            "ebitda": 2471958019.2599993,
+            "fcff": 1372801343.5394998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 795767307.5699999,
+            "present_value_fcff": 1194587936.7790532,
+            "revenue": 8465609654.999999,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 711534491.5027499,
+            "cash_taxes": 389434975.34930986,
+            "da": 746243491.0882498,
+            "delta_nwc": 11216932.792874932,
+            "discount_factor": 0.8117375641285662,
+            "ebit": 1770158978.8604994,
+            "ebit_margin": 0.204,
+            "ebitda": 2516402469.948749,
+            "fcff": 1404216070.3038144,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 806984240.3628749,
+            "present_value_fcff": 1139854932.4186058,
+            "revenue": 8677249896.374998,
+            "revenue_growth": 0.025,
+            "year": 2028
+          },
+          {
+            "capex": 719022958.1633215,
+            "cash_taxes": 396439077.92066586,
+            "da": 754530264.739288,
+            "delta_nwc": 18560637.52834606,
+            "discount_factor": 0.7572178769856027,
+            "ebit": 1801995808.7302995,
+            "ebit_margin": 0.203,
+            "ebitda": 2556526073.4695873,
+            "fcff": 1422503399.857254,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 825544877.8912209,
+            "present_value_fcff": 1077145004.444712,
+            "revenue": 8876826643.991623,
+            "revenue_growth": 0.023,
+            "year": 2029
+          },
+          {
+            "capex": 734841463.2429146,
+            "cash_taxes": 403164871.9322855,
+            "da": 762057813.733393,
+            "delta_nwc": 9089870.483447433,
+            "discount_factor": 0.7063599598746294,
+            "ebit": 1832567599.6922069,
+            "ebit_margin": 0.202,
+            "ebitda": 2594625413.4256,
+            "fcff": 1447529207.766952,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 834634748.3746684,
+            "present_value_fcff": 1022476673.1156183,
+            "revenue": 9072116830.15944,
+            "revenue_growth": 0.022,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 24648941427.5432,
+        "terminal_value_present_value": 17411025277.711506,
+        "upside_downside_pct": -0.4474971587641964
+      }
+    },
+    "ticker": "VMC"
+  },
+  "assumptions": {
+    "cash": 189400000.0,
+    "current_price": 258.4,
+    "debt": 4362100000.0,
+    "diluted_shares": 132700000.0,
+    "investments": 33700000.0,
+    "minority_interest": 23800000.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.199,
+    "tax_rate": 0.22,
+    "terminal_exit_ebitda_multiple": 9.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.075
+  },
+  "company_name": "Vulcan Materials Company",
+  "comps": [
+    {
+      "company_name": "Martin Marietta Materials",
+      "ev_ntm_ebitda": 18.18,
+      "ev_ntm_revenue": 6.75,
+      "notes": "EV-to-Forward-Revenue / EV-to-Forward-EBITDA and Forward PE from GuruFocus. Interpreted as NTM-style proxies for DCF inputs. ([gurufocus.com](https://www.gurufocus.com/stock/MLM/summary?utm_source=openai))",
+      "pe_ntm": 32.29,
+      "source": "GuruFocus stock summary (forward/next-period proxies)",
+      "ticker": "MLM"
+    },
+    {
+      "company_name": "Eagle Materials",
+      "ev_ntm_ebitda": 9.57,
+      "ev_ntm_revenue": 3.44,
+      "notes": "EV-to-Forward-Revenue / EV-to-Forward-EBITDA and Forward PE from GuruFocus (forward estimates used as NTM proxies). ([gurufocus.com](https://www.gurufocus.com/stock/EXP/summary?utm_source=openai))",
+      "pe_ntm": 18.47,
+      "source": "GuruFocus stock summary (forward/next-period proxies)",
+      "ticker": "EXP"
+    },
+    {
+      "company_name": "Cemex",
+      "ev_ntm_ebitda": 7.09,
+      "ev_ntm_revenue": 1.4,
+      "notes": "EV-to-Forward-Revenue / EV-to-Forward-EBITDA and Forward PE from GuruFocus (forward estimates used as NTM proxies). ([gurufocus.com](https://www.gurufocus.com/stock/CX/summary?utm_source=openai))",
+      "pe_ntm": 15.79,
+      "source": "GuruFocus stock summary (forward/next-period proxies)",
+      "ticker": "CX"
+    },
+    {
+      "company_name": "CRH plc",
+      "ev_ntm_ebitda": 11.91,
+      "ev_ntm_revenue": 2.44,
+      "notes": "EV-to-Forward-Revenue / EV-to-Forward-EBITDA and Forward PE from GuruFocus (forward estimates used as NTM proxies). ([gurufocus.com](https://www.gurufocus.com/stock/CRH/summary?utm_source=openai))",
+      "pe_ntm": 20.47,
+      "source": "GuruFocus stock summary (forward/next-period proxies)",
+      "ticker": "CRH"
+    },
+    {
+      "company_name": "Granite Construction",
+      "ev_ntm_ebitda": 10.21,
+      "ev_ntm_revenue": 1.3,
+      "notes": "EV-to-Forward-Revenue / EV-to-Forward-EBITDA and Forward PE from GuruFocus (forward estimates used as NTM proxies). ([gurufocus.com](https://www.gurufocus.com/stock/GVA/summary?utm_source=openai))",
+      "pe_ntm": 21.3,
+      "source": "GuruFocus stock summary (forward/next-period proxies)",
+      "ticker": "GVA"
+    },
+    {
+      "company_name": "LafargeHolcim",
+      "ev_ntm_ebitda": 10.92,
+      "ev_ntm_revenue": 4.09,
+      "notes": "EV-to-Forward-Revenue / EV-to-Forward-EBITDA and Forward PE from GuruFocus. Note: LHN is an international peer; forward multiples may differ materially due to regional mix. ([gurufocus.com](https://www.gurufocus.com/stock/HKSE%3A01730/summary?utm_source=openai))",
+      "pe_ntm": 7.98,
+      "source": "GuruFocus stock summary (forward/next-period proxies)",
+      "ticker": "LHN"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.085,
+      "2027": 0.084,
+      "2028": 0.083,
+      "2029": 0.083,
+      "2030": 0.082
+    },
+    "da_pct_sales": {
+      "2026": 0.09,
+      "2027": 0.089,
+      "2028": 0.088,
+      "2029": 0.087,
+      "2030": 0.086
+    },
+    "ebit_margin": {
+      "2026": 0.205,
+      "2027": 0.202,
+      "2028": 0.201,
+      "2029": 0.2,
+      "2030": 0.199
+    },
+    "nwc_pct_sales": {
+      "2026": 0.095,
+      "2027": 0.095,
+      "2028": 0.094,
+      "2029": 0.094,
+      "2030": 0.093
+    },
+    "revenue_growth": {
+      "2026": 0.03,
+      "2027": 0.025,
+      "2028": 0.02,
+      "2029": 0.018,
+      "2030": 0.017
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 872600000.0,
+      "2024": 603500000.0,
+      "2025": 677700000.0
+    },
+    "da": {
+      "2023": 617000000.0,
+      "2024": 632200000.0,
+      "2025": 748500000.0
+    },
+    "ebit": {
+      "2023": 1427400000.0,
+      "2024": 1364500000.0,
+      "2025": 1619600000.0
+    },
+    "nwc": {
+      "2023": 778600000.0,
+      "2024": 826300000.0,
+      "2025": 743600000.0
+    },
+    "revenue": {
+      "2023": 7781900000.0,
+      "2024": 7417700000.0,
+      "2025": 7941100000.0
+    }
+  },
+  "notes": [
+    "Historical EBIT is mapped to Vulcan\u2019s \u201cOperating earnings\u201d line from the Consolidated Statements of Comprehensive Income; historical D&A maps to \u201cDepreciation, depletion, accretion and amortization\u201d; capex maps to \u201cPurchases of property, plant & equipment.\u201d ([sec.gov](https://www.sec.gov/Archives/edgar/data/1396009/000162828026009546/vmc-20251231.htm))",
+    "NWC calculation definition (annual, balance-sheet based): NWC = (Total current assets \u2212 cash & restricted cash \u2212 assets held for sale) \u2212 (Total current liabilities \u2212 current maturities of long-term debt \u2212 liabilities held for sale). This excludes discontinued/divestiture-related items where balance sheet labels exist; expect variability across years with transaction activity. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1396009/000162828026009546/vmc-20251231.htm))",
+    "Tax rate in DCF set to 0.22 based on effective tax rate range/level disclosed and guided (22\u201323% outlook; ~22.1% effective). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1396009/000162828026009546/vmc-20251231.htm))",
+    "WACC (0.075 base) is a constructed modeling assumption (not explicitly disclosed in filings); scenario WACC changes reflect only bull/bear regime shifts. Gap: no direct WACC published by the company.",
+    "NOL balance (tax loss carryforward $ amount) is not disclosed as a single consolidated dollar figure in an immediately usable form; set to null. Utilization percent is set to 0.80 per provided pipeline default; deferred-tax components related to NOL carryforwards are discussed in the 10-K. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1396009/000162828026009546/vmc-20251231.htm))",
+    "Comps EV/forward metrics come from GuruFocus as forward proxies (treated as NTM-style inputs for the schema). These may differ from NTM definitions used by other vendors. ([gurufocus.com](https://www.gurufocus.com/stock/MLM/summary?utm_source=openai))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained improvement in freight-adjusted price and shipments (management\u2019s 2026 outlook targets) leading to upside to base-case operating earnings. ([prnewswire.com](https://www.prnewswire.com/news-releases/vulcan-reports-fourth-quarter-and-full-year-2025-results-302689055.html?utm_source=openai))",
+      "Positive cycle inflection from public infrastructure spending and improving private nonresidential activity translating into volume growth beyond the base-case trajectory. ([prnewswire.com](https://www.prnewswire.com/news-releases/vulcan-reports-fourth-quarter-and-full-year-2025-results-302689055.html?utm_source=openai))",
+      "Further evidence of margin resilience through cost control and disciplined selling/operating execution (\u201cVulcan Way\u201d). ([prnewswire.com](https://www.prnewswire.com/news-releases/vulcan-reports-fourth-quarter-and-full-year-2025-results-302689055.html?utm_source=openai))"
+    ],
+    "company_overview": [
+      "Vulcan is a leading producer of construction aggregates with related materials businesses (as described in its SEC filings and investor communications). ([prnewswire.com](https://www.prnewswire.com/news-releases/vulcan-reports-fourth-quarter-and-full-year-2025-results-302689055.html?utm_source=openai))",
+      "Generates earnings largely through aggregates pricing/shipments and operating discipline, with depreciation driving a meaningful D&A profile in the cash flow statement. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1396009/000162828026009546/vmc-20251231.htm))",
+      "Uses a disciplined capital allocation framework supported by recurring maintenance and growth capital spending. ([prnewswire.com](https://www.prnewswire.com/news-releases/vulcan-reports-fourth-quarter-and-full-year-2025-results-302689055.html?utm_source=openai))"
+    ],
+    "current_context": [
+      "Management guided to 2026 Adjusted EBITDA of $2.4B to $2.6B, citing strength in public construction activity and improving private nonresidential opportunities. ([prnewswire.com](https://www.prnewswire.com/news-releases/vulcan-reports-fourth-quarter-and-full-year-2025-results-302689055.html?utm_source=openai))",
+      "Outlook assumptions include shipments up 1\u20133% and freight-adjusted price improvement of 4\u20136%, with capital spending of $750M to $800M and depreciation/depletion/accretion/amortization near $700M. ([prnewswire.com](https://www.prnewswire.com/news-releases/vulcan-reports-fourth-quarter-and-full-year-2025-results-302689055.html?utm_source=openai))",
+      "Company reiterated an effective tax rate of 22\u201323% and expects continued improvement in aggregates unit profitability. ([prnewswire.com](https://www.prnewswire.com/news-releases/vulcan-reports-fourth-quarter-and-full-year-2025-results-302689055.html?utm_source=openai))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes continued (mid-single-digit) demand support translating into stable pricing/shipments consistent with 2026 outlook parameters (1\u20133% shipments; 4\u20136% price). ([prnewswire.com](https://www.prnewswire.com/news-releases/vulcan-reports-fourth-quarter-and-full-year-2025-results-302689055.html?utm_source=openai))",
+      "Base-case EBIT margin expansion is modest versus 2024\u20132025 given the company\u2019s operating earnings sensitivity to pricing and cost discipline. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1396009/000162828026009546/vmc-20251231.htm))",
+      "Reinvestment intensity (capex as % of sales) is set consistent with management\u2019s $750M\u2013$800M 2026 capital spending guidance, supporting asset base and throughput. ([prnewswire.com](https://www.prnewswire.com/news-releases/vulcan-reports-fourth-quarter-and-full-year-2025-results-302689055.html?utm_source=openai))",
+      "Working-capital utilization is normalized away from the 2024 acquisition/disposition effects using a stable NWC % of sales assumption in the base case. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1396009/000162828026009546/vmc-20251231.htm))"
+    ],
+    "key_risks": [
+      "Construction demand cyclicality and potential weakness in residential and/or nonresidential construction reducing volumes and margin leverage. ([prnewswire.com](https://www.prnewswire.com/news-releases/vulcan-reports-fourth-quarter-and-full-year-2025-results-302689055.html?utm_source=openai))",
+      "Working-capital swings and cost inflation (fuel/energy, labor, freight) that could pressure EBIT margin versus base case. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1396009/000162828026009546/vmc-20251231.htm))",
+      "International/legal/tax uncertainties (e.g., Mexico operations and deferred tax/NOL realizability) affecting effective tax rate and cash flows. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1396009/000162828026009546/vmc-20251231.htm))"
+    ],
+    "sources": [
+      {
+        "label": "Vulcan Materials FY 2025 Form 10-K (SEC HTML)",
+        "notes": "Historical revenue/operating earnings, cash flow D&A and capex, balance sheet cash/debt, and effective tax rate. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1396009/000162828026009546/vmc-20251231.htm))",
+        "url": null
+      },
+      {
+        "label": "Vulcan Materials FY 2024 Form 10-K (SEC HTML)",
+        "notes": "Balance sheet inputs required to compute 2023 NWC definition consistently (current assets/liabilities and debt maturities). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1396009/000139600925000005/vmc-20241231.htm))",
+        "url": null
+      },
+      {
+        "label": "Vulcan Q4 & FY 2025 results / 2026 outlook (PRNewswire)",
+        "notes": "2026 guidance touchpoints used in current_context and to sanity-check base-case reinvestment, tax rate, and D&A assumptions. ([prnewswire.com](https://www.prnewswire.com/news-releases/vulcan-reports-fourth-quarter-and-full-year-2025-results-302689055.html?utm_source=openai))",
+        "url": null
+      },
+      {
+        "label": "VMC share price snapshot (market data tool)",
+        "notes": "Used for current_price in DCF inputs (tool timestamp: latest trade prior to research date).",
+        "url": null
+      }
+    ],
+    "subtitle": "VMC DCF input pack \u2014 base-case drivers calibrated to 2025 results and 2026 outlook",
+    "valuation_summary": [
+      "DCF base-case driver set (growth, margins, D&A, capex, NWC) is calibrated to observed 2023\u20132025 financial structure from Vulcan\u2019s annual reporting and to 2026 guidance touchpoints (capex, D&A, tax rate). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1396009/000162828026009546/vmc-20251231.htm))",
+      "Terminal valuation uses an exit-multiple framework on EBITDA with a growth rate reflecting mature-cycle economics rather than short-term cycle extremes. ([prnewswire.com](https://www.prnewswire.com/news-releases/vulcan-reports-fourth-quarter-and-full-year-2025-results-302689055.html?utm_source=openai))",
+      "Comps anchor is provided using EV-to-forward revenue/EBITDA and forward P/E proxies from a consistent source (GuruFocus) to frame a reasonable range for terminal/exit assumptions. ([gurufocus.com](https://www.gurufocus.com/stock/MLM/summary?utm_source=openai))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 258.4,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.196,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 8.5,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.08
+      },
+      "description": "Modest underperformance: softer demand/pricing and margin compression; higher reinvestment and working-capital intensity vs base case.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.087,
+          "2027": 0.086,
+          "2028": 0.085,
+          "2029": 0.085,
+          "2030": 0.084
+        },
+        "da_pct_sales": {
+          "2026": 0.091,
+          "2027": 0.089,
+          "2028": 0.088,
+          "2029": 0.087,
+          "2030": 0.086
+        },
+        "ebit_margin": {
+          "2026": 0.202,
+          "2027": 0.199,
+          "2028": 0.198,
+          "2029": 0.197,
+          "2030": 0.196
+        },
+        "nwc_pct_sales": {
+          "2026": 0.096,
+          "2027": 0.096,
+          "2028": 0.095,
+          "2029": 0.095,
+          "2030": 0.094
+        },
+        "revenue_growth": {
+          "2026": 0.025,
+          "2027": 0.02,
+          "2028": 0.015,
+          "2029": 0.013,
+          "2030": 0.012
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 258.4,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.202,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 9.5,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.072
+      },
+      "description": "Modest outperformance: slightly higher demand/pricing, margin expansion, and more efficient reinvestment/working capital vs base case.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.083,
+          "2027": 0.082,
+          "2028": 0.082,
+          "2029": 0.081,
+          "2030": 0.081
+        },
+        "da_pct_sales": {
+          "2026": 0.089,
+          "2027": 0.087,
+          "2028": 0.086,
+          "2029": 0.085,
+          "2030": 0.084
+        },
+        "ebit_margin": {
+          "2026": 0.208,
+          "2027": 0.205,
+          "2028": 0.204,
+          "2029": 0.203,
+          "2030": 0.202
+        },
+        "nwc_pct_sales": {
+          "2026": 0.094,
+          "2027": 0.094,
+          "2028": 0.093,
+          "2029": 0.093,
+          "2030": 0.092
+        },
+        "revenue_growth": {
+          "2026": 0.035,
+          "2027": 0.03,
+          "2028": 0.025,
+          "2029": 0.023,
+          "2030": 0.022
+        }
+      }
+    }
+  },
+  "ticker": "VMC"
+}

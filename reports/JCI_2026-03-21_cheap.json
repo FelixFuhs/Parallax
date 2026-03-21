@@ -1,0 +1,688 @@
+{
+  "_meta": {
+    "cost_usd": 0.024999,
+    "generated_at": "2026-03-21T14:43:10Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12290,
+      "prompt": 2514,
+      "reasoning": 7307
+    }
+  },
+  "_valuation": {
+    "company_name": "Johnson Controls International plc",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 129.7,
+        "description": "Base case",
+        "enterprise_value": 41988406264.65638,
+        "equity_value": 31224406264.65638,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 46999026101.76587,
+        "implied_market_cap": 31224406264.656384,
+        "investments_adjustment": 0.0,
+        "net_debt": 9501000000.0,
+        "per_share_value": 47.73644131578716,
+        "projected_years": [
+          {
+            "capex": 493156400.0,
+            "cash_taxes": 41918294.0,
+            "da": 887681519.9999999,
+            "delta_nwc": -79684360.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2095914700.0000002,
+            "ebit_margin": 0.085,
+            "ebitda": 2983596220.0,
+            "fcff": 2528205886.0,
+            "nol_balance_end": 24423268240.0,
+            "nol_used": 1676731760.0000002,
+            "nwc": 49315640.0,
+            "present_value_fcff": 2330143673.732719,
+            "revenue": 24657820000.0,
+            "revenue_growth": 0.045,
+            "year": 2026
+          },
+          {
+            "capex": 513868968.8,
+            "cash_taxes": 44706600.2856,
+            "da": 924964143.8399999,
+            "delta_nwc": 2071256.8800000027,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2235330014.2799997,
+            "ebit_margin": 0.087,
+            "ebitda": 3160294158.12,
+            "fcff": 2599647332.154399,
+            "nol_balance_end": 22635004228.576,
+            "nol_used": 1788264011.4239998,
+            "nwc": 51386896.88,
+            "present_value_fcff": 2208284170.107158,
+            "revenue": 25693448440.0,
+            "revenue_growth": 0.042,
+            "year": 2027
+          },
+          {
+            "capex": 534423727.55200005,
+            "cash_taxes": 47029288.024576,
+            "da": 961962709.5936,
+            "delta_nwc": 2055475.8752000034,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2351464401.2288003,
+            "ebit_margin": 0.088,
+            "ebitda": 3313427110.8224,
+            "fcff": 2729918619.370624,
+            "nol_balance_end": 20753832707.59296,
+            "nol_used": 1881171520.9830403,
+            "nwc": 53442372.755200006,
+            "present_value_fcff": 2137275395.1620975,
+            "revenue": 26721186377.600002,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 554731829.198976,
+            "cash_taxes": 49371132.79870887,
+            "da": 998517292.5581568,
+            "delta_nwc": 2030810.1646976024,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2468556639.9354434,
+            "ebit_margin": 0.089,
+            "ebitda": 3467073932.4936004,
+            "fcff": 2860940160.331218,
+            "nol_balance_end": 18778987395.644608,
+            "nol_used": 1974845311.9483547,
+            "nwc": 55473182.91989761,
+            "present_value_fcff": 2064380848.5244422,
+            "revenue": 27736591459.948803,
+            "revenue_growth": 0.038,
+            "year": 2029
+          },
+          {
+            "capex": 575256906.8793381,
+            "cash_taxes": 51773121.61914044,
+            "da": 1035462432.3828086,
+            "delta_nwc": 2052507.768036209,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2588656080.9570217,
+            "ebit_margin": 0.09,
+            "ebitda": 3624118513.3398304,
+            "fcff": 2995035977.073315,
+            "nol_balance_end": 16708062530.87899,
+            "nol_used": 2070924864.7656174,
+            "nwc": 57525690.68793382,
+            "present_value_fcff": 1991834969.136818,
+            "revenue": 28762845343.966908,
+            "revenue_growth": 0.037,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 46999026101.76587,
+        "terminal_value_present_value": 31256487207.993145,
+        "upside_downside_pct": -0.631947252769567
+      },
+      "bear": {
+        "current_price": 129.7,
+        "description": "Modestly lower growth and margin expansion vs. base case; slightly higher discount rate and lower terminal growth.",
+        "enterprise_value": 36856874649.41791,
+        "equity_value": 26092874649.417908,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 40678012369.47679,
+        "implied_market_cap": 26092874649.417908,
+        "investments_adjustment": 0.0,
+        "net_debt": 9501000000.0,
+        "per_share_value": 39.89126226787633,
+        "projected_years": [
+          {
+            "capex": 491268720.0,
+            "cash_taxes": 39301497.6,
+            "da": 884283695.9999999,
+            "delta_nwc": -79873128.0,
+            "discount_factor": 0.9199632014719411,
+            "ebit": 1965074880.0,
+            "ebit_margin": 0.08,
+            "ebitda": 2849358576.0,
+            "fcff": 2398661486.4,
+            "nol_balance_end": 24527940096.0,
+            "nol_used": 1572059904.0,
+            "nwc": 49126872.0,
+            "present_value_fcff": 2206680300.275989,
+            "revenue": 24563436000.0,
+            "revenue_growth": 0.041,
+            "year": 2026
+          },
+          {
+            "capex": 509936931.36,
+            "cash_taxes": 41814828.37152,
+            "da": 917886476.448,
+            "delta_nwc": 1866821.136,
+            "discount_factor": 0.8463322920625034,
+            "ebit": 2090741418.576,
+            "ebit_margin": 0.082,
+            "ebitda": 3008627895.024,
+            "fcff": 2455009314.15648,
+            "nol_balance_end": 22855346961.1392,
+            "nol_used": 1672593134.8608,
+            "nwc": 50993693.136,
+            "present_value_fcff": 2077753659.884848,
+            "revenue": 25496846568.0,
+            "revenue_growth": 0.038,
+            "year": 2027
+          },
+          {
+            "capex": 528294660.88896006,
+            "cash_taxes": 43848456.85378368,
+            "da": 950930389.600128,
+            "delta_nwc": 1835772.9528960064,
+            "discount_factor": 0.7785945649149065,
+            "ebit": 2192422842.689184,
+            "ebit_margin": 0.083,
+            "ebitda": 3143353232.2893124,
+            "fcff": 2569374341.5936728,
+            "nol_balance_end": 21101408686.98785,
+            "nol_used": 1753938274.1513474,
+            "nwc": 52829466.08889601,
+            "present_value_fcff": 2000500897.5966501,
+            "revenue": 26414733044.448,
+            "revenue_growth": 0.036,
+            "year": 2028
+          },
+          {
+            "capex": 546256679.3591847,
+            "cash_taxes": 45885561.066171505,
+            "da": 983262022.8465325,
+            "delta_nwc": 1796201.8470224664,
+            "discount_factor": 0.7162783485877705,
+            "ebit": 2294278053.308576,
+            "ebit_margin": 0.084,
+            "ebitda": 3277540076.1551085,
+            "fcff": 2683601633.8827295,
+            "nol_balance_end": 19265986244.34099,
+            "nol_used": 1835422442.646861,
+            "nwc": 54625667.93591847,
+            "present_value_fcff": 1922205746.5849643,
+            "revenue": 27312833967.959236,
+            "revenue_growth": 0.034,
+            "year": 2029
+          },
+          {
+            "capex": 564283149.7780378,
+            "cash_taxes": 47964067.7311332,
+            "da": 1015709669.6004679,
+            "delta_nwc": 1802647.041885309,
+            "discount_factor": 0.6589497227118405,
+            "ebit": 2398203386.5566607,
+            "ebit_margin": 0.085,
+            "ebitda": 3413913056.1571283,
+            "fcff": 2799863191.6060724,
+            "nol_balance_end": 17347423535.09566,
+            "nol_used": 1918562709.2453287,
+            "nwc": 56428314.97780378,
+            "present_value_fcff": 1844969073.7399101,
+            "revenue": 28214157488.90189,
+            "revenue_growth": 0.033,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 40678012369.47679,
+        "terminal_value_present_value": 26804764971.33555,
+        "upside_downside_pct": -0.6924343695614779
+      },
+      "bull": {
+        "current_price": 129.7,
+        "description": "Modestly higher organic growth and margin expansion vs. base case; slightly more favorable discounting and terminal growth.",
+        "enterprise_value": 50788603823.70163,
+        "equity_value": 40024603823.70163,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 57643082250.494446,
+        "implied_market_cap": 40024603823.70163,
+        "investments_adjustment": 0.0,
+        "net_debt": 9501000000.0,
+        "per_share_value": 61.19034371457213,
+        "projected_years": [
+          {
+            "capex": 495516000.0,
+            "cash_taxes": 44596440.0,
+            "da": 891928799.9999999,
+            "delta_nwc": -79448400.0,
+            "discount_factor": 0.9259259259259258,
+            "ebit": 2229822000.0,
+            "ebit_margin": 0.09,
+            "ebitda": 3121750800.0,
+            "fcff": 2661086760.0,
+            "nol_balance_end": 24316142400.0,
+            "nol_used": 1783857600.0,
+            "nwc": 49551600.0,
+            "present_value_fcff": 2463969222.222222,
+            "revenue": 24775800000.0,
+            "revenue_growth": 0.05,
+            "year": 2026
+          },
+          {
+            "capex": 518805252.0,
+            "cash_taxes": 47730083.18399999,
+            "da": 933849453.5999999,
+            "delta_nwc": 2328925.200000003,
+            "discount_factor": 0.8573388203017832,
+            "ebit": 2386504159.2,
+            "ebit_margin": 0.092,
+            "ebitda": 3320353612.7999997,
+            "fcff": 2751489352.416,
+            "nol_balance_end": 22406939072.64,
+            "nol_used": 1909203327.36,
+            "nwc": 51880525.2,
+            "present_value_fcff": 2358958635.473251,
+            "revenue": 25940262600.0,
+            "revenue_growth": 0.047,
+            "year": 2027
+          },
+          {
+            "capex": 542151488.34,
+            "cash_taxes": 50420088.41562,
+            "da": 975872679.012,
+            "delta_nwc": 2334623.633999996,
+            "discount_factor": 0.7938322410201696,
+            "ebit": 2521004420.781,
+            "ebit_margin": 0.093,
+            "ebitda": 3496877099.793,
+            "fcff": 2901970899.4033804,
+            "nol_balance_end": 20390135536.015198,
+            "nol_used": 2016803536.6248002,
+            "nwc": 54215148.834,
+            "present_value_fcff": 2303678062.4487023,
+            "revenue": 27107574417.0,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 565464002.33862,
+            "cash_taxes": 53153616.219830275,
+            "da": 1017835204.2095159,
+            "delta_nwc": 2331251.399861999,
+            "discount_factor": 0.7350298527964533,
+            "ebit": 2657680810.991514,
+            "ebit_margin": 0.094,
+            "ebitda": 3675516015.2010303,
+            "fcff": 3054567145.242718,
+            "nol_balance_end": 18263990887.221985,
+            "nol_used": 2126144648.7932115,
+            "nwc": 56546400.233862,
+            "present_value_fcff": 2245198039.1246376,
+            "revenue": 28273200116.931,
+            "revenue_growth": 0.043,
+            "year": 2029
+          },
+          {
+            "capex": 589213490.4368421,
+            "cash_taxes": 55975281.5915,
+            "da": 1060584282.7863156,
+            "delta_nwc": 2374948.809822209,
+            "discount_factor": 0.6805831970337529,
+            "ebit": 2798764079.575,
+            "ebit_margin": 0.095,
+            "ebitda": 3859348362.3613153,
+            "fcff": 3211784641.5231514,
+            "nol_balance_end": 16024979623.561985,
+            "nol_used": 2239011263.66,
+            "nwc": 58921349.04368421,
+            "present_value_fcff": 2185886659.5117326,
+            "revenue": 29460674521.842102,
+            "revenue_growth": 0.042,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 57643082250.494446,
+        "terminal_value_present_value": 39230913204.92109,
+        "upside_downside_pct": -0.5282163167727669
+      }
+    },
+    "ticker": "JCI"
+  },
+  "assumptions": {
+    "cash": 379000000.0,
+    "current_price": 129.7,
+    "debt": 9880000000.0,
+    "diluted_shares": 654100000.0,
+    "investments": 0.0,
+    "minority_interest": 1263000000.0,
+    "net_debt_override": 9501000000.0,
+    "nol_balance": 26100000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.09,
+    "tax_rate": 0.1,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Johnson Controls International plc",
+  "comps": [
+    {
+      "company_name": "Carrier Global Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/revenue and EV/EBITDA not sourced in this build; forward P/E (NTM) not reliably available from primary/official disclosures in the time window.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CARR"
+    },
+    {
+      "company_name": "Trane Technologies plc",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not retrieved from a primary/official source; NTM definition varies by data provider.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "TT"
+    },
+    {
+      "company_name": "Emerson Electric Co.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM multiples not captured; would require a dedicated market-data terminal for consistent NTM definitions.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "EMR"
+    },
+    {
+      "company_name": "Honeywell International Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Comparable forward valuation metrics (EV/NTM revenue, EV/NTM EBITDA, P/E NTM) not obtained.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "HON"
+    },
+    {
+      "company_name": "Schneider Electric SE (ADR ticker may vary by venue)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/NTM revenue and EV/NTM EBITDA not retrieved; NTM depends on provider methodology.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SU"
+    },
+    {
+      "company_name": "Siemens AG (ADR ticker may vary by venue)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Not enough reliable primary/high-quality sources located in the build window for EV/NTM and P/E NTM.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SIE.DE"
+    },
+    {
+      "company_name": "ADT Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Selected as a security/services peer; NTM EV/NTM and P/E NTM not sourced.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ADT"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.02,
+      "2027": 0.02,
+      "2028": 0.02,
+      "2029": 0.02,
+      "2030": 0.02
+    },
+    "da_pct_sales": {
+      "2026": 0.036,
+      "2027": 0.036,
+      "2028": 0.036,
+      "2029": 0.036,
+      "2030": 0.036
+    },
+    "ebit_margin": {
+      "2026": 0.085,
+      "2027": 0.087,
+      "2028": 0.088,
+      "2029": 0.089,
+      "2030": 0.09
+    },
+    "nwc_pct_sales": {
+      "2026": 0.002,
+      "2027": 0.002,
+      "2028": 0.002,
+      "2029": 0.002,
+      "2030": 0.002
+    },
+    "revenue_growth": {
+      "2026": 0.045,
+      "2027": 0.042,
+      "2028": 0.04,
+      "2029": 0.038,
+      "2030": 0.037
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 446000000.0,
+      "2024": 494000000.0,
+      "2025": 434000000.0
+    },
+    "da": {
+      "2023": 745000000.0,
+      "2024": 816000000.0,
+      "2025": 865000000.0
+    },
+    "ebit": {
+      "2023": 1371000000.0,
+      "2024": 1864000000.0,
+      "2025": 2288000000.0
+    },
+    "nwc": {
+      "2023": -346000000.0,
+      "2024": -57000000.0,
+      "2025": 129000000.0
+    },
+    "revenue": {
+      "2023": 22331000000.0,
+      "2024": 22952000000.0,
+      "2025": 23596000000.0
+    }
+  },
+  "notes": [
+    "Fiscal-year mapping: Johnson Controls reports fiscal years ended September 30; historical years used are FY2023 (ended Sep 30, 2023), FY2024, and FY2025 (ended Sep 30, 2025). ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+    "EBIT definition used for the historical/valuation package: EBIT = Income from continuing operations before income taxes + Net financing charges (both from Consolidated Statements of Income). This excludes interest via add-back of net financing charges and includes equity income as presented. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+    "D&A and capex: D&A taken from cash flow adjustment line 'Depreciation and amortization'; capex taken from 'Capital expenditures' (absolute values). ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+    "NWC construction (historical): NWC computed as (Current assets \u2212 Cash and cash equivalents \u2212 Current assets held for sale) \u2212 (Current liabilities \u2212 Short-term debt \u2212 Current portion of long-term debt \u2212 Current liabilities held for sale), based on balance-sheet line items. This is a normalized operating NWC concept consistent with how management defines working-capital exclusions in earlier filings; sign can be negative. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2024/fy2024-form-10-k-jci-plc.pdf))",
+    "NWC forecast: normalized NWC-to-sales ratio set to 0.002 (0.2%) for FY2026\u2013FY2030 as a stabilization assumption post-portfolio actions; actual future NWC could differ materially. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+    "Tax rate: modeled as a normalized effective tax rate of 0.10 for base case; continuing-ops effective tax rate was volatile due to discrete/benefit items in the historical window. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+    "WACC is an explicit model input (0.085) rather than a sourced rate; it is a placeholder assumption for the DCF run and should be re-estimated if your pipeline uses a different capital structure or cost-of-capital framework.",
+    "Cash and debt are taken from FY2025 (Sep 30, 2025) balance sheet/capitalization disclosures and may not match March 2026 levels. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+    "Current price: set to 129.7 USD based on the latest available trade timestamp from the market data lookup (trade time shown as Mar 20 UTC).",
+    "NOL balance: modeled from disclosed available net operating loss carryforwards of approx. $26.1 billion at Sep 30, 2025; NOL utilization percent is set to 0.80 as a modeling input (actual utilization depends on jurisdictional constraints and projected profitability). ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+    "Comps: EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM were not reliably obtained from primary/official sources in this build; those fields are set to null and should be populated with your preferred market-data terminal outputs."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Continued order/backlog momentum translating into sustained organic growth and margin expansion through FY2026. ([d18rn0p25nwr6d.cloudfront.net](https://d18rn0p25nwr6d.cloudfront.net/CIK-0000833444/4dea423c-4849-461e-bbdc-384eb0d819a6.pdf))",
+      "Successful execution of portfolio simplification actions without margin/working-capital dislocation. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+      "Further guidance raises (or tangible free cash flow conversion upside) could re-rate expectations. ([d18rn0p25nwr6d.cloudfront.net](https://d18rn0p25nwr6d.cloudfront.net/CIK-0000833444/4dea423c-4849-461e-bbdc-384eb0d819a6.pdf))"
+    ],
+    "company_overview": [
+      "Johnson Controls is a global leader in building technology and services, including commercial HVAC equipment, controls, security, fire detection and suppression, and digital/smart building solutions via OpenBlue. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+      "The business includes both products/systems and services revenue streams (maintenance, repair, retrofit, and monitoring). ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+      "On July 31, 2025, it completed the divestiture of the Residential and Light Commercial HVAC business to Bosch, with the sold business reflected as discontinued operations/held for sale in filings. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))"
+    ],
+    "current_context": [
+      "In fiscal Q1 2026, sales increased 7% (organic +6%) to ~$5.8 billion, with Q1 orders +39% organically and backlog of $18.2 billion (+20% organically). ([d18rn0p25nwr6d.cloudfront.net](https://d18rn0p25nwr6d.cloudfront.net/CIK-0000833444/4dea423c-4849-461e-bbdc-384eb0d819a6.pdf))",
+      "Management raised fiscal 2026 full-year continuing operations guidance: organic sales growth expected in mid-single digits (unchanged) and adjusted EPS ~$4.70 (previously ~$4.55). ([d18rn0p25nwr6d.cloudfront.net](https://d18rn0p25nwr6d.cloudfront.net/CIK-0000833444/4dea423c-4849-461e-bbdc-384eb0d819a6.pdf))",
+      "The setup remains driven by improving execution and margin expansion alongside continued order/backlog strength. ([d18rn0p25nwr6d.cloudfront.net](https://d18rn0p25nwr6d.cloudfront.net/CIK-0000833444/4dea423c-4849-461e-bbdc-384eb0d819a6.pdf))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes sustained mid-single-digit organic momentum consistent with FY2026 guidance. ([d18rn0p25nwr6d.cloudfront.net](https://d18rn0p25nwr6d.cloudfront.net/CIK-0000833444/4dea423c-4849-461e-bbdc-384eb0d819a6.pdf))",
+      "EBIT margin recovery is modeled from historical volatility (restructuring/portfolio simplification) toward a normalized target margin by FY2030. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+      "Capital intensity is kept roughly stable using historical depreciation and capex as a percent of sales (D&A ~3.6% of sales; capex ~2.0%). ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+      "Working capital intensity is modeled as broadly stable after major portfolio actions, using a normalized NWC-to-sales ratio. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2024/fy2024-form-10-k-jci-plc.pdf))"
+    ],
+    "key_risks": [
+      "Execution risk: restructuring/transition costs or project timing shocks could pressure earnings and EBIT margins. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+      "Demand and macro risk across end markets (commercial/industrial/data center/service cycles) could slow organic sales growth. ([d18rn0p25nwr6d.cloudfront.net](https://d18rn0p25nwr6d.cloudfront.net/CIK-0000833444/4dea423c-4849-461e-bbdc-384eb0d819a6.pdf))",
+      "Foreign exchange, commodity/input cost volatility, and pension-related cash impacts could affect operating cash flow. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+      "Tax volatility (including discrete items) could cause effective tax rate deviations from modeled assumptions. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))"
+    ],
+    "sources": [
+      {
+        "label": "FY2025 Form 10-K (fiscal year ended Sep 30, 2025) - Johnson Controls",
+        "notes": "Provides FY2023\u2013FY2025 continuing operations net sales, net financing charges, income before taxes (for EBIT definition), depreciation & amortization, capex, and balance-sheet items for cash/debt and working capital construction. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+        "url": "https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf"
+      },
+      {
+        "label": "FY2024 Form 10-K (fiscal year ended Sep 30, 2024) - Johnson Controls",
+        "notes": "Used to pull FY2023 and FY2024 balance-sheet line items (cash, current assets/liabilities held for sale, short-term and current portion of long-term debt) to compute historical NWC. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2024/fy2024-form-10-k-jci-plc.pdf))",
+        "url": "https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2024/fy2024-form-10-k-jci-plc.pdf"
+      },
+      {
+        "label": "Q1 FY2026 results press release (filed Feb 4, 2026) - Johnson Controls (Exhibit 99.1)",
+        "notes": "Contains Q1 2026 sales/org growth, orders/backlog metrics, and updated FY2026 full-year continuing operations guidance (organic growth and adjusted EPS). ([d18rn0p25nwr6d.cloudfront.net](https://d18rn0p25nwr6d.cloudfront.net/CIK-0000833444/4dea423c-4849-461e-bbdc-384eb0d819a6.pdf))",
+        "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000833444/4dea423c-4849-461e-bbdc-384eb0d819a6.pdf"
+      },
+      {
+        "label": "FY25 Q4 & FY25 Results - FY26 Guidance initiation (Nov 5, 2025 press release)",
+        "notes": "Provides initial FY2026 guidance framework (organic sales growth mid-single digits; operating leverage). ([johnsoncontrols2025ir.q4web.com](https://johnsoncontrols2025ir.q4web.com/news/news-details/2025/Johnson-Controls-Reports-Q4-and-FY25-Results-Initiates-FY26-Guidance-11-05-2025/default.aspx))",
+        "url": "https://johnsoncontrols2025ir.q4web.com/news/news-details/2025/Johnson-Controls-Reports-Q4-and-FY25-Results-Initiates-FY26-Guidance-11-05-2025/default.aspx"
+      }
+    ],
+    "subtitle": "Johnson Controls (JCI): DCF Base-Case Inputs (FY2025 actuals, FY2026\u2013FY2030 forecast)",
+    "valuation_summary": [
+      "DCF base case ties forecast revenue levels to explicit growth rates and uses historically grounded operating cash-flow proxies (D&A, capex intensity). ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))",
+      "Terminal value is set via a Gordon growth framework with a conservative long-run growth rate to reflect mature industrial/service dynamics. ([investors.johnsoncontrols.com](https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR-V2/quarterly-reports/2025/fy2025-form-10-k-jci-plc.pdf))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.085,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.017,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.087
+      },
+      "description": "Modestly lower growth and margin expansion vs. base case; slightly higher discount rate and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.02,
+          "2027": 0.02,
+          "2028": 0.02,
+          "2029": 0.02,
+          "2030": 0.02
+        },
+        "da_pct_sales": {
+          "2026": 0.036,
+          "2027": 0.036,
+          "2028": 0.036,
+          "2029": 0.036,
+          "2030": 0.036
+        },
+        "ebit_margin": {
+          "2026": 0.08,
+          "2027": 0.082,
+          "2028": 0.083,
+          "2029": 0.084,
+          "2030": 0.085
+        },
+        "nwc_pct_sales": {
+          "2026": 0.002,
+          "2027": 0.002,
+          "2028": 0.002,
+          "2029": 0.002,
+          "2030": 0.002
+        },
+        "revenue_growth": {
+          "2026": 0.041,
+          "2027": 0.038,
+          "2028": 0.036,
+          "2029": 0.034,
+          "2030": 0.033
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.095,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.023,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.08
+      },
+      "description": "Modestly higher organic growth and margin expansion vs. base case; slightly more favorable discounting and terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.02,
+          "2027": 0.02,
+          "2028": 0.02,
+          "2029": 0.02,
+          "2030": 0.02
+        },
+        "da_pct_sales": {
+          "2026": 0.036,
+          "2027": 0.036,
+          "2028": 0.036,
+          "2029": 0.036,
+          "2030": 0.036
+        },
+        "ebit_margin": {
+          "2026": 0.09,
+          "2027": 0.092,
+          "2028": 0.093,
+          "2029": 0.094,
+          "2030": 0.095
+        },
+        "nwc_pct_sales": {
+          "2026": 0.002,
+          "2027": 0.002,
+          "2028": 0.002,
+          "2029": 0.002,
+          "2030": 0.002
+        },
+        "revenue_growth": {
+          "2026": 0.05,
+          "2027": 0.047,
+          "2028": 0.045,
+          "2029": 0.043,
+          "2030": 0.042
+        }
+      }
+    }
+  },
+  "ticker": "JCI"
+}

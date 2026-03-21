@@ -1,0 +1,675 @@
+{
+  "_meta": {
+    "cost_usd": 0.022665,
+    "generated_at": "2026-03-21T14:45:12Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10968,
+      "prompt": 2515,
+      "reasoning": 6762
+    }
+  },
+  "_valuation": {
+    "company_name": "Netflix, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 91.82,
+        "description": "Base case",
+        "enterprise_value": 287254019995.6615,
+        "equity_value": 281853542995.6615,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 343830993168.46594,
+        "implied_market_cap": 281853542995.6615,
+        "investments_adjustment": 0.0,
+        "net_debt": 5400477000.0,
+        "per_share_value": 64.88545863340107,
+        "projected_years": [
+          {
+            "capex": 714795629.5199999,
+            "cash_taxes": 1903787325.6079998,
+            "da": 372714863.9639999,
+            "delta_nwc": -740797065.0999994,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 14806480897.199997,
+            "ebit_margin": 0.29,
+            "ebitda": 15179195761.163998,
+            "fcff": 13301409871.135998,
+            "nol_balance_end": 0.0,
+            "nol_used": 1208000000.0,
+            "nwc": -6765030065.099999,
+            "present_value_fcff": 12203128322.143116,
+            "revenue": 51056830679.99999,
+            "revenue_growth": 0.13,
+            "year": 2026
+          },
+          {
+            "capex": 771979279.8816,
+            "cash_taxes": 2361684759.93408,
+            "da": 411722282.60352,
+            "delta_nwc": -754619957.4504004,
+            "discount_factor": 0.84167999326656,
+            "ebit": 16869176856.671999,
+            "ebit_margin": 0.295,
+            "ebitda": 17280899139.27552,
+            "fcff": 14901855056.91024,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -7519650022.5504,
+            "present_value_fcff": 12542593263.959463,
+            "revenue": 57183650361.6,
+            "revenue_growth": 0.12,
+            "year": 2027
+          },
+          {
+            "capex": 825160074.717888,
+            "cash_taxes": 2665901779.8577924,
+            "da": 450664348.4997697,
+            "delta_nwc": -795424576.5298576,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 19042155570.4128,
+            "ebit_margin": 0.3,
+            "ebitda": 19492819918.91257,
+            "fcff": 16797182640.866747,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8315074599.080257,
+            "present_value_fcff": 12970506946.845781,
+            "revenue": 63473851901.37601,
+            "revenue_growth": 0.11,
+            "year": 2028
+          },
+          {
+            "capex": 872765463.6439202,
+            "cash_taxes": 2932491957.8435717,
+            "da": 488748659.64059526,
+            "delta_nwc": -796596841.3622684,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 20946371127.454082,
+            "ebit_margin": 0.3,
+            "ebitda": 21435119787.094677,
+            "fcff": 18426459206.96945,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -9111671440.442526,
+            "present_value_fcff": 13053768252.881563,
+            "revenue": 69821237091.51361,
+            "revenue_growth": 0.1,
+            "year": 2029
+          },
+          {
+            "capex": 913261781.1569982,
+            "cash_taxes": 3196416234.049494,
+            "da": 525125524.16527396,
+            "delta_nwc": -781997855.4249554,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 22831544528.924953,
+            "ebit_margin": 0.3,
+            "ebitda": 23356670053.09023,
+            "fcff": 20028989893.308693,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -9893669295.867481,
+            "present_value_fcff": 13017469167.513664,
+            "revenue": 76105148429.74985,
+            "revenue_growth": 0.09,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 343830993168.46594,
+        "terminal_value_present_value": 223466554042.31793,
+        "upside_downside_pct": -0.293340681404911
+      },
+      "bear": {
+        "current_price": 91.82,
+        "description": "Modestly weaker growth and profitability with a less favorable terminal value; higher WACC and lower terminal growth.",
+        "enterprise_value": 228119168923.11603,
+        "equity_value": 222718691923.11603,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 271565178525.20245,
+        "implied_market_cap": 222718691923.11603,
+        "investments_adjustment": 0.0,
+        "net_debt": 5400477000.0,
+        "per_share_value": 51.27203411413206,
+        "projected_years": [
+          {
+            "capex": 718591004.5440001,
+            "cash_taxes": 1850019512.7680004,
+            "da": 369416502.3360001,
+            "delta_nwc": -680929542.4000015,
+            "discount_factor": 0.9090909090909091,
+            "ebit": 14422425091.2,
+            "ebit_margin": 0.285,
+            "ebitda": 14791841593.536001,
+            "fcff": 12904160618.624002,
+            "nol_balance_end": 0.0,
+            "nol_used": 1208000000.0,
+            "nwc": -6705162542.400002,
+            "present_value_fcff": 11731055107.840002,
+            "revenue": 50605000320.00001,
+            "revenue_growth": 0.12,
+            "year": 2026
+          },
+          {
+            "capex": 769550239.8662401,
+            "cash_taxes": 2280564944.4211206,
+            "da": 404435162.5574401,
+            "delta_nwc": -681396329.3088007,
+            "discount_factor": 0.8264462809917354,
+            "ebit": 16289749603.008003,
+            "ebit_margin": 0.29,
+            "ebitda": 16694184765.565443,
+            "fcff": 14325465910.586884,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -7386558871.708802,
+            "present_value_fcff": 11839228025.278416,
+            "revenue": 56171550355.20001,
+            "revenue_growth": 0.11,
+            "year": 2027
+          },
+          {
+            "capex": 819318233.4809474,
+            "cash_taxes": 2563472957.7850857,
+            "da": 440693898.3117217,
+            "delta_nwc": -744553899.9581757,
+            "discount_factor": 0.7513148009015775,
+            "ebit": 18310521127.036324,
+            "ebit_margin": 0.295,
+            "ebitda": 18751215025.348045,
+            "fcff": 16112977734.040188,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8131112771.666978,
+            "present_value_fcff": 12105918658.181955,
+            "revenue": 62069563142.49601,
+            "revenue_growth": 0.105,
+            "year": 2028
+          },
+          {
+            "capex": 869966997.0052241,
+            "cash_taxes": 2807002888.774668,
+            "da": 475763201.4872319,
+            "delta_nwc": -738472627.4878454,
+            "discount_factor": 0.6830134553650705,
+            "ebit": 20050020634.10477,
+            "ebit_margin": 0.295,
+            "ebitda": 20525783835.592003,
+            "fcff": 17587286577.299953,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8869585399.154823,
+            "present_value_fcff": 12012353375.657366,
+            "revenue": 67966171641.03313,
+            "revenue_growth": 0.095,
+            "year": 2029
+          },
+          {
+            "capex": 914416873.2584596,
+            "cash_taxes": 3045598134.3205147,
+            "da": 508828743.99059445,
+            "delta_nwc": -717043110.8128986,
+            "discount_factor": 0.6209213230591549,
+            "ebit": 21754272388.003674,
+            "ebit_margin": 0.295,
+            "ebitda": 22263101131.994267,
+            "fcff": 19020129235.228188,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -9586628509.967722,
+            "present_value_fcff": 11810003809.494,
+            "revenue": 73743296230.52094,
+            "revenue_growth": 0.085,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 271565178525.20245,
+        "terminal_value_present_value": 168620609946.6643,
+        "upside_downside_pct": -0.44160276503885787
+      },
+      "bull": {
+        "current_price": 91.82,
+        "description": "Modestly stronger growth and profitability with slightly more favorable terminal value; lower WACC and higher terminal growth.",
+        "enterprise_value": 320042194258.6057,
+        "equity_value": 314641717258.6057,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 386429240475.30634,
+        "implied_market_cap": 314641717258.6057,
+        "investments_adjustment": 0.0,
+        "net_debt": 5400477000.0,
+        "per_share_value": 72.43361893747701,
+        "projected_years": [
+          {
+            "capex": 710819522.3520001,
+            "cash_taxes": 1958187700.9520004,
+            "da": 376013225.59200007,
+            "delta_nwc": -800664587.8000011,
+            "discount_factor": 0.9191176470588235,
+            "ebit": 15195055006.800001,
+            "ebit_margin": 0.295,
+            "ebitda": 15571068232.392002,
+            "fcff": 13702725596.888004,
+            "nol_balance_end": 0.0,
+            "nol_used": 1208000000.0,
+            "nwc": -6824897587.800001,
+            "present_value_fcff": 12594416908.904415,
+            "revenue": 51508661040.00001,
+            "revenue_growth": 0.14,
+            "year": 2026
+          },
+          {
+            "capex": 770698340.8110001,
+            "cash_taxes": 2433784234.1400003,
+            "da": 417220154.424,
+            "delta_nwc": -795164954.8050003,
+            "discount_factor": 0.844777249134948,
+            "ebit": 17384173101.0,
+            "ebit_margin": 0.3,
+            "ebitda": 17801393255.424,
+            "fcff": 15392075635.278,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -7620062542.605001,
+            "present_value_fcff": 13002875313.647205,
+            "revenue": 57947243670.00001,
+            "revenue_growth": 0.125,
+            "year": 2027
+          },
+          {
+            "capex": 833484179.3274451,
+            "cash_taxes": 2758897244.7505355,
+            "da": 458739354.5135551,
+            "delta_nwc": -844001604.0535507,
+            "discount_factor": 0.776449677513739,
+            "ebit": 19706408891.075253,
+            "ebit_margin": 0.305,
+            "ebitda": 20165148245.588806,
+            "fcff": 17416768425.564377,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8464064146.658552,
+            "present_value_fcff": 13523244227.360931,
+            "revenue": 64611176692.05001,
+            "revenue_growth": 0.115,
+            "year": 2028
+          },
+          {
+            "capex": 885302343.0344691,
+            "cash_taxes": 3048581455.449342,
+            "da": 499767451.7130068,
+            "delta_nwc": -853029060.2767887,
+            "discount_factor": 0.71364860065601,
+            "ebit": 21775581824.638153,
+            "ebit_margin": 0.305,
+            "ebitda": 22275349276.35116,
+            "fcff": 19194494538.144135,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -9317093206.93534,
+            "present_value_fcff": 13698124167.445988,
+            "revenue": 71395350244.71526,
+            "revenue_growth": 0.105,
+            "year": 2029
+          },
+          {
+            "capex": 922499320.5119656,
+            "cash_taxes": 3338196693.7170286,
+            "da": 539427568.773946,
+            "delta_nwc": -846034900.3998756,
+            "discount_factor": 0.6559270226617738,
+            "ebit": 23844262097.978775,
+            "ebit_margin": 0.305,
+            "ebitda": 24383689666.75272,
+            "fcff": 20969028552.9236,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -10163128107.335217,
+            "present_value_fcff": 13754152466.8289,
+            "revenue": 78177908517.9632,
+            "revenue_growth": 0.095,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 386429240475.30634,
+        "terminal_value_present_value": 253469381174.4183,
+        "upside_downside_pct": -0.2111346227676213
+      }
+    },
+    "ticker": "NFLX"
+  },
+  "assumptions": {
+    "cash": 9062359000.0,
+    "current_price": 91.82,
+    "debt": 14462836000.0,
+    "diluted_shares": 4343863000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 1208000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.3,
+    "tax_rate": 0.14,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.03,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.09
+  },
+  "company_name": "Netflix, Inc.",
+  "comps": [
+    {
+      "company_name": "The Walt Disney Company",
+      "ev_ntm_ebitda": 11.25,
+      "ev_ntm_revenue": 2.27,
+      "notes": "EV/Sales and EV/EBITDA are shown as current/trailing on StockAnalysis (proxy only for EV/NTM). ([stockanalysis.com](https://stockanalysis.com/stocks/dis/statistics/))",
+      "pe_ntm": 14.46,
+      "source": "StockAnalysis.com (EV/Sales, EV/EBITDA, Forward PE)",
+      "ticker": "DIS"
+    },
+    {
+      "company_name": "Warner Bros. Discovery, Inc.",
+      "ev_ntm_ebitda": 13.61,
+      "ev_ntm_revenue": 2.69,
+      "notes": "Forward P/E not available on StockAnalysis (n/a). EV/Sales and EV/EBITDA are shown as current/trailing (proxy for EV/NTM). ([stockanalysis.com](https://stockanalysis.com/stocks/wbd/statistics/))",
+      "pe_ntm": null,
+      "source": "StockAnalysis.com (EV/Sales, EV/EBITDA)",
+      "ticker": "WBD"
+    },
+    {
+      "company_name": "Paramount Global",
+      "ev_ntm_ebitda": 7.85,
+      "ev_ntm_revenue": 0.7,
+      "notes": "EV/Sales and EV/EBITDA are shown as current/trailing (proxy only for EV/NTM). ([stockanalysis.com](https://stockanalysis.com/stocks/para/statistics/))",
+      "pe_ntm": 8.38,
+      "source": "StockAnalysis.com (EV/Sales, EV/EBITDA, Forward PE)",
+      "ticker": "PARA"
+    },
+    {
+      "company_name": "Comcast Corporation",
+      "ev_ntm_ebitda": 5.42,
+      "ev_ntm_revenue": 1.62,
+      "notes": "EV/Sales and EV/EBITDA are shown as current/trailing (proxy only for EV/NTM). ([stockanalysis.com](https://stockanalysis.com/stocks/cmcsa/statistics/))",
+      "pe_ntm": 7.9,
+      "source": "StockAnalysis.com (EV/Sales, EV/EBITDA, Forward PE)",
+      "ticker": "CMCSA"
+    },
+    {
+      "company_name": "Roku, Inc.",
+      "ev_ntm_ebitda": 46.94,
+      "ev_ntm_revenue": 2.76,
+      "notes": "EV/Sales and EV/EBITDA are shown as current/trailing (proxy only for EV/NTM). ([stockanalysis.com](https://stockanalysis.com/stocks/roku/statistics/?utm_source=openai))",
+      "pe_ntm": 45.35,
+      "source": "StockAnalysis.com (EV/Sales, EV/EBITDA, Forward PE)",
+      "ticker": "ROKU"
+    },
+    {
+      "company_name": "Spotify Technology S.A.",
+      "ev_ntm_ebitda": 34.35,
+      "ev_ntm_revenue": 4.51,
+      "notes": "EV/Sales and EV/EBITDA are shown as current/trailing (proxy only for EV/NTM). ([stockanalysis.com](https://stockanalysis.com/stocks/spot/statistics/))",
+      "pe_ntm": 31.54,
+      "source": "StockAnalysis.com (EV/Sales, EV/EBITDA, Forward PE)",
+      "ticker": "SPOT"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.014,
+      "2027": 0.0135,
+      "2028": 0.013,
+      "2029": 0.0125,
+      "2030": 0.012
+    },
+    "da_pct_sales": {
+      "2026": 0.0073,
+      "2027": 0.0072,
+      "2028": 0.0071,
+      "2029": 0.007,
+      "2030": 0.0069
+    },
+    "ebit_margin": {
+      "2026": 0.29,
+      "2027": 0.295,
+      "2028": 0.3,
+      "2029": 0.3,
+      "2030": 0.3
+    },
+    "nwc_pct_sales": {
+      "2026": -0.1325,
+      "2027": -0.1315,
+      "2028": -0.131,
+      "2029": -0.1305,
+      "2030": -0.13
+    },
+    "revenue_growth": {
+      "2026": 0.13,
+      "2027": 0.12,
+      "2028": 0.11,
+      "2029": 0.1,
+      "2030": 0.09
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 348552000.0,
+      "2024": 439538000.0,
+      "2025": 688220000.0
+    },
+    "da": {
+      "2023": 356947000.0,
+      "2024": 328914000.0,
+      "2025": 333389000.0
+    },
+    "ebit": {
+      "2023": 6954003000.0,
+      "2024": 10417614000.0,
+      "2025": 13326603000.0
+    },
+    "nwc": {
+      "2023": -5680564000.0,
+      "2024": -5454307000.0,
+      "2025": -6024233000.0
+    },
+    "revenue": {
+      "2023": 33723297000.0,
+      "2024": 39000966000.0,
+      "2025": 45183036000.0
+    }
+  },
+  "notes": [
+    "EBIT is approximated as Operating income from Netflix\u2019s consolidated statements of operations (in thousands in the filing; converted to absolute USD by multiplying by 1,000). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm))",
+    "D&A is modeled using depreciation and amortization of property, equipment and intangibles from the cash flow statement; capex is modeled using purchases of property and equipment (cash flow line; converted to absolute USD). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm))",
+    "NWC definition (for consistency across years) is: NWC = Other current assets \u2212 (Current content liabilities + Accounts payable + Accrued expenses and other liabilities + Deferred revenue). Cash, short-term investments, and short-term debt are excluded from operating working capital. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm))",
+    "Tax rate uses Netflix FY2025 effective tax rate (0.14). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm))",
+    "NOL balance is approximated as (state NOL carryforwards 1,018m + foreign NOL carryforwards 190m) disclosed in the income tax note; NOL utilization set to 0.80 per model input. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm))",
+    "Current price uses the latest available quote at research time (2026-03-21).",
+    "Comps EV/NTM fields use EV/Sales and EV/EBITDA shown by StockAnalysis (current/trailing proxy). Exact EV/NTM multiples may differ if forward EV/EBITDA and forward revenue estimates are used. ([stockanalysis.com](https://stockanalysis.com/stocks/dis/statistics/))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Regulatory outcome and closing progress for the Warner Bros. integration plans discussed by management. ([s22.q4cdn.com](https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf))",
+      "Sustained ad revenue acceleration and continued margin expansion versus internal operating targets. ([s22.q4cdn.com](https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf))",
+      "Evidence that price/mix actions translate into resilient paid growth while limiting content cost creep (margin durability). ([s22.q4cdn.com](https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf))"
+    ],
+    "company_overview": [
+      "Netflix is a global streaming service monetized via paid memberships, with an increasing contribution from advertising. ([s22.q4cdn.com](https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf))",
+      "FY2025 revenue was $45,183,036,000 with operating income (EBIT proxy) of $13,326,603,000, implying a 0.295 operating margin. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm))",
+      "Netflix\u2019s 2026 operating plan emphasizes margin expansion alongside a continued ramp of its ads business. ([s22.q4cdn.com](https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf))"
+    ],
+    "current_context": [
+      "In its January 20, 2026 shareholder letter, Netflix forecast 2026 revenue of $50.7B-$51.7B (+12%-14% YoY) and targeted an operating margin of 31.5%. ([s22.q4cdn.com](https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf))",
+      "Management highlighted a projected rough doubling of ad revenue in 2026 versus 2025 and reiterated a focus on improving the core content slate and product experience. ([s22.q4cdn.com](https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf))",
+      "The company reported Q4 2025 revenue growth of 18% YoY (+17% FX-neutral) and crossed 325M paid memberships during the quarter. ([s22.q4cdn.com](https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf))"
+    ],
+    "investment_highlights": [
+      "Base-case top-line growth chains from the 2026 management range (+0.13 in 2026) and decelerates gradually through 2030 (0.12\u21920.09) to reflect a maturing base. ([s22.q4cdn.com](https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf))",
+      "Base-case EBIT margin expands from ~0.295 (2025 realized) toward a long-run ~0.30 target, consistent with management\u2019s 31.5% operating margin target for 2026 and subsequent conservative mean reversion. ([s22.q4cdn.com](https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf))",
+      "Depreciation and capex are modeled as modest, declining/stable percentages of sales (D&A ~0.0073\u21920.0069; capex ~0.0140\u21920.0120) reflecting scale plus content lifecycle effects. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm))",
+      "Working capital is modeled as persistently negative (NWC_pct_sales ~-0.133), reflecting Netflix\u2019s cash conversion profile driven largely by accrued/content and deferred-revenue dynamics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm))"
+    ],
+    "key_risks": [
+      "Ad market volatility and slower-than-expected monetization could pressure the margin trajectory. ([s22.q4cdn.com](https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf))",
+      "Higher content costs, weaker engagement/retention, or competitive pricing could prevent EBIT margin from reaching the modeled 0.30 terminal run-rate. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm))",
+      "Integration/regulatory delays (deal timing/antitrust) could raise uncertainty around reinvestment and expense run-rate. ([s22.q4cdn.com](https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf))"
+    ],
+    "sources": [
+      {
+        "label": "Netflix FY2025 Form 10-K (SEC)",
+        "notes": "Provides 2023-2025 revenue and operating income (EBIT proxy), depreciation and amortization, property & equipment purchases (capex), effective tax rate, diluted shares, and 2024-2025 balance sheet line items used for cash/debt and NWC components. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm"
+      },
+      {
+        "label": "Netflix FY2024 Form 10-K (SEC) for Dec 31, 2023 NWC components",
+        "notes": "Provides the Dec 31, 2023 balance sheet components needed to compute NWC for the 2023 historical year under the defined working-capital methodology. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm"
+      },
+      {
+        "label": "Netflix Q4 2025 Shareholder Letter (Jan 20, 2026)",
+        "notes": "Primary source for the 2026 revenue and operating margin guidance used as the anchor for the base-case growth and margin path. ([s22.q4cdn.com](https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf))",
+        "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf"
+      },
+      {
+        "label": "StockAnalysis.com peer statistics for comps",
+        "notes": "Used to pull EV/Sales, EV/EBITDA, and forward P/E for selected peers. Note: EV/Sales and EV/EBITDA are shown as current/trailing on the page, used as a proxy for EV/NTM multiples. ([stockanalysis.com](https://stockanalysis.com/stocks/dis/statistics/))",
+        "url": null
+      }
+    ],
+    "subtitle": "Netflix (NFLX) DCF Input Package \u2014 Ad Growth + Operating Margin Expansion",
+    "valuation_summary": [
+      "The DCF uses EBIT margin assumptions grounded in the company\u2019s reported 2025 operating margin and its 2026 operating margin target. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm))",
+      "Terminal value is implemented via a Gordon-growth approach (terminal_growth 0.03) with WACC 0.09, consistent with a long-run, mature-media platform risk profile.",
+      "Peer triangulation uses EV/Sales and EV/EBITDA from selected streaming/media comps and forwards P/E where available (with EV multiples treated as a proxy for near-term). ([stockanalysis.com](https://stockanalysis.com/stocks/dis/statistics/))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 91.82,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.295,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.028,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.1
+      },
+      "description": "Modestly weaker growth and profitability with a less favorable terminal value; higher WACC and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0142,
+          "2027": 0.0137,
+          "2028": 0.0132,
+          "2029": 0.0128,
+          "2030": 0.0124
+        },
+        "da_pct_sales": {
+          "2026": 0.0073,
+          "2027": 0.0072,
+          "2028": 0.0071,
+          "2029": 0.007,
+          "2030": 0.0069
+        },
+        "ebit_margin": {
+          "2026": 0.285,
+          "2027": 0.29,
+          "2028": 0.295,
+          "2029": 0.295,
+          "2030": 0.295
+        },
+        "nwc_pct_sales": {
+          "2026": -0.1325,
+          "2027": -0.1315,
+          "2028": -0.131,
+          "2029": -0.1305,
+          "2030": -0.13
+        },
+        "revenue_growth": {
+          "2026": 0.12,
+          "2027": 0.11,
+          "2028": 0.105,
+          "2029": 0.095,
+          "2030": 0.085
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 91.82,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.305,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.032,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.088
+      },
+      "description": "Modestly stronger growth and profitability with slightly more favorable terminal value; lower WACC and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0138,
+          "2027": 0.0133,
+          "2028": 0.0129,
+          "2029": 0.0124,
+          "2030": 0.0118
+        },
+        "da_pct_sales": {
+          "2026": 0.0073,
+          "2027": 0.0072,
+          "2028": 0.0071,
+          "2029": 0.007,
+          "2030": 0.0069
+        },
+        "ebit_margin": {
+          "2026": 0.295,
+          "2027": 0.3,
+          "2028": 0.305,
+          "2029": 0.305,
+          "2030": 0.305
+        },
+        "nwc_pct_sales": {
+          "2026": -0.1325,
+          "2027": -0.1315,
+          "2028": -0.131,
+          "2029": -0.1305,
+          "2030": -0.13
+        },
+        "revenue_growth": {
+          "2026": 0.14,
+          "2027": 0.125,
+          "2028": 0.115,
+          "2029": 0.105,
+          "2030": 0.095
+        }
+      }
+    }
+  },
+  "ticker": "NFLX"
+}

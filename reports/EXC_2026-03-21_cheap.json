@@ -1,0 +1,695 @@
+{
+  "_meta": {
+    "cost_usd": 0.026244,
+    "generated_at": "2026-03-21T14:44:40Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12484,
+      "prompt": 2514,
+      "reasoning": 8109
+    }
+  },
+  "_valuation": {
+    "company_name": "Exelon Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 46.44,
+        "description": "Base case",
+        "enterprise_value": -12044586890.605227,
+        "equity_value": -60661586890.605225,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": -12383988728.70313,
+        "implied_market_cap": -60661586890.605225,
+        "investments_adjustment": 312000000.0,
+        "net_debt": 48929000000.0,
+        "per_share_value": -59.47214401039728,
+        "projected_years": [
+          {
+            "capex": 8826515880.0,
+            "cash_taxes": 801447641.9040002,
+            "da": 3808011136.8000007,
+            "delta_nwc": -72432971.20000017,
+            "discount_factor": 0.9499382540134892,
+            "ebit": 5043723360.000001,
+            "ebit_margin": 0.2,
+            "ebitda": 8851734496.800001,
+            "fcff": -703796053.903998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -857432971.2000002,
+            "present_value_fcff": -668562794.6271474,
+            "revenue": 25218616800.000004,
+            "revenue_growth": 0.0396,
+            "year": 2026
+          },
+          {
+            "capex": 9065941427.8992,
+            "cash_taxes": 838949380.6877931,
+            "da": 3943422499.7076,
+            "delta_nwc": -7237743.021599889,
+            "discount_factor": 0.9023826864381962,
+            "ebit": 5279731785.322801,
+            "ebit_margin": 0.2015,
+            "ebitda": 9223154285.030401,
+            "fcff": -674498780.534993,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -864670714.2216,
+            "present_value_fcff": -608656021.5784544,
+            "revenue": 26202142855.2,
+            "revenue_growth": 0.039,
+            "year": 2027
+          },
+          {
+            "capex": 9306136471.452818,
+            "cash_taxes": 875572747.8832024,
+            "da": 4076196618.1977544,
+            "delta_nwc": -19684359.81996894,
+            "discount_factor": 0.857207833607102,
+            "ebit": 5510212384.412853,
+            "ebit_margin": 0.2025,
+            "ebitda": 9586409002.610607,
+            "fcff": -575615856.9054434,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -884355074.041569,
+            "present_value_fcff": -493422421.6878108,
+            "revenue": 27210925355.1252,
+            "revenue_growth": 0.0385,
+            "year": 2028
+          },
+          {
+            "capex": 9546789895.293547,
+            "cash_taxes": 913332633.3511727,
+            "da": 4208496137.2743735,
+            "delta_nwc": -27956504.709855676,
+            "discount_factor": 0.814294512783416,
+            "ebit": 5747845395.539161,
+            "ebit_margin": 0.2035,
+            "ebitda": 9956341532.813534,
+            "fcff": -475824491.1213287,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -912311578.7514247,
+            "present_value_fcff": -387461272.16805923,
+            "revenue": 28244940518.619957,
+            "revenue_growth": 0.038,
+            "year": 2029
+          },
+          {
+            "capex": 9787578013.21478,
+            "cash_taxes": 949910819.8957038,
+            "da": 4337010616.634094,
+            "delta_nwc": -25420446.466758013,
+            "discount_factor": 0.773529507726243,
+            "ebit": 5978041660.765914,
+            "ebit_margin": 0.204,
+            "ebitda": 10315052277.40001,
+            "fcff": -397016109.2437179,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -937732025.2181827,
+            "present_value_fcff": -307103675.5426814,
+            "revenue": 29304125788.068207,
+            "revenue_growth": 0.0375,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": -12383988728.70313,
+        "terminal_value_present_value": -9579380705.001074,
+        "upside_downside_pct": -2.28062325603784
+      },
+      "bear": {
+        "current_price": 46.44,
+        "description": "Lower revenue growth (-1.0pp vs base) and modest EBIT margin deterioration (-0.5pp vs base), with slightly higher discount rate and lower terminal growth.",
+        "enterprise_value": -13926381564.681644,
+        "equity_value": -62543381564.68164,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": -14389994994.373203,
+        "implied_market_cap": -62543381564.68164,
+        "investments_adjustment": 312000000.0,
+        "net_debt": 48929000000.0,
+        "per_share_value": -61.317040749687884,
+        "projected_years": [
+          {
+            "capex": 8741612880.0,
+            "cash_taxes": 773894988.2664001,
+            "da": 3771381556.7999997,
+            "delta_nwc": -64185251.20000005,
+            "discount_factor": 0.9481369109699441,
+            "ebit": 4870327176.0,
+            "ebit_margin": 0.195,
+            "ebitda": 8641708732.8,
+            "fcff": -809613884.2664001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -849185251.2,
+            "present_value_fcff": -767624807.3067224,
+            "revenue": 24976036800.0,
+            "revenue_growth": 0.0296,
+            "year": 2026
+          },
+          {
+            "capex": 8892318286.051199,
+            "cash_taxes": 802463619.4101727,
+            "da": 3867901451.0135994,
+            "delta_nwc": 1073969.5824000835,
+            "discount_factor": 0.8989636019436277,
+            "ebit": 5050117176.904799,
+            "ebit_margin": 0.1965,
+            "ebitda": 8918018627.9184,
+            "fcff": -777837247.1253726,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -848111281.6176,
+            "present_value_fcff": -699247373.4017407,
+            "revenue": 25700341867.199997,
+            "revenue_growth": 0.029,
+            "year": 2027
+          },
+          {
+            "capex": 9040018150.761997,
+            "cash_taxes": 829534004.7392576,
+            "da": 3959633681.2401958,
+            "delta_nwc": -10954770.72089386,
+            "discount_factor": 0.8523405726212456,
+            "ebit": 5220478318.057001,
+            "ebit_margin": 0.1975,
+            "ebitda": 9180111999.297197,
+            "fcff": -678485385.4831638,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -859066052.3384938,
+            "present_value_fcff": -578300621.9778664,
+            "revenue": 26432801610.415195,
+            "revenue_growth": 0.0285,
+            "year": 2028
+          },
+          {
+            "capex": 9184446978.761307,
+            "cash_taxes": 857078733.8687769,
+            "da": 4048765088.270516,
+            "delta_nwc": -18619265.45437658,
+            "discount_factor": 0.808135557619461,
+            "ebit": 5393824631.018105,
+            "ebit_margin": 0.1985,
+            "ebitda": 9442589719.28862,
+            "fcff": -580316727.8870865,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -877685317.7928704,
+            "present_value_fcff": -468974582.4869317,
+            "revenue": 27172920055.50682,
+            "revenue_growth": 0.028,
+            "year": 2029
+          },
+          {
+            "capex": 9325338569.24911,
+            "cash_taxes": 882866656.9822845,
+            "da": 4132185952.8409224,
+            "delta_nwc": -15760293.632193923,
+            "discount_factor": 0.766223151246289,
+            "ebit": 5556114896.049619,
+            "ebit_margin": 0.199,
+            "ebitda": 9688300848.890541,
+            "fcff": -504144083.7086588,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -893445611.4250643,
+            "present_value_fcff": -386286868.5014215,
+            "revenue": 27920175357.03326,
+            "revenue_growth": 0.0275,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": -14389994994.373203,
+        "terminal_value_present_value": -11025947311.006962,
+        "upside_downside_pct": -2.320349714678895
+      },
+      "bull": {
+        "current_price": 46.44,
+        "description": "Higher revenue growth (+1.0pp vs base) and modest EBIT margin improvement (+0.5pp vs base), with slightly lower discount rate and terminal growth.",
+        "enterprise_value": -9462123001.489225,
+        "equity_value": -58079123001.48923,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": -9559522202.15952,
+        "implied_market_cap": -58079123001.48923,
+        "investments_adjustment": 312000000.0,
+        "net_debt": 48929000000.0,
+        "per_share_value": -56.94031666812669,
+        "projected_years": [
+          {
+            "capex": 8911418880.0,
+            "cash_taxes": 829385755.1616001,
+            "da": 3844640716.8000007,
+            "delta_nwc": -80680691.20000017,
+            "discount_factor": 0.9517464547444561,
+            "ebit": 5219545344.0,
+            "ebit_margin": 0.205,
+            "ebitda": 9064186060.800001,
+            "fcff": -595937883.1615988,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -865680691.2000002,
+            "present_value_fcff": -567181767.5469675,
+            "revenue": 25461196800.000004,
+            "revenue_growth": 0.0496,
+            "year": 2026
+          },
+          {
+            "capex": 9241243223.3472,
+            "cash_taxes": 876391698.5584052,
+            "da": 4019673714.2016,
+            "delta_nwc": -15709558.425599933,
+            "discount_factor": 0.905821314118641,
+            "ebit": 5515366259.0208,
+            "ebit_margin": 0.2065,
+            "ebitda": 9535039973.2224,
+            "fcff": -566885390.2576066,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -881390249.6256001,
+            "present_value_fcff": -513496869.1578039,
+            "revenue": 26708795443.2,
+            "revenue_growth": 0.049,
+            "year": 2027
+          },
+          {
+            "capex": 9577426831.59076,
+            "cash_taxes": 923346558.8728147,
+            "da": 4195024968.924841,
+            "delta_nwc": -28745341.095744014,
+            "discount_factor": 0.862112224344381,
+            "ebit": 5810865694.605504,
+            "ebit_margin": 0.2075,
+            "ebitda": 10005890663.530346,
+            "fcff": -466137385.83748543,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -910135590.7213441,
+            "present_value_fcff": -401862738.55442953,
+            "revenue": 28004172022.1952,
+            "revenue_growth": 0.0485,
+            "year": 2028
+          },
+          {
+            "capex": 9919749830.390076,
+            "cash_taxes": 972330650.0538844,
+            "da": 4372907469.609825,
+            "delta_nwc": -37816833.89877248,
+            "discount_factor": 0.8205122531116217,
+            "ebit": 6119135620.225829,
+            "ebit_margin": 0.2085,
+            "ebitda": 10492043089.835655,
+            "fcff": -362220556.7095344,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -947952424.6201166,
+            "present_value_fcff": -297206405.10908604,
+            "revenue": 29348372279.260574,
+            "revenue_growth": 0.048,
+            "year": 2029
+          },
+          {
+            "capex": 10267968267.483503,
+            "cash_taxes": 1020958841.1974667,
+            "da": 4549878154.453767,
+            "delta_nwc": -35805014.18069804,
+            "discount_factor": 0.7809196279733718,
+            "ebit": 6425165772.16782,
+            "ebit_margin": 0.209,
+            "ebitda": 10975043926.621586,
+            "fcff": -278078167.87868536,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -983757438.8008146,
+            "present_value_fcff": -217156699.40733978,
+            "revenue": 30742419962.525455,
+            "revenue_growth": 0.0475,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": -9559522202.15952,
+        "terminal_value_present_value": -7465218521.713599,
+        "upside_downside_pct": -2.2261050100802473
+      }
+    },
+    "ticker": "EXC"
+  },
+  "assumptions": {
+    "cash": 1151000000.0,
+    "current_price": 46.44,
+    "debt": 50080000000.0,
+    "diluted_shares": 1020000000.0,
+    "investments": 312000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.204,
+    "tax_rate": 0.1589,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.0527
+  },
+  "company_name": "Exelon Corporation",
+  "comps": [
+    {
+      "company_name": "NextEra Energy, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E shown; EV/NTM Revenue and EV/NTM EBITDA not explicitly provided in-source (set null). ([stockanalysis.com](https://stockanalysis.com/stocks/nee/))",
+      "pe_ntm": 22.29,
+      "source": "StockAnalysis.com",
+      "ticker": "NEE"
+    },
+    {
+      "company_name": "Duke Energy Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E shown; EV/NTM Revenue and EV/NTM EBITDA not explicitly provided in-source (set null). ([stockanalysis.com](https://stockanalysis.com/stocks/duk/))",
+      "pe_ntm": 18.92,
+      "source": "StockAnalysis.com",
+      "ticker": "DUK"
+    },
+    {
+      "company_name": "The Southern Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E shown; EV/NTM Revenue and EV/NTM EBITDA not explicitly provided in-source (set null). ([stockanalysis.com](https://stockanalysis.com/stocks/so/))",
+      "pe_ntm": 20.46,
+      "source": "StockAnalysis.com",
+      "ticker": "SO"
+    },
+    {
+      "company_name": "American Electric Power Company, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E shown; EV/NTM Revenue and EV/NTM EBITDA not explicitly provided in-source (set null). ([stockanalysis.com](https://stockanalysis.com/stocks/aep/))",
+      "pe_ntm": 19.76,
+      "source": "StockAnalysis.com",
+      "ticker": "AEP"
+    },
+    {
+      "company_name": "Xcel Energy Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E shown; EV/NTM Revenue and EV/NTM EBITDA not explicitly provided in-source (set null). ([stockanalysis.com](https://stockanalysis.com/stocks/xel/))",
+      "pe_ntm": 18.66,
+      "source": "StockAnalysis.com",
+      "ticker": "XEL"
+    },
+    {
+      "company_name": "Sempra",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E shown; EV/NTM Revenue and EV/NTM EBITDA not explicitly provided in-source (set null). ([stockanalysis.com](https://stockanalysis.com/stocks/sre/))",
+      "pe_ntm": 17.96,
+      "source": "StockAnalysis.com",
+      "ticker": "SRE"
+    },
+    {
+      "company_name": "PG&E Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E shown; EV/NTM Revenue and EV/NTM EBITDA not explicitly provided in-source (set null). ([stockanalysis.com](https://stockanalysis.com/stocks/pcg/))",
+      "pe_ntm": 10.52,
+      "source": "StockAnalysis.com",
+      "ticker": "PCG"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.35,
+      "2027": 0.346,
+      "2028": 0.342,
+      "2029": 0.338,
+      "2030": 0.334
+    },
+    "da_pct_sales": {
+      "2026": 0.151,
+      "2027": 0.1505,
+      "2028": 0.1498,
+      "2029": 0.149,
+      "2030": 0.148
+    },
+    "ebit_margin": {
+      "2026": 0.2,
+      "2027": 0.2015,
+      "2028": 0.2025,
+      "2029": 0.2035,
+      "2030": 0.204
+    },
+    "nwc_pct_sales": {
+      "2026": -0.034,
+      "2027": -0.033,
+      "2028": -0.0325,
+      "2029": -0.0323,
+      "2030": -0.032
+    },
+    "revenue_growth": {
+      "2026": 0.0396,
+      "2027": 0.039,
+      "2028": 0.0385,
+      "2029": 0.038,
+      "2030": 0.0375
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 7408000000.0,
+      "2024": 7097000000.0,
+      "2025": 8529000000.0
+    },
+    "da": {
+      "2023": 3394000000.0,
+      "2024": 3506000000.0,
+      "2025": 3594000000.0
+    },
+    "ebit": {
+      "2023": 4023000000.0,
+      "2024": 4319000000.0,
+      "2025": 5148000000.0
+    },
+    "nwc": {
+      "2023": -1814000000.0,
+      "2024": -1227000000.0,
+      "2025": -785000000.0
+    },
+    "revenue": {
+      "2023": 21727000000.0,
+      "2024": 23028000000.0,
+      "2025": 24258000000.0
+    }
+  },
+  "notes": [
+    "EBIT is implemented as Exelon operating income from the captured annual income statement table (not a formal EBIT line-item from a specific filing). ([investors.exeloncorp.com](https://investors.exeloncorp.com/financials-performance/income-statement/))",
+    "NWC is defined as Total current assets minus Total current liabilities from StockAnalysis (includes all current components as presented; does not exclude cash-like items unless reflected in total current asset classification). ([stockanalysis.com](https://stockanalysis.com/stocks/exc/financials/balance-sheet/))",
+    "Capex is taken as the absolute value of \u201cPurchase of Fixed Assets\u201d from the captured annual cash flow table. ([investors.exeloncorp.com](https://investors.exeloncorp.com/financials-performance/cash-flow/))",
+    "Base-case forecast drivers are assumption-based: revenue growth is anchored to the market-data summary revenue growth outlook and then smoothed with a gentle downtrend; margins and reinvestment ratios are anchored to historical levels and gradually normalized.",
+    "WACC (0.0527) and effective tax rate (0.1589) are sourced from StockAnalysis statistics; treat as market-data inputs rather than a fully rebuilt WACC from capital-structure and CAPM components. ([stockanalysis.com](https://stockanalysis.com/stocks/exc/statistics/))",
+    "NOL balance is left null because the captured dataset did not provide an extractable NOL carryforward balance for 2025. NOL utilization is set to 0.80 per pipeline default.",
+    "Comps EV/NTM Revenue and EV/NTM EBITDA are set to null because the captured peer dataset provides forward P/E but not EV/NTM revenue/EBITDA explicitly. ([stockanalysis.com](https://stockanalysis.com/stocks/nee/))",
+    "Current price is set to $46.44 using market-data captured around Mar 20, 2026 close while the required as-of date is 2026-03-21. ([stockanalysis.com](https://stockanalysis.com/stocks/exc/))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Execution of the four-year capital plan and resulting rate base growth (7.9% cited for the outlook). ([exeloncorp.com](https://www.exeloncorp.com/newsroom/exelon-reports-fourth-quarter-and-full-year-2025-results-and-initiates-2026-financial-outlook))",
+      "Progress/outcomes of major rate cases and multi-year plan reconciliations across the utility footprint. ([exeloncorp.com](https://www.exeloncorp.com/newsroom/exelon-reports-fourth-quarter-and-full-year-2025-results-and-initiates-2026-financial-outlook))",
+      "Financing actions that influence interest expense and near-term earnings cadence. ([exeloncorp.com](https://www.exeloncorp.com/newsroom/exelon-reports-fourth-quarter-and-full-year-2025-results-and-initiates-2026-financial-outlook))"
+    ],
+    "company_overview": [
+      "Exelon is a utility services holding company focused on energy distribution and transmission businesses in the United States. ([stockanalysis.com](https://stockanalysis.com/stocks/exc/))",
+      "Activities include purchase and regulated retail sale of electricity and natural gas, and transmission/distribution of electricity and distribution of natural gas to retail customers. ([stockanalysis.com](https://stockanalysis.com/stocks/exc/))",
+      "Headquartered in Chicago, Illinois. ([stockanalysis.com](https://stockanalysis.com/stocks/exc/))"
+    ],
+    "current_context": [
+      "Reported full-year 2025 adjusted (non-GAAP) operating earnings of $2.77 per share (GAAP net income $2.73 per share). ([exeloncorp.com](https://www.exeloncorp.com/newsroom/exelon-reports-fourth-quarter-and-full-year-2025-results-and-initiates-2026-financial-outlook))",
+      "Announced a $41.3 billion four-year capital plan and 7.9% rate base growth; expects annualized earnings growth near the top end of 5% to 7% through 2029. ([exeloncorp.com](https://www.exeloncorp.com/newsroom/exelon-reports-fourth-quarter-and-full-year-2025-results-and-initiates-2026-financial-outlook))",
+      "Outlined customer affordability initiatives including $60 million provided in direct assistance through the Customer Relief Fund. ([exeloncorp.com](https://www.exeloncorp.com/newsroom/exelon-reports-fourth-quarter-and-full-year-2025-results-and-initiates-2026-financial-outlook))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth is set to a low-to-mid single-digit trajectory consistent with Exelon\u2019s utility/regulatory earnings profile and recent guidance. ([exeloncorp.com](https://www.exeloncorp.com/newsroom/exelon-reports-fourth-quarter-and-full-year-2025-results-and-initiates-2026-financial-outlook))",
+      "EBIT margin is modeled to gradually improve from the historical level toward ~20% as operating performance and regulatory recovery stabilize. ([investors.exeloncorp.com](https://investors.exeloncorp.com/financials-performance/income-statement/))",
+      "Reinvestment intensity is anchored to historical depreciation and capex rates; capex remains elevated in line with the stated multi-year capital plan. ([investors.exeloncorp.com](https://investors.exeloncorp.com/financials-performance/cash-flow/))",
+      "Working capital is structurally negative (current liabilities exceed current assets), providing incremental FCF support in the DCF framework. ([stockanalysis.com](https://stockanalysis.com/stocks/exc/financials/balance-sheet/))"
+    ],
+    "key_risks": [
+      "Regulatory risk: adverse rate-case outcomes or timing shifts that reduce recoverable costs and compress margins versus base-case assumptions.",
+      "Cost/volume/weather and nuclear supply risks that can create quarter-to-quarter earnings volatility and lead to margin resets.",
+      "Liquidity/debt service risk given a high leverage profile for the sector; higher-for-longer rates could pressure WACC or realized financing costs."
+    ],
+    "sources": [
+      {
+        "label": "Exelon Investor Relations \u2014 Income Statement (annual)",
+        "notes": "Historical revenue, operating income (used as EBIT proxy), and depreciation/amortization for FY 2023-2025. ([investors.exeloncorp.com](https://investors.exeloncorp.com/financials-performance/income-statement/))",
+        "url": "https://investors.exeloncorp.com/financials-performance/income-statement/"
+      },
+      {
+        "label": "Exelon Investor Relations \u2014 Cash Flow (annual)",
+        "notes": "Historical capex (Purchase of Fixed Assets) for FY 2023-2025. ([investors.exeloncorp.com](https://investors.exeloncorp.com/financials-performance/cash-flow/))",
+        "url": "https://investors.exeloncorp.com/financials-performance/cash-flow/"
+      },
+      {
+        "label": "StockAnalysis \u2014 Exelon Balance Sheet (annual)",
+        "notes": "Total current assets/liabilities for NWC calculation; cash and debt; long-term investments. ([stockanalysis.com](https://stockanalysis.com/stocks/exc/financials/balance-sheet/))",
+        "url": "https://stockanalysis.com/stocks/exc/financials/balance-sheet/"
+      },
+      {
+        "label": "StockAnalysis \u2014 Exelon Statistics (WACC, effective tax rate, forward P/E)",
+        "notes": "Effective tax rate and WACC used in base-case assumptions; forward P/E referenced qualitatively for comps context. ([stockanalysis.com](https://stockanalysis.com/stocks/exc/statistics/))",
+        "url": "https://stockanalysis.com/stocks/exc/statistics/"
+      },
+      {
+        "label": "Exelon Newsroom \u2014 Q4 & Full Year 2025 Results and 2026 Outlook",
+        "notes": "Latest operating update, including adjusted operating earnings ($2.77/sh), $41.3B capital plan, 7.9% rate base growth, and 5% to 7% annualized earnings growth through 2029. ([exeloncorp.com](https://www.exeloncorp.com/newsroom/exelon-reports-fourth-quarter-and-full-year-2025-results-and-initiates-2026-financial-outlook))",
+        "url": "https://www.exeloncorp.com/newsroom/exelon-reports-fourth-quarter-and-full-year-2025-results-and-initiates-2026-financial-outlook"
+      },
+      {
+        "label": "StockAnalysis \u2014 Exelon Company Overview (business description and quote context)",
+        "notes": "Used for company description; also corroborates quote context near the as-of date. ([stockanalysis.com](https://stockanalysis.com/stocks/exc/))",
+        "url": "https://stockanalysis.com/stocks/exc/"
+      }
+    ],
+    "subtitle": "Exelon (EXC) DCF Inputs \u2014 regulated earnings, reinvestment, and working-capital assumptions",
+    "valuation_summary": [
+      "DCF uses a Gordon-growth terminal method with terminal growth of 0.02 and WACC of 0.0527, reflecting utility discount-rate levels from market-data summaries. ([stockanalysis.com](https://stockanalysis.com/stocks/exc/statistics/))",
+      "Scenario design targets realistic sensitivity: revenue growth and EBIT margin move modestly (\u00b11.0pp and \u00b10.5pp), while discount-rate and terminal growth shift slightly. ([stockanalysis.com](https://stockanalysis.com/stocks/exc/statistics/))",
+      "Comp set includes regulated peers with forward P/E populated; EV/NTM revenue and EV/NTM EBITDA are left null due to sourcing limits in the captured dataset. ([stockanalysis.com](https://stockanalysis.com/stocks/nee/))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.199,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.019,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0547
+      },
+      "description": "Lower revenue growth (-1.0pp vs base) and modest EBIT margin deterioration (-0.5pp vs base), with slightly higher discount rate and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.35,
+          "2027": 0.346,
+          "2028": 0.342,
+          "2029": 0.338,
+          "2030": 0.334
+        },
+        "da_pct_sales": {
+          "2026": 0.151,
+          "2027": 0.1505,
+          "2028": 0.1498,
+          "2029": 0.149,
+          "2030": 0.148
+        },
+        "ebit_margin": {
+          "2026": 0.195,
+          "2027": 0.1965,
+          "2028": 0.1975,
+          "2029": 0.1985,
+          "2030": 0.199
+        },
+        "nwc_pct_sales": {
+          "2026": -0.034,
+          "2027": -0.033,
+          "2028": -0.0325,
+          "2029": -0.0323,
+          "2030": -0.032
+        },
+        "revenue_growth": {
+          "2026": 0.0296,
+          "2027": 0.029,
+          "2028": 0.0285,
+          "2029": 0.028,
+          "2030": 0.0275
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.209,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.021,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0507
+      },
+      "description": "Higher revenue growth (+1.0pp vs base) and modest EBIT margin improvement (+0.5pp vs base), with slightly lower discount rate and terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.35,
+          "2027": 0.346,
+          "2028": 0.342,
+          "2029": 0.338,
+          "2030": 0.334
+        },
+        "da_pct_sales": {
+          "2026": 0.151,
+          "2027": 0.1505,
+          "2028": 0.1498,
+          "2029": 0.149,
+          "2030": 0.148
+        },
+        "ebit_margin": {
+          "2026": 0.205,
+          "2027": 0.2065,
+          "2028": 0.2075,
+          "2029": 0.2085,
+          "2030": 0.209
+        },
+        "nwc_pct_sales": {
+          "2026": -0.034,
+          "2027": -0.033,
+          "2028": -0.0325,
+          "2029": -0.0323,
+          "2030": -0.032
+        },
+        "revenue_growth": {
+          "2026": 0.0496,
+          "2027": 0.049,
+          "2028": 0.0485,
+          "2029": 0.048,
+          "2030": 0.0475
+        }
+      }
+    }
+  },
+  "ticker": "EXC"
+}

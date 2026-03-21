@@ -1,0 +1,676 @@
+{
+  "_meta": {
+    "cost_usd": 0.022073,
+    "generated_at": "2026-03-21T14:42:33Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10412,
+      "prompt": 2514,
+      "reasoning": 6844
+    }
+  },
+  "_valuation": {
+    "company_name": "The Sherwin-Williams Company",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 303.53,
+        "description": "Base case",
+        "enterprise_value": 60875099978.09184,
+        "equity_value": 50211099978.09184,
+        "exit_multiple_terminal_value": 81174866163.89998,
+        "gordon_terminal_value": 59451325742.22258,
+        "implied_market_cap": 50211099978.09184,
+        "investments_adjustment": 0.0,
+        "net_debt": 10664000000.0,
+        "per_share_value": 200.52356221282685,
+        "projected_years": [
+          {
+            "capex": 490345440.0,
+            "cash_taxes": 916277527.2800001,
+            "da": 706097433.6,
+            "delta_nwc": -190377240.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 3996315336.0,
+            "ebit_margin": 0.163,
+            "ebitda": 4702412769.6,
+            "fcff": 3486167042.3199997,
+            "nol_balance_end": 0.0,
+            "nol_used": 12500000.0,
+            "nwc": -1103277240.0,
+            "present_value_fcff": 3213057181.861751,
+            "revenue": 24517272000.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 517682198.28000003,
+            "cash_taxes": 964151528.3088001,
+            "da": 727280356.6079999,
+            "delta_nwc": -7845527.039999962,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 4191963166.5600004,
+            "ebit_margin": 0.166,
+            "ebitda": 4919243523.168,
+            "fcff": 3445255323.6191998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1111122767.04,
+            "present_value_fcff": 2926590349.015014,
+            "revenue": 25252790160.0,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 545157233.97408,
+            "cash_taxes": 1003089310.5123072,
+            "da": 750240193.421472,
+            "delta_nwc": -5151569.192639828,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 4361257871.79264,
+            "ebit_margin": 0.168,
+            "ebitda": 5111498065.214111,
+            "fcff": 3568403089.9203644,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1116274336.2326398,
+            "present_value_fcff": 2793731677.5638914,
+            "revenue": 25959868284.48,
+            "revenue_growth": 0.028,
+            "year": 2028
+          },
+          {
+            "capex": 558786164.823432,
+            "cash_taxes": 1034286582.2231811,
+            "da": 768996198.2570088,
+            "delta_nwc": -14602425.910020351,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 4496898183.579048,
+            "ebit_margin": 0.169,
+            "ebitda": 5265894381.836057,
+            "fcff": 3687424060.6994643,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1130876762.1426601,
+            "present_value_fcff": 2660750377.391646,
+            "revenue": 26608864991.592,
+            "revenue_growth": 0.025,
+            "year": 2029
+          },
+          {
+            "capex": 571079460.4495475,
+            "cash_taxes": 1063295566.8370148,
+            "da": 788633540.6208037,
+            "delta_nwc": -11282158.756434917,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 4623024203.6391945,
+            "ebit_margin": 0.17,
+            "ebitda": 5411657744.259998,
+            "fcff": 3788564875.7298703,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1142158920.899095,
+            "present_value_fcff": 2519567731.4354734,
+            "revenue": 27194260021.407024,
+            "revenue_growth": 0.022,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "average",
+        "terminal_value": 70313095953.06128,
+        "terminal_value_present_value": 46761402660.824066,
+        "upside_downside_pct": -0.33936163735766856
+      },
+      "bear": {
+        "current_price": 303.53,
+        "description": "Softer end-market demand and competitive pricing pressure; margin normalization lower than base; slightly higher discount rate and more conservative terminal assumptions.",
+        "enterprise_value": 53449418507.47185,
+        "equity_value": 42785418507.47185,
+        "exit_multiple_terminal_value": 72025838169.10657,
+        "gordon_terminal_value": 51099168735.90344,
+        "implied_market_cap": 42785418507.47185,
+        "investments_adjustment": 0.0,
+        "net_debt": 10664000000.0,
+        "per_share_value": 170.8682847742486,
+        "projected_years": [
+          {
+            "capex": 463588609.5,
+            "cash_taxes": 883799214.1700001,
+            "da": 700262794.35,
+            "delta_nwc": -233871823.5,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 3855105279.0,
+            "ebit_margin": 0.158,
+            "ebitda": 4555368073.35,
+            "fcff": 3441852073.18,
+            "nol_balance_end": 0.0,
+            "nol_used": 12500000.0,
+            "nwc": -1146771823.5,
+            "present_value_fcff": 3157662452.4587154,
+            "revenue": 24399400500.0,
+            "revenue_growth": 0.035,
+            "year": 2026
+          },
+          {
+            "capex": 487683017.4937499,
+            "cash_taxes": 920345386.8599999,
+            "da": 717769364.2087499,
+            "delta_nwc": -3659910.0749998093,
+            "discount_factor": 0.84167999326656,
+            "ebit": 4001501681.9999995,
+            "ebit_margin": 0.16,
+            "ebitda": 4719271046.20875,
+            "fcff": 3314902551.929999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1150431733.5749998,
+            "present_value_fcff": 2790087157.5877438,
+            "revenue": 25009385512.499996,
+            "revenue_growth": 0.025,
+            "year": 2027
+          },
+          {
+            "capex": 512192215.29599994,
+            "cash_taxes": 954214097.0964478,
+            "da": 737556790.0262399,
+            "delta_nwc": -2000750.8409998417,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 4148756943.897599,
+            "ebit_margin": 0.162,
+            "ebitda": 4886313733.92384,
+            "fcff": 3421908172.3723907,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1152432484.4159997,
+            "present_value_fcff": 2642340960.9919086,
+            "revenue": 25609610764.799995,
+            "revenue_growth": 0.024,
+            "year": 2028
+          },
+          {
+            "capex": 523460444.0325119,
+            "cash_taxes": 981226602.3389436,
+            "da": 753783039.4068171,
+            "delta_nwc": -12267003.556339264,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 4266202618.864972,
+            "ebit_margin": 0.163,
+            "ebitda": 5019985658.27179,
+            "fcff": 3527565615.456673,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1164699487.972339,
+            "present_value_fcff": 2499016415.676223,
+            "revenue": 26173022201.625595,
+            "revenue_growth": 0.022,
+            "year": 2029
+          },
+          {
+            "capex": 533406192.46912956,
+            "cash_taxes": 1006004078.9967784,
+            "da": 770771948.1178921,
+            "delta_nwc": -8794135.459746122,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 4373930778.246862,
+            "ebit_margin": 0.164,
+            "ebitda": 5144702726.364755,
+            "fcff": 3614086590.358593,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1173493623.432085,
+            "present_value_fcff": 2348908307.87402,
+            "revenue": 26670309623.45648,
+            "revenue_growth": 0.019,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "average",
+        "terminal_value": 61562503452.505005,
+        "terminal_value_present_value": 40011403212.88324,
+        "upside_downside_pct": -0.43706294345122854
+      },
+      "bull": {
+        "current_price": 303.53,
+        "description": "Modestly higher demand/volume and pricing discipline driving stronger revenue growth and margin expansion; slightly more favorable discounting/terminal assumptions.",
+        "enterprise_value": 69344991569.32918,
+        "equity_value": 58680991569.32918,
+        "exit_multiple_terminal_value": 90323495668.39288,
+        "gordon_terminal_value": 69837703482.08524,
+        "implied_market_cap": 58680991569.32918,
+        "investments_adjustment": 0.0,
+        "net_debt": 10664000000.0,
+        "per_share_value": 234.34900786473312,
+        "projected_years": [
+          {
+            "capex": 498106099.56,
+            "cash_taxes": 949937855.792,
+            "da": 712636944.42,
+            "delta_nwc": -159754224.29999995,
+            "discount_factor": 0.9259259259259258,
+            "ebit": 4142664590.4,
+            "ebit_margin": 0.168,
+            "ebitda": 4855301534.82,
+            "fcff": 3567011803.7679996,
+            "nol_balance_end": 0.0,
+            "nol_used": 12500000.0,
+            "nwc": -1072654224.3,
+            "present_value_fcff": 3302788707.1925917,
+            "revenue": 24658717800.0,
+            "revenue_growth": 0.046,
+            "year": 2026
+          },
+          {
+            "capex": 527279828.58917993,
+            "cash_taxes": 1001831674.319442,
+            "da": 736153963.5858599,
+            "delta_nwc": -17566870.560719967,
+            "discount_factor": 0.8573388203017832,
+            "ebit": 4355789888.3454,
+            "ebit_margin": 0.171,
+            "ebitda": 5091943851.93126,
+            "fcff": 3580399219.583358,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1090221094.86072,
+            "present_value_fcff": 3069615243.1270213,
+            "revenue": 25472455487.399998,
+            "revenue_growth": 0.033,
+            "year": 2027
+          },
+          {
+            "capex": 556216538.0228664,
+            "cash_taxes": 1043955473.9589553,
+            "da": 760862245.408638,
+            "delta_nwc": -11717329.524204016,
+            "discount_factor": 0.7938322410201696,
+            "ebit": 4538936843.299806,
+            "ebit_margin": 0.173,
+            "ebitda": 5299799088.708444,
+            "fcff": 3711344406.250826,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1101938424.384924,
+            "present_value_fcff": 2946184847.211764,
+            "revenue": 26236629152.022,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 571790601.0875067,
+            "cash_taxes": 1079389615.8265102,
+            "da": 784863513.7569078,
+            "delta_nwc": -20065773.97546649,
+            "discount_factor": 0.7350298527964533,
+            "ebit": 4692998329.680479,
+            "ebit_margin": 0.174,
+            "ebitda": 5477861843.4373865,
+            "fcff": 3846747400.4988356,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1122004198.3603904,
+            "present_value_fcff": 2827474175.533798,
+            "revenue": 26971254768.278618,
+            "revenue_growth": 0.028,
+            "year": 2029
+          },
+          {
+            "capex": 586085366.1146944,
+            "cash_taxes": 1112732829.5337946,
+            "da": 807249655.214579,
+            "delta_nwc": -16991890.504015446,
+            "discount_factor": 0.6805831970337529,
+            "ebit": 4837968824.059977,
+            "ebit_margin": 0.175,
+            "ebitda": 5645218479.274555,
+            "fcff": 3963392174.1300817,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1138996088.8644059,
+            "present_value_fcff": 2697418116.9680076,
+            "revenue": 27645536137.48558,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "average",
+        "terminal_value": 80080599575.23906,
+        "terminal_value_present_value": 54501510479.296,
+        "upside_downside_pct": -0.22792143160566292
+      }
+    },
+    "ticker": "SHW"
+  },
+  "assumptions": {
+    "cash": 207200000.0,
+    "current_price": 303.53,
+    "debt": 10871000000.0,
+    "diluted_shares": 250400000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": 10664000000.0,
+    "nol_balance": 12500000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.17,
+    "tax_rate": 0.23,
+    "terminal_exit_ebitda_multiple": 15.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "average",
+    "wacc": 0.085
+  },
+  "company_name": "The Sherwin-Williams Company",
+  "comps": [
+    {
+      "company_name": "PPG Industries, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue and EV/EBITDA were not retrieved from primary/official sources in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PPG"
+    },
+    {
+      "company_name": "RPM International Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue and EV/EBITDA were not retrieved from primary/official sources in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "RPM"
+    },
+    {
+      "company_name": "Akzo Nobel N.V. (ADR)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue and EV/EBITDA were not retrieved from primary/official sources in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "AKZOY"
+    },
+    {
+      "company_name": "Kansai Paint Co., Ltd. (ADR)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue and EV/EBITDA were not retrieved from primary/official sources in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "KNSAY"
+    },
+    {
+      "company_name": "Axalta Coating Systems Ltd.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue and EV/EBITDA were not retrieved from primary/official sources in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "AXTA"
+    },
+    {
+      "company_name": "Sherwin-Williams (for reference)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Self-reference not used for comp multiple derivation; EV/NTM ratios left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SHW"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.02,
+      "2027": 0.0205,
+      "2028": 0.021,
+      "2029": 0.021,
+      "2030": 0.021
+    },
+    "da_pct_sales": {
+      "2026": 0.0288,
+      "2027": 0.0288,
+      "2028": 0.0289,
+      "2029": 0.0289,
+      "2030": 0.029
+    },
+    "ebit_margin": {
+      "2026": 0.163,
+      "2027": 0.166,
+      "2028": 0.168,
+      "2029": 0.169,
+      "2030": 0.17
+    },
+    "nwc_pct_sales": {
+      "2026": -0.045,
+      "2027": -0.044,
+      "2028": -0.043,
+      "2029": -0.0425,
+      "2030": -0.042
+    },
+    "revenue_growth": {
+      "2026": 0.04,
+      "2027": 0.03,
+      "2028": 0.028,
+      "2029": 0.025,
+      "2030": 0.022
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 888400000.0,
+      "2024": 1070000000.0,
+      "2025": 797600000.0
+    },
+    "da": {
+      "2023": 622500000.0,
+      "2024": 624000000.0,
+      "2025": 676900000.0
+    },
+    "ebit": {
+      "2023": 3502200000.0,
+      "2024": 3856500000.0,
+      "2025": 3792000000.0
+    },
+    "nwc": {
+      "2023": -1114000000.0,
+      "2024": -1407900000.0,
+      "2025": -912900000.0
+    },
+    "revenue": {
+      "2023": 23051900000.0,
+      "2024": 23098500000.0,
+      "2025": 23574300000.0
+    }
+  },
+  "notes": [
+    "EBIT definition used for historical: EBIT = income before income taxes + interest expense - interest income (interest income shown in parentheses in the filing). ([sec.gov](https://www.sec.gov/Archives/edgar/data/89800/000008980026000008/shw-20251231.htm))",
+    "D&A definition used for historical: Depreciation + Amortization of intangible assets from the consolidated cash flow statement (excluding non-cash lease expense and other non-operating amortization lines). ([sec.gov](https://www.sec.gov/Archives/edgar/data/89800/000008980026000008/shw-20251231.htm))",
+    "NWC definition used for historical: net working capital = total current assets - total current liabilities (as the company defines it), which includes cash; therefore, it is not the cash-excluded NWC some DCF conventions use. ([sec.gov](https://www.sec.gov/Archives/edgar/data/89800/000008980026000008/shw-20251231.htm))",
+    "Tax rate: set to 0.23 based on the company\u2019s reported effective tax rate in FY2023\u2013FY2025 (average), rather than assuming a statutory rate. ([sec.gov](https://www.sec.gov/Archives/edgar/data/89800/000008980026000008/shw-20251231.htm))",
+    "Cash and debt: cash and total debt are taken from the latest FY balance sheet narrative; net_debt_override is set to match management\u2019s reported total debt net of cash. ([sec.gov](https://www.sec.gov/Archives/edgar/data/89800/000008980026000008/shw-20251231.htm))",
+    "NOL balance uses domestic net operating loss carryforwards disclosed by the company; NOL utilization percent is not disclosed, so nol_utilization_pct is left null. ([sec.gov](https://www.sec.gov/Archives/edgar/data/89800/000008980026000008/shw-20251231.htm))",
+    "forecast drivers for 2027\u20132030 are base-case assumptions (not directly guided by the company) and are intended to be sober/consistent with mature coatings economics and the company\u2019s FY2026 directional outlook. ([investors.sherwin-williams.com](https://investors.sherwin-williams.com/press-releases/press-release-details/2026/The-Sherwin-Williams-Company-Reports-2025-Year-End-and-Fourth-Quarter-Financial-Results/default.aspx?utm_source=openai))",
+    "Comps: NTM EV/Revenue and EV/EBITDA were not captured from primary/official sources in this run; multiples are left null while peer tickers are provided."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Improvement in housing, remodel, and industrial/coatings end-demand that lifts volume alongside pricing discipline.",
+      "Successful integration of recent acquisitions and continued execution of productivity and cost actions supporting margin stability.",
+      "Potential increases in shareholder returns (dividends and buybacks) if cash flow conversion remains strong."
+    ],
+    "company_overview": [
+      "Sherwin-Williams is a leading coatings and paint company, developing, manufacturing, distributing, and selling coatings-related products for professional, industrial, commercial, and retail customers.",
+      "The company operates primarily in North America and the Caribbean, with additional operations in Europe and parts of Asia/Australia.",
+      "Results reflect a mix of global coatings demand, pricing/volume dynamics, and ongoing investment in capacity, productivity, and store growth."
+    ],
+    "current_context": [
+      "FY2025 net sales were $23.57B (up 2.1% YoY), with cash generation supported by strong net operating cash.",
+      "Management guided FY2026 consolidated net sales growth to be up by a low- to mid-single digit percentage versus 2025, alongside adjusted diluted EPS guidance.",
+      "FY2026 core capital expenditures are targeted to be approximately 2% of net sales."
+    ],
+    "investment_highlights": [
+      "Base-case revenue outlook uses low-to-mid single digit growth for 2026, tapering to low-single digit growth thereafter, consistent with a cyclical coatings demand environment.",
+      "EBIT margin is modeled to mean-revert and gradually expand toward ~17% as pricing discipline and cost control offset structural investment needs.",
+      "Working capital is modeled as a persistent deficit (net working capital below zero) but improving modestly as the company stabilizes receivables/inventory dynamics.",
+      "Capex is held disciplined (core ~2% of net sales in 2026) to support steady free-cash conversion across the cycle."
+    ],
+    "key_risks": [
+      "A sharper-than-expected downturn in construction and other discretionary end markets that pressures both volumes and pricing.",
+      "Raw material, energy, logistics, and foreign exchange volatility that compresses gross margin and/or increases working-capital needs.",
+      "Competitive intensity and mix shifts that prevent EBIT margin from reaching the modeled trajectory."
+    ],
+    "sources": [
+      {
+        "label": "Sherwin-Williams FY2025 Form 10-K (SEC)",
+        "notes": "Supports FY2023\u2013FY2025 net sales, EBIT proxy inputs, D&A and capex lines, cash/debt, net working capital definition (total current assets - total current liabilities), and NOL carryforwards. ([sec.gov](https://www.sec.gov/Archives/edgar/data/89800/000008980026000008/shw-20251231.htm))",
+        "url": null
+      },
+      {
+        "label": "Sherwin-Williams FY2025 Year-End & Q4 2025 Earnings Release (Investor Relations)",
+        "notes": "Supports FY2026 consolidated net sales growth guidance (low- to mid-single digit vs. 2025) and EPS outlook context. ([investors.sherwin-williams.com](https://investors.sherwin-williams.com/press-releases/press-release-details/2026/The-Sherwin-Williams-Company-Reports-2025-Year-End-and-Fourth-Quarter-Financial-Results/default.aspx?utm_source=openai))",
+        "url": null
+      },
+      {
+        "label": "FY2025 10-K Outlook excerpt (core capex target for 2026)",
+        "notes": "Supports modeling core capital expenditures targeted to be approximately 2% of net sales in 2026. ([sec.gov](https://www.sec.gov/Archives/edgar/data/89800/000008980026000008/shw-20251231.htm))",
+        "url": null
+      },
+      {
+        "label": "SHW Share price snapshot (market data tool)",
+        "notes": "Used for current_price input for the DCF equity valuation.",
+        "url": null
+      }
+    ],
+    "subtitle": "SHW DCF Input Package \u2014 Base/Bull/Bear Drivers",
+    "valuation_summary": [
+      "DCF base case assumes gradual deceleration in revenue growth and stabilization/gradual improvement in EBIT margins, producing a reasonable steady-state profitability profile.",
+      "Terminal economics use conservative long-run growth (2%) and a mature-industry exit multiple (modeled via terminal_method='average').",
+      "Net debt and current equity value inputs are taken directly from the latest FY balance sheet and recent share price snapshot."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.164,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 14.0,
+        "terminal_growth": 0.018,
+        "terminal_method": "average",
+        "wacc": 0.09
+      },
+      "description": "Softer end-market demand and competitive pricing pressure; margin normalization lower than base; slightly higher discount rate and more conservative terminal assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.019,
+          "2027": 0.0195,
+          "2028": 0.02,
+          "2029": 0.02,
+          "2030": 0.02
+        },
+        "da_pct_sales": {
+          "2026": 0.0287,
+          "2027": 0.0287,
+          "2028": 0.0288,
+          "2029": 0.0288,
+          "2030": 0.0289
+        },
+        "ebit_margin": {
+          "2026": 0.158,
+          "2027": 0.16,
+          "2028": 0.162,
+          "2029": 0.163,
+          "2030": 0.164
+        },
+        "nwc_pct_sales": {
+          "2026": -0.047,
+          "2027": -0.046,
+          "2028": -0.045,
+          "2029": -0.0445,
+          "2030": -0.044
+        },
+        "revenue_growth": {
+          "2026": 0.035,
+          "2027": 0.025,
+          "2028": 0.024,
+          "2029": 0.022,
+          "2030": 0.019
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.175,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 16.0,
+        "terminal_growth": 0.022,
+        "terminal_method": "average",
+        "wacc": 0.08
+      },
+      "description": "Modestly higher demand/volume and pricing discipline driving stronger revenue growth and margin expansion; slightly more favorable discounting/terminal assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0202,
+          "2027": 0.0207,
+          "2028": 0.0212,
+          "2029": 0.0212,
+          "2030": 0.0212
+        },
+        "da_pct_sales": {
+          "2026": 0.0289,
+          "2027": 0.0289,
+          "2028": 0.029,
+          "2029": 0.0291,
+          "2030": 0.0292
+        },
+        "ebit_margin": {
+          "2026": 0.168,
+          "2027": 0.171,
+          "2028": 0.173,
+          "2029": 0.174,
+          "2030": 0.175
+        },
+        "nwc_pct_sales": {
+          "2026": -0.0435,
+          "2027": -0.0428,
+          "2028": -0.042,
+          "2029": -0.0416,
+          "2030": -0.0412
+        },
+        "revenue_growth": {
+          "2026": 0.046,
+          "2027": 0.033,
+          "2028": 0.03,
+          "2029": 0.028,
+          "2030": 0.025
+        }
+      }
+    }
+  },
+  "ticker": "SHW"
+}

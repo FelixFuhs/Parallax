@@ -1,0 +1,667 @@
+{
+  "_meta": {
+    "cost_usd": 0.021715,
+    "generated_at": "2026-03-21T14:53:19Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10185,
+      "prompt": 2514,
+      "reasoning": 6785
+    }
+  },
+  "_valuation": {
+    "company_name": "Quanta Services, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 555.39,
+        "description": "Base case",
+        "enterprise_value": 34020951150.931046,
+        "equity_value": 28375928150.931046,
+        "exit_multiple_terminal_value": 58350173752.6887,
+        "gordon_terminal_value": 28506836934.11697,
+        "implied_market_cap": 28375928150.931046,
+        "investments_adjustment": 0.0,
+        "net_debt": 5555398000.0,
+        "per_share_value": 187.55859998896858,
+        "projected_years": [
+          {
+            "capex": 783191667.5000001,
+            "cash_taxes": 405241120.4640001,
+            "da": 1002485334.4000001,
+            "delta_nwc": 191018668.60000038,
+            "discount_factor": 0.9104980424292087,
+            "ebit": 1817004668.6000004,
+            "ebit_margin": 0.058,
+            "ebitda": 2819490003.0000005,
+            "fcff": 1440038546.4359999,
+            "nol_balance_end": 0.0,
+            "nol_used": 128500000.0,
+            "nwc": 1817004668.6000004,
+            "present_value_fcff": 1311152277.552581,
+            "revenue": 31327666700.000004,
+            "revenue_growth": 0.1,
+            "year": 2026
+          },
+          {
+            "capex": 819531760.8720002,
+            "cash_taxes": 483523738.91448003,
+            "da": 1092709014.4960003,
+            "delta_nwc": 163530420.17400026,
+            "discount_factor": 0.8290066852674212,
+            "ebit": 2014682245.4770002,
+            "ebit_margin": 0.059,
+            "ebitda": 3107391259.9730005,
+            "fcff": 1640805340.0125198,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1980535088.7740006,
+            "present_value_fcff": 1360238596.092863,
+            "revenue": 34147156703.000008,
+            "revenue_growth": 0.09,
+            "year": 2027
+          },
+          {
+            "capex": 885094301.7417604,
+            "cash_taxes": 531056581.0450561,
+            "da": 1217004664.8949206,
+            "delta_nwc": 158442807.10192013,
+            "discount_factor": 0.7548089640967142,
+            "ebit": 2212735754.3544006,
+            "ebit_margin": 0.06,
+            "ebitda": 3429740419.249321,
+            "fcff": 1855146729.3605847,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2138977895.8759208,
+            "present_value_fcff": 1400281381.0360703,
+            "revenue": 36878929239.24001,
+            "revenue_growth": 0.08,
+            "year": 2028
+          },
+          {
+            "capex": 907590448.5776968,
+            "cash_taxes": 568230541.7182101,
+            "da": 1302194991.437565,
+            "delta_nwc": 149728452.71131468,
+            "discount_factor": 0.6872520842180772,
+            "ebit": 2367627257.159209,
+            "ebit_margin": 0.06,
+            "ebitda": 3669822248.596774,
+            "fcff": 2044272805.5895524,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2288706348.5872355,
+            "present_value_fcff": 1404930746.3517559,
+            "revenue": 39460454285.98682,
+            "revenue_growth": 0.07,
+            "year": 2029
+          },
+          {
+            "capex": 962045875.4923586,
+            "cash_taxes": 602324374.2213027,
+            "da": 1380326690.9238188,
+            "delta_nwc": 137322380.9152341,
+            "discount_factor": 0.6257416773359529,
+            "ebit": 2509684892.5887613,
+            "ebit_margin": 0.06,
+            "ebitda": 3890011583.51258,
+            "fcff": 2188318952.8836846,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2426028729.5024695,
+            "present_value_fcff": 1369322372.123493,
+            "revenue": 41828081543.14603,
+            "revenue_growth": 0.06,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "average",
+        "terminal_value": 43428505343.40283,
+        "terminal_value_present_value": 27175025777.77428,
+        "upside_downside_pct": -0.6622938835971686
+      },
+      "bear": {
+        "current_price": 555.39,
+        "description": "Modestly lower growth and margins versus base case; higher risk premium and lower terminal multiple.",
+        "enterprise_value": 29031109700.55346,
+        "equity_value": 23386086700.55346,
+        "exit_multiple_terminal_value": 49589091945.83339,
+        "gordon_terminal_value": 24637428910.002266,
+        "implied_market_cap": 23386086700.55346,
+        "investments_adjustment": 0.0,
+        "net_debt": 5555398000.0,
+        "per_share_value": 154.57685322030696,
+        "projected_years": [
+          {
+            "capex": 776071743.2500001,
+            "cash_taxes": 393826457.9064001,
+            "da": 993371831.3600001,
+            "delta_nwc": 174500444.3400004,
+            "discount_factor": 0.9049773755656109,
+            "ebit": 1769443574.6100004,
+            "ebit_margin": 0.057,
+            "ebitda": 2762815405.9700003,
+            "fcff": 1418416760.4736001,
+            "nol_balance_end": 0.0,
+            "nol_used": 128500000.0,
+            "nwc": 1800486444.3400004,
+            "present_value_fcff": 1283635077.3516743,
+            "revenue": 31042869730.000004,
+            "revenue_growth": 0.09,
+            "year": 2026
+          },
+          {
+            "capex": 804631183.4016001,
+            "cash_taxes": 466686086.3729281,
+            "da": 1072841577.8688002,
+            "delta_nwc": 144038915.54719996,
+            "discount_factor": 0.8189840502856207,
+            "ebit": 1944525359.8872004,
+            "ebit_margin": 0.058,
+            "ebitda": 3017366937.7560005,
+            "fcff": 1602010752.4342723,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1944525359.8872004,
+            "present_value_fcff": 1312021254.6297352,
+            "revenue": 33526299308.400005,
+            "revenue_growth": 0.08,
+            "year": 2027
+          },
+          {
+            "capex": 860955366.2397121,
+            "cash_taxes": 507963666.08143014,
+            "da": 1183813628.5796044,
+            "delta_nwc": 136116775.1921041,
+            "discount_factor": 0.7411620364575753,
+            "ebit": 2116515275.3392923,
+            "ebit_margin": 0.059,
+            "ebitda": 3300328903.9188967,
+            "fcff": 1795293096.40565,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2080642135.0793045,
+            "present_value_fcff": 1330603087.3702376,
+            "revenue": 35873140259.98801,
+            "revenue_growth": 0.07,
+            "year": 2028
+          },
+          {
+            "capex": 874587159.5385076,
+            "cash_taxes": 538441486.0463159,
+            "da": 1254842446.2943807,
+            "delta_nwc": 124838528.1047585,
+            "discount_factor": 0.6707348746222401,
+            "ebit": 2243506191.8596497,
+            "ebit_margin": 0.059,
+            "ebitda": 3498348638.1540303,
+            "fcff": 1960481464.4644487,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2205480663.184063,
+            "present_value_fcff": 1314963289.2667878,
+            "revenue": 38025528675.58729,
+            "revenue_growth": 0.06,
+            "year": 2029
+          },
+          {
+            "capex": 918316517.5154331,
+            "cash_taxes": 565363560.3486317,
+            "da": 1317584568.6090996,
+            "delta_nwc": 110274033.15920305,
+            "discount_factor": 0.6069998865359639,
+            "ebit": 2355681501.4526324,
+            "ebit_margin": 0.059,
+            "ebitda": 3673266070.0617323,
+            "fcff": 2079311959.038464,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2315754696.343266,
+            "present_value_fcff": 1262142123.2092206,
+            "revenue": 39926805109.36665,
+            "revenue_growth": 0.05,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "average",
+        "terminal_value": 37113260427.91783,
+        "terminal_value_present_value": 22527744868.725803,
+        "upside_downside_pct": -0.7216787244633376
+      },
+      "bull": {
+        "current_price": 555.39,
+        "description": "Modestly higher growth and operating leverage versus base case; slightly lower risk premium and higher terminal multiple.",
+        "enterprise_value": 39112542100.079575,
+        "equity_value": 33467519100.079575,
+        "exit_multiple_terminal_value": 67935512703.29776,
+        "gordon_terminal_value": 32202502988.5247,
+        "implied_market_cap": 33467519100.07958,
+        "investments_adjustment": 0.0,
+        "net_debt": 5555398000.0,
+        "per_share_value": 221.21288840763546,
+        "projected_years": [
+          {
+            "capex": 790311591.7500001,
+            "cash_taxes": 416792485.56720006,
+            "da": 1011598837.4400002,
+            "delta_nwc": 207536892.86000037,
+            "discount_factor": 0.9140767824497257,
+            "ebit": 1865135356.5300002,
+            "ebit_margin": 0.059,
+            "ebitda": 2876734193.9700003,
+            "fcff": 1462093223.7927997,
+            "nol_balance_end": 0.0,
+            "nol_used": 128500000.0,
+            "nwc": 1833522892.8600004,
+            "present_value_fcff": 1336465469.646069,
+            "revenue": 31612463670.000004,
+            "revenue_growth": 0.11,
+            "year": 2026
+          },
+          {
+            "capex": 834569040.8880002,
+            "cash_taxes": 500741424.5328,
+            "da": 1112758721.1840003,
+            "delta_nwc": 183352289.28600025,
+            "discount_factor": 0.8355363642136432,
+            "ebit": 2086422602.2200003,
+            "ebit_margin": 0.06,
+            "ebitda": 3199181323.4040003,
+            "fcff": 1680518568.6972,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2016875182.1460006,
+            "present_value_fcff": 1404134374.882774,
+            "revenue": 34773710037.00001,
+            "revenue_growth": 0.1,
+            "year": 2027
+          },
+          {
+            "capex": 909680254.5679202,
+            "cash_taxes": 554904955.2864313,
+            "da": 1250810350.0308905,
+            "delta_nwc": 181518766.39314008,
+            "discount_factor": 0.7637443914201492,
+            "ebit": 2312103980.3601303,
+            "ebit_margin": 0.061,
+            "ebitda": 3562914330.391021,
+            "fcff": 1916810354.1435292,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2198393948.5391407,
+            "present_value_fcff": 1463953157.3931904,
+            "revenue": 37903343940.33001,
+            "revenue_growth": 0.09,
+            "year": 2028
+          },
+          {
+            "capex": 941519063.4777975,
+            "cash_taxes": 599297351.7093458,
+            "da": 1350875178.0333617,
+            "delta_nwc": 175871515.8831315,
+            "discount_factor": 0.6981210159233537,
+            "ebit": 2497072298.788941,
+            "ebit_margin": 0.061,
+            "ebitda": 3847947476.822303,
+            "fcff": 2131259545.752028,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2374265464.422272,
+            "present_value_fcff": 1487877079.2767513,
+            "revenue": 40935611455.55641,
+            "revenue_growth": 0.08,
+            "year": 2029
+          },
+          {
+            "capex": 1007425397.9212434,
+            "cash_taxes": 641248166.3290001,
+            "da": 1445436440.4956973,
+            "delta_nwc": 166198582.50955915,
+            "discount_factor": 0.638136211995753,
+            "ebit": 2671867359.7041674,
+            "ebit_margin": 0.061,
+            "ebitda": 4117303800.1998644,
+            "fcff": 2302431653.440062,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2540464046.9318314,
+            "present_value_fcff": 1469265013.7053595,
+            "revenue": 43801104257.445366,
+            "revenue_growth": 0.07,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "average",
+        "terminal_value": 50069007845.91123,
+        "terminal_value_present_value": 31950847005.17543,
+        "upside_downside_pct": -0.601698106902113
+      }
+    },
+    "ticker": "PWR"
+  },
+  "assumptions": {
+    "cash": 439508000.0,
+    "current_price": 555.39,
+    "debt": 5994906000.0,
+    "diluted_shares": 151291000.0,
+    "investments": 0.0,
+    "minority_interest": 89625000.0,
+    "net_debt_override": null,
+    "nol_balance": 128500000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.06,
+    "tax_rate": 0.24,
+    "terminal_exit_ebitda_multiple": 15.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "average",
+    "wacc": 0.0983
+  },
+  "company_name": "Quanta Services, Inc.",
+  "comps": [
+    {
+      "company_name": "MYR Group Inc.",
+      "ev_ntm_ebitda": 17.41,
+      "ev_ntm_revenue": 1.09,
+      "notes": "EV/Sales and EV/EBITDA are used as proxies for EV/NTM Revenue and EV/NTM EBITDA; forward P/E used as P/E NTM.",
+      "pe_ntm": 28.07,
+      "source": "StockAnalysis (EV/Sales, EV/EBITDA, Forward P/E shown on statistics pages; used as NTM proxy where available).",
+      "ticker": "MYRG"
+    },
+    {
+      "company_name": "Comfort Systems USA, Inc.",
+      "ev_ntm_ebitda": 32.44,
+      "ev_ntm_revenue": 5.18,
+      "notes": "EV/Sales and EV/EBITDA are used as proxies for EV/NTM Revenue and EV/NTM EBITDA; forward P/E used as P/E NTM.",
+      "pe_ntm": 36.91,
+      "source": "StockAnalysis (EV/Sales, EV/EBITDA, Forward P/E shown on statistics pages; used as NTM proxy where available).",
+      "ticker": "FIX"
+    },
+    {
+      "company_name": "Primoris Services Corporation",
+      "ev_ntm_ebitda": 15.66,
+      "ev_ntm_revenue": 1.05,
+      "notes": "EV/Sales and EV/EBITDA are used as proxies for EV/NTM Revenue and EV/NTM EBITDA; forward P/E used as P/E NTM.",
+      "pe_ntm": 23.42,
+      "source": "StockAnalysis (EV/Sales, EV/EBITDA, Forward P/E shown on statistics pages; used as NTM proxy where available).",
+      "ticker": "PRIM"
+    },
+    {
+      "company_name": "MasTec, Inc.",
+      "ev_ntm_ebitda": 24.1,
+      "ev_ntm_revenue": 1.83,
+      "notes": "EV/Sales and EV/EBITDA are used as proxies for EV/NTM Revenue and EV/NTM EBITDA; forward P/E used as P/E NTM.",
+      "pe_ntm": 35.33,
+      "source": "StockAnalysis (EV/Sales, EV/EBITDA, Forward P/E shown on statistics pages; used as NTM proxy where available).",
+      "ticker": "MTZ"
+    },
+    {
+      "company_name": "NV5 Global, Inc.",
+      "ev_ntm_ebitda": 14.97,
+      "ev_ntm_revenue": 1.76,
+      "notes": "EV/Sales and EV/EBITDA are used as proxies for EV/NTM Revenue and EV/NTM EBITDA; forward P/E not available on the referenced statistics page.",
+      "pe_ntm": null,
+      "source": "StockAnalysis (EV/Sales, EV/EBITDA shown on statistics pages; Forward P/E unavailable on page).",
+      "ticker": "NVEE"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.025,
+      "2027": 0.024,
+      "2028": 0.024,
+      "2029": 0.023,
+      "2030": 0.023
+    },
+    "da_pct_sales": {
+      "2026": 0.032,
+      "2027": 0.032,
+      "2028": 0.033,
+      "2029": 0.033,
+      "2030": 0.033
+    },
+    "ebit_margin": {
+      "2026": 0.058,
+      "2027": 0.059,
+      "2028": 0.06,
+      "2029": 0.06,
+      "2030": 0.06
+    },
+    "nwc_pct_sales": {
+      "2026": 0.058,
+      "2027": 0.058,
+      "2028": 0.058,
+      "2029": 0.058,
+      "2030": 0.058
+    },
+    "revenue_growth": {
+      "2026": 0.1,
+      "2027": 0.09,
+      "2028": 0.08,
+      "2029": 0.07,
+      "2030": 0.06
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 434803000.0,
+      "2024": 604078000.0,
+      "2025": 609154000.0
+    },
+    "da": {
+      "2023": 613800000.0,
+      "2024": 742322000.0,
+      "2025": 910333000.0
+    },
+    "ebit": {
+      "2023": 1127976000.0,
+      "2024": 1346468000.0,
+      "2025": 1611509000.0
+    },
+    "nwc": {
+      "2023": 1786730000.0,
+      "2024": 1237402000.0,
+      "2025": 1625986000.0
+    },
+    "revenue": {
+      "2023": 20882206000.0,
+      "2024": 23672795000.0,
+      "2025": 28479697000.0
+    }
+  },
+  "notes": [
+    "EBIT is treated as consolidated operating income from Quanta\u2019s 10-K (not adjusted/non-GAAP).",
+    "D&A is modeled as depreciation plus amortization of intangible assets (sum of cash-flow statement lines).",
+    "NWC definition for historical: (Total current assets - cash and cash equivalents) - (Total current liabilities - current maturities of long-term debt - current portion of operating lease liabilities). This is an approximation for operating NWC and excludes lease financing obligations from working-capital needs.",
+    "NOL balance is populated using disclosed net deferred tax asset component for net operating loss carryforwards (tax-effect basis of $128.5 million). Face value NOL amount is not explicitly provided in the extracted lines, so utilization is modeled as a simplified estimate."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Sustained backlog conversion into 2026 revenue and earnings as large infrastructure projects progress through installation/commissioning phases.",
+      "Margin trajectory driven by project mix, execution quality, and better working-capital timing versus historical volatility.",
+      "Further industry demand for grid hardening and renewable integration could support continued order flow."
+    ],
+    "company_overview": [
+      "Quanta provides design, engineering, procurement, construction, and repair/maintenance services across electric power, renewable generation/transmission, underground utilities, gas/pipeline infrastructure, and communications networks.",
+      "Operations are organized around two reportable segments: Electric Infrastructure Solutions and Underground Utility and Infrastructure Solutions.",
+      "Revenues are supported by large infrastructure capex programs, with demand tied to grid modernization, electrification, renewable interconnection, data centers, and regulated/utility customer spending."
+    ],
+    "current_context": [
+      "Full-year 2025 performance: consolidated revenues of $28.48 billion and record fourth-quarter/full-year execution, with backlog highlighted as exceptionally strong for 2026 positioning.",
+      "Management emphasized strong demand trends and the ability to convert backlog into revenue, supported by accelerating Electric segment demand and sustained activity across end markets."
+    ],
+    "investment_highlights": [
+      "Base case assumes revenue growth decelerates from 2025\u2019s elevated level to mid-to-high single digits through 2030, consistent with backlog conversion plus gradual normalization.",
+      "EBIT margin is modeled as stable-to-improving (from ~5.7% to ~6.0%) reflecting operating leverage without assuming aggressive step-changes in pricing/mix.",
+      "Capital intensity remains material: capex is held around ~2.3%\u20132.5% of sales to reflect continued capacity/production investment needs.",
+      "Working capital intensity is modeled as relatively stable (NWC ~5.8% of sales), capturing that operating cash conversion can vary but is not assumed to structurally improve."
+    ],
+    "key_risks": [
+      "Project execution risk on fixed-price or partially fixed-cost contracts, including cost inflation, schedule delays, and customer-driven changes in scope.",
+      "Working-capital swings (receivables/contract assets vs. contract liabilities) can pressure free cash flow even when operating income is stable.",
+      "Higher interest rates/credit spreads can increase financing costs and raise discount-rate sensitivity."
+    ],
+    "sources": [
+      {
+        "label": "Quanta Services \u2014 Form 10-K for fiscal year ended December 31, 2025 (SEC filing page)",
+        "notes": "Primary source for revenue, operating income (EBIT), D&A, capex, balance-sheet items used for NWC, cash/debt, non-controlling interests, and effective tax rate/NOL disclosures.",
+        "url": "https://investors.quantaservices.com/sec-filings/all-sec-filings/content/0001050915-26-000006/pwr-20251231.htm"
+      },
+      {
+        "label": "Quanta Services \u2014 Form 10-K for fiscal year ended December 31, 2024 (SEC filing page)",
+        "notes": "Primary source for 2023/2024 revenue, operating income, D&A, capex, and effective tax rate components.",
+        "url": "https://investors.quantaservices.com/sec-filings/all-sec-filings/content/0001050915-25-000005/pwr-20241231.htm"
+      },
+      {
+        "label": "Quanta Services \u2014 Full-year 2025 results press release (guidance/outlook context)",
+        "notes": "Primary source for latest earnings and qualitative 2026 outlook framing; used for current_context and catalyst language.",
+        "url": "https://investors.quantaservices.com/news-events/press-releases/detail/390/quanta-services-reports-fourth-quarter-and-full-year-2025-results/"
+      },
+      {
+        "label": "StockAnalysis \u2014 PWR statistics (current price, beta, and WACC proxy)",
+        "notes": "Market-data summary used to set current_price and WACC proxy (input estimate) and beta for context; not a primary filing.",
+        "url": "https://stockanalysis.com/stocks/pwr/statistics/"
+      },
+      {
+        "label": "StockAnalysis \u2014 Peer statistics pages used for comps multiples",
+        "notes": "MYRG, FIX, PRIM, MTZ, and NVEE statistics pages were used to populate EV/Sales, EV/EBITDA, and forward P/E (where shown).",
+        "url": null
+      }
+    ],
+    "subtitle": "Quanta Services (PWR) DCF & comps inputs \u2014 backlog-driven infrastructure growth",
+    "valuation_summary": [
+      "DCF is driven primarily by (1) a backlog-supported revenue growth curve and (2) modest margin expansion toward ~6.0% EBIT margin.",
+      "Terminal value uses a blended approach (\u201caverage\u201d of Gordon-growth and exit-multiple logic) with a conservative terminal growth rate (2.0%) and a mid-teens EBITDA multiple.",
+      "Comps provide a sanity check on valuation ranges using construction/electrical infrastructure peers\u2019 EV/Sales, EV/EBITDA, and forward P/E (where available), treated as directional inputs."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.059,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 13.5,
+        "terminal_growth": 0.019,
+        "terminal_method": "average",
+        "wacc": 0.105
+      },
+      "description": "Modestly lower growth and margins versus base case; higher risk premium and lower terminal multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.025,
+          "2027": 0.024,
+          "2028": 0.024,
+          "2029": 0.023,
+          "2030": 0.023
+        },
+        "da_pct_sales": {
+          "2026": 0.032,
+          "2027": 0.032,
+          "2028": 0.033,
+          "2029": 0.033,
+          "2030": 0.033
+        },
+        "ebit_margin": {
+          "2026": 0.057,
+          "2027": 0.058,
+          "2028": 0.059,
+          "2029": 0.059,
+          "2030": 0.059
+        },
+        "nwc_pct_sales": {
+          "2026": 0.058,
+          "2027": 0.058,
+          "2028": 0.058,
+          "2029": 0.058,
+          "2030": 0.058
+        },
+        "revenue_growth": {
+          "2026": 0.09,
+          "2027": 0.08,
+          "2028": 0.07,
+          "2029": 0.06,
+          "2030": 0.05
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.061,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 16.5,
+        "terminal_growth": 0.021,
+        "terminal_method": "average",
+        "wacc": 0.094
+      },
+      "description": "Modestly higher growth and operating leverage versus base case; slightly lower risk premium and higher terminal multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.025,
+          "2027": 0.024,
+          "2028": 0.024,
+          "2029": 0.023,
+          "2030": 0.023
+        },
+        "da_pct_sales": {
+          "2026": 0.032,
+          "2027": 0.032,
+          "2028": 0.033,
+          "2029": 0.033,
+          "2030": 0.033
+        },
+        "ebit_margin": {
+          "2026": 0.059,
+          "2027": 0.06,
+          "2028": 0.061,
+          "2029": 0.061,
+          "2030": 0.061
+        },
+        "nwc_pct_sales": {
+          "2026": 0.058,
+          "2027": 0.058,
+          "2028": 0.058,
+          "2029": 0.058,
+          "2030": 0.058
+        },
+        "revenue_growth": {
+          "2026": 0.11,
+          "2027": 0.1,
+          "2028": 0.09,
+          "2029": 0.08,
+          "2030": 0.07
+        }
+      }
+    }
+  },
+  "ticker": "PWR"
+}

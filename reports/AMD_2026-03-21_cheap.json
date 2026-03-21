@@ -1,0 +1,689 @@
+{
+  "_meta": {
+    "cost_usd": 0.023687,
+    "generated_at": "2026-03-21T14:42:26Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11135,
+      "prompt": 2514,
+      "reasoning": 7412
+    }
+  },
+  "_valuation": {
+    "company_name": "Advanced Micro Devices, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 201.33,
+        "description": "Base case",
+        "enterprise_value": 128932282861.45215,
+        "equity_value": 136262282861.45215,
+        "exit_multiple_terminal_value": 176742270807.87204,
+        "gordon_terminal_value": 133699408973.54549,
+        "implied_market_cap": 136262282861.45215,
+        "investments_adjustment": 5013000000.0,
+        "net_debt": -2317000000.0,
+        "per_share_value": 83.28990394954288,
+        "projected_years": [
+          {
+            "capex": 1144472560.0,
+            "cash_taxes": 805507337.0,
+            "da": 3474291700.0000005,
+            "delta_nwc": 1587024600.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 4700512300.0,
+            "ebit_margin": 0.115,
+            "ebitda": 8174804000.0,
+            "fcff": 4637799503.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 461000000.0,
+            "nwc": 9401024600.0,
+            "present_value_fcff": 4274469588.018433,
+            "revenue": 40874020000.0,
+            "revenue_growth": 0.18,
+            "year": 2026
+          },
+          {
+            "capex": 1292640882.5,
+            "cash_taxes": 1035992910.92,
+            "da": 3948430332.0000005,
+            "delta_nwc": 1316143444.0,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 5452594268.0,
+            "ebit_margin": 0.116,
+            "ebitda": 9401024600.0,
+            "fcff": 5756247362.58,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 10717168044.0,
+            "present_value_fcff": 4889674754.256833,
+            "revenue": 47005123000.0,
+            "revenue_growth": 0.15,
+            "year": 2027
+          },
+          {
+            "capex": 1421434919.5200002,
+            "cash_taxes": 1170314750.4048002,
+            "da": 4369596234.080001,
+            "delta_nwc": 1128122952.000002,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 6159551317.920001,
+            "ebit_margin": 0.117,
+            "ebitda": 10529147552.000002,
+            "fcff": 6809274930.075199,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 11845290996.000002,
+            "present_value_fcff": 5331036487.197212,
+            "revenue": 52645737760.00001,
+            "revenue_growth": 0.12,
+            "year": 2028
+          },
+          {
+            "capex": 1534623255.7040005,
+            "cash_taxes": 1298349184.6371202,
+            "da": 4748645545.952002,
+            "delta_nwc": 1068708476.5280018,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 6833416761.248001,
+            "ebit_margin": 0.118,
+            "ebitda": 11582062307.200003,
+            "fcff": 7680381390.330879,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 12913999472.528004,
+            "present_value_fcff": 5541965704.632913,
+            "revenue": 57910311536.000015,
+            "revenue_growth": 0.1,
+            "year": 2029
+          },
+          {
+            "capex": 1641178228.9302404,
+            "cash_taxes": 1427193836.773567,
+            "da": 5112901405.513442,
+            "delta_nwc": 1036015473.3790417,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 7511546509.334562,
+            "ebit_margin": 0.119,
+            "ebitda": 12624447914.848003,
+            "fcff": 8520060375.765154,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 13950014945.907045,
+            "present_value_fcff": 5666227159.04377,
+            "revenue": 63122239574.24002,
+            "revenue_growth": 0.09,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "average",
+        "terminal_value": 155220839890.70877,
+        "terminal_value_present_value": 103228909168.303,
+        "upside_downside_pct": -0.5863015747799987
+      },
+      "bear": {
+        "current_price": 201.33,
+        "description": "Modestly slower growth and lower operating leverage; slightly higher capex and working-capital intensity than base case.",
+        "enterprise_value": 112651186123.10596,
+        "equity_value": 119981186123.10596,
+        "exit_multiple_terminal_value": 151680976153.43884,
+        "gordon_terminal_value": 117698819467.98553,
+        "implied_market_cap": 119981186123.10596,
+        "investments_adjustment": 5013000000.0,
+        "net_debt": -2317000000.0,
+        "per_share_value": 73.33813332708188,
+        "projected_years": [
+          {
+            "capex": 1145165340.0,
+            "cash_taxes": 736929044.8,
+            "da": 3455586639.9999995,
+            "delta_nwc": 1508047680.0,
+            "discount_factor": 0.9199632014719411,
+            "ebit": 4339573920.0,
+            "ebit_margin": 0.108,
+            "ebitda": 7795160560.0,
+            "fcff": 4405018495.199999,
+            "nol_balance_end": 0.0,
+            "nol_used": 461000000.0,
+            "nwc": 9322047680.0,
+            "present_value_fcff": 4052454917.3873034,
+            "revenue": 40181240000.0,
+            "revenue_growth": 0.16,
+            "year": 2026
+          },
+          {
+            "capex": 1276959807.2,
+            "cash_taxes": 944494200.2540001,
+            "da": 3876485129.0000005,
+            "delta_nwc": 1167265022.0,
+            "discount_factor": 0.8463322920625034,
+            "ebit": 4971022106.6,
+            "ebit_margin": 0.109,
+            "ebitda": 8847507235.6,
+            "fcff": 5458788206.146001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 10489312702.0,
+            "present_value_fcff": 4619948734.391306,
+            "revenue": 45605707400.0,
+            "revenue_growth": 0.135,
+            "year": 2027
+          },
+          {
+            "capex": 1392114218.3850002,
+            "cash_taxes": 1058006805.9726002,
+            "da": 4252276157.976001,
+            "delta_nwc": 1001957391.5780029,
+            "discount_factor": 0.7785945649149065,
+            "ebit": 5568456873.540001,
+            "ebit_margin": 0.11,
+            "ebitda": 9820733031.516003,
+            "fcff": 6368654615.580399,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 11491270093.578003,
+            "present_value_fcff": 4958599869.511131,
+            "revenue": 50622335214.00001,
+            "revenue_growth": 0.11,
+            "year": 2028
+          },
+          {
+            "capex": 1496649340.6019104,
+            "cash_taxes": 1169049429.38127,
+            "da": 4600810935.924391,
+            "delta_nwc": 980807744.7712498,
+            "discount_factor": 0.7162783485877705,
+            "ebit": 6152891733.585631,
+            "ebit_margin": 0.111,
+            "ebitda": 10753702669.510021,
+            "fcff": 7107196154.755591,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 12472077838.349253,
+            "present_value_fcff": 5090730724.817688,
+            "revenue": 55431457059.33001,
+            "revenue_growth": 0.095,
+            "year": 2029
+          },
+          {
+            "capex": 1593792969.0983858,
+            "cash_taxes": 1279845825.7514586,
+            "da": 4931736734.568591,
+            "delta_nwc": 939840354.440939,
+            "discount_factor": 0.6589497227118405,
+            "ebit": 6736030661.849782,
+            "ebit_margin": 0.112,
+            "ebitda": 11667767396.418373,
+            "fcff": 7854288247.127592,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 13411918192.790192,
+            "present_value_fcff": 5175581062.543594,
+            "revenue": 60143130909.373055,
+            "revenue_growth": 0.085,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "average",
+        "terminal_value": 134689897810.71219,
+        "terminal_value_present_value": 88753870814.45493,
+        "upside_downside_pct": -0.6357317174435908
+      },
+      "bull": {
+        "current_price": 201.33,
+        "description": "Modestly faster growth and margin expansion with slightly improved capital efficiency and working-capital intensity.",
+        "enterprise_value": 145608977954.14746,
+        "equity_value": 152938977954.14746,
+        "exit_multiple_terminal_value": 202604358751.07568,
+        "gordon_terminal_value": 150117527775.17133,
+        "implied_market_cap": 152938977954.14746,
+        "investments_adjustment": 5013000000.0,
+        "net_debt": -2317000000.0,
+        "per_share_value": 93.48348285705835,
+        "projected_years": [
+          {
+            "capex": 1143087000.0,
+            "cash_taxes": 860133040.0,
+            "da": 3491611200.0,
+            "delta_nwc": 1663230400.0,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 4988016000.0,
+            "ebit_margin": 0.12,
+            "ebitda": 8479627200.0,
+            "fcff": 4813176760.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 461000000.0,
+            "nwc": 9477230400.0,
+            "present_value_fcff": 4444299870.729456,
+            "revenue": 41566800000.0,
+            "revenue_growth": 0.2,
+            "year": 2026
+          },
+          {
+            "capex": 1307483694.0,
+            "cash_taxes": 1113298152.78,
+            "da": 4019301726.0,
+            "delta_nwc": 1466892372.0,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 5859463962.0,
+            "ebit_margin": 0.121,
+            "ebitda": 9878765688.0,
+            "fcff": 5991091469.220001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 10944122772.0,
+            "present_value_fcff": 5107978222.338177,
+            "revenue": 48425322000.0,
+            "revenue_growth": 0.165,
+            "year": 2027
+          },
+          {
+            "capex": 1450096267.2899997,
+            "cash_taxes": 1268423829.2747998,
+            "da": 4487090336.5199995,
+            "delta_nwc": 1313294732.6399994,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 6675914890.919999,
+            "ebit_margin": 0.122,
+            "ebitda": 11163005227.439999,
+            "fcff": 7131190398.2352,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 12257417504.64,
+            "present_value_fcff": 5614054988.09981,
+            "revenue": 54720613859.99999,
+            "revenue_growth": 0.13,
+            "year": 2028
+          },
+          {
+            "capex": 1572123236.1977997,
+            "cash_taxes": 1413096924.2285607,
+            "da": 4897768543.539299,
+            "delta_nwc": 1166096281.356598,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 7437352232.7818985,
+            "ebit_margin": 0.123,
+            "ebitda": 12335120776.321198,
+            "fcff": 8183804334.538239,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 13423513785.996597,
+            "present_value_fcff": 5948964959.245877,
+            "revenue": 60466278315.29999,
+            "revenue_growth": 0.105,
+            "year": 2029
+          },
+          {
+            "capex": 1688369656.2589638,
+            "cash_taxes": 1559921141.233772,
+            "da": 5296845980.4202795,
+            "delta_nwc": 1142812660.1591702,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 8210111269.651432,
+            "ebit_margin": 0.124,
+            "ebitda": 13506957250.071712,
+            "fcff": 9115853792.419806,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 14566326446.155767,
+            "present_value_fcff": 6118642343.355007,
+            "revenue": 66210574755.25349,
+            "revenue_growth": 0.095,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "average",
+        "terminal_value": 176360943263.1235,
+        "terminal_value_present_value": 118375037570.37912,
+        "upside_downside_pct": -0.5356703777029834
+      }
+    },
+    "ticker": "AMD"
+  },
+  "assumptions": {
+    "cash": 5539000000.0,
+    "current_price": 201.33,
+    "debt": 3222000000.0,
+    "diluted_shares": 1636000000.0,
+    "investments": 5013000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 461000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.119,
+    "tax_rate": 0.19,
+    "terminal_exit_ebitda_multiple": 14.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "average",
+    "wacc": 0.085
+  },
+  "company_name": "Advanced Micro Devices, Inc.",
+  "comps": [
+    {
+      "company_name": "NVIDIA Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue and EV/NTM EBITDA not captured from the primary/verified sources used in this pass; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "NVDA"
+    },
+    {
+      "company_name": "QUALCOMM Incorporated",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue and EV/NTM EBITDA not captured from the primary/verified sources used in this pass; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "QCOM"
+    },
+    {
+      "company_name": "Intel Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue and EV/NTM EBITDA not captured from the primary/verified sources used in this pass; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "INTC"
+    },
+    {
+      "company_name": "Broadcom Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue and EV/NTM EBITDA not captured from the primary/verified sources used in this pass; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "AVGO"
+    },
+    {
+      "company_name": "Micron Technology, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue and EV/NTM EBITDA not captured from the primary/verified sources used in this pass; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "MU"
+    },
+    {
+      "company_name": "Taiwan Semiconductor Manufacturing Company Ltd.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue and EV/NTM EBITDA not captured from the primary/verified sources used in this pass; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "TSM"
+    },
+    {
+      "company_name": "ASML Holding N.V.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue and EV/NTM EBITDA not captured from the primary/verified sources used in this pass; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ASML"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.028,
+      "2027": 0.0275,
+      "2028": 0.027,
+      "2029": 0.0265,
+      "2030": 0.026
+    },
+    "da_pct_sales": {
+      "2026": 0.085,
+      "2027": 0.084,
+      "2028": 0.083,
+      "2029": 0.082,
+      "2030": 0.081
+    },
+    "ebit_margin": {
+      "2026": 0.115,
+      "2027": 0.116,
+      "2028": 0.117,
+      "2029": 0.118,
+      "2030": 0.119
+    },
+    "nwc_pct_sales": {
+      "2026": 0.23,
+      "2027": 0.228,
+      "2028": 0.225,
+      "2029": 0.223,
+      "2030": 0.221
+    },
+    "revenue_growth": {
+      "2026": 0.18,
+      "2027": 0.15,
+      "2028": 0.12,
+      "2029": 0.1,
+      "2030": 0.09
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 546000000.0,
+      "2024": 636000000.0,
+      "2025": 974000000.0
+    },
+    "da": {
+      "2023": 3453000000.0,
+      "2024": 3064000000.0,
+      "2025": 3004000000.0
+    },
+    "ebit": {
+      "2023": 401000000.0,
+      "2024": 1900000000.0,
+      "2025": 3694000000.0
+    },
+    "nwc": {
+      "2023": 5057000000.0,
+      "2024": 6636000000.0,
+      "2025": 7814000000.0
+    },
+    "revenue": {
+      "2023": 22680000000.0,
+      "2024": 25785000000.0,
+      "2025": 34639000000.0
+    }
+  },
+  "notes": [
+    "EBIT is modeled as GAAP total operating income (operating income) from AMD\u2019s consolidated results (not segment-level operating income). ([ir.amd.com](https://ir.amd.com/financial-information/sec-filings/content/0000002488-24-000012/amd-20231230.htm))",
+    "D&A is modeled as (depreciation and amortization) + (amortization of acquisition-related intangibles) from the cash flow statement add-back lines, to align with a standard EBIT-based free cash flow build. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000018/amd-20251227.htm))",
+    "Capex is modeled as purchases of property and equipment (cash flow line item) and converted from millions to full USD dollars. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000018/amd-20251227.htm))",
+    "NWC definition used for this package: (Accounts receivable + Inventories + Receivables from related parties + Prepaid & other current assets) minus (Accounts payable + Payables to related parties + Accrued liabilities + Other current liabilities), excluding cash, short-term investments, and excluding the current portion of long-term debt. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000018/amd-20251227.htm))",
+    "Tax rate set to 0.19 as a normalized base-case assumption; FY2025\u2019s reported effective tax rate is distorted by discrete items and is not used directly for forward modeling. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000018/amd-20251227.htm))",
+    "NOL balance provided as total U.S. federal + state NOL carryforwards disclosed in the 10-K (utilization percent not disclosed reliably in the accessible filing excerpts here, so set to null). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000018/amd-20251227.htm))",
+    "Comparable-company NTM multiples were not populated from primary/verified sources in this pass; peer tickers are included with null valuation multiples and notes describing the gap."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained ramp of next-generation EPYC and Instinct GPUs across hyperscalers/OEMs and expansion of AI platform deployments.",
+      "Quarterly delivery versus revenue and margin expectations, including management commentary on data center AI momentum.",
+      "Regulatory/export developments (particularly China) that can materially impact revenue mix and operating results."
+    ],
+    "company_overview": [
+      "AMD designs x86 CPUs, GPUs, and adaptive SoCs, and reports financial results across Data Center, Client & Gaming, and Embedded segments.",
+      "Data Center revenue is driven by EPYC processors and Instinct GPUs for AI and cloud workloads; Client & Gaming revenue is driven by Ryzen and semi-custom SoCs.",
+      "AMD is a fabless supplier; manufacturing is largely outsourced, while AMD manages product design, software ecosystem, and systems/platform partnerships."
+    ],
+    "current_context": [
+      "FY2025: record revenue of 34.639B, GAAP operating income of 3.694B, and GAAP operating margin of ~0.11 (11%).",
+      "Q1 2026 outlook (reported alongside the FY2025 release): revenue of ~9.8B +/- 0.3B, implying ~0.32 YoY growth at the midpoint and ~0.05 sequential decline.",
+      "FY2025 operating performance reflected strong scaling in Data Center and Client & Gaming with embedded revenue normalization."
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth decelerates from FY2025 strength while maintaining above-industry growth, anchored by continued EPYC/Instinct adoption.",
+      "EBIT margin expands toward ~0.12 as mix shifts toward higher-growth Data Center/AI platforms and operating leverage improves.",
+      "Capital intensity (capex as a % of sales) remains low-to-moderate, supporting durable free-cash-flow conversion relative to revenue growth.",
+      "Non-cash working-capital intensity is assumed stable-to-slightly improving, reducing drag on incremental cash flows."
+    ],
+    "key_risks": [
+      "AI accelerator demand could normalize faster than modeled, pressuring revenue growth and gross margin.",
+      "Export restrictions and customer compliance requirements could reduce addressable demand or introduce volatility in reported results.",
+      "Competitive dynamics (pricing, performance-per-dollar, and platform adoption cycles) could limit margin expansion."
+    ],
+    "sources": [
+      {
+        "label": "AMD FY2025 Form 10-K (fiscal year ended Dec 27, 2025)",
+        "notes": "Provides FY2025 net revenue, operating income, cash, debt, short-term investments, cash flow D&A, purchases of property/equipment, and effective tax rate and NOL carryforwards. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000018/amd-20251227.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm"
+      },
+      {
+        "label": "AMD FY2024 Form 10-K (fiscal year ended Dec 28, 2024)",
+        "notes": "Provides FY2024 and FY2023 net revenue and operating income, plus balance-sheet components used for NWC. ([ir.amd.com](https://ir.amd.com/financial-information/sec-filings/content/0000002488-25-000012/amd-20241228.htm))",
+        "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-25-000012/amd-20241228.htm"
+      },
+      {
+        "label": "AMD FY2023 Form 10-K (fiscal year ended Dec 30, 2023)",
+        "notes": "Provides FY2023 net revenue and operating income and supports historical profitability inputs. ([ir.amd.com](https://ir.amd.com/financial-information/sec-filings/content/0000002488-24-000012/amd-20231230.htm))",
+        "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-24-000012/amd-20231230.htm"
+      },
+      {
+        "label": "AMD Q4 & FY2025 earnings release (Feb 3, 2026) with Q1 2026 outlook",
+        "notes": "Provides FY2025 and Q1 2026 revenue outlook context used in presentation bullets. ([amd.com](https://www.amd.com/en/newsroom/press-releases/2026-2-3-amd-reports-fourth-quarter-and-full-year-2025-fina.html))",
+        "url": "https://www.amd.com/en/newsroom/press-releases/2026-2-3-amd-reports-fourth-quarter-and-full-year-2025-fina.html"
+      },
+      {
+        "label": "Market price snapshot (AMD) from data feed",
+        "notes": "Used only for current_price input; exact timestamp and value reflected in the data feed at research time.",
+        "url": null
+      }
+    ],
+    "subtitle": "AMD Base-Case DCF & Multiples Input Package",
+    "valuation_summary": [
+      "DCF build uses EBIT (operating income) margins with explicit D&A add-back, stable capex intensity, and working-capital modeled as a % of sales.",
+      "Terminal assumptions (2.0% growth, ~14x terminal EBITDA multiple in an average framework) are consistent with a mature semiconductor platform value driver approach.",
+      "Comparable-company section is provided as a peer set, but NTM EV/revenue/EV/EBITDA and P/E NTM were not populated from primary/verified datasets in this pass (set to null)."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.112,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 13.0,
+        "terminal_growth": 0.019,
+        "terminal_method": "average",
+        "wacc": 0.087
+      },
+      "description": "Modestly slower growth and lower operating leverage; slightly higher capex and working-capital intensity than base case.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0285,
+          "2027": 0.028,
+          "2028": 0.0275,
+          "2029": 0.027,
+          "2030": 0.0265
+        },
+        "da_pct_sales": {
+          "2026": 0.086,
+          "2027": 0.085,
+          "2028": 0.084,
+          "2029": 0.083,
+          "2030": 0.082
+        },
+        "ebit_margin": {
+          "2026": 0.108,
+          "2027": 0.109,
+          "2028": 0.11,
+          "2029": 0.111,
+          "2030": 0.112
+        },
+        "nwc_pct_sales": {
+          "2026": 0.232,
+          "2027": 0.23,
+          "2028": 0.227,
+          "2029": 0.225,
+          "2030": 0.223
+        },
+        "revenue_growth": {
+          "2026": 0.16,
+          "2027": 0.135,
+          "2028": 0.11,
+          "2029": 0.095,
+          "2030": 0.085
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.124,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 15.0,
+        "terminal_growth": 0.021,
+        "terminal_method": "average",
+        "wacc": 0.083
+      },
+      "description": "Modestly faster growth and margin expansion with slightly improved capital efficiency and working-capital intensity.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0275,
+          "2027": 0.027,
+          "2028": 0.0265,
+          "2029": 0.026,
+          "2030": 0.0255
+        },
+        "da_pct_sales": {
+          "2026": 0.084,
+          "2027": 0.083,
+          "2028": 0.082,
+          "2029": 0.081,
+          "2030": 0.08
+        },
+        "ebit_margin": {
+          "2026": 0.12,
+          "2027": 0.121,
+          "2028": 0.122,
+          "2029": 0.123,
+          "2030": 0.124
+        },
+        "nwc_pct_sales": {
+          "2026": 0.228,
+          "2027": 0.226,
+          "2028": 0.224,
+          "2029": 0.222,
+          "2030": 0.22
+        },
+        "revenue_growth": {
+          "2026": 0.2,
+          "2027": 0.165,
+          "2028": 0.13,
+          "2029": 0.105,
+          "2030": 0.095
+        }
+      }
+    }
+  },
+  "ticker": "AMD"
+}

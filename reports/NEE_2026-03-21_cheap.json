@@ -1,0 +1,692 @@
+{
+  "_meta": {
+    "cost_usd": 0.02442,
+    "generated_at": "2026-03-21T14:54:03Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12191,
+      "prompt": 2514,
+      "reasoning": 6943
+    }
+  },
+  "_valuation": {
+    "company_name": "NextEra Energy, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 89.5,
+        "description": "Base case",
+        "enterprise_value": 164387241761.7094,
+        "equity_value": 65237241761.70941,
+        "exit_multiple_terminal_value": 246279391600.6112,
+        "gordon_terminal_value": 145423894185.8594,
+        "implied_market_cap": 65237241761.70942,
+        "investments_adjustment": 5528000000.0,
+        "net_debt": 92807000000.0,
+        "per_share_value": 37.5587329940138,
+        "projected_years": [
+          {
+            "capex": 9348185523.599998,
+            "cash_taxes": 1135795660.9999998,
+            "da": 6395689715.799999,
+            "delta_nwc": 807469654.4000006,
+            "discount_factor": 0.9389671361502347,
+            "ebit": 8736889699.999998,
+            "ebit_margin": 0.305,
+            "ebitda": 15132579415.799997,
+            "fcff": 3841128576.7999983,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5174530345.599999,
+            "present_value_fcff": 3606693499.3427215,
+            "revenue": 28645539999.999996,
+            "revenue_growth": 0.045,
+            "year": 2026
+          },
+          {
+            "capex": 9768853872.161999,
+            "cash_taxes": 1198580955.5719998,
+            "da": 6683495753.010998,
+            "delta_nwc": -232853865.5519991,
+            "discount_factor": 0.8816592827701736,
+            "ebit": 9219853504.399998,
+            "ebit_margin": 0.308,
+            "ebitda": 15903349257.410995,
+            "fcff": 5168768295.228997,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5407384211.1519985,
+            "present_value_fcff": 4557092547.97681,
+            "revenue": 29934589299.999992,
+            "revenue_growth": 0.045,
+            "year": 2027
+          },
+          {
+            "capex": 10208452296.409286,
+            "cash_taxes": 1256583712.5291445,
+            "da": 6984253061.896492,
+            "delta_nwc": -243332289.50183964,
+            "discount_factor": 0.8278490918029798,
+            "ebit": 9666028557.916496,
+            "ebit_margin": 0.309,
+            "ebitda": 16650281619.812988,
+            "fcff": 5428577900.376397,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5650716500.653838,
+            "present_value_fcff": 4494043284.608328,
+            "revenue": 31281645818.49999,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 10657624197.451296,
+            "cash_taxes": 1316118940.8509138,
+            "da": 7291560196.619938,
+            "delta_nwc": -248631526.02876854,
+            "discount_factor": 0.7773230908948168,
+            "ebit": 10123991852.699337,
+            "ebit_margin": 0.31,
+            "ebitda": 17415552049.319275,
+            "fcff": 5690440437.045834,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5899348026.682607,
+            "present_value_fcff": 4423310749.077319,
+            "revenue": 32658038234.51399,
+            "revenue_growth": 0.044,
+            "year": 2029
+          },
+          {
+            "capex": 11126559662.139153,
+            "cash_taxes": 1378460523.1975422,
+            "da": 7612388845.271215,
+            "delta_nwc": -259571313.17403507,
+            "discount_factor": 0.7298808365209549,
+            "ebit": 10603542486.13494,
+            "ebit_margin": 0.311,
+            "ebitda": 18215931331.406155,
+            "fcff": 5970482459.243495,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -6158919339.856642,
+            "present_value_fcff": 4357740731.78633,
+            "revenue": 34094991916.832603,
+            "revenue_growth": 0.044,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "average",
+        "terminal_value": 195851642893.2353,
+        "terminal_value_present_value": 142948360948.9179,
+        "upside_downside_pct": -0.5803493520221922
+      },
+      "bear": {
+        "current_price": 89.5,
+        "description": "Modestly lower growth and margins, and a slightly lower exit multiple vs base case.",
+        "enterprise_value": 154322452726.54565,
+        "equity_value": 55172452726.545654,
+        "exit_multiple_terminal_value": 229030049283.0847,
+        "gordon_terminal_value": 137774728910.51694,
+        "implied_market_cap": 55172452726.545654,
+        "investments_adjustment": 5528000000.0,
+        "net_debt": 92807000000.0,
+        "per_share_value": 31.764178935557727,
+        "projected_years": [
+          {
+            "capex": 9303457363.2,
+            "cash_taxes": 1111830720.0,
+            "da": 6365088329.599999,
+            "delta_nwc": 832228172.8000002,
+            "discount_factor": 0.9389671361502347,
+            "ebit": 8552544000.0,
+            "ebit_margin": 0.3,
+            "ebitda": 14917632329.599998,
+            "fcff": 3670116073.5999975,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5149771827.2,
+            "present_value_fcff": 3446118378.967134,
+            "revenue": 28508480000.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 9675595657.728,
+            "cash_taxes": 1167866988.288,
+            "da": 6619691862.783999,
+            "delta_nwc": -205990873.0880003,
+            "discount_factor": 0.8816592827701736,
+            "ebit": 8983592217.6,
+            "ebit_margin": 0.303,
+            "ebitda": 15603284080.383999,
+            "fcff": 4965812307.456,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5355762700.288,
+            "present_value_fcff": 4378154517.362958,
+            "revenue": 29648819200.0,
+            "revenue_growth": 0.04,
+            "year": 2027
+          },
+          {
+            "capex": 10062619484.03712,
+            "cash_taxes": 1218590188.17536,
+            "da": 6884479537.29536,
+            "delta_nwc": -214230508.01151943,
+            "discount_factor": 0.8278490918029798,
+            "ebit": 9373770678.272,
+            "ebit_margin": 0.304,
+            "ebitda": 16258250215.56736,
+            "fcff": 5191271051.366397,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5569993208.29952,
+            "present_value_fcff": 4297589025.176772,
+            "revenue": 30834771968.0,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 10455061643.914568,
+            "cash_taxes": 1270280058.1639168,
+            "da": 7152974239.249879,
+            "delta_nwc": -217229735.12368107,
+            "discount_factor": 0.7773230908948168,
+            "ebit": 9771385062.79936,
+            "ebit_margin": 0.305,
+            "ebitda": 16924359302.04924,
+            "fcff": 5416247335.094436,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5787222943.423201,
+            "present_value_fcff": 4210174119.566421,
+            "revenue": 32037328074.752,
+            "revenue_growth": 0.039,
+            "year": 2029
+          },
+          {
+            "capex": 10862809048.027235,
+            "cash_taxes": 1324148262.335366,
+            "da": 7431940234.580624,
+            "delta_nwc": -225701694.79350471,
+            "discount_factor": 0.7298808365209549,
+            "ebit": 10185755864.1182,
+            "ebit_margin": 0.306,
+            "ebitda": 17617696098.698822,
+            "fcff": 5656440483.129728,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -6012924638.216705,
+            "present_value_fcff": 4128527511.5577207,
+            "revenue": 33286783869.667324,
+            "revenue_growth": 0.039,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "average",
+        "terminal_value": 183402389096.8008,
+        "terminal_value_present_value": 133861889173.91464,
+        "upside_downside_pct": -0.6450929727870645
+      },
+      "bull": {
+        "current_price": 89.5,
+        "description": "Modestly higher growth and margins, and a slightly higher exit multiple vs base case.",
+        "enterprise_value": 174607830433.43707,
+        "equity_value": 75457830433.43707,
+        "exit_multiple_terminal_value": 263629431580.03247,
+        "gordon_terminal_value": 153338964733.8899,
+        "implied_market_cap": 75457830433.43707,
+        "investments_adjustment": 5528000000.0,
+        "net_debt": 92807000000.0,
+        "per_share_value": 43.44298485072508,
+        "projected_years": [
+          {
+            "capex": 9392913684.0,
+            "cash_taxes": 1159938780.0,
+            "da": 6426291102.0,
+            "delta_nwc": 782711136.0,
+            "discount_factor": 0.9389671361502347,
+            "ebit": 8922606000.0,
+            "ebit_margin": 0.31,
+            "ebitda": 15348897102.0,
+            "fcff": 4013333502.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5199288864.0,
+            "present_value_fcff": 3768388264.7887325,
+            "revenue": 28782600000.0,
+            "revenue_growth": 0.05,
+            "year": 2026
+          },
+          {
+            "capex": 9862559368.2,
+            "cash_taxes": 1229722193.7,
+            "da": 6747605657.099999,
+            "delta_nwc": -259964443.1999998,
+            "discount_factor": 0.8816592827701736,
+            "ebit": 9459401490.0,
+            "ebit_margin": 0.313,
+            "ebitda": 16207007147.099998,
+            "fcff": 5374690028.399999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5459253307.2,
+            "present_value_fcff": 4738645355.5511465,
+            "revenue": 30221730000.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 10355687336.61,
+            "cash_taxes": 1295333569.53,
+            "da": 7084985939.955,
+            "delta_nwc": -272962665.35999966,
+            "discount_factor": 0.8278490918029798,
+            "ebit": 9964104381.0,
+            "ebit_margin": 0.314,
+            "ebitda": 17049090320.955,
+            "fcff": 5671032080.174998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5732215972.559999,
+            "present_value_fcff": 4694758757.158436,
+            "revenue": 31732816500.0,
+            "revenue_growth": 0.05,
+            "year": 2028
+          },
+          {
+            "capex": 10863116016.10389,
+            "cash_taxes": 1363132318.623075,
+            "da": 7432150251.0127945,
+            "delta_nwc": -280878582.6554394,
+            "discount_factor": 0.7773230908948168,
+            "ebit": 10485633220.1775,
+            "ebit_margin": 0.315,
+            "ebitda": 17917783471.190292,
+            "fcff": 5972413719.118769,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -6013094555.215439,
+            "present_value_fcff": 4642495092.24801,
+            "revenue": 33287724508.499996,
+            "revenue_growth": 0.049,
+            "year": 2029
+          },
+          {
+            "capex": 11395408700.89298,
+            "cash_taxes": 1434465249.2268298,
+            "da": 7796325613.312421,
+            "delta_nwc": -294641633.20555687,
+            "discount_factor": 0.7298808365209549,
+            "ebit": 11034348070.975613,
+            "ebit_margin": 0.316,
+            "ebitda": 18830673684.288033,
+            "fcff": 6295441367.373779,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -6307736188.420996,
+            "present_value_fcff": 4594922011.487398,
+            "revenue": 34918823009.4165,
+            "revenue_growth": 0.049,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "average",
+        "terminal_value": 208484198156.96118,
+        "terminal_value_present_value": 152168620952.20337,
+        "upside_downside_pct": -0.5146035212209488
+      }
+    },
+    "ticker": "NEE"
+  },
+  "assumptions": {
+    "cash": 2812000000.0,
+    "current_price": 89.5,
+    "debt": 95619000000.0,
+    "diluted_shares": 1736939363.0,
+    "investments": 5528000000.0,
+    "minority_interest": 11871000000.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.311,
+    "tax_rate": 0.13,
+    "terminal_exit_ebitda_multiple": 13.52,
+    "terminal_growth": 0.023,
+    "terminal_method": "average",
+    "wacc": 0.065
+  },
+  "company_name": "NextEra Energy, Inc.",
+  "comps": [
+    {
+      "company_name": "Duke Energy Corporation",
+      "ev_ntm_ebitda": 11.64,
+      "ev_ntm_revenue": 5.96,
+      "notes": "StockAnalysis enterprise valuation ratios and forward PE (used here as proxies for EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM). ([stockanalysis.com](https://stockanalysis.com/stocks/duk/statistics/))",
+      "pe_ntm": 18.92,
+      "source": "https://stockanalysis.com/stocks/duk/statistics/",
+      "ticker": "DUK"
+    },
+    {
+      "company_name": "The Southern Company",
+      "ev_ntm_ebitda": 12.71,
+      "ev_ntm_revenue": 5.99,
+      "notes": "StockAnalysis enterprise valuation ratios and forward PE (proxies for EV/NTM Revenue, EV/NTM EBITDA, P/E NTM). ([stockanalysis.com](https://stockanalysis.com/stocks/so/statistics/))",
+      "pe_ntm": 20.46,
+      "source": "https://stockanalysis.com/stocks/so/statistics/",
+      "ticker": "SO"
+    },
+    {
+      "company_name": "Exelon Corporation",
+      "ev_ntm_ebitda": 11.93,
+      "ev_ntm_revenue": 4.0,
+      "notes": "StockAnalysis enterprise valuation ratios and forward PE (proxies). ([stockanalysis.com](https://stockanalysis.com/stocks/exc/statistics/))",
+      "pe_ntm": 16.28,
+      "source": "https://stockanalysis.com/stocks/exc/statistics/",
+      "ticker": "EXC"
+    },
+    {
+      "company_name": "Entergy Corporation",
+      "ev_ntm_ebitda": 13.38,
+      "ev_ntm_revenue": 5.77,
+      "notes": "StockAnalysis enterprise valuation ratios and forward PE (proxies). ([stockanalysis.com](https://stockanalysis.com/stocks/etr/statistics/))",
+      "pe_ntm": 22.69,
+      "source": "https://stockanalysis.com/stocks/etr/statistics/",
+      "ticker": "ETR"
+    },
+    {
+      "company_name": "Xcel Energy Inc.",
+      "ev_ntm_ebitda": 14.0,
+      "ev_ntm_revenue": 5.71,
+      "notes": "StockAnalysis enterprise valuation ratios and forward PE (proxies). ([stockanalysis.com](https://stockanalysis.com/stocks/xel/statistics/))",
+      "pe_ntm": 18.66,
+      "source": "https://stockanalysis.com/stocks/xel/statistics/",
+      "ticker": "XEL"
+    },
+    {
+      "company_name": "Sempra",
+      "ev_ntm_ebitda": 17.48,
+      "ev_ntm_revenue": 7.02,
+      "notes": "StockAnalysis enterprise valuation ratios and forward PE (proxies). ([stockanalysis.com](https://stockanalysis.com/stocks/sre/statistics/))",
+      "pe_ntm": 17.96,
+      "source": "https://stockanalysis.com/stocks/sre/statistics/",
+      "ticker": "SRE"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.32634,
+      "2027": 0.32634,
+      "2028": 0.32634,
+      "2029": 0.32634,
+      "2030": 0.32634
+    },
+    "da_pct_sales": {
+      "2026": 0.22327,
+      "2027": 0.22327,
+      "2028": 0.22327,
+      "2029": 0.22327,
+      "2030": 0.22327
+    },
+    "ebit_margin": {
+      "2026": 0.305,
+      "2027": 0.308,
+      "2028": 0.309,
+      "2029": 0.31,
+      "2030": 0.311
+    },
+    "nwc_pct_sales": {
+      "2026": -0.18064,
+      "2027": -0.18064,
+      "2028": -0.18064,
+      "2029": -0.18064,
+      "2030": -0.18064
+    },
+    "revenue_growth": {
+      "2026": 0.045,
+      "2027": 0.045,
+      "2028": 0.045,
+      "2029": 0.044,
+      "2030": 0.044
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 9363000000.0,
+      "2024": 8115000000.0,
+      "2025": 8721000000.0
+    },
+    "da": {
+      "2023": 5879000000.0,
+      "2024": 5462000000.0,
+      "2025": 6580000000.0
+    },
+    "ebit": {
+      "2023": 10237000000.0,
+      "2024": 7479000000.0,
+      "2025": 8280000000.0
+    },
+    "nwc": {
+      "2023": -3486000000.0,
+      "2024": -4943000000.0,
+      "2025": -5982000000.0
+    },
+    "revenue": {
+      "2023": 28114000000.0,
+      "2024": 24753000000.0,
+      "2025": 27412000000.0
+    }
+  },
+  "notes": [
+    "Historical FYs used: 2023-2025 (last 3 completed fiscal years for NEE with Dec 31 year-end). ([stockanalysis.com](https://stockanalysis.com/stocks/nee/financials/))",
+    "Data extraction method: revenue/EBIT/D&A and capex/NWC inputs were taken from StockAnalysis (reported in millions) and converted to full USD units (x1,000,000). ([stockanalysis.com](https://stockanalysis.com/stocks/nee/financials/))",
+    "EBIT definition: Operating Income from the income statement (StockAnalysis 'Operating Income'). ([stockanalysis.com](https://stockanalysis.com/stocks/nee/financials/))",
+    "D&A definition: 'Depreciation & Amortization Expenses' from the income statement (not cash-flow add-back line). ([stockanalysis.com](https://stockanalysis.com/stocks/nee/financials/))",
+    "Capex definition: 'Capital Expenditures' from the cash flow statement; reported as absolute positive values for modeling. ([stockanalysis.com](https://stockanalysis.com/stocks/nee/financials/cash-flow-statement/))",
+    "NWC definition (explicit): (Total Current Assets - Cash & Short-Term Investments) - (Total Current Liabilities - Short-Term Debt - Current Portion of Long-Term Debt). Computed from StockAnalysis balance-sheet line items; negative NWC reflects debt-funded current liabilities common in regulated/utility working-capital structures. ([stockanalysis.com](https://stockanalysis.com/stocks/nee/financials/balance-sheet/))",
+    "Tax rate: base-case tax_rate=0.13 is an assumption because effective tax rate can be volatile year-to-year (tax credits/benefits). This is a normalized DCF input, not a direct FY-2025 effective rate. ([stockanalysis.com](https://stockanalysis.com/stocks/nee/financials/))",
+    "WACC: wacc=0.065 is an estimate using CAPM with beta from Yahoo Finance (0.73) and an implied cost-of-debt derived from interest expense vs. total debt from the same financial feed; treat as a model input, not a company-reported number. ([finance.yahoo.com](https://finance.yahoo.com/quote/NEE/?utm_source=openai))",
+    "Terminal assumptions: terminal_growth=0.023 and exit multiple 13.52 are selected to be consistent with utility-peer valuation levels (average EV/EBITDA from selected peers). ([stockanalysis.com](https://stockanalysis.com/stocks/duk/statistics/))",
+    "Comps limitation: EV/Sales and EV/EBITDA and forward P/E values are taken from StockAnalysis 'Enterprise Valuation' and 'Forward PE' sections; these are used as proxies for EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM. ([stockanalysis.com](https://stockanalysis.com/stocks/duk/statistics/))",
+    "NOLs: nol_balance is set to null because a reliable extracted balance/carryforward figure for modeling was not obtained within the accessible source set; nol_utilization_pct remains set to 0.80 per the prompt default."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "FPL rate/regulatory milestones (including execution against multi-year frameworks) could shift earnings durability and investment recovery. ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf))",
+      "NEER origination and commissioning pace (backlog growth and placed-into-service volume) can move expectations for contracted earnings. ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf))",
+      "Progress on nuclear/contracting developments (e.g., project recommissioning and associated power purchase agreements discussed by the company). ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf))"
+    ],
+    "company_overview": [
+      "NextEra Energy is a U.S. energy infrastructure company with a regulated electric utility business (Florida Power & Light) and a competitive generation and storage development business (NextEra Energy Resources). ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf))",
+      "FPL provides reliable electricity to customers in Florida with capital investment programs under regulatory frameworks. ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf))",
+      "NextEra Energy Resources develops and brings online renewable generation and battery storage and reports backlog/origination growth as key performance metrics. ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf))"
+    ],
+    "current_context": [
+      "Full-year 2025: adjusted earnings were $7.683 billion ($3.71 per share) vs. $7.063 billion ($3.43 per share) in 2024. ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf))",
+      "2026 outlook: adjusted EPS guidance reaffirmed at $3.92 to $4.02. ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf))",
+      "Operational updates: FPL reported regulatory capital employed growth of ~8.1% in 2025 and NextEra Energy Resources added ~13.5 GW to backlog origination in 2025. ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf))",
+      "Company frames long-term EPS growth as visible and balanced between regulated and long-term contracted businesses. ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes continued scaling of FPL-related regulatory capital and contracted/long-term contracted generation additions from NEER within a stable utility earnings framework. ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf))",
+      "EBIT margin is held near the post-2024 range (base-case ~0.31 by 2030) to reflect utility-style operating leverage without assuming sudden step-changes. ([stockanalysis.com](https://stockanalysis.com/stocks/nee/financials/))",
+      "High reinvestment intensity is captured via capex at ~0.326 of sales and D&A at ~0.223 of sales, consistent with observed historical capital turnover. ([stockanalysis.com](https://stockanalysis.com/stocks/nee/financials/cash-flow-statement/))",
+      "Working capital is modeled as consistently negative (base-case ~-0.181 of sales) using an explicit NWC definition that excludes cash and interest-bearing debt items from current assets/liabilities. ([stockanalysis.com](https://stockanalysis.com/stocks/nee/financials/balance-sheet/))",
+      "Terminal value uses a reasonable exit multiple calibrated to large regulated utility peer valuation benchmarks (average EV/EBITDA). ([stockanalysis.com](https://stockanalysis.com/stocks/duk/statistics/))"
+    ],
+    "key_risks": [
+      "Regulatory and policy risk: changes to allowed returns, cost recovery, or incentives for renewables/storage could pressure margins and cash flows. ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf))",
+      "Execution risk: construction delays, cost inflation, and supply-chain constraints affecting capital projects and contracted generation delivery. ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf))",
+      "Tax/financing risk: lower than expected tax benefits or changes in credit regimes could impact effective tax rate and after-tax profitability. ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/investor-materials/shareholder-resources/2025/2024%20NEE%20Annual%20Report.pdf?utm_source=openai))",
+      "Working-capital volatility from timing of receivables/payables and regulatory true-ups could deviate from the historical negative-NWC pattern. ([stockanalysis.com](https://stockanalysis.com/stocks/nee/financials/balance-sheet/))"
+    ],
+    "sources": [
+      {
+        "label": "NextEra Energy Q4 2025 / Full-year 2025 results (News Release PDF)",
+        "notes": "Supports full-year 2025 adjusted earnings and 2026 adjusted EPS guidance, plus high-level operating metrics (FPL regulatory capital employed growth; NEER origination/backlog). ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf))",
+        "url": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf"
+      },
+      {
+        "label": "NextEra Energy 2024 Annual Report on Form 10-K (PDF)",
+        "notes": "Primary filing for company background and longer-form disclosures used for qualitative context (capital strategy, business positioning, risks). ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/investor-materials/shareholder-resources/2025/2024%20NEE%20Annual%20Report.pdf?utm_source=openai))",
+        "url": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/investor-materials/shareholder-resources/2025/2024%20NEE%20Annual%20Report.pdf"
+      },
+      {
+        "label": "StockAnalysis NEE financials (Income Statement: Revenue, EBIT, D&A; shares)",
+        "notes": "Used as the data feed for historical revenue, EBIT (Operating Income), and D&A (Depreciation & Amortization) for FY 2023-2025, converted from millions to full USD units. ([stockanalysis.com](https://stockanalysis.com/stocks/nee/financials/))",
+        "url": "https://stockanalysis.com/stocks/nee/financials/"
+      },
+      {
+        "label": "StockAnalysis NEE cash flow & balance sheet (Capex and NWC definition inputs)",
+        "notes": "Used to source Capex (Capital Expenditures, absolute value) for FY 2023-2025. ([stockanalysis.com](https://stockanalysis.com/stocks/nee/financials/cash-flow-statement/))",
+        "url": "https://stockanalysis.com/stocks/nee/financials/cash-flow-statement/"
+      },
+      {
+        "label": "StockAnalysis NEE balance sheet (NWC, cash, debt, minority interest)",
+        "notes": "Used to source Total Current Assets/Liabilities, cash & equivalents, short-term debt, current portion of long-term debt, and minority interest for NWC computation and balance-sheet bridge inputs. ([stockanalysis.com](https://stockanalysis.com/stocks/nee/financials/balance-sheet/))",
+        "url": "https://stockanalysis.com/stocks/nee/financials/balance-sheet/"
+      },
+      {
+        "label": "Yahoo Finance NEE (Beta 5Y Monthly)",
+        "notes": "Used for CAPM beta input in the WACC estimate. ([finance.yahoo.com](https://finance.yahoo.com/quote/NEE/?utm_source=openai))",
+        "url": "https://finance.yahoo.com/quote/NEE/"
+      }
+    ],
+    "subtitle": "NEE DCF Inputs (Base/Bull/Bear) \u2014 regulated + contracted clean energy",
+    "valuation_summary": [
+      "The DCF base case uses moderate growth and slowly improving margins, consistent with the company\u2019s stated visibility around EPS growth and recurring regulated/contracted earnings. ([investor.nexteraenergy.com](https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf))",
+      "Comps provide a triangulation check using peer EV/EBITDA and forward P/E levels from StockAnalysis; bull/bear cases adjust the exit multiple modestly. ([stockanalysis.com](https://stockanalysis.com/stocks/duk/statistics/))",
+      "Cost of capital inputs (WACC) are estimated from beta and an implied equity/debt cost framework, with terminal growth set below long-run nominal growth to remain conservative for a mature utility. ([finance.yahoo.com](https://finance.yahoo.com/quote/NEE/?utm_source=openai))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 89.5,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.306,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 13.0,
+        "terminal_growth": 0.023,
+        "terminal_method": "average",
+        "wacc": 0.065
+      },
+      "description": "Modestly lower growth and margins, and a slightly lower exit multiple vs base case.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.32634,
+          "2027": 0.32634,
+          "2028": 0.32634,
+          "2029": 0.32634,
+          "2030": 0.32634
+        },
+        "da_pct_sales": {
+          "2026": 0.22327,
+          "2027": 0.22327,
+          "2028": 0.22327,
+          "2029": 0.22327,
+          "2030": 0.22327
+        },
+        "ebit_margin": {
+          "2026": 0.3,
+          "2027": 0.303,
+          "2028": 0.304,
+          "2029": 0.305,
+          "2030": 0.306
+        },
+        "nwc_pct_sales": {
+          "2026": -0.18064,
+          "2027": -0.18064,
+          "2028": -0.18064,
+          "2029": -0.18064,
+          "2030": -0.18064
+        },
+        "revenue_growth": {
+          "2026": 0.04,
+          "2027": 0.04,
+          "2028": 0.04,
+          "2029": 0.039,
+          "2030": 0.039
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 89.5,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.316,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 14.0,
+        "terminal_growth": 0.023,
+        "terminal_method": "average",
+        "wacc": 0.065
+      },
+      "description": "Modestly higher growth and margins, and a slightly higher exit multiple vs base case.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.32634,
+          "2027": 0.32634,
+          "2028": 0.32634,
+          "2029": 0.32634,
+          "2030": 0.32634
+        },
+        "da_pct_sales": {
+          "2026": 0.22327,
+          "2027": 0.22327,
+          "2028": 0.22327,
+          "2029": 0.22327,
+          "2030": 0.22327
+        },
+        "ebit_margin": {
+          "2026": 0.31,
+          "2027": 0.313,
+          "2028": 0.314,
+          "2029": 0.315,
+          "2030": 0.316
+        },
+        "nwc_pct_sales": {
+          "2026": -0.18064,
+          "2027": -0.18064,
+          "2028": -0.18064,
+          "2029": -0.18064,
+          "2030": -0.18064
+        },
+        "revenue_growth": {
+          "2026": 0.05,
+          "2027": 0.05,
+          "2028": 0.05,
+          "2029": 0.049,
+          "2030": 0.049
+        }
+      }
+    }
+  },
+  "ticker": "NEE"
+}

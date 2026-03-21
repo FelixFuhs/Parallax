@@ -1,0 +1,687 @@
+{
+  "_meta": {
+    "cost_usd": 0.022287,
+    "generated_at": "2026-03-21T14:43:37Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [
+      "stale_price"
+    ],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10464,
+      "prompt": 2514,
+      "reasoning": 6963
+    }
+  },
+  "_valuation": {
+    "company_name": "CMS Energy Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": null,
+        "description": "Base case",
+        "enterprise_value": -11425579217.852398,
+        "equity_value": -30559579217.852398,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": -12088702297.43659,
+        "implied_market_cap": -30559579217.852398,
+        "investments_adjustment": 61000000.0,
+        "net_debt": 18180000000.0,
+        "per_share_value": -101.52684125532357,
+        "projected_years": [
+          {
+            "capex": 3396814200.0,
+            "cash_taxes": 293171194.8,
+            "da": 1410984360.0,
+            "delta_nwc": 99293400.0,
+            "discount_factor": 0.9433962264150942,
+            "ebit": 1724536440.0,
+            "ebit_margin": 0.198,
+            "ebitda": 3135520800.0,
+            "fcff": -653757994.8000002,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 261293400.0,
+            "present_value_fcff": -616752825.283019,
+            "revenue": 8709780000.0,
+            "revenue_growth": 0.02,
+            "year": 2026
+          },
+          {
+            "capex": 3464750484.0,
+            "cash_taxes": 296014066.99200004,
+            "da": 1430320071.6000001,
+            "delta_nwc": 22993819.199999988,
+            "discount_factor": 0.8899964400142398,
+            "ebit": 1741259217.6000001,
+            "ebit_margin": 0.196,
+            "ebitda": 3171579289.2000003,
+            "fcff": -612179080.9919999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 284287219.2,
+            "present_value_fcff": -544837202.7340689,
+            "revenue": 8883975600.0,
+            "revenue_growth": 0.02,
+            "year": 2027
+          },
+          {
+            "capex": 3443428942.56,
+            "cash_taxes": 300393866.9628,
+            "da": 1458926473.032,
+            "delta_nwc": 14747399.496000051,
+            "discount_factor": 0.8396192830323018,
+            "ebit": 1767022746.8400002,
+            "ebit_margin": 0.195,
+            "ebitda": 3225949219.872,
+            "fcff": -532620989.1467998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 299034618.69600004,
+            "present_value_fcff": -447198853.03539145,
+            "revenue": 9061655112.0,
+            "revenue_growth": 0.02,
+            "year": 2028
+          },
+          {
+            "capex": 3505410663.52608,
+            "cash_taxes": 305800956.56813043,
+            "da": 1475962384.6425602,
+            "delta_nwc": 5382623.136528015,
+            "discount_factor": 0.7920936632380204,
+            "ebit": 1798829156.2831202,
+            "ebit_margin": 0.195,
+            "ebitda": 3274791540.92568,
+            "fcff": -541802702.3050585,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 304417241.83252805,
+            "present_value_fcff": -429158487.22107244,
+            "revenue": 9224764904.016,
+            "revenue_growth": 0.018,
+            "year": 2029
+          },
+          {
+            "capex": 3471186785.7321806,
+            "cash_taxes": 309404703.2255333,
+            "da": 1501053745.1814835,
+            "delta_nwc": 14556679.018537223,
+            "discount_factor": 0.747258172866057,
+            "ebit": 1820027666.0325487,
+            "ebit_margin": 0.194,
+            "ebitda": 3321081411.214032,
+            "fcff": -474066756.76221913,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 318973920.8510653,
+            "present_value_fcff": -354250258.47467333,
+            "revenue": 9381585907.384272,
+            "revenue_growth": 0.017,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": -12088702297.43659,
+        "terminal_value_present_value": -9033381591.104172,
+        "upside_downside_pct": null
+      },
+      "bear": {
+        "current_price": null,
+        "description": "Modestly weaker growth and margin pressure with a higher discount rate and lower terminal growth.",
+        "enterprise_value": -11563205722.512655,
+        "equity_value": -30697205722.512657,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": -12136408176.025827,
+        "implied_market_cap": -30697205722.512657,
+        "investments_adjustment": 61000000.0,
+        "net_debt": 18180000000.0,
+        "per_share_value": -101.98407216781614,
+        "projected_years": [
+          {
+            "capex": 3404191896.0,
+            "cash_taxes": 286403695.74,
+            "da": 1406834406.0,
+            "delta_nwc": 107209053.0,
+            "discount_factor": 0.9416195856873822,
+            "ebit": 1684727622.0,
+            "ebit_margin": 0.194,
+            "ebitda": 3091562028.0,
+            "fcff": -706242616.7399998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 269209053.0,
+            "present_value_fcff": -665011880.1694913,
+            "revenue": 8684163000.0,
+            "revenue_growth": 0.017,
+            "year": 2026
+          },
+          {
+            "capex": 3462063158.2320004,
+            "cash_taxes": 288269748.68544,
+            "da": 1421918797.131,
+            "delta_nwc": 22240141.44300002,
+            "discount_factor": 0.8866474441500775,
+            "ebit": 1695704404.032,
+            "ebit_margin": 0.192,
+            "ebitda": 3117623201.163,
+            "fcff": -654949847.1974404,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 291449194.443,
+            "present_value_fcff": -580709608.0640943,
+            "revenue": 8831793771.0,
+            "revenue_growth": 0.017,
+            "year": 2027
+          },
+          {
+            "capex": 3431098889.2708735,
+            "cash_taxes": 291643405.58802426,
+            "da": 1446091416.682227,
+            "delta_nwc": 13936570.570637941,
+            "discount_factor": 0.8348845990113722,
+            "ebit": 1715549444.6354368,
+            "ebit_margin": 0.191,
+            "ebitda": 3161640861.3176637,
+            "fcff": -575038004.1118724,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 305385765.01363796,
+            "present_value_fcff": -480090373.4792404,
+            "revenue": 8981934265.106998,
+            "revenue_growth": 0.017,
+            "year": 2028
+          },
+          {
+            "capex": 3485996471.4992075,
+            "cash_taxes": 294758340.3911634,
+            "da": 1460103234.1357937,
+            "delta_nwc": 4886172.240218222,
+            "discount_factor": 0.7861436902178646,
+            "ebit": 1733872590.5362551,
+            "ebit_margin": 0.19,
+            "ebitda": 3193975824.6720486,
+            "fcff": -591665159.45854,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 310271937.2538562,
+            "present_value_fcff": -465133831.8300779,
+            "revenue": 9125645213.348711,
+            "revenue_growth": 0.016,
+            "year": 2029
+          },
+          {
+            "capex": 3445661119.656206,
+            "cash_taxes": 297605085.41546744,
+            "da": 1482004782.6478305,
+            "delta_nwc": 13916608.950356781,
+            "discount_factor": 0.7402482958736954,
+            "ebit": 1750618149.5027497,
+            "ebit_margin": 0.189,
+            "ebitda": 3232622932.1505804,
+            "fcff": -524559881.87145025,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 324188546.20421296,
+            "present_value_fcff": -388304558.63904804,
+            "revenue": 9262529891.54894,
+            "revenue_growth": 0.015,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": -12136408176.025827,
+        "terminal_value_present_value": -8983955470.330704,
+        "upside_downside_pct": null
+      },
+      "bull": {
+        "current_price": null,
+        "description": "Modestly stronger revenue growth and operating leverage (higher EBIT margin) with a slightly lower WACC/terminal growth.",
+        "enterprise_value": -11142993061.648882,
+        "equity_value": -30276993061.64888,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": -11866286243.837784,
+        "implied_market_cap": -30276993061.64888,
+        "investments_adjustment": 61000000.0,
+        "net_debt": 18180000000.0,
+        "per_share_value": -100.58801681610923,
+        "projected_years": [
+          {
+            "capex": 3389334036.0,
+            "cash_taxes": 301458550.4700001,
+            "da": 1415134314.0,
+            "delta_nwc": 91326513.0,
+            "discount_factor": 0.9451795841209829,
+            "ebit": 1773285591.0000002,
+            "ebit_margin": 0.203,
+            "ebitda": 3188419905.0,
+            "fcff": -593699194.4699998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 253326513.0,
+            "present_value_fcff": -561152357.722117,
+            "revenue": 8735397000.0,
+            "revenue_growth": 0.023,
+            "year": 2026
+          },
+          {
+            "capex": 3467288718.828,
+            "cash_taxes": 305353751.34627,
+            "da": 1438746092.091,
+            "delta_nwc": 23699132.06099999,
+            "discount_factor": 0.8933644462391144,
+            "ebit": 1796198537.331,
+            "ebit_margin": 0.201,
+            "ebitda": 3234944629.422,
+            "fcff": -561396972.8132697,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 277025645.061,
+            "present_value_fcff": -501532095.7376419,
+            "revenue": 8936311131.0,
+            "revenue_growth": 0.023,
+            "year": 2027
+          },
+          {
+            "capex": 3455617896.4909134,
+            "cash_taxes": 310822773.758442,
+            "da": 1471837252.2090929,
+            "delta_nwc": 15513436.123415947,
+            "discount_factor": 0.8443898357647582,
+            "ebit": 1828369257.4025998,
+            "ebit_margin": 0.2,
+            "ebitda": 3300206509.6116924,
+            "fcff": -481747596.76107883,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 292539081.18441594,
+            "present_value_fcff": -406782774.10915434,
+            "revenue": 9141846287.012999,
+            "revenue_growth": 0.023,
+            "year": 2028
+          },
+          {
+            "capex": 3524730254.420732,
+            "cash_taxes": 315454033.0874428,
+            "da": 1491949314.0405216,
+            "delta_nwc": 5850781.6236884,
+            "discount_factor": 0.7981000338041193,
+            "ebit": 1855611959.3378987,
+            "ebit_margin": 0.199,
+            "ebitda": 3347561273.3784204,
+            "fcff": -498473795.75344294,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 298389862.80810434,
+            "present_value_fcff": -397831953.24129045,
+            "revenue": 9324683212.75326,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 3496681607.31677,
+            "cash_taxes": 319832344.8431589,
+            "da": 1520296351.0072913,
+            "delta_nwc": 15171259.5871495,
+            "discount_factor": 0.7543478580379199,
+            "ebit": 1881366734.371523,
+            "ebit_margin": 0.198,
+            "ebitda": 3401663085.378814,
+            "fcff": -430022126.36826456,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 313561122.39525384,
+            "present_value_fcff": -324386269.93481207,
+            "revenue": 9501852193.79557,
+            "revenue_growth": 0.019,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": -11866286243.837784,
+        "terminal_value_present_value": -8951307610.903866,
+        "upside_downside_pct": null
+      }
+    },
+    "ticker": "CMS"
+  },
+  "assumptions": {
+    "cash": 718000000.0,
+    "current_price": null,
+    "debt": 18898000000.0,
+    "diluted_shares": 301000000.0,
+    "investments": 61000000.0,
+    "minority_interest": 791000000.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 224000000.0,
+    "target_ebit_margin": 0.194,
+    "tax_rate": 0.17,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.06
+  },
+  "company_name": "CMS Energy Corporation",
+  "comps": [
+    {
+      "company_name": "DTE Energy Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM not captured from primary market-multiple sources in this run; fill from CapitalIQ/Koyfin/FactSet for the exact valuation date.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "DTE"
+    },
+    {
+      "company_name": "Xcel Energy Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not captured; see notes for data limitation.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "XEL"
+    },
+    {
+      "company_name": "Southern Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not captured; see notes for data limitation.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SO"
+    },
+    {
+      "company_name": "American Electric Power Company, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not captured; see notes for data limitation.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "AEP"
+    },
+    {
+      "company_name": "Duke Energy Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not captured; see notes for data limitation.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "DUK"
+    },
+    {
+      "company_name": "Entergy Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not captured; see notes for data limitation.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ETR"
+    },
+    {
+      "company_name": "Exelon Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not captured; see notes for data limitation.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "EXC"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.39,
+      "2027": 0.39,
+      "2028": 0.38,
+      "2029": 0.38,
+      "2030": 0.37
+    },
+    "da_pct_sales": {
+      "2026": 0.162,
+      "2027": 0.161,
+      "2028": 0.161,
+      "2029": 0.16,
+      "2030": 0.16
+    },
+    "ebit_margin": {
+      "2026": 0.198,
+      "2027": 0.196,
+      "2028": 0.195,
+      "2029": 0.195,
+      "2030": 0.194
+    },
+    "nwc_pct_sales": {
+      "2026": 0.03,
+      "2027": 0.032,
+      "2028": 0.033,
+      "2029": 0.033,
+      "2030": 0.034
+    },
+    "revenue_growth": {
+      "2026": 0.02,
+      "2027": 0.02,
+      "2028": 0.02,
+      "2029": 0.018,
+      "2030": 0.017
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 2374000000.0,
+      "2024": 3219000000.0,
+      "2025": 3018000000.0
+    },
+    "da": {
+      "2023": 1180000000.0,
+      "2024": 1240000000.0,
+      "2025": 1306000000.0
+    },
+    "ebit": {
+      "2023": 1235000000.0,
+      "2024": 1487000000.0,
+      "2025": 1727000000.0
+    },
+    "nwc": {
+      "2023": 655000000.0,
+      "2024": 208000000.0,
+      "2025": 162000000.0
+    },
+    "revenue": {
+      "2023": 7462000000.0,
+      "2024": 7515000000.0,
+      "2025": 8539000000.0
+    }
+  },
+  "notes": [
+    "Historical revenue, EBIT (treated as operating income), and D&A for FY2023\u2013FY2025 are sourced from Stockanalysis and therefore follow its annual line-item mapping. ([stockanalysis.com](https://stockanalysis.com/stocks/cms/financials/))",
+    "Historical capex is taken from Stockanalysis 'Capital Expenditures' for FY2023\u2013FY2025; this may not match the 10-K 'capital expenditures (excludes assets placed under finance lease)' definition exactly. ([stockanalysis.com](https://stockanalysis.com/stocks/cms/financials/cash-flow-statement/))",
+    "NWC construction (used for historical and forecast NWC % of sales): (Total current assets \u2212 (cash & equivalents + restricted cash)) \u2212 (Total current liabilities \u2212 current portion of long-term debt). This excludes only the current portion of long-term debt; other current interest-bearing items (if any) may remain inside NWC. ([stockanalysis.com](https://stockanalysis.com/stocks/cms/financials/balance-sheet/))",
+    "Current price as of 2026-03-21 is left as null because the exact spot retrieval for that date was not available within the research constraints; DCF valuation should populate it downstream if required.",
+    "NOL balance and NOL utilization are set to null because the NOL line-item was not extracted in this run; replace with exact figures from the most recent 10-K tax footnote/valuation allowance disclosures."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Next Michigan regulatory outcomes (rate case decisions, riders, and cost recovery) that can shift the timing of cash and earnings recognition.",
+      "Execution progress on the energy-transition portfolio (retirements, renewables build-out, and grid modernization) impacting capital needs and operating reliability."
+    ],
+    "company_overview": [
+      "CMS Energy is a regulated utility holding company with primary operations through Consumers Energy, serving electric and natural gas customers in Michigan.",
+      "The company also has a renewables/independent power component via NorthStar Clean Energy, contributing additional operating revenue streams.",
+      "Earnings and cash flows are shaped by rate/regulatory mechanisms, a capital-intensive asset base, and the pace of the energy transition investments."
+    ],
+    "current_context": [
+      "Latest reported results and outlook updates were shared in early February 2026 (year-end 2025 communications). ([stockanalysis.com](https://stockanalysis.com/stocks/cms/))",
+      "The valuation setup assumes a steady, regulated-style path to margins and reinvestment needs rather than aggressive growth."
+    ],
+    "investment_highlights": [
+      "Revenue growth in the base case reflects modest demand growth and regulatory-driven adjustments rather than step-function expansion.",
+      "EBIT margin is anchored near the recent normalized range, with bull/bear scenarios capturing moderate operating leverage.",
+      "High ongoing capital intensity is reflected through sustained capex as a percent of sales.",
+      "Working capital utilization is modeled as relatively stable (low single-digit % of sales), consistent with a regulated utility cash conversion profile."
+    ],
+    "key_risks": [
+      "Regulatory lag/disallowances or adverse outcome in cost recovery could reduce realized margins versus the base case.",
+      "Higher financing costs (rates/credit spreads) would increase the discount rate effect and raise near-term financing and capex carry costs.",
+      "Weather and demand volatility (including load impacts) could alter revenue and working capital trends."
+    ],
+    "sources": [
+      {
+        "label": "Stockanalysis \u2014 CMS Energy Income Statement (FY2023\u2013FY2025 revenue, EBIT/operating income, D&A, effective tax rate)",
+        "notes": "Provides historical annual standardized income statement items used for revenue, EBIT, D&A, and effective tax rate assumptions. ([stockanalysis.com](https://stockanalysis.com/stocks/cms/financials/))",
+        "url": "https://stockanalysis.com/stocks/cms/financials/"
+      },
+      {
+        "label": "Stockanalysis \u2014 CMS Energy Cash Flow Statement (FY2023\u2013FY2025 capital expenditures)",
+        "notes": "Used for historical capex series (definition may differ from 10-K 'capital expenditures' line). ([stockanalysis.com](https://stockanalysis.com/stocks/cms/financials/cash-flow-statement/))",
+        "url": "https://stockanalysis.com/stocks/cms/financials/cash-flow-statement/"
+      },
+      {
+        "label": "Stockanalysis \u2014 CMS Energy Balance Sheet (FY2023\u2013FY2025 current assets/liabilities, cash, total debt, minority interest)",
+        "notes": "Used to compute NWC and source cash/debt/minority interest inputs. ([stockanalysis.com](https://stockanalysis.com/stocks/cms/financials/balance-sheet/))",
+        "url": "https://stockanalysis.com/stocks/cms/financials/balance-sheet/"
+      },
+      {
+        "label": "CMS Energy \u2014 Investor Tear Sheet (latest SEC filing access point)",
+        "notes": "Used for context that year-end materials and SEC filings are updated around early 2026. ([cmsenergy.com](https://www.cmsenergy.com/investor-relations/investor-tear-sheet/2026/default.aspx))",
+        "url": "https://www.cmsenergy.com/investor-relations/investor-tear-sheet/2026/default.aspx"
+      },
+      {
+        "label": "CMS Energy \u2014 2024 Form 10-K PDF (baseline primary financial statement reference for methodology and line-item names)",
+        "notes": "Primary SEC filing mirror; provides consolidated statements of income, cash flows, and balance sheet line-items for cross-checking definitions. ([stocklight.com](https://stocklight.com/stocks/us/nyse-cms/cms-energy-corporation/annual-reports/nyse-cms-2025-10K-25607869.pdf))",
+        "url": "https://stocklight.com/stocks/us/nyse-cms/cms-energy-corporation/annual-reports/nyse-cms-2025-10K-25607869.pdf"
+      }
+    ],
+    "subtitle": "CMS Energy (CMS) \u2014 DCF Input Package (Base Case + Bull/Bear)",
+    "valuation_summary": [
+      "DCF base case uses EBIT margin and reinvestment intensity (capex % of sales) consistent with the company's recent historical operating cadence. ([stockanalysis.com](https://stockanalysis.com/stocks/cms/financials/))",
+      "Terminal value applies Gordon growth with a conservative long-run growth assumption appropriate for a regulated utility franchise.",
+      "Comps are included as peer placeholders; NTM multiples require a dedicated market-multiple source pull for the exact valuation date."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.189,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.018,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.062
+      },
+      "description": "Modestly weaker growth and margin pressure with a higher discount rate and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.392,
+          "2027": 0.392,
+          "2028": 0.382,
+          "2029": 0.382,
+          "2030": 0.372
+        },
+        "da_pct_sales": {
+          "2026": 0.162,
+          "2027": 0.161,
+          "2028": 0.161,
+          "2029": 0.16,
+          "2030": 0.16
+        },
+        "ebit_margin": {
+          "2026": 0.194,
+          "2027": 0.192,
+          "2028": 0.191,
+          "2029": 0.19,
+          "2030": 0.189
+        },
+        "nwc_pct_sales": {
+          "2026": 0.031,
+          "2027": 0.033,
+          "2028": 0.034,
+          "2029": 0.034,
+          "2030": 0.035
+        },
+        "revenue_growth": {
+          "2026": 0.017,
+          "2027": 0.017,
+          "2028": 0.017,
+          "2029": 0.016,
+          "2030": 0.015
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.198,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.021,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.058
+      },
+      "description": "Modestly stronger revenue growth and operating leverage (higher EBIT margin) with a slightly lower WACC/terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.388,
+          "2027": 0.388,
+          "2028": 0.378,
+          "2029": 0.378,
+          "2030": 0.368
+        },
+        "da_pct_sales": {
+          "2026": 0.162,
+          "2027": 0.161,
+          "2028": 0.161,
+          "2029": 0.16,
+          "2030": 0.16
+        },
+        "ebit_margin": {
+          "2026": 0.203,
+          "2027": 0.201,
+          "2028": 0.2,
+          "2029": 0.199,
+          "2030": 0.198
+        },
+        "nwc_pct_sales": {
+          "2026": 0.029,
+          "2027": 0.031,
+          "2028": 0.032,
+          "2029": 0.032,
+          "2030": 0.033
+        },
+        "revenue_growth": {
+          "2026": 0.023,
+          "2027": 0.023,
+          "2028": 0.023,
+          "2029": 0.02,
+          "2030": 0.019
+        }
+      }
+    }
+  },
+  "ticker": "CMS"
+}

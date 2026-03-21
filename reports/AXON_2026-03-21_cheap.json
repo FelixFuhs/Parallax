@@ -1,0 +1,685 @@
+{
+  "_meta": {
+    "cost_usd": 0.023933,
+    "generated_at": "2026-03-21T14:53:19Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [
+      "margin_reversal"
+    ],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11459,
+      "prompt": 2515,
+      "reasoning": 7285
+    }
+  },
+  "_valuation": {
+    "company_name": "Axon Enterprise, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 496.27,
+        "description": "Base case",
+        "enterprise_value": 3112205146.942892,
+        "equity_value": 3035260146.942892,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 4313917997.320659,
+        "implied_market_cap": 3035260146.942892,
+        "investments_adjustment": 532630000.0,
+        "net_debt": 609575000.0,
+        "per_share_value": 36.84909732843137,
+        "projected_years": [
+          {
+            "capex": 142868150.4,
+            "cash_taxes": 13514904.064000001,
+            "da": 101793557.16,
+            "delta_nwc": 71085195.60000002,
+            "discount_factor": 0.9132420091324202,
+            "ebit": 142868150.4,
+            "ebit_margin": 0.04,
+            "ebitda": 244661707.56,
+            "fcff": 17193457.495999962,
+            "nol_balance_end": 0.0,
+            "nol_used": 58400000.0,
+            "nwc": 660765195.6,
+            "present_value_fcff": 15701787.667579874,
+            "revenue": 3571703760.0,
+            "revenue_growth": 0.285,
+            "year": 2026
+          },
+          {
+            "capex": 179692416.16560003,
+            "cash_taxes": 40545981.08352001,
+            "da": 129009939.81120002,
+            "delta_nwc": 159369421.77120006,
+            "discount_factor": 0.8340109672442193,
+            "ebit": 253412381.77200004,
+            "ebit_margin": 0.055,
+            "ebitda": 382422321.5832001,
+            "fcff": 2814502.56287995,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 820134617.3712001,
+            "present_value_fcff": 2347326.004778841,
+            "revenue": 4607497850.400001,
+            "revenue_growth": 0.29,
+            "year": 2027
+          },
+          {
+            "capex": 228831380.74011603,
+            "cash_taxes": 61814191.160966404,
+            "da": 163450986.24294,
+            "delta_nwc": 202177005.675552,
+            "discount_factor": 0.7616538513645839,
+            "ebit": 386338694.75604004,
+            "ebit_margin": 0.065,
+            "ebitda": 549789680.99898,
+            "fcff": 56967103.42234561,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1022311623.0467521,
+            "present_value_fcff": 43389213.7227141,
+            "revenue": 5943672227.016001,
+            "revenue_growth": 0.29,
+            "year": 2028
+          },
+          {
+            "capex": 257479880.87433317,
+            "cash_taxes": 75888806.99454032,
+            "da": 186334124.31695163,
+            "delta_nwc": 129572054.54894912,
+            "discount_factor": 0.6955742934836383,
+            "ebit": 474305043.71587694,
+            "ebit_margin": 0.07,
+            "ebitda": 660639168.0328286,
+            "fcff": 197698425.61500597,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1151883677.5957012,
+            "present_value_fcff": 137513942.7199854,
+            "revenue": 6775786338.798242,
+            "revenue_growth": 0.14,
+            "year": 2029
+          },
+          {
+            "capex": 279501186.47542745,
+            "cash_taxes": 85862764.48525131,
+            "da": 201240854.2623078,
+            "delta_nwc": 100281637.81421399,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 536642278.0328207,
+            "ebit_margin": 0.072,
+            "ebitda": 737883132.2951285,
+            "fcff": 272237543.5202357,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1252165315.4099152,
+            "present_value_fcff": 172932819.1724285,
+            "revenue": 7453364972.678066,
+            "revenue_growth": 0.1,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 4313917997.320659,
+        "terminal_value_present_value": 2740320057.6554055,
+        "upside_downside_pct": -0.9257478845619695
+      },
+      "bear": {
+        "current_price": 496.27,
+        "description": "Modestly lower revenue growth and margin recovery (slower adoption, tariff/inflation headwinds, and execution drag).",
+        "enterprise_value": 2463176894.1484337,
+        "equity_value": 2386231894.1484337,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 3449869842.074917,
+        "implied_market_cap": 2386231894.1484337,
+        "investments_adjustment": 532630000.0,
+        "net_debt": 609575000.0,
+        "per_share_value": 28.969672139716327,
+        "projected_years": [
+          {
+            "capex": 137128408.56000003,
+            "cash_taxes": 10346233.024000006,
+            "da": 100209221.64000002,
+            "delta_nwc": 78381477.60000014,
+            "discount_factor": 0.9107468123861566,
+            "ebit": 123063956.40000004,
+            "ebit_margin": 0.035,
+            "ebitda": 223273178.04000005,
+            "fcff": -2582941.144000143,
+            "nol_balance_end": 0.0,
+            "nol_used": 58400000.0,
+            "nwc": 668061477.6000001,
+            "present_value_fcff": -2352405.413479183,
+            "revenue": 3516113040.0000005,
+            "revenue_growth": 0.265,
+            "year": 2026
+          },
+          {
+            "capex": 169687615.31040004,
+            "cash_taxes": 35723708.486400016,
+            "da": 125032979.70240003,
+            "delta_nwc": 149118354.0264001,
+            "discount_factor": 0.8294597562715451,
+            "ebit": 223273178.04000008,
+            "ebit_margin": 0.05,
+            "ebitda": 348306157.7424001,
+            "fcff": -6223520.080800027,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 817179831.6264002,
+            "present_value_fcff": -5162159.449371457,
+            "revenue": 4465463560.800001,
+            "revenue_growth": 0.27,
+            "year": 2027
+          },
+          {
+            "capex": 212667702.08310005,
+            "cash_taxes": 54442931.73327361,
+            "da": 155956314.86094004,
+            "delta_nwc": 186611722.205832,
+            "discount_factor": 0.7554278290269081,
+            "ebit": 340268323.33296007,
+            "ebit_margin": 0.06,
+            "ebitda": 496224638.1939001,
+            "fcff": 42502282.17169443,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1003791553.8322322,
+            "present_value_fcff": 32107406.74965218,
+            "revenue": 5671138722.2160015,
+            "revenue_growth": 0.27,
+            "year": 2028
+          },
+          {
+            "capex": 235011988.64863113,
+            "cash_taxes": 66057423.836371996,
+            "da": 174671072.64425287,
+            "delta_nwc": 107751635.72210407,
+            "discount_factor": 0.6880034872740509,
+            "ebit": 412858898.97732496,
+            "ebit_margin": 0.065,
+            "ebitda": 587529971.6215779,
+            "fcff": 178708923.41447067,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1111543189.5543363,
+            "present_value_fcff": 122952362.5161471,
+            "revenue": 6351675368.881923,
+            "revenue_growth": 0.12,
+            "year": 2029
+          },
+          {
+            "capex": 250383043.0413254,
+            "cash_taxes": 73537156.75076735,
+            "da": 185214853.75659686,
+            "delta_nwc": 75203836.36756206,
+            "discount_factor": 0.6265969829454016,
+            "ebit": 459607229.69229597,
+            "ebit_margin": 0.067,
+            "ebitda": 644822083.4488928,
+            "fcff": 245698047.28923804,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1186747025.9218984,
+            "present_value_fcff": 153953655.14701316,
+            "revenue": 6859809398.392477,
+            "revenue_growth": 0.08,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 3449869842.074917,
+        "terminal_value_present_value": 2161678034.5984716,
+        "upside_downside_pct": -0.9416251795600856
+      },
+      "bull": {
+        "current_price": 496.27,
+        "description": "Modestly higher revenue growth and operating leverage (better execution, mix, and normalization of costs).",
+        "enterprise_value": 3812006133.591346,
+        "equity_value": 3735061133.591346,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 5216481566.609532,
+        "implied_market_cap": 3735061133.591346,
+        "investments_adjustment": 532630000.0,
+        "net_debt": 609575000.0,
+        "per_share_value": 45.344920888568,
+        "projected_years": [
+          {
+            "capex": 148719073.68,
+            "cash_taxes": 16772520.256,
+            "da": 103377892.68,
+            "delta_nwc": 63233006.399999976,
+            "discount_factor": 0.9157509157509157,
+            "ebit": 163228251.6,
+            "ebit_margin": 0.045,
+            "ebitda": 266606144.28,
+            "fcff": 37881543.944000006,
+            "nol_balance_end": 0.0,
+            "nol_used": 58400000.0,
+            "nwc": 652913006.4,
+            "present_value_fcff": 34690058.55677656,
+            "revenue": 3627294480.0,
+            "revenue_growth": 0.305,
+            "year": 2026
+          },
+          {
+            "capex": 190070230.752,
+            "cash_taxes": 45616855.38048001,
+            "da": 133049161.52640001,
+            "delta_nwc": 169140741.60239995,
+            "discount_factor": 0.8385997396986407,
+            "ebit": 285105346.128,
+            "ebit_margin": 0.06,
+            "ebitda": 418154507.65440005,
+            "fcff": 13326679.91952011,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 822053748.0023999,
+            "present_value_fcff": 11175750.311556665,
+            "revenue": 4751755768.8,
+            "revenue_growth": 0.31,
+            "year": 2027
+          },
+          {
+            "capex": 245879602.256556,
+            "cash_taxes": 69717760.63983361,
+            "da": 171182001.57102,
+            "delta_nwc": 217487861.53797615,
+            "discount_factor": 0.7679484795775097,
+            "ebit": 435736003.9989601,
+            "ebit_margin": 0.07,
+            "ebitda": 606918005.5699801,
+            "fcff": 73832781.13561428,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1039541609.5403761,
+            "present_value_fcff": 56699772.016074024,
+            "revenue": 6224800057.128,
+            "revenue_growth": 0.31,
+            "year": 2028
+          },
+          {
+            "capex": 281609954.5844707,
+            "cash_taxes": 86649216.79522175,
+            "da": 198571121.8223832,
+            "delta_nwc": 151885121.39392316,
+            "discount_factor": 0.7032495234226279,
+            "ebit": 541557604.9701359,
+            "ebit_margin": 0.075,
+            "ebitda": 740128726.7925191,
+            "fcff": 219984434.01890355,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1191426730.9342992,
+            "present_value_fcff": 154703948.38419047,
+            "revenue": 7220768066.268479,
+            "revenue_growth": 0.16,
+            "year": 2029
+          },
+          {
+            "capex": 311359519.0174968,
+            "cash_taxes": 99635046.08559899,
+            "da": 218356026.3239588,
+            "delta_nwc": 126796687.24367452,
+            "discount_factor": 0.6440013950756664,
+            "ebit": 622719038.0349936,
+            "ebit_margin": 0.077,
+            "ebitda": 841075064.3589525,
+            "fcff": 303283812.0121821,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1318223418.1779737,
+            "present_value_fcff": 195315198.03971145,
+            "revenue": 8087260234.220697,
+            "revenue_growth": 0.12,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 5216481566.609532,
+        "terminal_value_present_value": 3359421406.2830367,
+        "upside_downside_pct": -0.9086285270345417
+      }
+    },
+    "ticker": "AXON"
+  },
+  "assumptions": {
+    "cash": 1201147000.0,
+    "current_price": 496.27,
+    "debt": 1810722000.0,
+    "diluted_shares": 82370000.0,
+    "investments": 532630000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 58400000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.072,
+    "tax_rate": 0.16,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.03,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.095
+  },
+  "company_name": "Axon Enterprise, Inc.",
+  "comps": [
+    {
+      "company_name": "Motorola Solutions, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM revenue/EBITDA and P/E NTM not captured from primary/consistent open sources during this build; placeholder peer for public-safety adjacent software/hardware.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "MSI"
+    },
+    {
+      "company_name": "Tyler Technologies, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM revenue/EBITDA and P/E NTM not captured from primary/consistent open sources during this build; placeholder peer for government workflow software.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "TYL"
+    },
+    {
+      "company_name": "NICE Ltd.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM revenue/EBITDA and P/E NTM not captured from primary/consistent open sources during this build; placeholder peer for AI/data and service workflows.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "NICE"
+    },
+    {
+      "company_name": "Cellebrite DI Ltd.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM revenue/EBITDA and P/E NTM not captured from primary/consistent open sources during this build; placeholder peer for investigation/digital intelligence.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CLBT"
+    },
+    {
+      "company_name": "Veritone, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM revenue/EBITDA and P/E NTM not captured from primary/consistent open sources during this build; placeholder peer for AI orchestration exposure.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "VERI"
+    },
+    {
+      "company_name": "Five9, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM revenue/EBITDA and P/E NTM not captured from primary/consistent open sources during this build; placeholder peer for cloud contact-center/communications software.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "FIVN"
+    },
+    {
+      "company_name": "Alarm.com Holdings, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM revenue/EBITDA and P/E NTM not captured from primary/consistent open sources during this build; placeholder peer for recurring public-safety adjacent cloud subscriptions.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ALRM"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.04,
+      "2027": 0.039,
+      "2028": 0.0385,
+      "2029": 0.038,
+      "2030": 0.0375
+    },
+    "da_pct_sales": {
+      "2026": 0.0285,
+      "2027": 0.028,
+      "2028": 0.0275,
+      "2029": 0.0275,
+      "2030": 0.027
+    },
+    "ebit_margin": {
+      "2026": 0.04,
+      "2027": 0.055,
+      "2028": 0.065,
+      "2029": 0.07,
+      "2030": 0.072
+    },
+    "nwc_pct_sales": {
+      "2026": 0.185,
+      "2027": 0.178,
+      "2028": 0.172,
+      "2029": 0.17,
+      "2030": 0.168
+    },
+    "revenue_growth": {
+      "2026": 0.285,
+      "2027": 0.29,
+      "2028": 0.29,
+      "2029": 0.14,
+      "2030": 0.1
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 59635000.0,
+      "2024": 78785000.0,
+      "2025": 136258000.0
+    },
+    "da": {
+      "2023": 19315000.0,
+      "2024": 48425000.0,
+      "2025": 83161000.0
+    },
+    "ebit": {
+      "2023": 156850000.0,
+      "2024": 58540000.0,
+      "2025": -62076000.0
+    },
+    "nwc": {
+      "2023": 311564000.0,
+      "2024": 313546000.0,
+      "2025": 589680000.0
+    },
+    "revenue": {
+      "2023": 1560699000.0,
+      "2024": 2082526000.0,
+      "2025": 2779536000.0
+    }
+  },
+  "notes": [
+    "Historical D&A is taken from the consolidated statement of cash flows line item \u201cDepreciation and amortization\u201d (not a segment D&A subtotal). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))",
+    "Historical capex is taken from \u201cPurchases of property and equipment\u201d (cash flow investing section). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))",
+    "NWC construction (absolute, for history) is operational working capital excluding cash/short-term investments/marketable securities, and excluding current notes payable; it includes accounts & notes receivable, contract assets, inventory, prepaid and other current assets, and offsets against accounts payable, accrued liabilities, current deferred revenue, customer deposits, and other current liabilities. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))",
+    "EBIT is modeled as GAAP \u201cIncome (loss) from operations\u201d (includes stock-based compensation and any GAAP operating impacts). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))",
+    "NOL balance is set to the disclosed tax-effect amount (\u201cnet tax benefit totaling $58.4 million\u201d) from the income taxes note; it is not the underlying gross NOL asset base. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))",
+    "Comps EV/NTM Revenue, EV/NTM EBITDA, and P/E (NTM) were left null because consistent NTM (next-twelve-month) values were not available from the primary/official sources pulled for this build; peer selection is based on public-safety/enterprise workflow and AI adjacencies."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Outperformance (or underperformance) of 2026 revenue growth versus the guided 27% to 30% range and the implied operating leverage. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_axon/594/Axon_Q4_2025_Earnings_Call_Transcript.pdf))",
+      "Progress in software mix and premium adoption over time driving higher long-term margins. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))",
+      "Incremental product/platform expansion and successful integration of acquired capabilities into the Axon Evidence and emergency communications workflows. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))"
+    ],
+    "company_overview": [
+      "Axon is a technology company providing integrated hardware and cloud software solutions for public- and private-sector operational workflows. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))",
+      "Software & services include cloud/SaaS for capturing, securely storing, managing, sharing, and analyzing evidence (e.g., Axon Evidence and AI-enabled productivity tools). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))",
+      "Connected devices include TASER CEDs, body cameras, fixed/in-car cameras, and related ecosystem accessories and warranties, designed to work as an integrated offering. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))"
+    ],
+    "current_context": [
+      "Management guided 2026 revenue growth of 27% to 30% and maintained an adjusted EBITDA margin target of 25.5%. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_axon/594/Axon_Q4_2025_Earnings_Call_Transcript.pdf))",
+      "Company reiterated 2028 targets of approximately $6B revenue and ~28% adjusted EBITDA margin. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_axon/594/Axon_Q4_2025_Earnings_Call_Transcript.pdf))",
+      "2025 is described as a low point for operating cash-flow conversion due to investments in inventory and collection timing, with expectations to move back toward a ~60% conversion level in 2026. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_axon/594/Axon_Q4_2025_Earnings_Call_Transcript.pdf))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth uses management\u2019s 2026 guidance range and tapers after 2028, consistent with a scaling hardware + recurring software ecosystem. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_axon/594/Axon_Q4_2025_Earnings_Call_Transcript.pdf))",
+      "EBIT margin recovery is modeled as operating leverage as revenue scales and cost headwinds (tariffs/inflation) normalize, translating adjusted EBITDA expansion into GAAP EBIT. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_axon/594/Axon_Q4_2025_Earnings_Call_Transcript.pdf))",
+      "D&A and capex are held as stable-to-slightly-declining % of sales to reflect scaling investment without assuming runaway reinvestment intensity. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))",
+      "Working-capital intensity normalizes from the elevated 2025 NWC level, assuming inventory/prepaid dynamics revert toward a more typical range. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))"
+    ],
+    "key_risks": [
+      "Tariff/inflation and supply-chain component cost volatility could pressure margins and delay EBIT recovery. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_axon/594/Axon_Q4_2025_Earnings_Call_Transcript.pdf))",
+      "Working-capital strain (inventory, receivables/contract asset timing, and deferred revenue dynamics) could reduce free cash flow conversion. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))",
+      "Regulatory, cybersecurity, and AI reliability risks in high-stakes public-safety use cases could increase costs or limit adoption. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))"
+    ],
+    "sources": [
+      {
+        "label": "Axon FY2025 Form 10-K (SEC)",
+        "notes": "Historical revenue, GAAP operating income (EBIT), depreciation & amortization (cash flow), capex (purchases of property and equipment), balance-sheet line items for working capital, and NOL/tax footnote. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026011360/axon-20251231.htm"
+      },
+      {
+        "label": "Axon Q4 2025 Shareholder Letter (Investor Relations)",
+        "notes": "2026 revenue growth guidance (27% to 30%), adjusted EBITDA margin target (25.5%), and 2028 targets discussion. ([investor.axon.com](https://investor.axon.com/image/AXON_Q4_2025_ShareholderLetter.pdf?utm_source=openai))",
+        "url": "https://investor.axon.com/image/AXON_Q4_2025_ShareholderLetter.pdf"
+      },
+      {
+        "label": "Axon Q4 2025 Earnings Call Transcript (Investor Relations)",
+        "notes": "Guidance narrative, 2028 targets, and cash-flow conversion commentary feeding operating assumptions. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_axon/594/Axon_Q4_2025_Earnings_Call_Transcript.pdf))",
+        "url": "https://investor.axon.com/image/Axon_Q4_2025_Earnings_Call_Transcript.pdf"
+      },
+      {
+        "label": "Axon Q4 2025 Press Release (Axon.com)",
+        "notes": "Cross-check for Q4 2025 results and 2026 outlook context. ([axon.com](https://www.axon.com/newsroom/press-releases/axon-reports-q4-2025-revenue-of-797-million-up-39-year-over-year?utm_source=openai))",
+        "url": "https://www.axon.com/newsroom/press-releases/axon-reports-q4-2025-revenue-of-797-million-up-39-year-over-year"
+      }
+    ],
+    "subtitle": "Axon (AXON) DCF Input Package",
+    "valuation_summary": [
+      "DCF inputs are grounded in Axon\u2019s FY2025 GAAP income statement and cash flow statements (revenue, operating income/EBIT, depreciation & amortization, and purchases of property & equipment). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001069183/000162828026011360/axon-20251231.htm))",
+      "Terminal value uses Gordon growth with a conservative long-run growth rate and WACC inputs suited for a high-growth, public-safety technology profile.",
+      "Scenario overlays adjust only growth, margins, and capital/working-capital intensity modestly, reflecting realistic dispersion around execution and cost normalization."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.067,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.025,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.098
+      },
+      "description": "Modestly lower revenue growth and margin recovery (slower adoption, tariff/inflation headwinds, and execution drag).",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.039,
+          "2027": 0.038,
+          "2028": 0.0375,
+          "2029": 0.037,
+          "2030": 0.0365
+        },
+        "da_pct_sales": {
+          "2026": 0.0285,
+          "2027": 0.028,
+          "2028": 0.0275,
+          "2029": 0.0275,
+          "2030": 0.027
+        },
+        "ebit_margin": {
+          "2026": 0.035,
+          "2027": 0.05,
+          "2028": 0.06,
+          "2029": 0.065,
+          "2030": 0.067
+        },
+        "nwc_pct_sales": {
+          "2026": 0.19,
+          "2027": 0.183,
+          "2028": 0.177,
+          "2029": 0.175,
+          "2030": 0.173
+        },
+        "revenue_growth": {
+          "2026": 0.265,
+          "2027": 0.27,
+          "2028": 0.27,
+          "2029": 0.12,
+          "2030": 0.08
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.077,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.032,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.092
+      },
+      "description": "Modestly higher revenue growth and operating leverage (better execution, mix, and normalization of costs).",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.041,
+          "2027": 0.04,
+          "2028": 0.0395,
+          "2029": 0.039,
+          "2030": 0.0385
+        },
+        "da_pct_sales": {
+          "2026": 0.0285,
+          "2027": 0.028,
+          "2028": 0.0275,
+          "2029": 0.0275,
+          "2030": 0.027
+        },
+        "ebit_margin": {
+          "2026": 0.045,
+          "2027": 0.06,
+          "2028": 0.07,
+          "2029": 0.075,
+          "2030": 0.077
+        },
+        "nwc_pct_sales": {
+          "2026": 0.18,
+          "2027": 0.173,
+          "2028": 0.167,
+          "2029": 0.165,
+          "2030": 0.163
+        },
+        "revenue_growth": {
+          "2026": 0.305,
+          "2027": 0.31,
+          "2028": 0.31,
+          "2029": 0.16,
+          "2030": 0.12
+        }
+      }
+    }
+  },
+  "ticker": "AXON"
+}

@@ -1,0 +1,679 @@
+{
+  "_meta": {
+    "cost_usd": 0.019329,
+    "generated_at": "2026-03-21T14:54:27Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 9376,
+      "prompt": 2515,
+      "reasoning": 5685
+    }
+  },
+  "_valuation": {
+    "company_name": "T-Mobile US, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 208.47,
+        "description": "Base case",
+        "enterprise_value": 337685245556.1238,
+        "equity_value": 257001245556.12378,
+        "exit_multiple_terminal_value": 369995462660.98486,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 257001245556.12378,
+        "investments_adjustment": 0.0,
+        "net_debt": 80684000000.0,
+        "per_share_value": 227.21832001061418,
+        "projected_years": [
+          {
+            "capex": 9998573697.164333,
+            "cash_taxes": 3911949732.7013154,
+            "da": 14494832636.804756,
+            "delta_nwc": -2062822230.948307,
+            "discount_factor": 0.9225092250922509,
+            "ebit": 20216477098.70137,
+            "ebit_margin": 0.212,
+            "ebitda": 34711309735.50613,
+            "fcff": 22863608536.588783,
+            "nol_balance_end": 0.0,
+            "nol_used": 3208000000.0,
+            "nwc": -2860822230.948307,
+            "present_value_fcff": 21091889793.90109,
+            "revenue": 95360741031.61024,
+            "revenue_growth": 0.07985302779569747,
+            "year": 2026
+          },
+          {
+            "capex": 10422681304.518555,
+            "cash_taxes": 4960554287.8579645,
+            "da": 15147496409.839285,
+            "delta_nwc": -248928687.62797022,
+            "discount_factor": 0.8510232703803052,
+            "ebit": 21567627338.51289,
+            "ebit_margin": 0.215,
+            "ebitda": 36715123748.35217,
+            "fcff": 21580816843.603626,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3109750918.5762773,
+            "present_value_fcff": 18365777327.721935,
+            "revenue": 100314545760.52507,
+            "revenue_growth": 0.051948051948051965,
+            "year": 2027
+          },
+          {
+            "capex": 10745694141.867445,
+            "cash_taxes": 5206966938.064118,
+            "da": 15649069138.64191,
+            "delta_nwc": -228717164.33399725,
+            "discount_factor": 0.7850768176940084,
+            "ebit": 22638986687.2353,
+            "ebit_margin": 0.217,
+            "ebitda": 38288055825.87721,
+            "fcff": 22564111910.279644,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3338468082.9102745,
+            "present_value_fcff": 17714561172.613815,
+            "revenue": 104327127590.94608,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 11035097593.804728,
+            "cash_taxes": 5424507777.974207,
+            "da": 16119897465.459848,
+            "delta_nwc": -231710550.37949085,
+            "discount_factor": 0.72424060672879,
+            "ebit": 23584816425.97481,
+            "ebit_margin": 0.218,
+            "ebitda": 39704713891.43466,
+            "fcff": 23476819070.035213,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3570178633.2897654,
+            "present_value_fcff": 17002865687.34433,
+            "revenue": 108187231311.81107,
+            "revenue_growth": 0.037,
+            "year": 2029
+          },
+          {
+            "capex": 11298425314.817678,
+            "cash_taxes": 5634670129.775905,
+            "da": 16612041180.697277,
+            "delta_nwc": -233251670.70826483,
+            "discount_factor": 0.6681186408937176,
+            "ebit": 24498565781.63437,
+            "ebit_margin": 0.219,
+            "ebitda": 41110606962.33165,
+            "fcff": 24410763188.446323,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3803430303.99803,
+            "present_value_fcff": 16309285924.64315,
+            "revenue": 111865597176.41264,
+            "revenue_growth": 0.034,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 369995462660.98486,
+        "terminal_value_present_value": 247200865649.89948,
+        "upside_downside_pct": 0.08993294004228036
+      },
+      "bear": {
+        "current_price": 208.47,
+        "description": "Modestly lower growth and margin; slightly higher reinvestment and working-capital drag.",
+        "enterprise_value": 308781134805.9253,
+        "equity_value": 228097134805.9253,
+        "exit_multiple_terminal_value": 334686966964.2754,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 228097134805.9253,
+        "investments_adjustment": 0.0,
+        "net_debt": 80684000000.0,
+        "per_share_value": 201.6637999465213,
+        "projected_years": [
+          {
+            "capex": 10142116095.977554,
+            "cash_taxes": 3715768677.803153,
+            "da": 14522636992.836367,
+            "delta_nwc": -2144495076.9799175,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 19363515990.44849,
+            "ebit_margin": 0.204,
+            "ebitda": 33886152983.28486,
+            "fcff": 22172763286.48407,
+            "nol_balance_end": 0.0,
+            "nol_used": 3208000000.0,
+            "nwc": -2942495076.9799175,
+            "present_value_fcff": 20435726531.321724,
+            "revenue": 94919196031.61024,
+            "revenue_growth": 0.07485302779569747,
+            "year": 2026
+          },
+          {
+            "capex": 10523861995.305803,
+            "cash_taxes": 4731266001.855612,
+            "da": 15105071041.420982,
+            "delta_nwc": -237519879.1087103,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 20570721747.19831,
+            "ebit_margin": 0.207,
+            "ebitda": 35675792788.61929,
+            "fcff": 20658184670.56659,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3180014956.088628,
+            "present_value_fcff": 17548204184.04858,
+            "revenue": 99375467377.76962,
+            "revenue_growth": 0.04694805194805196,
+            "year": 2027
+          },
+          {
+            "capex": 10799628917.279112,
+            "cash_taxes": 4944172971.939114,
+            "da": 15530894919.134724,
+            "delta_nwc": -214154132.19909334,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 21496404225.82223,
+            "ebit_margin": 0.209,
+            "ebitda": 37027299144.956955,
+            "fcff": 21497651387.937824,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3394169088.287721,
+            "present_value_fcff": 16830685368.857132,
+            "revenue": 102853608735.99155,
+            "revenue_growth": 0.035,
+            "year": 2028
+          },
+          {
+            "capex": 11039072118.4165,
+            "cash_taxes": 5126799839.610741,
+            "da": 15921738632.33149,
+            "delta_nwc": -214758335.0407505,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 22290434085.264088,
+            "ebit_margin": 0.21,
+            "ebitda": 38212172717.59558,
+            "fcff": 22261059094.609085,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3608927423.3284717,
+            "present_value_fcff": 16063007783.239164,
+            "revenue": 106144924215.54327,
+            "revenue_growth": 0.032,
+            "year": 2029
+          },
+          {
+            "capex": 11249982082.832783,
+            "cash_taxes": 5300598354.173544,
+            "da": 16328857489.160206,
+            "delta_nwc": -213882022.29431963,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 23046079800.75454,
+            "ebit_margin": 0.211,
+            "ebitda": 39374937289.91475,
+            "fcff": 23038238875.202736,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3822809445.6227913,
+            "present_value_fcff": 15321475324.57931,
+            "revenue": 109223127017.79402,
+            "revenue_growth": 0.029,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 334686966964.2754,
+        "terminal_value_present_value": 222582035613.8794,
+        "upside_downside_pct": -0.03264834294372665
+      },
+      "bull": {
+        "current_price": 208.47,
+        "description": "Modestly higher growth and operating leverage; slightly improved FCF conversion assumptions.",
+        "enterprise_value": 368453680589.8799,
+        "equity_value": 287769680589.8799,
+        "exit_multiple_terminal_value": 407572148959.9763,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 287769680589.8799,
+        "investments_adjustment": 0.0,
+        "net_debt": 80684000000.0,
+        "per_share_value": 254.42111469979037,
+        "projected_years": [
+          {
+            "capex": 9853265118.351114,
+            "cash_taxes": 4109755673.1994796,
+            "da": 14466145190.77315,
+            "delta_nwc": -1980266294.9166975,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 21076502926.954258,
+            "ebit_margin": 0.22,
+            "ebitda": 35542648117.72741,
+            "fcff": 23559893621.09351,
+            "nol_balance_end": 0.0,
+            "nol_used": 3208000000.0,
+            "nwc": -2778266294.9166975,
+            "present_value_fcff": 21754287738.775173,
+            "revenue": 95802286031.61026,
+            "revenue_growth": 0.08485302779569748,
+            "year": 2026
+          },
+          {
+            "capex": 10318194234.555285,
+            "cash_taxes": 5193524850.739358,
+            "da": 15188705938.992077,
+            "delta_nwc": -259474892.88171768,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 22580542829.301556,
+            "ebit_margin": 0.223,
+            "ebitda": 37769248768.29363,
+            "fcff": 22517004575.88071,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3037741187.798415,
+            "present_value_fcff": 19197899013.35993,
+            "revenue": 101258039593.28052,
+            "revenue_growth": 0.05694805194805197,
+            "year": 2027
+          },
+          {
+            "capex": 10687279788.872791,
+            "cash_taxes": 5475908208.655118,
+            "da": 15766383054.871742,
+            "delta_nwc": -242513004.82590675,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 23808296559.37008,
+            "ebit_margin": 0.225,
+            "ebitda": 39574679614.24182,
+            "fcff": 23654004621.539818,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3280254192.624322,
+            "present_value_fcff": 18621699214.054802,
+            "revenue": 105814651374.97813,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 11025886673.272722,
+            "cash_taxes": 5731255892.767161,
+            "da": 16318312276.443628,
+            "delta_nwc": -248029542.82294893,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 24918503881.59635,
+            "ebit_margin": 0.226,
+            "ebitda": 41236816158.03998,
+            "fcff": 24727703134.823048,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3528283735.447271,
+            "present_value_fcff": 17975043568.780155,
+            "revenue": 110258866732.72722,
+            "revenue_growth": 0.042,
+            "year": 2029
+          },
+          {
+            "capex": 11341337290.995054,
+            "cash_taxes": 5981123433.9682,
+            "da": 16897446973.957275,
+            "delta_nwc": -252162028.2177472,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 26004884495.513912,
+            "ebit_margin": 0.227,
+            "ebitda": 42902331469.47119,
+            "fcff": 25832032772.72568,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3780445763.665018,
+            "present_value_fcff": 17338690718.094257,
+            "revenue": 114558962535.30357,
+            "revenue_growth": 0.039,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 407572148959.9763,
+        "terminal_value_present_value": 273566060336.81558,
+        "upside_downside_pct": 0.2204207545440129
+      }
+    },
+    "ticker": "TMUS"
+  },
+  "assumptions": {
+    "cash": 5598000000.0,
+    "current_price": 208.47,
+    "debt": 86282000000.0,
+    "diluted_shares": 1131076251.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 3208000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.22,
+    "tax_rate": 0.23,
+    "terminal_exit_ebitda_multiple": 9.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.084
+  },
+  "company_name": "T-Mobile US, Inc.",
+  "comps": [
+    {
+      "company_name": "Verizon Communications Inc.",
+      "ev_ntm_ebitda": 7.53,
+      "ev_ntm_revenue": 2.72,
+      "notes": "Mapped EV/Sales and EV/EBITDA as EV/NTM proxies due to lack of explicit NTM labeling in source.",
+      "pe_ntm": 10.17,
+      "source": "stockanalysis.com (Statistics page: EV/Sales, EV/EBITDA, Forward PE)",
+      "ticker": "VZ"
+    },
+    {
+      "company_name": "AT&T Inc.",
+      "ev_ntm_ebitda": 7.67,
+      "ev_ntm_revenue": 2.7,
+      "notes": "Mapped EV/Sales and EV/EBITDA as EV/NTM proxies due to lack of explicit NTM labeling in source.",
+      "pe_ntm": 12.3,
+      "source": "stockanalysis.com (Statistics page: EV/Sales, EV/EBITDA, Forward PE)",
+      "ticker": "T"
+    },
+    {
+      "company_name": "Vodafone Group PLC",
+      "ev_ntm_ebitda": 8.08,
+      "ev_ntm_revenue": 1.77,
+      "notes": "Mapped EV/Sales and EV/EBITDA as EV/NTM proxies due to lack of explicit NTM labeling in source.",
+      "pe_ntm": 11.09,
+      "source": "stockanalysis.com (Statistics page: EV/Sales, EV/EBITDA, Forward PE)",
+      "ticker": "VOD"
+    },
+    {
+      "company_name": "Telef\u00f3nica (ADR)",
+      "ev_ntm_ebitda": 7.18,
+      "ev_ntm_revenue": 1.63,
+      "notes": "Mapped EV/Sales and EV/EBITDA as EV/NTM proxies due to lack of explicit NTM labeling in source.",
+      "pe_ntm": 10.11,
+      "source": "stockanalysis.com (Statistics page: EV/Sales, EV/EBITDA, Forward PE)",
+      "ticker": "TELFY"
+    },
+    {
+      "company_name": "Orange S.A.",
+      "ev_ntm_ebitda": 7.02,
+      "ev_ntm_revenue": 1.97,
+      "notes": "Mapped EV/Sales and EV/EBITDA as EV/NTM proxies due to lack of explicit NTM labeling in source.",
+      "pe_ntm": 14.18,
+      "source": "stockanalysis.com (Statistics page: EV/Sales, EV/EBITDA, Forward PE)",
+      "ticker": "ORANY"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.10485,
+      "2027": 0.1039,
+      "2028": 0.103,
+      "2029": 0.102,
+      "2030": 0.101
+    },
+    "da_pct_sales": {
+      "2026": 0.152,
+      "2027": 0.151,
+      "2028": 0.15,
+      "2029": 0.149,
+      "2030": 0.1485
+    },
+    "ebit_margin": {
+      "2026": 0.212,
+      "2027": 0.215,
+      "2028": 0.217,
+      "2029": 0.218,
+      "2030": 0.219
+    },
+    "nwc_pct_sales": {
+      "2026": -0.03,
+      "2027": -0.031,
+      "2028": -0.032,
+      "2029": -0.033,
+      "2030": -0.034
+    },
+    "revenue_growth": {
+      "2026": 0.07985302779569747,
+      "2027": 0.051948051948051965,
+      "2028": 0.04,
+      "2029": 0.037,
+      "2030": 0.034
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 9801000000.0,
+      "2024": 8840000000.0,
+      "2025": 9955000000.0
+    },
+    "da": {
+      "2023": 12818000000.0,
+      "2024": 12919000000.0,
+      "2025": 13508000000.0
+    },
+    "ebit": {
+      "2023": 14266000000.0,
+      "2024": 18010000000.0,
+      "2025": 18279000000.0
+    },
+    "nwc": {
+      "2023": -3530000000.0,
+      "2024": -3342000000.0,
+      "2025": -798000000.0
+    },
+    "revenue": {
+      "2023": 78558000000.0,
+      "2024": 81400000000.0,
+      "2025": 88309000000.0
+    }
+  },
+  "notes": [
+    "NWC construction (used for historical and forecast NWC % of sales): NWC = (Total current assets - cash and cash equivalents - restricted cash) - (Total current liabilities - short-term debt). This includes operating/financing lease liabilities within current liabilities and may not match other pipeline NWC definitions.",
+    "EBIT is proxied as Operating income from the company\u2019s income statement; this excludes non-operating items and is not a separately labeled EBIT line item.",
+    "Capex is defined as cash purchases of property and equipment, including capitalized interest (absolute, positive). If your pipeline uses a different capex scope (e.g., principal payments on finance leases, spectrum payments, or net capex), adjust accordingly.",
+    "Forecast revenue growth is derived by applying management\u2019s 2026\u20132027 service revenue guidance to total revenue using the 2025 realized service/total revenue mix as a constant conversion factor.",
+    "Comps: EV/Sales and EV/EBITDA are sourced from StockAnalysis statistics pages and treated as EV/NTM proxies (source does not explicitly label NTM). Forward PE is used where available.",
+    "Tax NOL balance uses tax-effected NOL carryforwards disclosed in the 10-K (federal/state/foreign). This is not the gross statutory NOL base; the utilization rate is an assumed modeling input.",
+    "WACC is set as a modeling assumption (not sourced from filings) and is used consistently across base/bull/bear with modest sensitivity."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained postpaid net adds and continued ARPA growth (including mix shift and plan/upsell execution) that keep service revenue growth at/above the base case.",
+      "Execution against 2026 capex discipline and expected cash flow growth (Adjusted Free Cash Flow) without margin compression.",
+      "Network performance durability (quality differentiation) supporting churn containment and sustained customer loyalty.",
+      "Regulatory/spectrum developments or merger/integration-related impacts that affect cost structure or capex needs."
+    ],
+    "company_overview": [
+      "T-Mobile US is a nationwide wireless carrier in the United States offering postpaid and prepaid mobile plans, fixed wireless and connectivity services.",
+      "Operations are supported by a large 5G network footprint and continuous technology/network modernization, with capital expenditures tied to spectrum deployment and site builds.",
+      "Financial performance is heavily driven by service revenue growth, customer retention/churn, and disciplined cash reinvestment into the network and technology stack."
+    ],
+    "current_context": [
+      "Company reiterated 2026 service revenue expectations of approximately $77.0 billion (about 8% growth) and 2027 service revenues of $80.5\u2013$81.5 billion, alongside Core Adjusted EBITDA and Adjusted Free Cash Flow guidance ranges.",
+      "2026 capital expenditures guidance is approximately $10.0 billion (cash purchases of property and equipment, including capitalized interest).",
+      "Q4/FY2025 results highlighted continued customer momentum and further progress on network quality differentiation and profitability/cash conversion."
+    ],
+    "investment_highlights": [
+      "Revenue growth outlook is underpinned by sustained postpaid account expansion and ARPA improvement assumptions consistent with company guidance for 2026\u20132027.",
+      "Base-case profitability assumes gradual normalization of EBIT margins toward ~22% driven by operating leverage and continued cost efficiency.",
+      "Reinvestment intensity is modeled via capex as a percent of sales trending modestly down from recent levels, consistent with moving along the network build curve.",
+      "DCF balance-sheet treatment uses a simplified NWC framework that captures recurring working-capital needs; the base case gradually stabilizes NWC drag versus the more volatile 2025 transition year.",
+      "Terminal value is anchored using an exit EBITDA multiple consistent with large-cap telecom valuation ranges, with sensitivity handled through bull/bear multiple and margin/wacc adjustments."
+    ],
+    "key_risks": [
+      "Wireless competition could pressure pricing, ARPA and/or churn, leading to slower service revenue growth than modeled.",
+      "Spectrum and network investment requirements (timing and cost) may be higher than expected, increasing capex intensity and reducing free cash flow conversion.",
+      "Working-capital assumptions (especially NWC and lease-related balances) may differ from pipeline implementation, impacting FCF timing.",
+      "Macro/interest-rate environment and credit-market spreads could raise WACC and reduce valuation multiples."
+    ],
+    "sources": [
+      {
+        "label": "T-Mobile Q4 2025 Earnings release (business and financial highlights; includes FY2025 and 2026 guidance ranges)",
+        "notes": "Supports current context for 2026 service revenue, Core Adjusted EBITDA, Adjusted Free Cash Flow and capex guidance.",
+        "url": null
+      },
+      {
+        "label": "T-Mobile Q4 2025 Investor Factbook (dated Feb 2026; includes FY2026 capex and free cash flow guidance details)",
+        "notes": "Supports the capex (~$10.0B) and Adjusted Free Cash Flow range used for base-case reinvestment framing.",
+        "url": null
+      },
+      {
+        "label": "T-Mobile 2025 Form 10-K (FY ended Dec 31, 2025; filed Feb 2026) \u2014 historical financials and balance sheet figures",
+        "notes": "Supports FY2025 revenue, operating income (EBIT proxy), D&A, capex (cash purchases of property and equipment including capitalized interest), cash, debt, diluted share count, and NOL carryforward disclosures.",
+        "url": null
+      },
+      {
+        "label": "T-Mobile 2024 Form 10-K (FY ended Dec 31, 2024; filed Jan 2025) \u2014 historical financials for FY2024 and FY2023",
+        "notes": "Supports FY2024 and FY2023 revenue, operating income (EBIT proxy), D&A, capex, and balance sheet components used in NWC construction.",
+        "url": null
+      },
+      {
+        "label": "T-Mobile Capital Markets Day update (Feb 11, 2026; includes multi-year service revenue and profitability roadmap)",
+        "notes": "Supports the service revenue guidance context and provides additional qualitative framing for growth and profitability assumptions.",
+        "url": null
+      },
+      {
+        "label": "StockAnalysis.com statistics pages for telecom peers (EV/Sales, EV/EBITDA, Forward PE)",
+        "notes": "Provides peer multiple inputs; mapped as EV/NTM proxies due to source labeling limitations.",
+        "url": null
+      }
+    ],
+    "subtitle": "TMUS: DCF Input Package (FY2023\u2013FY2025 actuals; FY2026\u2013FY2030 base case)",
+    "valuation_summary": [
+      "DCF base-case links revenue growth to explicit 2026\u20132027 service revenue guidance and converts to total revenue using the latest realized service/total mix.",
+      "EBIT margin and reinvestment (D&A and capex intensity) are kept in a realistic corridor based on the company\u2019s recent historical trend (2023\u20132025).",
+      "Comparable-company checks use EV/Sales and EV/EBITDA from listed telecom peers and forward P/E as directional support for the terminal multiple selection."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.21,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 8.5,
+        "terminal_growth": 0.019,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.085
+      },
+      "description": "Modestly lower growth and margin; slightly higher reinvestment and working-capital drag.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.10685,
+          "2027": 0.1059,
+          "2028": 0.105,
+          "2029": 0.104,
+          "2030": 0.103
+        },
+        "da_pct_sales": {
+          "2026": 0.153,
+          "2027": 0.152,
+          "2028": 0.151,
+          "2029": 0.15,
+          "2030": 0.1495
+        },
+        "ebit_margin": {
+          "2026": 0.204,
+          "2027": 0.207,
+          "2028": 0.209,
+          "2029": 0.21,
+          "2030": 0.211
+        },
+        "nwc_pct_sales": {
+          "2026": -0.031,
+          "2027": -0.032,
+          "2028": -0.033,
+          "2029": -0.034,
+          "2030": -0.035
+        },
+        "revenue_growth": {
+          "2026": 0.07485302779569747,
+          "2027": 0.04694805194805196,
+          "2028": 0.035,
+          "2029": 0.032,
+          "2030": 0.029
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.23,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 9.5,
+        "terminal_growth": 0.021,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.083
+      },
+      "description": "Modestly higher growth and operating leverage; slightly improved FCF conversion assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.10285,
+          "2027": 0.1019,
+          "2028": 0.101,
+          "2029": 0.1,
+          "2030": 0.099
+        },
+        "da_pct_sales": {
+          "2026": 0.151,
+          "2027": 0.15,
+          "2028": 0.149,
+          "2029": 0.148,
+          "2030": 0.1475
+        },
+        "ebit_margin": {
+          "2026": 0.22,
+          "2027": 0.223,
+          "2028": 0.225,
+          "2029": 0.226,
+          "2030": 0.227
+        },
+        "nwc_pct_sales": {
+          "2026": -0.029,
+          "2027": -0.03,
+          "2028": -0.031,
+          "2029": -0.032,
+          "2030": -0.033
+        },
+        "revenue_growth": {
+          "2026": 0.08485302779569748,
+          "2027": 0.05694805194805197,
+          "2028": 0.045,
+          "2029": 0.042,
+          "2030": 0.039
+        }
+      }
+    }
+  },
+  "ticker": "TMUS"
+}

@@ -1,0 +1,692 @@
+{
+  "_meta": {
+    "cost_usd": 0.022284,
+    "generated_at": "2026-03-21T14:52:59Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10845,
+      "prompt": 2514,
+      "reasoning": 6580
+    }
+  },
+  "_valuation": {
+    "company_name": "Honeywell International Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 221.5,
+        "description": "Base case",
+        "enterprise_value": 108757837727.09271,
+        "equity_value": 87107837727.09271,
+        "exit_multiple_terminal_value": 133002134071.99957,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 87107837727.09271,
+        "investments_adjustment": 0.0,
+        "net_debt": 21650000000.0,
+        "per_share_value": 135.5131265200571,
+        "projected_years": [
+          {
+            "capex": 1253370950.0,
+            "cash_taxes": 1133818644.0,
+            "da": 1434627672.0,
+            "delta_nwc": 60610400.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 5784789000.0,
+            "ebit_margin": 0.15,
+            "ebitda": 7219416672.0,
+            "fcff": 4771616678.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1542610400.0,
+            "present_value_fcff": 4397803389.861752,
+            "revenue": 38565260000.0,
+            "revenue_growth": 0.03,
+            "year": 2026
+          },
+          {
+            "capex": 1304469919.5,
+            "cash_taxes": 1185407392.302,
+            "da": 1466540424.65,
+            "delta_nwc": 30659381.700000048,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 6047996899.5,
+            "ebit_margin": 0.153,
+            "ebitda": 7514537324.15,
+            "fcff": 4994000630.648,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1573269781.7,
+            "present_value_fcff": 4242180237.9732,
+            "revenue": 39529391500.0,
+            "revenue_growth": 0.025,
+            "year": 2027
+          },
+          {
+            "capex": 1334472727.6485,
+            "cash_taxes": 1236449640.017592,
+            "da": 1496226997.6664999,
+            "delta_nwc": 32141348.228649855,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 6308416530.702,
+            "ebit_margin": 0.156,
+            "ebitda": 7804643528.3685,
+            "fcff": 5201579812.473758,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1605411129.92865,
+            "present_value_fcff": 4072358959.8194995,
+            "revenue": 40438567504.5,
+            "revenue_growth": 0.023,
+            "year": 2028
+          },
+          {
+            "capex": 1363831127.6567671,
+            "cash_taxes": 1279852192.7659018,
+            "da": 1529143991.6151628,
+            "delta_nwc": 27053401.66051054,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 6529858126.356642,
+            "ebit_margin": 0.158,
+            "ebitda": 8059002117.971805,
+            "fcff": 5388265395.888626,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1632464531.5891604,
+            "present_value_fcff": 3888033746.4841156,
+            "revenue": 41328215989.599,
+            "revenue_growth": 0.022,
+            "year": 2029
+          },
+          {
+            "capex": 1392471581.3375592,
+            "cash_taxes": 1323269963.3559349,
+            "da": 1561256015.4390812,
+            "delta_nwc": 25842533.4582963,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 6751377364.060892,
+            "ebit_margin": 0.16,
+            "ebitda": 8312633379.499973,
+            "fcff": 5571049301.348183,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1658307065.0474567,
+            "present_value_fcff": 3705000840.775849,
+            "revenue": 42196108525.38058,
+            "revenue_growth": 0.021,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 133002134071.99957,
+        "terminal_value_present_value": 88452460552.1783,
+        "upside_downside_pct": -0.3882025890742342
+      },
+      "bear": {
+        "current_price": 221.5,
+        "description": "Modestly weaker end-market demand and slower margin recovery vs base case.",
+        "enterprise_value": 94456278027.839,
+        "equity_value": 72806278027.839,
+        "exit_multiple_terminal_value": 114634342905.03227,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 72806278027.839,
+        "investments_adjustment": 0.0,
+        "net_debt": 21650000000.0,
+        "per_share_value": 113.26427820136746,
+        "projected_years": [
+          {
+            "capex": 1247286625.0,
+            "cash_taxes": 1090704181.0,
+            "da": 1427663460.0,
+            "delta_nwc": 53122000.0,
+            "discount_factor": 0.9191176470588235,
+            "ebit": 5564817250.0,
+            "ebit_margin": 0.145,
+            "ebitda": 6992480710.0,
+            "fcff": 4601367904.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1535122000.0,
+            "present_value_fcff": 4229198441.1764703,
+            "revenue": 38378050000.0,
+            "revenue_growth": 0.025,
+            "year": 2026
+          },
+          {
+            "capex": 1291805163.0,
+            "cash_taxes": 1135535883.888,
+            "da": 1452302168.1000001,
+            "delta_nwc": 22873317.80000019,
+            "discount_factor": 0.844777249134948,
+            "ebit": 5793550428.0,
+            "ebit_margin": 0.148,
+            "ebitda": 7245852596.1,
+            "fcff": 4795638231.412,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1557995317.8000002,
+            "present_value_fcff": 4051246072.978616,
+            "revenue": 39145611000.0,
+            "revenue_growth": 0.02,
+            "year": 2027
+          },
+          {
+            "capex": 1315057655.934,
+            "cash_taxes": 1179407466.2128081,
+            "da": 1474458583.9259999,
+            "delta_nwc": 24058892.520599842,
+            "discount_factor": 0.776449677513739,
+            "ebit": 6017385031.698,
+            "ebit_margin": 0.151,
+            "ebitda": 7491843615.624,
+            "fcff": 4973319600.956591,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1582054210.3206,
+            "present_value_fcff": 3861532400.3355017,
+            "revenue": 39850231998.0,
+            "revenue_growth": 0.018,
+            "year": 2028
+          },
+          {
+            "capex": 1337413636.084878,
+            "cash_taxes": 1215344246.0276763,
+            "da": 1499524379.8527417,
+            "delta_nwc": 18789384.387056828,
+            "discount_factor": 0.71364860065601,
+            "ebit": 6200735949.120797,
+            "ebit_margin": 0.153,
+            "ebitda": 7700260328.973539,
+            "fcff": 5128713062.473927,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1600843594.7076569,
+            "present_value_fcff": 3660098900.2007174,
+            "revenue": 40527685941.965996,
+            "revenue_growth": 0.017,
+            "year": 2029
+          },
+          {
+            "capex": 1358812254.262236,
+            "cash_taxes": 1250930796.4995978,
+            "da": 1523516769.9303856,
+            "delta_nwc": 17378271.731914997,
+            "discount_factor": 0.6559270226617738,
+            "ebit": 6382299982.140805,
+            "ebit_margin": 0.155,
+            "ebitda": 7905816752.071191,
+            "fcff": 5278695429.577442,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1618221866.4395719,
+            "present_value_fcff": 3462438976.661045,
+            "revenue": 41176128917.03745,
+            "revenue_growth": 0.016,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 114634342905.03227,
+        "terminal_value_present_value": 75191763236.48665,
+        "upside_downside_pct": -0.4886488568787022
+      },
+      "bull": {
+        "current_price": 221.5,
+        "description": "Modestly stronger demand/backlog conversion and gradual margin recovery vs base case.",
+        "enterprise_value": 121502628103.1063,
+        "equity_value": 99852628103.1063,
+        "exit_multiple_terminal_value": 148473116049.24478,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 99852628103.1063,
+        "investments_adjustment": 0.0,
+        "net_debt": 21650000000.0,
+        "per_share_value": 155.34011839313362,
+        "projected_years": [
+          {
+            "capex": 1259455275.0,
+            "cash_taxes": 1177300038.6000001,
+            "da": 1441591884.0,
+            "delta_nwc": 68098800.0,
+            "discount_factor": 0.9242144177449167,
+            "ebit": 6006632850.0,
+            "ebit_margin": 0.155,
+            "ebitda": 7448224734.0,
+            "fcff": 4943370620.4,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1550098800.0,
+            "present_value_fcff": 4568734399.630314,
+            "revenue": 38752470000.0,
+            "revenue_growth": 0.035,
+            "year": 2026
+          },
+          {
+            "capex": 1317196455.3,
+            "cash_taxes": 1236089085.6888,
+            "da": 1480848136.1100001,
+            "delta_nwc": 38519955.18000007,
+            "discount_factor": 0.8541722899675755,
+            "ebit": 6306576967.8,
+            "ebit_margin": 0.158,
+            "ebitda": 7787425103.91,
+            "fcff": 5195619607.7412,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1588618755.18,
+            "present_value_fcff": 4437954298.144738,
+            "revenue": 39915044100.0,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 1354077956.0484002,
+            "cash_taxes": 1294826787.304949,
+            "da": 1518208617.3876,
+            "delta_nwc": 40378058.61156011,
+            "discount_factor": 0.789438345626225,
+            "ebit": 6606259118.902801,
+            "ebit_margin": 0.161,
+            "ebitda": 8124467736.2904005,
+            "fcff": 5435184934.325492,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1628996813.7915602,
+            "present_value_fcff": 4290743402.7264986,
+            "revenue": 41032665334.8,
+            "revenue_growth": 0.028,
+            "year": 2028
+          },
+          {
+            "capex": 1390638060.8617067,
+            "cash_taxes": 1346306205.1033275,
+            "da": 1559200250.057065,
+            "delta_nwc": 35554804.512604,
+            "discount_factor": 0.7296103009484519,
+            "ebit": 6868909209.710855,
+            "ebit_margin": 0.163,
+            "ebitda": 8428109459.76792,
+            "fcff": 5655610389.290281,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1664551618.3041642,
+            "present_value_fcff": 4126391598.1772733,
+            "revenue": 42140547298.8396,
+            "revenue_growth": 0.027,
+            "year": 2029
+          },
+          {
+            "capex": 1426794650.444111,
+            "cash_taxes": 1398258757.435229,
+            "da": 1599739456.5585487,
+            "delta_nwc": 34631101.770186424,
+            "discount_factor": 0.6743163594717669,
+            "ebit": 7133973252.220556,
+            "ebit_margin": 0.165,
+            "ebitda": 8733712708.779104,
+            "fcff": 5874028199.129579,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1699182720.0743506,
+            "present_value_fcff": 3960953310.6715565,
+            "revenue": 43236201528.60943,
+            "revenue_growth": 0.026,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 148473116049.24478,
+        "terminal_value_present_value": 100117851093.7559,
+        "upside_downside_pct": -0.29869021041474664
+      }
+    },
+    "ticker": "HON"
+  },
+  "assumptions": {
+    "cash": 12930000000.0,
+    "current_price": 221.5,
+    "debt": 34580000000.0,
+    "diluted_shares": 642800000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.16,
+    "tax_rate": 0.196,
+    "terminal_exit_ebitda_multiple": 16.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.085
+  },
+  "company_name": "Honeywell International Inc.",
+  "comps": [
+    {
+      "company_name": "Emerson Electric Co.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and NTM P/E not populated (market-data source with explicit NTM definitions not retrieved in this run).",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "EMR"
+    },
+    {
+      "company_name": "Danaher Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and NTM P/E not populated (market-data source with explicit NTM definitions not retrieved in this run).",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "DHR"
+    },
+    {
+      "company_name": "Rockwell Automation, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and NTM P/E not populated (market-data source with explicit NTM definitions not retrieved in this run).",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ROK"
+    },
+    {
+      "company_name": "Schneider Electric SE (ADR)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and NTM P/E not populated (market-data source with explicit NTM definitions not retrieved in this run).",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SBGSY"
+    },
+    {
+      "company_name": "Siemens AG (ADR)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and NTM P/E not populated (market-data source with explicit NTM definitions not retrieved in this run).",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SIEGY"
+    },
+    {
+      "company_name": "ABB Ltd (ADR)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and NTM P/E not populated (market-data source with explicit NTM definitions not retrieved in this run).",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ABB"
+    },
+    {
+      "company_name": "General Electric (Industrial) / GE Aerospace exposure comparator (selected for cyclic industrial cash-earnings profile only)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and NTM P/E not populated (market-data source with explicit NTM definitions not retrieved in this run).",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "GE"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0325,
+      "2027": 0.033,
+      "2028": 0.033,
+      "2029": 0.033,
+      "2030": 0.033
+    },
+    "da_pct_sales": {
+      "2026": 0.0372,
+      "2027": 0.0371,
+      "2028": 0.037,
+      "2029": 0.037,
+      "2030": 0.037
+    },
+    "ebit_margin": {
+      "2026": 0.15,
+      "2027": 0.153,
+      "2028": 0.156,
+      "2029": 0.158,
+      "2030": 0.16
+    },
+    "nwc_pct_sales": {
+      "2026": 0.04,
+      "2027": 0.0398,
+      "2028": 0.0397,
+      "2029": 0.0395,
+      "2030": 0.0393
+    },
+    "revenue_growth": {
+      "2026": 0.03,
+      "2027": 0.025,
+      "2028": 0.023,
+      "2029": 0.022,
+      "2030": 0.021
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 1039000000.0,
+      "2024": 1164000000.0,
+      "2025": 986000000.0
+    },
+    "da": {
+      "2023": 1176000000.0,
+      "2024": 1334000000.0,
+      "2025": 1388000000.0
+    },
+    "ebit": {
+      "2023": 6192488400.0,
+      "2024": 6245588300.0,
+      "2025": 5477764600.0
+    },
+    "nwc": {
+      "2023": 749000000.0,
+      "2024": 1958000000.0,
+      "2025": 1482000000.0
+    },
+    "revenue": {
+      "2023": 33009000000.0,
+      "2024": 34717000000.0,
+      "2025": 37442000000.0
+    }
+  },
+  "notes": [
+    "EBIT is modeled as operating income proxy = (operating margin) * revenue using the Honeywell investor fundamentals pages; this may differ slightly from management/GAAP \u201cOperating income\u201d disclosures due to reclassifications/restatements. ([investor.honeywell.com](https://investor.honeywell.com/financial-information/fundamentals/income-statement))",
+    "D&A is computed as depreciation (supplemental) + amortization of intangibles from the Honeywell cash flow fundamentals pages. ([investor.honeywell.com](https://investor.honeywell.com/financial-information/fundamentals/cash-flow))",
+    "Capex uses the \u201cCapital Expenditures\u201d line from the Honeywell cash flow fundamentals pages (absolute value). ([investor.honeywell.com](https://investor.honeywell.com/financial-information/fundamentals/cash-flow))",
+    "NWC construction (operating NWC level) = (Total current assets - cash & short-term investments) - (Total current liabilities - notes payable/short-term debt - current portion of long-term debt/capital leases). ([investor.honeywell.com](https://investor.honeywell.com/financial-information/fundamentals/balance-sheet))",
+    "Comps NTM EV/Revenue, EV/EBITDA, and NTM P/E are set to null because a consistent primary/official market-data source with explicit NTM definitions was not retrieved within this run; peer tickers are provided for downstream manual fill.",
+    "NOL balance is set to null due to missing extraction of the NOL carryforward amount and jurisdictional utilization details in the materials captured in this run."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Completion/advance of portfolio actions (assets held for sale / separation-related milestones), which can re-rate cash flows and risk. ([honeywell.com](https://www.honeywell.com/us/en/press/2026/02/honeywell-files-annual-report-on-form-10-k-for-fiscal-year-2025))",
+      "Backlog-to-revenue conversion in aerospace and automation businesses supporting 2026 execution vs expectations. ([honeywell.com](https://www.honeywell.com/us/en/press/2026/01/honeywell-reports-fourth-quarter-2025-results-with-adjusted-sales-and-adjusted-earnings-above-high-end-of-guidance-issues-2026-outlook?utm_source=openai))"
+    ],
+    "company_overview": [
+      "Honeywell is an industrial technology company spanning aerospace, building automation, industrial automation, and process technologies. ([honeywell.com](https://www.honeywell.com/us/en/press/2026/01/honeywell-reports-fourth-quarter-2025-results-with-adjusted-sales-and-adjusted-earnings-above-high-end-of-guidance-issues-2026-outlook?utm_source=openai))",
+      "During 4Q25, Honeywell classified Productivity Solutions and Services (PSS) and Warehouse and Workflow Solutions (WWS) as assets held for sale as part of its portfolio optimization strategy. ([honeywell.com](https://www.honeywell.com/us/en/press/2026/02/honeywell-files-annual-report-on-form-10-k-for-fiscal-year-2025))",
+      "Honeywell\u2019s operating model emphasizes backlog execution and disciplined capital allocation to support mid-cycle cash generation. ([honeywell.com](https://www.honeywell.com/us/en/press/2026/01/honeywell-reports-fourth-quarter-2025-results-with-adjusted-sales-and-adjusted-earnings-above-high-end-of-guidance-issues-2026-outlook?utm_source=openai))"
+    ],
+    "current_context": [
+      "In its 4Q25 release, Honeywell reported record backlog of over $37B and reaffirmed/outlined 2026 outlook. ([honeywell.com](https://www.honeywell.com/us/en/press/2026/01/honeywell-reports-fourth-quarter-2025-results-with-adjusted-sales-and-adjusted-earnings-above-high-end-of-guidance-issues-2026-outlook?utm_source=openai))",
+      "Honeywell guided 2026 free cash flow (adjusted) of approximately $5.3B to $5.6B. ([honeywell.com](https://www.honeywell.com/us/en/press/2026/01/honeywell-reports-fourth-quarter-2025-results-with-adjusted-sales-and-adjusted-earnings-above-high-end-of-guidance-issues-2026-outlook?utm_source=openai))",
+      "Honeywell indicated progress on go-forward segment structure and related portfolio simplification. ([honeywell.com](https://www.honeywell.com/us/en/press/2026/01/honeywell-reports-fourth-quarter-2025-results-with-adjusted-sales-and-adjusted-earnings-above-high-end-of-guidance-issues-2026-outlook?utm_source=openai))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes mid-single-digit top-line expansion supported by backlog conversion and automation demand. ([honeywell.com](https://www.honeywell.com/us/en/press/2026/01/honeywell-reports-fourth-quarter-2025-results-with-adjusted-sales-and-adjusted-earnings-above-high-end-of-guidance-issues-2026-outlook?utm_source=openai))",
+      "Base-case EBIT margin recovers from 2025 levels toward a ~16% steady-state target as costs stabilize and operating leverage returns. ([investor.honeywell.com](https://investor.honeywell.com/financial-information/fundamentals/income-statement))",
+      "Capital intensity is modeled in a 3.3% of sales range (capex as % of sales), consistent with historical capex levels. ([investor.honeywell.com](https://investor.honeywell.com/financial-information/fundamentals/cash-flow))",
+      "Working-capital intensity is modeled near ~4% of sales based on an operating NWC construction from the balance sheet. ([investor.honeywell.com](https://investor.honeywell.com/financial-information/fundamentals/balance-sheet))"
+    ],
+    "key_risks": [
+      "Demand cyclicality and backlog conversion risk could pressure organic growth and operating leverage. ([honeywell.com](https://www.honeywell.com/us/en/press/2026/01/honeywell-reports-fourth-quarter-2025-results-with-adjusted-sales-and-adjusted-earnings-above-high-end-of-guidance-issues-2026-outlook?utm_source=openai))",
+      "Execution risk from restructuring/portfolio optimization could create margin volatility or one-time charges. ([honeywell.com](https://www.honeywell.com/us/en/press/2026/02/honeywell-files-annual-report-on-form-10-k-for-fiscal-year-2025))",
+      "Working-capital swings (trade receivables/inventory/customer advances) may diverge from the modeled ~4% of sales. ([investor.honeywell.com](https://investor.honeywell.com/financial-information/fundamentals/balance-sheet))"
+    ],
+    "sources": [
+      {
+        "label": "Honeywell Income Statement (Financial Fundamentals: revenue, operating margin proxy, effective tax rate, diluted shares)",
+        "notes": "Used for historical revenue and operating margin/effective tax rate; also used for diluted weighted-average shares. ([investor.honeywell.com](https://investor.honeywell.com/financial-information/fundamentals/income-statement))",
+        "url": null
+      },
+      {
+        "label": "Honeywell Cash Flow (Financial Fundamentals: depreciation, amortization, capital expenditures)",
+        "notes": "Used for depreciation and amortization inputs and capex history. ([investor.honeywell.com](https://investor.honeywell.com/financial-information/fundamentals/cash-flow))",
+        "url": null
+      },
+      {
+        "label": "Honeywell Balance Sheet (Financial Fundamentals: current assets/liabilities and debt/cash components for NWC construction)",
+        "notes": "Used to compute operating NWC excluding cash/short-term investments and excluding current portion of debt/leases. ([investor.honeywell.com](https://investor.honeywell.com/financial-information/fundamentals/balance-sheet))",
+        "url": null
+      },
+      {
+        "label": "Honeywell 4Q25 results / 2026 outlook press release",
+        "notes": "Used for latest trading setup and guidance context (backlog and 2026 free cash flow outlook). ([honeywell.com](https://www.honeywell.com/us/en/press/2026/01/honeywell-reports-fourth-quarter-2025-results-with-adjusted-sales-and-adjusted-earnings-above-high-end-of-guidance-issues-2026-outlook?utm_source=openai))",
+        "url": null
+      },
+      {
+        "label": "SEC 10-K filing index for FY2025 (access point for primary financial statements)",
+        "notes": "Used as the primary filing reference for availability/verification. ([sec.gov](https://www.sec.gov/Archives/edgar/data/773840/000077384026000013/0000773840-26-000013-index.htm))",
+        "url": null
+      },
+      {
+        "label": "HON spot price (finance)",
+        "notes": "Used for current_price input.",
+        "url": null
+      }
+    ],
+    "subtitle": "Honeywell (HON) DCF Valuation Input Package",
+    "valuation_summary": [
+      "DCF uses a base-case WACC of 8.5%, terminal growth of 2.0%, and an exit EV/EBITDA multiple of 16.0% to reflect mature industrial-automation earnings power.",
+      "Historical inputs (revenue, operating profitability proxy, D&A, and capex) are sourced from Honeywell\u2019s investor financial fundamentals pages for internal consistency. ([investor.honeywell.com](https://investor.honeywell.com/financial-information/fundamentals/income-statement))",
+      "Peer comps are left partially unpopulated due to missing explicit NTM EV/Revenue and EV/EBITDA values from a primary/consistent market-data source within this run."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.155,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 14.5,
+        "terminal_growth": 0.018,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.088
+      },
+      "description": "Modestly weaker end-market demand and slower margin recovery vs base case.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0325,
+          "2027": 0.033,
+          "2028": 0.033,
+          "2029": 0.033,
+          "2030": 0.033
+        },
+        "da_pct_sales": {
+          "2026": 0.0372,
+          "2027": 0.0371,
+          "2028": 0.037,
+          "2029": 0.037,
+          "2030": 0.037
+        },
+        "ebit_margin": {
+          "2026": 0.145,
+          "2027": 0.148,
+          "2028": 0.151,
+          "2029": 0.153,
+          "2030": 0.155
+        },
+        "nwc_pct_sales": {
+          "2026": 0.04,
+          "2027": 0.0398,
+          "2028": 0.0397,
+          "2029": 0.0395,
+          "2030": 0.0393
+        },
+        "revenue_growth": {
+          "2026": 0.025,
+          "2027": 0.02,
+          "2028": 0.018,
+          "2029": 0.017,
+          "2030": 0.016
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.165,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 17.0,
+        "terminal_growth": 0.022,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.082
+      },
+      "description": "Modestly stronger demand/backlog conversion and gradual margin recovery vs base case.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0325,
+          "2027": 0.033,
+          "2028": 0.033,
+          "2029": 0.033,
+          "2030": 0.033
+        },
+        "da_pct_sales": {
+          "2026": 0.0372,
+          "2027": 0.0371,
+          "2028": 0.037,
+          "2029": 0.037,
+          "2030": 0.037
+        },
+        "ebit_margin": {
+          "2026": 0.155,
+          "2027": 0.158,
+          "2028": 0.161,
+          "2029": 0.163,
+          "2030": 0.165
+        },
+        "nwc_pct_sales": {
+          "2026": 0.04,
+          "2027": 0.0398,
+          "2028": 0.0397,
+          "2029": 0.0395,
+          "2030": 0.0393
+        },
+        "revenue_growth": {
+          "2026": 0.035,
+          "2027": 0.03,
+          "2028": 0.028,
+          "2029": 0.027,
+          "2030": 0.026
+        }
+      }
+    }
+  },
+  "ticker": "HON"
+}

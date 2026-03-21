@@ -1,0 +1,670 @@
+{
+  "_meta": {
+    "cost_usd": 0.024629,
+    "generated_at": "2026-03-21T14:52:35Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11395,
+      "prompt": 2514,
+      "reasoning": 7906
+    }
+  },
+  "_valuation": {
+    "company_name": "ConocoPhillips",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 126.92,
+        "description": "Base case",
+        "enterprise_value": 164694784094.19583,
+        "equity_value": 148231784094.19583,
+        "exit_multiple_terminal_value": 197441949197.1659,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 148231784094.19583,
+        "investments_adjustment": 484000000.0,
+        "net_debt": 16947000000.0,
+        "per_share_value": 118.25940973460033,
+        "projected_years": [
+          {
+            "capex": 12121878600.0,
+            "cash_taxes": 4487184136.0,
+            "da": 10878609000.0,
+            "delta_nwc": 660422560.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 14297600400.0,
+            "ebit_margin": 0.23,
+            "ebitda": 25176209400.0,
+            "fcff": 7906724104.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 1100000000.0,
+            "nwc": -1740577440.0,
+            "present_value_fcff": 7287303321.658986,
+            "revenue": 62163480000.0,
+            "revenue_growth": 0.01,
+            "year": 2026
+          },
+          {
+            "capex": 12177514914.599998,
+            "cash_taxes": 5041364982.78,
+            "da": 10852500338.399998,
+            "delta_nwc": 36987270.60000014,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 14827544066.999998,
+            "ebit_margin": 0.235,
+            "ebitda": 25680044405.399994,
+            "fcff": 8424177237.419996,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1703590169.3999999,
+            "present_value_fcff": 7155961891.244237,
+            "revenue": 63095932199.99999,
+            "revenue_growth": 0.015,
+            "year": 2027
+          },
+          {
+            "capex": 12171836280.702,
+            "cash_taxes": 5156780061.960239,
+            "da": 10833571558.74,
+            "delta_nwc": 14827544.06700015,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 15167000182.235998,
+            "ebit_margin": 0.238,
+            "ebitda": 26000571740.975998,
+            "fcff": 8657127854.24676,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1688762625.3329997,
+            "present_value_fcff": 6777735506.240031,
+            "revenue": 63726891521.99999,
+            "revenue_growth": 0.01,
+            "year": 2028
+          },
+          {
+            "capex": 12168649936.125896,
+            "cash_taxes": 5226114919.936175,
+            "da": 10759648364.574478,
+            "delta_nwc": 23578949.863140106,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 15370926235.106396,
+            "ebit_margin": 0.24,
+            "ebitda": 26130574599.680874,
+            "fcff": 8712230793.755661,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1665183675.4698596,
+            "present_value_fcff": 6286521699.381464,
+            "revenue": 64045525979.609985,
+            "revenue_growth": 0.005,
+            "year": 2029
+          },
+          {
+            "capex": 12165127432.197018,
+            "cash_taxes": 5296014206.990321,
+            "da": 10749080852.787842,
+            "delta_nwc": 23856958.42740512,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 15576512373.500942,
+            "ebit_margin": 0.242,
+            "ebitda": 26325593226.288784,
+            "fcff": 8840594628.67404,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1641326717.0424545,
+            "present_value_fcff": 5879396996.948002,
+            "revenue": 64365753609.508026,
+            "revenue_growth": 0.005,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 197441949197.1659,
+        "terminal_value_present_value": 131307864678.7231,
+        "upside_downside_pct": -0.06823660782697505
+      },
+      "bear": {
+        "current_price": 126.92,
+        "description": "Modestly worse than base-case: slightly lower revenue growth and margin recovery, with higher reinvestment intensity and more negative working capital.",
+        "enterprise_value": 157004081042.02103,
+        "equity_value": 140541081042.02103,
+        "exit_multiple_terminal_value": 191185406760.91495,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 140541081042.02103,
+        "investments_adjustment": 484000000.0,
+        "net_debt": 16947000000.0,
+        "per_share_value": 112.12376204640728,
+        "projected_years": [
+          {
+            "capex": 12247436520.0,
+            "cash_taxes": 4357964110.0,
+            "da": 10948465979.999998,
+            "delta_nwc": 607183540.0000002,
+            "discount_factor": 0.9191176470588235,
+            "ebit": 13917541499.999998,
+            "ebit_margin": 0.225,
+            "ebitda": 24866007479.999996,
+            "fcff": 7653423309.999996,
+            "nol_balance_end": 0.0,
+            "nol_used": 1100000000.0,
+            "nwc": -1793816459.9999998,
+            "present_value_fcff": 7034396424.632349,
+            "revenue": 61855739999.99999,
+            "revenue_growth": 0.005,
+            "year": 2026
+          },
+          {
+            "capex": 12244962290.4,
+            "cash_taxes": 4885490056.679999,
+            "da": 10870527747.599998,
+            "delta_nwc": 44536132.79999995,
+            "discount_factor": 0.844777249134948,
+            "ebit": 14369088401.999998,
+            "ebit_margin": 0.23,
+            "ebitda": 25239616149.6,
+            "fcff": 8064627669.719998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1749280327.1999998,
+            "present_value_fcff": 6812813978.123646,
+            "revenue": 62474297399.99999,
+            "revenue_growth": 0.01,
+            "year": 2027
+          },
+          {
+            "capex": 12180613764.077997,
+            "cash_taxes": 4973959909.22814,
+            "da": 10799307048.563997,
+            "delta_nwc": 54040267.251000166,
+            "discount_factor": 0.776449677513739,
+            "ebit": 14629293850.670998,
+            "ebit_margin": 0.233,
+            "ebitda": 25428600899.234993,
+            "fcff": 8219986958.677857,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1695240059.9489996,
+            "present_value_fcff": 6382406223.232562,
+            "revenue": 62786668886.999985,
+            "revenue_growth": 0.005,
+            "year": 2028
+          },
+          {
+            "capex": 12117827095.190998,
+            "cash_taxes": 5016654844.071299,
+            "da": 10673733710.789999,
+            "delta_nwc": 31393334.443500042,
+            "discount_factor": 0.71364860065601,
+            "ebit": 14754867188.444996,
+            "ebit_margin": 0.235,
+            "ebitda": 25428600899.234993,
+            "fcff": 8262725625.529198,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1663846725.5054996,
+            "present_value_fcff": 5896682580.263467,
+            "revenue": 62786668886.999985,
+            "revenue_growth": 0.0,
+            "year": 2029
+          },
+          {
+            "capex": 12055040426.303997,
+            "cash_taxes": 5059349778.914459,
+            "da": 10610947041.902998,
+            "delta_nwc": 31393334.443500042,
+            "discount_factor": 0.6559270226617738,
+            "ebit": 14880440526.218996,
+            "ebit_margin": 0.237,
+            "ebitda": 25491387568.121994,
+            "fcff": 8345604028.460037,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1632453391.0619996,
+            "present_value_fcff": 5474107202.701898,
+            "revenue": 62786668886.999985,
+            "revenue_growth": 0.0,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 191185406760.91495,
+        "terminal_value_present_value": 125403674633.06711,
+        "upside_downside_pct": -0.11657924640397666
+      },
+      "bull": {
+        "current_price": 126.92,
+        "description": "Modestly better than base-case: slightly higher revenue growth and margin recovery, with slightly more efficient reinvestment and less negative working capital.",
+        "enterprise_value": 171793698228.90582,
+        "equity_value": 155330698228.90582,
+        "exit_multiple_terminal_value": 203867232949.52518,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 155330698228.90582,
+        "investments_adjustment": 484000000.0,
+        "net_debt": 16947000000.0,
+        "per_share_value": 123.9229278556123,
+        "projected_years": [
+          {
+            "capex": 11994474239.999998,
+            "cash_taxes": 4617450478.0,
+            "da": 10745049839.999998,
+            "delta_nwc": 714277060.0000002,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 14680736699.999998,
+            "ebit_margin": 0.235,
+            "ebitda": 25425786539.999996,
+            "fcff": 8099584761.999998,
+            "nol_balance_end": 0.0,
+            "nol_used": 1100000000.0,
+            "nwc": -1686722939.9999998,
+            "present_value_fcff": 7478840962.142197,
+            "revenue": 62471219999.99999,
+            "revenue_growth": 0.015,
+            "year": 2026
+          },
+          {
+            "capex": 12106922435.999998,
+            "cash_taxes": 5199604583.04,
+            "da": 10768788903.6,
+            "delta_nwc": 29986185.600000143,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 15292954655.999998,
+            "ebit_margin": 0.24,
+            "ebitda": 26061743559.6,
+            "fcff": 8725230354.96,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1656736754.3999996,
+            "present_value_fcff": 7439093004.504263,
+            "revenue": 63720644399.99999,
+            "revenue_growth": 0.02,
+            "year": 2027
+          },
+          {
+            "capex": 12159173364.407997,
+            "cash_taxes": 5343568634.9329195,
+            "da": 10800967829.021997,
+            "delta_nwc": 7487175.717000008,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 15716378338.037996,
+            "ebit_margin": 0.243,
+            "ebitda": 26517346167.059994,
+            "fcff": 9007116992.002079,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1649249578.6829996,
+            "present_value_fcff": 7090884866.832586,
+            "revenue": 64676454065.999985,
+            "revenue_growth": 0.015,
+            "year": 2028
+          },
+          {
+            "capex": 12215441879.445417,
+            "cash_taxes": 5441424109.934777,
+            "da": 10843654288.705559,
+            "delta_nwc": 16169113.516499758,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 16004188558.631697,
+            "ebit_margin": 0.245,
+            "ebitda": 26847842847.337257,
+            "fcff": 9174807744.44056,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1633080465.1664999,
+            "present_value_fcff": 6669344420.802826,
+            "revenue": 65323218606.65999,
+            "revenue_growth": 0.01,
+            "year": 2029
+          },
+          {
+            "capex": 12271619847.447145,
+            "cash_taxes": 5540702337.573179,
+            "da": 10886114380.799887,
+            "delta_nwc": 16657420.744698524,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 16296183345.803467,
+            "ebit_margin": 0.247,
+            "ebitda": 27182297726.603355,
+            "fcff": 9353318120.83833,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1616423044.4218013,
+            "present_value_fcff": 6278030517.84571,
+            "revenue": 65976450792.726585,
+            "revenue_growth": 0.01,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 203867232949.52518,
+        "terminal_value_present_value": 136837504456.77824,
+        "upside_downside_pct": -0.023613868140464067
+      }
+    },
+    "ticker": "COP"
+  },
+  "assumptions": {
+    "cash": 6497000000.0,
+    "current_price": 126.92,
+    "debt": 23444000000.0,
+    "diluted_shares": 1253446000.0,
+    "investments": 484000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 1100000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.242,
+    "tax_rate": 0.34,
+    "terminal_exit_ebitda_multiple": 7.5,
+    "terminal_growth": 0.018,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.085
+  },
+  "company_name": "ConocoPhillips",
+  "comps": [
+    {
+      "company_name": "Exxon Mobil",
+      "ev_ntm_ebitda": 8.0,
+      "ev_ntm_revenue": 1.6,
+      "notes": "Multiples are closest available from a 2025-03-31 snapshot (forward P/E shown; EV/Revenue and EV/EBITDA shown as TEV multiples).",
+      "pe_ntm": 16.0,
+      "source": "Houlihan Lokey Oil & Gas Market Update Q1 2025 (data as of 2025-03-31; S&P Capital IQ)",
+      "ticker": "XOM"
+    },
+    {
+      "company_name": "Chevron",
+      "ev_ntm_ebitda": 7.9,
+      "ev_ntm_revenue": 1.6,
+      "notes": "EV/Revenue and EV/EBITDA are TEV multiples from the source; treat as proxy for NTM where not explicitly labeled.",
+      "pe_ntm": 16.2,
+      "source": "Houlihan Lokey Oil & Gas Market Update Q1 2025 (data as of 2025-03-31; S&P Capital IQ)",
+      "ticker": "CVX"
+    },
+    {
+      "company_name": "Shell PLC",
+      "ev_ntm_ebitda": 4.5,
+      "ev_ntm_revenue": 0.9,
+      "notes": "EV/Revenue and EV/EBITDA are TEV multiples from the source; treat as proxy for NTM where not explicitly labeled.",
+      "pe_ntm": 10.0,
+      "source": "Houlihan Lokey Oil & Gas Market Update Q1 2025 (data as of 2025-03-31; S&P Capital IQ)",
+      "ticker": "SHEL"
+    },
+    {
+      "company_name": "EOG Resources",
+      "ev_ntm_ebitda": 5.1,
+      "ev_ntm_revenue": 3.0,
+      "notes": "EV/Revenue and EV/EBITDA are TEV multiples from the source; treat as proxy for NTM where not explicitly labeled.",
+      "pe_ntm": 11.8,
+      "source": "Houlihan Lokey Oil & Gas Market Update Q1 2025 (data as of 2025-03-31; S&P Capital IQ)",
+      "ticker": "EOG"
+    },
+    {
+      "company_name": "Pioneer Natural Resources",
+      "ev_ntm_ebitda": 7.9,
+      "ev_ntm_revenue": 5.8,
+      "notes": "EV/Revenue appears high due to scale and revenue base; treat as proxy for NTM where not explicitly labeled.",
+      "pe_ntm": 10.6,
+      "source": "Houlihan Lokey Oil & Gas Market Update Q1 2025 (data as of 2025-03-31; S&P Capital IQ)",
+      "ticker": "PXD"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.195,
+      "2027": 0.193,
+      "2028": 0.191,
+      "2029": 0.19,
+      "2030": 0.189
+    },
+    "da_pct_sales": {
+      "2026": 0.175,
+      "2027": 0.172,
+      "2028": 0.17,
+      "2029": 0.168,
+      "2030": 0.167
+    },
+    "ebit_margin": {
+      "2026": 0.23,
+      "2027": 0.235,
+      "2028": 0.238,
+      "2029": 0.24,
+      "2030": 0.242
+    },
+    "nwc_pct_sales": {
+      "2026": -0.028,
+      "2027": -0.027,
+      "2028": -0.0265,
+      "2029": -0.026,
+      "2030": -0.0255
+    },
+    "revenue_growth": {
+      "2026": 0.01,
+      "2027": 0.015,
+      "2028": 0.01,
+      "2029": 0.005,
+      "2030": 0.005
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 11248000000.0,
+      "2024": 12118000000.0,
+      "2025": 12553000000.0
+    },
+    "da": {
+      "2023": 8270000000.0,
+      "2024": 9599000000.0,
+      "2025": 11500000000.0
+    },
+    "ebit": {
+      "2023": 16656000000.0,
+      "2024": 14053000000.0,
+      "2025": 13200000000.0
+    },
+    "nwc": {
+      "2023": -1207000000.0,
+      "2024": -1556000000.0,
+      "2025": -2401000000.0
+    },
+    "revenue": {
+      "2023": 58574000000.0,
+      "2024": 56953000000.0,
+      "2025": 61548000000.0
+    }
+  },
+  "notes": [
+    "Historical data (2023-2025) are consolidated annual totals from ConocoPhillips filings; all values are converted from reporting units (millions) into full USD amounts.",
+    "EBIT definition used for this input package: EBIT \u2248 income before income taxes + interest and debt expense (expensed) \u2212 interest income (from Note 20). This is an approximation to 'earnings before interest and taxes' given capitalization differences may remain.",
+    "D&A is taken from cash flow line item 'Depreciation, depletion and amortization'.",
+    "Capex is taken from cash flow line item 'Capital expenditures and investments' (sign flipped to positive absolute value). Investments are therefore not modeled separately from capex; investments is set to the short-term investment balance only for liquidity bridging.",
+    "NWC definition used: NWC = (Total current assets \u2212 cash & cash equivalents \u2212 short-term investments) \u2212 (Total current liabilities \u2212 short-term debt). This approximates operating working capital; the treatment of tax accruals may differ from alternative NWC constructions.",
+    "NOL balance is set using a disclosed 'net operating loss and credit carryforwards' figure as a proxy for NOL principal; precise jurisdictional NOL detail suitable for utilization modeling was not fully extracted in this pass. NOL utilization percent is assumed at 0.80.",
+    "Comps multiples come from a 2025-03-31 snapshot; EV/Revenue and EV/EBITDA are treated as the closest available proxy to EV/NTM figures and should be refreshed from a live valuation dataset for strict NTM alignment."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Improvement in crude oil and natural gas realized prices (or a higher-than-modeled commodity curve) lifting revenue and EBIT margin.",
+      "Ongoing delivery of integration/cost initiatives (including synergies and expense reductions) that support margin durability into 2026.",
+      "Asset dispositions and capital return execution that influence net debt trajectory and the market\u2019s implied discount rate/terminal expectations."
+    ],
+    "company_overview": [
+      "ConocoPhillips is a global upstream energy company with exploration and production operations across multiple geographic segments (Alaska, Lower 48, Canada, EMENA, Asia Pacific).",
+      "The company monetizes crude oil, natural gas, LNG and NGLs and reports results under segments and geographic regions.",
+      "Primary valuation focus is on commodity-price sensitivity, capital discipline, and margin/expense execution."
+    ],
+    "current_context": [
+      "In the February 5, 2026 update, ConocoPhillips reported full-year 2025 earnings of 8.0 billion and cash provided by operating activities of 19.8 billion, supported by cost discipline and production delivery.",
+      "The same release announced 2026 guidance including full-year capital expenditures of approximately 12 billion and continued shareholder returns (dividend and capital return program details)."
+    ],
+    "investment_highlights": [
+      "Base case assumes revenue is roughly flat-to-slightly up over 2026-2030, consistent with modest underlying growth and typical decline/replacement dynamics.",
+      "EBIT margin gradually recovers toward the mid-20%s by 2030, reflecting normalized cost structure and execution of integration/cost initiatives.",
+      "Capital intensity remains controlled (modeled via capex as a percent of sales) to sustain production and reduce the need for balance-sheet stress.",
+      "Working capital is modeled as slightly negative (consistent with historical net working capital levels) to support free-cash-flow generation."
+    ],
+    "key_risks": [
+      "Sustained commodity-price weakness leading to lower revenue and margins than assumed in the base-case ramp.",
+      "Production decline, operational disruption, or project execution issues impacting volumes and reinvestment efficiency.",
+      "Regulatory and climate-policy changes that may increase effective taxes, royalties, or operating costs."
+    ],
+    "sources": [
+      {
+        "label": "ConocoPhillips 2025 Form 10-K (fiscal year ended 2025-12-31)",
+        "notes": "Provides consolidated income statement totals, cash flow D&A, cash & debt, weighted-average diluted shares, and tax/interest disclosure used for derived EBIT.",
+        "url": "https://fortune.com/company-assets/1923/quartr/annual-report-10-k-db677-2026-02-17-04-00-36.pdf"
+      },
+      {
+        "label": "ConocoPhillips 2024 Annual Report on Form 10-K (fiscal year ended 2024-12-31)",
+        "notes": "Used for historical balance-sheet line items needed to compute operating NWC for 2023.",
+        "url": "https://static.conocophillips.com/files/resources/2024-annual-report.pdf"
+      },
+      {
+        "label": "ConocoPhillips 2023 Annual Report (fiscal year ended 2023-12-31)",
+        "notes": "Backup primary source for historical line items and disclosures.",
+        "url": "https://static.conocophillips.com/files/resources/conocophillips_2023-annualreport.pdf"
+      },
+      {
+        "label": "ConocoPhillips reports fourth-quarter and full-year 2025 results; announces 2026 guidance",
+        "notes": "Used for the latest current-context bullets (2025 performance, liquidity, and 2026 capex guidance).",
+        "url": "https://www.conocophillips.com/news-media/story/conocophillips-reports-fourth-quarter-and-full-year-2025-results-announces-2026-guidance-and-quarterly-dividend/"
+      },
+      {
+        "label": "Houlihan Lokey Oil & Gas Market Update Q1 2025 (peer multiples; data as of 2025-03-31)",
+        "notes": "Used to populate upstream peer valuation multiples (EV/Revenue, EV/EBITDA, forward P/E) for comps.",
+        "url": "https://cdn.hl.com/pdf/2025/enr-oil-gas-q1-2025.pdf"
+      }
+    ],
+    "subtitle": "ConocoPhillips (COP) \u2014 DCF base case & comps input package",
+    "valuation_summary": [
+      "The DCF base case ties historical D&A, reinvestment intensity, and working-capital behavior to a sober, modest margin normalization profile.",
+      "Terminal value is anchored via an exit EBITDA multiple approach and cross-checked conceptually against forward/comparable valuation levels observed in upstream peer sets.",
+      "Scenario ranges reflect realistic changes in commodity-driven revenue growth and operating leverage rather than extreme swings."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.237,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 7.5,
+        "terminal_growth": 0.016,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.088
+      },
+      "description": "Modestly worse than base-case: slightly lower revenue growth and margin recovery, with higher reinvestment intensity and more negative working capital.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.198,
+          "2027": 0.196,
+          "2028": 0.194,
+          "2029": 0.193,
+          "2030": 0.192
+        },
+        "da_pct_sales": {
+          "2026": 0.177,
+          "2027": 0.174,
+          "2028": 0.172,
+          "2029": 0.17,
+          "2030": 0.169
+        },
+        "ebit_margin": {
+          "2026": 0.225,
+          "2027": 0.23,
+          "2028": 0.233,
+          "2029": 0.235,
+          "2030": 0.237
+        },
+        "nwc_pct_sales": {
+          "2026": -0.029,
+          "2027": -0.028,
+          "2028": -0.027,
+          "2029": -0.0265,
+          "2030": -0.026
+        },
+        "revenue_growth": {
+          "2026": 0.005,
+          "2027": 0.01,
+          "2028": 0.005,
+          "2029": 0.0,
+          "2030": 0.0
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.247,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 7.5,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.083
+      },
+      "description": "Modestly better than base-case: slightly higher revenue growth and margin recovery, with slightly more efficient reinvestment and less negative working capital.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.192,
+          "2027": 0.19,
+          "2028": 0.188,
+          "2029": 0.187,
+          "2030": 0.186
+        },
+        "da_pct_sales": {
+          "2026": 0.172,
+          "2027": 0.169,
+          "2028": 0.167,
+          "2029": 0.166,
+          "2030": 0.165
+        },
+        "ebit_margin": {
+          "2026": 0.235,
+          "2027": 0.24,
+          "2028": 0.243,
+          "2029": 0.245,
+          "2030": 0.247
+        },
+        "nwc_pct_sales": {
+          "2026": -0.027,
+          "2027": -0.026,
+          "2028": -0.0255,
+          "2029": -0.025,
+          "2030": -0.0245
+        },
+        "revenue_growth": {
+          "2026": 0.015,
+          "2027": 0.02,
+          "2028": 0.015,
+          "2029": 0.01,
+          "2030": 0.01
+        }
+      }
+    }
+  },
+  "ticker": "COP"
+}

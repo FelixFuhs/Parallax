@@ -1,0 +1,671 @@
+{
+  "_meta": {
+    "cost_usd": 0.026808,
+    "generated_at": "2026-03-21T14:46:27Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12198,
+      "prompt": 2515,
+      "reasoning": 8846
+    }
+  },
+  "_valuation": {
+    "company_name": "Airbnb, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 128.52,
+        "description": "Base case",
+        "enterprise_value": 53542041474.91109,
+        "equity_value": 62557041474.91109,
+        "exit_multiple_terminal_value": 63369561893.40774,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 62557041474.91109,
+        "investments_adjustment": 4454000000.0,
+        "net_debt": -4561000000.0,
+        "per_share_value": 100.41258663709645,
+        "projected_years": [
+          {
+            "capex": 40762530.00000001,
+            "cash_taxes": 576382174.2000002,
+            "da": 104623827.00000001,
+            "delta_nwc": -508178220.00000095,
+            "discount_factor": 0.9165062780680048,
+            "ebit": 2853377100.0000005,
+            "ebit_margin": 0.21,
+            "ebitda": 2958000927.0000005,
+            "fcff": 2849034442.800001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -4375178220.000001,
+            "present_value_fcff": 2611157953.258181,
+            "revenue": 13587510000.000002,
+            "revenue_growth": 0.11,
+            "year": 2026
+          },
+          {
+            "capex": 44838783.000000015,
+            "cash_taxes": 640058681.0640002,
+            "da": 118075461.90000004,
+            "delta_nwc": -422571561.0,
+            "discount_factor": 0.839983757738067,
+            "ebit": 3168607332.000001,
+            "ebit_margin": 0.212,
+            "ebitda": 3286682793.900001,
+            "fcff": 3024356890.836001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -4797749781.000001,
+            "present_value_fcff": 2540410665.905441,
+            "revenue": 14946261000.000004,
+            "revenue_growth": 0.1,
+            "year": 2027
+          },
+          {
+            "capex": 48059702.24550001,
+            "cash_taxes": 704245697.8537203,
+            "da": 131960538.36900003,
+            "delta_nwc": -415506055.80000114,
+            "discount_factor": 0.7698503874420924,
+            "ebit": 3486364840.860001,
+            "ebit_margin": 0.214,
+            "ebitda": 3618325379.229001,
+            "fcff": 3281526034.929782,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5213255836.800002,
+            "present_value_fcff": 2526284089.392006,
+            "revenue": 16291424490.000006,
+            "revenue_growth": 0.09,
+            "year": 2028
+          },
+          {
+            "capex": 51904478.42514002,
+            "cash_taxes": 764139490.8487564,
+            "da": 146036329.12836006,
+            "delta_nwc": -399465728.49480057,
+            "discount_factor": 0.7055727132637635,
+            "ebit": 3782868766.578002,
+            "ebit_margin": 0.215,
+            "ebitda": 3928905095.7063622,
+            "fcff": 3512326854.9272666,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5612721565.294803,
+            "present_value_fcff": 2478201988.9002123,
+            "revenue": 17594738449.20001,
+            "revenue_growth": 0.08,
+            "year": 2029
+          },
+          {
+            "capex": 54596473.40786762,
+            "cash_taxes": 821432181.9765794,
+            "da": 158141509.18140966,
+            "delta_nwc": -374064139.4299917,
+            "discount_factor": 0.6466618213397155,
+            "ebit": 4066495950.379106,
+            "ebit_margin": 0.216,
+            "ebitda": 4224637459.560516,
+            "fcff": 3722672943.606061,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5986785704.724794,
+            "present_value_fcff": 2407310465.9643755,
+            "revenue": 18826370140.64401,
+            "revenue_growth": 0.07,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 63369561893.40774,
+        "terminal_value_present_value": 40978676311.490875,
+        "upside_downside_pct": -0.21870069532293457
+      },
+      "bear": {
+        "current_price": 128.52,
+        "description": "Modestly weaker growth and margin compression versus base case; valuation mechanics (WACC/terminal multiple) held constant.",
+        "enterprise_value": 47432372155.4706,
+        "equity_value": 56447372155.4706,
+        "exit_multiple_terminal_value": 55970317361.18265,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 56447372155.4706,
+        "investments_adjustment": 4454000000.0,
+        "net_debt": -4561000000.0,
+        "per_share_value": 90.60573379690304,
+        "projected_years": [
+          {
+            "capex": 40028070.00000001,
+            "cash_taxes": 547130346.1400001,
+            "da": 102738713.00000001,
+            "delta_nwc": -429346180.00000095,
+            "discount_factor": 0.9165062780680048,
+            "ebit": 2708566070.0000005,
+            "ebit_margin": 0.203,
+            "ebitda": 2811304783.0000005,
+            "fcff": 2653492546.8600016,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -4296346180.000001,
+            "present_value_fcff": 2431942578.003851,
+            "revenue": 13342690000.000002,
+            "revenue_growth": 0.09,
+            "year": 2026
+          },
+          {
+            "capex": 43230315.60000001,
+            "cash_taxes": 593811615.0816002,
+            "da": 113839831.08000004,
+            "delta_nwc": -329297589.20000076,
+            "discount_factor": 0.839983757738067,
+            "ebit": 2939661460.8000007,
+            "ebit_margin": 0.204,
+            "ebitda": 3053501291.8800006,
+            "fcff": 2745756950.3984013,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -4625643769.200002,
+            "present_value_fcff": 2306391241.0310645,
+            "revenue": 14410105200.000004,
+            "revenue_growth": 0.08,
+            "year": 2027
+          },
+          {
+            "capex": 45485497.063800015,
+            "cash_taxes": 641607628.4131682,
+            "da": 124892381.76840004,
+            "delta_nwc": -308376251.2800007,
+            "discount_factor": 0.7698503874420924,
+            "ebit": 3176275388.184001,
+            "ebit_margin": 0.206,
+            "ebitda": 3301167769.952401,
+            "fcff": 2922450895.755434,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -4934020020.480002,
+            "present_value_fcff": 2249849954.377811,
+            "revenue": 15418812564.000006,
+            "revenue_growth": 0.07,
+            "year": 2028
+          },
+          {
+            "capex": 48214626.88762802,
+            "cash_taxes": 683405562.2641621,
+            "da": 135654712.93807206,
+            "delta_nwc": -279697259.9109602,
+            "discount_factor": 0.7055727132637635,
+            "ebit": 3383195852.7928815,
+            "ebit_margin": 0.207,
+            "ebitda": 3518850565.7309537,
+            "fcff": 3066927636.4901237,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5213717280.390963,
+            "present_value_fcff": 2163940453.861958,
+            "revenue": 16343941317.840008,
+            "revenue_growth": 0.06,
+            "year": 2029
+          },
+          {
+            "capex": 50004288.461931504,
+            "cash_taxes": 724475925.522936,
+            "da": 144840007.95869815,
+            "delta_nwc": -269511592.3311815,
+            "discount_factor": 0.6466618213397155,
+            "ebit": 3586514482.7868114,
+            "ebit_margin": 0.208,
+            "ebitda": 3731354490.7455096,
+            "fcff": 3226385869.0918236,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5483228872.722144,
+            "present_value_fcff": 2086380562.4516397,
+            "revenue": 17242858090.32121,
+            "revenue_growth": 0.055,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 55970317361.18265,
+        "terminal_value_present_value": 36193867365.74427,
+        "upside_downside_pct": -0.2950067398311311
+      },
+      "bull": {
+        "current_price": 128.52,
+        "description": "Modestly stronger growth and margin expansion versus base case; valuation mechanics (WACC/terminal multiple) held constant.",
+        "enterprise_value": 60503951536.98539,
+        "equity_value": 69518951536.98538,
+        "exit_multiple_terminal_value": 71875835945.2204,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 69518951536.98538,
+        "investments_adjustment": 4454000000.0,
+        "net_debt": -4561000000.0,
+        "per_share_value": 111.58740214604396,
+        "projected_years": [
+          {
+            "capex": 41496989.99999999,
+            "cash_taxes": 609120483.88,
+            "da": 106508940.99999999,
+            "delta_nwc": -587010259.999999,
+            "discount_factor": 0.9165062780680048,
+            "ebit": 3015447939.9999995,
+            "ebit_margin": 0.218,
+            "ebitda": 3121956880.9999995,
+            "fcff": 3058349667.1199985,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -4454010259.999999,
+            "present_value_fcff": 2802996670.4426713,
+            "revenue": 13832329999.999998,
+            "revenue_growth": 0.13,
+            "year": 2026
+          },
+          {
+            "capex": 46476628.800000004,
+            "cash_taxes": 688473794.6240001,
+            "da": 122388455.84000002,
+            "delta_nwc": -518989021.60000134,
+            "discount_factor": 0.839983757738067,
+            "ebit": 3408286112.0,
+            "ebit_margin": 0.22,
+            "ebitda": 3530674567.84,
+            "fcff": 3314713166.016001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -4972999281.6,
+            "present_value_fcff": 2784305221.0139656,
+            "revenue": 15492209600.0,
+            "revenue_growth": 0.12,
+            "year": 2027
+          },
+          {
+            "capex": 50729240.3352,
+            "cash_taxes": 771153238.505664,
+            "da": 139290456.5136,
+            "delta_nwc": -529833568.3199997,
+            "discount_factor": 0.7698503874420924,
+            "ebit": 3817590289.632,
+            "ebit_margin": 0.222,
+            "ebitda": 3956880746.1456,
+            "fcff": 3664831835.624736,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -5502832849.92,
+            "present_value_fcff": 2821372208.565818,
+            "revenue": 17196352656.0,
+            "revenue_growth": 0.11,
+            "year": 2028
+          },
+          {
+            "capex": 55802164.36872,
+            "cash_taxes": 852089591.9163938,
+            "da": 157002699.74928004,
+            "delta_nwc": -531367297.0704012,
+            "discount_factor": 0.7055727132637635,
+            "ebit": 4218265306.5168004,
+            "ebit_margin": 0.223,
+            "ebitda": 4375268006.266081,
+            "fcff": 3998743547.0513678,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -6034200146.990401,
+            "present_value_fcff": 2821404334.138999,
+            "revenue": 18915987921.600002,
+            "revenue_growth": 0.1,
+            "year": 2029
+          },
+          {
+            "capex": 59793437.8201776,
+            "cash_taxes": 932942577.4094471,
+            "da": 173194785.4101696,
+            "delta_nwc": -522459586.39459133,
+            "discount_factor": 0.6466618213397155,
+            "ebit": 4618527610.937857,
+            "ebit_margin": 0.224,
+            "ebitda": 4791722396.348026,
+            "fcff": 4321445967.512993,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -6556659733.384993,
+            "present_value_fcff": 2794514120.173121,
+            "revenue": 20618426834.544003,
+            "revenue_growth": 0.09,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 71875835945.2204,
+        "terminal_value_present_value": 46479358982.65082,
+        "upside_downside_pct": -0.13175068358197983
+      }
+    },
+    "ticker": "ABNB"
+  },
+  "assumptions": {
+    "cash": 6560000000.0,
+    "current_price": 128.52,
+    "debt": 1999000000.0,
+    "diluted_shares": 623000000.0,
+    "investments": 4454000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.215,
+    "tax_rate": 0.202,
+    "terminal_exit_ebitda_multiple": 15.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.0911
+  },
+  "company_name": "Airbnb, Inc.",
+  "comps": [
+    {
+      "company_name": "Booking Holdings Inc.",
+      "ev_ntm_ebitda": 13.72,
+      "ev_ntm_revenue": null,
+      "notes": "EV/EBITDA and forward P/E from StockAnalysis. EV/Sales (proxy for EV/Revenue) not captured in sourced snippet.",
+      "pe_ntm": 16.15,
+      "source": "https://stockanalysis.com/stocks/bkng/statistics/",
+      "ticker": "BKNG"
+    },
+    {
+      "company_name": "Expedia Group, Inc.",
+      "ev_ntm_ebitda": 12.85,
+      "ev_ntm_revenue": 2.01,
+      "notes": "EV/Sales used as a rough proxy for EV/NTM Revenue; EV/EBITDA used as proxy for EV/NTM EBITDA; both are from StockAnalysis valuation ratios and may not be explicitly NTM.",
+      "pe_ntm": 12.21,
+      "source": "https://stockanalysis.com/stocks/expe/statistics/",
+      "ticker": "EXPE"
+    },
+    {
+      "company_name": "Tripadvisor, Inc.",
+      "ev_ntm_ebitda": 8.77,
+      "ev_ntm_revenue": 0.68,
+      "notes": "EV/Sales used as rough proxy for EV/NTM Revenue; EV/EBITDA used as proxy for EV/NTM EBITDA; forward P/E provided by StockAnalysis.",
+      "pe_ntm": 6.45,
+      "source": "https://stockanalysis.com/stocks/trip/statistics/",
+      "ticker": "TRIP"
+    },
+    {
+      "company_name": "Trip.com Group Limited",
+      "ev_ntm_ebitda": 11.2,
+      "ev_ntm_revenue": 2.98,
+      "notes": "EV/Sales used as rough proxy for EV/NTM Revenue; EV/EBITDA used as proxy for EV/NTM EBITDA; forward P/E provided by StockAnalysis.",
+      "pe_ntm": 12.45,
+      "source": "https://stockanalysis.com/stocks/tcom/statistics/",
+      "ticker": "TCOM"
+    },
+    {
+      "company_name": "MakeMyTrip Limited",
+      "ev_ntm_ebitda": 26.42,
+      "ev_ntm_revenue": 4.22,
+      "notes": "EV/Sales used as rough proxy for EV/NTM Revenue; EV/EBITDA used as proxy for EV/NTM EBITDA; forward P/E provided by StockAnalysis (very high, likely reflecting earnings normalization/volatility).",
+      "pe_ntm": 79.56,
+      "source": "https://stockanalysis.com/stocks/mmyt/statistics/",
+      "ticker": "MMYT"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.003,
+      "2027": 0.003,
+      "2028": 0.00295,
+      "2029": 0.00295,
+      "2030": 0.0029
+    },
+    "da_pct_sales": {
+      "2026": 0.0077,
+      "2027": 0.0079,
+      "2028": 0.0081,
+      "2029": 0.0083,
+      "2030": 0.0084
+    },
+    "ebit_margin": {
+      "2026": 0.21,
+      "2027": 0.212,
+      "2028": 0.214,
+      "2029": 0.215,
+      "2030": 0.216
+    },
+    "nwc_pct_sales": {
+      "2026": -0.322,
+      "2027": -0.321,
+      "2028": -0.32,
+      "2029": -0.319,
+      "2030": -0.318
+    },
+    "revenue_growth": {
+      "2026": 0.11,
+      "2027": 0.1,
+      "2028": 0.09,
+      "2029": 0.08,
+      "2030": 0.07
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 47000000.0,
+      "2024": 34000000.0,
+      "2025": 33000000.0
+    },
+    "da": {
+      "2023": 44000000.0,
+      "2024": 65000000.0,
+      "2025": 91000000.0
+    },
+    "ebit": {
+      "2023": 1518000000.0,
+      "2024": 2553000000.0,
+      "2025": 2544000000.0
+    },
+    "nwc": {
+      "2023": -3512000000.0,
+      "2024": -3592000000.0,
+      "2025": -3867000000.0
+    },
+    "revenue": {
+      "2023": 9917000000.0,
+      "2024": 11102000000.0,
+      "2025": 12241000000.0
+    }
+  },
+  "notes": [
+    "EBIT is modeled as income from operations (U.S. GAAP) from the consolidated statements of operations.",
+    "D&A is taken from the 'Depreciation and amortization' line in the Adjusted EBITDA reconciliation; this may not perfectly match a standalone cash-flow D&A line item in every period.",
+    "Capex is proxied by 'Purchases of property and equipment' in the Free Cash Flow reconciliation; this is used as a modeling proxy for cash capex/investment intensity.",
+    "NWC construction (used for both historical levels and forecast % sales) is defined as: (Funds receivable and amounts held on behalf of customers + Prepaids and other current assets) \u2212 (Accrued expenses, accounts payable, and other current liabilities + Funds payable and amounts payable to customers + Unearned fees). Cash, short-term investments, and current portion of debt are excluded from operating working capital.",
+    "NWC is negative for all historical years, implying a working-capital source of cash in the model.",
+    "WACC is an internal base-case estimate: CAPM-style cost of equity using beta (GuruFocus) and equity risk premium assumption, blended with after-tax cost of debt approximated from the company\u2019s effective interest disclosures; debt is small relative to equity market value so WACC is equity-dominated.",
+    "Peer comps use EV/EBITDA and forward P/E from StockAnalysis. The EV/Sales and EV/EBITDA inputs are treated as proxies for EV/NTM multiples due to limited explicit NTM labeling in the sourced snippets; terminal exit EBITDA multiple is set accordingly."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Reacceleration in Nights and Experiences Booked and ADR that lifts revenue growth above base-case assumptions.",
+      "Further operating-cost discipline or margin expansion through scale and improved efficiency in product and support functions.",
+      "Capital return pace (repurchases) and any incremental balance-sheet flexibility that improves equity value per share."
+    ],
+    "company_overview": [
+      "Airbnb operates a global two-sided marketplace connecting hosts with guests to book unique stays, experiences, and services.",
+      "Revenue is recognized when guest check-ins occur, linking operating performance to bookings timing and seasonality.",
+      "The platform supports a broad international footprint and multi-currency payments, with FX exposure reflected in reported results."
+    ],
+    "current_context": [
+      "FY2025 results (most recently filed annual figures): revenue of $12.241B and income from operations of $2.544B.",
+      "Cash generation remained strong in FY2025, supporting continued share repurchases and liquidity management.",
+      "Balance sheet liquidity: cash & cash equivalents of $6.560B and short-term investments of $4.454B, with $1.999B of total debt."
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes continued travel demand with decelerating but resilient year-over-year growth from the FY2025 run-rate.",
+      "EBIT margin normalizes modestly upward versus FY2025 as operating leverage offsets reinvestment needs.",
+      "D&A intensity increases gradually as prior internal-use software and technology investments amortize into earnings.",
+      "Working-capital mechanics (funds receivable/payable and unearned fees) support persistently negative NWC as a % of sales."
+    ],
+    "key_risks": [
+      "Regulatory and tax developments (including uncertain tax positions and cross-border tax impacts) that can pressure cash taxes and earnings quality.",
+      "Foreign exchange volatility impacting revenue and other expense lines given Airbnb\u2019s multi-currency operations.",
+      "Competitive dynamics and host/guest experience risks that could slow growth or force higher marketing/program spending."
+    ],
+    "sources": [
+      {
+        "label": "Airbnb, Inc. Form 10-K (FY2025, filed Feb 12, 2026)",
+        "notes": "Provides FY2025 and FY2024 revenue, income from operations (EBIT), balance sheet items used for NWC, cash/debt/investments, tax expense, and FY2025 tax/NOL disclosures.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm"
+      },
+      {
+        "label": "Airbnb, Inc. Form 10-K (FY2024, filed Feb 13, 2025)",
+        "notes": "Provides FY2023 revenue, EBIT, cash flow purchases of property and equipment (capex proxy), and balance sheet items used for NWC construction.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm"
+      },
+      {
+        "label": "FRED DGS10 (10-Year Treasury Constant Maturity Rate)",
+        "notes": "Used as the risk-free-rate anchor for WACC (latest trading observation prior to 2026-03-21).",
+        "url": "https://fred.stlouisfed.org/series/DGS10"
+      },
+      {
+        "label": "GuruFocus ABNB beta estimate",
+        "notes": "Used for CAPM beta input in WACC.",
+        "url": "https://www.gurufocus.com/term/beta/ABNB"
+      },
+      {
+        "label": "StockAnalysis peer valuation ratios (used as comps reference)",
+        "notes": "Used to obtain peer EV/EBITDA and forward P/E (EV/Sales used as a rough EV/Revenue proxy).",
+        "url": "https://stockanalysis.com/stocks/expe/statistics/"
+      }
+    ],
+    "subtitle": "Airbnb (ABNB) \u2014 DCF Base-Case Inputs + Peer Comps (Auto-Pitchbook)",
+    "valuation_summary": [
+      "DCF base case uses EBIT (income from operations) margins aligned to recent profitability levels and a conservative terminal growth assumption.",
+      "Terminal value uses an EBITDA exit multiple grounded in peer EV/EBITDA ranges (with caveats that peer inputs are not explicitly labeled NTM).",
+      "WACC is anchored to current risk-free levels and a market beta estimate; debt costs are low given Airbnb\u2019s effective interest disclosures."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.208,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 15.0,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.0911
+      },
+      "description": "Modestly weaker growth and margin compression versus base case; valuation mechanics (WACC/terminal multiple) held constant.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.003,
+          "2027": 0.003,
+          "2028": 0.00295,
+          "2029": 0.00295,
+          "2030": 0.0029
+        },
+        "da_pct_sales": {
+          "2026": 0.0077,
+          "2027": 0.0079,
+          "2028": 0.0081,
+          "2029": 0.0083,
+          "2030": 0.0084
+        },
+        "ebit_margin": {
+          "2026": 0.203,
+          "2027": 0.204,
+          "2028": 0.206,
+          "2029": 0.207,
+          "2030": 0.208
+        },
+        "nwc_pct_sales": {
+          "2026": -0.322,
+          "2027": -0.321,
+          "2028": -0.32,
+          "2029": -0.319,
+          "2030": -0.318
+        },
+        "revenue_growth": {
+          "2026": 0.09,
+          "2027": 0.08,
+          "2028": 0.07,
+          "2029": 0.06,
+          "2030": 0.055
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.224,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 15.0,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.0911
+      },
+      "description": "Modestly stronger growth and margin expansion versus base case; valuation mechanics (WACC/terminal multiple) held constant.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.003,
+          "2027": 0.003,
+          "2028": 0.00295,
+          "2029": 0.00295,
+          "2030": 0.0029
+        },
+        "da_pct_sales": {
+          "2026": 0.0077,
+          "2027": 0.0079,
+          "2028": 0.0081,
+          "2029": 0.0083,
+          "2030": 0.0084
+        },
+        "ebit_margin": {
+          "2026": 0.218,
+          "2027": 0.22,
+          "2028": 0.222,
+          "2029": 0.223,
+          "2030": 0.224
+        },
+        "nwc_pct_sales": {
+          "2026": -0.322,
+          "2027": -0.321,
+          "2028": -0.32,
+          "2029": -0.319,
+          "2030": -0.318
+        },
+        "revenue_growth": {
+          "2026": 0.13,
+          "2027": 0.12,
+          "2028": 0.11,
+          "2029": 0.1,
+          "2030": 0.09
+        }
+      }
+    }
+  },
+  "ticker": "ABNB"
+}

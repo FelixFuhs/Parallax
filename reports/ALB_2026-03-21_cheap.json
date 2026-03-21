@@ -1,0 +1,681 @@
+{
+  "_meta": {
+    "cost_usd": 0.022905,
+    "generated_at": "2026-03-21T14:46:10Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [
+      "margin_reversal"
+    ],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10874,
+      "prompt": 2514,
+      "reasoning": 7048
+    }
+  },
+  "_valuation": {
+    "company_name": "Albemarle Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 156.7,
+        "description": "Base case",
+        "enterprise_value": 12295686516.287554,
+        "equity_value": 9137871516.287554,
+        "exit_multiple_terminal_value": 16007633447.986034,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 9137871516.287554,
+        "investments_adjustment": 900926000.0,
+        "net_debt": 1575540000.0,
+        "per_share_value": 77.66072474408107,
+        "projected_years": [
+          {
+            "capex": 586271562.0000001,
+            "cash_taxes": 139532631.756,
+            "da": 674212296.3000002,
+            "delta_nwc": 330490655.4000002,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 469017249.6000001,
+            "ebit_margin": 0.08,
+            "ebitda": 1143229545.9000003,
+            "fcff": 86934696.74399996,
+            "nol_balance_end": 9829647412.56,
+            "nol_used": 70352587.44000001,
+            "nwc": 996661655.4000002,
+            "present_value_fcff": 79756602.51743115,
+            "revenue": 5862715620.000001,
+            "revenue_growth": 0.14,
+            "year": 2026
+          },
+          {
+            "capex": 609018898.6056002,
+            "cash_taxes": 184880737.07670003,
+            "da": 702236076.9636002,
+            "delta_nwc": 28727306.538000107,
+            "discount_factor": 0.84167999326656,
+            "ebit": 621447855.7200001,
+            "ebit_margin": 0.1,
+            "ebitda": 1323683932.6836004,
+            "fcff": 501056990.4632999,
+            "nol_balance_end": 9736430234.202,
+            "nol_used": 93217178.35800003,
+            "nwc": 1025388961.9380003,
+            "present_value_fcff": 421729644.359313,
+            "revenue": 6214478557.200002,
+            "revenue_growth": 0.06,
+            "year": 2027
+          },
+          {
+            "capex": 613990481.4513602,
+            "cash_taxes": 211503563.21574482,
+            "da": 723862462.3426563,
+            "delta_nwc": 8700269.980080009,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 710936346.9436802,
+            "ebit_margin": 0.11,
+            "ebitda": 1434798809.2863364,
+            "fcff": 600604494.6391512,
+            "nol_balance_end": 9629789782.160448,
+            "nol_used": 106640452.04155202,
+            "nwc": 1034089231.9180803,
+            "present_value_fcff": 463776868.81077653,
+            "revenue": 6463057699.488002,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 619096297.0339557,
+            "cash_taxes": 227750882.39004526,
+            "da": 738921386.7824633,
+            "delta_nwc": -2262070.194820881,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 765549184.5043539,
+            "ebit_margin": 0.115,
+            "ebitda": 1504470571.286817,
+            "fcff": 659885462.0576371,
+            "nol_balance_end": 9514957404.484795,
+            "nol_used": 114832377.67565309,
+            "nwc": 1031827161.7232594,
+            "present_value_fcff": 467479497.7370361,
+            "revenue": 6656949430.472642,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 627750331.29357,
+            "cash_taxes": 243594422.0345701,
+            "da": 750571048.2857903,
+            "delta_nwc": -8321186.788090944,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 818804779.9481348,
+            "ebit_margin": 0.12,
+            "ebitda": 1569375828.233925,
+            "fcff": 706352261.693876,
+            "nol_balance_end": 9392136687.492575,
+            "nol_used": 122820716.99222021,
+            "nwc": 1023505974.9351685,
+            "present_value_fcff": 459080504.6576724,
+            "revenue": 6823373166.234457,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 16007633447.986034,
+        "terminal_value_present_value": 10403863398.205324,
+        "upside_downside_pct": -0.5043986934008866
+      },
+      "bear": {
+        "current_price": 156.7,
+        "description": "Modestly weaker pricing/volume and slower margin normalization pressure EBIT margins; working capital is less efficient and sustaining capex remains heavier as a share of sales.",
+        "enterprise_value": 11460693627.085493,
+        "equity_value": 8302878627.085493,
+        "exit_multiple_terminal_value": 15019254477.933245,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 8302878627.085493,
+        "investments_adjustment": 900926000.0,
+        "net_debt": 1575540000.0,
+        "per_share_value": 70.56430707000861,
+        "projected_years": [
+          {
+            "capex": 587505817.9200001,
+            "cash_taxes": 128516897.67,
+            "da": 662384010.4000001,
+            "delta_nwc": 341804668.0000001,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 431989572.00000006,
+            "ebit_margin": 0.075,
+            "ebitda": 1094373582.4,
+            "fcff": 36546198.80999994,
+            "nol_balance_end": 9835201564.2,
+            "nol_used": 64798435.800000004,
+            "nwc": 1007975668.0000001,
+            "present_value_fcff": 33528622.761467837,
+            "revenue": 5759860960.000001,
+            "revenue_growth": 0.12,
+            "year": 2026
+          },
+          {
+            "capex": 604785400.8000001,
+            "cash_taxes": 170927473.9011,
+            "da": 683407502.9040002,
+            "delta_nwc": 26207367.36800015,
+            "discount_factor": 0.84167999326656,
+            "ebit": 574546130.7600001,
+            "ebit_margin": 0.095,
+            "ebitda": 1257953633.6640003,
+            "fcff": 456033391.59490013,
+            "nol_balance_end": 9749019644.586,
+            "nol_used": 86181919.61400001,
+            "nwc": 1034183035.3680003,
+            "present_value_fcff": 383834181.96692204,
+            "revenue": 6047854008.000001,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 607174303.1331601,
+            "cash_taxes": 195532033.96002153,
+            "da": 701067236.6073601,
+            "delta_nwc": 4898761.746479869,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 657250534.3194001,
+            "ebit_margin": 0.105,
+            "ebitda": 1358317770.9267602,
+            "fcff": 550712672.0870987,
+            "nol_balance_end": 9650432064.438091,
+            "nol_used": 98587580.14791001,
+            "nwc": 1039081797.1144801,
+            "present_value_fcff": 425251227.6459436,
+            "revenue": 6259528898.280001,
+            "revenue_growth": 0.035,
+            "year": 2028
+          },
+          {
+            "capex": 603105609.3492781,
+            "cash_taxes": 209964160.27611834,
+            "da": 712177900.4018071,
+            "delta_nwc": -6103040.675823092,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 705761883.2810701,
+            "ebit_margin": 0.11,
+            "ebitda": 1417939783.682877,
+            "fcff": 610973054.7333038,
+            "nol_balance_end": 9544567781.94593,
+            "nol_used": 105864282.49216051,
+            "nwc": 1032978756.438657,
+            "present_value_fcff": 432828715.2545885,
+            "revenue": 6416017120.737,
+            "revenue_growth": 0.025,
+            "year": 2029
+          },
+          {
+            "capex": 608623384.0731119,
+            "cash_taxes": 223898145.45807895,
+            "da": 719877120.9466915,
+            "delta_nwc": -12062112.186985493,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 752598808.2624502,
+            "ebit_margin": 0.115,
+            "ebitda": 1472475929.2091417,
+            "fcff": 652016511.8649365,
+            "nol_balance_end": 9431677960.706562,
+            "nol_used": 112889821.23936753,
+            "nwc": 1020916644.2516716,
+            "present_value_fcff": 423765995.44578964,
+            "revenue": 6544337463.151741,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 15019254477.933245,
+        "terminal_value_present_value": 9761484884.010782,
+        "upside_downside_pct": -0.5496853409699514
+      },
+      "bull": {
+        "current_price": 156.7,
+        "description": "Modestly stronger lithium-related pricing/volume and normalized cost structure support higher margins and slightly better working-capital efficiency.",
+        "enterprise_value": 13091803768.907158,
+        "equity_value": 9933988768.907158,
+        "exit_multiple_terminal_value": 16932432896.849276,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 9933988768.907158,
+        "investments_adjustment": 900926000.0,
+        "net_debt": 1575540000.0,
+        "per_share_value": 84.42674708413072,
+        "projected_years": [
+          {
+            "capex": 584625887.44,
+            "cash_taxes": 150854358.4555,
+            "da": 686040582.2,
+            "delta_nwc": 318148096.20000005,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 507073473.8,
+            "ebit_margin": 0.085,
+            "ebitda": 1193114056.0,
+            "fcff": 139485713.9045,
+            "nol_balance_end": 9823938978.93,
+            "nol_used": 76061021.07,
+            "nwc": 984319096.2,
+            "present_value_fcff": 127968544.86651376,
+            "revenue": 5965570280.0,
+            "revenue_growth": 0.16,
+            "year": 2026
+          },
+          {
+            "capex": 609919905.4272,
+            "cash_taxes": 198462219.22689748,
+            "da": 717926555.3466,
+            "delta_nwc": 32214079.511999965,
+            "discount_factor": 0.84167999326656,
+            "ebit": 667099896.561,
+            "ebit_margin": 0.105,
+            "ebitda": 1385026451.9076,
+            "fcff": 544430247.7415028,
+            "nol_balance_end": 9723873994.44585,
+            "nol_used": 100064984.48414999,
+            "nwc": 1016533175.712,
+            "present_value_fcff": 458236047.2531796,
+            "revenue": 6353332348.2,
+            "revenue_growth": 0.065,
+            "year": 2027
+          },
+          {
+            "capex": 624087836.5636859,
+            "cash_taxes": 233070250.02732122,
+            "da": 743594018.0333279,
+            "delta_nwc": 19187063.691563964,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 783429411.8565419,
+            "ebit_margin": 0.118,
+            "ebitda": 1527023429.8898697,
+            "fcff": 650678279.6072987,
+            "nol_balance_end": 9606359582.66737,
+            "nol_used": 117514411.77848127,
+            "nwc": 1035720239.403564,
+            "present_value_fcff": 502443018.3473101,
+            "revenue": 6639232303.8689995,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 632187699.974406,
+            "cash_taxes": 249404919.24533764,
+            "da": 762748203.2299899,
+            "delta_nwc": 1892181.2066024542,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 838335863.0095384,
+            "ebit_margin": 0.122,
+            "ebitda": 1601084066.2395282,
+            "fcff": 717599265.8131822,
+            "nol_balance_end": 9480609203.215939,
+            "nol_used": 125750379.45143075,
+            "nwc": 1037612420.6101664,
+            "present_value_fcff": 508365411.3439335,
+            "revenue": 6871605434.504414,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 642824945.1870189,
+            "cash_taxes": 262692886.25431058,
+            "da": 777041142.5337591,
+            "delta_nwc": 797106.2304024696,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 883001298.3338171,
+            "ebit_margin": 0.125,
+            "ebitda": 1660042440.8675761,
+            "fcff": 753727503.1958442,
+            "nol_balance_end": 9348159008.465866,
+            "nol_used": 132450194.75007257,
+            "nwc": 1038409526.8405689,
+            "present_value_fcff": 489871161.04326546,
+            "revenue": 7064010386.670537,
+            "revenue_growth": 0.028,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 16932432896.849276,
+        "terminal_value_present_value": 11004919586.052956,
+        "upside_downside_pct": -0.4612205036111632
+      }
+    },
+    "ticker": "ALB"
+  },
+  "assumptions": {
+    "cash": 1618001000.0,
+    "current_price": 156.7,
+    "debt": 3193541000.0,
+    "diluted_shares": 117664000.0,
+    "investments": 900926000.0,
+    "minority_interest": 248096000.0,
+    "net_debt_override": null,
+    "nol_balance": 9900000000.0,
+    "nol_utilization_pct": 0.15,
+    "preferred_equity": 2235105000.0,
+    "target_ebit_margin": 0.12,
+    "tax_rate": 0.35,
+    "terminal_exit_ebitda_multiple": 10.2,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.09
+  },
+  "company_name": "Albemarle Corporation",
+  "comps": [
+    {
+      "company_name": "FMC Corporation",
+      "ev_ntm_ebitda": 13.03,
+      "ev_ntm_revenue": 1.56,
+      "notes": "Multiples sourced from StockAnalysis. EV/Sales and EV/EBITDA appear to be trailing (or not explicitly NTM) per the source; forward P/E is provided.",
+      "pe_ntm": 8.15,
+      "source": "https://stockanalysis.com/stocks/fmc/statistics/",
+      "ticker": "FMC"
+    },
+    {
+      "company_name": "ICL Group",
+      "ev_ntm_ebitda": 7.4,
+      "ev_ntm_revenue": 1.26,
+      "notes": "Multiples sourced from StockAnalysis. EV/Sales and EV/EBITDA appear to be trailing (or not explicitly NTM) per the source; forward P/E is provided.",
+      "pe_ntm": 13.57,
+      "source": "https://stockanalysis.com/stocks/icl/statistics/",
+      "ticker": "ICL"
+    },
+    {
+      "company_name": "Sociedad Qu\u00edmica y Minera de Chile",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM and P/E NTM not captured due to data availability limits during this run. Include as a lithium/chemical producer peer but leave multiples as null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SQM"
+    },
+    {
+      "company_name": "Livent",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM and P/E NTM not captured due to data availability limits during this run. Include as a lithium chemical peer but leave multiples as null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "LTHM"
+    },
+    {
+      "company_name": "The Chemours Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM and P/E NTM not captured due to data availability limits during this run. Include as a specialty chemicals peer but leave multiples as null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CC"
+    },
+    {
+      "company_name": "Piedmont Lithium",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM and P/E NTM not captured due to data availability limits during this run. Include as an upstream lithium producer peer but leave multiples as null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PLL"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.1,
+      "2027": 0.098,
+      "2028": 0.095,
+      "2029": 0.093,
+      "2030": 0.092
+    },
+    "da_pct_sales": {
+      "2026": 0.115,
+      "2027": 0.113,
+      "2028": 0.112,
+      "2029": 0.111,
+      "2030": 0.11
+    },
+    "ebit_margin": {
+      "2026": 0.08,
+      "2027": 0.1,
+      "2028": 0.11,
+      "2029": 0.115,
+      "2030": 0.12
+    },
+    "nwc_pct_sales": {
+      "2026": 0.17,
+      "2027": 0.165,
+      "2028": 0.16,
+      "2029": 0.155,
+      "2030": 0.15
+    },
+    "revenue_growth": {
+      "2026": 0.14,
+      "2027": 0.06,
+      "2028": 0.04,
+      "2029": 0.03,
+      "2030": 0.025
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 2154542000.0,
+      "2024": 1680529000.0,
+      "2025": 589801000.0
+    },
+    "da": {
+      "2023": 429944000.0,
+      "2024": 588638000.0,
+      "2025": 658678000.0
+    },
+    "ebit": {
+      "2023": 251881000.0,
+      "2024": -1776545000.0,
+      "2025": -367084000.0
+    },
+    "nwc": {
+      "2023": 1392318000.0,
+      "2024": 1081591000.0,
+      "2025": 666171000.0
+    },
+    "revenue": {
+      "2023": 9617203000.0,
+      "2024": 5377526000.0,
+      "2025": 5142733000.0
+    }
+  },
+  "notes": [
+    "EBIT is defined as GAAP Operating (loss) profit from the consolidated statements of (loss) income. This includes goodwill impairment, long-lived asset impairment, and restructuring/asset write-offs; forecast EBIT margins assume these charges do not recur at the same level. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000915913/000091591326000018/alb-20251231.htm))",
+    "D&A and capex are taken directly from the consolidated statement of cash flows (Depreciation and amortization; Capital expenditures) and converted from thousands to full USD units. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000915913/000091591326000018/alb-20251231.htm))",
+    "NWC is calculated as (Total current assets - Cash and cash equivalents) - (Total current liabilities - Current portion of long-term debt), using year-end balance sheet components. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000915913/000091591326000018/alb-20251231.htm))",
+    "2026 base-case revenue growth is anchored to lithium market-price scenario framing from the Feb 11, 2026 earnings release; specific scenario midpoints are used only implicitly (the model converts this into a single growth path rather than scenario-tagged revenue). ([investors.albemarle.com](https://investors.albemarle.com/news-and-events/news/news-details/2026/Albemarle-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx))",
+    "2026 capex and D&A guidance ($550M\u2013$600M; $660M\u2013$680M) motivated the order of magnitude for capex_pct_sales and da_pct_sales. ([investors.albemarle.com](https://investors.albemarle.com/news-and-events/news/news-details/2026/Albemarle-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx))",
+    "Current_price is sourced from a live finance snapshot (ALB = 156.7 USD) and used as of 2026-03-21 context.",
+    "NOL balance uses management disclosure of domestic and foreign net operating losses (pre-tax) as total NOL carryforwards, while nol_utilization_pct reflects limited apparent realizability (valuation allowances disclosed). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000915913/000091591326000018/alb-20251231.htm))",
+    "Comps: Only FMC and ICL valuation ratios were captured with explicit multiples during this run; for other selected peers, multiples are set to null due to data availability limitations. ([stockanalysis.com](https://stockanalysis.com/stocks/fmc/statistics/?utm_source=openai))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Shifts in lithium carbonate equivalent (LCE) and spodumene pricing and the resulting realized pricing/volume dynamics.",
+      "Execution and timing of announced strategic transactions (e.g., Ketjen controlling stake) and any related changes in equity-method earnings presentation."
+    ],
+    "company_overview": [
+      "Global specialty chemicals supplier with key exposure to lithium and bromine markets, with results reported across Energy Storage and Specialties segments.",
+      "Capital allocation and earnings power are strongly tied to lithium/spodumene pricing, volume/mix and cost productivity initiatives.",
+      "Balance sheet includes meaningful long-term debt, noncontrolling interests, and mandatory convertible preferred equity."
+    ],
+    "current_context": [
+      "FY2025 results (Feb 11, 2026) reported net sales of $5,142,733,000 and an operating loss driven by impairments/restructuring; liquidity estimated at ~$3.2B with ~$1.6B cash and $3.2B total debt.",
+      "2026 outlook includes approximately flat capex versus 2025 ($550M\u2013$600M) and depreciation and amortization guidance ($660M\u2013$680M), alongside lithium market-price scenario ranges for net sales and adjusted EBITDA."
+    ],
+    "investment_highlights": [
+      "Base case assumes revenue growth as lithium and conversion economics stabilize, with EBIT margin normalization rather than recurring impairment/restructuring charges.",
+      "Capex remains sustaining-focused and roughly in line with 2026 guidance, supporting gradual margin expansion without aggressive reinvestment.",
+      "Working capital intensity improves toward a steady-state level (NWC as a percent of sales converges downward across the forecast horizon).",
+      "Terminal valuation is anchored to an exit EV/EBITDA multiple consistent with observed chemical/lithium-adjacent trading ranges (where available)."
+    ],
+    "key_risks": [
+      "Lithium price downside or slower end-demand could delay margin normalization and reduce realized EBITDA.",
+      "Commodity cost volatility, execution risk in capacity/capital projects, and potential further impairments could weigh on earnings.",
+      "Tax rate volatility and limited realization of deferred tax assets/NOLs could constrain effective tax benefits in a recovery cycle."
+    ],
+    "sources": [
+      {
+        "label": "Form 10-K (FY2025, year ended Dec 31, 2025)",
+        "notes": "Historical income statement, cash flow (D&A and capex), balance sheet (cash, current assets/liabilities), and NOL-related deferred tax disclosures. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000915913/000091591326000018/alb-20251231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000018/alb-20251231.htm"
+      },
+      {
+        "label": "Form 10-K (FY2024, year ended Dec 31, 2024)",
+        "notes": "Prior-year historical balance sheet used for NWC and tax attribute context. ([sec.gov](https://www.sec.gov/Archives/edgar/data/915913/000091591325000026/alb-20241231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/915913/000091591325000026/alb-20241231.htm"
+      },
+      {
+        "label": "FY2025 Earnings Release (Feb 11, 2026)",
+        "notes": "2026 capex and D&A guidance and lithium market-price scenario table used for qualitative forecast anchoring. ([investors.albemarle.com](https://investors.albemarle.com/news-and-events/news/news-details/2026/Albemarle-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx))",
+        "url": "https://investors.albemarle.com/news-and-events/news/news-details/2026/Albemarle-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+      },
+      {
+        "label": "Comps: FMC valuation ratios (StockAnalysis)",
+        "notes": "Used for EV/EBITDA and EV/Sales and forward P/E when available (not guaranteed to be explicitly NTM). ([stockanalysis.com](https://stockanalysis.com/stocks/fmc/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/fmc/statistics/"
+      },
+      {
+        "label": "Comps: ICL valuation ratios (StockAnalysis)",
+        "notes": "Used for EV/EBITDA and EV/Sales and forward P/E when available (not guaranteed to be explicitly NTM). ([stockanalysis.com](https://stockanalysis.com/stocks/icl/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/icl/statistics/"
+      }
+    ],
+    "subtitle": "Albemarle (ALB) | DCF + Comps Valuation Inputs",
+    "valuation_summary": [
+      "DCF uses GAAP operating profit (EBIT) as modeled to recover over time, with explicit operating leverage assumptions via EBIT margin, D&A%, capex%, and NWC%.",
+      "Terminal value employs an exit multiple framework (terminal_method = exit_multiple) to stay consistent with the company\u2019s cyclical but asset-backed business model.",
+      "Comps are included primarily as a sanity check; limited peer multiple availability in this run is flagged in notes."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.115,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 10.2,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.09
+      },
+      "description": "Modestly weaker pricing/volume and slower margin normalization pressure EBIT margins; working capital is less efficient and sustaining capex remains heavier as a share of sales.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.102,
+          "2027": 0.1,
+          "2028": 0.097,
+          "2029": 0.094,
+          "2030": 0.093
+        },
+        "da_pct_sales": {
+          "2026": 0.115,
+          "2027": 0.113,
+          "2028": 0.112,
+          "2029": 0.111,
+          "2030": 0.11
+        },
+        "ebit_margin": {
+          "2026": 0.075,
+          "2027": 0.095,
+          "2028": 0.105,
+          "2029": 0.11,
+          "2030": 0.115
+        },
+        "nwc_pct_sales": {
+          "2026": 0.175,
+          "2027": 0.171,
+          "2028": 0.166,
+          "2029": 0.161,
+          "2030": 0.156
+        },
+        "revenue_growth": {
+          "2026": 0.12,
+          "2027": 0.05,
+          "2028": 0.035,
+          "2029": 0.025,
+          "2030": 0.02
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.125,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 10.2,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.09
+      },
+      "description": "Modestly stronger lithium-related pricing/volume and normalized cost structure support higher margins and slightly better working-capital efficiency.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.098,
+          "2027": 0.096,
+          "2028": 0.094,
+          "2029": 0.092,
+          "2030": 0.091
+        },
+        "da_pct_sales": {
+          "2026": 0.115,
+          "2027": 0.113,
+          "2028": 0.112,
+          "2029": 0.111,
+          "2030": 0.11
+        },
+        "ebit_margin": {
+          "2026": 0.085,
+          "2027": 0.105,
+          "2028": 0.118,
+          "2029": 0.122,
+          "2030": 0.125
+        },
+        "nwc_pct_sales": {
+          "2026": 0.165,
+          "2027": 0.16,
+          "2028": 0.156,
+          "2029": 0.151,
+          "2030": 0.147
+        },
+        "revenue_growth": {
+          "2026": 0.16,
+          "2027": 0.065,
+          "2028": 0.045,
+          "2029": 0.035,
+          "2030": 0.028
+        }
+      }
+    }
+  },
+  "ticker": "ALB"
+}

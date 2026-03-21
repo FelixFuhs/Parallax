@@ -1,0 +1,689 @@
+{
+  "_meta": {
+    "cost_usd": 0.028142,
+    "generated_at": "2026-03-21T14:54:32Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 13274,
+      "prompt": 2514,
+      "reasoning": 8837
+    }
+  },
+  "_valuation": {
+    "company_name": "Vistra Corp.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 146.02,
+        "description": "Base case",
+        "enterprise_value": 36287393028.61893,
+        "equity_value": 13883393028.618927,
+        "exit_multiple_terminal_value": 45471852329.59242,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 13883393028.618927,
+        "investments_adjustment": 0.0,
+        "net_debt": 19915000000.0,
+        "per_share_value": 40.165338769010894,
+        "projected_years": [
+          {
+            "capex": 2352058800.0,
+            "cash_taxes": 201211150.0,
+            "da": 1990203600.0,
+            "delta_nwc": 1368506799.9999998,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2261595000.0,
+            "ebit_margin": 0.125,
+            "ebitda": 4251798600.0,
+            "fcff": 330021850.00000024,
+            "nol_balance_end": 0.0,
+            "nol_used": 1078000000.0,
+            "nwc": -1266493200.0000002,
+            "present_value_fcff": 304167603.68663615,
+            "revenue": 18092760000.0,
+            "revenue_growth": 0.02,
+            "year": 2026
+          },
+          {
+            "capex": 2422620564.0,
+            "cash_taxes": 427685707.26000005,
+            "da": 2049909708.0,
+            "delta_nwc": 55182918.00000024,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2515798278.0,
+            "ebit_margin": 0.135,
+            "ebitda": 4565707986.0,
+            "fcff": 1660218796.7399995,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1211310282.0,
+            "present_value_fcff": 1410281634.131113,
+            "revenue": 18635542800.0,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 2495299180.92,
+            "cash_taxes": 456831696.1992001,
+            "da": 2111406999.24,
+            "delta_nwc": 59633736.96000004,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2687245271.76,
+            "ebit_margin": 0.14,
+            "ebitda": 4798652271.0,
+            "fcff": 1786887656.9208002,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1151676545.04,
+            "present_value_fcff": 1398968817.5892053,
+            "revenue": 19194609084.0,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 2349420151.8816,
+            "cash_taxes": 472625020.5535152,
+            "da": 2153635139.2248,
+            "delta_nwc": -23033530.90079999,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2780147179.7265596,
+            "ebit_margin": 0.142,
+            "ebitda": 4933782318.95136,
+            "fcff": 2134770677.4170444,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1174710075.9408,
+            "present_value_fcff": 1540395623.6334176,
+            "revenue": 19578501265.68,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 2396408554.919232,
+            "cash_taxes": 485472433.0840544,
+            "da": 2196707842.009296,
+            "delta_nwc": 76356154.93615198,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2855720194.6120844,
+            "ebit_margin": 0.143,
+            "ebitda": 5052428036.62138,
+            "fcff": 2094190893.681942,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1098353921.004648,
+            "present_value_fcff": 1392732069.3354955,
+            "revenue": 19970071290.9936,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 45471852329.59242,
+        "terminal_value_present_value": 30240847280.243057,
+        "upside_downside_pct": -0.7249326204012403
+      },
+      "bear": {
+        "current_price": 146.02,
+        "description": "Modestly weaker growth and margin pressure versus base case; higher reinvestment intensity and more unfavorable working capital profile.",
+        "enterprise_value": 34346603008.719643,
+        "equity_value": 11942603008.719643,
+        "exit_multiple_terminal_value": 43495537130.718666,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 11942603008.71964,
+        "investments_adjustment": 0.0,
+        "net_debt": 19915000000.0,
+        "per_share_value": 34.55053780010649,
+        "projected_years": [
+          {
+            "capex": 2430549450.0,
+            "cash_taxes": 184023028.0,
+            "da": 1980447700.0,
+            "delta_nwc": 1194674400.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2160488400.0,
+            "ebit_margin": 0.12,
+            "ebitda": 4140936100.0,
+            "fcff": 331689222.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 1078000000.0,
+            "nwc": -1440325600.0,
+            "present_value_fcff": 305704352.07373273,
+            "revenue": 18004070000.0,
+            "revenue_growth": 0.015,
+            "year": 2026
+          },
+          {
+            "capex": 2491313186.25,
+            "cash_taxes": 407837195.675,
+            "da": 2029958892.5,
+            "delta_nwc": 56262718.75,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2399042327.5,
+            "ebit_margin": 0.13,
+            "ebitda": 4429001220.0,
+            "fcff": 1473588119.3249998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1384062881.25,
+            "present_value_fcff": 1251747218.5223725,
+            "revenue": 18454171750.0,
+            "revenue_growth": 0.025,
+            "year": 2027
+          },
+          {
+            "capex": 2553596015.90625,
+            "cash_taxes": 434111322.7040625,
+            "da": 2080707864.8125,
+            "delta_nwc": 59976058.18749976,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2553596015.90625,
+            "ebit_margin": 0.135,
+            "ebitda": 4634303880.71875,
+            "fcff": 1586620483.9209378,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1324086823.0625002,
+            "present_value_fcff": 1242178025.997785,
+            "revenue": 18915526043.75,
+            "revenue_growth": 0.025,
+            "year": 2028
+          },
+          {
+            "capex": 2399907366.8007812,
+            "cash_taxes": 447150740.58232164,
+            "da": 2111918482.7846875,
+            "delta_nwc": -19861302.34593749,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2630298474.0136566,
+            "ebit_margin": 0.137,
+            "ebitda": 4742216956.798344,
+            "fcff": 1915020151.7611787,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1343948125.4084377,
+            "present_value_fcff": 1381829295.3657799,
+            "revenue": 19199258934.40625,
+            "revenue_growth": 0.015,
+            "year": 2029
+          },
+          {
+            "capex": 2435905977.3027925,
+            "cash_taxes": 457170833.82018816,
+            "da": 2143597260.0264575,
+            "delta_nwc": 77277017.21098566,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2689240198.942283,
+            "ebit_margin": 0.138,
+            "ebitda": 4832837458.96874,
+            "fcff": 1862483630.6347747,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1266671108.197452,
+            "present_value_fcff": 1238636214.503287,
+            "revenue": 19487247818.42234,
+            "revenue_growth": 0.015,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 43495537130.718666,
+        "terminal_value_present_value": 28926507902.256687,
+        "upside_downside_pct": -0.7633848938494283
+      },
+      "bull": {
+        "current_price": 146.02,
+        "description": "Modestly stronger growth and margin recovery versus base case; lower reinvestment intensity.",
+        "enterprise_value": 38285255174.48177,
+        "equity_value": 15881255174.481773,
+        "exit_multiple_terminal_value": 47513733968.8804,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 15881255174.481773,
+        "investments_adjustment": 0.0,
+        "net_debt": 19915000000.0,
+        "per_share_value": 45.945252204937496,
+        "projected_years": [
+          {
+            "capex": 2272681250.0,
+            "cash_taxes": 218550045.00000003,
+            "da": 1999959500.0,
+            "delta_nwc": 1544113000.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2363588500.0,
+            "ebit_margin": 0.13,
+            "ebitda": 4363548000.0,
+            "fcff": 328203705.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 1078000000.0,
+            "nwc": -1090887000.0,
+            "present_value_fcff": 302491894.0092166,
+            "revenue": 18181450000.0,
+            "revenue_growth": 0.025,
+            "year": 2026
+          },
+          {
+            "capex": 2352225093.75,
+            "cash_taxes": 447863657.8500001,
+            "da": 2069958082.5,
+            "delta_nwc": 55907958.75,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2634492105.0000005,
+            "ebit_margin": 0.14,
+            "ebitda": 4704450187.5,
+            "fcff": 1848453477.1500006,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1034979041.25,
+            "present_value_fcff": 1570178578.5639966,
+            "revenue": 18817800750.0,
+            "revenue_growth": 0.035,
+            "year": 2027
+          },
+          {
+            "capex": 2434552972.03125,
+            "cash_taxes": 480093846.0845625,
+            "da": 2142406615.3875,
+            "delta_nwc": 61157852.4375,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2824081447.5562496,
+            "ebit_margin": 0.145,
+            "ebitda": 4966488062.943749,
+            "fcff": 1990683392.3904371,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -973821188.8125,
+            "present_value_fcff": 1558522149.3140306,
+            "revenue": 19476423776.25,
+            "revenue_growth": 0.035,
+            "year": 2028
+          },
+          {
+            "capex": 2295783452.6254687,
+            "cash_taxes": 498883725.92269975,
+            "da": 2195966780.7721877,
+            "delta_nwc": -24345529.720312595,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2934610152.486469,
+            "ebit_margin": 0.147,
+            "ebitda": 5130576933.2586565,
+            "fcff": 2360255284.4308004,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -998166718.5328126,
+            "present_value_fcff": 1703099517.5528095,
+            "revenue": 19963334370.65625,
+            "revenue_growth": 0.025,
+            "year": 2029
+          },
+          {
+            "capex": 2353178038.9411054,
+            "cash_taxes": 514834430.08485395,
+            "da": 2250865950.291492,
+            "delta_nwc": 77357920.68629324,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 3028437824.0285525,
+            "ebit_margin": 0.148,
+            "ebitda": 5279303774.3200445,
+            "fcff": 2333933384.607792,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -920808797.8465194,
+            "present_value_fcff": 1552171715.6935015,
+            "revenue": 20462417729.922653,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 47513733968.8804,
+        "terminal_value_present_value": 31598791319.348217,
+        "upside_downside_pct": -0.6853495945422716
+      }
+    },
+    "ticker": "VST"
+  },
+  "assumptions": {
+    "cash": 785000000.0,
+    "current_price": 146.02,
+    "debt": 20700000000.0,
+    "diluted_shares": 345656067.0,
+    "investments": 0.0,
+    "minority_interest": 13000000.0,
+    "net_debt_override": null,
+    "nol_balance": 1078000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 2476000000.0,
+    "target_ebit_margin": 0.143,
+    "tax_rate": 0.17,
+    "terminal_exit_ebitda_multiple": 9.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.085
+  },
+  "company_name": "Vistra Corp.",
+  "comps": [
+    {
+      "company_name": "NRG Energy",
+      "ev_ntm_ebitda": 14.75,
+      "ev_ntm_revenue": null,
+      "notes": "EV/EBITDA and forward P/E pulled from StockAnalysis.com; EV/NTM revenue not available in retrieved snippet. ([stockanalysis.com](https://stockanalysis.com/stocks/nrg/statistics/?utm_source=openai))",
+      "pe_ntm": 16.13,
+      "source": "StockAnalysis.com (valuation/statistics page)",
+      "ticker": "NRG"
+    },
+    {
+      "company_name": "Duke Energy",
+      "ev_ntm_ebitda": 11.8,
+      "ev_ntm_revenue": null,
+      "notes": "EV/EBITDA and forward P/E pulled from StockAnalysis.com; EV/NTM revenue not available in retrieved snippet. ([stockanalysis.com](https://stockanalysis.com/stocks/duk/statistics/?utm_source=openai))",
+      "pe_ntm": 19.4,
+      "source": "StockAnalysis.com (statistics/valuation snippet)",
+      "ticker": "DUK"
+    },
+    {
+      "company_name": "AES Corporation",
+      "ev_ntm_ebitda": 12.37,
+      "ev_ntm_revenue": null,
+      "notes": "Only EV/EBITDA (enterprise value/EBITDA) was captured; forward P/E and EV/NTM revenue not available in retrieved snippet. ([uk.finance.yahoo.com](https://uk.finance.yahoo.com/quote/AES/key-statistics/?utm_source=openai))",
+      "pe_ntm": null,
+      "source": "Yahoo Finance key statistics (EV/EBITDA range shown)",
+      "ticker": "AES"
+    },
+    {
+      "company_name": "Exelon",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/EBITDA, EV/NTM revenue, and forward P/E not captured due to data-retrieval limits.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "EXC"
+    },
+    {
+      "company_name": "Entergy",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/EBITDA, EV/NTM revenue, and forward P/E not captured due to data-retrieval limits.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ETR"
+    },
+    {
+      "company_name": "Constellation Energy",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/EBITDA, EV/NTM revenue, and forward P/E not captured due to data-retrieval limits.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CEG"
+    },
+    {
+      "company_name": "NextEra Energy",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/EBITDA, EV/NTM revenue, and forward P/E not captured due to data-retrieval limits.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "NEE"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.13,
+      "2027": 0.13,
+      "2028": 0.13,
+      "2029": 0.12,
+      "2030": 0.12
+    },
+    "da_pct_sales": {
+      "2026": 0.11,
+      "2027": 0.11,
+      "2028": 0.11,
+      "2029": 0.11,
+      "2030": 0.11
+    },
+    "ebit_margin": {
+      "2026": 0.125,
+      "2027": 0.135,
+      "2028": 0.14,
+      "2029": 0.142,
+      "2030": 0.143
+    },
+    "nwc_pct_sales": {
+      "2026": -0.07,
+      "2027": -0.065,
+      "2028": -0.06,
+      "2029": -0.06,
+      "2030": -0.055
+    },
+    "revenue_growth": {
+      "2026": 0.02,
+      "2027": 0.03,
+      "2028": 0.03,
+      "2029": 0.02,
+      "2030": 0.02
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 1676000000.0,
+      "2024": 2078000000.0,
+      "2025": 2752000000.0
+    },
+    "da": {
+      "2023": 1502000000.0,
+      "2024": 1843000000.0,
+      "2025": 1986000000.0
+    },
+    "ebit": {
+      "2023": 2661000000.0,
+      "2024": 4081000000.0,
+      "2025": 1906000000.0
+    },
+    "nwc": {
+      "2023": 1814000000.0,
+      "2024": -313000000.0,
+      "2025": -2635000000.0
+    },
+    "revenue": {
+      "2023": 14779000000.0,
+      "2024": 17224000000.0,
+      "2025": 17738000000.0
+    }
+  },
+  "notes": [
+    "EBIT in the DCF input is proxied by GAAP operating income (\u201cOperating income\u201d) from Vistra\u2019s consolidated statements of operations. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))",
+    "Capex uses the cash flow line \u201cCapital expenditures, including nuclear fuel purchases and LTSA prepayments\u201d (absolute dollars). This may not map 1:1 to strictly maintenance capex. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))",
+    "Net working capital (NWC) is constructed as total current assets minus total current liabilities. For FY2023, this relies on StockAnalysis.com (primary FY2023 current balances were not extracted from the SEC HTML due to access errors). ([stockanalysis.com](https://stockanalysis.com/stocks/vst/financials/balance-sheet/))",
+    "WACC (0.085) and terminal assumptions (terminal growth 0.02; exit multiple 9.0) are modeling choices; Vistra does not provide a single directly usable WACC/terminal parameter in the retrieved snippets. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))",
+    "Tax rate (0.17) is based on Vistra\u2019s disclosed effective tax rates around FY2024-FY2025 (modeled as a base-case average). ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))",
+    "NOL balance is mapped from the 10-K deferred tax \u201closs carryforwards\u201d figure (tax loss carryforwards) rather than a separately disclosed NOL cash balance. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))",
+    "Comps: EV/NTM revenue and several EV/EBITDA/forward P/E fields are left null because those specific NTM/forward metrics were not consistently retrievable within the data limits for this run."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Execution and closing of the Cogentrix acquisition (mid-to-late 2026 expected close). ([investor.vistracorp.com](https://investor.vistracorp.com/2026-02-26-Vistra-Reports-Fourth-Quarter-and-Full-Year-2025-Results))",
+      "Delivering against 2026 guidance ranges for Ongoing Operations Adjusted EBITDA and Adjusted FCFbG as hedges roll off and new contract coverage is realized. ([investor.vistracorp.com](https://investor.vistracorp.com/2026-02-26-Vistra-Reports-Fourth-Quarter-and-Full-Year-2025-Results))",
+      "Continued shareholder returns via the buyback program (remaining authorization referenced in the 2025 results release). ([investor.vistracorp.com](https://investor.vistracorp.com/2026-02-26-Vistra-Reports-Fourth-Quarter-and-Full-Year-2025-Results))"
+    ],
+    "company_overview": [
+      "Vistra (NYSE: VST) operates as a power generator and retail electricity provider with multiple generation and contracted revenue components. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))",
+      "The company\u2019s operating results and valuation model inputs are grounded in GAAP line items (operating revenues, operating income, depreciation & amortization, and cash-flow capex) from its most recent Form 10-K. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))",
+      "Vistra\u2019s latest disclosed liquidity and 2026 operating guidance are framed around \u201congoing operations\u201d metrics (Adjusted EBITDA and Adjusted FCF before growth). ([investor.vistracorp.com](https://investor.vistracorp.com/2026-02-26-Vistra-Reports-Fourth-Quarter-and-Full-Year-2025-Results))"
+    ],
+    "current_context": [
+      "In the Feb 26, 2026 full-year 2025 release, Vistra guided 2026 Ongoing Operations Adjusted EBITDA to $6.8B-$7.6B and Ongoing Operations Adjusted FCFbG to $3.925B-$4.725B. ([investor.vistracorp.com](https://investor.vistracorp.com/2026-02-26-Vistra-Reports-Fourth-Quarter-and-Full-Year-2025-Results))",
+      "Management stated Vistra has hedged ~100% of expected 2026 generation volumes (as of Feb 18, 2026), supporting cash-flow visibility under current market curves. ([investor.vistracorp.com](https://investor.vistracorp.com/2026-02-26-Vistra-Reports-Fourth-Quarter-and-Full-Year-2025-Results))",
+      "The company also highlighted a plan to acquire Cogentrix (~5,500 MW), with expectations to close mid-to-late 2026. ([investor.vistracorp.com](https://investor.vistracorp.com/2026-02-26-Vistra-Reports-Fourth-Quarter-and-Full-Year-2025-Results))"
+    ],
+    "investment_highlights": [
+      "Base case revenue growth is modest (2-3%) and works from the last historical GAAP revenue base (FY2025 operating revenues). ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))",
+      "EBIT margin is modeled to normalize upward from the FY2025 operating-income compression toward a mid-cycle level (~13.5-14.3%) to reflect a more normalized operating environment. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))",
+      "The DCF reinvestment profile transitions from elevated FY2025 capex intensity toward a steadier range (modeled ~12-13% of sales). ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))",
+      "Working capital is modeled as persistently negative as a function of Vistra\u2019s balance sheet structure (margin/affiliate-related items embedded in current balances). ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))"
+    ],
+    "key_risks": [
+      "Earnings and cash-flow volatility driven by commodity price spreads, generation outages, and mark-to-market accounting impacts. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))",
+      "Higher-than-modeled capital intensity or execution risk from announced growth investments and acquisitions. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))",
+      "Working capital dynamics (including current-balance items like margin/derivative-linked balances) could deviate materially from the modeled negative NWC profile. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))"
+    ],
+    "sources": [
+      {
+        "label": "Vistra 2025 Form 10-K (filed Feb 27, 2026) - financial statements and tax/wacc-relevant disclosures",
+        "notes": "Provides operating revenues, operating income (EBIT proxy), depreciation & amortization, capex in cash-flow statement, effective tax rate, diluted shares, and tax loss carryforward (deferred tax loss carryforwards). ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))",
+        "url": "https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf"
+      },
+      {
+        "label": "Vistra full-year 2025 results press release (Feb 26, 2026) - 2026 guidance and hedging commentary",
+        "notes": "Guidance ranges for 2026 Ongoing Operations Adjusted EBITDA and Adjusted FCFbG; hedging coverage; acquisition mention. ([investor.vistracorp.com](https://investor.vistracorp.com/2026-02-26-Vistra-Reports-Fourth-Quarter-and-Full-Year-2025-Results))",
+        "url": "https://investor.vistracorp.com/2026-02-26-Vistra-Reports-Fourth-Quarter-and-Full-Year-2025-Results"
+      },
+      {
+        "label": "StockAnalysis.com - Vistra balance sheet (used for FY2023 NWC and certain equity line items when primary table not extracted)",
+        "notes": "Used to obtain FY2023 total current assets and total current liabilities for NWC and to source preferred stock / minority interest for equity bridge. ([stockanalysis.com](https://stockanalysis.com/stocks/vst/financials/balance-sheet/))",
+        "url": "https://stockanalysis.com/stocks/vst/financials/balance-sheet/"
+      },
+      {
+        "label": "StockAnalysis.com - NRG valuation statistics (EV/EBITDA and forward P/E used in comps)",
+        "notes": "EV/EBITDA and forward PE captured for comps context. ([stockanalysis.com](https://stockanalysis.com/stocks/nrg/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/nrg/statistics/"
+      },
+      {
+        "label": "StockAnalysis.com - DUK valuation statistics (EV/EBITDA and forward P/E used in comps)",
+        "notes": "EV/EBITDA and forward PE captured for comps context. ([stockanalysis.com](https://stockanalysis.com/stocks/duk/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/duk/statistics/"
+      }
+    ],
+    "subtitle": "Vistra (VST) | DCF & comps valuation input package",
+    "valuation_summary": [
+      "The DCF input package uses GAAP operating income (EBIT proxy), depreciation & amortization, capex (cash-flow line), and a consistent net working capital construction for the historical anchor. ([filecache.investorroom.com](https://filecache.investorroom.com/mr5ir_vistracorp_ir/339/VST_10-K_2026-02-27.pdf))",
+      "Terminal value is set via an exit multiple framework (terminal exit EV/EBITDA multiple = 9.0) consistent with large-cap power sector valuation ranges. ([stockanalysis.com](https://stockanalysis.com/stocks/nrg/statistics/?utm_source=openai))",
+      "Comps are included for context; however, EV/NTM revenue could not be fully populated from retrieved snippets, so several comps fields are left null with explicit notes."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 146.02,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.138,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 9.0,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.085
+      },
+      "description": "Modestly weaker growth and margin pressure versus base case; higher reinvestment intensity and more unfavorable working capital profile.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.135,
+          "2027": 0.135,
+          "2028": 0.135,
+          "2029": 0.125,
+          "2030": 0.125
+        },
+        "da_pct_sales": {
+          "2026": 0.11,
+          "2027": 0.11,
+          "2028": 0.11,
+          "2029": 0.11,
+          "2030": 0.11
+        },
+        "ebit_margin": {
+          "2026": 0.12,
+          "2027": 0.13,
+          "2028": 0.135,
+          "2029": 0.137,
+          "2030": 0.138
+        },
+        "nwc_pct_sales": {
+          "2026": -0.08,
+          "2027": -0.075,
+          "2028": -0.07,
+          "2029": -0.07,
+          "2030": -0.065
+        },
+        "revenue_growth": {
+          "2026": 0.015,
+          "2027": 0.025,
+          "2028": 0.025,
+          "2029": 0.015,
+          "2030": 0.015
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 146.02,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.148,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 9.0,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.085
+      },
+      "description": "Modestly stronger growth and margin recovery versus base case; lower reinvestment intensity.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.125,
+          "2027": 0.125,
+          "2028": 0.125,
+          "2029": 0.115,
+          "2030": 0.115
+        },
+        "da_pct_sales": {
+          "2026": 0.11,
+          "2027": 0.11,
+          "2028": 0.11,
+          "2029": 0.11,
+          "2030": 0.11
+        },
+        "ebit_margin": {
+          "2026": 0.13,
+          "2027": 0.14,
+          "2028": 0.145,
+          "2029": 0.147,
+          "2030": 0.148
+        },
+        "nwc_pct_sales": {
+          "2026": -0.06,
+          "2027": -0.055,
+          "2028": -0.05,
+          "2029": -0.05,
+          "2030": -0.045
+        },
+        "revenue_growth": {
+          "2026": 0.025,
+          "2027": 0.035,
+          "2028": 0.035,
+          "2029": 0.025,
+          "2030": 0.025
+        }
+      }
+    }
+  },
+  "ticker": "VST"
+}
