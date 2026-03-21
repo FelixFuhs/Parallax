@@ -24,8 +24,8 @@ from xgboost import XGBRanker, XGBRegressor
 
 
 ROOT = Path(__file__).resolve().parent
-TICKERS_PATH = ROOT / "tickers_100.txt"
-EDGAR_PATH = ROOT / "edgar_features_100_v3.json"
+TICKERS_PATH = ROOT / "tickers.txt"
+EDGAR_PATH = ROOT / "edgar_features_full.json"
 REPORTS_DIR = ROOT / "reports"
 PLOTS_DIR = ROOT / "plots"
 MODELS_DIR = ROOT / "models"

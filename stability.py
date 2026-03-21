@@ -467,6 +467,7 @@ def determine_stability_verdict(
 
 def write_model_freeze_doc(
     path: Path,
+    tickers_file_label: str,
     matched_count: int,
     final_cv_metrics: dict[str, float],
     fold_stats: SummaryStats,
@@ -524,7 +525,7 @@ def write_model_freeze_doc(
     sections.append("## Universe")
     sections.append("")
     sections.append("- Conceptual universe: S&P 500 ex-Financials ex-REITs.")
-    sections.append("- Current frozen research slice: `tickers_100.txt` in this repo.")
+    sections.append(f"- Current frozen research slice: `{tickers_file_label}` in this repo.")
     sections.append(f"- Matched training sample used for the frozen model: {matched_count} tickers.")
     sections.append("- Entry requirements: latest successful cheap valuation report, no `stale_price` quality flag, base-case upside present, EDGAR row present with no extraction error, fiscal year >= 2024, and not in the hard-coded broken ticker list.")
     sections.append("- Missing feature values are allowed at the row level and are median-imputed inside each training fold and in the final full-sample fit.")
@@ -718,6 +719,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     )
     write_model_freeze_doc(
         MODEL_FREEZE_PATH,
+        tickers_file_label=tickers_path.name,
         matched_count=len(matched_tickers),
         final_cv_metrics=final_cv_metrics,
         fold_stats=fold_stats,

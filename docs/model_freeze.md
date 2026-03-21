@@ -1,6 +1,6 @@
 # Parallax Model Freeze
 
-Generated: 2026-03-21T16:35:52.326925+00:00
+Generated: 2026-03-21T17:52:53.133407+00:00
 
 ## Frozen Statement
 
@@ -9,8 +9,8 @@ This spec is frozen. Any changes after seeing backtest results must be documente
 ## Universe
 
 - Conceptual universe: S&P 500 ex-Financials ex-REITs.
-- Current frozen research slice: `tickers_100.txt` in this repo.
-- Matched training sample used for the frozen model: 66 tickers.
+- Current frozen research slice: `tickers.txt` in this repo.
+- Matched training sample used for the frozen model: 264 tickers.
 - Entry requirements: latest successful cheap valuation report, no `stale_price` quality flag, base-case upside present, EDGAR row present with no extraction error, fiscal year >= 2024, and not in the hard-coded broken ticker list.
 - Missing feature values are allowed at the row level and are median-imputed inside each training fold and in the final full-sample fit.
 
@@ -46,7 +46,7 @@ This spec is frozen. Any changes after seeing backtest results must be documente
 - `l1_ratio` remains at the sklearn default of `0.5` (not searched).
 - Alpha search uses sklearn's default auto-generated log-spaced alpha path, from `alpha_max` down to `alpha_max * eps`, with `eps=1e-3` and the default number of alpha values.
 - Inner CV is sklearn's default 5-fold cross-validation.
-- On the frozen full-sample fit, the selected alpha is `0.079630` and the selected `l1_ratio` is `0.50`.
+- On the frozen full-sample fit, the selected alpha is `0.082141` and the selected `l1_ratio` is `0.50`.
 
 ## Feature Set
 
@@ -153,30 +153,30 @@ EDGAR values are taken from the latest selected annual filing context; when a pr
 
 | Metric | Value |
 | --- | --- |
-| Spearman (CV) | 0.6473 |
-| R^2 (CV) | 0.2947 |
-| MAE (CV) | 0.1893 |
+| Spearman (CV) | 0.3692 |
+| R^2 (CV) | -0.2561 |
+| MAE (CV) | 0.2556 |
 
 ## Stability Checks
 
 | Diagnostic | Value |
 | --- | --- |
-| Repeated-CV fold Spearman mean | 0.6619 |
-| Repeated-CV fold Spearman std | 0.1582 |
-| Repeated-CV fold Spearman 5th pct | 0.3624 |
-| Repeated-CV fold Spearman 95th pct | 0.8791 |
-| Bootstrap OOB Spearman mean | 0.6450 |
-| Bootstrap OOB Spearman 95% CI | [0.3487, 0.8325] |
+| Repeated-CV fold Spearman mean | 0.4170 |
+| Repeated-CV fold Spearman std | 0.2372 |
+| Repeated-CV fold Spearman 5th pct | 0.0000 |
+| Repeated-CV fold Spearman 95th pct | 0.6847 |
+| Bootstrap OOB Spearman mean | 0.4957 |
+| Bootstrap OOB Spearman 95% CI | [0.0000, 0.6894] |
 
 ### Coefficient Sign Stability
 
 | Feature | Expected | Expected Sign % | Positive % | Negative % | Zero % | Flip? |
 | --- | --- | --- | --- | --- | --- | --- |
-| fcf_to_ev | positive | 100.0% | 100.0% | 0.0% | 0.0% | No |
-| gross_profitability_assets | positive | 0.0% | 0.0% | 15.6% | 84.4% | No |
-| asset_growth_1y | negative | 10.4% | 0.4% | 10.4% | 89.2% | Yes |
-| cash_earnings_gap | positive | 72.4% | 72.4% | 0.0% | 27.6% | No |
-| momentum_12_1 | positive | 0.0% | 0.0% | 99.6% | 0.4% | No |
+| fcf_to_ev | positive | 67.2% | 67.2% | 0.0% | 34.4% | No |
+| gross_profitability_assets | positive | 0.0% | 0.0% | 1.2% | 98.8% | No |
+| asset_growth_1y | negative | 38.8% | 0.0% | 38.8% | 61.2% | No |
+| cash_earnings_gap | positive | 0.0% | 0.0% | 3.6% | 96.4% | No |
+| momentum_12_1 | positive | 0.0% | 0.0% | 83.6% | 21.6% | No |
 
 ### Top-Quartile Stability
 
@@ -186,41 +186,41 @@ Most consistently top-ranked:
 
 | Ticker | Company | Top Quartile % | Hold-out Appearances |
 | --- | --- | --- | --- |
-| EPAM | EPAM SYSTEMS, INC. | 100.0% | 50 |
-| MTCH | MATCH GROUP, INC. | 100.0% | 50 |
-| OMC | OMNICOM GROUP INC. | 100.0% | 50 |
-| TMUS | T-MOBILE US, INC. | 100.0% | 50 |
-| DVN | DEVON ENERGY CORP/DE | 100.0% | 50 |
-| GIS | GENERAL MILLS, INC. | 100.0% | 50 |
-| ABNB | Airbnb, Inc. | 100.0% | 50 |
+| F | FORD MOTOR CO | 100.0% | 50 |
+| ACN | Accenture plc | 100.0% | 50 |
+| CAG | Conagra Brands, Inc. | 100.0% | 50 |
+| CDW | CDW CORP | 100.0% | 50 |
+| BLDR | BUILDERS FIRSTSOURCE, INC. | 100.0% | 50 |
 | BKNG | Booking Holdings Inc. | 98.0% | 50 |
-| EQT | EQT CORPORATION | 96.0% | 50 |
-| COP | ConocoPhillips | 96.0% | 50 |
+| CPB | THE CAMPBELL'S COMPANY | 98.0% | 50 |
+| ABNB | Airbnb, Inc. | 98.0% | 50 |
+| CMCSA | Comcast Corporation | 92.0% | 50 |
+| UNH | UNITEDHEALTH GROUP INCORPORATED | 90.0% | 50 |
 
 Most consistently bottom-ranked:
 
 | Ticker | Company | Top Quartile % | Hold-out Appearances |
 | --- | --- | --- | --- |
-| AVGO | Broadcom Inc. | 0.0% | 50 |
-| GOOGL | ALPHABET INC. | 0.0% | 50 |
-| CAT | CATERPILLAR INC | 0.0% | 50 |
-| SO | The Southern Company | 0.0% | 50 |
-| EXC | EXELON CORPORATION | 0.0% | 50 |
-| TSLA | Tesla, Inc. | 0.0% | 50 |
+| INTC | INTEL CORPORATION | 0.0% | 50 |
+| GEV | GE Vernova Inc. | 0.0% | 50 |
 | PWR | Quanta Services, Inc. | 0.0% | 50 |
-| APD | AIR PRODUCTS AND CHEMICALS, INC. | 0.0% | 50 |
-| MOS | Mosaic Co | 0.0% | 50 |
-| CVX | Chevron Corp | 0.0% | 50 |
+| GOOG | ALPHABET INC. | 0.0% | 50 |
+| TER | TERADYNE, INC. | 0.0% | 50 |
+| WBD | Warner Bros. Discovery, Inc. | 0.0% | 50 |
+| STX | Seagate Technology Holdings plc | 0.0% | 50 |
+| MU | Micron Technology, Inc. | 0.0% | 50 |
+| WDC | WESTERN DIGITAL CORP | 0.0% | 50 |
+| SNDK | Sandisk Corporation | 0.0% | 50 |
 
 ## Backcasting Verdict
 
 Is the model stable enough to trust for backcasting? No.
 
-- Repeated-CV fold Spearman is materially positive on average (0.662).
-- The 5th percentile fold Spearman stays positive (0.362).
-- The bootstrap OOB Spearman 95% interval stays above zero (0.349 to 0.832).
-- Only 1/5 coefficients keep the expected sign in at least 75% of folds.
-- The top-10 stable names land in the held-out top quartile 99.0% of the time on average.
+- Repeated-CV fold Spearman mean is too weak (0.417).
+- The 5th percentile fold Spearman is non-positive (0.000).
+- The bootstrap OOB Spearman interval reaches zero or below (0.000 to 0.689).
+- Only 0/5 coefficients keep the expected sign in at least 75% of folds.
+- The top-10 stable names land in the held-out top quartile 97.6% of the time on average.
 
 ## Frozen Linear Parameters
 

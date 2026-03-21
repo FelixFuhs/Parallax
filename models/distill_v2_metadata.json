@@ -11,25 +11,25 @@
   },
   "comparison": {
     "elasticnet_cv_mean": {
-      "mae": 0.18982750582750582,
-      "r2": 0.28498110844379504,
-      "spearman": 0.6424904783118097
+      "mae": 0.25561815877405236,
+      "r2": -0.2561035485785468,
+      "spearman": 0.3691797701335692
     },
     "stability": {
       "elasticnet": {
         "bootstrap_oob_spearman": {
-          "lower": 0.34871780514171824,
-          "mean": 0.6450408438044497,
-          "std": 0.12496171432096832,
-          "upper": 0.832491765480896
+          "lower": 0.0,
+          "mean": 0.49567280509728245,
+          "std": 0.17213510733694312,
+          "upper": 0.6893567369316718
         },
         "repeated_cv_spearman": {
-          "lower": 0.3623626373626374,
-          "mean": 0.6618912549269735,
-          "std": 0.1581761276028225,
-          "upper": 0.8791208791208791
+          "lower": 0.0,
+          "mean": 0.4169548792587215,
+          "std": 0.23716473823718934,
+          "upper": 0.6846718271246572
         },
-        "top_quartile_overlap_stability": 0.8952941176470588
+        "top_quartile_overlap_stability": 0.6530303030303031
       },
       "top_quartile_overlap_definition": "Mean held-out top-quartile hit rate among the model's most consistently top-ranked quartile of tickers across repeated 5-fold CV.",
       "xgboost_ranker": {
@@ -49,335 +49,335 @@
       },
       "xgboost_regressor": {
         "bootstrap_oob_spearman": {
-          "lower": 0.42920940170940175,
-          "mean": 0.6609988039012754,
-          "std": 0.10629012712478199,
-          "upper": 0.8317614589855987
+          "lower": 0.4958702645040548,
+          "mean": 0.6063104948199143,
+          "std": 0.057405178162243574,
+          "upper": 0.7192631073715245
         },
         "repeated_cv_spearman": {
-          "lower": 0.34763736263736267,
-          "mean": 0.6655704656534474,
-          "std": 0.16030204932383288,
-          "upper": 0.8656593406593406
+          "lower": 0.45765602322206095,
+          "mean": 0.6195618744742717,
+          "std": 0.0900674145342724,
+          "upper": 0.7448234155781325
         },
-        "top_quartile_overlap_stability": 0.8847058823529411
+        "top_quartile_overlap_stability": 0.907878787878788
       }
     },
     "verdict": "Verdict: Elastic Net wins.",
     "xgboost_cv": {
-      "mae": 0.3622377622377623,
-      "r2": -1.1058970879866403,
-      "spearman": -0.07439319694957858
+      "mae": 0.3245333563774629,
+      "r2": -0.827116853302376,
+      "spearman": 0.06781493055881647
     },
     "xgboost_regressor_cv_mean": {
-      "mae": 0.19080652680652677,
-      "r2": 0.3330658595136207,
-      "spearman": 0.6665314054391979
+      "mae": 0.18688443369051735,
+      "r2": 0.24324554389580574,
+      "spearman": 0.6216227498336816
     }
   },
   "coverage": {
     "asset_growth_1y": {
       "coverage": 1.0,
-      "non_null": 66.0
+      "non_null": 264.0
     },
     "cash_earnings_gap": {
       "coverage": 1.0,
-      "non_null": 66.0
+      "non_null": 264.0
     },
     "fcf_to_ev": {
-      "coverage": 0.8636363636363636,
-      "non_null": 57.0
+      "coverage": 0.9204545454545454,
+      "non_null": 243.0
     },
     "gross_profitability_assets": {
-      "coverage": 0.8181818181818182,
-      "non_null": 54.0
+      "coverage": 0.8409090909090909,
+      "non_null": 222.0
     },
     "momentum_12_1": {
       "coverage": 1.0,
-      "non_null": 66.0
+      "non_null": 264.0
     }
   },
   "elasticnet": {
     "coefficients": {
-      "asset_growth_1y": -0.0,
-      "cash_earnings_gap": 0.010644804061128173,
-      "fcf_to_ev": 0.11200187558097512,
-      "gross_profitability_assets": -0.0,
-      "momentum_12_1": -0.04735597639122153
+      "asset_growth_1y": -0.00010488654819094974,
+      "cash_earnings_gap": -0.0,
+      "fcf_to_ev": 0.038206317178583464,
+      "gross_profitability_assets": 0.0,
+      "momentum_12_1": -0.04239469128160827
     },
     "cv_mean_metrics": {
-      "mae": 0.18982750582750582,
-      "r2": 0.28498110844379504,
-      "spearman": 0.6424904783118097
+      "mae": 0.25561815877405236,
+      "r2": -0.2561035485785468,
+      "spearman": 0.3691797701335692
     },
     "cv_repeat_metrics": [
       {
-        "mae": 0.21724941724941724,
-        "r2": 0.1428869637824861,
-        "spearman": 0.5714434818912432
+        "mae": 0.24942389676229976,
+        "r2": -0.17883114088006824,
+        "spearman": 0.4081943745442822
       },
       {
-        "mae": 0.19067599067599064,
-        "r2": 0.31714852311867237,
-        "spearman": 0.6585742615593363
+        "mae": 0.2503744671045051,
+        "r2": -0.21663351355581772,
+        "spearman": 0.38948587714003524
       },
       {
-        "mae": 0.20792540792540795,
-        "r2": 0.1266882371359982,
-        "spearman": 0.5633441185679993
+        "mae": 0.276327917962899,
+        "r2": -0.4546641535521654,
+        "spearman": 0.26971669350880073
       },
       {
-        "mae": 0.18648018648018647,
-        "r2": 0.324579897714226,
-        "spearman": 0.6622899488571131
+        "mae": 0.25697084917617236,
+        "r2": -0.2840441142901864,
+        "spearman": 0.35537383493033503
       },
       {
-        "mae": 0.17995337995337995,
-        "r2": 0.35029746373029946,
-        "spearman": 0.6751487318651499
+        "mae": 0.2722807927180551,
+        "r2": -0.3973984047375252,
+        "spearman": 0.2986240335967468
       },
       {
-        "mae": 0.19067599067599067,
-        "r2": 0.2823296106878196,
-        "spearman": 0.64116480534391
+        "mae": 0.25051849291393025,
+        "r2": -0.21537478233080476,
+        "spearman": 0.38984820678260873
       },
       {
-        "mae": 0.15757575757575756,
-        "r2": 0.46393904602859837,
-        "spearman": 0.7319695230142992
+        "mae": 0.2709125475285171,
+        "r2": -0.38629613445597366,
+        "spearman": 0.3041964939134554
       },
       {
-        "mae": 0.18275058275058279,
-        "r2": 0.32925581880805765,
-        "spearman": 0.6646279094040289
+        "mae": 0.2837884548911165,
+        "r2": -0.5359729731492411,
+        "spearman": 0.22575851465222585
       },
       {
-        "mae": 0.19067599067599067,
-        "r2": 0.26588038826844795,
-        "spearman": 0.6329401941342241
+        "mae": 0.24749395091600412,
+        "r2": -0.21458041205512313,
+        "spearman": 0.39024700804498946
       },
       {
-        "mae": 0.1655011655011655,
-        "r2": 0.43329506314580946,
-        "spearman": 0.7166475315729048
+        "mae": 0.2067058416868303,
+        "r2": 0.07151680373575786,
+        "spearman": 0.5339823274279222
       },
       {
-        "mae": 0.18694638694638693,
-        "r2": 0.31923598789270435,
-        "spearman": 0.6596179939463522
+        "mae": 0.22977877635672314,
+        "r2": -0.015419131410235432,
+        "spearman": 0.4922904342948822
       },
       {
-        "mae": 0.17855477855477853,
-        "r2": 0.4237762237762238,
-        "spearman": 0.711888111888112
+        "mae": 0.2839900910243116,
+        "r2": -0.47645911732288093,
+        "spearman": 0.2589418179489546
       },
       {
-        "mae": 0.19254079254079257,
-        "r2": 0.23565389834046557,
-        "spearman": 0.6178269491702328
+        "mae": 0.2740523101739832,
+        "r2": -0.45574157530538884,
+        "spearman": 0.2662026795890637
       },
       {
-        "mae": 0.19860139860139858,
-        "r2": 0.17662039453084222,
-        "spearman": 0.5883101972654212
+        "mae": 0.24763797672542917,
+        "r2": -0.21391126270959826,
+        "spearman": 0.3882457497468419
       },
       {
-        "mae": 0.1939393939393939,
-        "r2": 0.2721427825905439,
-        "spearman": 0.636071391295272
+        "mae": 0.27491646503053346,
+        "r2": -0.34781156858780804,
+        "spearman": 0.32336037464460776
       },
       {
-        "mae": 0.1902097902097902,
-        "r2": 0.310969627387538,
-        "spearman": 0.655484813693769
+        "mae": 0.2287849982716903,
+        "r2": -0.038534132486352846,
+        "spearman": 0.4787454741211367
       },
       {
-        "mae": 0.16876456876456875,
-        "r2": 0.4096649619037679,
-        "spearman": 0.704832480951884
+        "mae": 0.2311902292890886,
+        "r2": -0.05945254974597103,
+        "spearman": 0.46812654258097985
       },
       {
-        "mae": 0.20279720279720284,
-        "r2": 0.2288070138816407,
-        "spearman": 0.6144035069408205
+        "mae": 0.2945039751123401,
+        "r2": -0.5775437131918946,
+        "spearman": 0.2080269185948782
       },
       {
-        "mae": 0.17995337995337995,
-        "r2": 0.32499739066903255,
-        "spearman": 0.6624986953345162
+        "mae": 0.3213791911510543,
+        "r2": -0.775885514155835,
+        "spearman": 0.10540464189066079
       },
       {
-        "mae": 0.18414918414918416,
-        "r2": 0.3038722471558293,
-        "spearman": 0.6519361235779148
+        "mae": 0.2836732342435765,
+        "r2": -0.5043364268990209,
+        "spearman": 0.24477949995753395
       },
       {
-        "mae": 0.18694638694638696,
-        "r2": 0.3060432105208224,
-        "spearman": 0.6530216052604113
+        "mae": 0.29689480354879594,
+        "r2": -0.6046527401861357,
+        "spearman": 0.19113745730420653
       },
       {
-        "mae": 0.1944055944055944,
-        "r2": 0.2285565181087571,
-        "spearman": 0.6142782590543786
+        "mae": 0.27213676690863003,
+        "r2": -0.3793287636389724,
+        "spearman": 0.3076935622071402
       },
       {
-        "mae": 0.1664335664335664,
-        "r2": 0.4282016490971715,
-        "spearman": 0.7141008245485859
+        "mae": 0.2414880746629796,
+        "r2": -0.13071695504438163,
+        "spearman": 0.4324769986147898
       },
       {
-        "mae": 0.2041958041958042,
-        "r2": 0.20308944786556726,
-        "spearman": 0.6015447239327837
+        "mae": 0.2553001497868418,
+        "r2": -0.2991332363740715,
+        "spearman": 0.35043338181296424
       },
       {
-        "mae": 0.17948717948717952,
-        "r2": 0.3335977455380441,
-        "spearman": 0.6667988727690222
+        "mae": 0.23891001267427123,
+        "r2": -0.11350755564831161,
+        "spearman": 0.4409890662027848
       },
       {
-        "mae": 0.18275058275058276,
-        "r2": 0.38277841561423653,
-        "spearman": 0.6913892078071183
+        "mae": 0.24058071206360182,
+        "r2": -0.13250852741490515,
+        "spearman": 0.43374573629254737
       },
       {
-        "mae": 0.19254079254079254,
-        "r2": 0.24291827575409664,
-        "spearman": 0.6214591378770484
+        "mae": 0.23597188616200024,
+        "r2": -0.07916636774517549,
+        "spearman": 0.45835131033148374
       },
       {
-        "mae": 0.20606060606060606,
-        "r2": 0.17920885085064175,
-        "spearman": 0.589604425425321
+        "mae": 0.27350501209816797,
+        "r2": -0.3603297484494128,
+        "spearman": 0.3170758168201938
       },
       {
-        "mae": 0.1981351981351982,
-        "r2": 0.22939150401836983,
-        "spearman": 0.6146957520091849
+        "mae": 0.26371125705726467,
+        "r2": -0.3076795648572679,
+        "spearman": 0.34350802397082886
       },
       {
-        "mae": 0.17156177156177155,
-        "r2": 0.3701701283790836,
-        "spearman": 0.6850850641895418
+        "mae": 0.27779698121903446,
+        "r2": -0.378726137912593,
+        "spearman": 0.30518253014420943
       },
       {
-        "mae": 0.19393939393939394,
-        "r2": 0.3032877570191004,
-        "spearman": 0.6516438785095502
+        "mae": 0.25757575757575757,
+        "r2": -0.28733116370680034,
+        "spearman": 0.3512436687622044
       },
       {
-        "mae": 0.18787878787878787,
-        "r2": 0.31790001043732397,
-        "spearman": 0.658950005218662
+        "mae": 0.2649210738564351,
+        "r2": -0.3687547691565196,
+        "spearman": 0.3100522052082062
       },
       {
-        "mae": 0.2051282051282051,
-        "r2": 0.15123682287861395,
-        "spearman": 0.575618411439307
+        "mae": 0.23770019587510083,
+        "r2": -0.09595705965603374,
+        "spearman": 0.45074993927618234
       },
       {
-        "mae": 0.19766899766899768,
-        "r2": 0.2145287548272623,
-        "spearman": 0.6072643774136313
+        "mae": 0.2520739716557207,
+        "r2": -0.24410711607067137,
+        "spearman": 0.37302767676811033
       },
       {
-        "mae": 0.19207459207459207,
-        "r2": 0.27270639807953234,
-        "spearman": 0.6363494035353771
+        "mae": 0.23628874294273536,
+        "r2": -0.0938426520749498,
+        "spearman": 0.4508615256964667
       },
       {
-        "mae": 0.21678321678321683,
-        "r2": 0.11324496399123263,
-        "spearman": 0.5566224819956164
+        "mae": 0.23366747321119943,
+        "r2": -0.0818449217043089,
+        "spearman": 0.4590775391478454
       },
       {
-        "mae": 0.2018648018648019,
-        "r2": 0.20743137459555394,
-        "spearman": 0.603715687297777
+        "mae": 0.23709528747551561,
+        "r2": -0.09677360447143069,
+        "spearman": 0.44939008655595836
       },
       {
-        "mae": 0.19254079254079254,
-        "r2": 0.2945204049681662,
-        "spearman": 0.6472602024840832
+        "mae": 0.26494987901832007,
+        "r2": -0.30666866672318993,
+        "spearman": 0.34430520382351154
       },
       {
-        "mae": 0.17855477855477855,
-        "r2": 0.3788539818390565,
-        "spearman": 0.6894269909195283
+        "mae": 0.23722491070399818,
+        "r2": -0.06609121562131093,
+        "spearman": 0.4649140010692723
       },
       {
-        "mae": 0.18741258741258746,
-        "r2": 0.28725602755453494,
-        "spearman": 0.6436280137772676
+        "mae": 0.22322560202788339,
+        "r2": 0.01927945789772334,
+        "spearman": 0.5077633173200226
       },
       {
-        "mae": 0.17342657342657342,
-        "r2": 0.4024005844901368,
-        "spearman": 0.7012002922450685
+        "mae": 0.24536236893651348,
+        "r2": -0.17230139112627096,
+        "spearman": 0.41384930443686446
       },
       {
-        "mae": 0.17622377622377622,
-        "r2": 0.35488988623316975,
-        "spearman": 0.677444943116585
+        "mae": 0.26872335522525637,
+        "r2": -0.36890477339576977,
+        "spearman": 0.3127708586939359
       },
       {
-        "mae": 0.18694638694638696,
-        "r2": 0.32775284417075456,
-        "spearman": 0.6638764220853774
+        "mae": 0.23150708606982373,
+        "r2": -0.039348068532371494,
+        "spearman": 0.47821968520343394
       },
       {
-        "mae": 0.19860139860139858,
-        "r2": 0.2160317294645654,
-        "spearman": 0.6080158647322828
+        "mae": 0.2430003456619426,
+        "r2": -0.14066614926074017,
+        "spearman": 0.4273545159827033
       },
       {
-        "mae": 0.19300699300699303,
-        "r2": 0.2991128274710364,
-        "spearman": 0.6495564137355183
+        "mae": 0.2776385528286669,
+        "r2": -0.4332983323441746,
+        "spearman": 0.2776792955928073
       },
       {
-        "mae": 0.2111888111888112,
-        "r2": 0.12543575827157916,
-        "spearman": 0.5627178791357896
+        "mae": 0.24341802050927527,
+        "r2": -0.2228065140971376,
+        "spearman": 0.3862553340010758
       },
       {
-        "mae": 0.18834498834498836,
-        "r2": 0.28859200500991555,
-        "spearman": 0.6442960025049578
+        "mae": 0.244008526327918,
+        "r2": -0.12372349653359782,
+        "spearman": 0.43586031170858763
       },
       {
-        "mae": 0.18601398601398603,
-        "r2": 0.26588038826844795,
-        "spearman": 0.6329401941342241
+        "mae": 0.24095517916810696,
+        "r2": -0.11652329304958609,
+        "spearman": 0.44173835347520685
       },
       {
-        "mae": 0.19766899766899768,
-        "r2": 0.24934766725811497,
-        "spearman": 0.6246738336290576
+        "mae": 0.24069593271114184,
+        "r2": -0.153156937043873,
+        "spearman": 0.42108370992595767
       },
       {
-        "mae": 0.1976689976689977,
-        "r2": 0.23264794906585973,
-        "spearman": 0.6163239745329299
+        "mae": 0.2698755617006568,
+        "r2": -0.3492333478989622,
+        "spearman": 0.32264659241801497
       }
     ],
     "stability": {
       "bootstrap_samples": 1000,
       "bootstrap_spearman_stats": {
-        "lower": 0.34871780514171824,
-        "mean": 0.6450408438044497,
-        "std": 0.12496171432096832,
-        "upper": 0.832491765480896
+        "lower": 0.0,
+        "mean": 0.49567280509728245,
+        "std": 0.17213510733694312,
+        "upper": 0.6893567369316718
       },
       "repeats": 50,
       "spearman_stats": {
-        "lower": 0.3623626373626374,
-        "mean": 0.6618912549269735,
-        "std": 0.1581761276028225,
-        "upper": 0.8791208791208791
+        "lower": 0.0,
+        "mean": 0.4169548792587215,
+        "std": 0.23716473823718934,
+        "upper": 0.6846718271246572
       },
-      "top_quartile_overlap_stability": 0.8952941176470588
+      "top_quartile_overlap_stability": 0.6530303030303031
     }
   },
   "feature_order": [
@@ -391,216 +391,216 @@
     "elasticnet": {
       "bottom10": [
         {
-          "actual_percentile": 0.38461538461538464,
+          "actual_percentile": 0.06844106463878327,
+          "actual_upside": -0.895529358035735,
+          "company_name": "Sandisk Corporation",
+          "predicted_percentile": 0.0,
+          "ticker": "SNDK"
+        },
+        {
+          "actual_percentile": 0.06463878326996197,
+          "actual_upside": -0.9069260600513004,
+          "company_name": "WESTERN DIGITAL CORP",
+          "predicted_percentile": 0.0038022813688212928,
+          "ticker": "WDC"
+        },
+        {
+          "actual_percentile": 0.11406844106463879,
+          "actual_upside": -0.7309904418122535,
+          "company_name": "Seagate Technology Holdings plc",
+          "predicted_percentile": 0.0076045627376425855,
+          "ticker": "STX"
+        },
+        {
+          "actual_percentile": 0.18631178707224336,
+          "actual_upside": -0.5944462650489113,
+          "company_name": "Micron Technology, Inc.",
+          "predicted_percentile": 0.011406844106463879,
+          "ticker": "MU"
+        },
+        {
+          "actual_percentile": 0.21292775665399238,
+          "actual_upside": -0.5702351127117752,
+          "company_name": "Comfort Systems USA, Inc.",
+          "predicted_percentile": 0.015209125475285171,
+          "ticker": "FIX"
+        },
+        {
+          "actual_percentile": 0.33079847908745247,
           "actual_upside": -0.418600803653716,
           "company_name": "Chevron Corp",
-          "predicted_percentile": 0.0,
+          "predicted_percentile": 0.019011406844106463,
           "ticker": "CVX"
         },
         {
-          "actual_percentile": 0.26153846153846155,
-          "actual_upside": -0.5593680102947651,
-          "company_name": "Mosaic Co",
-          "predicted_percentile": 0.015384615384615385,
-          "ticker": "MOS"
+          "actual_percentile": 0.07224334600760456,
+          "actual_upside": -0.8656011857874074,
+          "company_name": "TERADYNE, INC.",
+          "predicted_percentile": 0.022813688212927757,
+          "ticker": "TER"
         },
         {
-          "actual_percentile": 0.2153846153846154,
-          "actual_upside": -0.5825562997801992,
-          "company_name": "AIR PRODUCTS AND CHEMICALS, INC.",
-          "predicted_percentile": 0.03076923076923077,
-          "ticker": "APD"
+          "actual_percentile": 0.09125475285171103,
+          "actual_upside": -0.7866092245625662,
+          "company_name": "MODERNA, INC.",
+          "predicted_percentile": 0.026615969581749048,
+          "ticker": "MRNA"
         },
         {
-          "actual_percentile": 0.0,
-          "actual_upside": -2.28062325603784,
-          "company_name": "EXELON CORPORATION",
-          "predicted_percentile": 0.046153846153846156,
-          "ticker": "EXC"
+          "actual_percentile": 0.9429657794676806,
+          "actual_upside": 0.7549870936146987,
+          "company_name": "MOLINA HEALTHCARE, INC.",
+          "predicted_percentile": 0.030418250950570342,
+          "ticker": "MOH"
         },
         {
-          "actual_percentile": 0.1076923076923077,
-          "actual_upside": -0.7110520942756078,
-          "company_name": "CATERPILLAR INC",
-          "predicted_percentile": 0.06153846153846154,
-          "ticker": "CAT"
-        },
-        {
-          "actual_percentile": 0.046153846153846156,
-          "actual_upside": -0.9366421289587632,
-          "company_name": "Tesla, Inc.",
-          "predicted_percentile": 0.07692307692307693,
-          "ticker": "TSLA"
-        },
-        {
-          "actual_percentile": 0.15384615384615385,
-          "actual_upside": -0.6622938835971686,
-          "company_name": "Quanta Services, Inc.",
-          "predicted_percentile": 0.09230769230769231,
-          "ticker": "PWR"
-        },
-        {
-          "actual_percentile": 0.03076923076923077,
-          "actual_upside": -1.2661211311783511,
-          "company_name": "The Southern Company",
-          "predicted_percentile": 0.1076923076923077,
-          "ticker": "SO"
-        },
-        {
-          "actual_percentile": 0.676923076923077,
-          "actual_upside": -0.1514734949861507,
-          "company_name": "ALPHABET INC.",
-          "predicted_percentile": 0.12307692307692308,
-          "ticker": "GOOGL"
-        },
-        {
-          "actual_percentile": 0.2,
-          "actual_upside": -0.5863015747799987,
-          "company_name": "ADVANCED MICRO DEVICES, INC.",
-          "predicted_percentile": 0.13846153846153847,
-          "ticker": "AMD"
+          "actual_percentile": 0.030418250950570342,
+          "actual_upside": -1.9336459696359243,
+          "company_name": "SEMPRA",
+          "predicted_percentile": 0.034220532319391636,
+          "ticker": "SRE"
         }
       ],
       "top10": [
         {
-          "actual_percentile": 0.8307692307692308,
-          "actual_upside": 0.09243115439887606,
-          "company_name": "EPAM SYSTEMS, INC.",
+          "actual_percentile": 0.0076045627376425855,
+          "actual_upside": -2.480363914760349,
+          "company_name": "FORD MOTOR CO",
           "predicted_percentile": 1.0,
-          "ticker": "EPAM"
+          "ticker": "F"
         },
         {
-          "actual_percentile": 0.8769230769230769,
-          "actual_upside": 0.20378421523320367,
-          "company_name": "MATCH GROUP, INC.",
-          "predicted_percentile": 0.9846153846153847,
-          "ticker": "MTCH"
+          "actual_percentile": 0.9391634980988594,
+          "actual_upside": 0.7371170301473058,
+          "company_name": "Skyworks Solutions, Inc.",
+          "predicted_percentile": 0.9961977186311787,
+          "ticker": "SWKS"
         },
         {
           "actual_percentile": 1.0,
+          "actual_upside": 2.6377281679911544,
+          "company_name": "Comcast Corporation",
+          "predicted_percentile": 0.9923954372623575,
+          "ticker": "CMCSA"
+        },
+        {
+          "actual_percentile": 0.7832699619771863,
+          "actual_upside": 0.09243115439887606,
+          "company_name": "EPAM SYSTEMS, INC.",
+          "predicted_percentile": 0.9885931558935361,
+          "ticker": "EPAM"
+        },
+        {
+          "actual_percentile": 0.9049429657794676,
+          "actual_upside": 0.4395489285821197,
+          "company_name": "Accenture plc",
+          "predicted_percentile": 0.9847908745247148,
+          "ticker": "ACN"
+        },
+        {
+          "actual_percentile": 0.4296577946768061,
+          "actual_upside": -0.3288079630398919,
+          "company_name": "WORKDAY, INC.",
+          "predicted_percentile": 0.9809885931558935,
+          "ticker": "WDAY"
+        },
+        {
+          "actual_percentile": 0.9467680608365019,
+          "actual_upside": 0.7581984073334742,
+          "company_name": "Cognizant Technology Solutions Corporation",
+          "predicted_percentile": 0.9771863117870723,
+          "ticker": "CTSH"
+        },
+        {
+          "actual_percentile": 0.7452471482889734,
+          "actual_upside": 0.01788189225622716,
+          "company_name": "Conagra Brands, Inc.",
+          "predicted_percentile": 0.973384030418251,
+          "ticker": "CAG"
+        },
+        {
+          "actual_percentile": 0.8365019011406845,
+          "actual_upside": 0.20378421523320367,
+          "company_name": "MATCH GROUP, INC.",
+          "predicted_percentile": 0.9695817490494296,
+          "ticker": "MTCH"
+        },
+        {
+          "actual_percentile": 0.9885931558935361,
           "actual_upside": 1.6938101947549518,
           "company_name": "OMNICOM GROUP INC.",
-          "predicted_percentile": 0.9692307692307692,
+          "predicted_percentile": 0.9657794676806084,
           "ticker": "OMC"
-        },
-        {
-          "actual_percentile": 0.8153846153846154,
-          "actual_upside": 0.08993294004228036,
-          "company_name": "T-MOBILE US, INC.",
-          "predicted_percentile": 0.9538461538461539,
-          "ticker": "TMUS"
-        },
-        {
-          "actual_percentile": 0.8923076923076924,
-          "actual_upside": 0.21180356939441602,
-          "company_name": "Booking Holdings Inc.",
-          "predicted_percentile": 0.9384615384615385,
-          "ticker": "BKNG"
-        },
-        {
-          "actual_percentile": 0.8461538461538461,
-          "actual_upside": 0.19394261993029538,
-          "company_name": "DEVON ENERGY CORP/DE",
-          "predicted_percentile": 0.9230769230769231,
-          "ticker": "DVN"
-        },
-        {
-          "actual_percentile": 0.9384615384615385,
-          "actual_upside": 0.470530595414721,
-          "company_name": "GENERAL MILLS, INC.",
-          "predicted_percentile": 0.9076923076923077,
-          "ticker": "GIS"
-        },
-        {
-          "actual_percentile": 0.6153846153846154,
-          "actual_upside": -0.21870069532293457,
-          "company_name": "Airbnb, Inc.",
-          "predicted_percentile": 0.8923076923076924,
-          "ticker": "ABNB"
-        },
-        {
-          "actual_percentile": 0.7076923076923077,
-          "actual_upside": -0.07427708004752442,
-          "company_name": "EQT CORPORATION",
-          "predicted_percentile": 0.8769230769230769,
-          "ticker": "EQT"
-        },
-        {
-          "actual_percentile": 0.8615384615384616,
-          "actual_upside": 0.19791420612225008,
-          "company_name": "Verizon Communications Inc.",
-          "predicted_percentile": 0.8615384615384616,
-          "ticker": "VZ"
         }
       ]
     },
     "xgboost_ranker": {
       "bottom10": [
         {
-          "actual_percentile": 0.8307692307692308,
-          "actual_upside": 0.09243115439887606,
-          "company_name": "EPAM SYSTEMS, INC.",
-          "predicted_percentile": 0.5,
-          "ticker": "EPAM"
-        },
-        {
-          "actual_percentile": 0.7076923076923077,
-          "actual_upside": -0.07427708004752442,
-          "company_name": "EQT CORPORATION",
-          "predicted_percentile": 0.5,
-          "ticker": "EQT"
-        },
-        {
-          "actual_percentile": 0.36923076923076925,
+          "actual_percentile": 0.3231939163498099,
           "actual_upside": -0.427535906757027,
           "company_name": "EATON CORPORATION plc",
           "predicted_percentile": 0.5,
           "ticker": "ETN"
         },
         {
-          "actual_percentile": 0.0,
+          "actual_percentile": 0.019011406844106463,
           "actual_upside": -2.28062325603784,
           "company_name": "EXELON CORPORATION",
           "predicted_percentile": 0.5,
           "ticker": "EXC"
         },
         {
-          "actual_percentile": 0.7846153846153846,
+          "actual_percentile": 0.5703422053231939,
+          "actual_upside": -0.19452272250226932,
+          "company_name": "EXPEDITORS INTERNATIONAL OF WASHINGTON, INC.",
+          "predicted_percentile": 0.5,
+          "ticker": "EXPD"
+        },
+        {
+          "actual_percentile": 0.908745247148289,
+          "actual_upside": 0.4534532464316552,
+          "company_name": "EXPEDIA GROUP, INC.",
+          "predicted_percentile": 0.5,
+          "ticker": "EXPE"
+        },
+        {
+          "actual_percentile": 0.0076045627376425855,
+          "actual_upside": -2.480363914760349,
+          "company_name": "FORD MOTOR CO",
+          "predicted_percentile": 0.5,
+          "ticker": "F"
+        },
+        {
+          "actual_percentile": 0.752851711026616,
           "actual_upside": 0.0221527831221362,
           "company_name": "DIAMONDBACK ENERGY, INC.",
           "predicted_percentile": 0.5,
           "ticker": "FANG"
         },
         {
-          "actual_percentile": 0.6461538461538462,
-          "actual_upside": -0.18197354784863162,
-          "company_name": "FORTINET, INC.",
+          "actual_percentile": 0.08745247148288973,
+          "actual_upside": -0.7992487288330269,
+          "company_name": "FIRSTENERGY CORP.",
           "predicted_percentile": 0.5,
-          "ticker": "FTNT"
+          "ticker": "FE"
         },
         {
-          "actual_percentile": 0.9384615384615385,
-          "actual_upside": 0.470530595414721,
-          "company_name": "GENERAL MILLS, INC.",
+          "actual_percentile": 0.33840304182509506,
+          "actual_upside": -0.41693209880403626,
+          "company_name": "FAIR ISAAC CORP",
           "predicted_percentile": 0.5,
-          "ticker": "GIS"
+          "ticker": "FICO"
         },
         {
-          "actual_percentile": 0.676923076923077,
-          "actual_upside": -0.1514734949861507,
-          "company_name": "ALPHABET INC.",
+          "actual_percentile": 0.21292775665399238,
+          "actual_upside": -0.5702351127117752,
+          "company_name": "Comfort Systems USA, Inc.",
           "predicted_percentile": 0.5,
-          "ticker": "GOOGL"
+          "ticker": "FIX"
         },
         {
-          "actual_percentile": 0.6307692307692307,
-          "actual_upside": -0.2154531257179183,
-          "company_name": "HCA Healthcare, Inc.",
-          "predicted_percentile": 0.5,
-          "ticker": "HCA"
-        },
-        {
-          "actual_percentile": 0.9076923076923077,
+          "actual_percentile": 0.8517110266159695,
           "actual_upside": 0.24179094632089404,
           "company_name": "Zoetis Inc.",
           "predicted_percentile": 0.5,
@@ -609,291 +609,489 @@
       ],
       "top10": [
         {
-          "actual_percentile": 0.4,
-          "actual_upside": -0.4138212067426509,
+          "actual_percentile": 0.30038022813688214,
+          "actual_upside": -0.4576896140534379,
           "company_name": "Apple Inc.",
           "predicted_percentile": 0.5,
           "ticker": "AAPL"
         },
         {
-          "actual_percentile": 0.27692307692307694,
-          "actual_upside": -0.5486352055981234,
-          "company_name": "O REILLY AUTOMOTIVE INC",
+          "actual_percentile": 0.3726235741444867,
+          "actual_upside": -0.39116475081680246,
+          "company_name": "OLD DOMINION FREIGHT LINE, INC.",
           "predicted_percentile": 0.5,
-          "ticker": "ORLY"
+          "ticker": "ODFL"
         },
         {
-          "actual_percentile": 0.9230769230769231,
-          "actual_upside": 0.31857873800516967,
-          "company_name": "KIMBERLY-CLARK CORPORATION",
+          "actual_percentile": 0.20912547528517111,
+          "actual_upside": -0.5803493520221922,
+          "company_name": "NEXTERA ENERGY, INC.",
           "predicted_percentile": 0.5,
-          "ticker": "KMB"
+          "ticker": "NEE"
         },
         {
-          "actual_percentile": 0.7384615384615385,
-          "actual_upside": -0.0169855865406201,
-          "company_name": "KINDER MORGAN, INC.",
+          "actual_percentile": 0.467680608365019,
+          "actual_upside": -0.3032760464141778,
+          "company_name": "NEWMONT CORPORATION",
           "predicted_percentile": 0.5,
-          "ticker": "KMI"
+          "ticker": "NEM"
         },
         {
-          "actual_percentile": 0.2923076923076923,
-          "actual_upside": -0.5396832243884117,
-          "company_name": "Kroger Co.",
+          "actual_percentile": 0.4752851711026616,
+          "actual_upside": -0.293340681404911,
+          "company_name": "NETFLIX INC",
           "predicted_percentile": 0.5,
-          "ticker": "KR"
+          "ticker": "NFLX"
         },
         {
-          "actual_percentile": 0.5076923076923077,
-          "actual_upside": -0.3104315492469074,
-          "company_name": "ELI LILLY AND COMPANY",
+          "actual_percentile": 0.6045627376425855,
+          "actual_upside": -0.17196612490998042,
+          "company_name": "NIKE, Inc.",
           "predicted_percentile": 0.5,
-          "ticker": "LLY"
+          "ticker": "NKE"
         },
         {
-          "actual_percentile": 0.6,
-          "actual_upside": -0.234430908016649,
-          "company_name": "LOCKHEED MARTIN CORPORATION",
+          "actual_percentile": 0.2737642585551331,
+          "actual_upside": -0.4818995239374947,
+          "company_name": "NORTHROP GRUMMAN CORP /DE/",
           "predicted_percentile": 0.5,
-          "ticker": "LMT"
+          "ticker": "NOC"
         },
         {
-          "actual_percentile": 0.9538461538461539,
-          "actual_upside": 0.5414644239995003,
-          "company_name": "MONDELEZ INTERNATIONAL, INC.",
+          "actual_percentile": 0.4068441064638783,
+          "actual_upside": -0.33635419064928285,
+          "company_name": "SERVICENOW, INC.",
           "predicted_percentile": 0.5,
-          "ticker": "MDLZ"
+          "ticker": "NOW"
         },
         {
-          "actual_percentile": 0.4307692307692308,
-          "actual_upside": -0.40155893961166944,
-          "company_name": "Meta Platforms, Inc.",
+          "actual_percentile": 0.5855513307984791,
+          "actual_upside": -0.18507532330068355,
+          "company_name": "NRG ENERGY, INC.",
           "predicted_percentile": 0.5,
-          "ticker": "META"
+          "ticker": "NRG"
         },
         {
-          "actual_percentile": 0.26153846153846155,
-          "actual_upside": -0.5593680102947651,
-          "company_name": "Mosaic Co",
+          "actual_percentile": 0.6463878326996197,
+          "actual_upside": -0.13321328414276956,
+          "company_name": "NORFOLK SOUTHERN CORPORATION",
           "predicted_percentile": 0.5,
-          "ticker": "MOS"
+          "ticker": "NSC"
         }
       ]
     },
     "xgboost_regressor": {
       "bottom10": [
         {
-          "actual_percentile": 0.0,
+          "actual_percentile": 0.049429657794676805,
+          "actual_upside": -0.9615610901240965,
+          "company_name": "BUNGE GLOBAL SA",
+          "predicted_percentile": 0.0,
+          "ticker": "BG"
+        },
+        {
+          "actual_percentile": 0.022813688212927757,
+          "actual_upside": -2.262588003266595,
+          "company_name": "ALLIANT ENERGY CORP",
+          "predicted_percentile": 0.0038022813688212928,
+          "ticker": "LNT"
+        },
+        {
+          "actual_percentile": 0.019011406844106463,
           "actual_upside": -2.28062325603784,
           "company_name": "EXELON CORPORATION",
-          "predicted_percentile": 0.0,
+          "predicted_percentile": 0.0076045627376425855,
           "ticker": "EXC"
         },
         {
-          "actual_percentile": 0.26153846153846155,
-          "actual_upside": -0.5593680102947651,
-          "company_name": "Mosaic Co",
-          "predicted_percentile": 0.015384615384615385,
-          "ticker": "MOS"
+          "actual_percentile": 0.015209125475285171,
+          "actual_upside": -2.305978585960021,
+          "company_name": "AMEREN CORPORATION",
+          "predicted_percentile": 0.011406844106463879,
+          "ticker": "AEE"
         },
         {
-          "actual_percentile": 0.03076923076923077,
-          "actual_upside": -1.2661211311783511,
-          "company_name": "The Southern Company",
-          "predicted_percentile": 0.03076923076923077,
-          "ticker": "SO"
+          "actual_percentile": 0.18631178707224336,
+          "actual_upside": -0.5944462650489113,
+          "company_name": "Micron Technology, Inc.",
+          "predicted_percentile": 0.015209125475285171,
+          "ticker": "MU"
         },
         {
-          "actual_percentile": 0.15384615384615385,
-          "actual_upside": -0.6622938835971686,
-          "company_name": "Quanta Services, Inc.",
-          "predicted_percentile": 0.046153846153846156,
-          "ticker": "PWR"
+          "actual_percentile": 0.060836501901140684,
+          "actual_upside": -0.9201344188954969,
+          "company_name": "INTEL CORPORATION",
+          "predicted_percentile": 0.019011406844106463,
+          "ticker": "INTC"
         },
         {
-          "actual_percentile": 0.046153846153846156,
+          "actual_percentile": 0.053231939163498096,
           "actual_upside": -0.9366421289587632,
           "company_name": "Tesla, Inc.",
-          "predicted_percentile": 0.06153846153846154,
+          "predicted_percentile": 0.022813688212927757,
           "ticker": "TSLA"
         },
         {
-          "actual_percentile": 0.1076923076923077,
-          "actual_upside": -0.7110520942756078,
-          "company_name": "CATERPILLAR INC",
-          "predicted_percentile": 0.07692307692307693,
-          "ticker": "CAT"
+          "actual_percentile": 0.03802281368821293,
+          "actual_upside": -1.2661211311783511,
+          "company_name": "The Southern Company",
+          "predicted_percentile": 0.026615969581749048,
+          "ticker": "SO"
         },
         {
-          "actual_percentile": 0.18461538461538463,
-          "actual_upside": -0.6202865897332177,
-          "company_name": "COSTCO WHOLESALE CORP /NEW",
-          "predicted_percentile": 0.09230769230769231,
-          "ticker": "COST"
+          "actual_percentile": 0.07224334600760456,
+          "actual_upside": -0.8656011857874074,
+          "company_name": "TERADYNE, INC.",
+          "predicted_percentile": 0.030418250950570342,
+          "ticker": "TER"
         },
         {
-          "actual_percentile": 0.015384615384615385,
-          "actual_upside": -1.8120873962486674,
-          "company_name": "AMERICAN ELECTRIC POWER COMPANY, INC.",
-          "predicted_percentile": 0.1076923076923077,
-          "ticker": "AEP"
-        },
-        {
-          "actual_percentile": 0.09230769230769231,
-          "actual_upside": -0.7249326204012403,
-          "company_name": "Vistra Corp.",
-          "predicted_percentile": 0.12307692307692308,
-          "ticker": "VST"
-        },
-        {
-          "actual_percentile": 0.2,
-          "actual_upside": -0.5863015747799987,
-          "company_name": "ADVANCED MICRO DEVICES, INC.",
-          "predicted_percentile": 0.13846153846153847,
-          "ticker": "AMD"
+          "actual_percentile": 0.026615969581749048,
+          "actual_upside": -2.196365762933567,
+          "company_name": "ATMOS ENERGY CORP",
+          "predicted_percentile": 0.034220532319391636,
+          "ticker": "ATO"
         }
       ],
       "top10": [
         {
-          "actual_percentile": 0.8153846153846154,
-          "actual_upside": 0.08993294004228036,
-          "company_name": "T-MOBILE US, INC.",
+          "actual_percentile": 0.9467680608365019,
+          "actual_upside": 0.7581984073334742,
+          "company_name": "Cognizant Technology Solutions Corporation",
           "predicted_percentile": 1.0,
-          "ticker": "TMUS"
+          "ticker": "CTSH"
         },
         {
-          "actual_percentile": 0.8307692307692308,
+          "actual_percentile": 1.0,
+          "actual_upside": 2.6377281679911544,
+          "company_name": "Comcast Corporation",
+          "predicted_percentile": 0.9961977186311787,
+          "ticker": "CMCSA"
+        },
+        {
+          "actual_percentile": 0.935361216730038,
+          "actual_upside": 0.694742395772886,
+          "company_name": "QUALCOMM INC/DE",
+          "predicted_percentile": 0.9923954372623575,
+          "ticker": "QCOM"
+        },
+        {
+          "actual_percentile": 0.9239543726235742,
+          "actual_upside": 0.6207524294946967,
+          "company_name": "UNITEDHEALTH GROUP INCORPORATED",
+          "predicted_percentile": 0.9885931558935361,
+          "ticker": "UNH"
+        },
+        {
+          "actual_percentile": 0.4296577946768061,
+          "actual_upside": -0.3288079630398919,
+          "company_name": "WORKDAY, INC.",
+          "predicted_percentile": 0.9847908745247148,
+          "ticker": "WDAY"
+        },
+        {
+          "actual_percentile": 0.9391634980988594,
+          "actual_upside": 0.7371170301473058,
+          "company_name": "Skyworks Solutions, Inc.",
+          "predicted_percentile": 0.9809885931558935,
+          "ticker": "SWKS"
+        },
+        {
+          "actual_percentile": 0.7832699619771863,
           "actual_upside": 0.09243115439887606,
           "company_name": "EPAM SYSTEMS, INC.",
-          "predicted_percentile": 0.9846153846153847,
+          "predicted_percentile": 0.9771863117870723,
           "ticker": "EPAM"
         },
         {
-          "actual_percentile": 0.9230769230769231,
-          "actual_upside": 0.31857873800516967,
-          "company_name": "KIMBERLY-CLARK CORPORATION",
-          "predicted_percentile": 0.9692307692307692,
-          "ticker": "KMB"
+          "actual_percentile": 0.7452471482889734,
+          "actual_upside": 0.01788189225622716,
+          "company_name": "Conagra Brands, Inc.",
+          "predicted_percentile": 0.973384030418251,
+          "ticker": "CAG"
         },
         {
-          "actual_percentile": 0.8923076923076924,
-          "actual_upside": 0.21180356939441602,
-          "company_name": "Booking Holdings Inc.",
-          "predicted_percentile": 0.9538461538461539,
-          "ticker": "BKNG"
+          "actual_percentile": 0.7604562737642585,
+          "actual_upside": 0.054827036613742,
+          "company_name": "THE CAMPBELL'S COMPANY",
+          "predicted_percentile": 0.9695817490494296,
+          "ticker": "CPB"
         },
         {
-          "actual_percentile": 0.9384615384615385,
-          "actual_upside": 0.470530595414721,
-          "company_name": "GENERAL MILLS, INC.",
-          "predicted_percentile": 0.9384615384615385,
-          "ticker": "GIS"
-        },
-        {
-          "actual_percentile": 0.8769230769230769,
-          "actual_upside": 0.20378421523320367,
-          "company_name": "MATCH GROUP, INC.",
-          "predicted_percentile": 0.9230769230769231,
-          "ticker": "MTCH"
-        },
-        {
-          "actual_percentile": 0.7230769230769231,
-          "actual_upside": -0.06823660782697505,
-          "company_name": "ConocoPhillips",
-          "predicted_percentile": 0.9076923076923077,
-          "ticker": "COP"
-        },
-        {
-          "actual_percentile": 0.6923076923076923,
-          "actual_upside": -0.12855813450598008,
-          "company_name": "ABBVIE INC.",
-          "predicted_percentile": 0.8923076923076924,
-          "ticker": "ABBV"
-        },
-        {
-          "actual_percentile": 0.8615384615384616,
-          "actual_upside": 0.19791420612225008,
-          "company_name": "Verizon Communications Inc.",
-          "predicted_percentile": 0.8769230769230769,
-          "ticker": "VZ"
-        },
-        {
-          "actual_percentile": 0.9846153846153847,
-          "actual_upside": 0.7656100342622338,
-          "company_name": "Keurig Dr Pepper Inc.",
-          "predicted_percentile": 0.8615384615384616,
-          "ticker": "KDP"
+          "actual_percentile": 0.9581749049429658,
+          "actual_upside": 0.7759212061162821,
+          "company_name": "PULTEGROUP, INC.",
+          "predicted_percentile": 0.9657794676806084,
+          "ticker": "PHM"
         }
       ]
     }
   },
-  "generated_at": "2026-03-21T17:06:17.951636+00:00",
+  "generated_at": "2026-03-21T17:52:13.413951+00:00",
   "matched_tickers": [
     "AAPL",
     "ABBV",
     "ABNB",
+    "ABT",
+    "ACN",
+    "ADI",
+    "AEE",
     "AEP",
+    "AKAM",
     "ALB",
+    "ALGN",
+    "ALLE",
+    "AMAT",
+    "AMCR",
     "AMD",
+    "AME",
+    "AMGN",
+    "AMZN",
+    "ANET",
+    "AOS",
     "APA",
     "APD",
+    "APH",
+    "APP",
+    "APTV",
+    "ATO",
     "AVGO",
+    "AWK",
     "AXON",
+    "AZO",
+    "BA",
+    "BALL",
+    "BDX",
+    "BF-B",
+    "BG",
+    "BIIB",
     "BKNG",
+    "BKR",
+    "BLDR",
+    "BMY",
+    "BSX",
+    "CAG",
+    "CAH",
+    "CARR",
     "CAT",
+    "CDNS",
+    "CDW",
+    "CF",
+    "CHD",
+    "CHRW",
+    "CHTR",
+    "CL",
+    "CMCSA",
     "CMG",
+    "CMI",
     "COP",
     "COST",
+    "CPB",
+    "CRH",
+    "CRL",
+    "CRWD",
     "CSCO",
+    "CSX",
+    "CTAS",
+    "CTSH",
+    "CVS",
     "CVX",
+    "DAL",
+    "DD",
+    "DECK",
+    "DELL",
+    "DGX",
     "DHI",
     "DHR",
     "DIS",
+    "DLTR",
+    "DOW",
+    "DRI",
+    "DVA",
     "DVN",
     "EA",
+    "ECL",
+    "EFX",
+    "EL",
+    "ELV",
     "EPAM",
     "EQT",
+    "ES",
     "ETN",
     "EXC",
+    "EXPD",
+    "EXPE",
+    "F",
     "FANG",
+    "FE",
+    "FICO",
+    "FIX",
+    "FOXA",
+    "FSLR",
     "FTNT",
+    "GD",
+    "GE",
+    "GEV",
     "GIS",
+    "GLW",
+    "GM",
+    "GNRC",
+    "GOOG",
     "GOOGL",
+    "GPC",
+    "GWW",
+    "HAL",
+    "HAS",
     "HCA",
+    "HLT",
+    "HOLX",
     "HON",
+    "HPE",
+    "HSIC",
+    "HSY",
+    "HUBB",
+    "HUM",
+    "IBM",
+    "IDXX",
+    "IEX",
+    "INTC",
+    "IR",
     "ISRG",
+    "IT",
+    "JBHT",
+    "JBL",
     "JCI",
+    "JNJ",
     "KDP",
+    "KEYS",
     "KMB",
     "KMI",
     "KR",
+    "LEN",
+    "LH",
+    "LHX",
     "LLY",
     "LMT",
+    "LNT",
+    "LVS",
+    "LW",
+    "MAR",
+    "MCHP",
+    "MCK",
     "MDLZ",
+    "MDT",
     "META",
+    "MKC",
+    "MMM",
+    "MNST",
+    "MO",
+    "MOH",
     "MOS",
+    "MPWR",
+    "MRK",
+    "MRNA",
+    "MSFT",
     "MTCH",
+    "MTD",
+    "MU",
+    "NCLH",
+    "NDSN",
     "NEE",
     "NEM",
     "NFLX",
+    "NKE",
+    "NOC",
+    "NOW",
+    "NRG",
+    "NSC",
+    "NTAP",
+    "NUE",
     "NVDA",
+    "NVR",
+    "NWS",
+    "NXPI",
+    "ODFL",
+    "OKE",
     "OMC",
+    "ORCL",
     "ORLY",
+    "OTIS",
+    "OXY",
+    "PAYC",
+    "PAYX",
+    "PCG",
+    "PEG",
     "PEP",
+    "PFE",
     "PG",
+    "PHM",
+    "PKG",
+    "PLTR",
+    "PM",
+    "PNR",
+    "PODD",
+    "PSKY",
     "PSX",
+    "PTC",
     "PWR",
+    "QCOM",
+    "RCL",
     "REGN",
+    "RMD",
+    "ROK",
+    "ROL",
+    "ROP",
+    "ROST",
+    "RSG",
+    "RTX",
+    "RVTY",
     "SHW",
+    "SJM",
+    "SNDK",
     "SO",
+    "SRE",
+    "STLD",
+    "STX",
     "STZ",
+    "SW",
+    "SWK",
+    "SWKS",
+    "SYY",
+    "TDY",
+    "TEL",
+    "TER",
+    "TGT",
+    "TJX",
+    "TMO",
     "TMUS",
+    "TRMB",
     "TSLA",
+    "TSN",
+    "TXN",
+    "TYL",
+    "UAL",
+    "UHS",
+    "ULTA",
+    "UNH",
     "UNP",
+    "VLO",
     "VMC",
+    "VRSN",
+    "VRTX",
     "VST",
     "VZ",
+    "WAB",
+    "WAT",
+    "WBD",
+    "WDAY",
+    "WDC",
+    "WEC",
     "WM",
+    "WMB",
+    "WYNN",
+    "XYL",
+    "ZBH",
+    "ZBRA",
     "ZTS"
   ],
   "monotonic_constraints": [
@@ -904,339 +1102,537 @@
     0
   ],
   "surprises": [
-    "Elastic Net: GOOGL is bottom-10 predicted despite 0.68 actual upside percentile.",
-    "XGBoost Ranker: ORLY is top-10 predicted despite only 0.28 actual upside percentile.",
-    "XGBoost Ranker: KR is top-10 predicted despite only 0.29 actual upside percentile.",
-    "XGBoost Ranker: MOS is top-10 predicted despite only 0.26 actual upside percentile.",
-    "XGBoost Ranker: EPAM is bottom-10 predicted despite 0.83 actual upside percentile.",
-    "XGBoost Ranker: EQT is bottom-10 predicted despite 0.71 actual upside percentile.",
-    "XGBoost Ranker: FANG is bottom-10 predicted despite 0.78 actual upside percentile.",
-    "XGBoost Ranker: GIS is bottom-10 predicted despite 0.94 actual upside percentile."
+    "Elastic Net: F is top-10 predicted despite only 0.01 actual upside percentile.",
+    "Elastic Net: MOH is bottom-10 predicted despite 0.94 actual upside percentile.",
+    "XGBoost Ranker: AAPL is top-10 predicted despite only 0.30 actual upside percentile.",
+    "XGBoost Ranker: NEE is top-10 predicted despite only 0.21 actual upside percentile.",
+    "XGBoost Ranker: NOC is top-10 predicted despite only 0.27 actual upside percentile.",
+    "XGBoost Ranker: EXPE is bottom-10 predicted despite 0.91 actual upside percentile.",
+    "XGBoost Ranker: FANG is bottom-10 predicted despite 0.75 actual upside percentile.",
+    "XGBoost Ranker: ZTS is bottom-10 predicted despite 0.85 actual upside percentile."
   ],
   "xgboost_ranker": {
     "cv_fold_assignments": [
+      2,
+      4,
+      1,
+      3,
+      2,
+      1,
       0,
       3,
       3,
+      0,
+      0,
+      2,
+      2,
+      3,
+      4,
+      0,
       1,
+      3,
+      0,
+      0,
+      4,
+      4,
+      2,
+      3,
+      0,
+      0,
+      2,
+      2,
+      2,
+      1,
+      0,
+      2,
+      2,
+      0,
+      3,
+      2,
+      2,
+      4,
+      1,
+      3,
+      3,
+      2,
+      2,
+      3,
+      3,
+      0,
+      0,
+      3,
+      4,
+      3,
+      4,
+      2,
+      4,
+      3,
+      4,
+      1,
+      1,
+      4,
+      4,
+      3,
+      1,
+      2,
+      2,
+      4,
+      3,
+      1,
+      1,
+      0,
+      0,
+      1,
+      3,
+      4,
+      3,
+      1,
+      4,
+      0,
+      2,
+      0,
+      1,
+      1,
+      3,
+      3,
+      0,
+      3,
+      1,
+      1,
+      1,
+      4,
+      4,
+      3,
+      0,
+      3,
+      1,
+      2,
+      3,
+      2,
+      1,
+      1,
+      2,
+      4,
+      2,
+      0,
+      4,
+      4,
+      1,
+      3,
+      4,
+      4,
+      2,
+      0,
+      3,
+      0,
+      2,
+      0,
+      1,
+      0,
+      4,
+      1,
+      0,
+      0,
+      1,
+      4,
+      2,
+      3,
+      2,
+      0,
+      1,
+      1,
+      2,
+      4,
+      4,
+      3,
+      1,
+      3,
+      4,
+      2,
+      1,
+      2,
+      2,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      3,
       1,
       0,
       1,
       4,
+      2,
+      4,
+      2,
+      3,
+      0,
+      0,
+      3,
+      4,
+      2,
+      1,
+      4,
+      3,
+      1,
+      3,
+      1,
+      2,
+      3,
+      2,
+      2,
+      4,
+      1,
+      3,
+      0,
+      0,
+      4,
+      3,
+      2,
+      0,
+      0,
+      2,
+      1,
+      1,
+      1,
+      2,
+      0,
+      3,
+      2,
+      4,
+      4,
+      4,
+      0,
+      4,
+      2,
+      2,
+      0,
+      0,
+      0,
+      1,
+      3,
+      1,
+      1,
+      1,
+      4,
+      4,
+      3,
+      3,
+      0,
+      4,
+      3,
+      0,
+      2,
       1,
       0,
+      2,
       4,
       2,
       0,
       0,
       4,
+      4,
       2,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      4,
+      1,
+      2,
+      0,
+      1,
+      3,
       0,
       1,
       4,
       1,
       4,
-      3,
       4,
-      4,
-      2,
-      1,
-      2,
-      2,
-      1,
+      0,
       3,
       0,
       2,
       2,
+      3,
+      3,
+      3,
+      0,
+      4,
+      0,
+      3,
       0,
       1,
-      3,
-      1,
-      3,
       4,
       3,
       1,
-      0,
-      4,
-      3,
-      2,
-      0,
-      3,
       2,
       1,
-      3,
       2,
       4,
-      3,
-      3,
-      0,
-      4,
+      2,
+      2,
       1,
-      4,
-      2,
-      2,
-      4,
-      3,
-      0,
-      0,
-      2,
-      0
+      4
     ],
     "cv_metrics": {
-      "mae": 0.3622377622377623,
-      "r2": -1.1058970879866403,
-      "spearman": -0.07439319694957858
+      "mae": 0.3245333563774629,
+      "r2": -0.827116853302376,
+      "spearman": 0.06781493055881647
     },
     "cv_repeat_metrics": [
       {
-        "mae": 0.25151515151515147,
-        "r2": -0.1253731343283584,
-        "spearman": 0.42595005149194565
+        "mae": 0.32673695126166613,
+        "r2": -0.9282255802881387,
+        "spearman": 0.01621828516105363
       },
       {
-        "mae": 0.3361305361305362,
-        "r2": -1.0546707024318964,
-        "spearman": -0.04825331932726101
+        "mae": 0.33812939278718745,
+        "r2": -1.0164241598132122,
+        "spearman": -0.028790201920208976
       },
       {
-        "mae": 0.29463869463869463,
-        "r2": -0.6850224402463208,
-        "spearman": 0.1403713558707827
+        "mae": 0.3401745592810232,
+        "r2": -1.0121809964194641,
+        "spearman": -0.026624879464682297
       },
       {
-        "mae": 0.3815850815850816,
-        "r2": -1.3606095397140172,
-        "spearman": -0.2043682526739139
+        "mae": 0.3510341053116718,
+        "r2": -1.1783100391967603,
+        "spearman": -0.11140194635087614
       },
       {
-        "mae": 0.34778554778554777,
-        "r2": -1.1124099780816197,
-        "spearman": -0.07771660437344291
+        "mae": 0.3172168452586704,
+        "r2": -0.8039803298788879,
+        "spearman": 0.07962169571556546
       },
       {
-        "mae": 0.3114219114219114,
-        "r2": -0.6939985387746579,
-        "spearman": 0.1357910187160979
+        "mae": 0.33811499020624497,
+        "r2": -0.9799105192103259,
+        "spearman": -0.010156979818285138
       },
       {
-        "mae": 0.32913752913752914,
-        "r2": -0.851518630623108,
-        "spearman": 0.05541142762481498
+        "mae": 0.3505300149786842,
+        "r2": -1.1377195442479895,
+        "spearman": -0.09068827071844242
       },
       {
-        "mae": 0.3505827505827507,
-        "r2": -1.1245590230664857,
-        "spearman": -0.08391603745257446
+        "mae": 0.326276068671506,
+        "r2": -0.8330061501738095,
+        "spearman": 0.06480957215528038
       },
       {
-        "mae": 0.34289044289044285,
-        "r2": -1.0292453814841873,
-        "spearman": -0.03527924803794448
+        "mae": 0.32901255905058185,
+        "r2": -0.8535254257185529,
+        "spearman": 0.05433841090477618
       },
       {
-        "mae": 0.30582750582750584,
-        "r2": -0.7263959920676335,
-        "spearman": 0.1192591971717471
+        "mae": 0.3167415600875677,
+        "r2": -0.8264483561491955,
+        "spearman": 0.06815607035545264
       },
       {
-        "mae": 0.3118881118881119,
-        "r2": -0.7802108339421772,
-        "spearman": 0.0917984781373809
+        "mae": 0.35551330798479086,
+        "r2": -1.1335044251250577,
+        "spearman": -0.08853725949340878
       },
       {
-        "mae": 0.3792540792540793,
-        "r2": -1.4586368855025569,
-        "spearman": -0.2543897951818207
+        "mae": 0.3165687291162576,
+        "r2": -0.784694350057719,
+        "spearman": 0.08946349564369016
       },
       {
-        "mae": 0.3363636363636364,
-        "r2": -1.0410604321052084,
-        "spearman": -0.04130824996713427
+        "mae": 0.30477301532434614,
+        "r2": -0.79105322541724,
+        "spearman": 0.08621850733422427
       },
       {
-        "mae": 0.3095571095571096,
-        "r2": -0.7542010228577392,
-        "spearman": 0.1050708039390955
+        "mae": 0.326276068671506,
+        "r2": -0.8770343509707881,
+        "spearman": 0.04234160591985233
       },
       {
-        "mae": 0.3296037296037297,
-        "r2": -0.8471349545976412,
-        "spearman": 0.057648336467800584
+        "mae": 0.3358681875792142,
+        "r2": -0.9941178772443569,
+        "spearman": -0.017407115749916418
       },
       {
-        "mae": 0.33263403263403263,
-        "r2": -1.104185366871934,
-        "spearman": -0.07351973730612706
+        "mae": 0.34600760456273766,
+        "r2": -1.0924652218432258,
+        "spearman": -0.06759460417308659
       },
       {
-        "mae": 0.3382284382284382,
-        "r2": -0.9326375117419896,
-        "spearman": 0.014017962082709823
+        "mae": 0.3190171678764835,
+        "r2": -0.844894964422908,
+        "spearman": 0.05874260888417743
       },
       {
-        "mae": 0.36853146853146856,
-        "r2": -1.2371568729777684,
-        "spearman": -0.14137263887669055
+        "mae": 0.33755328954948727,
+        "r2": -1.0708652635835358,
+        "spearman": -0.0565719613196301
       },
       {
-        "mae": 0.35198135198135194,
-        "r2": -1.0709946769648262,
-        "spearman": -0.056583141780664585
+        "mae": 0.32914218227906444,
+        "r2": -0.8686752016904824,
+        "spearman": 0.04660735106471637
       },
       {
-        "mae": 0.29790209790209793,
-        "r2": -0.6977142260724347,
-        "spearman": 0.1338949721729958
+        "mae": 0.3443369051734071,
+        "r2": -1.0706813453423685,
+        "spearman": -0.05647810627314091
       },
       {
-        "mae": 0.3655011655011655,
-        "r2": -1.107400062623943,
-        "spearman": -0.07516013712431652
+        "mae": 0.3366459269501095,
+        "r2": -0.9744425385934821,
+        "spearman": -0.007366622691458262
       },
       {
-        "mae": 0.33496503496503494,
-        "r2": -1.075420102285774,
-        "spearman": -0.05884135451739291
+        "mae": 0.3261176402811384,
+        "r2": -0.8792720229049951,
+        "spearman": 0.04119970285423413
       },
       {
-        "mae": 0.3545454545454545,
-        "r2": -1.1025153950527082,
-        "spearman": -0.07266758155641824
+        "mae": 0.3065733379421592,
+        "r2": -0.7595158124033938,
+        "spearman": 0.10231231807191993
       },
       {
-        "mae": 0.2855477855477855,
-        "r2": -0.5899592944369061,
-        "spearman": 0.18888032192295637
+        "mae": 0.35176863693973964,
+        "r2": -1.1751234274012088,
+        "spearman": -0.10977579118369148
       },
       {
-        "mae": 0.33962703962703966,
-        "r2": -0.9794384719757852,
-        "spearman": -0.009863702802879404
+        "mae": 0.30700541537043435,
+        "r2": -0.7445538678266994,
+        "spearman": 0.10994752594960784
       },
       {
-        "mae": 0.3079254079254079,
-        "r2": -0.7678947917753889,
-        "spearman": 0.09808312679148333
+        "mae": 0.33883511925337023,
+        "r2": -0.9645598679962697,
+        "spearman": -0.002323411629577579
       },
       {
-        "mae": 0.3627039627039627,
-        "r2": -1.2187036843753263,
-        "spearman": -0.13195631784240827
+        "mae": 0.33318930752390835,
+        "r2": -0.9240450273594691,
+        "spearman": 0.018351656962456338
       },
       {
-        "mae": 0.33053613053613057,
-        "r2": -0.78956267612984,
-        "spearman": 0.08702640593901159
+        "mae": 0.34053462380458577,
+        "r2": -1.032120472969888,
+        "spearman": -0.03680016434522596
       },
       {
-        "mae": 0.3685314685314685,
-        "r2": -1.1734474480743136,
-        "spearman": -0.10886289702529969
+        "mae": 0.32575757575757575,
+        "r2": -0.9427062069145429,
+        "spearman": 0.008828697936943766
       },
       {
-        "mae": 0.31188811188811183,
-        "r2": -0.8058031520718085,
-        "spearman": 0.07873919127309348
+        "mae": 0.3409378960709759,
+        "r2": -1.0342577072830323,
+        "spearman": -0.0378908132365203
       },
       {
-        "mae": 0.32983682983682977,
-        "r2": -0.7793340987370836,
-        "spearman": 0.09224585990597801
+        "mae": 0.31309770710911394,
+        "r2": -0.7969725231365232,
+        "spearman": 0.08319783924225375
       },
       {
-        "mae": 0.3214452214452214,
-        "r2": -0.7499843440141947,
-        "spearman": 0.10722249720711023
+        "mae": 0.31388984906095174,
+        "r2": -0.7994482452764968,
+        "spearman": 0.0819344571271017
       },
       {
-        "mae": 0.3048951048951049,
-        "r2": -0.6314998434401418,
-        "spearman": 0.1676829476489499
+        "mae": 0.3348023965894688,
+        "r2": -1.0557572279216587,
+        "spearman": -0.04886220191565292
       },
       {
-        "mae": 0.3505827505827506,
-        "r2": -1.1474376369898756,
-        "spearman": -0.09559057122358508
+        "mae": 0.3513365595114644,
+        "r2": -1.0791637589757972,
+        "spearman": -0.06080675426831152
       },
       {
-        "mae": 0.32331002331002334,
-        "r2": -0.9331385032877568,
-        "spearman": 0.013762315357797183
+        "mae": 0.3162230671736375,
+        "r2": -0.8392945887601171,
+        "spearman": 0.06160052833170396
       },
       {
-        "mae": 0.3673659673659673,
-        "r2": -1.2482204362801377,
-        "spearman": -0.1470181707185114
+        "mae": 0.3226898260168222,
+        "r2": -0.9285699378460699,
+        "spearman": 0.01604255656337179
       },
       {
-        "mae": 0.3016317016317016,
-        "r2": -0.5694186410604318,
-        "spearman": 0.19936183764437468
+        "mae": 0.3417156354418712,
+        "r2": -1.0391198012117737,
+        "spearman": -0.040371981220834983
       },
       {
-        "mae": 0.30489510489510485,
-        "r2": -0.6904498486588038,
-        "spearman": 0.1376018496842291
+        "mae": 0.31072128125360066,
+        "r2": -0.711328581025116,
+        "spearman": 0.12690267307139555
       },
       {
-        "mae": 0.327972027972028,
-        "r2": -0.8527293601920465,
-        "spearman": 0.05479361470627609
+        "mae": 0.3493922110842263,
+        "r2": -1.139785037403231,
+        "spearman": -0.0917423094852197
       },
       {
-        "mae": 0.3354312354312354,
-        "r2": -1.0327940716000414,
-        "spearman": -0.037090079006075694
+        "mae": 0.33159062103929027,
+        "r2": -0.9732125038316302,
+        "spearman": -0.006738925465647732
       },
       {
-        "mae": 0.35780885780885785,
-        "r2": -1.1594614340882994,
-        "spearman": -0.10172609262148846
+        "mae": 0.3435735683834543,
+        "r2": -1.063023955024816,
+        "spearman": -0.05257047470991641
       },
       {
-        "mae": 0.3324009324009324,
-        "r2": -0.8468427095292763,
-        "spearman": 0.057797463723999624
+        "mae": 0.3242597073395553,
+        "r2": -0.9301469389352308,
+        "spearman": 0.015237799462624246
       },
       {
-        "mae": 0.3296037296037296,
-        "r2": -0.814320008349859,
-        "spearman": 0.07439319694957858
+        "mae": 0.32335234474017743,
+        "r2": -0.9128540589190564,
+        "spearman": 0.024062503567802512
       },
       {
-        "mae": 0.3097902097902098,
-        "r2": -0.7402567581672057,
-        "spearman": 0.11218630444916404
+        "mae": 0.32207051503629447,
+        "r2": -0.7900514579759863,
+        "spearman": 0.08672971780020783
       },
       {
-        "mae": 0.3552447552447553,
-        "r2": -1.1442229412378664,
-        "spearman": -0.09395017140539563
+        "mae": 0.34080827284249343,
+        "r2": -1.0198814314317581,
+        "spearman": -0.030554477102617043
       },
       {
-        "mae": 0.28088578088578087,
-        "r2": -0.42989249556413744,
-        "spearman": 0.2705594505325452
+        "mae": 0.3394688328148404,
+        "r2": -1.014701067638868,
+        "spearman": -0.02791089329317217
       },
       {
-        "mae": 0.3156177156177156,
-        "r2": -0.7650558396827052,
-        "spearman": 0.09953179156598829
+        "mae": 0.3199677382186888,
+        "r2": -0.8473015541743569,
+        "spearman": 0.05751450561628725
       },
       {
-        "mae": 0.3815850815850816,
-        "r2": -1.496378248617054,
-        "spearman": -0.27364851512523963
+        "mae": 0.32646330222375847,
+        "r2": -0.8664107898701485,
+        "spearman": 0.04776289972220002
       },
       {
-        "mae": 0.3599067599067599,
-        "r2": -1.2453397348919735,
-        "spearman": -0.1455482020502637
+        "mae": 0.3596036409724623,
+        "r2": -1.27358099250631,
+        "spearman": -0.1600195260708924
       },
       {
-        "mae": 0.31585081585081587,
-        "r2": -0.8604947291514455,
-        "spearman": 0.05083109047013015
+        "mae": 0.31291047355686136,
+        "r2": -0.7890881698830619,
+        "spearman": 0.08722129192667769
       }
     ],
     "degenerate_constant_scores": true,
@@ -1255,14 +1651,14 @@
       "momentum_12_1"
     ],
     "loo_metrics": {
-      "mae": 0.3291375291375291,
-      "r2": -0.859200500991546,
-      "spearman": 0.07035123437376924
+      "mae": 0.32830683258439913,
+      "r2": -0.9278336126890541,
+      "spearman": 0.03607847868912727
     },
     "repeated_cv_mean_metrics": {
-      "mae": 0.3315058275058275,
-      "r2": -0.9287030581358938,
-      "spearman": 0.016025641029023766
+      "mae": 0.33108653070630256,
+      "r2": -0.9479601380039,
+      "spearman": 0.0061475721089032185
     },
     "stability": {
       "bootstrap_samples": 1000,
@@ -1285,285 +1681,285 @@
   },
   "xgboost_regressor": {
     "cv_mean_metrics": {
-      "mae": 0.19080652680652677,
-      "r2": 0.3330658595136207,
-      "spearman": 0.6665314054391979
+      "mae": 0.18688443369051735,
+      "r2": 0.24324554389580574,
+      "spearman": 0.6216227498336816
     },
     "cv_repeat_metrics": [
       {
-        "mae": 0.21165501165501166,
-        "r2": 0.1891660578227743,
-        "spearman": 0.5945787974313785
+        "mae": 0.1805795598571264,
+        "r2": 0.28041596827736426,
+        "spearman": 0.6402078668118787
       },
       {
-        "mae": 0.1967365967365967,
-        "r2": 0.3341822356747731,
-        "spearman": 0.6670911178373866
+        "mae": 0.18487152897799286,
+        "r2": 0.25357238356736167,
+        "spearman": 0.6267861917836807
       },
       {
-        "mae": 0.18228438228438232,
-        "r2": 0.3779563719862228,
-        "spearman": 0.6889749397613542
+        "mae": 0.18507316511118793,
+        "r2": 0.2464256598556046,
+        "spearman": 0.6232128299278021
       },
       {
-        "mae": 0.18927738927738924,
-        "r2": 0.3269178582611417,
-        "spearman": 0.663458929130571
+        "mae": 0.18959557552713446,
+        "r2": 0.2225254191966295,
+        "spearman": 0.6112627095983146
       },
       {
-        "mae": 0.18834498834498836,
-        "r2": 0.33735518213130156,
-        "spearman": 0.6686775910656508
+        "mae": 0.1864846180435534,
+        "r2": 0.25323976547163307,
+        "spearman": 0.6266198827358164
       },
       {
-        "mae": 0.1902097902097902,
-        "r2": 0.3530529172320217,
-        "spearman": 0.6765264586160109
+        "mae": 0.18806890194722894,
+        "r2": 0.22766730364118992,
+        "spearman": 0.6138336518205948
       },
       {
-        "mae": 0.17948717948717946,
-        "r2": 0.4124830393487111,
-        "spearman": 0.7062384536284239
+        "mae": 0.18812651227099897,
+        "r2": 0.21937696065323598,
+        "spearman": 0.6096884166870693
       },
       {
-        "mae": 0.19114219114219114,
-        "r2": 0.31875587099467695,
-        "spearman": 0.6593743803133432
+        "mae": 0.18659983869109345,
+        "r2": 0.23973644907356084,
+        "spearman": 0.61986816255702
       },
       {
-        "mae": 0.18904428904428902,
-        "r2": 0.33299238075357473,
-        "spearman": 0.6664927094894869
+        "mae": 0.18539002189192305,
+        "r2": 0.2612242302499852,
+        "spearman": 0.6306120548970036
       },
       {
-        "mae": 0.18857808857808855,
-        "r2": 0.3274605991023901,
-        "spearman": 0.6637232800377347
+        "mae": 0.1878960709759189,
+        "r2": 0.2297177963725061,
+        "spearman": 0.614858898186253
       },
       {
-        "mae": 0.20186480186480185,
-        "r2": 0.24308527293601934,
-        "spearman": 0.6215426364680098
+        "mae": 0.18150132503744673,
+        "r2": 0.2906795192038035,
+        "spearman": 0.6453397596019016
       },
       {
-        "mae": 0.18927738927738924,
-        "r2": 0.3719235987892705,
-        "spearman": 0.6859617993946353
+        "mae": 0.19457886853324116,
+        "r2": 0.21026289873409465,
+        "spearman": 0.6051314493670473
       },
       {
-        "mae": 0.19347319347319347,
-        "r2": 0.31965348084751066,
-        "spearman": 0.6598267404237554
+        "mae": 0.18844336905173406,
+        "r2": 0.23534621630611297,
+        "spearman": 0.6176731081530564
       },
       {
-        "mae": 0.18717948717948715,
-        "r2": 0.36267612984030895,
-        "spearman": 0.6813347389447307
+        "mae": 0.1922456504205554,
+        "r2": 0.2061576740212222,
+        "spearman": 0.6030787722933726
       },
       {
-        "mae": 0.17342657342657342,
-        "r2": 0.4371986222732491,
-        "spearman": 0.7185963740749842
+        "mae": 0.1832296347505473,
+        "r2": 0.2691728244493865,
+        "spearman": 0.6345864122246931
       },
       {
-        "mae": 0.1976689976689977,
-        "r2": 0.31332846258219393,
-        "spearman": 0.6566606477828485
+        "mae": 0.18337366055997234,
+        "r2": 0.2633324420037958,
+        "spearman": 0.6316659807774044
       },
       {
-        "mae": 0.18578088578088578,
-        "r2": 0.37173572695960766,
-        "spearman": 0.6858645847840948
+        "mae": 0.1844394515497177,
+        "r2": 0.2632952670401556,
+        "spearman": 0.6316476335200776
       },
       {
-        "mae": 0.19324009324009322,
-        "r2": 0.29257906272831646,
-        "spearman": 0.6462858395701113
+        "mae": 0.188212927756654,
+        "r2": 0.25426370745260196,
+        "spearman": 0.6271318537263009
       },
       {
-        "mae": 0.18974358974358974,
-        "r2": 0.31764951466444014,
-        "spearman": 0.6588247573322201
+        "mae": 0.1885009793755041,
+        "r2": 0.2456182457330317,
+        "spearman": 0.6228091228665157
       },
       {
-        "mae": 0.1822843822843823,
-        "r2": 0.3553908777789375,
-        "spearman": 0.6776954388894689
+        "mae": 0.1893363290701694,
+        "r2": 0.23285875470393724,
+        "spearman": 0.6164293773519685
       },
       {
-        "mae": 0.17668997668997666,
-        "r2": 0.41383989145183175,
-        "spearman": 0.706919945725916
+        "mae": 0.18827053808042404,
+        "r2": 0.23407150636865837,
+        "spearman": 0.6170356907427397
       },
       {
-        "mae": 0.19999999999999998,
-        "r2": 0.2840830810980065,
-        "spearman": 0.6420415405490034
+        "mae": 0.1812132734185966,
+        "r2": 0.2700314356710082,
+        "spearman": 0.6350156583255141
       },
       {
-        "mae": 0.19067599067599067,
-        "r2": 0.36549420728525217,
-        "spearman": 0.6827471036426261
+        "mae": 0.18429542574029267,
+        "r2": 0.26045301280253585,
+        "spearman": 0.6302265064012678
       },
       {
-        "mae": 0.186013986013986,
-        "r2": 0.323911908986536,
-        "spearman": 0.661955954493268
+        "mae": 0.18691669547182857,
+        "r2": 0.2498486913760607,
+        "spearman": 0.6249242845326609
       },
       {
-        "mae": 0.1897435897435897,
-        "r2": 0.3598789270431062,
-        "spearman": 0.679936122948245
+        "mae": 0.18443945154971772,
+        "r2": 0.25723900892851326,
+        "spearman": 0.6286195044642565
       },
       {
-        "mae": 0.1822843822843823,
-        "r2": 0.38787182966287437,
-        "spearman": 0.6939359148314374
+        "mae": 0.18890425164189426,
+        "r2": 0.22530114981510352,
+        "spearman": 0.6126505749075516
       },
       {
-        "mae": 0.18601398601398603,
-        "r2": 0.4053439098215218,
-        "spearman": 0.7026688516075426
+        "mae": 0.18564926834888815,
+        "r2": 0.26255307215203916,
+        "spearman": 0.6312765360760194
       },
       {
-        "mae": 0.20023310023310023,
-        "r2": 0.266924120655464,
-        "spearman": 0.6334544089556553
+        "mae": 0.188155317432884,
+        "r2": 0.244037331489803,
+        "spearman": 0.6220186657449014
       },
       {
-        "mae": 0.2,
-        "r2": 0.2974428556518107,
-        "spearman": 0.6487214278259056
+        "mae": 0.1838345431501325,
+        "r2": 0.2596338592177605,
+        "spearman": 0.6298169296088801
       },
       {
-        "mae": 0.18648018648018647,
-        "r2": 0.32040496816616215,
-        "spearman": 0.6602024840830812
+        "mae": 0.18798248646157392,
+        "r2": 0.25100796326852703,
+        "spearman": 0.6255039816342635
       },
       {
-        "mae": 0.186013986013986,
-        "r2": 0.38152593674981716,
-        "spearman": 0.6907629683749088
+        "mae": 0.18956677036524947,
+        "r2": 0.22181876879129192,
+        "spearman": 0.6109093209551635
       },
       {
-        "mae": 0.18927738927738924,
-        "r2": 0.30804717670389314,
-        "spearman": 0.6540235883519466
+        "mae": 0.1855916580251181,
+        "r2": 0.25374456234632725,
+        "spearman": 0.6268722811731634
       },
       {
-        "mae": 0.21445221445221446,
-        "r2": 0.22753366036948142,
-        "spearman": 0.6137627989354137
+        "mae": 0.19100702845949993,
+        "r2": 0.231723940024392,
+        "spearman": 0.615861970012196
       },
       {
-        "mae": 0.19766899766899765,
-        "r2": 0.2907003444316878,
-        "spearman": 0.6453464706172477
+        "mae": 0.19077658716441986,
+        "r2": 0.22078667440601585,
+        "spearman": 0.6103933372030078
       },
       {
-        "mae": 0.17715617715617718,
-        "r2": 0.40653376474271996,
-        "spearman": 0.703260688195982
+        "mae": 0.19077658716441986,
+        "r2": 0.20303269440223304,
+        "spearman": 0.6015163472011165
       },
       {
-        "mae": 0.1944055944055944,
-        "r2": 0.3168980273457884,
-        "spearman": 0.6584490136728943
+        "mae": 0.1879536812996889,
+        "r2": 0.22617932680706188,
+        "spearman": 0.613089600318539
       },
       {
-        "mae": 0.18927738927738927,
-        "r2": 0.3523640538565913,
-        "spearman": 0.6761786471367908
+        "mae": 0.1847563083304528,
+        "r2": 0.2568750856002453,
+        "spearman": 0.6284375428001224
       },
       {
-        "mae": 0.18275058275058276,
-        "r2": 0.3798559649305918,
-        "spearman": 0.6899279824652961
+        "mae": 0.1814437147136767,
+        "r2": 0.2679206151478194,
+        "spearman": 0.6339603075739095
       },
       {
-        "mae": 0.20093240093240095,
-        "r2": 0.27381275440976927,
-        "spearman": 0.6369063772048847
+        "mae": 0.18782405807120636,
+        "r2": 0.22229682577985888,
+        "spearman": 0.6111483494884202
       },
       {
-        "mae": 0.19487179487179487,
-        "r2": 0.2519361235779146,
-        "spearman": 0.6259680617889574
+        "mae": 0.18674386450051852,
+        "r2": 0.23656744647131345,
+        "spearman": 0.6182836609975463
       },
       {
-        "mae": 0.1902097902097902,
-        "r2": 0.34754201022857734,
-        "spearman": 0.6737710051142888
+        "mae": 0.18602373545339324,
+        "r2": 0.24363558100555005,
+        "spearman": 0.621817790502775
       },
       {
-        "mae": 0.20139860139860138,
-        "r2": 0.2910134641477925,
-        "spearman": 0.6455067320738964
+        "mae": 0.19086300265007491,
+        "r2": 0.20890764304208598,
+        "spearman": 0.6044538215210429
       },
       {
-        "mae": 0.18834498834498833,
-        "r2": 0.34898236092265944,
-        "spearman": 0.6744877830216365
+        "mae": 0.18778085032837885,
+        "r2": 0.252483222351936,
+        "spearman": 0.6262416111759679
       },
       {
-        "mae": 0.17482517482517482,
-        "r2": 0.4002296211251435,
-        "spearman": 0.7001148105625719
+        "mae": 0.1864558128816684,
+        "r2": 0.23323833064847477,
+        "spearman": 0.6166191653242373
       },
       {
-        "mae": 0.18927738927738924,
-        "r2": 0.3368541905855339,
-        "spearman": 0.6684270952927671
+        "mae": 0.18582209932019816,
+        "r2": 0.24970357857939462,
+        "spearman": 0.6248517892896972
       },
       {
-        "mae": 0.2,
-        "r2": 0.29710886128796576,
-        "spearman": 0.648554430643983
+        "mae": 0.18815531743288397,
+        "r2": 0.2350970788304888,
+        "spearman": 0.6175485394152441
       },
       {
-        "mae": 0.18834498834498833,
-        "r2": 0.35639286087047284,
-        "spearman": 0.6781964304352365
+        "mae": 0.186758267081461,
+        "r2": 0.2355239387200072,
+        "spearman": 0.6177619070368224
       },
       {
-        "mae": 0.20466200466200465,
-        "r2": 0.24191629266256132,
-        "spearman": 0.6209581463312808
+        "mae": 0.18962438068901946,
+        "r2": 0.23278701354603504,
+        "spearman": 0.6163935067730174
       },
       {
-        "mae": 0.1906759906759907,
-        "r2": 0.3489614862749191,
-        "spearman": 0.6744807431374596
+        "mae": 0.1847563083304528,
+        "r2": 0.25286671145054107,
+        "spearman": 0.6264333557252704
       },
       {
-        "mae": 0.18694638694638696,
-        "r2": 0.37434505792714756,
-        "spearman": 0.6871725289635738
+        "mae": 0.185332411568153,
+        "r2": 0.25802163974199277,
+        "spearman": 0.6290108198709963
       }
     ],
     "feature_importance": {
-      "asset_growth_1y": 0.1742544323205948,
-      "cash_earnings_gap": 0.09578815847635269,
-      "fcf_to_ev": 0.5057517290115356,
-      "gross_profitability_assets": 0.10639049857854843,
-      "momentum_12_1": 0.11781515926122665
+      "asset_growth_1y": 0.16095787286758423,
+      "cash_earnings_gap": 0.036977700889110565,
+      "fcf_to_ev": 0.5493725538253784,
+      "gross_profitability_assets": 0.07814110815525055,
+      "momentum_12_1": 0.17455078661441803
     },
     "stability": {
       "bootstrap_samples": 1000,
       "bootstrap_spearman_stats": {
-        "lower": 0.42920940170940175,
-        "mean": 0.6609988039012754,
-        "std": 0.10629012712478199,
-        "upper": 0.8317614589855987
+        "lower": 0.4958702645040548,
+        "mean": 0.6063104948199143,
+        "std": 0.057405178162243574,
+        "upper": 0.7192631073715245
       },
       "repeats": 50,
       "spearman_stats": {
-        "lower": 0.34763736263736267,
-        "mean": 0.6655704656534474,
-        "std": 0.16030204932383288,
-        "upper": 0.8656593406593406
+        "lower": 0.45765602322206095,
+        "mean": 0.6195618744742717,
+        "std": 0.0900674145342724,
+        "upper": 0.7448234155781325
       },
-      "top_quartile_overlap_stability": 0.8847058823529411
+      "top_quartile_overlap_stability": 0.907878787878788
     }
   }
 }
