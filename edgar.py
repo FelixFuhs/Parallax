@@ -68,11 +68,14 @@ DERIVED_FIELD_NAMES = (
     "roic",
     "roe",
     "gross_margin",
+    "gross_profitability_assets",
     "operating_margin",
     "net_margin",
+    "book_to_market",
     "debt_to_equity",
     "current_ratio",
     "asset_turnover",
+    "asset_growth_1y",
     "accruals",
     "capex_intensity",
 )
@@ -112,6 +115,7 @@ FIELD_SPECS: dict[str, FieldSpec] = {
     "revenue": FieldSpec(
         candidates=(
             TagCandidate("us-gaap", "RevenueFromContractWithCustomerExcludingAssessedTax", True),
+            TagCandidate("us-gaap", "RevenueFromContractWithCustomerIncludingAssessedTax", True),
             TagCandidate("us-gaap", "Revenues", True),
             TagCandidate("us-gaap", "SalesRevenueNet", True),
         )
@@ -196,6 +200,11 @@ FIELD_SPECS: dict[str, FieldSpec] = {
         candidates=(TagCandidate("us-gaap", "LiabilitiesCurrent", False),)
     ),
 }
+GROSS_PROFIT_FALLBACK_SPECS: tuple[FieldSpec, ...] = (
+    FieldSpec(candidates=(TagCandidate("us-gaap", "CostOfRevenue", True),)),
+    FieldSpec(candidates=(TagCandidate("us-gaap", "CostOfGoodsAndServicesSold", True),)),
+    FieldSpec(candidates=(TagCandidate("us-gaap", "CostOfGoodsSold", True),)),
+)
 TOTAL_DEBT_SPEC = FieldSpec(
     candidates=(
         TagCandidate("us-gaap", "LongTermDebtAndCapitalLeaseObligations", False),
@@ -432,6 +441,33 @@ def latest_fact(facts: Sequence[FactRecord]) -> FactRecord | None:
     )
 
 
+def latest_distinct_facts(facts: Sequence[FactRecord], *, limit: int) -> list[FactRecord]:
+    if limit <= 0:
+        return []
+
+    ordered = sorted(
+        facts,
+        key=lambda fact: (
+            fact.end or date.min,
+            fact.filed or date.min,
+            -fact.candidate_rank,
+        ),
+        reverse=True,
+    )
+
+    distinct: list[FactRecord] = []
+    seen_periods: set[tuple[date | None, date | None]] = set()
+    for fact in ordered:
+        period_key = (fact.start, fact.end)
+        if period_key in seen_periods:
+            continue
+        distinct.append(fact)
+        seen_periods.add(period_key)
+        if len(distinct) >= limit:
+            break
+    return distinct
+
+
 def select_fact(
     facts: Sequence[FactRecord],
     *,
@@ -539,6 +575,40 @@ def extract_da(
     return total_value, depreciation_fact or amortization_fact
 
 
+def extract_gross_profit(
+    company_facts: dict[str, Any],
+    *,
+    direct_fact: FactRecord | None,
+    direct_value: float | None,
+    revenue_fact: FactRecord | None,
+    revenue_value: float | None,
+    anchor_end: date | None,
+    anchor_accn: str | None,
+) -> tuple[float | None, FactRecord | None]:
+    if direct_value is not None:
+        return direct_value, direct_fact
+
+    if revenue_value is None:
+        return None, None
+
+    aligned_end = revenue_fact.end if revenue_fact and revenue_fact.end else anchor_end
+    aligned_accn = revenue_fact.accn if revenue_fact and revenue_fact.accn else anchor_accn
+    for spec in GROSS_PROFIT_FALLBACK_SPECS:
+        cost_facts = list(iter_field_facts(company_facts, "gross_profit_fallback", spec))
+        cost_fact = select_fact(cost_facts, anchor_end=aligned_end, anchor_accn=aligned_accn)
+        cost_value = abs_if_present(cost_fact.value if cost_fact is not None else None)
+        if cost_value is None:
+            continue
+        return revenue_value - cost_value, cost_fact
+
+    return None, None
+
+
+def recent_total_assets(company_facts: dict[str, Any], *, limit: int = 2) -> list[FactRecord]:
+    facts = list(iter_field_facts(company_facts, "total_assets", FIELD_SPECS["total_assets"]))
+    return latest_distinct_facts(facts, limit=limit)
+
+
 def extract_company_features(
     ticker: str,
     company_record: dict[str, Any],
@@ -555,7 +625,6 @@ def extract_company_features(
 
     selected_facts: dict[str, FactRecord | None] = {}
     values: dict[str, float | None] = {}
-    missing_fields: list[str] = []
 
     for field_name, spec in FIELD_SPECS.items():
         if field_name == "da":
@@ -572,8 +641,6 @@ def extract_company_features(
                 value = abs_if_present(value)
         selected_facts[field_name] = fact
         values[field_name] = value
-        if value is None:
-            missing_fields.append(field_name)
 
     total_debt, debt_fact = extract_total_debt(
         company_facts,
@@ -582,8 +649,22 @@ def extract_company_features(
     )
     values["total_debt"] = total_debt
     selected_facts["total_debt"] = debt_fact
-    if total_debt is None:
-        missing_fields.append("total_debt")
+
+    gross_profit, gross_profit_fact = extract_gross_profit(
+        company_facts,
+        direct_fact=selected_facts.get("gross_profit"),
+        direct_value=values.get("gross_profit"),
+        revenue_fact=selected_facts.get("revenue"),
+        revenue_value=values.get("revenue"),
+        anchor_end=anchor_end,
+        anchor_accn=anchor_accn,
+    )
+    values["gross_profit"] = gross_profit
+    selected_facts["gross_profit"] = gross_profit_fact
+
+    asset_facts = recent_total_assets(company_facts, limit=2)
+    latest_total_assets = asset_facts[0].value if asset_facts else values.get("total_assets")
+    prior_total_assets = asset_facts[1].value if len(asset_facts) > 1 else None
 
     best_meta_fact = anchor or latest_fact(
         [fact for fact in selected_facts.values() if fact is not None]
@@ -598,7 +679,15 @@ def extract_company_features(
         record[field_name] = values.get(field_name)
 
     record.update(price_features)
-    compute_derived_fields(record)
+    compute_derived_fields(
+        record,
+        current_total_assets_for_growth=latest_total_assets,
+        prior_total_assets=prior_total_assets,
+    )
+
+    missing_fields = [
+        field_name for field_name in RAW_FIELD_NAMES if values.get(field_name) is None
+    ]
 
     if missing_fields:
         LOGGER.warning("%s missing EDGAR fields: %s", ticker, ", ".join(sorted(missing_fields)))
@@ -630,7 +719,12 @@ def safe_divide(numerator: float | None, denominator: float | None) -> float | N
     return numerator / denominator
 
 
-def compute_derived_fields(record: dict[str, Any]) -> None:
+def compute_derived_fields(
+    record: dict[str, Any],
+    *,
+    current_total_assets_for_growth: float | None = None,
+    prior_total_assets: float | None = None,
+) -> None:
     operating_cash_flow = coerce_float(record.get("operating_cash_flow"))
     capex = abs_if_present(coerce_float(record.get("capex")))
     current_price = coerce_float(record.get("current_price"))
@@ -668,11 +762,19 @@ def compute_derived_fields(record: dict[str, Any]) -> None:
     )
     record["roe"] = safe_divide(net_income, total_equity)
     record["gross_margin"] = safe_divide(gross_profit, revenue)
+    record["gross_profitability_assets"] = safe_divide(gross_profit, total_assets)
     record["operating_margin"] = safe_divide(operating_income, revenue)
     record["net_margin"] = safe_divide(net_income, revenue)
+    record["book_to_market"] = safe_divide(total_equity, market_cap)
     record["debt_to_equity"] = safe_divide(total_debt, total_equity)
     record["current_ratio"] = safe_divide(current_assets, current_liabilities)
     record["asset_turnover"] = safe_divide(revenue, total_assets)
+    record["asset_growth_1y"] = safe_divide(
+        current_total_assets_for_growth - prior_total_assets
+        if current_total_assets_for_growth is not None and prior_total_assets is not None
+        else None,
+        prior_total_assets,
+    )
     record["accruals"] = safe_divide(
         net_income - operating_cash_flow
         if net_income is not None and operating_cash_flow is not None
