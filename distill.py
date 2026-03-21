@@ -2,23 +2,25 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
+import warnings
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Sequence
+from typing import Any, Callable, Sequence
 
 import joblib
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from scipy.stats import spearmanr
+from scipy.stats import ConstantInputWarning, spearmanr
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import ElasticNetCV
 from sklearn.metrics import mean_absolute_error, r2_score
-from sklearn.model_selection import KFold, LeaveOneOut, RepeatedKFold
+from sklearn.model_selection import KFold, LeaveOneOut
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
-from xgboost import XGBRanker
+from xgboost import XGBRanker, XGBRegressor
 
 
 ROOT = Path(__file__).resolve().parent
@@ -28,6 +30,7 @@ REPORTS_DIR = ROOT / "reports"
 PLOTS_DIR = ROOT / "plots"
 MODELS_DIR = ROOT / "models"
 XGB_MODEL_PATH = MODELS_DIR / "distill_xgb_v2.json"
+XGB_REGRESSOR_MODEL_PATH = MODELS_DIR / "distill_xgb_regressor_v2.json"
 ELASTICNET_MODEL_PATH = MODELS_DIR / "distill_elasticnet_v2.pkl"
 METADATA_PATH = MODELS_DIR / "distill_v2_metadata.json"
 FEATURE_SPEC_PATH = MODELS_DIR / "feature_spec.json"
@@ -35,6 +38,8 @@ FEATURE_IMPORTANCE_PATH = PLOTS_DIR / "feature_importance_v2.png"
 PREDICTED_VS_ACTUAL_PATH = PLOTS_DIR / "predicted_vs_actual_v2.png"
 ELASTICNET_COEFFICIENTS_PATH = PLOTS_DIR / "elasticnet_coefficients.png"
 BROKEN_EDGAR_TICKERS = {"MCD"}
+STABILITY_REPEATS = 50
+BOOTSTRAP_SAMPLES = 1000
 
 
 @dataclass(frozen=True)
@@ -59,6 +64,21 @@ class ModelMetrics:
     spearman: float
     r2: float
     mae: float
+
+
+@dataclass(frozen=True)
+class SummaryStats:
+    mean: float
+    std: float
+    lower: float
+    upper: float
+
+
+@dataclass(frozen=True)
+class ModelStabilityDiagnostics:
+    repeated_cv_spearman: SummaryStats
+    bootstrap_oob_spearman: SummaryStats
+    top_quartile_overlap_stability: float
 
 
 FEATURE_SPECS: tuple[FeatureSpec, ...] = (
@@ -95,6 +115,7 @@ FEATURE_SPECS: tuple[FeatureSpec, ...] = (
 )
 CONSENSUS_FEATURES = tuple(spec.name for spec in FEATURE_SPECS)
 MONOTONIC_CONSTRAINTS = tuple(spec.monotonic_constraint for spec in FEATURE_SPECS)
+PredictorFn = Callable[[pd.DataFrame, np.ndarray, pd.DataFrame], np.ndarray]
 
 
 def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
@@ -240,10 +261,54 @@ def decile_labels_from_percentiles(percentiles: Sequence[float]) -> np.ndarray:
 
 
 def safe_spearman(actual: Sequence[float], predicted: Sequence[float]) -> float:
-    statistic = spearmanr(actual, predicted).statistic
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", ConstantInputWarning)
+        statistic = spearmanr(actual, predicted).statistic
     if statistic is None or np.isnan(statistic):
         return 0.0
     return float(statistic)
+
+
+def summary_stats(
+    values: Sequence[float],
+    *,
+    lower_percentile: float,
+    upper_percentile: float,
+) -> SummaryStats:
+    array = np.asarray(values, dtype=float)
+    return SummaryStats(
+        mean=float(array.mean()),
+        std=float(array.std(ddof=0)),
+        lower=float(np.percentile(array, lower_percentile)),
+        upper=float(np.percentile(array, upper_percentile)),
+    )
+
+
+def top_quartile_tickers(predictions: pd.Series) -> set[str]:
+    top_k = max(1, math.ceil(len(predictions) / 4.0))
+    ordered = predictions.sort_values(ascending=False, kind="mergesort")
+    return set(ordered.head(top_k).index.tolist())
+
+
+def aggregate_top_quartile_rates(ticker_rows: pd.DataFrame) -> pd.DataFrame:
+    grouped = (
+        ticker_rows.groupby(["ticker", "company_name"], as_index=False)
+        .agg(
+            appearances=("top_quartile_hit", "size"),
+            top_quartile_hits=("top_quartile_hit", "sum"),
+            average_heldout_rank=("heldout_predicted_pct_rank", "mean"),
+        )
+        .sort_values(["top_quartile_hits", "average_heldout_rank"], ascending=[False, False], kind="mergesort")
+    )
+    grouped["top_quartile_rate"] = grouped["top_quartile_hits"] / grouped["appearances"]
+    return grouped
+
+
+def top_quartile_overlap_stability(top_quartile_rates: pd.DataFrame) -> float:
+    if top_quartile_rates.empty:
+        return 0.0
+    top_k = max(1, math.ceil(len(top_quartile_rates) / 4.0))
+    return float(top_quartile_rates.head(top_k)["top_quartile_rate"].mean())
 
 
 def evaluate_predictions(
@@ -269,33 +334,58 @@ def build_elasticnet_pipeline() -> Pipeline:
     )
 
 
-def run_elasticnet_repeated_cv(
+def run_repeated_cv_with_stability(
+    frame: pd.DataFrame,
     features: pd.DataFrame,
-    target_percentile: np.ndarray,
+    target: np.ndarray,
     actual_upside: np.ndarray,
+    actual_percentile: np.ndarray,
+    predictor: PredictorFn,
     *,
     n_splits: int = 5,
-    n_repeats: int = 10,
-) -> tuple[np.ndarray, ModelMetrics, list[ModelMetrics]]:
-    splitter = RepeatedKFold(n_splits=n_splits, n_repeats=n_repeats, random_state=42)
-    split_iterator = iter(splitter.split(features))
+    n_repeats: int = STABILITY_REPEATS,
+) -> tuple[np.ndarray, ModelMetrics, list[ModelMetrics], np.ndarray, pd.DataFrame]:
     repeat_predicted_percentiles: list[np.ndarray] = []
     repeat_metrics: list[ModelMetrics] = []
+    fold_scores: list[float] = []
+    ticker_rows: list[dict[str, Any]] = []
 
-    for _ in range(n_repeats):
+    for seed in range(n_repeats):
+        splitter = KFold(n_splits=n_splits, shuffle=True, random_state=seed)
         repeat_raw_predictions = np.empty(len(features), dtype=float)
-        for _ in range(n_splits):
-            train_index, test_index = next(split_iterator)
-            pipeline = build_elasticnet_pipeline()
-            pipeline.fit(features.iloc[train_index], target_percentile[train_index])
-            repeat_raw_predictions[test_index] = pipeline.predict(features.iloc[test_index])
+        for fold_index, (train_index, test_index) in enumerate(splitter.split(features)):
+            predicted_scores = np.asarray(
+                predictor(features.iloc[train_index], target[train_index], features.iloc[test_index]),
+                dtype=float,
+            )
+            repeat_raw_predictions[test_index] = predicted_scores
+            fold_scores.append(safe_spearman(actual_upside[test_index], predicted_scores))
+
+            predicted_series = pd.Series(predicted_scores, index=features.index[test_index], dtype=float)
+            constant_fold_scores = predicted_scores.size > 0 and bool(np.allclose(predicted_scores, predicted_scores[0]))
+            top_names = set() if constant_fold_scores else top_quartile_tickers(predicted_series)
+            local_rank = predicted_series.rank(method="average", pct=True)
+            for ticker, score in predicted_series.items():
+                ticker_rows.append(
+                    {
+                        "seed": seed,
+                        "fold": fold_index,
+                        "ticker": ticker,
+                        "company_name": frame.loc[ticker, "company_name"],
+                        "predicted_score": float(score),
+                        "heldout_actual_upside": float(frame.loc[ticker, "actual_upside"]),
+                        "heldout_actual_percentile": float(frame.loc[ticker, "actual_percentile"]),
+                        "heldout_predicted_pct_rank": float(local_rank.loc[ticker]),
+                        "top_quartile_hit": ticker in top_names,
+                    }
+                )
 
         repeat_percentile_predictions = fractional_percentile_rank(repeat_raw_predictions)
         repeat_predicted_percentiles.append(repeat_percentile_predictions)
         repeat_metrics.append(
             evaluate_predictions(
                 actual_upside=actual_upside,
-                actual_percentile=target_percentile,
+                actual_percentile=actual_percentile,
                 predicted_scores=repeat_raw_predictions,
                 predicted_percentile=repeat_percentile_predictions,
             )
@@ -307,7 +397,45 @@ def run_elasticnet_repeated_cv(
         r2=float(np.mean([metric.r2 for metric in repeat_metrics])),
         mae=float(np.mean([metric.mae for metric in repeat_metrics])),
     )
-    return mean_predicted_percentile, mean_metrics, repeat_metrics
+    top_quartile_rates = aggregate_top_quartile_rates(pd.DataFrame(ticker_rows))
+    return (
+        mean_predicted_percentile,
+        mean_metrics,
+        repeat_metrics,
+        np.asarray(fold_scores, dtype=float),
+        top_quartile_rates,
+    )
+
+
+def predict_with_elasticnet(
+    features: pd.DataFrame,
+    target_percentile: np.ndarray,
+    test_features: pd.DataFrame,
+) -> np.ndarray:
+    pipeline = build_elasticnet_pipeline()
+    pipeline.fit(features, target_percentile)
+    return np.asarray(pipeline.predict(test_features), dtype=float)
+
+
+def run_elasticnet_repeated_cv(
+    frame: pd.DataFrame,
+    features: pd.DataFrame,
+    target_percentile: np.ndarray,
+    actual_upside: np.ndarray,
+    *,
+    n_splits: int = 5,
+    n_repeats: int = STABILITY_REPEATS,
+) -> tuple[np.ndarray, ModelMetrics, list[ModelMetrics], np.ndarray, pd.DataFrame]:
+    return run_repeated_cv_with_stability(
+        frame=frame,
+        features=features,
+        target=target_percentile,
+        actual_upside=actual_upside,
+        actual_percentile=target_percentile,
+        predictor=predict_with_elasticnet,
+        n_splits=n_splits,
+        n_repeats=n_repeats,
+    )
 
 
 def build_xgb_ranker() -> XGBRanker:
@@ -328,6 +456,23 @@ def build_xgb_ranker() -> XGBRanker:
     )
 
 
+def build_xgb_regressor() -> XGBRegressor:
+    return XGBRegressor(
+        objective="reg:squarederror",
+        max_depth=2,
+        learning_rate=0.05,
+        n_estimators=200,
+        subsample=0.8,
+        colsample_bytree=0.8,
+        reg_alpha=1.0,
+        reg_lambda=1.0,
+        min_child_weight=5,
+        monotone_constraints=MONOTONIC_CONSTRAINTS,
+        random_state=42,
+        n_jobs=1,
+    )
+
+
 def build_query_fold_assignments(features: pd.DataFrame, *, n_splits: int = 5) -> np.ndarray:
     splitter = KFold(n_splits=n_splits, shuffle=True, random_state=42)
     fold_assignments = np.empty(len(features), dtype=int)
@@ -343,6 +488,71 @@ def prepare_ranker_training_data(
 ) -> tuple[pd.DataFrame, np.ndarray, np.ndarray]:
     order = np.argsort(qid, kind="stable")
     return features.iloc[order], target[order], qid[order]
+
+
+def predict_with_xgb_regressor(
+    features: pd.DataFrame,
+    target_percentile: np.ndarray,
+    test_features: pd.DataFrame,
+) -> np.ndarray:
+    model = build_xgb_regressor()
+    model.fit(features, target_percentile)
+    return np.asarray(model.predict(test_features), dtype=float)
+
+
+def run_xgb_regressor_repeated_cv(
+    frame: pd.DataFrame,
+    features: pd.DataFrame,
+    target_percentile: np.ndarray,
+    actual_upside: np.ndarray,
+    *,
+    n_splits: int = 5,
+    n_repeats: int = STABILITY_REPEATS,
+) -> tuple[np.ndarray, ModelMetrics, list[ModelMetrics], np.ndarray, pd.DataFrame]:
+    return run_repeated_cv_with_stability(
+        frame=frame,
+        features=features,
+        target=target_percentile,
+        actual_upside=actual_upside,
+        actual_percentile=target_percentile,
+        predictor=predict_with_xgb_regressor,
+        n_splits=n_splits,
+        n_repeats=n_repeats,
+    )
+
+
+def predict_with_xgb_ranker(
+    features: pd.DataFrame,
+    target_decile: np.ndarray,
+    test_features: pd.DataFrame,
+) -> np.ndarray:
+    qid = build_query_fold_assignments(features)
+    x_train, y_train, qid_train = prepare_ranker_training_data(features, target_decile, qid)
+    model = build_xgb_ranker()
+    model.fit(x_train, y_train, qid=qid_train)
+    return np.asarray(model.predict(test_features), dtype=float)
+
+
+def run_xgb_ranker_repeated_cv(
+    frame: pd.DataFrame,
+    features: pd.DataFrame,
+    target_decile: np.ndarray,
+    actual_upside: np.ndarray,
+    actual_percentile: np.ndarray,
+    *,
+    n_splits: int = 5,
+    n_repeats: int = STABILITY_REPEATS,
+) -> tuple[np.ndarray, ModelMetrics, list[ModelMetrics], np.ndarray, pd.DataFrame]:
+    return run_repeated_cv_with_stability(
+        frame=frame,
+        features=features,
+        target=target_decile,
+        actual_upside=actual_upside,
+        actual_percentile=actual_percentile,
+        predictor=predict_with_xgb_ranker,
+        n_splits=n_splits,
+        n_repeats=n_repeats,
+    )
 
 
 def run_xgb_grouped_cv(
@@ -412,6 +622,12 @@ def fit_final_elasticnet(features: pd.DataFrame, target_percentile: np.ndarray) 
     return pipeline
 
 
+def fit_final_xgb_regressor(features: pd.DataFrame, target_percentile: np.ndarray) -> XGBRegressor:
+    model = build_xgb_regressor()
+    model.fit(features, target_percentile)
+    return model
+
+
 def fit_final_xgb(features: pd.DataFrame, target_decile: np.ndarray, fold_assignments: np.ndarray) -> XGBRanker:
     x_train, y_train, qid_train = prepare_ranker_training_data(features, target_decile, fold_assignments)
     model = build_xgb_ranker()
@@ -424,8 +640,12 @@ def elasticnet_coefficients(pipeline: Pipeline) -> pd.Series:
     return pd.Series(model.coef_, index=CONSENSUS_FEATURES, dtype=float)
 
 
+def xgb_feature_importance(model: XGBRanker | XGBRegressor) -> pd.Series:
+    return pd.Series(model.feature_importances_, index=CONSENSUS_FEATURES, dtype=float).sort_values(ascending=False)
+
+
 def save_feature_importance_plot(model: XGBRanker) -> pd.Series:
-    importance = pd.Series(model.feature_importances_, index=CONSENSUS_FEATURES, dtype=float).sort_values()
+    importance = xgb_feature_importance(model).sort_values()
     fig, ax = plt.subplots(figsize=(9, 5))
     importance.plot(kind="barh", ax=ax, color="#2f6db3")
     ax.set_title("XGBoost Ranker Feature Importance")
@@ -453,7 +673,8 @@ def save_elasticnet_coefficients_plot(coefficients: pd.Series) -> None:
 def save_predicted_vs_actual_plot(
     actual_percentile: np.ndarray,
     elasticnet_percentile: np.ndarray,
-    xgb_percentile: np.ndarray,
+    xgb_regressor_percentile: np.ndarray,
+    xgb_ranker_percentile: np.ndarray,
 ) -> None:
     fig, ax = plt.subplots(figsize=(7.5, 7.5))
     ax.scatter(
@@ -467,7 +688,16 @@ def save_predicted_vs_actual_plot(
     )
     ax.scatter(
         actual_percentile,
-        xgb_percentile,
+        xgb_regressor_percentile,
+        alpha=0.8,
+        color="#2e8b57",
+        edgecolor="white",
+        linewidth=0.6,
+        label="XGBoost Regressor CV",
+    )
+    ax.scatter(
+        actual_percentile,
+        xgb_ranker_percentile,
         alpha=0.8,
         color="#d97a00",
         edgecolor="white",
@@ -484,12 +714,97 @@ def save_predicted_vs_actual_plot(
     plt.close(fig)
 
 
-def print_comparison_table(elasticnet_metrics: ModelMetrics, xgb_metrics: ModelMetrics) -> None:
-    print("Head-to-head comparison (Elastic Net values are 10x repeated 5-fold means; XGBoost values are 5-fold OOF):")
-    print(f"{'Metric':<18}{'Elastic Net':>14}{'XGBoost Ranker':>18}")
-    print(f"{'Spearman (CV)':<18}{elasticnet_metrics.spearman:>14.4f}{xgb_metrics.spearman:>18.4f}")
-    print(f"{'R^2 (CV)':<18}{elasticnet_metrics.r2:>14.4f}{xgb_metrics.r2:>18.4f}")
-    print(f"{'MAE (CV)':<18}{elasticnet_metrics.mae:>14.4f}{xgb_metrics.mae:>18.4f}")
+def build_model_stability_diagnostics(
+    repeated_cv_fold_scores: np.ndarray,
+    bootstrap_scores: np.ndarray,
+    top_quartile_rates: pd.DataFrame,
+) -> ModelStabilityDiagnostics:
+    return ModelStabilityDiagnostics(
+        repeated_cv_spearman=summary_stats(repeated_cv_fold_scores, lower_percentile=5.0, upper_percentile=95.0),
+        bootstrap_oob_spearman=summary_stats(bootstrap_scores, lower_percentile=2.5, upper_percentile=97.5),
+        top_quartile_overlap_stability=top_quartile_overlap_stability(top_quartile_rates),
+    )
+
+
+def run_bootstrap_oob_spearman(
+    features: pd.DataFrame,
+    target: np.ndarray,
+    actual_upside: np.ndarray,
+    predictor: PredictorFn,
+    *,
+    bootstrap_samples: int = BOOTSTRAP_SAMPLES,
+) -> np.ndarray:
+    rng = np.random.default_rng(42)
+    sample_size = len(features)
+    scores: list[float] = []
+
+    while len(scores) < bootstrap_samples:
+        inbag_index = rng.integers(0, sample_size, size=sample_size)
+        oob_mask = np.ones(sample_size, dtype=bool)
+        oob_mask[np.unique(inbag_index)] = False
+        oob_index = np.flatnonzero(oob_mask)
+        if oob_index.size < 2:
+            continue
+
+        predicted_scores = np.asarray(
+            predictor(features.iloc[inbag_index], target[inbag_index], features.iloc[oob_index]),
+            dtype=float,
+        )
+        scores.append(safe_spearman(actual_upside[oob_index], predicted_scores))
+
+    return np.asarray(scores, dtype=float)
+
+
+def format_interval(stats: SummaryStats) -> str:
+    return f"[{stats.lower:.4f}, {stats.upper:.4f}]"
+
+
+def print_comparison_table(
+    elasticnet_stability: ModelStabilityDiagnostics,
+    xgb_regressor_stability: ModelStabilityDiagnostics,
+    xgb_ranker_stability: ModelStabilityDiagnostics,
+) -> None:
+    print(
+        "Head-to-head stability comparison "
+        f"(repeated 5-fold CV, {STABILITY_REPEATS} repeats; bootstrap OOB, {BOOTSTRAP_SAMPLES} samples):"
+    )
+    print(f"{'Metric':<26}{'Elastic Net':>20}{'XGB Regressor':>20}{'XGB Ranker':>20}")
+    print(
+        f"{'Spearman (CV mean)':<26}"
+        f"{elasticnet_stability.repeated_cv_spearman.mean:>20.4f}"
+        f"{xgb_regressor_stability.repeated_cv_spearman.mean:>20.4f}"
+        f"{xgb_ranker_stability.repeated_cv_spearman.mean:>20.4f}"
+    )
+    print(
+        f"{'Spearman (CV std)':<26}"
+        f"{elasticnet_stability.repeated_cv_spearman.std:>20.4f}"
+        f"{xgb_regressor_stability.repeated_cv_spearman.std:>20.4f}"
+        f"{xgb_ranker_stability.repeated_cv_spearman.std:>20.4f}"
+    )
+    print(
+        f"{'Spearman (CV p05)':<26}"
+        f"{elasticnet_stability.repeated_cv_spearman.lower:>20.4f}"
+        f"{xgb_regressor_stability.repeated_cv_spearman.lower:>20.4f}"
+        f"{xgb_ranker_stability.repeated_cv_spearman.lower:>20.4f}"
+    )
+    print(
+        f"{'Spearman (CV p95)':<26}"
+        f"{elasticnet_stability.repeated_cv_spearman.upper:>20.4f}"
+        f"{xgb_regressor_stability.repeated_cv_spearman.upper:>20.4f}"
+        f"{xgb_ranker_stability.repeated_cv_spearman.upper:>20.4f}"
+    )
+    print(
+        f"{'Bootstrap 95% CI':<26}"
+        f"{format_interval(elasticnet_stability.bootstrap_oob_spearman):>20}"
+        f"{format_interval(xgb_regressor_stability.bootstrap_oob_spearman):>20}"
+        f"{format_interval(xgb_ranker_stability.bootstrap_oob_spearman):>20}"
+    )
+    print(
+        f"{'Top-Q overlap stability':<26}"
+        f"{elasticnet_stability.top_quartile_overlap_stability:>19.1%}"
+        f"{xgb_regressor_stability.top_quartile_overlap_stability:>19.1%}"
+        f"{xgb_ranker_stability.top_quartile_overlap_stability:>19.1%}"
+    )
 
 
 def determine_verdict(elasticnet_metrics: ModelMetrics, xgb_metrics: ModelMetrics) -> str:
@@ -594,11 +909,16 @@ def print_prediction_block(model_name: str, predictions: pd.DataFrame) -> None:
 def find_surprises(
     frame: pd.DataFrame,
     elasticnet_predictions: pd.DataFrame,
+    xgb_regressor_predictions: pd.DataFrame,
     xgb_predictions: pd.DataFrame,
 ) -> list[str]:
     notes: list[str] = []
 
-    for model_name, predictions in (("Elastic Net", elasticnet_predictions), ("XGBoost Ranker", xgb_predictions)):
+    for model_name, predictions in (
+        ("Elastic Net", elasticnet_predictions),
+        ("XGBoost Regressor", xgb_regressor_predictions),
+        ("XGBoost Ranker", xgb_predictions),
+    ):
         for ticker, row in predictions.head(10).iterrows():
             if row["actual_percentile"] <= 0.35:
                 notes.append(
@@ -610,16 +930,20 @@ def find_surprises(
                     f"{model_name}: {ticker} is bottom-10 predicted despite {row['actual_percentile']:.2f} actual upside percentile."
                 )
 
-    disagreement = pd.Series(
-        np.abs(elasticnet_predictions["predicted_percentile"] - xgb_predictions["predicted_percentile"]),
-        index=frame.index,
-        dtype=float,
-    ).sort_values(ascending=False)
-    for ticker, gap in disagreement.head(3).items():
-        if gap >= 0.35:
-            notes.append(
-                f"Model disagreement: {ticker} differs by {gap:.2f} predicted percentile points between Elastic Net and XGBoost."
-            )
+    for other_name, other_predictions in (
+        ("XGBoost Regressor", xgb_regressor_predictions),
+        ("XGBoost Ranker", xgb_predictions),
+    ):
+        disagreement = pd.Series(
+            np.abs(elasticnet_predictions["predicted_percentile"] - other_predictions["predicted_percentile"]),
+            index=frame.index,
+            dtype=float,
+        ).sort_values(ascending=False)
+        for ticker, gap in disagreement.head(2).items():
+            if gap >= 0.35:
+                notes.append(
+                    f"Model disagreement: {ticker} differs by {gap:.2f} predicted percentile points between Elastic Net and {other_name}."
+                )
 
     if not notes:
         return ["Top and bottom baskets broadly line up with the AI upside ranks; no large anomalies crossed the review thresholds."]
@@ -658,18 +982,71 @@ def main(argv: Sequence[str] | None = None) -> int:
     frame["actual_percentile"] = actual_percentile
     features = frame.loc[:, CONSENSUS_FEATURES]
 
-    elasticnet_cv_percentile, elasticnet_metrics, elasticnet_repeat_metrics = run_elasticnet_repeated_cv(
+    elasticnet_cv_percentile, elasticnet_metrics, elasticnet_repeat_metrics, elasticnet_fold_scores, elasticnet_topq_rates = run_elasticnet_repeated_cv(
+        frame=frame,
         features=features,
         target_percentile=actual_percentile,
         actual_upside=actual_upside,
+        n_repeats=STABILITY_REPEATS,
     )
-    xgb_cv_raw, xgb_cv_percentile, xgb_metrics, xgb_fold_assignments = run_xgb_grouped_cv(
+    xgb_regressor_cv_percentile, xgb_regressor_metrics, xgb_regressor_repeat_metrics, xgb_regressor_fold_scores, xgb_regressor_topq_rates = run_xgb_regressor_repeated_cv(
+        frame=frame,
+        features=features,
+        target_percentile=actual_percentile,
+        actual_upside=actual_upside,
+        n_repeats=STABILITY_REPEATS,
+    )
+    xgb_ranker_repeated_cv_percentile, xgb_ranker_repeated_metrics, xgb_ranker_repeat_metrics, xgb_ranker_fold_scores, xgb_ranker_topq_rates = run_xgb_ranker_repeated_cv(
+        frame=frame,
+        features=features,
+        target_decile=target_decile,
+        actual_upside=actual_upside,
+        actual_percentile=actual_percentile,
+        n_repeats=STABILITY_REPEATS,
+    )
+    elasticnet_bootstrap_scores = run_bootstrap_oob_spearman(
+        features,
+        actual_percentile,
+        actual_upside,
+        predict_with_elasticnet,
+        bootstrap_samples=BOOTSTRAP_SAMPLES,
+    )
+    xgb_regressor_bootstrap_scores = run_bootstrap_oob_spearman(
+        features,
+        actual_percentile,
+        actual_upside,
+        predict_with_xgb_regressor,
+        bootstrap_samples=BOOTSTRAP_SAMPLES,
+    )
+    xgb_ranker_bootstrap_scores = run_bootstrap_oob_spearman(
+        features,
+        target_decile,
+        actual_upside,
+        predict_with_xgb_ranker,
+        bootstrap_samples=BOOTSTRAP_SAMPLES,
+    )
+    elasticnet_stability = build_model_stability_diagnostics(
+        elasticnet_fold_scores,
+        elasticnet_bootstrap_scores,
+        elasticnet_topq_rates,
+    )
+    xgb_regressor_stability = build_model_stability_diagnostics(
+        xgb_regressor_fold_scores,
+        xgb_regressor_bootstrap_scores,
+        xgb_regressor_topq_rates,
+    )
+    xgb_ranker_stability = build_model_stability_diagnostics(
+        xgb_ranker_fold_scores,
+        xgb_ranker_bootstrap_scores,
+        xgb_ranker_topq_rates,
+    )
+    _, _, xgb_metrics, xgb_fold_assignments = run_xgb_grouped_cv(
         features=features,
         target_decile=target_decile,
         actual_upside=actual_upside,
         actual_percentile=actual_percentile,
     )
-    xgb_loo_raw, xgb_loo_percentile, xgb_loo_metrics = run_xgb_loo_cv(
+    _, _, xgb_loo_metrics = run_xgb_loo_cv(
         features=features,
         target_decile=target_decile,
         actual_upside=actual_upside,
@@ -677,24 +1054,36 @@ def main(argv: Sequence[str] | None = None) -> int:
     )
 
     elasticnet_model = fit_final_elasticnet(features, actual_percentile)
+    xgb_regressor_model = fit_final_xgb_regressor(features, actual_percentile)
     xgb_model = fit_final_xgb(features, target_decile, np.asarray(xgb_fold_assignments, dtype=int))
     joblib.dump(elasticnet_model, ELASTICNET_MODEL_PATH)
+    xgb_regressor_model.save_model(XGB_REGRESSOR_MODEL_PATH)
     xgb_model.save_model(XGB_MODEL_PATH)
 
     coefficients = elasticnet_coefficients(elasticnet_model)
+    xgb_regressor_importance = xgb_feature_importance(xgb_regressor_model)
     importance = save_feature_importance_plot(xgb_model)
     save_elasticnet_coefficients_plot(coefficients)
-    save_predicted_vs_actual_plot(actual_percentile, elasticnet_cv_percentile, xgb_cv_percentile)
+    save_predicted_vs_actual_plot(
+        actual_percentile,
+        elasticnet_cv_percentile,
+        xgb_regressor_cv_percentile,
+        xgb_ranker_repeated_cv_percentile,
+    )
 
     elasticnet_full_predictions = build_prediction_frame(
         frame,
         fractional_percentile_rank(elasticnet_model.predict(features)),
     )
+    xgb_regressor_full_predictions = build_prediction_frame(
+        frame,
+        fractional_percentile_rank(xgb_regressor_model.predict(features)),
+    )
     xgb_full_predictions = build_prediction_frame(
         frame,
         fractional_percentile_rank(xgb_model.predict(features)),
     )
-    surprises = find_surprises(frame, elasticnet_full_predictions, xgb_full_predictions)
+    surprises = find_surprises(frame, elasticnet_full_predictions, xgb_regressor_full_predictions, xgb_full_predictions)
     used_features, ignored_features = used_and_ignored_features(importance)
     xgb_degenerate = len(used_features) == 0
     verdict = determine_verdict(elasticnet_metrics, xgb_metrics)
@@ -708,11 +1097,39 @@ def main(argv: Sequence[str] | None = None) -> int:
         "elasticnet": {
             "cv_mean_metrics": asdict(elasticnet_metrics),
             "cv_repeat_metrics": [asdict(metric) for metric in elasticnet_repeat_metrics],
+            "stability": {
+                "repeats": STABILITY_REPEATS,
+                "spearman_stats": asdict(elasticnet_stability.repeated_cv_spearman),
+                "bootstrap_samples": BOOTSTRAP_SAMPLES,
+                "bootstrap_spearman_stats": asdict(elasticnet_stability.bootstrap_oob_spearman),
+                "top_quartile_overlap_stability": elasticnet_stability.top_quartile_overlap_stability,
+            },
             "coefficients": {name: float(value) for name, value in coefficients.items()},
+        },
+        "xgboost_regressor": {
+            "cv_mean_metrics": asdict(xgb_regressor_metrics),
+            "cv_repeat_metrics": [asdict(metric) for metric in xgb_regressor_repeat_metrics],
+            "stability": {
+                "repeats": STABILITY_REPEATS,
+                "spearman_stats": asdict(xgb_regressor_stability.repeated_cv_spearman),
+                "bootstrap_samples": BOOTSTRAP_SAMPLES,
+                "bootstrap_spearman_stats": asdict(xgb_regressor_stability.bootstrap_oob_spearman),
+                "top_quartile_overlap_stability": xgb_regressor_stability.top_quartile_overlap_stability,
+            },
+            "feature_importance": {name: float(value) for name, value in xgb_regressor_importance.items()},
         },
         "xgboost_ranker": {
             "cv_metrics": asdict(xgb_metrics),
             "loo_metrics": asdict(xgb_loo_metrics),
+            "repeated_cv_mean_metrics": asdict(xgb_ranker_repeated_metrics),
+            "cv_repeat_metrics": [asdict(metric) for metric in xgb_ranker_repeat_metrics],
+            "stability": {
+                "repeats": STABILITY_REPEATS,
+                "spearman_stats": asdict(xgb_ranker_stability.repeated_cv_spearman),
+                "bootstrap_samples": BOOTSTRAP_SAMPLES,
+                "bootstrap_spearman_stats": asdict(xgb_ranker_stability.bootstrap_oob_spearman),
+                "top_quartile_overlap_stability": xgb_ranker_stability.top_quartile_overlap_stability,
+            },
             "degenerate_constant_scores": xgb_degenerate,
             "cv_fold_assignments": xgb_fold_assignments,
             "feature_importance": {name: float(value) for name, value in importance.items()},
@@ -721,13 +1138,24 @@ def main(argv: Sequence[str] | None = None) -> int:
         },
         "comparison": {
             "elasticnet_cv_mean": asdict(elasticnet_metrics),
+            "xgboost_regressor_cv_mean": asdict(xgb_regressor_metrics),
             "xgboost_cv": asdict(xgb_metrics),
+            "stability": {
+                "top_quartile_overlap_definition": "Mean held-out top-quartile hit rate among the model's most consistently top-ranked quartile of tickers across repeated 5-fold CV.",
+                "elasticnet": asdict(elasticnet_stability),
+                "xgboost_regressor": asdict(xgb_regressor_stability),
+                "xgboost_ranker": asdict(xgb_ranker_stability),
+            },
             "verdict": verdict,
         },
         "full_sample_predictions": {
             "elasticnet": {
                 "top10": serialize_prediction_slice(elasticnet_full_predictions, top=True),
                 "bottom10": serialize_prediction_slice(elasticnet_full_predictions, top=False),
+            },
+            "xgboost_regressor": {
+                "top10": serialize_prediction_slice(xgb_regressor_full_predictions, top=True),
+                "bottom10": serialize_prediction_slice(xgb_regressor_full_predictions, top=False),
             },
             "xgboost_ranker": {
                 "top10": serialize_prediction_slice(xgb_full_predictions, top=True),
@@ -737,6 +1165,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         "surprises": surprises,
         "artifacts": {
             "elasticnet_model": str(ELASTICNET_MODEL_PATH),
+            "xgboost_regressor_model": str(XGB_REGRESSOR_MODEL_PATH),
             "xgboost_model": str(XGB_MODEL_PATH),
             "metadata": str(METADATA_PATH),
             "feature_spec": str(FEATURE_SPEC_PATH),
@@ -754,7 +1183,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         coverage_ratio = coverage[feature_name]["coverage"]
         print(f"  {feature_name}: {non_null}/{len(match_summary.matched_tickers)} ({coverage_ratio:.1%})")
 
-    print_comparison_table(elasticnet_metrics, xgb_metrics)
+    print_comparison_table(elasticnet_stability, xgb_regressor_stability, xgb_ranker_stability)
     print(f"XGBoost Ranker LOO-CV Spearman: {xgb_loo_metrics.spearman:.4f}")
     print(verdict)
 
@@ -768,12 +1197,14 @@ def main(argv: Sequence[str] | None = None) -> int:
         print("XGBoost diagnostic: the requested rank:ndcg configuration collapsed to constant OOF scores on this local stack/data slice.")
 
     print_prediction_block("Elastic Net", elasticnet_full_predictions)
+    print_prediction_block("XGBoost Regressor", xgb_regressor_full_predictions)
     print_prediction_block("XGBoost Ranker", xgb_full_predictions)
 
     print("Potential surprises:")
     for note in surprises:
         print(f"  {note}")
 
+    print(f"Saved XGBoost regressor model: {XGB_REGRESSOR_MODEL_PATH}")
     print(f"Saved XGBoost model: {XGB_MODEL_PATH}")
     print(f"Saved Elastic Net model: {ELASTICNET_MODEL_PATH}")
     print(f"Saved metadata: {METADATA_PATH}")

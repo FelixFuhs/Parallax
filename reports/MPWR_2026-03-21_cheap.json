@@ -1,0 +1,669 @@
+{
+  "_meta": {
+    "cost_usd": 0.021032,
+    "generated_at": "2026-03-21T17:18:55Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10266,
+      "prompt": 2515,
+      "reasoning": 6157
+    }
+  },
+  "_valuation": {
+    "company_name": "Monolithic Power Systems, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 1068.85,
+        "description": "Base case",
+        "enterprise_value": 8823082464.180906,
+        "equity_value": 10079627464.180906,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 10444391880.62512,
+        "implied_market_cap": 10079627464.180906,
+        "investments_adjustment": 157243000.0,
+        "net_debt": -1099302000.0,
+        "per_share_value": 208.64906051006864,
+        "projected_years": [
+          {
+            "capex": 181268216.64000005,
+            "cash_taxes": 143229590.28000003,
+            "da": 56255653.440000005,
+            "delta_nwc": 82797386.4000001,
+            "discount_factor": 0.9132420091324202,
+            "ebit": 781328520.0000001,
+            "ebit_margin": 0.25,
+            "ebitda": 837584173.4400002,
+            "fcff": 430288980.11999995,
+            "nol_balance_end": 0.0,
+            "nol_used": 23500000.0,
+            "nwc": 640689386.4000001,
+            "present_value_fcff": 392957972.71232873,
+            "revenue": 3125314080.0000005,
+            "revenue_growth": 0.12,
+            "year": 2026
+          },
+          {
+            "capex": 189081501.84000006,
+            "cash_taxes": 165686963.29416007,
+            "da": 63600141.52800001,
+            "delta_nwc": 64068938.640000105,
+            "discount_factor": 0.8340109672442193,
+            "ebit": 876650599.4400003,
+            "ebit_margin": 0.255,
+            "ebitda": 940250740.9680003,
+            "fcff": 521413337.19384,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 704758325.0400002,
+            "present_value_fcff": 434864441.6870708,
+            "revenue": 3437845488.000001,
+            "revenue_growth": 0.1,
+            "year": 2027
+          },
+          {
+            "capex": 196782275.73312005,
+            "cash_taxes": 181047119.42072454,
+            "da": 70544589.41376002,
+            "delta_nwc": 56380666.003200054,
+            "discount_factor": 0.7616538513645839,
+            "ebit": 957921266.7763203,
+            "ebit_margin": 0.258,
+            "ebitda": 1028465856.1900804,
+            "fcff": 594255795.0330358,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 761138991.0432003,
+            "present_value_fcff": 452617214.9826344,
+            "revenue": 3712873127.0400014,
+            "revenue_growth": 0.08,
+            "year": 2028
+          },
+          {
+            "capex": 206584260.78850567,
+            "cash_taxes": 195222126.4451379,
+            "da": 76277265.52190979,
+            "delta_nwc": 53279729.373024106,
+            "discount_factor": 0.6955742934836383,
+            "ebit": 1032921303.9425285,
+            "ebit_margin": 0.26,
+            "ebitda": 1109198569.4644382,
+            "fcff": 654112452.8577707,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 814418720.4162244,
+            "present_value_fcff": 454983807.2553935,
+            "revenue": 3972774245.9328017,
+            "revenue_growth": 0.07,
+            "year": 2029
+          },
+          {
+            "capex": 214768175.73512724,
+            "cash_taxes": 208527265.2167065,
+            "da": 82117243.66343102,
+            "delta_nwc": 48865123.22497344,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 1103318863.5804577,
+            "ebit_margin": 0.262,
+            "ebitda": 1185436107.2438886,
+            "fcff": 713275543.0670816,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 863283843.6411978,
+            "present_value_fcff": 453092357.9251541,
+            "revenue": 4211140700.68877,
+            "revenue_growth": 0.06,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 10444391880.62512,
+        "terminal_value_present_value": 6634566669.618325,
+        "upside_downside_pct": -0.8047910740421307
+      },
+      "bear": {
+        "current_price": 1068.85,
+        "description": "Moderately slower growth and slight margin compression; higher discount rate and lower terminal growth.",
+        "enterprise_value": 7328544757.692828,
+        "equity_value": 8585089757.692828,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 8509484757.416783,
+        "implied_market_cap": 8585089757.692828,
+        "investments_adjustment": 157243000.0,
+        "net_debt": -1099302000.0,
+        "per_share_value": 177.71201551869896,
+        "projected_years": [
+          {
+            "capex": 184170294.00000003,
+            "cash_taxes": 137111787.96840003,
+            "da": 54637187.220000006,
+            "delta_nwc": 80565019.20000005,
+            "discount_factor": 0.9107468123861566,
+            "ebit": 748959195.6000001,
+            "ebit_margin": 0.244,
+            "ebitda": 803596382.8200002,
+            "fcff": 401749281.6516001,
+            "nol_balance_end": 0.0,
+            "nol_used": 23500000.0,
+            "nwc": 638457019.2,
+            "present_value_fcff": 365891877.64262307,
+            "revenue": 3069504900.0000005,
+            "revenue_growth": 0.1,
+            "year": 2026
+          },
+          {
+            "capex": 185643656.35200006,
+            "cash_taxes": 155383740.36662406,
+            "da": 60334188.31440002,
+            "delta_nwc": 47761496.24400008,
+            "discount_factor": 0.8294597562715451,
+            "ebit": 822136192.4160002,
+            "ebit_margin": 0.248,
+            "ebitda": 882470380.7304003,
+            "fcff": 493681487.76777613,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 686218515.4440001,
+            "present_value_fcff": 409488926.51963335,
+            "revenue": 3315065292.000001,
+            "revenue_growth": 0.08,
+            "year": 2027
+          },
+          {
+            "capex": 189754337.31408006,
+            "cash_taxes": 166035045.14982006,
+            "da": 65008430.37612002,
+            "delta_nwc": 37659141.71712017,
+            "discount_factor": 0.7554278290269081,
+            "ebit": 878492302.3800004,
+            "ebit_margin": 0.25,
+            "ebitda": 943500732.7561203,
+            "fcff": 550052208.5751,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 723877657.1611203,
+            "present_value_fcff": 415524745.7753438,
+            "revenue": 3513969209.5200014,
+            "revenue_growth": 0.06,
+            "year": 2028
+          },
+          {
+            "capex": 195552386.5097881,
+            "cash_taxes": 175731491.78656957,
+            "da": 68627818.66192563,
+            "delta_nwc": 32504215.188060045,
+            "discount_factor": 0.6880034872740509,
+            "ebit": 929796252.8389925,
+            "ebit_margin": 0.252,
+            "ebitda": 998424071.5009181,
+            "fcff": 594635978.0165005,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 756381872.3491803,
+            "present_value_fcff": 409111626.5339682,
+            "revenue": 3689667669.9960017,
+            "revenue_growth": 0.05,
+            "year": 2029
+          },
+          {
+            "capex": 199537227.59338376,
+            "cash_taxes": 184211233.61246118,
+            "da": 72140382.28376183,
+            "delta_nwc": 30255274.89396715,
+            "discount_factor": 0.6265969829454016,
+            "ebit": 974662611.7061439,
+            "ebit_margin": 0.254,
+            "ebitda": 1046802993.9899057,
+            "fcff": 632799257.8900936,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 786637147.2431475,
+            "present_value_fcff": 396510105.8040217,
+            "revenue": 3837254376.7958417,
+            "revenue_growth": 0.04,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 8509484757.416783,
+        "terminal_value_present_value": 5332017475.417238,
+        "upside_downside_pct": -0.8337353084916509
+      },
+      "bull": {
+        "current_price": 1068.85,
+        "description": "Moderately stronger top-line growth and margin expansion; slightly lower discount rate and higher terminal growth.",
+        "enterprise_value": 10326844630.731054,
+        "equity_value": 11583389630.731054,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 12367000075.536135,
+        "implied_market_cap": 11583389630.731054,
+        "investments_adjustment": 157243000.0,
+        "net_debt": -1099302000.0,
+        "per_share_value": 239.77705253122718,
+        "projected_years": [
+          {
+            "capex": 178142902.56000003,
+            "cash_taxes": 148872735.51570004,
+            "da": 57896443.33200001,
+            "delta_nwc": 84694898.5200001,
+            "discount_factor": 0.9157509157509157,
+            "ebit": 811186431.3000002,
+            "ebit_margin": 0.255,
+            "ebitda": 869082874.6320002,
+            "fcff": 457372338.03629994,
+            "nol_balance_end": 0.0,
+            "nol_used": 23500000.0,
+            "nwc": 642586898.5200001,
+            "present_value_fcff": 418839137.39587903,
+            "revenue": 3181123260.0000005,
+            "revenue_growth": 0.14,
+            "year": 2026
+          },
+          {
+            "capex": 192394334.76480004,
+            "cash_taxes": 175078844.63596806,
+            "da": 66625445.55744002,
+            "delta_nwc": 80673285.87360013,
+            "discount_factor": 0.8385997396986407,
+            "ebit": 926343093.3120003,
+            "ebit_margin": 0.26,
+            "ebitda": 992968538.8694403,
+            "fcff": 544822073.595072,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 723260184.3936002,
+            "present_value_fcff": 456887649.09890103,
+            "revenue": 3562858051.200001,
+            "revenue_growth": 0.12,
+            "year": 2027
+          },
+          {
+            "capex": 203795480.52864006,
+            "cash_taxes": 194808883.6660983,
+            "da": 75247562.04134402,
+            "delta_nwc": 76245162.29567993,
+            "discount_factor": 0.7679484795775097,
+            "ebit": 1030734834.2121603,
+            "ebit_margin": 0.263,
+            "ebitda": 1105982396.2535043,
+            "fcff": 631132869.7630861,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 799505346.6892802,
+            "present_value_fcff": 484677527.74595237,
+            "revenue": 3919143856.320001,
+            "revenue_growth": 0.1,
+            "year": 2028
+          },
+          {
+            "capex": 215866443.60610566,
+            "cash_taxes": 211993545.64729026,
+            "da": 82537169.61409923,
+            "delta_nwc": 68193103.09996808,
+            "discount_factor": 0.7032495234226279,
+            "ebit": 1121658971.6787844,
+            "ebit_margin": 0.265,
+            "ebitda": 1204196141.2928836,
+            "fcff": 708143048.9395196,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 867698449.7892482,
+            "present_value_fcff": 498001261.6817639,
+            "revenue": 4232675364.8256016,
+            "revenue_growth": 0.08,
+            "year": 2029
+          },
+          {
+            "capex": 226448132.0181697,
+            "cash_taxes": 228545041.72065794,
+            "da": 89220564.01515885,
+            "delta_nwc": 60738891.48524749,
+            "discount_factor": 0.6440013950756664,
+            "ebit": 1209233024.9770262,
+            "ebit_margin": 0.267,
+            "ebitda": 1298453588.992185,
+            "fcff": 782721523.7681099,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 928437341.2744957,
+            "present_value_fcff": 504073753.2624142,
+            "revenue": 4528962640.363394,
+            "revenue_growth": 0.07,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 12367000075.536135,
+        "terminal_value_present_value": 7964365301.546144,
+        "upside_downside_pct": -0.7756681924206136
+      }
+    },
+    "ticker": "MPWR"
+  },
+  "assumptions": {
+    "cash": 1099302000.0,
+    "current_price": 1068.85,
+    "debt": 0.0,
+    "diluted_shares": 48309000.0,
+    "investments": 157243000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 23500000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.262,
+    "tax_rate": 0.189,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.095
+  },
+  "company_name": "Monolithic Power Systems, Inc.",
+  "comps": [
+    {
+      "company_name": "Power Integrations, Inc.",
+      "ev_ntm_ebitda": 52.51,
+      "ev_ntm_revenue": 4.09,
+      "notes": "Enterprise value-to-revenue and enterprise value-to-EBITDA and forward P/E pulled from a third-party page; not explicitly labeled as NTM in the snippet. ([disfold.com](https://disfold.com/company/power-integrations-inc/financials/?utm_source=openai))",
+      "pe_ntm": 27.74,
+      "source": "https://disfold.com/company/power-integrations-inc/financials/",
+      "ticker": "POWI"
+    },
+    {
+      "company_name": "Vicor Corporation",
+      "ev_ntm_ebitda": 120.68,
+      "ev_ntm_revenue": null,
+      "notes": "EV/EBITDA and forward P/E shown; EV/Revenue not found in the retrieved snippet. ([stockanalysis.com](https://stockanalysis.com/stocks/vicr/statistics/?utm_source=openai))",
+      "pe_ntm": 68.6,
+      "source": "https://stockanalysis.com/stocks/vicr/statistics/",
+      "ticker": "VICR"
+    },
+    {
+      "company_name": "Analog Devices, Inc.",
+      "ev_ntm_ebitda": 29.4,
+      "ev_ntm_revenue": null,
+      "notes": "EV/EBITDA and forward P/E shown; EV/Revenue not found in the retrieved snippet. ([stockanalysis.com](https://stockanalysis.com/stocks/adi/statistics/?utm_source=openai))",
+      "pe_ntm": 26.68,
+      "source": "https://stockanalysis.com/stocks/adi/statistics/",
+      "ticker": "ADI"
+    },
+    {
+      "company_name": "Texas Instruments Incorporated",
+      "ev_ntm_ebitda": 22.89,
+      "ev_ntm_revenue": 10.74,
+      "notes": "Yahoo snippet includes multiple EV/Revenue and EV/EBITDA figures (likely across estimate horizons); selected the first value shown as a proxy for NTM. ([ca.finance.yahoo.com](https://ca.finance.yahoo.com/quote/TXN/key-statistics/?utm_source=openai))",
+      "pe_ntm": 28.65,
+      "source": "https://ca.finance.yahoo.com/quote/TXN/key-statistics/",
+      "ticker": "TXN"
+    },
+    {
+      "company_name": "Advanced Energy Industries, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E found; EV/Revenue and EV/EBITDA not captured in the retrieved snippet. ([stockanalysis.com](https://stockanalysis.com/stocks/aeis/?utm_source=openai))",
+      "pe_ntm": 36.62,
+      "source": "https://stockanalysis.com/stocks/aeis/",
+      "ticker": "AEIS"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.058,
+      "2027": 0.055,
+      "2028": 0.053,
+      "2029": 0.052,
+      "2030": 0.051
+    },
+    "da_pct_sales": {
+      "2026": 0.018,
+      "2027": 0.0185,
+      "2028": 0.019,
+      "2029": 0.0192,
+      "2030": 0.0195
+    },
+    "ebit_margin": {
+      "2026": 0.25,
+      "2027": 0.255,
+      "2028": 0.258,
+      "2029": 0.26,
+      "2030": 0.262
+    },
+    "nwc_pct_sales": {
+      "2026": 0.205,
+      "2027": 0.205,
+      "2028": 0.205,
+      "2029": 0.205,
+      "2030": 0.205
+    },
+    "revenue_growth": {
+      "2026": 0.12,
+      "2027": 0.1,
+      "2028": 0.08,
+      "2029": 0.07,
+      "2030": 0.06
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 57578000.0,
+      "2024": 146118000.0,
+      "2025": 172013000.0
+    },
+    "da": {
+      "2023": 40168000.0,
+      "2024": 36430000.0,
+      "2025": 52513000.0
+    },
+    "ebit": {
+      "2023": 481736000.0,
+      "2024": 539358000.0,
+      "2025": 728636000.0
+    },
+    "nwc": {
+      "2023": 475988000.0,
+      "2024": 407540000.0,
+      "2025": 557892000.0
+    },
+    "revenue": {
+      "2023": 1821072000.0,
+      "2024": 2207100000.0,
+      "2025": 2790459000.0
+    }
+  },
+  "notes": [
+    "NWC construction (absolute values in historical and NWC % in forecast) is defined as (accounts receivable + inventories + other current assets) minus (accounts payable + accrued compensation and related benefits + other accrued liabilities). This excludes cash, short-term investments, and income tax liabilities because these are separately disclosed and would otherwise create large, model-distorting swings. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1280452/000143774925005903/mpwr20241231_10k.htm))",
+    "DA is taken directly from the cash flow statement line item 'Depreciation and amortization' (not limited to PP&E depreciation). ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))",
+    "Capex is taken as 'Purchases of property and equipment' from the cash flow statement; used as absolute capex (modeled as a % of sales in forecasts). ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))",
+    "Comps EV/NTM Revenue and EV/NTM EBITDA are best-effort from third-party sources; several retrieved snippets do not explicitly state NTM methodology, so those fields may reflect trailing or mixed horizons. ([ca.finance.yahoo.com](https://ca.finance.yahoo.com/quote/TXN/key-statistics/?utm_source=openai))",
+    "NOL balance uses disclosed state and foreign net operating loss carryforwards as of Dec 31, 2025; an NOL utilization fraction is assumed (0.80) due to lack of an explicit utilization schedule. ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Continued strength in power management content for AI/data-center and other enterprise design wins sustaining above-cycle demand. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1280452/000143774925005903/mpwr20241231_10k.htm))",
+      "Further margin expansion from favorable mix and operating leverage if revenue sustains the current growth path. ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))",
+      "Capital return and balance-sheet flexibility if liquidity remains strong through the cycle (cash/short-term investments remain elevated). ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))"
+    ],
+    "company_overview": [
+      "Monolithic Power Systems (MPWR) is a fabless semiconductor company providing high-performance power electronics solutions for end markets including enterprise data, automotive, communications, consumer, and industrial. ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))",
+      "Business model uses third-party manufacturing/assembly and focuses on IC design to manage capital intensity and fixed-cost structure. ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))",
+      "2025 delivered $2.79B revenue with operating margin of 26.1%, supported by stronger end-market demand and product mix. ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))"
+    ],
+    "current_context": [
+      "Most recent annual filing (FY ended Dec 31, 2025; filed Feb 27, 2026) reports 2025 revenue of $2.79B (+26.4% YoY) and operating income of $728.6M. ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))",
+      "Cash and cash equivalents were $1.10B with $157.2M of short-term investments as of Dec 31, 2025 (liquidity supports capital return and operating resilience). ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))",
+      "Effective tax rate is below the U.S. statutory rate, with 2025 income tax expense of $144.7M on $766.2M pre-tax income (tax rate assumption anchored to FY 2025). ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))"
+    ],
+    "investment_highlights": [
+      "Revenue growth in the base case reflects sustained demand tailwinds and product-mix benefits versus the 2023-2025 upcycle. ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))",
+      "EBIT margin is modeled to normalize from 2024\u2019s lower margin (~24.4%) toward the 2025 level (~26.1%) with modest improvement through 2030. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1280452/000143774925005903/mpwr20241231_10k.htm))",
+      "Depreciation and amortization are modeled as a modest percent of sales (rising gradually) consistent with the company\u2019s historical cash flow depreciation. ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))",
+      "Capex intensity is kept relatively contained (semiconductor fabless design), with normalization after 2024\u2019s elevated purchases of property and equipment. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1280452/000143774925005903/mpwr20241231_10k.htm))",
+      "Working capital is modeled using a consistent non-cash NWC definition to avoid over-counting cash and investments in the DCF. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1280452/000143774925005903/mpwr20241231_10k.htm))"
+    ],
+    "key_risks": [
+      "Semiconductor end-market cyclicality could drive revenue downshifts and margin compression versus the modeled normalization. ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))",
+      "Working capital swings and capex timing could differ from model assumptions, particularly around inventory and supplier payment terms. ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))",
+      "Tax rate volatility (including utilization/valuation of tax assets) could deviate from the FY 2025-anchored tax rate assumption. ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))"
+    ],
+    "sources": [
+      {
+        "label": "Monolithic Power Systems FY 2025 Form 10-K (PDF)",
+        "notes": "Provides FY 2025 revenue ($2.79B), operating income ($728.6M), cash & short-term investments, cash flow depreciation & capex, and diluted weighted-average shares. ([media.monolithicpower.com](https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf))",
+        "url": "https://media.monolithicpower.com/mps_cms_document/m/p/mps_2025_form_10-k.pdf"
+      },
+      {
+        "label": "Monolithic Power Systems FY 2024 Form 10-K (SEC HTML)",
+        "notes": "Provides FY 2024 and FY 2023 revenue and operating income, and cash flow depreciation & capex plus balance-sheet working capital components for NWC construction. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1280452/000143774925005903/mpwr20241231_10k.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1280452/000143774925005903/mpwr20241231_10k.htm"
+      },
+      {
+        "label": "MPWR FY 2023 Form 10-K (SEC HTML)",
+        "notes": "Supplemental primary filing for FY 2023 context and disclosures. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1280452/000143774924006133/mpwr20231231_10k.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1280452/000143774924006133/mpwr20231231_10k.htm"
+      },
+      {
+        "label": "MPWR stock price (tool quote)",
+        "notes": "Current price used for inputs: 1068.85 (as provided by web.finance on 2026-03-21 context).",
+        "url": null
+      },
+      {
+        "label": "Peer valuation multiples (third-party)",
+        "notes": "Used for comp P/E forward and EV/EBITDA where available (EV/Revenue may be missing in retrieved snippets). ([stockanalysis.com](https://stockanalysis.com/stocks/adi/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/adi/statistics/"
+      }
+    ],
+    "subtitle": "DCF Input Package \u2014 MPWR (Power Management Semiconductors)",
+    "valuation_summary": [
+      "DCF base case uses FY 2025 as the anchor and a Gordon-growth terminal framework with a moderate terminal growth rate (2.5%) and WACC (9.5%).",
+      "Comps are used as a reasonableness check; however, peer EV/NTM revenue and EV/EBITDA are sourced from third-party pages and may not be strictly next-twelve-month. ([ca.finance.yahoo.com](https://ca.finance.yahoo.com/quote/TXN/key-statistics/?utm_source=openai))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.254,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.098
+      },
+      "description": "Moderately slower growth and slight margin compression; higher discount rate and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.06,
+          "2027": 0.056,
+          "2028": 0.054,
+          "2029": 0.053,
+          "2030": 0.052
+        },
+        "da_pct_sales": {
+          "2026": 0.0178,
+          "2027": 0.0182,
+          "2028": 0.0185,
+          "2029": 0.0186,
+          "2030": 0.0188
+        },
+        "ebit_margin": {
+          "2026": 0.244,
+          "2027": 0.248,
+          "2028": 0.25,
+          "2029": 0.252,
+          "2030": 0.254
+        },
+        "nwc_pct_sales": {
+          "2026": 0.208,
+          "2027": 0.207,
+          "2028": 0.206,
+          "2029": 0.205,
+          "2030": 0.205
+        },
+        "revenue_growth": {
+          "2026": 0.1,
+          "2027": 0.08,
+          "2028": 0.06,
+          "2029": 0.05,
+          "2030": 0.04
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.267,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.027,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.092
+      },
+      "description": "Moderately stronger top-line growth and margin expansion; slightly lower discount rate and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.056,
+          "2027": 0.054,
+          "2028": 0.052,
+          "2029": 0.051,
+          "2030": 0.05
+        },
+        "da_pct_sales": {
+          "2026": 0.0182,
+          "2027": 0.0187,
+          "2028": 0.0192,
+          "2029": 0.0195,
+          "2030": 0.0197
+        },
+        "ebit_margin": {
+          "2026": 0.255,
+          "2027": 0.26,
+          "2028": 0.263,
+          "2029": 0.265,
+          "2030": 0.267
+        },
+        "nwc_pct_sales": {
+          "2026": 0.202,
+          "2027": 0.203,
+          "2028": 0.204,
+          "2029": 0.205,
+          "2030": 0.205
+        },
+        "revenue_growth": {
+          "2026": 0.14,
+          "2027": 0.12,
+          "2028": 0.1,
+          "2029": 0.08,
+          "2030": 0.07
+        }
+      }
+    }
+  },
+  "ticker": "MPWR"
+}

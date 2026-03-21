@@ -1,0 +1,685 @@
+{
+  "_meta": {
+    "cost_usd": 0.018722,
+    "generated_at": "2026-03-21T17:22:57Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 9051,
+      "prompt": 2514,
+      "reasoning": 5524
+    }
+  },
+  "_valuation": {
+    "company_name": "United Airlines Holdings, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 89.95,
+        "description": "Base case",
+        "enterprise_value": 38564439971.526024,
+        "equity_value": 27146439971.526024,
+        "exit_multiple_terminal_value": 75810262237.16772,
+        "gordon_terminal_value": 19976867530.83399,
+        "implied_market_cap": 27146439971.526024,
+        "investments_adjustment": 7628000000.0,
+        "net_debt": 19046000000.0,
+        "per_share_value": 82.63756460129687,
+        "projected_years": [
+          {
+            "capex": 6081847200.0,
+            "cash_taxes": 220240273.968,
+            "da": 3071640000.0,
+            "delta_nwc": -728512000.0,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 4976056800.0,
+            "ebit_margin": 0.081,
+            "ebitda": 8047696800.0,
+            "fcff": 2474121326.0319996,
+            "nol_balance_end": 6619154560.0,
+            "nol_used": 3980845440.0,
+            "nwc": -17815512000.0,
+            "present_value_fcff": 2269836078.9284396,
+            "revenue": 61432800000.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 6376724640.0,
+            "cash_taxes": 234254081.03011194,
+            "da": 3188362320.0,
+            "delta_nwc": -358153224.0,
+            "discount_factor": 0.84167999326656,
+            "ebit": 5292681451.2,
+            "ebit_margin": 0.083,
+            "ebitda": 8481043771.2,
+            "fcff": 2228218274.1698875,
+            "nol_balance_end": 2385009399.04,
+            "nol_used": 4234145160.96,
+            "nwc": -18173665224.0,
+            "present_value_fcff": 1875446741.9997368,
+            "revenue": 63767246400.0,
+            "revenue_growth": 0.038,
+            "year": 2027
+          },
+          {
+            "capex": 6599910002.4,
+            "cash_taxes": 713673490.9939,
+            "da": 3299955001.2,
+            "delta_nwc": -306082782.7200012,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 5609923502.04,
+            "ebit_margin": 0.085,
+            "ebitda": 8909878503.24,
+            "fcff": 1902377792.566101,
+            "nol_balance_end": 0.0,
+            "nol_used": 2385009399.04,
+            "nwc": -18479748006.72,
+            "present_value_fcff": 1468984704.2545772,
+            "revenue": 65999100023.99999,
+            "revenue_growth": 0.035,
+            "year": 2028
+          },
+          {
+            "capex": 6797907302.472,
+            "cash_taxes": 1278720353.1314955,
+            "da": 3398953651.236,
+            "delta_nwc": -214497075.07799911,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 5778221207.1012,
+            "ebit_margin": 0.085,
+            "ebitda": 9177174858.3372,
+            "fcff": 1315044277.8117037,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -18694245081.798,
+            "present_value_fcff": 931610520.0688348,
+            "revenue": 67979073024.71999,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 6898176435.18346,
+            "cash_taxes": 1326108225.0416622,
+            "da": 3483927492.516899,
+            "delta_nwc": -118963377.79325485,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 5992355287.1290655,
+            "ebit_margin": 0.086,
+            "ebitda": 9476282779.645966,
+            "fcff": 1370961497.214097,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -18813208459.591255,
+            "present_value_fcff": 891030906.4460131,
+            "revenue": 69678549850.33798,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "average",
+        "terminal_value": 47893564884.000854,
+        "terminal_value_present_value": 31127531019.828423,
+        "upside_downside_pct": -0.08129444578880629
+      },
+      "bear": {
+        "current_price": 89.95,
+        "description": "Modestly weaker growth and EBIT margin with slightly higher discount rate and more conservative terminal assumptions.",
+        "enterprise_value": 32551319457.01348,
+        "equity_value": 21133319457.01348,
+        "exit_multiple_terminal_value": 67839370352.76684,
+        "gordon_terminal_value": 14611923629.633085,
+        "implied_market_cap": 21133319457.013485,
+        "investments_adjustment": 7628000000.0,
+        "net_debt": 19046000000.0,
+        "per_share_value": 64.33278373520086,
+        "projected_years": [
+          {
+            "capex": 6052607550.0,
+            "cash_taxes": 211063595.8859999,
+            "da": 3056872500.0,
+            "delta_nwc": -642860499.9999962,
+            "discount_factor": 0.9132420091324202,
+            "ebit": 4768721099.999999,
+            "ebit_margin": 0.078,
+            "ebitda": 7825593599.999999,
+            "fcff": 2204782954.1139956,
+            "nol_balance_end": 6785023120.0,
+            "nol_used": 3814976879.9999995,
+            "nwc": -17729860499.999996,
+            "present_value_fcff": 2013500414.715978,
+            "revenue": 61137449999.99999,
+            "revenue_growth": 0.035,
+            "year": 2026
+          },
+          {
+            "capex": 6315498584.999999,
+            "cash_taxes": 223619173.89767987,
+            "da": 3157749292.4999995,
+            "delta_nwc": -269310467.2499962,
+            "discount_factor": 0.8340109672442193,
+            "ebit": 5052398867.999999,
+            "ebit_margin": 0.08,
+            "ebitda": 8210148160.499998,
+            "fcff": 1940340868.852315,
+            "nol_balance_end": 2743104025.6000004,
+            "nol_used": 4041919094.3999996,
+            "nwc": -17999170967.249992,
+            "present_value_fcff": 1618265564.8150082,
+            "revenue": 63154985849.999985,
+            "revenue_growth": 0.033,
+            "year": 2027
+          },
+          {
+            "capex": 6504963542.549999,
+            "cash_taxes": 573380793.347098,
+            "da": 3252481771.2749996,
+            "delta_nwc": -214726951.8900032,
+            "discount_factor": 0.7616538513645839,
+            "ebit": 5334070104.890999,
+            "ebit_margin": 0.082,
+            "ebitda": 8586551876.165998,
+            "fcff": 1722934492.158904,
+            "nol_balance_end": 0.0,
+            "nol_used": 2743104025.6000004,
+            "nwc": -18213897919.139996,
+            "present_value_fcff": 1312279691.6017127,
+            "revenue": 65049635425.499985,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 6667587631.113749,
+            "cash_taxes": 1209940457.0676875,
+            "da": 3333793815.5568743,
+            "delta_nwc": -121968066.42281342,
+            "discount_factor": 0.6955742934836383,
+            "ebit": 5467421857.513274,
+            "ebit_margin": 0.082,
+            "ebitda": 8801215673.070148,
+            "fcff": 1045655651.3115253,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -18335865985.56281,
+            "present_value_fcff": 727331190.8881879,
+            "revenue": 66675876311.13748,
+            "revenue_growth": 0.025,
+            "year": 2029
+          },
+          {
+            "capex": 6732929989.898663,
+            "cash_taxes": 1249189745.065249,
+            "da": 3400469691.8680115,
+            "delta_nwc": -26670350.524456024,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 5644779688.500899,
+            "ebit_margin": 0.083,
+            "ebitda": 9045249380.368912,
+            "fcff": 1089799995.9294548,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -18362536336.087265,
+            "present_value_fcff": 692271107.0384498,
+            "revenue": 68009393837.36023,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "average",
+        "terminal_value": 41225646991.19996,
+        "terminal_value_present_value": 26187671487.954147,
+        "upside_downside_pct": -0.28479395513951233
+      },
+      "bull": {
+        "current_price": 89.95,
+        "description": "Modestly higher growth and EBIT margin with slightly more favorable capital market/terminal assumptions.",
+        "enterprise_value": 43796844521.054,
+        "equity_value": 32378844521.054,
+        "exit_multiple_terminal_value": 83729114000.7644,
+        "gordon_terminal_value": 24512800759.329914,
+        "implied_market_cap": 32378844521.054,
+        "investments_adjustment": 7628000000.0,
+        "net_debt": 19046000000.0,
+        "per_share_value": 98.5657367459787,
+        "projected_years": [
+          {
+            "capex": 6111086850.0,
+            "cash_taxes": 226763297.277,
+            "da": 3086407500.0,
+            "delta_nwc": -814163499.9999962,
+            "discount_factor": 0.9191176470588235,
+            "ebit": 5123436450.0,
+            "ebit_margin": 0.083,
+            "ebitda": 8209843950.0,
+            "fcff": 2686157302.7229958,
+            "nol_balance_end": 6501250840.0,
+            "nol_used": 4098749160.0,
+            "nwc": -17901163499.999996,
+            "present_value_fcff": 2468894579.708636,
+            "revenue": 61728149999.99999,
+            "revenue_growth": 0.045,
+            "year": 2026
+          },
+          {
+            "capex": 6438246044.999999,
+            "cash_taxes": 242213254.45894492,
+            "da": 3219123022.4999995,
+            "delta_nwc": -447837728.2499962,
+            "discount_factor": 0.844777249134948,
+            "ebit": 5472509138.249999,
+            "ebit_margin": 0.085,
+            "ebitda": 8691632160.749998,
+            "fcff": 2459010589.541051,
+            "nol_balance_end": 2123243529.4000006,
+            "nol_used": 4378007310.599999,
+            "nwc": -18349001228.249992,
+            "present_value_fcff": 2077316201.4261956,
+            "revenue": 64382460449.999985,
+            "revenue_growth": 0.043,
+            "year": 2027
+          },
+          {
+            "capex": 6695775886.799999,
+            "cash_taxes": 819270634.2052702,
+            "da": 3347887943.3999996,
+            "delta_nwc": -399171254.79000473,
+            "discount_factor": 0.776449677513739,
+            "ebit": 5825325021.515998,
+            "ebit_margin": 0.087,
+            "ebitda": 9173212964.915997,
+            "fcff": 2057337698.7007332,
+            "nol_balance_end": 0.0,
+            "nol_used": 2123243529.4000006,
+            "nwc": -18748172483.039997,
+            "present_value_fcff": 1597419192.693042,
+            "revenue": 66957758867.999985,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 6930128042.837997,
+            "cash_taxes": 1334264482.2156425,
+            "da": 3465064021.4189987,
+            "delta_nwc": -309679634.76449585,
+            "discount_factor": 0.71364860065601,
+            "ebit": 6029211397.269057,
+            "ebit_margin": 0.087,
+            "ebitda": 9494275418.688057,
+            "fcff": 1539562528.3989124,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -19057852117.804493,
+            "present_value_fcff": 1098706644.0143125,
+            "revenue": 69301280428.37997,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 7066651565.281906,
+            "cash_taxes": 1390088881.241676,
+            "da": 3569015942.0615687,
+            "delta_nwc": -214833969.32797623,
+            "discount_factor": 0.6559270226617738,
+            "ebit": 6281468058.02836,
+            "ebit_margin": 0.088,
+            "ebitda": 9850484000.08993,
+            "fcff": 1608577522.8943233,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -19272686087.13247,
+            "present_value_fcff": 1055109465.3127248,
+            "revenue": 71380318841.23137,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "average",
+        "terminal_value": 54120957380.04716,
+        "terminal_value_present_value": 35499398437.899086,
+        "upside_downside_pct": 0.09578362141165853
+      }
+    },
+    "ticker": "UAL"
+  },
+  "assumptions": {
+    "cash": 5942000000.0,
+    "current_price": 89.95,
+    "debt": 24988000000.0,
+    "diluted_shares": 328500000.0,
+    "investments": 7628000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 10600000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.085,
+    "tax_rate": 0.2213,
+    "terminal_exit_ebitda_multiple": 8.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "average",
+    "wacc": 0.09
+  },
+  "company_name": "United Airlines Holdings, Inc.",
+  "comps": [
+    {
+      "company_name": "Delta Air Lines, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as proxy for P/E NTM. EV/NTM revenue and EV/NTM EBITDA not provided in the public summary used; left null.",
+      "pe_ntm": 8.34,
+      "source": "https://stockanalysis.com/stocks/dal/statistics/",
+      "ticker": "DAL"
+    },
+    {
+      "company_name": "American Airlines Group Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as proxy for P/E NTM. EV/NTM revenue and EV/NTM EBITDA not provided in the public summary used; left null.",
+      "pe_ntm": 5.39,
+      "source": "https://stockanalysis.com/stocks/aal/",
+      "ticker": "AAL"
+    },
+    {
+      "company_name": "Southwest Airlines Co",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as proxy for P/E NTM. EV/NTM revenue and EV/NTM EBITDA not provided in the public summary used; left null.",
+      "pe_ntm": 9.89,
+      "source": "https://stockanalysis.com/stocks/luv/statistics/",
+      "ticker": "LUV"
+    },
+    {
+      "company_name": "Alaska Air Group, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as proxy for P/E NTM. EV/NTM revenue and EV/NTM EBITDA not provided in the public summary used; left null.",
+      "pe_ntm": 7.7,
+      "source": "https://stockanalysis.com/stocks/alk/statistics/",
+      "ticker": "ALK"
+    },
+    {
+      "company_name": "Frontier Group Holdings, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as proxy for P/E NTM. EV/NTM revenue and EV/NTM EBITDA not provided in the public summary used; left null.",
+      "pe_ntm": 30.94,
+      "source": "https://stockanalysis.com/stocks/ulcc/",
+      "ticker": "ULCC"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.099,
+      "2027": 0.1,
+      "2028": 0.1,
+      "2029": 0.1,
+      "2030": 0.099
+    },
+    "da_pct_sales": {
+      "2026": 0.05,
+      "2027": 0.05,
+      "2028": 0.05,
+      "2029": 0.05,
+      "2030": 0.05
+    },
+    "ebit_margin": {
+      "2026": 0.081,
+      "2027": 0.083,
+      "2028": 0.085,
+      "2029": 0.085,
+      "2030": 0.086
+    },
+    "nwc_pct_sales": {
+      "2026": -0.29,
+      "2027": -0.285,
+      "2028": -0.28,
+      "2029": -0.275,
+      "2030": -0.27
+    },
+    "revenue_growth": {
+      "2026": 0.04,
+      "2027": 0.038,
+      "2028": 0.035,
+      "2029": 0.03,
+      "2030": 0.025
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 7171000000.0,
+      "2024": 5615000000.0,
+      "2025": 5874000000.0
+    },
+    "da": {
+      "2023": 2671000000.0,
+      "2024": 2928000000.0,
+      "2025": 2939000000.0
+    },
+    "ebit": {
+      "2023": 4211000000.0,
+      "2024": 5096000000.0,
+      "2025": 4713000000.0
+    },
+    "nwc": {
+      "2023": -13859000000.0,
+      "2024": -15454000000.0,
+      "2025": -17087000000.0
+    },
+    "revenue": {
+      "2023": 53717000000.0,
+      "2024": 57063000000.0,
+      "2025": 59070000000.0
+    }
+  },
+  "notes": [
+    "Definition choices (historical facts vs assumptions): EBIT is taken as the company's 'Operating income' line; D&A is 'Depreciation and amortization'; capex is 'Capital expenditures, net of flight equipment purchase deposit returns' (GAAP cash flow line).",
+    "NWC construction (base-case driver = NWC as % of sales): NWC is computed as (Total current assets - Cash and cash equivalents - Short-term investments) - (Total current liabilities - Current maturities of long-term debt, finance leases, and other financial liabilities). This yields negative NWC for UAL and is retained as-is in the base case.",
+    "WACC/terminal assumptions are model inputs (not directly provided as a single 'WACC' in the filings). Terminal method is set to 'average' with a terminal exit EBITDA multiple; terminal growth is set conservatively at 2.0%.",
+    "NOL fields: UAL reports consolidated U.S. federal NOL carryforwards of approximately $10.6B. NOL utilization percent is set to null because the filing does not provide a straightforward, model-ready utilization rate.",
+    "Minority_interest and preferred_equity: set to 0 because no separate consolidated noncontrolling/minority line item was identified for use in the pipeline fields from the balance-sheet presentation used; minority ownership described in notes pertains to affiliates/investments rather than a separate consolidated noncontrolling interest balance.",
+    "Comps limitations: EV/NTM revenue and EV/NTM EBITDA are set to null because the public sources used for forward valuation metrics did not provide NTM-specific EV/Revenue and EV/EBITDA inputs. Forward P/E is used where available as P/E NTM proxy."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Aircraft delivery cadence and any changes to 2026 delivery timing relative to management plans.",
+      "Fuel price and macro-driven demand shifts that affect RASM/CASM and hence EBIT margin.",
+      "Further capital allocation actions (buybacks/dividends and liquidity management) as free cash flow sustains."
+    ],
+    "company_overview": [
+      "United Airlines Holdings operates a large global airline network, generating revenue from passenger travel, cargo, and other operating revenue streams.",
+      "The MileagePlus loyalty program and partner agreements (e.g., co-brand and other travel-related benefits) contribute material recurring revenue within other operating revenue.",
+      "The business is capital intensive, with depreciation/amortization and aircraft-related capital expenditures closely tied to fleet modernization and delivery timing."
+    ],
+    "current_context": [
+      "FY2025 results: total operating revenue of $59.1B (+3.5% y/y); operating cash flow of $8.4B; and management expects similar free cash flow in 2026.",
+      "2026 outlook: plans to take delivery of over 100 narrowbody aircraft and ~20 Boeing 787 aircraft and to make significant airport upgrades at the Washington Dulles and Houston hubs.",
+      "Liquidity: the company reported ending available liquidity of $15.2B in its Q4/FY2025 release."
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes continued network/route expansion and steady demand support consistent with FY2025 momentum.",
+      "Base-case operating margin converges toward ~8.5% EBIT margin, reflecting a normalized cost structure rather than an aggressive rebound.",
+      "Capital intensity is held near historical levels (capex ~10% of revenue) to support fleet modernization while limiting free-cash-flow volatility.",
+      "Negative net working capital (driven by advance ticket sales and deferred revenue net of current maturities of financing liabilities) supports cash conversion."
+    ],
+    "key_risks": [
+      "Fuel price volatility and macroeconomic shocks compress fares and/or increase operating costs.",
+      "Labor cost inflation, operational disruptions, or maintenance/repair underperformance impacting unit costs and margin.",
+      "Financing conditions (rates/credit spreads) and/or industry capacity changes that affect valuation multiples and WACC."
+    ],
+    "sources": [
+      {
+        "label": "UAL FY2025 Form 10-K (SEC)",
+        "notes": "Historical revenue, operating income (EBIT), depreciation and amortization, cash/short-term investments, and balance sheet items used for NWC and debt.",
+        "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+      },
+      {
+        "label": "UAL FY2024 Form 10-K (SEC)",
+        "notes": "Historical 2023/2024 balance sheet and cash flow lines used for NWC, capex, and D&A.",
+        "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051725000046/ual-20241231.htm"
+      },
+      {
+        "label": "UAL Q4 & FY2025 Earnings Release (SEC Exhibit 99.1)",
+        "notes": "Current context: FY2025 operating performance, expected 2026 free cash flow level, 2026 fleet delivery plans, and liquidity.",
+        "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000014/ual_12312025erex991.htm"
+      },
+      {
+        "label": "StockAnalysis \u2014 DAL Forward P/E",
+        "notes": "Forward P/E used as proxy for P/E NTM in comps.",
+        "url": "https://stockanalysis.com/stocks/dal/statistics/"
+      },
+      {
+        "label": "StockAnalysis \u2014 AAL Forward P/E",
+        "notes": "Forward P/E used as proxy for P/E NTM in comps.",
+        "url": "https://stockanalysis.com/stocks/aal/"
+      },
+      {
+        "label": "StockAnalysis \u2014 LUV Forward P/E",
+        "notes": "Forward P/E used as proxy for P/E NTM in comps.",
+        "url": "https://stockanalysis.com/stocks/luv/statistics/"
+      },
+      {
+        "label": "StockAnalysis \u2014 ALK Forward P/E",
+        "notes": "Forward P/E used as proxy for P/E NTM in comps.",
+        "url": "https://stockanalysis.com/stocks/alk/statistics/"
+      },
+      {
+        "label": "StockAnalysis \u2014 ULCC Forward P/E",
+        "notes": "Forward P/E used as proxy for P/E NTM in comps.",
+        "url": "https://stockanalysis.com/stocks/ulcc/"
+      }
+    ],
+    "subtitle": "United Airlines (UAL) DCF Inputs \u2014 Base/Bull/Bear Valuation Package",
+    "valuation_summary": [
+      "The DCF base case anchors forecast drivers to the last three fiscal years (EBIT margin, D&A intensity, and capital intensity) with conservative terminal growth (2.0%).",
+      "Terminal value uses an economically grounded terminal exit EBITDA multiple and a blended terminal method ('average') to reduce single-method sensitivity.",
+      "Peer comps provide a valuation cross-check via forward P/E ratios; EV/NTM revenue and EV/NTM EBITDA are left null due to public-data limitations in the sources used."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.082,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 7.5,
+        "terminal_growth": 0.019,
+        "terminal_method": "average",
+        "wacc": 0.095
+      },
+      "description": "Modestly weaker growth and EBIT margin with slightly higher discount rate and more conservative terminal assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.099,
+          "2027": 0.1,
+          "2028": 0.1,
+          "2029": 0.1,
+          "2030": 0.099
+        },
+        "da_pct_sales": {
+          "2026": 0.05,
+          "2027": 0.05,
+          "2028": 0.05,
+          "2029": 0.05,
+          "2030": 0.05
+        },
+        "ebit_margin": {
+          "2026": 0.078,
+          "2027": 0.08,
+          "2028": 0.082,
+          "2029": 0.082,
+          "2030": 0.083
+        },
+        "nwc_pct_sales": {
+          "2026": -0.29,
+          "2027": -0.285,
+          "2028": -0.28,
+          "2029": -0.275,
+          "2030": -0.27
+        },
+        "revenue_growth": {
+          "2026": 0.035,
+          "2027": 0.033,
+          "2028": 0.03,
+          "2029": 0.025,
+          "2030": 0.02
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.087,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 8.5,
+        "terminal_growth": 0.021,
+        "terminal_method": "average",
+        "wacc": 0.088
+      },
+      "description": "Modestly higher growth and EBIT margin with slightly more favorable capital market/terminal assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.099,
+          "2027": 0.1,
+          "2028": 0.1,
+          "2029": 0.1,
+          "2030": 0.099
+        },
+        "da_pct_sales": {
+          "2026": 0.05,
+          "2027": 0.05,
+          "2028": 0.05,
+          "2029": 0.05,
+          "2030": 0.05
+        },
+        "ebit_margin": {
+          "2026": 0.083,
+          "2027": 0.085,
+          "2028": 0.087,
+          "2029": 0.087,
+          "2030": 0.088
+        },
+        "nwc_pct_sales": {
+          "2026": -0.29,
+          "2027": -0.285,
+          "2028": -0.28,
+          "2029": -0.275,
+          "2030": -0.27
+        },
+        "revenue_growth": {
+          "2026": 0.045,
+          "2027": 0.043,
+          "2028": 0.04,
+          "2029": 0.035,
+          "2030": 0.03
+        }
+      }
+    }
+  },
+  "ticker": "UAL"
+}

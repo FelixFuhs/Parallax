@@ -1,0 +1,687 @@
+{
+  "_meta": {
+    "cost_usd": 0.023317,
+    "generated_at": "2026-03-21T17:12:59Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10937,
+      "prompt": 2514,
+      "reasoning": 7314
+    }
+  },
+  "_valuation": {
+    "company_name": "Bunge Global SA",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 118.15,
+        "description": "Base case",
+        "enterprise_value": 13722898495.505108,
+        "equity_value": 753898495.5051079,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 13583742099.001211,
+        "implied_market_cap": 753898495.505108,
+        "investments_adjustment": 0.0,
+        "net_debt": 12916000000.0,
+        "per_share_value": 4.541557201838,
+        "projected_years": [
+          {
+            "capex": 1694049787.5,
+            "cash_taxes": 406211512.875,
+            "da": 717267888.75,
+            "delta_nwc": -1815044000.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1766137012.5,
+            "ebit_margin": 0.0245,
+            "ebitda": 2483404901.25,
+            "fcff": 2198187600.875,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 11533956000.0,
+            "present_value_fcff": 2025979355.6451614,
+            "revenue": 72087225000.0,
+            "revenue_growth": 0.025,
+            "year": 2026
+          },
+          {
+            "capex": 1694482310.85,
+            "cash_taxes": 440565400.821,
+            "da": 729364125.105,
+            "delta_nwc": -482984407.5,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1915501742.6999998,
+            "ebit_margin": 0.026,
+            "ebitda": 2644865867.805,
+            "fcff": 992802563.6339998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 11050971592.5,
+            "present_value_fcff": 843341386.424855,
+            "revenue": 73673143950.0,
+            "revenue_growth": 0.022,
+            "year": 2027
+          },
+          {
+            "capex": 1690798653.6525,
+            "cash_taxes": 466660428.40809,
+            "da": 740194077.2656499,
+            "delta_nwc": -154713602.29500008,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2028958384.383,
+            "ebit_margin": 0.027,
+            "ebitda": 2769152461.6486497,
+            "fcff": 766406981.8830597,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 10896257990.205,
+            "present_value_fcff": 600026232.8101008,
+            "revenue": 75146606829.0,
+            "revenue_growth": 0.02,
+            "year": 2028
+          },
+          {
+            "capex": 1684636631.8925216,
+            "cash_taxes": 493139086.7903564,
+            "da": 750429045.1157597,
+            "delta_nwc": -175843059.9798603,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2144082986.0450277,
+            "ebit_margin": 0.028,
+            "ebitda": 2894512031.1607876,
+            "fcff": 892579372.4577696,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 10720414930.22514,
+            "present_value_fcff": 644062321.833554,
+            "revenue": 76574392358.75099,
+            "revenue_growth": 0.019,
+            "year": 2029
+          },
+          {
+            "capex": 1675983725.5559828,
+            "cash_taxes": 519944718.5794608,
+            "da": 760039131.356783,
+            "delta_nwc": -40890725.51957321,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2260629211.215047,
+            "ebit_margin": 0.029,
+            "ebitda": 3020668342.57183,
+            "fcff": 865630623.9559596,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 10679524204.705566,
+            "present_value_fcff": 575683684.7202243,
+            "revenue": 77952731421.20851,
+            "revenue_growth": 0.018,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 13583742099.001211,
+        "terminal_value_present_value": 9033805514.07121,
+        "upside_downside_pct": -0.9615610901240965
+      },
+      "bear": {
+        "current_price": 118.15,
+        "description": "Modestly weaker operating environment and slower normalization: lower revenue growth, margin pressure, and higher working capital intensity vs base.",
+        "enterprise_value": 10688319848.177624,
+        "equity_value": -2280680151.8223763,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 10535178852.086506,
+        "implied_market_cap": -2280680151.8223763,
+        "investments_adjustment": 0.0,
+        "net_debt": 12916000000.0,
+        "per_share_value": -13.739037059170942,
+        "projected_years": [
+          {
+            "capex": 1762690891.5,
+            "cash_taxes": 380597339.43,
+            "da": 723062998.35,
+            "delta_nwc": -1477816445.0,
+            "discount_factor": 0.9191176470588235,
+            "ebit": 1654771041.0,
+            "ebit_margin": 0.023,
+            "ebitda": 2377834039.35,
+            "fcff": 1712362253.42,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 11871183555.0,
+            "present_value_fcff": 1573862365.2757354,
+            "revenue": 71946567000.0,
+            "revenue_growth": 0.023,
+            "year": 2026
+          },
+          {
+            "capex": 1761251960.16,
+            "cash_taxes": 413527283.1459001,
+            "da": 733854983.4,
+            "delta_nwc": -496431312.29999924,
+            "discount_factor": 0.844777249134948,
+            "ebit": 1797944709.3300002,
+            "ebit_margin": 0.0245,
+            "ebitda": 2531799692.73,
+            "fcff": 853451761.7240994,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 11374752242.7,
+            "present_value_fcff": 720976631.5386598,
+            "revenue": 73385498340.0,
+            "revenue_growth": 0.02,
+            "year": 2027
+          },
+          {
+            "capex": 1755601276.7878199,
+            "cash_taxes": 438153254.8238538,
+            "da": 743329051.2356939,
+            "delta_nwc": -168786646.1820011,
+            "discount_factor": 0.776449677513739,
+            "ebit": 1905014151.4080598,
+            "ebit_margin": 0.0255,
+            "ebitda": 2648343202.643754,
+            "fcff": 623375317.2140813,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 11205965596.518,
+            "present_value_fcff": 484019564.0208981,
+            "revenue": 74706437310.12,
+            "revenue_growth": 0.018,
+            "year": 2028
+          },
+          {
+            "capex": 1747458275.1210167,
+            "cash_taxes": 463076442.90706944,
+            "da": 752166822.7694812,
+            "delta_nwc": -189380818.58115578,
+            "discount_factor": 0.71364860065601,
+            "ebit": 2013375838.7263887,
+            "ebit_margin": 0.0265,
+            "ebitda": 2765542661.4958696,
+            "fcff": 744388762.0489395,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 11016584777.936844,
+            "present_value_fcff": 531231998.38028526,
+            "revenue": 75976446744.39203,
+            "revenue_growth": 0.017,
+            "year": 2029
+          },
+          {
+            "capex": 1736821572.5768018,
+            "cash_taxes": 488239842.0688121,
+            "da": 760341888.4391776,
+            "delta_nwc": -55310853.229917526,
+            "discount_factor": 0.6559270226617738,
+            "ebit": 2122781922.0383134,
+            "ebit_margin": 0.0275,
+            "ebitda": 2883123810.477491,
+            "fcff": 713373249.0617948,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 10961273924.706926,
+            "present_value_fcff": 467920791.3036591,
+            "revenue": 77192069892.3023,
+            "revenue_growth": 0.016,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 10535178852.086506,
+        "terminal_value_present_value": 6910308497.658386,
+        "upside_downside_pct": -1.1162846979193477
+      },
+      "bull": {
+        "current_price": 118.15,
+        "description": "Modestly stronger post-merger execution: higher revenue growth and gradual margin recovery vs base.",
+        "enterprise_value": 16912594420.78428,
+        "equity_value": 3943594420.784281,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 16836662943.201578,
+        "implied_market_cap": 3943594420.784281,
+        "investments_adjustment": 0.0,
+        "net_debt": 12916000000.0,
+        "per_share_value": 23.756592896290847,
+        "projected_years": [
+          {
+            "capex": 1625127367.5,
+            "cash_taxes": 431922740.34000003,
+            "da": 711444647.55,
+            "delta_nwc": -2153678135.0,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 1877924958.0,
+            "ebit_margin": 0.026,
+            "ebitda": 2589369605.55,
+            "fcff": 2685997632.71,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 11195321865.0,
+            "present_value_fcff": 2480145551.902124,
+            "revenue": 72227883000.0,
+            "revenue_growth": 0.027,
+            "year": 2026
+          },
+          {
+            "capex": 1627149748.224,
+            "cash_taxes": 467805552.6144,
+            "da": 724821251.4815999,
+            "delta_nwc": -470925797.15999985,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 2033937185.28,
+            "ebit_margin": 0.0275,
+            "ebitda": 2758758436.7616,
+            "fcff": 1134728933.0831995,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 10724396067.84,
+            "present_value_fcff": 967464894.8734276,
+            "revenue": 73961352192.0,
+            "revenue_growth": 0.024,
+            "year": 2027
+          },
+          {
+            "capex": 1625152791.7148159,
+            "cash_taxes": 495482630.2181683,
+            "da": 736987893.917184,
+            "delta_nwc": -142005796.20863914,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 2154272305.296384,
+            "ebit_margin": 0.0285,
+            "ebitda": 2891260199.2135677,
+            "fcff": 912630573.4892228,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 10582390271.631361,
+            "present_value_fcff": 718471662.8317089,
+            "revenue": 75588501940.224,
+            "revenue_growth": 0.022,
+            "year": 2028
+          },
+          {
+            "capex": 1620693070.1003425,
+            "cash_taxes": 523638213.36337256,
+            "da": 748605846.6653963,
+            "delta_nwc": -163649106.70058823,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 2276687884.188576,
+            "ebit_margin": 0.0295,
+            "ebitda": 3025293730.8539724,
+            "fcff": 1044611554.0908458,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 10418741164.930773,
+            "present_value_fcff": 759348253.8534395,
+            "revenue": 77175860480.96869,
+            "revenue_growth": 0.021,
+            "year": 2029
+          },
+          {
+            "capex": 1613747242.6570554,
+            "cash_taxes": 552216434.4994752,
+            "da": 759641994.7141749,
+            "delta_nwc": -27783309.77314949,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 2400941019.562936,
+            "ebit_margin": 0.0305,
+            "ebitda": 3160583014.2771106,
+            "fcff": 1022402646.8937297,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 10390957855.157623,
+            "present_value_fcff": 686245772.4414239,
+            "revenue": 78719377690.58806,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 16836662943.201578,
+        "terminal_value_present_value": 11300918284.882156,
+        "upside_downside_pct": -0.7989285408693115
+      }
+    },
+    "ticker": "BG"
+  },
+  "assumptions": {
+    "cash": 1135000000.0,
+    "current_price": 118.15,
+    "debt": 14051000000.0,
+    "diluted_shares": 166000000.0,
+    "investments": 0.0,
+    "minority_interest": 53000000.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.029,
+    "tax_rate": 0.23,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Bunge Global SA",
+  "comps": [
+    {
+      "company_name": "Archer-Daniels-Midland Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward/NTM EV and P/E multiples not retrieved in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ADM"
+    },
+    {
+      "company_name": "Ingredion Incorporated",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward/NTM EV and P/E multiples not retrieved in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "INGR"
+    },
+    {
+      "company_name": "Conagra Brands, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward/NTM EV and P/E multiples not retrieved in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CAG"
+    },
+    {
+      "company_name": "Hormel Foods Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward/NTM EV and P/E multiples not retrieved in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "HRL"
+    },
+    {
+      "company_name": "Post Holdings, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward/NTM EV and P/E multiples not retrieved in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "POST"
+    },
+    {
+      "company_name": "Tyson Foods, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward/NTM EV and P/E multiples not retrieved in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "TSN"
+    },
+    {
+      "company_name": "Pilgrim's Pride Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward/NTM EV and P/E multiples not retrieved in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PPC"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0235,
+      "2027": 0.023,
+      "2028": 0.0225,
+      "2029": 0.022,
+      "2030": 0.0215
+    },
+    "da_pct_sales": {
+      "2026": 0.00995,
+      "2027": 0.0099,
+      "2028": 0.00985,
+      "2029": 0.0098,
+      "2030": 0.00975
+    },
+    "ebit_margin": {
+      "2026": 0.0245,
+      "2027": 0.026,
+      "2028": 0.027,
+      "2029": 0.028,
+      "2030": 0.029
+    },
+    "nwc_pct_sales": {
+      "2026": 0.16,
+      "2027": 0.15,
+      "2028": 0.145,
+      "2029": 0.14,
+      "2030": 0.137
+    },
+    "revenue_growth": {
+      "2026": 0.025,
+      "2027": 0.022,
+      "2028": 0.02,
+      "2029": 0.019,
+      "2030": 0.018
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 1122000000.0,
+      "2024": 1376000000.0,
+      "2025": 1723000000.0
+    },
+    "da": {
+      "2023": 451000000.0,
+      "2024": 468000000.0,
+      "2025": 703000000.0
+    },
+    "ebit": {
+      "2023": 3333000000.0,
+      "2024": 1792000000.0,
+      "2025": 1533000000.0
+    },
+    "nwc": {
+      "2023": 6863000000.0,
+      "2024": 6756000000.0,
+      "2025": 13349000000.0
+    },
+    "revenue": {
+      "2023": 59540000000.0,
+      "2024": 53108000000.0,
+      "2025": 70329000000.0
+    }
+  },
+  "notes": [
+    "EBIT definition: modeled EBIT uses Bunge\u2019s disclosed \u201cTotal EBIT\u201d in reconciliation tables (earnings before interest and taxes) rather than GAAP operating income; this is consistent across 2023\u20132025 in the sourced materials but may differ from other EBIT conventions.",
+    "Revenue units: FY 2023 revenue is sourced from Investing.com \u201cTotal Revenues\u201d (interpreted as USD millions) due to inability to reliably extract a single consolidated net sales line for FY 2023 from the primary press-release tables within this run; FY 2024\u20132025 revenues are aligned closely to sourced primary disclosures but may still differ by small amounts.",
+    "NWC calculation: NWC is computed as (Total current assets \u2212 cash and cash equivalents) \u2212 (Total current liabilities \u2212 short-term debt \u2212 current portion of long-term debt). This excludes cash and debt from working-capital and uses condensed balance-sheet line items; classification differences could affect comparability.",
+    "Capex: uses \u201cPayments made for capital expenditures\u201d from the cash flow statement summary (not including acquisitions).",
+    "D&A: uses \u201cDepreciation, depletion and amortization\u201d from cash flow statement summary.",
+    "WACC (0.085) is an assumed modeling input (not pulled from consensus or a stated company methodology in this run).",
+    "Terminal exit EBITDA multiple left null because the forward EV/NTM EBITDA pull for peers was not completed; terminal value is therefore intended to rely on Gordon growth (terminal_method=gordon_growth).",
+    "NOL balance was not retrieved; nol_balance is set to null and nol_utilization_pct is set to 0.80 as a default utilization assumption."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained improvement in processing margins and merchandising spreads (commodity-driven operating leverage).",
+      "Execution on Viterra integration milestones and cost synergy capture (margin and working-capital normalization).",
+      "Capital allocation updates (share repurchases vs. growth capex) responding to commodity cycle and leverage posture."
+    ],
+    "company_overview": [
+      "Bunge is a global agribusiness solutions provider connecting farmers to consumers across grain origination, storage, distribution, oilseed processing, and refining.",
+      "The company operates across multiple geographies (including a large footprint in the Americas and Europe) with centralized corporate headquarters in St. Louis, Missouri and a registered office in Geneva, Switzerland.",
+      "Recent reporting highlights core reportable segments spanning soybean processing/refining, softseed processing/refining, other oilseeds processing/refining, and grain merchandising/milling."
+    ],
+    "current_context": [
+      "In FY 2025, Bunge reported higher adjusted EBIT in multiple segments while GAAP diluted EPS declined year-over-year; operating performance continues to reflect post-transaction normalization and margin volatility.",
+      "Management guided FY 2026 adjusted EPS of $7.50 to $8.00, and provided planning metrics including adjusted annual effective tax rate (23% to 27%), net interest expense ($575 million to $625 million), capex ($1.5 billion to $1.7 billion), and depreciation & amortization (~$975 million).",
+      "FY 2025 cash flow reflected cash provided by operating activities of $844 million with capex of $1.723 billion and depreciation/depletion/amortization of $703 million.",
+      "As of Dec 31, 2025, liquidity was $1.135 billion cash and cash equivalents alongside total debt approximating $14.051 billion (short-term debt + current portion of long-term debt + long-term debt)."
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes stabilization after the FY 2025 step-change, with modest mid/late-cycle growth through 2030.",
+      "EBIT margin is modeled to gradually recover from the post-merger trough toward a mature level (~2.9% by 2030), consistent with easing integration pressure and normalized processing economics.",
+      "Capex intensity steps down modestly versus 2025 as the model transitions from transaction-driven build toward sustaining levels.",
+      "Working capital intensity normalizes from an elevated 2025 level (merger/integration effects) to ~14% by 2029\u20132030, improving reinvestment efficiency.",
+      "Terminal value is primarily driven by Gordon growth using a 2.0% terminal growth assumption (exit multiple left null due to incomplete forward-multiple pull in this run)."
+    ],
+    "key_risks": [
+      "Agricultural commodity price and crush/spread volatility impacting earnings power and cash conversion.",
+      "Working-capital volatility (inventories, receivables/payables, and structured finance timing) potentially diverging from the normalized path.",
+      "Integration execution risk and potential restructuring/impairment charges that pressure EBIT and free cash flow."
+    ],
+    "sources": [
+      {
+        "label": "Bunge FY 2025 results press release (Feb 4, 2026)",
+        "notes": "Supports FY 2025 cash flow (D&A and capex), condensed balance sheet (cash/debt and current assets/liabilities), and FY 2026 planning metrics.",
+        "url": "https://investors.bunge.com/news-and-events/press-releases/2026/02-04-2026-110056258"
+      },
+      {
+        "label": "Bunge FY 2024 results press release (Feb 5, 2025)",
+        "notes": "Supports FY 2024 and FY 2023 consolidated balance sheet items, D&A, capex, and Total EBIT reconciliation.",
+        "url": "https://investors.bunge.com/news-and-events/press-releases/2025/02-05-2025-110033721"
+      },
+      {
+        "label": "Bunge 2024 Annual Report (PDF)",
+        "notes": "Primary filing artifact for accounting policies and financial statement context (additional detail beyond press-release summaries).",
+        "url": "https://investors.bunge.com/~/media/Files/B/Bunge-IR/documents/financial-information/annual-reports/2024-bunge-annual-report.pdf"
+      },
+      {
+        "label": "Investing.com BG income statement (used for 2023 total revenues)",
+        "notes": "Used to populate FY 2023 revenue due to extraction constraints from primary documents in this run; units interpreted as USD millions.",
+        "url": "https://www.investing.com/equities/bunge-income-statement"
+      }
+    ],
+    "subtitle": "Bunge (BG) DCF Inputs \u2014 FY25 Results, 2026 Setup, and Base/Bull/Bear Drivers",
+    "valuation_summary": [
+      "The DCF framework uses an EBIT-based operating forecast with explicit D&A, capex, and working-capital assumptions to reflect how agribusiness cycles flow into free cash flow.",
+      "The forecast series is validated via an explicit revenue growth chain from FY 2025 to FY 2030.",
+      "Sensitivity is captured in bull/bear scenarios via realistic deltas to revenue growth, EBIT margin, reinvestment intensity (capex), and working-capital utilization."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.0275,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.019,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.088
+      },
+      "description": "Modestly weaker operating environment and slower normalization: lower revenue growth, margin pressure, and higher working capital intensity vs base.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0245,
+          "2027": 0.024,
+          "2028": 0.0235,
+          "2029": 0.023,
+          "2030": 0.0225
+        },
+        "da_pct_sales": {
+          "2026": 0.01005,
+          "2027": 0.01,
+          "2028": 0.00995,
+          "2029": 0.0099,
+          "2030": 0.00985
+        },
+        "ebit_margin": {
+          "2026": 0.023,
+          "2027": 0.0245,
+          "2028": 0.0255,
+          "2029": 0.0265,
+          "2030": 0.0275
+        },
+        "nwc_pct_sales": {
+          "2026": 0.165,
+          "2027": 0.155,
+          "2028": 0.15,
+          "2029": 0.145,
+          "2030": 0.142
+        },
+        "revenue_growth": {
+          "2026": 0.023,
+          "2027": 0.02,
+          "2028": 0.018,
+          "2029": 0.017,
+          "2030": 0.016
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.0305,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.021,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.083
+      },
+      "description": "Modestly stronger post-merger execution: higher revenue growth and gradual margin recovery vs base.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0225,
+          "2027": 0.022,
+          "2028": 0.0215,
+          "2029": 0.021,
+          "2030": 0.0205
+        },
+        "da_pct_sales": {
+          "2026": 0.00985,
+          "2027": 0.0098,
+          "2028": 0.00975,
+          "2029": 0.0097,
+          "2030": 0.00965
+        },
+        "ebit_margin": {
+          "2026": 0.026,
+          "2027": 0.0275,
+          "2028": 0.0285,
+          "2029": 0.0295,
+          "2030": 0.0305
+        },
+        "nwc_pct_sales": {
+          "2026": 0.155,
+          "2027": 0.145,
+          "2028": 0.14,
+          "2029": 0.135,
+          "2030": 0.132
+        },
+        "revenue_growth": {
+          "2026": 0.027,
+          "2027": 0.024,
+          "2028": 0.022,
+          "2029": 0.021,
+          "2030": 0.02
+        }
+      }
+    }
+  },
+  "ticker": "BG"
+}

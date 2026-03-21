@@ -1,0 +1,668 @@
+{
+  "_meta": {
+    "cost_usd": 0.023417,
+    "generated_at": "2026-03-21T17:14:34Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11423,
+      "prompt": 2515,
+      "reasoning": 6908
+    }
+  },
+  "_valuation": {
+    "company_name": "Ball Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 57.06,
+        "description": "Base case",
+        "enterprise_value": 24229567123.619858,
+        "equity_value": 18429567123.619858,
+        "exit_multiple_terminal_value": 26314261868.307594,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 18429567123.619858,
+        "investments_adjustment": 0.0,
+        "net_debt": 5800000000.0,
+        "per_share_value": 66.78056876646855,
+        "projected_years": [
+          {
+            "capex": 547497600.0,
+            "cash_taxes": 261269719.2,
+            "da": 677528280.0,
+            "delta_nwc": -818248320.0,
+            "discount_factor": 0.9251549634563789,
+            "ebit": 1505618400.0,
+            "ebit_margin": 0.11,
+            "ebitda": 2183146680.0,
+            "fcff": 2192627680.8,
+            "nol_balance_end": 0.0,
+            "nol_used": 279000000.0,
+            "nwc": -383248320.0,
+            "present_value_fcff": 2028520381.903969,
+            "revenue": 13687440000.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 563922528.0,
+            "cash_taxes": 336323395.69920003,
+            "da": 697854128.4,
+            "delta_nwc": 2600613.600000024,
+            "discount_factor": 0.8559117064079739,
+            "ebit": 1578983078.4,
+            "ebit_margin": 0.112,
+            "ebitda": 2276837206.8,
+            "fcff": 1373990669.5008001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -380647706.4,
+            "present_value_fcff": 1176014698.5210643,
+            "revenue": 14098063200.0,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 578020591.1999999,
+            "cash_taxes": 347809440.23981994,
+            "da": 715300481.6099999,
+            "delta_nwc": 19384836.899999976,
+            "discount_factor": 0.7918509634637562,
+            "ebit": 1632908170.1399999,
+            "ebit_margin": 0.113,
+            "ebitda": 2348208651.75,
+            "fcff": 1402993783.4101796,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -361262869.5,
+            "present_value_fcff": 1110961979.127011,
+            "revenue": 14450514779.999998,
+            "revenue_growth": 0.025,
+            "year": 2028
+          },
+          {
+            "capex": 589581003.0239999,
+            "cash_taxes": 357905147.8857192,
+            "da": 729606491.2422,
+            "delta_nwc": 7514267.685600042,
+            "discount_factor": 0.7325848491662097,
+            "ebit": 1680305858.6183999,
+            "ebit_margin": 0.114,
+            "ebitda": 2409912349.8606,
+            "fcff": 1454911931.2652807,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -353748601.81439996,
+            "present_value_fcff": 1065846437.7160945,
+            "revenue": 14739525075.599998,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 601372623.08448,
+            "cash_taxes": 368265560.06135845,
+            "da": 744198621.067044,
+            "delta_nwc": 7959343.540823996,
+            "discount_factor": 0.6777545093590617,
+            "ebit": 1728946291.36788,
+            "ebit_margin": 0.115,
+            "ebitda": 2473144912.434924,
+            "fcff": 1495547385.7482617,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -345789258.27357596,
+            "present_value_fcff": 1013613984.6510404,
+            "revenue": 15034315577.112,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 26314261868.307594,
+        "terminal_value_present_value": 17834609641.70068,
+        "upside_downside_pct": 0.1703569710211803
+      },
+      "bear": {
+        "current_price": 57.06,
+        "description": "Modestly slower revenue growth and weaker margin normalization; less favorable working-capital conversion; more conservative terminal assumptions.",
+        "enterprise_value": 21072592362.355682,
+        "equity_value": 15272592362.355682,
+        "exit_multiple_terminal_value": 22370928131.225006,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 15272592362.355682,
+        "investments_adjustment": 0.0,
+        "net_debt": 5800000000.0,
+        "per_share_value": 55.34109388762513,
+        "projected_years": [
+          {
+            "capex": 544865399.9999999,
+            "cash_taxes": 251023683.28499994,
+            "da": 674270932.4999999,
+            "delta_nwc": -761919240.0,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 1457514944.9999998,
+            "ebit_margin": 0.107,
+            "ebitda": 2131785877.4999995,
+            "fcff": 2097816034.2149997,
+            "nol_balance_end": 0.0,
+            "nol_used": 279000000.0,
+            "nwc": -326919239.99999994,
+            "present_value_fcff": 1937041582.839335,
+            "revenue": 13621634999.999998,
+            "revenue_growth": 0.035,
+            "year": 2026
+          },
+          {
+            "capex": 558487034.9999999,
+            "cash_taxes": 321185893.8284999,
+            "da": 691127705.8124999,
+            "delta_nwc": 5789194.87500006,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 1507914994.4999995,
+            "ebit_margin": 0.108,
+            "ebitda": 2199042700.3124995,
+            "fcff": 1313580576.6089997,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -321130045.1249999,
+            "present_value_fcff": 1119953019.0913205,
+            "revenue": 13962175874.999996,
+            "revenue_growth": 0.025,
+            "year": 2027
+          },
+          {
+            "capex": 569656775.6999998,
+            "cash_taxes": 330643034.0356724,
+            "da": 704950259.9287498,
+            "delta_nwc": 22060237.882499933,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 1552314713.7824996,
+            "ebit_margin": 0.109,
+            "ebitda": 2257264973.7112494,
+            "fcff": 1334904926.0930772,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -299069807.24249995,
+            "present_value_fcff": 1050908647.8502231,
+            "revenue": 14241419392.499996,
+            "revenue_growth": 0.02,
+            "year": 2028
+          },
+          {
+            "capex": 578201627.3354998,
+            "cash_taxes": 338681603.211769,
+            "da": 715524513.8276811,
+            "delta_nwc": 9968993.574750066,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 1590054475.1726243,
+            "ebit_margin": 0.11,
+            "ebitda": 2305578989.000305,
+            "fcff": 1378726764.8782868,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -289100813.6677499,
+            "present_value_fcff": 1002223034.3436168,
+            "revenue": 14455040683.387495,
+            "revenue_growth": 0.015,
+            "year": 2029
+          },
+          {
+            "capex": 586874651.7455323,
+            "cash_taxes": 346886934.78049046,
+            "da": 726257381.5350962,
+            "delta_nwc": 10335354.088622093,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 1628577158.593852,
+            "ebit_margin": 0.111,
+            "ebitda": 2354834540.128948,
+            "fcff": 1410737599.5143034,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -278765459.5791278,
+            "present_value_fcff": 946899655.0744264,
+            "revenue": 14671866293.638306,
+            "revenue_growth": 0.015,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 22370928131.225006,
+        "terminal_value_present_value": 15015566423.15676,
+        "upside_downside_pct": -0.030124537546001973
+      },
+      "bull": {
+        "current_price": 57.06,
+        "description": "Modestly higher growth and margin normalization; slightly better working-capital conversion; more optimistic terminal assumptions.",
+        "enterprise_value": 25971232997.170998,
+        "equity_value": 20171232997.170998,
+        "exit_multiple_terminal_value": 28106839749.984413,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 20171232997.170998,
+        "investments_adjustment": 0.0,
+        "net_debt": 5800000000.0,
+        "per_share_value": 73.09159261508775,
+        "projected_years": [
+          {
+            "capex": 550129800.0,
+            "cash_taxes": 271599853.905,
+            "da": 680785627.5,
+            "delta_nwc": -847597350.0,
+            "discount_factor": 0.9276437847866419,
+            "ebit": 1554116685.0,
+            "ebit_margin": 0.113,
+            "ebitda": 2234902312.5,
+            "fcff": 2260770008.5950003,
+            "nol_balance_end": 0.0,
+            "nol_used": 279000000.0,
+            "nwc": -412597350.0,
+            "present_value_fcff": 2097189247.3051949,
+            "revenue": 13753245000.0,
+            "revenue_growth": 0.045,
+            "year": 2026
+          },
+          {
+            "capex": 567733953.6,
+            "cash_taxes": 347666079.83580005,
+            "da": 702570767.58,
+            "delta_nwc": 990233.6399999857,
+            "discount_factor": 0.8605229914532856,
+            "ebit": 1632235116.6000001,
+            "ebit_margin": 0.115,
+            "ebitda": 2334805884.1800003,
+            "fcff": 1418415617.1042004,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -411607116.36,
+            "present_value_fcff": 1220579249.9545646,
+            "revenue": 14193348840.0,
+            "revenue_growth": 0.032,
+            "year": 2027
+          },
+          {
+            "capex": 583630504.3008001,
+            "cash_taxes": 360508562.5066042,
+            "da": 722242749.0722401,
+            "delta_nwc": 17656525.956960022,
+            "discount_factor": 0.7982588046876489,
+            "ebit": 1692528462.47232,
+            "ebit_margin": 0.116,
+            "ebitda": 2414771211.5445604,
+            "fcff": 1452975618.780196,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -393950590.40304,
+            "present_value_fcff": 1159850580.687776,
+            "revenue": 14590762607.52,
+            "revenue_growth": 0.028,
+            "year": 2028
+          },
+          {
+            "capex": 597054005.8997184,
+            "cash_taxes": 371979572.0256721,
+            "da": 738854332.3009015,
+            "delta_nwc": 5865486.568223059,
+            "discount_factor": 0.7404998188197114,
+            "ebit": 1746382967.2566764,
+            "ebit_margin": 0.117,
+            "ebitda": 2485237299.557578,
+            "fcff": 1510338235.0639644,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -388085103.83481693,
+            "present_value_fcff": 1118405189.4213483,
+            "revenue": 14926350147.49296,
+            "revenue_growth": 0.023,
+            "year": 2029
+          },
+          {
+            "capex": 610189194.0295123,
+            "cash_taxes": 383412380.068444,
+            "da": 755109127.6115215,
+            "delta_nwc": 6716857.566371739,
+            "discount_factor": 0.6869200545637396,
+            "ebit": 1800058122.387061,
+            "ebit_margin": 0.118,
+            "ebitda": 2555167249.998583,
+            "fcff": 1554848818.3342545,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -381368246.2684452,
+            "present_value_fcff": 1068056835.1285322,
+            "revenue": 15254729850.737806,
+            "revenue_growth": 0.022,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 28106839749.984413,
+        "terminal_value_present_value": 19307151894.67358,
+        "upside_downside_pct": 0.28096026314559674
+      }
+    },
+    "ticker": "BALL"
+  },
+  "assumptions": {
+    "cash": 1212000000.0,
+    "current_price": 57.06,
+    "debt": 7012000000.0,
+    "diluted_shares": 275972000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 279000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.115,
+    "tax_rate": 0.213,
+    "terminal_exit_ebitda_multiple": 10.64,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.0809
+  },
+  "company_name": "Ball Corporation",
+  "comps": [
+    {
+      "company_name": "Crown Holdings Inc",
+      "ev_ntm_ebitda": 8.2,
+      "ev_ntm_revenue": 1.38,
+      "notes": "EV / Sales and EV / EBITDA from StockAnalysis statistics page; not explicitly labeled NTM. ([stockanalysis.com](https://stockanalysis.com/stocks/cck/statistics/?utm_source=openai))",
+      "pe_ntm": 12.83,
+      "source": "https://stockanalysis.com/stocks/cck/statistics/",
+      "ticker": "CCK"
+    },
+    {
+      "company_name": "Amcor plc",
+      "ev_ntm_ebitda": 12.21,
+      "ev_ntm_revenue": 1.77,
+      "notes": "EV / Sales and EV / EBITDA from StockAnalysis statistics page; not explicitly labeled NTM. ([stockanalysis.com](https://stockanalysis.com/stocks/amcr/statistics/?utm_source=openai))",
+      "pe_ntm": 10.26,
+      "source": "https://stockanalysis.com/stocks/amcr/statistics/",
+      "ticker": "AMCR"
+    },
+    {
+      "company_name": "Berry Global Group",
+      "ev_ntm_ebitda": 9.32,
+      "ev_ntm_revenue": 1.61,
+      "notes": "EV / Sales and EV / EBITDA from StockAnalysis statistics page; not explicitly labeled NTM. ([stockanalysis.com](https://stockanalysis.com/stocks/bery/statistics/?utm_source=openai))",
+      "pe_ntm": 10.23,
+      "source": "https://stockanalysis.com/stocks/bery/statistics/",
+      "ticker": "BERY"
+    },
+    {
+      "company_name": "Silgan Holdings Inc",
+      "ev_ntm_ebitda": 8.6,
+      "ev_ntm_revenue": 1.3,
+      "notes": "EV / Sales and EV / EBITDA from StockAnalysis statistics page; not explicitly labeled NTM. ([stockanalysis.com](https://stockanalysis.com/stocks/slgn/statistics/?utm_source=openai))",
+      "pe_ntm": 12.79,
+      "source": "https://stockanalysis.com/stocks/slgn/statistics/",
+      "ticker": "SLGN"
+    },
+    {
+      "company_name": "Packaging Corporation of America",
+      "ev_ntm_ebitda": 14.85,
+      "ev_ntm_revenue": 2.77,
+      "notes": "EV / Sales and EV / EBITDA from StockAnalysis statistics page; not explicitly labeled NTM. ([stockanalysis.com](https://stockanalysis.com/stocks/pkg/statistics/?utm_source=openai))",
+      "pe_ntm": 22.06,
+      "source": "https://stockanalysis.com/stocks/pkg/statistics/",
+      "ticker": "PKG"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.04,
+      "2027": 0.04,
+      "2028": 0.04,
+      "2029": 0.04,
+      "2030": 0.04
+    },
+    "da_pct_sales": {
+      "2026": 0.0495,
+      "2027": 0.0495,
+      "2028": 0.0495,
+      "2029": 0.0495,
+      "2030": 0.0495
+    },
+    "ebit_margin": {
+      "2026": 0.11,
+      "2027": 0.112,
+      "2028": 0.113,
+      "2029": 0.114,
+      "2030": 0.115
+    },
+    "nwc_pct_sales": {
+      "2026": -0.028,
+      "2027": -0.027,
+      "2028": -0.025,
+      "2029": -0.024,
+      "2030": -0.023
+    },
+    "revenue_growth": {
+      "2026": 0.04,
+      "2027": 0.03,
+      "2028": 0.025,
+      "2029": 0.02,
+      "2030": 0.02
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 1045000000.0,
+      "2024": 484000000.0,
+      "2025": 474000000.0
+    },
+    "da": {
+      "2023": 605000000.0,
+      "2024": 611000000.0,
+      "2025": 622000000.0
+    },
+    "ebit": {
+      "2023": 1038000000.0,
+      "2024": 763000000.0,
+      "2025": 1431000000.0
+    },
+    "nwc": {
+      "2023": -932000000.0,
+      "2024": -530000000.0,
+      "2025": 435000000.0
+    },
+    "revenue": {
+      "2023": 12062000000.0,
+      "2024": 11795000000.0,
+      "2025": 13161000000.0
+    }
+  },
+  "notes": [
+    "EBIT definition constructed from Ball\u2019s consolidated income statement as: EBIT = Earnings before taxes + interest expense \u2212 interest income + debt refinancing and other costs (so EBIT excludes interest income/expense but includes other items in the operating pre-tax line). ([investors.ball.com](https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf))",
+    "NWC definition constructed as: NWC = (Total current assets \u2212 cash and cash equivalents) \u2212 (Total current liabilities \u2212 short-term debt and current portion of long-term debt). This is a working-capital proxy and may include/exclude items differently than some standard DCF templates. ([investors.ball.com](https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf))",
+    "Historical currency amounts converted from the 10-K\u2019s ($ in millions) to full USD units (amount \u00d7 1,000,000). ([investors.ball.com](https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf))",
+    "Forecast driver magnitudes are base-case assumptions (not company-provided forward guidance). D&A% and capex% are normalized from historical levels; NWC% is based on the historical negative working-capital proxy. ([investors.ball.com](https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf))",
+    "WACC sourced from StockAnalysis (8.09% \u2192 0.0809) and used as the base-case discount rate; cost of capital components are not re-derived here. ([stockanalysis.com](https://stockanalysis.com/stocks/ball/statistics/))",
+    "Terminal exit EV/EBITDA multiple is set to the average of the selected comps\u2019 EV/EBITDA ratios (rounded). ([stockanalysis.com](https://stockanalysis.com/stocks/cck/statistics/?utm_source=openai))",
+    "NOL fields: only disclosed tax-attribute DTA related to net operating and capital loss carryforwards ($279m) is available from the 10-K; modeled as nol_balance with an assumed utilization rate. ([investors.ball.com](https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf))",
+    "Investments field set to null because the schema\u2019s 'investments' item (e.g., investments in unconsolidated affiliates vs. other investing cash flows) could not be mapped unambiguously from the available disclosures within this dataset. ([investors.ball.com](https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf))",
+    "Current price (57.06) taken from the finance snapshot (latest trade on/around 2026-03-20)."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Sustained volume and margin execution in aluminum packaging during 2026, consistent with shipment trends and operating leverage cited by management. ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_8ee4eddfe6bee5a7f6d4d2c1a62deee8/ball/news/2026-02-03_Ball_Reports_Strong_Fourth_Quarter_and_Full_Year_718.pdf))",
+      "Integration/earnings contribution from Ball\u2019s majority-stake acquisition of Benepack (Europe can manufacturer), supporting growth in EMEA. ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_8ee4eddfe6bee5a7f6d4d2c1a62deee8/ball/news/2026-02-03_Ball_Reports_Strong_Fourth_Quarter_and_Full_Year_718.pdf))",
+      "Capital allocation (buybacks/dividends) if free cash flow remains above the $900 million threshold guided for 2026. ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_8ee4eddfe6bee5a7f6d4d2c1a62deee8/ball/news/2026-02-03_Ball_Reports_Strong_Fourth_Quarter_and_Full_Year_718.pdf))"
+    ],
+    "company_overview": [
+      "Ball supplies aluminum packaging solutions for beverage, personal care and household products customers; it reported 2025 net sales of $13.16 billion. ([investors.ball.com](https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf))",
+      "Ball completed the aerospace divestiture in February 2024 and is now focused primarily on aluminum packaging operations. ([investors.ball.com](https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf))",
+      "In 2025, Ball generated record adjusted free cash flow and returned capital to shareholders via repurchases and dividends. ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_8ee4eddfe6bee5a7f6d4d2c1a62deee8/ball/news/2026-02-03_Ball_Reports_Strong_Fourth_Quarter_and_Full_Year_718.pdf))"
+    ],
+    "current_context": [
+      "On Feb 3, 2026, Ball reported full-year 2025 results with 2025 net sales of $13.16 billion and U.S. GAAP diluted EPS of $3.30; global aluminum packaging shipments were up 4.1% for the year. ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_8ee4eddfe6bee5a7f6d4d2c1a62deee8/ball/news/2026-02-03_Ball_Reports_Strong_Fourth_Quarter_and_Full_Year_718.pdf))",
+      "Management guided for 2026 comparable diluted EPS growth of 10-plus percent and free cash flow greater than $900 million. ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_8ee4eddfe6bee5a7f6d4d2c1a62deee8/ball/news/2026-02-03_Ball_Reports_Strong_Fourth_Quarter_and_Full_Year_718.pdf))",
+      "Ball highlighted stronger end-markets/volume and disciplined execution through the Ball Business System, supported by operating leverage and cost discipline. ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_8ee4eddfe6bee5a7f6d4d2c1a62deee8/ball/news/2026-02-03_Ball_Reports_Strong_Fourth_Quarter_and_Full_Year_718.pdf))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth is modest and chained from 2025 net sales, reflecting continued aluminum beverage can demand/volume plus pass-through price/mix dynamics. ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_8ee4eddfe6bee5a7f6d4d2c1a62deee8/ball/news/2026-02-03_Ball_Reports_Strong_Fourth_Quarter_and_Full_Year_718.pdf))",
+      "EBIT margin normalizes toward low-to-mid teens in the forecast as operating leverage and cost discipline offset cyclicality. ([investors.ball.com](https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf))",
+      "DCF reinvestment is modeled using a conservative capex intensity (below/near D&A) consistent with Ball\u2019s historical cash-flow framing. ([investors.ball.com](https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf))",
+      "Working-capital is modeled as a cash contributor (negative NWC) with gradual normalization over time. ([investors.ball.com](https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf))"
+    ],
+    "key_risks": [
+      "Aluminum input cost and pricing pass-through mismatch (pricing lag risk) could pressure gross margin and EBIT. ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_8ee4eddfe6bee5a7f6d4d2c1a62deee8/ball/news/2026-02-03_Ball_Reports_Strong_Fourth_Quarter_and_Full_Year_718.pdf))",
+      "Packaging industry overcapacity/competitive pricing and demand volatility could slow growth and compress margins versus base-case. ([investors.ball.com](https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf))",
+      "Working-capital model risk: supplier financing and current asset/liability dynamics may reverse in a downturn, reducing free cash flow. ([investors.ball.com](https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf))"
+    ],
+    "sources": [
+      {
+        "label": "Ball FY2025 Form 10-K (PDF)",
+        "notes": "Historical net sales, D&A, balance sheet items used for NWC, and cash-flow capex. ([investors.ball.com](https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf))",
+        "url": "https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf"
+      },
+      {
+        "label": "Ball FY2024 Form 10-K (PDF)",
+        "notes": "Balance sheet for 2023 used to compute historical NWC and working-capital intensity. ([materials.proxyvote.com](https://materials.proxyvote.com/Approved/058498/20250220/FO10K_597978.PDF))",
+        "url": "https://materials.proxyvote.com/Approved/058498/20250220/FO10K_597978.PDF"
+      },
+      {
+        "label": "Ball Q4 & Full-Year 2025 Earnings Release (PDF, Feb 3 2026)",
+        "notes": "2025 results highlights, shipment trends, and 2026 outlook (comparable EPS growth and free cash flow >$900m). ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_8ee4eddfe6bee5a7f6d4d2c1a62deee8/ball/news/2026-02-03_Ball_Reports_Strong_Fourth_Quarter_and_Full_Year_718.pdf))",
+        "url": "https://d1io3yog0oux5.cloudfront.net/_8ee4eddfe6bee5a7f6d4d2c1a62deee8/ball/news/2026-02-03_Ball_Reports_Strong_Fourth_Quarter_and_Full_Year_718.pdf"
+      },
+      {
+        "label": "StockAnalysis BALL Statistics & Valuation",
+        "notes": "WACC and market context (used for base-case WACC). ([stockanalysis.com](https://stockanalysis.com/stocks/ball/statistics/))",
+        "url": "https://stockanalysis.com/stocks/ball/statistics/"
+      }
+    ],
+    "subtitle": "Ball Corporation (BALL): Packaging-focused DCF inputs (post-aerospace)",
+    "valuation_summary": [
+      "DCF uses WACC \u2248 8.1% and a terminal value based on an exit EV/EBITDA multiple consistent with large packaging peers (base terminal multiple \u2248 10.6x). ([stockanalysis.com](https://stockanalysis.com/stocks/ball/statistics/))",
+      "Historical operating intensity (D&A and capex as % of sales) is used to anchor forecast reinvestment, aiming for a sober post-aerospace normalization. ([investors.ball.com](https://investors.ball.com/sec-filings/all-sec-filings/content/0001104659-26-017410/0001104659-26-017410.pdf))",
+      "Selected comps span EV/EBITDA ~6x\u201315x and forward P/E ~10x\u201322x, supporting a mid-range terminal assumption for a mature packaging profile. ([stockanalysis.com](https://stockanalysis.com/stocks/cck/statistics/?utm_source=openai))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.111,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 9.5,
+        "terminal_growth": 0.018,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.083
+      },
+      "description": "Modestly slower revenue growth and weaker margin normalization; less favorable working-capital conversion; more conservative terminal assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.04,
+          "2027": 0.04,
+          "2028": 0.04,
+          "2029": 0.04,
+          "2030": 0.04
+        },
+        "da_pct_sales": {
+          "2026": 0.0495,
+          "2027": 0.0495,
+          "2028": 0.0495,
+          "2029": 0.0495,
+          "2030": 0.0495
+        },
+        "ebit_margin": {
+          "2026": 0.107,
+          "2027": 0.108,
+          "2028": 0.109,
+          "2029": 0.11,
+          "2030": 0.111
+        },
+        "nwc_pct_sales": {
+          "2026": -0.024,
+          "2027": -0.023,
+          "2028": -0.021,
+          "2029": -0.02,
+          "2030": -0.019
+        },
+        "revenue_growth": {
+          "2026": 0.035,
+          "2027": 0.025,
+          "2028": 0.02,
+          "2029": 0.015,
+          "2030": 0.015
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.118,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 11.0,
+        "terminal_growth": 0.021,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.078
+      },
+      "description": "Modestly higher growth and margin normalization; slightly better working-capital conversion; more optimistic terminal assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.04,
+          "2027": 0.04,
+          "2028": 0.04,
+          "2029": 0.04,
+          "2030": 0.04
+        },
+        "da_pct_sales": {
+          "2026": 0.0495,
+          "2027": 0.0495,
+          "2028": 0.0495,
+          "2029": 0.0495,
+          "2030": 0.0495
+        },
+        "ebit_margin": {
+          "2026": 0.113,
+          "2027": 0.115,
+          "2028": 0.116,
+          "2029": 0.117,
+          "2030": 0.118
+        },
+        "nwc_pct_sales": {
+          "2026": -0.03,
+          "2027": -0.029,
+          "2028": -0.027,
+          "2029": -0.026,
+          "2030": -0.025
+        },
+        "revenue_growth": {
+          "2026": 0.045,
+          "2027": 0.032,
+          "2028": 0.028,
+          "2029": 0.023,
+          "2030": 0.022
+        }
+      }
+    }
+  },
+  "ticker": "BALL"
+}

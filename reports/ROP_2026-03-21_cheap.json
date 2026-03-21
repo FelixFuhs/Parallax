@@ -1,0 +1,682 @@
+{
+  "_meta": {
+    "cost_usd": 0.022055,
+    "generated_at": "2026-03-21T17:24:47Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10860,
+      "prompt": 2514,
+      "reasoning": 6382
+    }
+  },
+  "_valuation": {
+    "company_name": "Roper Technologies, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 353.68,
+        "description": "Base case",
+        "enterprise_value": 56300315146.29281,
+        "equity_value": 50227015146.29281,
+        "exit_multiple_terminal_value": 64921021156.89554,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 50227015146.29281,
+        "investments_adjustment": 2985200000.0,
+        "net_debt": 9058500000.0,
+        "per_share_value": 464.2053155849613,
+        "projected_years": [
+          {
+            "capex": 119485800.00000001,
+            "cash_taxes": 497555940.59999996,
+            "da": 990025200.0000001,
+            "delta_nwc": -231893000.00000024,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2415320100.0,
+            "ebit_margin": 0.283,
+            "ebitda": 3405345300.0,
+            "fcff": 3020196559.4000006,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1621593000.0000002,
+            "present_value_fcff": 2783591298.9861755,
+            "revenue": 8534700000.000001,
+            "revenue_growth": 0.08,
+            "year": 2026
+          },
+          {
+            "capex": 126612274.5,
+            "cash_taxes": 538652654.775,
+            "da": 1059689688.75,
+            "delta_nwc": -112444672.49999976,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2614818712.5,
+            "ebit_margin": 0.285,
+            "ebitda": 3674508401.25,
+            "fcff": 3121688144.4749994,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1734037672.5,
+            "present_value_fcff": 2651734498.056871,
+            "revenue": 9174802500.0,
+            "revenue_growth": 0.075,
+            "year": 2027
+          },
+          {
+            "capex": 133511725.97999999,
+            "cash_taxes": 578380650.5762999,
+            "da": 1128959447.625,
+            "delta_nwc": -111565598.4000001,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2807673061.0499997,
+            "ebit_margin": 0.286,
+            "ebitda": 3936632508.6749997,
+            "fcff": 3336305730.5186996,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1845603270.9,
+            "present_value_fcff": 2612020775.263941,
+            "revenue": 9817038675.0,
+            "revenue_growth": 0.07,
+            "year": 2028
+          },
+          {
+            "capex": 140098958.930925,
+            "cash_taxes": 620282913.093576,
+            "da": 1197114238.6261876,
+            "delta_nwc": -109509066.4196248,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 3011082102.396,
+            "ebit_margin": 0.288,
+            "ebitda": 4208196341.022187,
+            "fcff": 3557323535.4173117,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1955112337.319625,
+            "present_value_fcff": 2566873183.978292,
+            "revenue": 10455146188.875,
+            "revenue_growth": 0.065,
+            "year": 2029
+          },
+          {
+            "capex": 146288405.47473902,
+            "cash_taxes": 662065859.322796,
+            "da": 1263399865.463655,
+            "delta_nwc": -106224285.27897024,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 3213911938.460175,
+            "ebit_margin": 0.29,
+            "ebitda": 4477311803.92383,
+            "fcff": 3775181824.4052653,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2061336622.5985951,
+            "present_value_fcff": 2510667394.4024105,
+            "revenue": 11082454960.2075,
+            "revenue_growth": 0.06,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 64921021156.89554,
+        "terminal_value_present_value": 43175427995.60512,
+        "upside_downside_pct": 0.31250089228953093
+      },
+      "bear": {
+        "current_price": 353.68,
+        "description": "Modestly softer growth and margin compression with a lower exit multiple reflecting valuation multiple downside.",
+        "enterprise_value": 50413124224.24208,
+        "equity_value": 44339824224.24208,
+        "exit_multiple_terminal_value": 57642793172.25043,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 44339824224.24208,
+        "investments_adjustment": 2985200000.0,
+        "net_debt": 9058500000.0,
+        "per_share_value": 409.7950482831985,
+        "projected_years": [
+          {
+            "capex": 118379450.00000001,
+            "cash_taxes": 489465203.0500001,
+            "da": 980858300.0000001,
+            "delta_nwc": -225333925.00000024,
+            "discount_factor": 0.9191176470588235,
+            "ebit": 2376044675.0000005,
+            "ebit_margin": 0.281,
+            "ebitda": 3356902975.0000005,
+            "fcff": 2974392246.950001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1615033925.0000002,
+            "present_value_fcff": 2733816403.4466915,
+            "revenue": 8455675000.000001,
+            "revenue_growth": 0.07,
+            "year": 2026
+          },
+          {
+            "capex": 124506432.105,
+            "cash_taxes": 525976520.2070499,
+            "da": 1042064703.4875001,
+            "delta_nwc": -99185067.74999976,
+            "discount_factor": 0.844777249134948,
+            "ebit": 2553284078.6749997,
+            "ebit_margin": 0.283,
+            "ebitda": 3595348782.1625,
+            "fcff": 3044050897.6004496,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1714218992.75,
+            "present_value_fcff": 2571544943.501677,
+            "revenue": 9022205225.0,
+            "revenue_growth": 0.067,
+            "year": 2027
+          },
+          {
+            "capex": 130309514.50572,
+            "cash_taxes": 560560870.3413708,
+            "da": 1101881924.12925,
+            "delta_nwc": -96699995.6015501,
+            "discount_factor": 0.776449677513739,
+            "ebit": 2721169273.5018,
+            "ebit_margin": 0.284,
+            "ebitda": 3823051197.63105,
+            "fcff": 3228880808.385509,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1810918988.35155,
+            "present_value_fcff": 2507063462.4012294,
+            "revenue": 9581581948.95,
+            "revenue_growth": 0.062,
+            "year": 2028
+          },
+          {
+            "capex": 135840003.60665396,
+            "cash_taxes": 595161687.4437801,
+            "da": 1160722418.877752,
+            "delta_nwc": -94895987.622401,
+            "discount_factor": 0.71364860065601,
+            "ebit": 2889134405.0668936,
+            "ebit_margin": 0.285,
+            "ebitda": 4049856823.944646,
+            "fcff": 3413751120.516613,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1905814975.973951,
+            "present_value_fcff": 2436218710.144567,
+            "revenue": 10137313701.989101,
+            "revenue_growth": 0.058,
+            "year": 2029
+          },
+          {
+            "capex": 140904605.5321677,
+            "cash_taxes": 628904222.6919084,
+            "da": 1216903411.4141757,
+            "delta_nwc": -90333602.39842463,
+            "discount_factor": 0.6559270226617738,
+            "ebit": 3052933119.863633,
+            "ebit_margin": 0.286,
+            "ebitda": 4269836531.277809,
+            "fcff": 3590361305.452157,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1996148578.3723757,
+            "present_value_fcff": 2355015001.365273,
+            "revenue": 10674591328.194523,
+            "revenue_growth": 0.053,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 57642793172.25043,
+        "terminal_value_present_value": 37809465703.382645,
+        "upside_downside_pct": 0.1586605074734182
+      },
+      "bull": {
+        "current_price": 353.68,
+        "description": "Modestly higher revenue growth and operating leverage with a slightly higher exit multiple reflecting better-than-base execution.",
+        "enterprise_value": 59859783520.21422,
+        "equity_value": 53786483520.21422,
+        "exit_multiple_terminal_value": 69035638205.01286,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 53786483520.21422,
+        "investments_adjustment": 2985200000.0,
+        "net_debt": 9058500000.0,
+        "per_share_value": 497.1024354918135,
+        "projected_years": [
+          {
+            "capex": 120592150.0,
+            "cash_taxes": 505711794.75,
+            "da": 999192100.0,
+            "delta_nwc": -246907750.0,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 2454911625.0,
+            "ebit_margin": 0.285,
+            "ebitda": 3454103725.0,
+            "fcff": 3074707530.25,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1636607750.0,
+            "present_value_fcff": 2839065124.88458,
+            "revenue": 8613725000.0,
+            "revenue_growth": 0.09,
+            "year": 2026
+          },
+          {
+            "capex": 128616696.21,
+            "cash_taxes": 551020022.7048999,
+            "da": 1076465826.9750001,
+            "delta_nwc": -124881785.04999995,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 2674854479.1499996,
+            "ebit_margin": 0.287,
+            "ebitda": 3751320306.125,
+            "fcff": 3196565372.2601004,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1761489535.05,
+            "present_value_fcff": 2725377569.625174,
+            "revenue": 9320050450.0,
+            "revenue_growth": 0.082,
+            "year": 2027
+          },
+          {
+            "capex": 136132384.89288002,
+            "cash_taxes": 593857509.6268224,
+            "da": 1151119431.0795002,
+            "delta_nwc": -120340491.41040015,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 2882803444.7904,
+            "ebit_margin": 0.288,
+            "ebitda": 4033922875.8699,
+            "fcff": 3424273472.760598,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1881830026.4604,
+            "present_value_fcff": 2695771462.6616883,
+            "revenue": 10009734183.300001,
+            "revenue_growth": 0.074,
+            "year": 2028
+          },
+          {
+            "capex": 143251307.844043,
+            "cash_taxes": 636442041.8796458,
+            "da": 1224050354.339024,
+            "delta_nwc": -117274045.6915431,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 3089524475.143912,
+            "ebit_margin": 0.289,
+            "ebitda": 4313574829.482936,
+            "fcff": 3651155525.4507904,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1999104072.1519432,
+            "present_value_fcff": 2654095258.6068,
+            "revenue": 10690396107.764402,
+            "revenue_growth": 0.068,
+            "year": 2029
+          },
+          {
+            "capex": 150003362.02570698,
+            "cash_taxes": 681219813.6358355,
+            "da": 1295483581.1311057,
+            "delta_nwc": -114579665.48301864,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 3306892299.2030854,
+            "ebit_margin": 0.291,
+            "ebitda": 4602375880.334191,
+            "fcff": 3885732370.1556673,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2113683737.6349618,
+            "present_value_fcff": 2608138212.4348984,
+            "revenue": 11363891062.553558,
+            "revenue_growth": 0.063,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 69035638205.01286,
+        "terminal_value_present_value": 46337335892.001076,
+        "upside_downside_pct": 0.40551468980947036
+      }
+    },
+    "ticker": "ROP"
+  },
+  "assumptions": {
+    "cash": 297400000.0,
+    "current_price": 353.68,
+    "debt": 9355900000.0,
+    "diluted_shares": 108200000.0,
+    "investments": 2985200000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.29,
+    "tax_rate": 0.206,
+    "terminal_exit_ebitda_multiple": 14.5,
+    "terminal_growth": 0.025,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.085
+  },
+  "company_name": "Roper Technologies, Inc.",
+  "comps": [
+    {
+      "company_name": "SS&C Technologies Holdings, Inc.",
+      "ev_ntm_ebitda": 8.82,
+      "ev_ntm_revenue": 3.52,
+      "notes": "P/E ratio 2026 column = 18.3x; EV/Revenue 2026 column = 3.52x; EV/EBITDA 2026 column = 8.82x. ([marketscreener.com](https://www.marketscreener.com/quote/stock/SS-C-TECHNOLOGIES-HOLDING-6098270/valuation/))",
+      "pe_ntm": 18.3,
+      "source": "MarketScreener valuation (fiscal period 2026 column used as forward/NTM proxy)",
+      "ticker": "SSNC"
+    },
+    {
+      "company_name": "Tyler Technologies, Inc.",
+      "ev_ntm_ebitda": 18.9,
+      "ev_ntm_revenue": 5.52,
+      "notes": "P/E ratio 2026 column = 41.7x; EV/Revenue 2026 column = 5.52x; EV/EBITDA 2026 column = 18.9x. ([marketscreener.com](https://www.marketscreener.com/quote/stock/TYLER-TECHNOLOGIES-INC-446337/valuation/))",
+      "pe_ntm": 41.7,
+      "source": "MarketScreener valuation (fiscal period 2026 column used as forward/NTM proxy)",
+      "ticker": "TYL"
+    },
+    {
+      "company_name": "Broadridge Financial Solutions, Inc.",
+      "ev_ntm_ebitda": 13.3,
+      "ev_ntm_revenue": 3.25,
+      "notes": "P/E ratio 2026 column = 20.0x; EV/Revenue 2026 column = 3.25x; EV/EBITDA 2026 column = 13.3x. ([marketscreener.com](https://www.marketscreener.com/quote/stock/BROADRIDGE-FINANCIAL-SOLU-102616433/valuation/))",
+      "pe_ntm": 20.0,
+      "source": "MarketScreener valuation (fiscal period 2026 column used as forward/NTM proxy)",
+      "ticker": "BR"
+    },
+    {
+      "company_name": "Verisk Analytics, Inc.",
+      "ev_ntm_ebitda": 17.1,
+      "ev_ntm_revenue": 9.6,
+      "notes": "P/E ratio 2026 column = 27.8x; EV/Revenue 2026 column = 9.6x; EV/EBITDA 2026 column = 17.1x. ([marketscreener.com](https://www.marketscreener.com/quote/stock/VERISK-ANALYTICS-INC-5641036/valuation/))",
+      "pe_ntm": 27.8,
+      "source": "MarketScreener valuation (fiscal period 2026 column used as forward/NTM proxy)",
+      "ticker": "VRSK"
+    },
+    {
+      "company_name": "ACI Worldwide, Inc.",
+      "ev_ntm_ebitda": 7.44,
+      "ev_ntm_revenue": 2.13,
+      "notes": "P/E ratio 2026 column = 16.1x; EV/Revenue 2026 column = 2.13x; EV/EBITDA 2026 column = 7.44x. ([marketscreener.com](https://www.marketscreener.com/quote/stock/ACI-WORLDWIDE-INC-11158/valuation/))",
+      "pe_ntm": 16.1,
+      "source": "MarketScreener valuation (fiscal period 2026 column used as forward/NTM proxy)",
+      "ticker": "ACIW"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.014,
+      "2027": 0.0138,
+      "2028": 0.0136,
+      "2029": 0.0134,
+      "2030": 0.0132
+    },
+    "da_pct_sales": {
+      "2026": 0.116,
+      "2027": 0.1155,
+      "2028": 0.115,
+      "2029": 0.1145,
+      "2030": 0.114
+    },
+    "ebit_margin": {
+      "2026": 0.283,
+      "2027": 0.285,
+      "2028": 0.286,
+      "2029": 0.288,
+      "2030": 0.29
+    },
+    "nwc_pct_sales": {
+      "2026": -0.19,
+      "2027": -0.189,
+      "2028": -0.188,
+      "2029": -0.187,
+      "2030": -0.186
+    },
+    "revenue_growth": {
+      "2026": 0.08,
+      "2027": 0.075,
+      "2028": 0.07,
+      "2029": 0.065,
+      "2030": 0.06
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 108000000.0,
+      "2024": 111000000.0,
+      "2025": 104700000.0
+    },
+    "da": {
+      "2023": 765100000.0,
+      "2024": 822600000.0,
+      "2025": 910000000.0
+    },
+    "ebit": {
+      "2023": 1745200000.0,
+      "2024": 1996800000.0,
+      "2025": 2235400000.0
+    },
+    "nwc": {
+      "2023": -1196600000.0,
+      "2024": -1434600000.0,
+      "2025": -1389700000.0
+    },
+    "revenue": {
+      "2023": 6177800000.0,
+      "2024": 7039200000.0,
+      "2025": 7902500000.0
+    }
+  },
+  "notes": [
+    "Historical period selection: last 3 completed fiscal years available in Roper\u2019s FY2025 Form 10-K (FY2023\u2013FY2025, fiscal year ends Dec 31). ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm))",
+    "EBIT definition: modeled as \u201cIncome from operations\u201d from Roper\u2019s Consolidated Statements of Earnings (operating income). ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm))",
+    "D&A definition: total non-cash depreciation/amortization approximated as Depreciation & amortization of PP&E + Amortization of intangible assets + Amortization of deferred financing costs. ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm))",
+    "Capex definition: modeled as (Capital expenditures + Capitalized software expenditures) from the Consolidated Statements of Cash Flows to reflect cash outflows for both tangibles and internally developed software. ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm))",
+    "NWC definition: uses Roper\u2019s stated definition (total current assets excluding cash minus total current liabilities excluding debt), producing negative NWC consistent with the company\u2019s asset-light model. ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm))",
+    "Investments assumption: set to the 3-year average \u201cAcquisitions of businesses, net of cash acquired\u201d (cash outflow) to roughly align acquisition-related growth with cash deployment in the DCF framework; if your DCF pipeline treats acquisitions separately, set this field to null or 0. ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm))",
+    "WACC and terminal multiple: WACC is an estimate (not disclosed in filings). Terminal exit EV/EBITDA multiple set to 14.5 based on Roper\u2019s prevailing valuation range; treat as a modeling choice subject to your discounting/multiple methodology. ([stockanalysis.com](https://stockanalysis.com/stocks/rop/statistics/?utm_source=openai))",
+    "NOLs: balance and utilization were not extracted from the provided filings sections within this pass; fields set to null. ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm))",
+    "Current price: $353.68 from live quote as of 2026-03-21.",
+    "Comps: MarketScreener \u201cfiscal period 2026\u201d EV/Revenue, EV/EBITDA, and P/E are used as forward/NTM proxies; if your pipeline requires strict NTM consensus windows, replace with your preferred dataset. ([marketscreener.com](https://www.marketscreener.com/quote/stock/SS-C-TECHNOLOGIES-HOLDING-6098270/valuation/))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Reacceleration (or sustained delivery) of organic growth versus the FY2025 organic trajectory, sustaining higher top-line compounding. ([globenewswire.com](https://www.globenewswire.com/fr/news-release/2026/01/27/3226285/0/en/Roper-Technologies-announces-2025-financial-results.html?utm_source=openai))",
+      "Margin upside from continued cost synergies and disciplined integration of acquired platforms. ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283525000008/rop-20241231.htm))",
+      "Incremental multiple support if forward growth expectations improve and WACC compresses."
+    ],
+    "company_overview": [
+      "Roper is a diversified technology company with exposure across Application Software, Network Software, and Technology Enabled Products, with a large recurring-revenue component. ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm))",
+      "The company reports an asset-light working-capital profile with consistently negative net working capital as defined in its filings. ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm))",
+      "Roper\u2019s business model emphasizes disciplined acquisition-driven growth alongside operating leverage and strong cash generation. ([globenewswire.com](https://www.globenewswire.com/fr/news-release/2026/01/27/3226285/0/en/Roper-Technologies-announces-2025-financial-results.html?utm_source=openai))"
+    ],
+    "current_context": [
+      "In its FY2025 results release (Jan 2026), Roper guided 2026 total revenue growth of approximately 8% with organic growth around +5% to +6%. ([globenewswire.com](https://www.globenewswire.com/fr/news-release/2026/01/27/3226285/0/en/Roper-Technologies-announces-2025-financial-results.html?utm_source=openai))",
+      "FY2025 operating income (EBIT proxy) remained highly profitable, supporting a base case of stable-to-improving margins over the forecast horizon. ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes a gradual step-down from FY2026 guidance toward a lower long-run rate consistent with a maturing recurring mix. ([globenewswire.com](https://www.globenewswire.com/fr/news-release/2026/01/27/3226285/0/en/Roper-Technologies-announces-2025-financial-results.html?utm_source=openai))",
+      "EBIT margin is modeled to inch upward toward ~0.29 by 2030, reflecting operating leverage and acquisition integration benefits. ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm))",
+      "DCF cash conversion is supported by negative net working capital and relatively low maintenance capex versus sales. ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm))",
+      "Terminal valuation is tied to a reasonable software/tech-services exit EV/EBITDA multiple given observed peer forward multiples and Roper\u2019s prevailing valuation range. ([marketscreener.com](https://www.marketscreener.com/quote/stock/ACI-WORLDWIDE-INC-11158/valuation/))"
+    ],
+    "key_risks": [
+      "Organic growth deceleration or customer budget pressure could limit revenue compounding and/or margin expansion. ([globenewswire.com](https://www.globenewswire.com/fr/news-release/2026/01/27/3226285/0/en/Roper-Technologies-announces-2025-financial-results.html?utm_source=openai))",
+      "Acquisition execution risk (integration, amortization profile, and synergy realization) may reduce profitability. ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm))",
+      "Macro/interest-rate changes could increase discount rates, pressuring valuation even with stable fundamentals."
+    ],
+    "sources": [
+      {
+        "label": "Roper Technologies FY2025 Form 10-K (Consolidated Financial Statements)",
+        "notes": "Provides revenue, operating income, effective tax rate, cash flow items (D&A, capex, acquisitions), balance sheet (cash, debt), and net working capital definition/values. ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm))",
+        "url": null
+      },
+      {
+        "label": "Roper Technologies FY2025 earnings release (FY2025 results + FY2026 guidance)",
+        "notes": "Guidance context used for base-case revenue growth assumptions (2026 revenue growth ~8%; organic +5% to +6%). ([globenewswire.com](https://www.globenewswire.com/fr/news-release/2026/01/27/3226285/0/en/Roper-Technologies-announces-2025-financial-results.html?utm_source=openai))",
+        "url": null
+      },
+      {
+        "label": "SS&C Technologies valuation multiples (MarketScreener)",
+        "notes": "Forward EV/Revenue, EV/EBITDA, and P/E (2026 column used as forward/NTM proxy). ([marketscreener.com](https://www.marketscreener.com/quote/stock/SS-C-TECHNOLOGIES-HOLDING-6098270/valuation/))",
+        "url": null
+      },
+      {
+        "label": "Tyler Technologies valuation multiples (MarketScreener)",
+        "notes": "Forward EV/Revenue, EV/EBITDA, and P/E (2026 column used as forward/NTM proxy). ([marketscreener.com](https://www.marketscreener.com/quote/stock/TYLER-TECHNOLOGIES-INC-446337/valuation/))",
+        "url": null
+      },
+      {
+        "label": "Broadridge Financial Solutions valuation multiples (MarketScreener)",
+        "notes": "Forward EV/Revenue, EV/EBITDA, and P/E (2026 column used as forward/NTM proxy). ([marketscreener.com](https://www.marketscreener.com/quote/stock/BROADRIDGE-FINANCIAL-SOLU-102616433/valuation/))",
+        "url": null
+      },
+      {
+        "label": "Verisk Analytics valuation multiples (MarketScreener)",
+        "notes": "Forward EV/Revenue, EV/EBITDA, and P/E (2026 column used as forward/NTM proxy). ([marketscreener.com](https://www.marketscreener.com/quote/stock/VERISK-ANALYTICS-INC-5641036/valuation/))",
+        "url": null
+      },
+      {
+        "label": "ACI Worldwide valuation multiples (MarketScreener)",
+        "notes": "Forward EV/Revenue, EV/EBITDA, and P/E (2026 column used as forward/NTM proxy). ([marketscreener.com](https://www.marketscreener.com/quote/stock/ACI-WORLDWIDE-INC-11158/valuation/))",
+        "url": null
+      }
+    ],
+    "subtitle": "Roper Technologies (ROP) \u2014 DCF base case anchored to recurring-software durability",
+    "valuation_summary": [
+      "The DCF base case uses FY2025 financials as anchor (revenue, operating income, tax rate, D&A, capex, and net working capital definition) and applies conservative, guidance-consistent growth and margin assumptions. ([sec.gov](https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm))",
+      "Peer comps triangulate the exit multiple using forward EV/NTM Revenue, EV/NTM EBITDA, and forward P/E metrics from a set of recurring-software/technology services companies. ([marketscreener.com](https://www.marketscreener.com/quote/stock/SS-C-TECHNOLOGIES-HOLDING-6098270/valuation/))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 353.68,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.286,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 13.5,
+        "terminal_growth": 0.025,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.088
+      },
+      "description": "Modestly softer growth and margin compression with a lower exit multiple reflecting valuation multiple downside.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.014,
+          "2027": 0.0138,
+          "2028": 0.0136,
+          "2029": 0.0134,
+          "2030": 0.0132
+        },
+        "da_pct_sales": {
+          "2026": 0.116,
+          "2027": 0.1155,
+          "2028": 0.115,
+          "2029": 0.1145,
+          "2030": 0.114
+        },
+        "ebit_margin": {
+          "2026": 0.281,
+          "2027": 0.283,
+          "2028": 0.284,
+          "2029": 0.285,
+          "2030": 0.286
+        },
+        "nwc_pct_sales": {
+          "2026": -0.191,
+          "2027": -0.19,
+          "2028": -0.189,
+          "2029": -0.188,
+          "2030": -0.187
+        },
+        "revenue_growth": {
+          "2026": 0.07,
+          "2027": 0.067,
+          "2028": 0.062,
+          "2029": 0.058,
+          "2030": 0.053
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 353.68,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.291,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 15.0,
+        "terminal_growth": 0.025,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.083
+      },
+      "description": "Modestly higher revenue growth and operating leverage with a slightly higher exit multiple reflecting better-than-base execution.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.014,
+          "2027": 0.0138,
+          "2028": 0.0136,
+          "2029": 0.0134,
+          "2030": 0.0132
+        },
+        "da_pct_sales": {
+          "2026": 0.116,
+          "2027": 0.1155,
+          "2028": 0.115,
+          "2029": 0.1145,
+          "2030": 0.114
+        },
+        "ebit_margin": {
+          "2026": 0.285,
+          "2027": 0.287,
+          "2028": 0.288,
+          "2029": 0.289,
+          "2030": 0.291
+        },
+        "nwc_pct_sales": {
+          "2026": -0.19,
+          "2027": -0.189,
+          "2028": -0.188,
+          "2029": -0.187,
+          "2030": -0.186
+        },
+        "revenue_growth": {
+          "2026": 0.09,
+          "2027": 0.082,
+          "2028": 0.074,
+          "2029": 0.068,
+          "2030": 0.063
+        }
+      }
+    }
+  },
+  "ticker": "ROP"
+}

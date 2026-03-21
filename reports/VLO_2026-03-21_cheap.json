@@ -1,0 +1,664 @@
+{
+  "_meta": {
+    "cost_usd": 0.023539,
+    "generated_at": "2026-03-21T17:22:13Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11072,
+      "prompt": 2514,
+      "reasoning": 7357
+    }
+  },
+  "_valuation": {
+    "company_name": "Valero Energy Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 239.86,
+        "description": "Base case",
+        "enterprise_value": 79780707816.3043,
+        "equity_value": 73350707816.3043,
+        "exit_multiple_terminal_value": 79011214202.6831,
+        "gordon_terminal_value": 94330961716.41936,
+        "implied_market_cap": 73350707816.3043,
+        "investments_adjustment": 0.0,
+        "net_debt": 3550000000.0,
+        "per_share_value": 227.79722924318108,
+        "projected_years": [
+          {
+            "capex": 706309059.0,
+            "cash_taxes": 821548958.1,
+            "da": 3097846750.0,
+            "delta_nwc": -571670030.0,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 3717416100.0,
+            "ebit_margin": 0.03,
+            "ebitda": 6815262850.0,
+            "fcff": 5859074862.9,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3841329970.0,
+            "present_value_fcff": 5375298039.357798,
+            "revenue": 123913870000.0,
+            "revenue_growth": 0.01,
+            "year": 2026
+          },
+          {
+            "capex": 725887450.4599999,
+            "cash_taxes": 912740892.4491001,
+            "da": 3191401721.85,
+            "delta_nwc": -24163204.650000095,
+            "discount_factor": 0.84167999326656,
+            "ebit": 4130049287.1000004,
+            "ebit_margin": 0.033,
+            "ebitda": 7321451008.950001,
+            "fcff": 5706985870.690901,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3817166765.35,
+            "present_value_fcff": 4803455829.21547,
+            "revenue": 125153008700.0,
+            "revenue_growth": 0.01,
+            "year": 2027
+          },
+          {
+            "capex": 733146324.9646,
+            "cash_taxes": 977739107.517445,
+            "da": 3286518008.462,
+            "delta_nwc": 38171667.65350008,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 4424158857.545,
+            "ebit_margin": 0.035,
+            "ebitda": 7710676866.007,
+            "fcff": 5961619765.871456,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3855338433.0035,
+            "present_value_fcff": 4603464297.611447,
+            "revenue": 126404538787.0,
+            "revenue_growth": 0.01,
+            "year": 2028
+          },
+          {
+            "capex": 727710929.796759,
+            "cash_taxes": 1043946012.797912,
+            "da": 3319383188.54662,
+            "delta_nwc": -25280907.757400036,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 4723737614.47019,
+            "ebit_margin": 0.037,
+            "ebitda": 8043120803.016809,
+            "fcff": 6296744768.179539,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3830057525.2461,
+            "present_value_fcff": 4460772741.42126,
+            "revenue": 127668584174.87,
+            "revenue_growth": 0.01,
+            "year": 2029
+          },
+          {
+            "capex": 722093512.0930647,
+            "cash_taxes": 1082882377.5995638,
+            "da": 3417049655.4403954,
+            "delta_nwc": 38300575.25246096,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 4899920260.631511,
+            "ebit_margin": 0.038,
+            "ebitda": 8316969916.071906,
+            "fcff": 6473693451.126818,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3868358100.498561,
+            "present_value_fcff": 4207456559.1613717,
+            "revenue": 128945270016.6187,
+            "revenue_growth": 0.01,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "average",
+        "terminal_value": 86671087959.55124,
+        "terminal_value_present_value": 56330260349.53696,
+        "upside_downside_pct": -0.05029088116742653
+      },
+      "bear": {
+        "current_price": 239.86,
+        "description": "Modestly weaker utilization/margins and growth; higher discount rate and a lower terminal multiple.",
+        "enterprise_value": 69692775762.0357,
+        "equity_value": 63262775762.035706,
+        "exit_multiple_terminal_value": 66967934262.22308,
+        "gordon_terminal_value": 82494061560.4921,
+        "implied_market_cap": 63262775762.035706,
+        "investments_adjustment": 0.0,
+        "net_debt": 3550000000.0,
+        "per_share_value": 196.46824770818543,
+        "projected_years": [
+          {
+            "capex": 678152392.4999999,
+            "cash_taxes": 762983091.7799999,
+            "da": 3082510875.0,
+            "delta_nwc": -344085645.0000005,
+            "discount_factor": 0.9149130832570906,
+            "ebit": 3452412179.9999995,
+            "ebit_margin": 0.028,
+            "ebitda": 6534923055.0,
+            "fcff": 5437873215.719999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4068914354.9999995,
+            "present_value_fcff": 4975181350.155535,
+            "revenue": 123300434999.99998,
+            "revenue_growth": 0.005,
+            "year": 2026
+          },
+          {
+            "capex": 669151460.7449999,
+            "cash_taxes": 821569293.4702498,
+            "da": 3159881897.962499,
+            "delta_nwc": -41613896.81250048,
+            "discount_factor": 0.837065949914996,
+            "ebit": 3717508115.249999,
+            "ebit_margin": 0.03,
+            "ebitda": 6877390013.212498,
+            "fcff": 5428283155.80975,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4027300458.187499,
+            "present_value_fcff": 4543830996.225461,
+            "revenue": 123916937174.99997,
+            "revenue_growth": 0.005,
+            "year": 2027
+          },
+          {
+            "capex": 672497218.0487248,
+            "cash_taxes": 880722282.6001077,
+            "da": 3237949568.3827486,
+            "delta_nwc": 20136502.290936947,
+            "discount_factor": 0.7658425891262544,
+            "ebit": 3985168699.5479984,
+            "ebit_margin": 0.032,
+            "ebitda": 7223118267.930747,
+            "fcff": 5649762264.990976,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4047436960.478436,
+            "present_value_fcff": 4326828560.9685,
+            "revenue": 124536521860.87495,
+            "revenue_growth": 0.005,
+            "year": 2028
+          },
+          {
+            "capex": 663343783.6919504,
+            "cash_taxes": 912786078.2010179,
+            "da": 3254139316.2246623,
+            "delta_nwc": -42342417.43269777,
+            "discount_factor": 0.7006794045070945,
+            "ebit": 4130253747.515918,
+            "ebit_margin": 0.033,
+            "ebitda": 7384393063.74058,
+            "fcff": 5850605619.28031,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4005094543.045738,
+            "present_value_fcff": 4099398861.3231883,
+            "revenue": 125159204470.17932,
+            "revenue_growth": 0.005,
+            "year": 2029
+          },
+          {
+            "capex": 654082002.561157,
+            "cash_taxes": 945148493.700872,
+            "da": 3333302513.05205,
+            "delta_nwc": 20025472.71522808,
+            "discount_factor": 0.6410607543523281,
+            "ebit": 4276690016.746027,
+            "ebit_margin": 0.034,
+            "ebitda": 7609992529.798077,
+            "fcff": 5990736560.82082,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4025120015.7609663,
+            "present_value_fcff": 3840426098.8058667,
+            "revenue": 125785000492.5302,
+            "revenue_growth": 0.005,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "average",
+        "terminal_value": 74730997911.35759,
+        "terminal_value_present_value": 47907109894.55715,
+        "upside_downside_pct": -0.1809044955049386
+      },
+      "bull": {
+        "current_price": 239.86,
+        "description": "Modestly stronger refining/renewables profitability and growth; slightly lower discount rate and a higher terminal value multiple.",
+        "enterprise_value": 89996478974.19775,
+        "equity_value": 83566478974.19775,
+        "exit_multiple_terminal_value": 92286824509.6706,
+        "gordon_terminal_value": 106149322852.78911,
+        "implied_market_cap": 83566478974.19777,
+        "investments_adjustment": 0.0,
+        "net_debt": 3550000000.0,
+        "per_share_value": 259.52322662794336,
+        "projected_years": [
+          {
+            "capex": 734711099.4999999,
+            "cash_taxes": 880657100.9599999,
+            "da": 3113182625.0,
+            "delta_nwc": -490389892.5000005,
+            "discount_factor": 0.9199632014719411,
+            "ebit": 3984873759.9999995,
+            "ebit_margin": 0.032,
+            "ebitda": 7098056385.0,
+            "fcff": 5973078077.039999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3922610107.4999995,
+            "present_value_fcff": 5495012030.395583,
+            "revenue": 124527304999.99998,
+            "revenue_growth": 0.015,
+            "year": 2026
+          },
+          {
+            "capex": 758371287.4499998,
+            "cash_taxes": 977666984.7376248,
+            "da": 3223077971.662499,
+            "delta_nwc": -4358455.675000668,
+            "discount_factor": 0.8463322920625034,
+            "ebit": 4423832510.124999,
+            "ebit_margin": 0.035,
+            "ebitda": 7646910481.787498,
+            "fcff": 5915230665.274874,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3918251651.824999,
+            "present_value_fcff": 5006250727.020491,
+            "revenue": 126395214574.99997,
+            "revenue_growth": 0.015,
+            "year": 2027
+          },
+          {
+            "capex": 769746856.7617497,
+            "cash_taxes": 1049036674.6234713,
+            "da": 3335569712.6342487,
+            "delta_nwc": -5371796.619437695,
+            "discount_factor": 0.7785945649149065,
+            "ebit": 4746772283.364123,
+            "ebit_margin": 0.037,
+            "ebitda": 8082341995.998372,
+            "fcff": 6268930261.23259,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3912879855.205561,
+            "present_value_fcff": 4880955029.226279,
+            "revenue": 128291142793.62495,
+            "revenue_growth": 0.015,
+            "year": 2028
+          },
+          {
+            "capex": 768271508.619623,
+            "cash_taxes": 1122327480.1343272,
+            "da": 3385603258.323762,
+            "delta_nwc": -6414557.139681816,
+            "discount_factor": 0.7162783485877705,
+            "ebit": 5078404887.485643,
+            "ebit_margin": 0.039,
+            "ebitda": 8464008145.809405,
+            "fcff": 6579823714.195137,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3906465298.0658793,
+            "present_value_fcff": 4712985264.002343,
+            "revenue": 130215509935.52931,
+            "revenue_growth": 0.015,
+            "year": 2029
+          },
+          {
+            "capex": 766578706.990461,
+            "cash_taxes": 1168371684.4475303,
+            "da": 3502471678.490899,
+            "delta_nwc": -7487391.821293354,
+            "discount_factor": 0.6589497227118405,
+            "ebit": 5286749703.38249,
+            "ebit_margin": 0.04,
+            "ebitda": 8789221381.87339,
+            "fcff": 6861758382.256691,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3898977906.244586,
+            "present_value_fcff": 4521553783.303694,
+            "revenue": 132168742584.56224,
+            "revenue_growth": 0.015,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "average",
+        "terminal_value": 99218073681.22986,
+        "terminal_value_present_value": 65379722140.249374,
+        "upside_downside_pct": 0.08197793140975285
+      }
+    },
+    "ticker": "VLO"
+  },
+  "assumptions": {
+    "cash": 4688000000.0,
+    "current_price": 239.86,
+    "debt": 8238000000.0,
+    "diluted_shares": 322000000.0,
+    "investments": 0.0,
+    "minority_interest": 2880000000.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.038,
+    "tax_rate": 0.221,
+    "terminal_exit_ebitda_multiple": 9.5,
+    "terminal_growth": 0.02,
+    "terminal_method": "average",
+    "wacc": 0.09
+  },
+  "company_name": "Valero Energy Corporation",
+  "comps": [
+    {
+      "company_name": "Marathon Petroleum Corp",
+      "ev_ntm_ebitda": 8.63,
+      "ev_ntm_revenue": null,
+      "notes": "EV/EBITDA shown as EV/TTM EBITDA (proxy for NTM); forward P/E shown on the same page. ([valueinvesting.io](https://valueinvesting.io/MPC/valuation/ev_ebitda-multiples))",
+      "pe_ntm": 7.2,
+      "source": "valueinvesting.io",
+      "ticker": "MPC"
+    },
+    {
+      "company_name": "Phillips 66",
+      "ev_ntm_ebitda": 10.59,
+      "ev_ntm_revenue": null,
+      "notes": "EV/EBITDA shown as EV/TTM EBITDA (proxy for NTM); forward P/E shown as selected forward P/E multiples. ([valueinvesting.io](https://www.valueinvesting.io/PSX/valuation/ev_ebitda-multiples))",
+      "pe_ntm": 8.9,
+      "source": "valueinvesting.io",
+      "ticker": "PSX"
+    },
+    {
+      "company_name": "HollyFrontier Corp",
+      "ev_ntm_ebitda": 5.62,
+      "ev_ntm_revenue": null,
+      "notes": "EV/EBITDA shown as EV/TTM EBITDA (proxy for NTM). ([valueinvesting.io](https://valueinvesting.io/HFC/valuation/ev_ebitda-multiples))",
+      "pe_ntm": 8.6,
+      "source": "valueinvesting.io",
+      "ticker": "HFC"
+    },
+    {
+      "company_name": "CVR Energy Inc",
+      "ev_ntm_ebitda": 6.6,
+      "ev_ntm_revenue": null,
+      "notes": "EV/EBITDA shown as EV/TTM EBITDA (proxy for NTM). ([valueinvesting.io](https://valueinvesting.io/CVI/valuation/ev_ebitda-multiples))",
+      "pe_ntm": 7.2,
+      "source": "valueinvesting.io",
+      "ticker": "CVI"
+    },
+    {
+      "company_name": "HF Sinclair Corp",
+      "ev_ntm_ebitda": -2.36,
+      "ev_ntm_revenue": null,
+      "notes": "EV/EBITDA is negative because TTM EBITDA is negative (per the site note); treat as weak/low-quality comp for EV/EBITDA. ([valueinvesting.io](https://valueinvesting.io/DINO/valuation/ev_ebitda-multiples))",
+      "pe_ntm": 8.2,
+      "source": "valueinvesting.io",
+      "ticker": "DINO"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0057,
+      "2027": 0.0058,
+      "2028": 0.0058,
+      "2029": 0.0057,
+      "2030": 0.0056
+    },
+    "da_pct_sales": {
+      "2026": 0.025,
+      "2027": 0.0255,
+      "2028": 0.026,
+      "2029": 0.026,
+      "2030": 0.0265
+    },
+    "ebit_margin": {
+      "2026": 0.03,
+      "2027": 0.033,
+      "2028": 0.035,
+      "2029": 0.037,
+      "2030": 0.038
+    },
+    "nwc_pct_sales": {
+      "2026": 0.031,
+      "2027": 0.0305,
+      "2028": 0.0305,
+      "2029": 0.03,
+      "2030": 0.03
+    },
+    "revenue_growth": {
+      "2026": 0.01,
+      "2027": 0.01,
+      "2028": 0.01,
+      "2029": 0.01,
+      "2030": 0.01
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 665000000.0,
+      "2024": 649000000.0,
+      "2025": 719000000.0
+    },
+    "da": {
+      "2023": 2658000000.0,
+      "2024": 2729000000.0,
+      "2025": 3095000000.0
+    },
+    "ebit": {
+      "2023": 11858000000.0,
+      "2024": 3755000000.0,
+      "2025": 3181000000.0
+    },
+    "nwc": {
+      "2023": 3995000000.0,
+      "2024": 3585000000.0,
+      "2025": 4413000000.0
+    },
+    "revenue": {
+      "2023": 144766000000.0,
+      "2024": 129881000000.0,
+      "2025": 122687000000.0
+    }
+  },
+  "notes": [
+    "Definitions: EBIT is modeled as Valero consolidated 'Operating income'; D&A is 'Depreciation and amortization expense'; capex is 'Capital expenditures (excluding VIEs)' (not total capital investments). ([s23.q4cdn.com](https://s23.q4cdn.com/587626645/files/doc_financials/2024/q4/VLO-10K-Q4-2024.pdf))",
+    "NWC construction (used to populate historical NWC and forecast NWC % of sales): NWC = (Current assets - Cash and cash equivalents included in current assets) - Current liabilities, using the earnings-release balance sheet data for 2023-2025. ([investorvalero.com](https://investorvalero.com/news/news-details/2026/Valero-Energy-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx))",
+    "Tax rate is the average effective tax rate computed from Income tax expense / income before income tax for 2023-2025 (model input, not explicitly disclosed as a single long-run rate). ([s23.q4cdn.com](https://s23.q4cdn.com/587626645/files/doc_financials/2024/q4/VLO-10K-Q4-2024.pdf))",
+    "Comps limitation: EV/EBITDA values from the selected source are based on EV/TTM EBITDA (used as a proxy for EV/NTM EBITDA); EV/NTM Revenue was not available in the same dataset run, so it is set to null. ([valueinvesting.io](https://valueinvesting.io/MPC/valuation/ev_ebitda-multiples))",
+    "WACC, terminal growth, and terminal exit multiple are modeled assumptions for the DCF pipeline (not taken directly from management guidance).",
+    "NOLs: nol_balance was not retrieved in this run; left null and nol_utilization_pct is set to 0.80 as a placeholder per the schema template."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Improvement in refining margins/product cracks and higher utilization/throughput volumes versus the near-term environment.",
+      "Capital project execution and turnaround timing that affects available capacity and margin capture.",
+      "Renewables and ethanol profitability shifts (including regulatory/credit dynamics) that can move segment-level EBIT closer to/away from the base case."
+    ],
+    "company_overview": [
+      "Valero is a leading independent refiner producing transportation fuels and related products in the U.S., alongside renewable and low-carbon fuel activities. ([s23.q4cdn.com](https://s23.q4cdn.com/587626645/files/doc_financials/2024/q4/VLO-10K-Q4-2024.pdf))",
+      "Renewable Diesel and Ethanol segments expand Valero\u2019s exposure beyond traditional refining cycles. ([s23.q4cdn.com](https://s23.q4cdn.com/587626645/files/doc_financials/2024/q4/VLO-10K-Q4-2024.pdf))",
+      "Valero operates with meaningful leverage to product crack spreads and throughput utilization, while funding sustaining capital and shareholder returns through operating cash flow. ([investorvalero.com](https://investorvalero.com/news/news-details/2026/Valero-Energy-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx))"
+    ],
+    "current_context": [
+      "In 2025, Valero reported total revenues of 122.687B and operating income (EBIT proxy) of 3.181B. ([investorvalero.com](https://investorvalero.com/news/news-details/2026/Valero-Energy-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx))",
+      "2025 operating cash flow was 5.826B, while capital expenditures (excluding VIEs) were 0.719B; Valero also reported 4.0B of stockholder cash returns for 2025. ([investorvalero.com](https://investorvalero.com/news/news-details/2026/Valero-Energy-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx))",
+      "Valero ended 2025 with 4.7B cash and 8.3B total debt (excluding VIEs). ([investorvalero.com](https://investorvalero.com/news/news-details/2026/Valero-Energy-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx))"
+    ],
+    "investment_highlights": [
+      "Base case assumes gradual convergence of EBIT margins upward from 2025\u2019s trough toward a mid-cycle target (0.038 by 2030), consistent with downstream cyclical normalization rather than a linear forecast. ([investorvalero.com](https://investorvalero.com/news/news-details/2026/Valero-Energy-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx))",
+      "Sustaining capex is modeled at ~0.55%\u20130.58% of sales, anchored to historical capital expenditures excluding VIEs. ([investorvalero.com](https://investorvalero.com/news/news-details/2026/Valero-Energy-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx))",
+      "Working-capital intensity is normalized downward from the 2025 spike by using a NWC % of sales profile closer to 2023\u20132024 levels. ([investorvalero.com](https://investorvalero.com/news/news-details/2026/Valero-Energy-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx))",
+      "Valuation cross-check uses downstream peer EV/EBITDA ranges as a sanity check on terminal economics (acknowledging that comps use EV/TTM EBITDA as a proxy for NTM). ([valueinvesting.io](https://valueinvesting.io/MPC/valuation/ev_ebitda-multiples))"
+    ],
+    "key_risks": [
+      "Downside volatility in refining margins (crack spreads), feedstock differentials, and product demand.",
+      "Execution/regulatory risks (including environmental and low-carbon fuel policy changes) that could pressure returns on capital.",
+      "Working-capital swings (inventories and other current balances) that differ from the modeled NWC % of sales normalization."
+    ],
+    "sources": [
+      {
+        "label": "Valero Energy Reports 2025 Fourth Quarter and Full Year Results (Investor Relations)",
+        "notes": "Used for 2025 revenues, operating income, D&A, tax bridge, capex excluding VIEs, diluted shares, and 2025/2024 balance sheet current assets/liabilities, cash, debt. ([investorvalero.com](https://investorvalero.com/news/news-details/2026/Valero-Energy-Reports-2025-Fourth-Quarter-and-Full-Year-Results/default.aspx))",
+        "url": null
+      },
+      {
+        "label": "Valero Energy Form 10-K (FY2024; includes FY2023 consolidated statements)",
+        "notes": "Used for 2023/2024 consolidated revenues, operating income (EBIT proxy), depreciation & amortization, and tax inputs. ([s23.q4cdn.com](https://s23.q4cdn.com/587626645/files/doc_financials/2024/q4/VLO-10K-Q4-2024.pdf))",
+        "url": null
+      },
+      {
+        "label": "Valero Energy current price (VLO)",
+        "notes": "Current price input of 239.86 USD from market data (latest trade around 2026-03-20 UTC).",
+        "url": null
+      },
+      {
+        "label": "Peer valuation multiples (EV/EBITDA proxy) \u2014 ValueInvesting.io",
+        "notes": "Used to source EV/EBITDA (EV/TTM EBITDA proxy) and forward P/E for MPC, PSX, HFC, CVI, and DINO. ([valueinvesting.io](https://valueinvesting.io/MPC/valuation/ev_ebitda-multiples))",
+        "url": null
+      }
+    ],
+    "subtitle": "Valero (VLO) DCF input package \u2014 downstream margin normalization & capital discipline",
+    "valuation_summary": [
+      "DCF drivers use consistent historical anchors (Revenue, Operating income, Depreciation & amortization, and capex excluding VIEs) pulled from Valero\u2019s filings/earnings materials. ([s23.q4cdn.com](https://s23.q4cdn.com/587626645/files/doc_financials/2024/q4/VLO-10K-Q4-2024.pdf))",
+      "Terminal value is based on an exit EV/EBITDA multiple (average method) that sits in the neighborhood of peer trading levels to avoid an overly optimistic terminal assumption. ([valueinvesting.io](https://valueinvesting.io/MPC/valuation/ev_ebitda-multiples))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.034,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 8.8,
+        "terminal_growth": 0.019,
+        "terminal_method": "average",
+        "wacc": 0.093
+      },
+      "description": "Modestly weaker utilization/margins and growth; higher discount rate and a lower terminal multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0055,
+          "2027": 0.0054,
+          "2028": 0.0054,
+          "2029": 0.0053,
+          "2030": 0.0052
+        },
+        "da_pct_sales": {
+          "2026": 0.025,
+          "2027": 0.0255,
+          "2028": 0.026,
+          "2029": 0.026,
+          "2030": 0.0265
+        },
+        "ebit_margin": {
+          "2026": 0.028,
+          "2027": 0.03,
+          "2028": 0.032,
+          "2029": 0.033,
+          "2030": 0.034
+        },
+        "nwc_pct_sales": {
+          "2026": 0.033,
+          "2027": 0.0325,
+          "2028": 0.0325,
+          "2029": 0.032,
+          "2030": 0.032
+        },
+        "revenue_growth": {
+          "2026": 0.005,
+          "2027": 0.005,
+          "2028": 0.005,
+          "2029": 0.005,
+          "2030": 0.005
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.04,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 10.5,
+        "terminal_growth": 0.021,
+        "terminal_method": "average",
+        "wacc": 0.087
+      },
+      "description": "Modestly stronger refining/renewables profitability and growth; slightly lower discount rate and a higher terminal value multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0059,
+          "2027": 0.006,
+          "2028": 0.006,
+          "2029": 0.0059,
+          "2030": 0.0058
+        },
+        "da_pct_sales": {
+          "2026": 0.025,
+          "2027": 0.0255,
+          "2028": 0.026,
+          "2029": 0.026,
+          "2030": 0.0265
+        },
+        "ebit_margin": {
+          "2026": 0.032,
+          "2027": 0.035,
+          "2028": 0.037,
+          "2029": 0.039,
+          "2030": 0.04
+        },
+        "nwc_pct_sales": {
+          "2026": 0.0315,
+          "2027": 0.031,
+          "2028": 0.0305,
+          "2029": 0.03,
+          "2030": 0.0295
+        },
+        "revenue_growth": {
+          "2026": 0.015,
+          "2027": 0.015,
+          "2028": 0.015,
+          "2029": 0.015,
+          "2030": 0.015
+        }
+      }
+    }
+  },
+  "ticker": "VLO"
+}

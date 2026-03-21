@@ -1,0 +1,664 @@
+{
+  "_meta": {
+    "cost_usd": 0.023489,
+    "generated_at": "2026-03-21T17:20:25Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11337,
+      "prompt": 2514,
+      "reasoning": 7052
+    }
+  },
+  "_valuation": {
+    "company_name": "Molina Healthcare, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 139.41,
+        "description": "Base case",
+        "enterprise_value": 8012266561.834165,
+        "equity_value": 12502266561.834164,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 9650893912.238811,
+        "implied_market_cap": 12502266561.834164,
+        "investments_adjustment": 4008000000.0,
+        "net_debt": -482000000.0,
+        "per_share_value": 244.66275072082513,
+        "projected_years": [
+          {
+            "capex": 102350000.0,
+            "cash_taxes": 85454999.99999999,
+            "da": 200249999.99999997,
+            "delta_nwc": 151000000.0,
+            "discount_factor": 0.9191176470588235,
+            "ebit": 413849999.99999994,
+            "ebit_margin": 0.0093,
+            "ebitda": 614099999.9999999,
+            "fcff": 275294999.9999999,
+            "nol_balance_end": 0.0,
+            "nol_used": 129000000.0,
+            "nwc": 5251000000.0,
+            "present_value_fcff": 253028492.6470587,
+            "revenue": 44500000000.0,
+            "revenue_growth": -0.020384801655439655,
+            "year": 2026
+          },
+          {
+            "capex": 104806400.0,
+            "cash_taxes": 157209600.0,
+            "da": 205055999.99999997,
+            "delta_nwc": 80456000.0,
+            "discount_factor": 0.844777249134948,
+            "ebit": 524032000.0,
+            "ebit_margin": 0.0115,
+            "ebitda": 729088000.0,
+            "fcff": 386616000.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5331456000.0,
+            "present_value_fcff": 326604400.95155704,
+            "revenue": 45568000000.0,
+            "revenue_growth": 0.024,
+            "year": 2027
+          },
+          {
+            "capex": 103056588.80000001,
+            "cash_taxes": 189717811.2,
+            "da": 206113177.60000002,
+            "delta_nwc": 102436864.0,
+            "discount_factor": 0.776449677513739,
+            "ebit": 632392704.0,
+            "ebit_margin": 0.0135,
+            "ebitda": 838505881.6,
+            "fcff": 443294617.60000014,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5433892864.0,
+            "present_value_fcff": 344195962.8790963,
+            "revenue": 46843904000.0,
+            "revenue_growth": 0.028,
+            "year": 2028
+          },
+          {
+            "capex": 105736060.10880001,
+            "cash_taxes": 216278304.76799998,
+            "da": 211472120.21760002,
+            "delta_nwc": 93219368.96000004,
+            "discount_factor": 0.71364860065601,
+            "ebit": 720927682.56,
+            "ebit_margin": 0.015,
+            "ebitda": 932399802.7775999,
+            "fcff": 517166068.94079983,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5527112232.96,
+            "present_value_fcff": 369074841.4063714,
+            "revenue": 48061845504.0,
+            "revenue_growth": 0.026,
+            "year": 2029
+          },
+          {
+            "capex": 108167989.4913024,
+            "cash_taxes": 243377976.35543036,
+            "da": 211419252.18754557,
+            "delta_nwc": 77956313.40748787,
+            "discount_factor": 0.6559270226617738,
+            "ebit": 811259921.184768,
+            "ebit_margin": 0.0165,
+            "ebitda": 1022679173.3723135,
+            "fcff": 593176894.1180929,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5605068546.367488,
+            "present_value_fcff": 389080754.07063895,
+            "revenue": 49167267950.591995,
+            "revenue_growth": 0.023,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 9650893912.238811,
+        "terminal_value_present_value": 6330282109.879442,
+        "upside_downside_pct": 0.7549870936146987
+      },
+      "bear": {
+        "current_price": 139.41,
+        "description": "Modestly weaker revenue growth and slower margin recovery versus base case; slightly higher WACC and lower terminal growth.",
+        "enterprise_value": 6489128656.056624,
+        "equity_value": 10979128656.056625,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 7801534631.742184,
+        "implied_market_cap": 10979128656.056625,
+        "investments_adjustment": 4008000000.0,
+        "net_debt": -482000000.0,
+        "per_share_value": 214.85574669386742,
+        "projected_years": [
+          {
+            "capex": 102036560.6,
+            "cash_taxes": 65111109.47999999,
+            "da": 199636748.99999997,
+            "delta_nwc": 134919196.0,
+            "discount_factor": 0.9140767824497257,
+            "ebit": 346037031.59999996,
+            "ebit_margin": 0.0078,
+            "ebitda": 545673780.5999999,
+            "fcff": 243606914.51999998,
+            "nol_balance_end": 0.0,
+            "nol_used": 129000000.0,
+            "nwc": 5234919196.0,
+            "present_value_fcff": 222675424.60694695,
+            "revenue": 44363722000.0,
+            "revenue_growth": -0.023384801655439654,
+            "year": 2026
+          },
+          {
+            "capex": 104179328.37259997,
+            "cash_taxes": 135886080.48599997,
+            "da": 203829120.72899994,
+            "delta_nwc": 64637942.95399952,
+            "discount_factor": 0.8355363642136432,
+            "ebit": 452953601.61999995,
+            "ebit_margin": 0.01,
+            "ebitda": 656782722.3489999,
+            "fcff": 352079370.53640044,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5299557138.9539995,
+            "present_value_fcff": 294175117.17261213,
+            "revenue": 45295360161.99999,
+            "revenue_growth": 0.021,
+            "year": 2027
+          },
+          {
+            "capex": 102141037.16530998,
+            "cash_taxes": 167139878.99777994,
+            "da": 204282074.33061996,
+            "delta_nwc": 86061184.30779934,
+            "discount_factor": 0.7637443914201492,
+            "ebit": 557132929.9925998,
+            "ebit_margin": 0.012,
+            "ebitda": 761415004.3232198,
+            "fcff": 406072903.8523305,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5385618323.261799,
+            "present_value_fcff": 310135902.8249109,
+            "revenue": 46427744166.04999,
+            "revenue_growth": 0.025,
+            "year": 2028
+          },
+          {
+            "capex": 104490281.0201121,
+            "cash_taxes": 192357108.24156997,
+            "da": 208980562.0402242,
+            "delta_nwc": 76373639.15315151,
+            "discount_factor": 0.6981210159233537,
+            "ebit": 641190360.8052332,
+            "ebit_margin": 0.0135,
+            "ebitda": 850170922.8454574,
+            "fcff": 476949894.43062377,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5461991962.41495,
+            "present_value_fcff": 332968744.8444434,
+            "revenue": 47495582281.86913,
+            "revenue_growth": 0.023,
+            "year": 2029
+          },
+          {
+            "capex": 106580086.64051434,
+            "cash_taxes": 218004722.67377928,
+            "da": 208315623.888278,
+            "delta_nwc": 60794345.3207922,
+            "discount_factor": 0.638136211995753,
+            "ebit": 726682408.9125977,
+            "ebit_margin": 0.015,
+            "ebitda": 934998032.8008757,
+            "fcff": 549618878.1657898,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5522786307.735743,
+            "present_value_fcff": 350731708.9540724,
+            "revenue": 48445493927.506516,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 7801534631.742184,
+        "terminal_value_present_value": 4978441757.653639,
+        "upside_downside_pct": 0.541178873064109
+      },
+      "bull": {
+        "current_price": 139.41,
+        "description": "Modestly better revenue growth and margin recovery versus base case; slightly lower WACC and higher terminal growth.",
+        "enterprise_value": 9564064243.617065,
+        "equity_value": 14054064243.617065,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 11483630507.451294,
+        "implied_market_cap": 14054064243.617065,
+        "investments_adjustment": 4008000000.0,
+        "net_debt": -482000000.0,
+        "per_share_value": 275.0306114210776,
+        "projected_years": [
+          {
+            "capex": 102663439.39999999,
+            "cash_taxes": 105921540.72000001,
+            "da": 200863250.99999997,
+            "delta_nwc": 167080804.0,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 482071802.40000004,
+            "ebit_margin": 0.0108,
+            "ebitda": 682935053.4,
+            "fcff": 307269269.28,
+            "nol_balance_end": 0.0,
+            "nol_used": 129000000.0,
+            "nwc": 5267080804.0,
+            "present_value_fcff": 283720470.24930745,
+            "revenue": 44636278000.0,
+            "revenue_growth": -0.017384801655439656,
+            "year": 2026
+          },
+          {
+            "capex": 105435352.26379998,
+            "cash_taxes": 178781684.27339995,
+            "da": 206286558.77699995,
+            "delta_nwc": 96369724.20199966,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 595938947.5779998,
+            "ebit_margin": 0.013,
+            "ebitda": 802225506.3549998,
+            "fcff": 421638745.6158002,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5363450528.202,
+            "present_value_fcff": 359487339.0540795,
+            "revenue": 45841457505.99999,
+            "revenue_growth": 0.027,
+            "year": 2027
+          },
+          {
+            "capex": 103977593.91510919,
+            "cash_taxes": 212681442.09908694,
+            "da": 207955187.83021837,
+            "delta_nwc": 119004423.68557549,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 708938140.3302898,
+            "ebit_margin": 0.015,
+            "ebitda": 916893328.1605082,
+            "fcff": 481229868.46073663,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5482454951.887575,
+            "present_value_fcff": 378849924.42821443,
+            "revenue": 47262542688.68599,
+            "revenue_growth": 0.031,
+            "year": 2028
+          },
+          {
+            "capex": 106992944.13864735,
+            "cash_taxes": 240734124.31195652,
+            "da": 213985888.2772947,
+            "delta_nwc": 110358037.17808151,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 802447081.0398551,
+            "ebit_margin": 0.0165,
+            "ebitda": 1016432969.3171499,
+            "fcff": 558347863.6884644,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5592812989.065657,
+            "present_value_fcff": 405873813.7389602,
+            "revenue": 48633156426.65788,
+            "revenue_growth": 0.029,
+            "year": 2029
+          },
+          {
+            "capex": 109774760.68625219,
+            "cash_taxes": 269447139.86625534,
+            "da": 214559759.52312925,
+            "delta_nwc": 95515519.22195625,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 898157132.8875178,
+            "ebit_margin": 0.018,
+            "ebitda": 1112716892.4106472,
+            "fcff": 637979472.6361831,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5688328508.287613,
+            "present_value_fcff": 428217510.32350034,
+            "revenue": 49897618493.75099,
+            "revenue_growth": 0.026,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 11483630507.451294,
+        "terminal_value_present_value": 7707915185.823004,
+        "upside_downside_pct": 0.9728183876413286
+      }
+    },
+    "ticker": "MOH"
+  },
+  "assumptions": {
+    "cash": 4248000000.0,
+    "current_price": 139.41,
+    "debt": 3766000000.0,
+    "diluted_shares": 51100000.0,
+    "investments": 4008000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 129000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.0165,
+    "tax_rate": 0.3,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.088
+  },
+  "company_name": "Molina Healthcare, Inc.",
+  "comps": [
+    {
+      "company_name": "UnitedHealth Group Incorporated",
+      "ev_ntm_ebitda": 14.28,
+      "ev_ntm_revenue": 0.69,
+      "notes": "Used EV/Sales and EV/EBITDA as proxies for EV/NTM Revenue and EV/NTM EBITDA because explicit NTM labels were not available on the accessed page. ([stockanalysis.com](https://stockanalysis.com/stocks/unh/statistics/))",
+      "pe_ntm": 15.43,
+      "source": "StockAnalysis.com (EV/Sales, EV/EBITDA, Forward PE)",
+      "ticker": "UNH"
+    },
+    {
+      "company_name": "Elevance Health",
+      "ev_ntm_ebitda": 9.69,
+      "ev_ntm_revenue": 0.44,
+      "notes": "Used EV/Sales and EV/EBITDA as proxies for EV/NTM Revenue and EV/NTM EBITDA because explicit NTM labels were not available on the accessed page. ([stockanalysis.com](https://stockanalysis.com/stocks/elv/statistics/))",
+      "pe_ntm": 11.21,
+      "source": "StockAnalysis.com (EV/Sales, EV/EBITDA, Forward PE)",
+      "ticker": "ELV"
+    },
+    {
+      "company_name": "Humana Inc.",
+      "ev_ntm_ebitda": 8.28,
+      "ev_ntm_revenue": 0.23,
+      "notes": "Used EV/Sales and EV/EBITDA as proxies for EV/NTM Revenue and EV/NTM EBITDA because explicit NTM labels were not available on the accessed page. ([stockanalysis.com](https://stockanalysis.com/stocks/hum/statistics/))",
+      "pe_ntm": 18.16,
+      "source": "StockAnalysis.com (EV/Sales, EV/EBITDA, Forward PE)",
+      "ticker": "HUM"
+    },
+    {
+      "company_name": "The Cigna Group",
+      "ev_ntm_ebitda": 7.64,
+      "ev_ntm_revenue": 0.33,
+      "notes": "Used EV/Sales and EV/EBITDA as proxies for EV/NTM Revenue and EV/NTM EBITDA because explicit NTM labels were not available on the accessed page. ([stockanalysis.com](https://stockanalysis.com/stocks/ci/statistics/))",
+      "pe_ntm": 8.66,
+      "source": "StockAnalysis.com (EV/Sales, EV/EBITDA, Forward PE)",
+      "ticker": "CI"
+    },
+    {
+      "company_name": "Centene Corporation",
+      "ev_ntm_ebitda": 6.71,
+      "ev_ntm_revenue": 0.1,
+      "notes": "Used EV/Sales and EV/EBITDA as proxies for EV/NTM Revenue and EV/NTM EBITDA because explicit NTM labels were not available on the accessed page. ([stockanalysis.com](https://stockanalysis.com/stocks/cnc/statistics/))",
+      "pe_ntm": 11.53,
+      "source": "StockAnalysis.com (EV/Sales, EV/EBITDA, Forward PE)",
+      "ticker": "CNC"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0023,
+      "2027": 0.0023,
+      "2028": 0.0022,
+      "2029": 0.0022,
+      "2030": 0.0022
+    },
+    "da_pct_sales": {
+      "2026": 0.0045,
+      "2027": 0.0045,
+      "2028": 0.0044,
+      "2029": 0.0044,
+      "2030": 0.0043
+    },
+    "ebit_margin": {
+      "2026": 0.0093,
+      "2027": 0.0115,
+      "2028": 0.0135,
+      "2029": 0.015,
+      "2030": 0.0165
+    },
+    "nwc_pct_sales": {
+      "2026": 0.118,
+      "2027": 0.117,
+      "2028": 0.116,
+      "2029": 0.115,
+      "2030": 0.114
+    },
+    "revenue_growth": {
+      "2026": -0.020384801655439655,
+      "2027": 0.024,
+      "2028": 0.028,
+      "2029": 0.026,
+      "2030": 0.023
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 84000000.0,
+      "2024": 100000000.0,
+      "2025": 101000000.0
+    },
+    "da": {
+      "2023": 171000000.0,
+      "2024": 186000000.0,
+      "2025": 195000000.0
+    },
+    "ebit": {
+      "2023": 1573000000.0,
+      "2024": 1707000000.0,
+      "2025": 781000000.0
+    },
+    "nwc": {
+      "2023": 4400000000.0,
+      "2024": 4900000000.0,
+      "2025": 5100000000.0
+    },
+    "revenue": {
+      "2023": 34072000000.0,
+      "2024": 40650000000.0,
+      "2025": 45426000000.0
+    }
+  },
+  "notes": [
+    "EBIT is mapped to consolidated Operating income from Molina\u2019s consolidated statements of income (2023\u20132025). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001179929/000117992926000005/moh-20251231.htm))",
+    "D&A is mapped to consolidated Depreciation and amortization from the cash flow/financial statement presentation (2023\u20132025). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001179929/000117992926000005/moh-20251231.htm))",
+    "Capex is mapped to Purchases of property, equipment and capitalized software from the consolidated cash flow statement; output capex values are reported as absolute (positive) amounts. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001179929/000117992926000005/moh-20251231.htm))",
+    "NWC is mapped to Molina\u2019s reported consolidated working capital on a net basis from MD&A (Working capital on a consolidated basis). This may differ from a custom NWC definition that excludes cash/investments or includes/excludes statutory items. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001179929/000117992926000005/moh-20251231.htm))",
+    "Cash/debt: cash uses Cash and cash equivalents; investments uses Investments; debt uses Long-term debt. Finance lease liabilities are not included in the debt field. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001179929/000117992926000005/moh-20251231.htm))",
+    "Tax rate uses management\u2019s guidance Effective Tax Rate for 2026 (30.0%) as the DCF tax_rate assumption. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1179929/000117992926000002/moh4q25_er.htm))",
+    "Current price (139.41) is from the latest market snapshot available via the finance tool and may reflect the prior trading day relative to 2026-03-21.",
+    "NOL balance is mapped to the sum of state and foreign net operating loss carryforwards disclosed in the 2025 Form 10-K; NOL utilization percent is assumed at 0.80 per the modeling requirement. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001179929/000117992926000005/moh-20251231.htm))",
+    "Peer multiples: EV/Sales and EV/EBITDA are treated as proxies for EV/NTM Revenue and EV/NTM EBITDA because explicit NTM labeling was not available on the accessed peer pages; forward P/E is used where available. ([stockanalysis.com](https://stockanalysis.com/stocks/unh/statistics/))",
+    "Forecast margins and driver ratios are base-case assumptions (not direct line-item guidance) chosen to reflect a trough-to-recovery pattern consistent with 2026 guidance and recent historical profitability. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1179929/000117992926000002/moh4q25_er.htm))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Execution of the Florida CMS Medicaid contract implementation and related margin recovery (timing and cost control versus trough assumptions). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1179929/000117992926000002/moh4q25_er.htm))",
+      "Progress on Medicare Advantage Part D (MAPD) exit and related profitability improvement trajectory into 2027+. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1179929/000117992926000002/moh4q25_er.htm))",
+      "Improvement in utilization / MCR versus 2025 outcomes, supporting operating margin recovery from the modeled trough. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1179929/000117992926000002/moh4q25_er.htm))"
+    ],
+    "company_overview": [
+      "Molina Healthcare provides managed healthcare services across Medicaid, Medicare, and state marketplaces, operating primarily through wholly owned health plan subsidiaries. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001179929/000117992926000005/moh-20251231.htm))",
+      "The company\u2019s consolidated results are driven by premium revenue and medical cost trends, with profitability tightly linked to medical care ratio (MCR) dynamics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001179929/000117992926000005/moh-20251231.htm))",
+      "Molina also maintains meaningful liquidity via cash and investment holdings and funds statutory capital requirements at the health plan level. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001179929/000117992926000005/moh-20251231.htm))"
+    ],
+    "current_context": [
+      "In its Feb 5, 2026 earnings release, Molina guided 2026 Total Revenue of $44.5B and Premium Revenue of ~$42.2B, reflecting a modest decline versus 2025 Total Revenue. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1179929/000117992926000002/moh4q25_er.htm))",
+      "Guidance also indicates a trough-style margin environment: MCR of 92.6% and GAAP pre-tax margin of 0.5%, with Effective Tax Rate of 30.0%. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1179929/000117992926000002/moh4q25_er.htm))",
+      "Management noted guidance pressure tied to Florida Medicaid contract implementation costs and underperformance in traditional Medicare Advantage Part D (MAPD), with MAPD exit for 2027. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1179929/000117992926000002/moh4q25_er.htm))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth is modestly negative in 2026 (consistent with company guidance), then turns positive as the operating platform benefits from expected normalization in the cycle and embedded earnings. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1179929/000117992926000002/moh4q25_er.htm))",
+      "Base-case EBIT margin is set low for 2026 and recovers gradually through 2030, reflecting a normalization of medical cost trends and operating leverage once the trough passes. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1179929/000117992926000002/moh4q25_er.htm))",
+      "D&A and capex are modeled as low-single-digit percentages of sales based on the company\u2019s historical depreciation and cash capex profile. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001179929/000117992926000005/moh-20251231.htm))",
+      "Working capital (modeled using reported consolidated working capital) is assumed to run off as a percent of sales, supporting FCF conversion over the forecast period. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001179929/000117992926000005/moh-20251231.htm))"
+    ],
+    "key_risks": [
+      "Medical cost trend and utilization risk can overwhelm rate updates, compressing EBIT margins below modeled recovery. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1179929/000117992926000002/moh4q25_er.htm))",
+      "Government contracting / rate-setting changes (Medicaid and Medicare Advantage) could reduce premium revenue or delay margin normalization. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001179929/000117992926000005/moh-20251231.htm))",
+      "Liquidity, statutory capital constraints, or higher-than-expected cash outflows could limit flexibility and pressure returns. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001179929/000117992926000005/moh-20251231.htm))"
+    ],
+    "sources": [
+      {
+        "label": "Molina Healthcare 2025 Form 10-K (SEC)",
+        "notes": "Provides 2023\u20132025 consolidated income statement (Total revenue, Operating income/EBIT, D&A), cash flow capex (purchases of property/equipment/capitalized software), consolidated balance sheet (cash & investments, long-term debt), diluted share count, reported consolidated working capital, and NOL carryforwards. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001179929/000117992926000005/moh-20251231.htm))",
+        "url": null
+      },
+      {
+        "label": "Molina Healthcare Q4 2025 earnings release / 2026 guidance (SEC EX-99.1)",
+        "notes": "Provides 2026 Total Revenue guidance ($44.5B), Premium Revenue guidance (~$42.2B), Effective Tax Rate (30.0%), GAAP pre-tax margin (0.5%), diluted weighted average shares for guidance (51.1M), and qualitative discussion of margin headwinds and MAPD exit for 2027. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1179929/000117992926000002/moh4q25_er.htm))",
+        "url": null
+      },
+      {
+        "label": "StockAnalysis.com valuation metrics for peer benchmarks",
+        "notes": "Used to source EV/Sales, EV/EBITDA, and forward P/E for UNH, ELV, HUM, CI, and CNC as directional comp inputs. ([stockanalysis.com](https://stockanalysis.com/stocks/unh/statistics/))",
+        "url": null
+      }
+    ],
+    "subtitle": "DCF & Comps Input Pack | Molina Healthcare (MOH)",
+    "valuation_summary": [
+      "DCF base-case revenue chain is anchored to the company\u2019s 2026 Total Revenue guidance ($44.5B) and then assumes gradual re-acceleration to a mid-single-digit growth environment. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1179929/000117992926000002/moh4q25_er.htm))",
+      "Terminal assumptions (Gordon growth) and WACC are set to economically reasonable levels for a U.S. managed-care operator; bull/bear scenarios modestly shift growth/margins and discount rate. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1179929/000117992926000002/moh4q25_er.htm))",
+      "Peer set valuation multiples are included as directional benchmarks using publicly available EV/Sales, EV/EBITDA, and forward P/E metrics. ([stockanalysis.com](https://stockanalysis.com/stocks/unh/statistics/))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.015,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.094
+      },
+      "description": "Modestly weaker revenue growth and slower margin recovery versus base case; slightly higher WACC and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0023,
+          "2027": 0.0023,
+          "2028": 0.0022,
+          "2029": 0.0022,
+          "2030": 0.0022
+        },
+        "da_pct_sales": {
+          "2026": 0.0045,
+          "2027": 0.0045,
+          "2028": 0.0044,
+          "2029": 0.0044,
+          "2030": 0.0043
+        },
+        "ebit_margin": {
+          "2026": 0.0078,
+          "2027": 0.01,
+          "2028": 0.012,
+          "2029": 0.0135,
+          "2030": 0.015
+        },
+        "nwc_pct_sales": {
+          "2026": 0.118,
+          "2027": 0.117,
+          "2028": 0.116,
+          "2029": 0.115,
+          "2030": 0.114
+        },
+        "revenue_growth": {
+          "2026": -0.023384801655439654,
+          "2027": 0.021,
+          "2028": 0.025,
+          "2029": 0.023,
+          "2030": 0.02
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.018,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.026,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.083
+      },
+      "description": "Modestly better revenue growth and margin recovery versus base case; slightly lower WACC and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0023,
+          "2027": 0.0023,
+          "2028": 0.0022,
+          "2029": 0.0022,
+          "2030": 0.0022
+        },
+        "da_pct_sales": {
+          "2026": 0.0045,
+          "2027": 0.0045,
+          "2028": 0.0044,
+          "2029": 0.0044,
+          "2030": 0.0043
+        },
+        "ebit_margin": {
+          "2026": 0.0108,
+          "2027": 0.013,
+          "2028": 0.015,
+          "2029": 0.0165,
+          "2030": 0.018
+        },
+        "nwc_pct_sales": {
+          "2026": 0.118,
+          "2027": 0.117,
+          "2028": 0.116,
+          "2029": 0.115,
+          "2030": 0.114
+        },
+        "revenue_growth": {
+          "2026": -0.017384801655439656,
+          "2027": 0.027,
+          "2028": 0.031,
+          "2029": 0.029,
+          "2030": 0.026
+        }
+      }
+    }
+  },
+  "ticker": "MOH"
+}

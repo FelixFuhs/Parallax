@@ -1,0 +1,682 @@
+{
+  "_meta": {
+    "cost_usd": 0.025207,
+    "generated_at": "2026-03-21T17:35:12Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11847,
+      "prompt": 2515,
+      "reasoning": 7916
+    }
+  },
+  "_valuation": {
+    "company_name": "Alphabet Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 240.23954729354048,
+        "description": "Base case",
+        "enterprise_value": 3591642497237.2275,
+        "equity_value": 3735229497237.2275,
+        "exit_multiple_terminal_value": 4860404592971.471,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 3735229497237.2275,
+        "investments_adjustment": 164822000000.0,
+        "net_debt": 17835000000.0,
+        "per_share_value": 305.41533092700143,
+        "projected_years": [
+          {
+            "capex": 96438938400.00002,
+            "cash_taxes": 17689656700.800007,
+            "da": 24339351120.000004,
+            "delta_nwc": -3544749360.000004,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 147413805840.00003,
+            "ebit_margin": 0.321,
+            "ebitda": 171753156960.00003,
+            "fcff": 61169311219.20003,
+            "nol_balance_end": 4146548539.9999924,
+            "nol_used": 36853451460.00001,
+            "nwc": -27094749360.000004,
+            "present_value_fcff": 56377245363.318,
+            "revenue": 459233040000.00006,
+            "revenue_growth": 0.14,
+            "year": 2026
+          },
+          {
+            "capex": 98597333688.0,
+            "cash_taxes": 26071997663.104,
+            "da": 28022400100.8,
+            "delta_nwc": -3262850749.199997,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 167096533934.4,
+            "ebit_margin": 0.322,
+            "ebitda": 195118934035.19998,
+            "fcff": 73712453433.29597,
+            "nol_balance_end": 0.0,
+            "nol_used": 4146548539.9999924,
+            "nwc": -30357600109.2,
+            "present_value_fcff": 62615433271.716095,
+            "revenue": 518933335200.0,
+            "revenue_growth": 0.13,
+            "year": 2027
+          },
+          {
+            "capex": 98804907022.08,
+            "cash_taxes": 30036691734.71232,
+            "da": 31675690780.608,
+            "delta_nwc": -3352309345.392002,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 187729323341.952,
+            "ebit_margin": 0.323,
+            "ebitda": 219405014122.56,
+            "fcff": 93915724711.15968,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -33709909454.592003,
+            "present_value_fcff": 73527381446.3579,
+            "revenue": 581205335424.0,
+            "revenue_growth": 0.12,
+            "year": 2028
+          },
+          {
+            "capex": 103222067571.3024,
+            "cash_taxes": 33443949893.10198,
+            "da": 35482585727.6352,
+            "delta_nwc": -3385521078.844803,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 209024686831.88736,
+            "ebit_margin": 0.324,
+            "ebitda": 244507272559.52255,
+            "fcff": 111226776173.96297,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -37095430533.436806,
+            "present_value_fcff": 80258381409.15918,
+            "revenue": 645137922320.64,
+            "revenue_growth": 0.11,
+            "year": 2029
+          },
+          {
+            "capex": 106447757182.90561,
+            "cash_taxes": 36901889156.740616,
+            "da": 39385670157.67508,
+            "delta_nwc": -3354717196.0673294,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 230636807229.62885,
+            "ebit_margin": 0.325,
+            "ebitda": 270022477387.30392,
+            "fcff": 130027548243.72504,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -40450147729.504135,
+            "present_value_fcff": 86474225860.90567,
+            "revenue": 709651714552.7041,
+            "revenue_growth": 0.1,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 4860404592971.471,
+        "terminal_value_present_value": 3232389829885.771,
+        "upside_downside_pct": 0.271294981894987
+      },
+      "bear": {
+        "current_price": 240.23954729354048,
+        "description": "Modestly lower revenue growth and margin compression; higher discount rate and lower terminal multiple.",
+        "enterprise_value": 2841112347873.347,
+        "equity_value": 2984699347873.347,
+        "exit_multiple_terminal_value": 3906584100442.1484,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 2984699347873.347,
+        "investments_adjustment": 164822000000.0,
+        "net_debt": 17835000000.0,
+        "per_share_value": 244.0473710444274,
+        "projected_years": [
+          {
+            "capex": 101514672000.00002,
+            "cash_taxes": 17108606054.400005,
+            "da": 24363521280.000004,
+            "delta_nwc": -4422931840.000004,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 142571717120.00003,
+            "ebit_margin": 0.316,
+            "ebitda": 166935238400.00003,
+            "fcff": 52734892185.60002,
+            "nol_balance_end": 5357070719.999992,
+            "nol_used": 35642929280.00001,
+            "nwc": -27972931840.000004,
+            "present_value_fcff": 48380635032.66057,
+            "revenue": 451176320000.00006,
+            "revenue_growth": 0.12,
+            "year": 2026
+          },
+          {
+            "capex": 102665171616.00002,
+            "cash_taxes": 24543734559.74401,
+            "da": 27544314336.000008,
+            "delta_nwc": -2826619644.800003,
+            "discount_factor": 0.84167999326656,
+            "ebit": 158755411718.40005,
+            "ebit_margin": 0.317,
+            "ebitda": 186299726054.40005,
+            "fcff": 61917439523.456024,
+            "nol_balance_end": 0.0,
+            "nol_used": 5357070719.999992,
+            "nwc": -30799551484.800007,
+            "present_value_fcff": 52114670081.1851,
+            "revenue": 500805715200.0001,
+            "revenue_growth": 0.11,
+            "year": 2027
+          },
+          {
+            "capex": 99159531609.60002,
+            "cash_taxes": 28029094268.31361,
+            "da": 30574188912.960007,
+            "delta_nwc": -2804512005.119999,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 175181839176.96005,
+            "ebit_margin": 0.318,
+            "ebitda": 205756028089.92004,
+            "fcff": 81371914217.12642,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -33604063489.920006,
+            "present_value_fcff": 62834047899.411064,
+            "revenue": 550886286720.0001,
+            "revenue_growth": 0.1,
+            "year": 2028
+          },
+          {
+            "capex": 102079228929.21603,
+            "cash_taxes": 30647787320.865803,
+            "da": 33626098941.38881,
+            "delta_nwc": -2724132687.830406,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 191548670755.41125,
+            "ebit_margin": 0.319,
+            "ebitda": 225174769696.80005,
+            "fcff": 95171886134.54865,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -36328196177.75041,
+            "present_value_fcff": 67422163522.340454,
+            "revenue": 600466052524.8002,
+            "revenue_growth": 0.09,
+            "year": 2029
+          },
+          {
+            "capex": 103760533876.28548,
+            "cash_taxes": 33203370840.411354,
+            "da": 36640438525.06331,
+            "delta_nwc": -2582004025.856636,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 207521067752.57095,
+            "ebit_margin": 0.32,
+            "ebitda": 244161506277.63428,
+            "fcff": 109779605586.79407,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -38910200203.60705,
+            "present_value_fcff": 71349211246.31064,
+            "revenue": 648503336726.7842,
+            "revenue_growth": 0.08,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 3906584100442.1484,
+        "terminal_value_present_value": 2539011620091.4395,
+        "upside_downside_pct": 0.01585011208098175
+      },
+      "bull": {
+        "current_price": 240.23954729354048,
+        "description": "Modestly higher revenue growth and sustained margin improvement; slightly lower discount rate and higher terminal multiple.",
+        "enterprise_value": 4403906204483.507,
+        "equity_value": 4547493204483.507,
+        "exit_multiple_terminal_value": 5954518406059.13,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 4547493204483.507,
+        "investments_adjustment": 164822000000.0,
+        "net_debt": 17835000000.0,
+        "per_share_value": 371.8310060902295,
+        "projected_years": [
+          {
+            "capex": 93457952000.0,
+            "cash_taxes": 18224300640.0,
+            "da": 24766357279.999996,
+            "delta_nwc": -3319161199.999996,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 151869172000.0,
+            "ebit_margin": 0.325,
+            "ebitda": 176635529280.0,
+            "fcff": 68272437840.0,
+            "nol_balance_end": 3032707000.0,
+            "nol_used": 37967293000.0,
+            "nwc": -26869161199.999996,
+            "present_value_fcff": 63040108808.86427,
+            "revenue": 467289759999.99994,
+            "revenue_growth": 0.16,
+            "year": 2026
+          },
+          {
+            "capex": 96728980319.99997,
+            "cash_taxes": 27544675843.839996,
+            "da": 28750002483.999992,
+            "delta_nwc": -3761682567.999996,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 175186931023.99997,
+            "ebit_margin": 0.326,
+            "ebitda": 203936933507.99997,
+            "fcff": 83424959912.16,
+            "nol_balance_end": 0.0,
+            "nol_used": 3032707000.0,
+            "nwc": -30630843767.999992,
+            "present_value_fcff": 71127753702.31967,
+            "revenue": 537383223999.9999,
+            "revenue_growth": 0.15,
+            "year": 2027
+          },
+          {
+            "capex": 101081784434.39998,
+            "cash_taxes": 32052114918.835197,
+            "da": 33081311269.439995,
+            "delta_nwc": -3982009689.840004,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 200325718242.71997,
+            "ebit_margin": 0.327,
+            "ebitda": 233407029512.15997,
+            "fcff": 104255139848.7648,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -34612853457.84,
+            "present_value_fcff": 82075229410.20445,
+            "revenue": 612616875359.9999,
+            "revenue_growth": 0.14,
+            "year": 2028
+          },
+          {
+            "capex": 107299845719.30397,
+            "cash_taxes": 36329650989.34886,
+            "da": 37728010269.045586,
+            "delta_nwc": -4153542414.940796,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 227060318683.43036,
+            "ebit_margin": 0.328,
+            "ebitda": 264788328952.47595,
+            "fcff": 125312374658.7639,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -38766395872.78079,
+            "present_value_fcff": 91091978171.90239,
+            "revenue": 692257069156.7998,
+            "revenue_growth": 0.13,
+            "year": 2029
+          },
+          {
+            "capex": 112422548031.06429,
+            "cash_taxes": 40813261574.86362,
+            "da": 42643035460.05887,
+            "delta_nwc": -4264303546.00589,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 255082884842.8976,
+            "ebit_margin": 0.329,
+            "ebitda": 297725920302.9565,
+            "fcff": 148754414243.03445,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -43030699418.78668,
+            "present_value_fcff": 99845289149.46492,
+            "revenue": 775327917455.6158,
+            "revenue_growth": 0.12,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 5954518406059.13,
+        "terminal_value_present_value": 3996725845240.7515,
+        "upside_downside_pct": 0.5477510271691526
+      }
+    },
+    "ticker": "GOOG"
+  },
+  "assumptions": {
+    "cash": 30708000000.0,
+    "current_price": 240.23954729354048,
+    "debt": 48543000000.0,
+    "diluted_shares": 12230000000.0,
+    "investments": 164822000000.0,
+    "minority_interest": 3400000000.0,
+    "net_debt_override": null,
+    "nol_balance": 41000000000.0,
+    "nol_utilization_pct": 0.25,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.325,
+    "tax_rate": 0.16,
+    "terminal_exit_ebitda_multiple": 18.0,
+    "terminal_growth": 0.03,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.085
+  },
+  "company_name": "Alphabet Inc.",
+  "comps": [
+    {
+      "company_name": "Microsoft Corporation",
+      "ev_ntm_ebitda": 21.71,
+      "ev_ntm_revenue": 12.3,
+      "notes": "Disfold reports Enterprise to Revenue, Enterprise to EBITDA, and Forward PE as of a specific market-date; treated as an EV/NTM-style proxy for comps.",
+      "pe_ntm": 25.8,
+      "source": "Disfold valuation metrics (proxy; as-of early Jan 2026)",
+      "ticker": "MSFT"
+    },
+    {
+      "company_name": "Meta Platforms, Inc.",
+      "ev_ntm_ebitda": 16.98,
+      "ev_ntm_revenue": 8.82,
+      "notes": "Disfold reports Enterprise to Revenue and Enterprise to EBITDA along with Forward PE; treated as EV/NTM-style proxy for comps.",
+      "pe_ntm": 21.7,
+      "source": "Disfold valuation metrics (proxy; as-of early Jan 2026)",
+      "ticker": "META"
+    },
+    {
+      "company_name": "Amazon.com, Inc.",
+      "ev_ntm_ebitda": 18.97,
+      "ev_ntm_revenue": 3.68,
+      "notes": "Used Disfold 'Enterprise to Revenue/Enterprise to EBITDA' and 'Forward PE' as proxies for EV/NTM multiples.",
+      "pe_ntm": 35.76,
+      "source": "Disfold valuation metrics (proxy; as-of late 2025/early 2026)",
+      "ticker": "AMZN"
+    },
+    {
+      "company_name": "Oracle Corporation",
+      "ev_ntm_ebitda": 30.33,
+      "ev_ntm_revenue": 12.41,
+      "notes": "Disfold valuation multiples shown for a specific as-of date; treated as EV/NTM-style proxy for comps.",
+      "pe_ntm": 32.12,
+      "source": "Disfold valuation metrics (proxy; as-of early 2026)",
+      "ticker": "ORCL"
+    },
+    {
+      "company_name": "Salesforce, Inc.",
+      "ev_ntm_ebitda": 22.78,
+      "ev_ntm_revenue": 6.62,
+      "notes": "Used Disfold Enterprise to Revenue and Enterprise to EBITDA plus Forward PE as proxies.",
+      "pe_ntm": 24.19,
+      "source": "Disfold valuation metrics (proxy; as-of late 2025)",
+      "ticker": "CRM"
+    },
+    {
+      "company_name": "ServiceNow, Inc.",
+      "ev_ntm_ebitda": 62.44,
+      "ev_ntm_revenue": 12.31,
+      "notes": "Note: Enterprise to EBITDA is very high due to lower EBITDA levels vs peers; still included for breadth.",
+      "pe_ntm": 37.54,
+      "source": "Disfold valuation metrics (proxy; as-of early 2026)",
+      "ticker": "NOW"
+    },
+    {
+      "company_name": "Adobe Inc.",
+      "ev_ntm_ebitda": 15.29,
+      "ev_ntm_revenue": 6.14,
+      "notes": "Used Disfold Enterprise to Revenue/Enterprise to EBITDA and Forward PE as EV/NTM-style proxies.",
+      "pe_ntm": 12.63,
+      "source": "Disfold valuation metrics (proxy; as-of early 2026)",
+      "ticker": "ADBE"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.21,
+      "2027": 0.19,
+      "2028": 0.17,
+      "2029": 0.16,
+      "2030": 0.15
+    },
+    "da_pct_sales": {
+      "2026": 0.053,
+      "2027": 0.054,
+      "2028": 0.0545,
+      "2029": 0.055,
+      "2030": 0.0555
+    },
+    "ebit_margin": {
+      "2026": 0.321,
+      "2027": 0.322,
+      "2028": 0.323,
+      "2029": 0.324,
+      "2030": 0.325
+    },
+    "nwc_pct_sales": {
+      "2026": -0.059,
+      "2027": -0.0585,
+      "2028": -0.058,
+      "2029": -0.0575,
+      "2030": -0.057
+    },
+    "revenue_growth": {
+      "2026": 0.14,
+      "2027": 0.13,
+      "2028": 0.12,
+      "2029": 0.11,
+      "2030": 0.1
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 32251000000.0,
+      "2024": 52535000000.0,
+      "2025": 91447000000.0
+    },
+    "da": {
+      "2023": 11946000000.0,
+      "2024": 15311000000.0,
+      "2025": 21136000000.0
+    },
+    "ebit": {
+      "2023": 84293000000.0,
+      "2024": 112390000000.0,
+      "2025": 129039000000.0
+    },
+    "nwc": {
+      "2023": -21200000000.0,
+      "2024": -21068000000.0,
+      "2025": -23550000000.0
+    },
+    "revenue": {
+      "2023": 307394000000.0,
+      "2024": 350018000000.0,
+      "2025": 402836000000.0
+    }
+  },
+  "notes": [
+    "Historical revenue and operating income (EBIT) are taken from Alphabet FY2023-2025 consolidated statements of income in the FY2025 Form 10-K. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm))",
+    "D&A is operationalized as depreciation of property and equipment from the consolidated statements of cash flows (amortization of intangibles is not explicitly separable as a single 'D&A' line item in the cash-flow section used here). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm))",
+    "NWC is defined as (Accounts receivable + Other current assets) - (Accounts payable + Accrued compensation and benefits + Accrued expenses and other current liabilities + Accrued revenue share + Deferred revenue), i.e., net working capital excluding cash and securities, which can be negative at Alphabet due to deferred revenue/payables dynamics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm))",
+    "Tax rate (0.16), WACC (0.085), terminal growth (0.03), terminal EV/EBITDA exit multiple (18.0), and NOL utilization percent (0.25) are base-case modeling assumptions rather than explicitly stated in the filing.",
+    "current_price is set to an implied per-share value derived from the market cap snapshot and the FY2025 consolidated diluted share denominator to avoid share-class reconciliation issues for GOOG vs consolidated EPS share counts. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm))",
+    "Investments in the assumptions include marketable + non-marketable securities from the balance sheet (excluding equity-method detail not separately decomposed for this pipeline), which is a modeling choice; if your pipeline instead treats some securities as non-operating excluded from 'investments', adjust accordingly. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Continued AI-driven product improvements that increase advertiser ROI and improve cloud attachment/consumption growth.",
+      "Progress on planned acquisitions, including Wiz (expected close in 2026) and Intersect (expected close in 1H 2026), which could accelerate cloud security/data infrastructure capabilities. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm))",
+      "Evidence of easing capex intensity without impairing revenue growth, improving forward free-cash-flow conversion."
+    ],
+    "company_overview": [
+      "Alphabet is organized by Google Services, Google Cloud, and Other Bets segments.",
+      "Revenues are generated primarily from online advertising, cloud-based solutions, and subscriptions/platforms/devices.",
+      "FY2025 operating margin was ~0.32, indicating strong operating profitability and monetization leverage across its ad and cloud businesses. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm))"
+    ],
+    "current_context": [
+      "FY2025 revenues were $402,836,000,000 and operating income (EBIT) was $129,039,000,000. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm))",
+      "FY2025 capex (purchases of property and equipment) was $91,447,000,000 and depreciation of property and equipment was $21,136,000,000, consistent with ongoing technical infrastructure buildout. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm))",
+      "Alphabet had net operating loss carryforwards totaling approximately $41,000,000,000 (federal/state/foreign combined). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth decelerates gradually from recent mid-teens levels toward low-double-digit/upper-single-digit by 2030, reflecting mature ad and cloud expansion while still scaling monetization.",
+      "EBIT margin is assumed to stabilize near the recent ~0.32 level, supported by operating leverage and sustained advertising efficiency. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm))",
+      "Capital intensity normalizes over the forecast period as the post-2025 infrastructure spend scales from peak investment toward steadier maintenance/expansion. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm))",
+      "Negative net working capital (excluding cash/securities) implies structural cash conversion support as deferred revenue and payables outpace receivables within the selected NWC definition."
+    ],
+    "key_risks": [
+      "Ad demand cyclicality and increased traffic acquisition/content costs could pressure margins versus the base case.",
+      "Sustained elevated capex could reduce free cash flow or lead to lower-than-expected operating leverage.",
+      "Regulatory and legal developments (fines/settlements, antitrust remedies) could impact costs and growth expectations. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm))"
+    ],
+    "sources": [
+      {
+        "label": "Alphabet FY2025 Form 10-K (SEC, consolidated financials and NOL carryforwards)",
+        "notes": "Used for FY2023-2025 revenue, operating income, cash flow items (depreciation of property and equipment; purchases of property and equipment), balance sheet items for 2024-2025, debt disclosures, noncontrolling interests, and NOL carryforward amounts. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm))",
+        "url": null
+      },
+      {
+        "label": "Alphabet FY2024 Form 10-K (SEC, balance sheet for 2023-2024)",
+        "notes": "Used to source 2023-2024 balance-sheet line items (current assets/liabilities) for NWC construction. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm))",
+        "url": null
+      },
+      {
+        "label": "Market price / market cap snapshot for GOOG (as of 2026-03-21)",
+        "notes": "Used market data snapshot to set current_price; diluted_shares are from the FY2025 EPS denominator table, and current_price here is implied from market cap / diluted_shares to maintain internal consistency. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm))",
+        "url": null
+      },
+      {
+        "label": "Peer valuation proxies (Disfold valuation metrics pages)",
+        "notes": "Used Disfold Enterprise to Revenue, Enterprise to EBITDA, and Forward PE as EV/NTM-style proxies for comp screening; values are as-of specific market dates. ([disfold.com](https://disfold.com/company/microsoft-corporation/financials/))",
+        "url": null
+      }
+    ],
+    "subtitle": "Alphabet (GOOG) DCF + Peer Multiples Input Package",
+    "valuation_summary": [
+      "DCF uses a long-run terminal structure consistent with a mature large-cap platform: WACC 0.085 and terminal growth 0.03, with a terminal EV/EBITDA multiple of 18.0. (Assumption)",
+      "Peer set multiples (EV/Revenue and EV/EBITDA proxies) from Disfold cluster meaningfully around mid-to-high teens for EV/EBITDA, supporting the reasonableness of an 18.0 terminal exit multiple. ([disfold.com](https://disfold.com/company/microsoft-corporation/financials/))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 240.23954729354048,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.32,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 16.0,
+        "terminal_growth": 0.025,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.09
+      },
+      "description": "Modestly lower revenue growth and margin compression; higher discount rate and lower terminal multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.225,
+          "2027": 0.205,
+          "2028": 0.18,
+          "2029": 0.17,
+          "2030": 0.16
+        },
+        "da_pct_sales": {
+          "2026": 0.054,
+          "2027": 0.055,
+          "2028": 0.0555,
+          "2029": 0.056,
+          "2030": 0.0565
+        },
+        "ebit_margin": {
+          "2026": 0.316,
+          "2027": 0.317,
+          "2028": 0.318,
+          "2029": 0.319,
+          "2030": 0.32
+        },
+        "nwc_pct_sales": {
+          "2026": -0.062,
+          "2027": -0.0615,
+          "2028": -0.061,
+          "2029": -0.0605,
+          "2030": -0.06
+        },
+        "revenue_growth": {
+          "2026": 0.12,
+          "2027": 0.11,
+          "2028": 0.1,
+          "2029": 0.09,
+          "2030": 0.08
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 240.23954729354048,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.329,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 20.0,
+        "terminal_growth": 0.031,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.083
+      },
+      "description": "Modestly higher revenue growth and sustained margin improvement; slightly lower discount rate and higher terminal multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.2,
+          "2027": 0.18,
+          "2028": 0.165,
+          "2029": 0.155,
+          "2030": 0.145
+        },
+        "da_pct_sales": {
+          "2026": 0.053,
+          "2027": 0.0535,
+          "2028": 0.054,
+          "2029": 0.0545,
+          "2030": 0.055
+        },
+        "ebit_margin": {
+          "2026": 0.325,
+          "2027": 0.326,
+          "2028": 0.327,
+          "2029": 0.328,
+          "2030": 0.329
+        },
+        "nwc_pct_sales": {
+          "2026": -0.0575,
+          "2027": -0.057,
+          "2028": -0.0565,
+          "2029": -0.056,
+          "2030": -0.0555
+        },
+        "revenue_growth": {
+          "2026": 0.16,
+          "2027": 0.15,
+          "2028": 0.14,
+          "2029": 0.13,
+          "2030": 0.12
+        }
+      }
+    }
+  },
+  "ticker": "GOOG"
+}

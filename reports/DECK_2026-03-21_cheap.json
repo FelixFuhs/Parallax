@@ -1,0 +1,685 @@
+{
+  "_meta": {
+    "cost_usd": 0.026804,
+    "generated_at": "2026-03-21T17:16:38Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12968,
+      "prompt": 2515,
+      "reasoning": 8073
+    }
+  },
+  "_valuation": {
+    "company_name": "Deckers Outdoor Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 100.43,
+        "description": "Base case",
+        "enterprise_value": 17531675081.71223,
+        "equity_value": 19420863081.71223,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 20218088178.634975,
+        "implied_market_cap": 19420863081.71223,
+        "investments_adjustment": 0.0,
+        "net_debt": -1889188000.0,
+        "per_share_value": 127.20811607855002,
+        "projected_years": [
+          {
+            "capex": 124530616.536,
+            "cash_taxes": 280193887.20600003,
+            "da": 75259807.3848,
+            "delta_nwc": 20643359.912,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 1218234292.2,
+            "ebit_margin": 0.225,
+            "ebitda": 1293494099.5848,
+            "fcff": 868126235.9308,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 221989359.912,
+            "present_value_fcff": 801593938.9942752,
+            "revenue": 5414374632.0,
+            "revenue_growth": 0.086,
+            "year": 2026
+          },
+          {
+            "capex": 127454378.83728,
+            "cash_taxes": 302472414.50429046,
+            "da": 80817662.94454801,
+            "delta_nwc": 18435945.621960044,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 1315097454.36648,
+            "ebit_margin": 0.227,
+            "ebitda": 1395915117.311028,
+            "fcff": 947552378.3474976,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 240425305.53396004,
+            "present_value_fcff": 807878987.9924679,
+            "revenue": 5793380856.240001,
+            "revenue_growth": 0.07,
+            "year": 2027
+          },
+          {
+            "capex": 132031149.71370961,
+            "cash_taxes": 322033185.6272992,
+            "da": 85973771.90660161,
+            "delta_nwc": 17496010.18584481,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 1400144285.3360834,
+            "ebit_margin": 0.228,
+            "ebitda": 1486118057.242685,
+            "fcff": 1014557711.7158314,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 257921315.71980485,
+            "present_value_fcff": 798714164.6902266,
+            "revenue": 6140983707.614401,
+            "revenue_growth": 0.06,
+            "year": 2028
+          },
+          {
+            "capex": 136053494.04219705,
+            "cash_taxes": 341235120.5334533,
+            "da": 91026266.25204135,
+            "delta_nwc": 17425041.27035585,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 1483630958.8411012,
+            "ebit_margin": 0.229,
+            "ebitda": 1574657225.0931425,
+            "fcff": 1079943569.2471364,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 275346356.9901607,
+            "present_value_fcff": 785031776.0287257,
+            "revenue": 6478737811.533193,
+            "revenue_growth": 0.055,
+            "year": 2029
+          },
+          {
+            "capex": 139454831.393252,
+            "cash_taxes": 359861491.74161124,
+            "da": 95917713.29974893,
+            "delta_nwc": 17168655.200562954,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 1564615181.4852662,
+            "ebit_margin": 0.23,
+            "ebitda": 1660532894.785015,
+            "fcff": 1144047916.449589,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 292515012.19072366,
+            "present_value_fcff": 767895161.9689559,
+            "revenue": 6802674702.109853,
+            "revenue_growth": 0.05,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 20218088178.634975,
+        "terminal_value_present_value": 13570561052.03758,
+        "upside_downside_pct": 0.2666346318684658
+      },
+      "bear": {
+        "current_price": 100.43,
+        "description": "Moderately weaker demand/mix with some margin pressure and higher working-capital intensity; higher WACC and slightly lower terminal growth. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))",
+        "enterprise_value": 16080971211.8917,
+        "equity_value": 17970159211.8917,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 18435680978.227955,
+        "implied_market_cap": 17970159211.8917,
+        "investments_adjustment": 0.0,
+        "net_debt": -1889188000.0,
+        "per_share_value": 117.70589645569989,
+        "projected_years": [
+          {
+            "capex": 120926019.06,
+            "cash_taxes": 275657578.55944,
+            "da": 74167958.3568,
+            "delta_nwc": 24382568.912,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1198511211.128,
+            "ebit_margin": 0.223,
+            "ebitda": 1272679169.4848,
+            "fcff": 851713002.9533601,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 225728568.912,
+            "present_value_fcff": 784988942.8141568,
+            "revenue": 5374489736.0,
+            "revenue_growth": 0.078,
+            "year": 2026
+          },
+          {
+            "capex": 122946827.20073599,
+            "cash_taxes": 294614908.71543807,
+            "da": 79486553.3995456,
+            "delta_nwc": 20165085.489471972,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1280934385.719296,
+            "ebit_margin": 0.224,
+            "ebitda": 1360420939.1188416,
+            "fcff": 922694117.7131956,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 245893654.40147197,
+            "present_value_fcff": 783787396.3882823,
+            "revenue": 5718457079.104,
+            "revenue_growth": 0.064,
+            "year": 2027
+          },
+          {
+            "capex": 126692416.58754912,
+            "cash_taxes": 312206312.3050318,
+            "da": 84159962.44744334,
+            "delta_nwc": 19557123.210535675,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 1357418749.152312,
+            "ebit_margin": 0.225,
+            "ebitda": 1441578711.5997553,
+            "fcff": 983122859.4966388,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 265450777.61200765,
+            "present_value_fcff": 769694848.4522946,
+            "revenue": 6032972218.45472,
+            "revenue_growth": 0.055,
+            "year": 2028
+          },
+          {
+            "capex": 129859727.00223784,
+            "cash_taxes": 329273590.7110402,
+            "da": 88684691.61128438,
+            "delta_nwc": 19607159.709977835,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 1431624307.439305,
+            "ebit_margin": 0.226,
+            "ebitda": 1520308999.0505896,
+            "fcff": 1041568521.6273334,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 285057937.3219855,
+            "present_value_fcff": 751569060.5092734,
+            "revenue": 6334620829.377456,
+            "revenue_growth": 0.05,
+            "year": 2029
+          },
+          {
+            "capex": 132393575.33398882,
+            "cash_taxes": 345613428.4093778,
+            "da": 93006486.67212714,
+            "delta_nwc": 19447285.946188807,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 1502667080.0407732,
+            "ebit_margin": 0.227,
+            "ebitda": 1595673566.7129004,
+            "fcff": 1098219277.023345,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 304505223.2681743,
+            "present_value_fcff": 730365703.9515108,
+            "revenue": 6619678766.699441,
+            "revenue_growth": 0.045,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 18435680978.227955,
+        "terminal_value_present_value": 12260565259.776182,
+        "upside_downside_pct": 0.1720192816459214
+      },
+      "bull": {
+        "current_price": 100.43,
+        "description": "Moderately better brand demand/operating leverage; slightly higher revenue growth and EBIT margin with modestly improved working-capital needs. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))",
+        "enterprise_value": 19099778478.09043,
+        "equity_value": 20988966478.09043,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 22155382584.741924,
+        "implied_market_cap": 20988966478.09043,
+        "investments_adjustment": 0.0,
+        "net_debt": -1889188000.0,
+        "per_share_value": 137.47931144357392,
+        "projected_years": [
+          {
+            "capex": 128292260.79,
+            "cash_taxes": 285027188.7594,
+            "da": 76429431.96000001,
+            "delta_nwc": 19753428.170000017,
+            "discount_factor": 0.9250693802035153,
+            "ebit": 1239248646.78,
+            "ebit_margin": 0.227,
+            "ebitda": 1315678078.74,
+            "fcff": 882605201.0206001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 221099428.17000002,
+            "present_value_fcff": 816471046.2725255,
+            "revenue": 5459245140.0,
+            "revenue_growth": 0.095,
+            "year": 2026
+          },
+          {
+            "capex": 132045491.82374999,
+            "cash_taxes": 309103824.638085,
+            "da": 82455073.783275,
+            "delta_nwc": 19516801.375499994,
+            "discount_factor": 0.8557533581901159,
+            "ebit": 1343929672.3395,
+            "ebit_margin": 0.229,
+            "ebitda": 1426384746.1227748,
+            "fcff": 965718628.28544,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 240616229.5455,
+            "present_value_fcff": 826416959.2220175,
+            "revenue": 5868688525.5,
+            "revenue_growth": 0.075,
+            "year": 2027
+          },
+          {
+            "capex": 137503372.152465,
+            "cash_taxes": 332070643.7482029,
+            "da": 88127161.24317074,
+            "delta_nwc": 18765131.560286224,
+            "discount_factor": 0.7916312286680074,
+            "ebit": 1443785407.6008823,
+            "ebit_margin": 0.231,
+            "ebitda": 1531912568.844053,
+            "fcff": 1043573421.3830988,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 259381361.10578623,
+            "present_value_fcff": 826125309.7747787,
+            "revenue": 6250153279.657499,
+            "revenue_growth": 0.065,
+            "year": 2028
+          },
+          {
+            "capex": 142440993.2433944,
+            "cash_taxes": 353518669.74267566,
+            "da": 93746049.04158284,
+            "delta_nwc": 18875462.904565662,
+            "discount_factor": 0.7323138100536609,
+            "ebit": 1537037694.5333724,
+            "ebit_margin": 0.232,
+            "ebitda": 1630783743.5749552,
+            "fcff": 1115948617.6843195,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 278256824.0103519,
+            "present_value_fcff": 817224584.0405202,
+            "revenue": 6625162476.43695,
+            "revenue_growth": 0.06,
+            "year": 2029
+          },
+          {
+            "capex": 146780474.66546062,
+            "cash_taxes": 374569792.25343025,
+            "da": 99251559.05950195,
+            "delta_nwc": 18798898.52688986,
+            "discount_factor": 0.6774410823808149,
+            "ebit": 1628564314.1453488,
+            "ebit_margin": 0.233,
+            "ebitda": 1727815873.2048507,
+            "fcff": 1187666707.7590702,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 297055722.53724176,
+            "present_value_fcff": 804574220.0119635,
+            "revenue": 6989546412.640982,
+            "revenue_growth": 0.055,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 22155382584.741924,
+        "terminal_value_present_value": 15008966358.768625,
+        "upside_downside_pct": 0.36890681513067713
+      }
+    },
+    "ticker": "DECK"
+  },
+  "assumptions": {
+    "cash": 1889188000.0,
+    "current_price": 100.43,
+    "debt": 0.0,
+    "diluted_shares": 152670000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.23,
+    "tax_rate": 0.23,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.083
+  },
+  "company_name": "Deckers Outdoor Corporation",
+  "comps": [
+    {
+      "company_name": "Skechers USA, Inc.",
+      "ev_ntm_ebitda": 10.9,
+      "ev_ntm_revenue": 1.1,
+      "notes": "EV/Revenue NTM 1.1x; EV/EBITDA NTM 10.9x. ([alvarezandmarsal.com](https://www.alvarezandmarsal.com/sites/default/files/article/pdf/A%26M_468992_CF_EU_Sporting%20Goods%20Insights%20paper%202025.pdf))",
+      "pe_ntm": null,
+      "source": "A&M Research Sporting Goods Insights 2025 (CapitalIQ as of 30/06/2025)",
+      "ticker": "SKX"
+    },
+    {
+      "company_name": "On Holding AG",
+      "ev_ntm_ebitda": 25.4,
+      "ev_ntm_revenue": 4.4,
+      "notes": "EV/Revenue NTM 4.4x; EV/EBITDA NTM 25.4x. ([alvarezandmarsal.com](https://www.alvarezandmarsal.com/sites/default/files/article/pdf/A%26M_468992_CF_EU_Sporting%20Goods%20Insights%20paper%202025.pdf))",
+      "pe_ntm": null,
+      "source": "A&M Research Sporting Goods Insights 2025 (CapitalIQ as of 30/06/2025)",
+      "ticker": "ONON"
+    },
+    {
+      "company_name": "Wolverine World Wide, Inc.",
+      "ev_ntm_ebitda": 13.4,
+      "ev_ntm_revenue": 1.2,
+      "notes": "EV/Revenue NTM 1.2x; EV/EBITDA NTM 13.4x. ([alvarezandmarsal.com](https://www.alvarezandmarsal.com/sites/default/files/article/pdf/A%26M_468992_CF_EU_Sporting%20Goods%20Insights%20paper%202025.pdf))",
+      "pe_ntm": null,
+      "source": "A&M Research Sporting Goods Insights 2025 (CapitalIQ as of 30/06/2025)",
+      "ticker": "WWV"
+    },
+    {
+      "company_name": "Xtep International Holdings Limited",
+      "ev_ntm_ebitda": 5.8,
+      "ev_ntm_revenue": 0.9,
+      "notes": "EV/Revenue NTM 0.9x; EV/EBITDA NTM 5.8x. ([alvarezandmarsal.com](https://www.alvarezandmarsal.com/sites/default/files/article/pdf/A%26M_468992_CF_EU_Sporting%20Goods%20Insights%20paper%202025.pdf))",
+      "pe_ntm": null,
+      "source": "A&M Research Sporting Goods Insights 2025 (CapitalIQ as of 30/06/2025)",
+      "ticker": "XTEPY"
+    },
+    {
+      "company_name": "Li Ning Company Limited",
+      "ev_ntm_ebitda": 4.8,
+      "ev_ntm_revenue": 0.8,
+      "notes": "EV/Revenue NTM 0.8x; EV/EBITDA NTM 4.8x. ([alvarezandmarsal.com](https://www.alvarezandmarsal.com/sites/default/files/article/pdf/A%26M_468992_CF_EU_Sporting%20Goods%20Insights%20paper%202025.pdf))",
+      "pe_ntm": null,
+      "source": "A&M Research Sporting Goods Insights 2025 (CapitalIQ as of 30/06/2025)",
+      "ticker": "LNNGY"
+    },
+    {
+      "company_name": "Columbia Sportswear Company",
+      "ev_ntm_ebitda": 9.6,
+      "ev_ntm_revenue": 0.9,
+      "notes": "EV/Revenue NTM 0.9x; EV/EBITDA NTM 9.6x. ([alvarezandmarsal.com](https://www.alvarezandmarsal.com/sites/default/files/article/pdf/A%26M_468992_CF_EU_Sporting%20Goods%20Insights%20paper%202025.pdf))",
+      "pe_ntm": null,
+      "source": "A&M Research Sporting Goods Insights 2025 (CapitalIQ as of 30/06/2025)",
+      "ticker": "COLM"
+    },
+    {
+      "company_name": "V.F. Corporation",
+      "ev_ntm_ebitda": 11.0,
+      "ev_ntm_revenue": 1.0,
+      "notes": "EV/Revenue NTM 1.0x; EV/EBITDA NTM 11.0x. ([alvarezandmarsal.com](https://www.alvarezandmarsal.com/sites/default/files/article/pdf/A%26M_468992_CF_EU_Sporting%20Goods%20Insights%20paper%202025.pdf))",
+      "pe_ntm": null,
+      "source": "A&M Research Sporting Goods Insights 2025 (CapitalIQ as of 30/06/2025)",
+      "ticker": "VFC"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.023,
+      "2027": 0.022,
+      "2028": 0.0215,
+      "2029": 0.021,
+      "2030": 0.0205
+    },
+    "da_pct_sales": {
+      "2026": 0.0139,
+      "2027": 0.01395,
+      "2028": 0.014,
+      "2029": 0.01405,
+      "2030": 0.0141
+    },
+    "ebit_margin": {
+      "2026": 0.225,
+      "2027": 0.227,
+      "2028": 0.228,
+      "2029": 0.229,
+      "2030": 0.23
+    },
+    "nwc_pct_sales": {
+      "2026": 0.041,
+      "2027": 0.0415,
+      "2028": 0.042,
+      "2029": 0.0425,
+      "2030": 0.043
+    },
+    "revenue_growth": {
+      "2026": 0.086,
+      "2027": 0.07,
+      "2028": 0.06,
+      "2029": 0.055,
+      "2030": 0.05
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 81025000.0,
+      "2024": 89365000.0,
+      "2025": 86171000.0
+    },
+    "da": {
+      "2023": 47858000.0,
+      "2024": 57587000.0,
+      "2025": 69353000.0
+    },
+    "ebit": {
+      "2023": 652751000.0,
+      "2024": 927514000.0,
+      "2025": 1179092000.0
+    },
+    "nwc": {
+      "2023": 431078000.0,
+      "2024": 221439000.0,
+      "2025": 201346000.0
+    },
+    "revenue": {
+      "2023": 3627286000.0,
+      "2024": 4287763000.0,
+      "2025": 4985612000.0
+    }
+  },
+  "notes": [
+    "Fiscal year alignment: historical years are Deckers\u2019 fiscal years ended March 31 (FY2023=ended Mar 31, 2023; FY2024=ended Mar 31, 2024; FY2025=ended Mar 31, 2025). Historical revenue/EBIT/D&A/capex from FY2025 and FY2024 Form 10-K statements. ([sec.gov](https://www.sec.gov/Archives/edgar/data/910521/000091052125000017/deck-20250331.htm))",
+    "EBIT in the historical section is proxied as \u201cIncome from operations.\u201d D&A is proxied as \u201cDepreciation, amortization, and accretion\u201d from the cash flow reconciliation. ([sec.gov](https://www.sec.gov/Archives/edgar/data/910521/000091052125000017/deck-20250331.htm))",
+    "NWC construction: modeled as (Total current assets \u2212 cash and cash equivalents) \u2212 Total current liabilities (i.e., excludes cash; assumes no separate short-term investments line item). This is a modeling choice; actual \u201cNWC\u201d may differ under alternative definitions. ([sec.gov](https://www.sec.gov/Archives/edgar/data/910521/000091052125000017/deck-20250331.htm))",
+    "Tax rate is set to 0.23 based on management\u2019s FY2026 effective tax rate guidance; long-run WACC is an analyst assumption (not disclosed in the filings) to support DCF. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))",
+    "NOLs: Deckers discloses NOL-related amounts within deferred tax assets, but no clear standalone NOL balance and utilization schedule suitable for this DCF input spec was found in the available sections; therefore nol_balance and nol_utilization_pct are set to null. ([sec.gov](https://www.sec.gov/Archives/edgar/data/910521/000091052125000017/deck-20250331.htm))",
+    "Current price uses the tool-reported DECK price; \u201cas_of_date\u201d is set to 2026-03-21."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Further upward revisions to FY2026 and/or FY2027 demand and margin outlook driven by UGG/HOKA sell-through and pricing actions. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))",
+      "Tariff/trade-policy outcomes that affect cost and inventory flow timing (both directions) could move operating margins. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))",
+      "Sustained buyback pace (already very large in FY2026 YTD) could amplify per-share value even if total enterprise value changes slower. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))"
+    ],
+    "company_overview": [
+      "Deckers is a global designer, marketer, and distributor of footwear, apparel, and accessories, with brands including UGG and HOKA. ([sec.gov](https://www.sec.gov/Archives/edgar/data/910521/000091052126000002/deckex991pressrelease-1231.htm))",
+      "Revenue is generated across wholesale and direct-to-consumer channels with meaningful international exposure. ([sec.gov](https://www.sec.gov/Archives/edgar/data/910521/000091052125000017/deck-20250331.htm))",
+      "The company operates with a strong cash position and no outstanding borrowings under revolving credit facilities at recent reporting dates. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))"
+    ],
+    "current_context": [
+      "As of Jan 29, 2026, management raised its full fiscal 2026 net sales outlook to $5.400 billion to $5.425 billion (mid-teens HOKA growth; mid-single-digit UGG growth). ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))",
+      "Full-year operating margin is guided to approximately 22.5% with an effective tax rate of approximately 23%. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))",
+      "Q3 FY2026 results showed operating income of $614.4 million and net sales up to $1.958 billion year over year. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))",
+      "Balance sheet strength: cash and cash equivalents were $2.087 billion at Dec 31, 2025 and the company reported no outstanding borrowings. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))"
+    ],
+    "investment_highlights": [
+      "Base case chains from FY2025 revenue growth into a moderate deceleration path consistent with maturity after strong brand momentum. ([sec.gov](https://www.sec.gov/Archives/edgar/data/910521/000091052125000017/deck-20250331.htm))",
+      "EBIT margin is set near the FY2026 operating margin guide (~22.5%) and then modestly stabilizes, reflecting continued pricing power and operating leverage. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))",
+      "Capital intensity is modeled with a higher FY2026 capex/sales profile aligned to recent company expectations, then gradually normalizes. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))",
+      "Working capital is normalized toward a lower, more stable level (NWC excluding cash), consistent with the company\u2019s recent cash-flow profile and inventory management. ([sec.gov](https://www.sec.gov/Archives/edgar/data/910521/000091052125000017/deck-20250331.htm))",
+      "Terminal value is anchored using a Gordon growth framework with conservative long-run growth assumptions."
+    ],
+    "key_risks": [
+      "Demand softness, especially if discretionary spending weakens or competitors pressure pricing and promotions. ([sec.gov](https://www.sec.gov/Archives/edgar/data/910521/000091052125000017/deck-20250331.htm))",
+      "Margin compression from higher input costs (tariffs/logistics), mix shifts, or reduced pricing power. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))",
+      "Working-capital and inventory risk (forecast error leading to slower cash conversion). ([sec.gov](https://www.sec.gov/Archives/edgar/data/910521/000091052125000017/deck-20250331.htm))"
+    ],
+    "sources": [
+      {
+        "label": "Deckers Outdoor FY2025 Form 10-K (fiscal year ended Mar 31, 2025) \u2014 financial statements and guidance context",
+        "notes": "Provides FY2025/FY2024/FY2023 net sales, income from operations (EBIT proxy), D&A (depreciation/amortization/accretion), capex (purchases of property and equipment), and balance-sheet cash/current assets/liabilities. ([sec.gov](https://www.sec.gov/Archives/edgar/data/910521/000091052125000017/deck-20250331.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/910521/000091052125000017/deck-20250331.htm"
+      },
+      {
+        "label": "Deckers Outdoor FY2024 Form 10-K (fiscal year ended Mar 31, 2024) \u2014 balance sheet for FY2023 NWC construction",
+        "notes": "Provides cash, total current assets, and total current liabilities as of Mar 31, 2023 for NWC excluding cash. ([sec.gov](https://www.sec.gov/Archives/edgar/data/910521/000091052124000017/deck-20240331.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/910521/000091052124000017/deck-20240331.htm"
+      },
+      {
+        "label": "Deckers Brands Q3 FY2026 results + updated FY2026 outlook (Jan 29, 2026)",
+        "notes": "Provides FY2026 net sales range, guided operating margin (~22.5%), guided effective tax rate (~23%), and balance-sheet highlights (no outstanding borrowings at that reporting date). ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))",
+        "url": "https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx"
+      },
+      {
+        "label": "Alvarez & Marsal \u2014 Sporting Goods Insights 2025 (peer EV/NTM multiples)",
+        "notes": "Supplies EV/Revenue NTM and EV/EBITDA NTM multiples for footwear/outdoor peers used in the comps table (CapitalIQ snapshot as of 30/06/2025). ([alvarezandmarsal.com](https://www.alvarezandmarsal.com/sites/default/files/article/pdf/A%26M_468992_CF_EU_Sporting%20Goods%20Insights%20paper%202025.pdf))",
+        "url": "https://www.alvarezandmarsal.com/sites/default/files/article/pdf/A%26M_468992_CF_EU_Sporting%20Goods%20Insights%20paper%202025.pdf"
+      }
+    ],
+    "subtitle": "DCF inputs \u2014 Deckers (DECK): UGG & HOKA margin + growth thesis",
+    "valuation_summary": [
+      "DCF driver set uses company-guided tax rate and operating margin for FY2026, then applies sober moderation in growth and margins into the outer forecast years. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))",
+      "Comps are cross-checked using EV/NTM revenue and EV/NTM EBITDA multiples for footwear/adjacent peers from a CapitalIQ-based market snapshot. ([alvarezandmarsal.com](https://www.alvarezandmarsal.com/sites/default/files/article/pdf/A%26M_468992_CF_EU_Sporting%20Goods%20Insights%20paper%202025.pdf))",
+      "Net debt is modeled as cash-rich with zero debt outstanding, consistent with reported revolving credit usage/borrowings. ([sec.gov](https://www.sec.gov/Archives/edgar/data/910521/000091052125000017/deck-20250331.htm))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.227,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.024,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.085
+      },
+      "description": "Moderately weaker demand/mix with some margin pressure and higher working-capital intensity; higher WACC and slightly lower terminal growth. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0225,
+          "2027": 0.0215,
+          "2028": 0.021,
+          "2029": 0.0205,
+          "2030": 0.02
+        },
+        "da_pct_sales": {
+          "2026": 0.0138,
+          "2027": 0.0139,
+          "2028": 0.01395,
+          "2029": 0.014,
+          "2030": 0.01405
+        },
+        "ebit_margin": {
+          "2026": 0.223,
+          "2027": 0.224,
+          "2028": 0.225,
+          "2029": 0.226,
+          "2030": 0.227
+        },
+        "nwc_pct_sales": {
+          "2026": 0.042,
+          "2027": 0.043,
+          "2028": 0.044,
+          "2029": 0.045,
+          "2030": 0.046
+        },
+        "revenue_growth": {
+          "2026": 0.078,
+          "2027": 0.064,
+          "2028": 0.055,
+          "2029": 0.05,
+          "2030": 0.045
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.233,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.026,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.081
+      },
+      "description": "Moderately better brand demand/operating leverage; slightly higher revenue growth and EBIT margin with modestly improved working-capital needs. ([ir.deckers.com](https://ir.deckers.com/news-events/press-releases/press-release/2026/Deckers-Brands-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx))",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0235,
+          "2027": 0.0225,
+          "2028": 0.022,
+          "2029": 0.0215,
+          "2030": 0.021
+        },
+        "da_pct_sales": {
+          "2026": 0.014,
+          "2027": 0.01405,
+          "2028": 0.0141,
+          "2029": 0.01415,
+          "2030": 0.0142
+        },
+        "ebit_margin": {
+          "2026": 0.227,
+          "2027": 0.229,
+          "2028": 0.231,
+          "2029": 0.232,
+          "2030": 0.233
+        },
+        "nwc_pct_sales": {
+          "2026": 0.0405,
+          "2027": 0.041,
+          "2028": 0.0415,
+          "2029": 0.042,
+          "2030": 0.0425
+        },
+        "revenue_growth": {
+          "2026": 0.095,
+          "2027": 0.075,
+          "2028": 0.065,
+          "2029": 0.06,
+          "2030": 0.055
+        }
+      }
+    }
+  },
+  "ticker": "DECK"
+}

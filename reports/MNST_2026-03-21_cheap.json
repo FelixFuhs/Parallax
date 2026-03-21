@@ -1,0 +1,675 @@
+{
+  "_meta": {
+    "cost_usd": 0.023289,
+    "generated_at": "2026-03-21T17:18:53Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10808,
+      "prompt": 2515,
+      "reasoning": 7421
+    }
+  },
+  "_valuation": {
+    "company_name": "Monster Beverage Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 73.69,
+        "description": "Base case",
+        "enterprise_value": 42034939497.73099,
+        "equity_value": 45287469497.73099,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 49051346749.86806,
+        "implied_market_cap": 45287469497.73099,
+        "investments_adjustment": 1164413000.0,
+        "net_debt": -2088117000.0,
+        "per_share_value": 46.00276651426123,
+        "projected_years": [
+          {
+            "capex": 223947261.0,
+            "cash_taxes": 552159715.8928,
+            "da": 107494685.28,
+            "delta_nwc": 114959552.03999996,
+            "discount_factor": 0.9302325581395349,
+            "ebit": 2552998775.3999996,
+            "ebit_margin": 0.285,
+            "ebitda": 2660493460.68,
+            "fcff": 1769426931.7471998,
+            "nol_balance_end": 0.0,
+            "nol_used": 173000000.0,
+            "nwc": 1263062552.04,
+            "present_value_fcff": 1645978541.1601858,
+            "revenue": 8957890440.0,
+            "revenue_growth": 0.08,
+            "year": 2026
+          },
+          {
+            "capex": 230038626.49920005,
+            "cash_taxes": 629309002.5596449,
+            "da": 113102324.69544001,
+            "delta_nwc": 97999321.41359997,
+            "discount_factor": 0.8653326122228232,
+            "ebit": 2712538804.1364,
+            "ebit_margin": 0.283,
+            "ebitda": 2825641128.83184,
+            "fcff": 1868294178.3593953,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1361061873.4536,
+            "present_value_fcff": 1616695881.7604287,
+            "revenue": 9584942770.800001,
+            "revenue_growth": 0.07,
+            "year": 2027
+          },
+          {
+            "capex": 232578636.333462,
+            "cash_taxes": 652190944.7375203,
+            "da": 116289318.166731,
+            "delta_nwc": 74858403.03994799,
+            "discount_factor": 0.804960569509603,
+            "ebit": 2811167865.2479324,
+            "ebit_margin": 0.278,
+            "ebitda": 2927457183.4146633,
+            "fcff": 1967829199.303733,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1435920276.493548,
+            "present_value_fcff": 1584024912.9691591,
+            "revenue": 10112114623.194,
+            "revenue_growth": 0.055,
+            "year": 2028
+          },
+          {
+            "capex": 243044674.96846777,
+            "cash_taxes": 676636375.1122143,
+            "da": 119408905.52798635,
+            "delta_nwc": 75183572.22344732,
+            "discount_factor": 0.7488005297763749,
+            "ebit": 2916536099.6216135,
+            "ebit_margin": 0.276,
+            "ebitda": 3035945005.1496,
+            "fcff": 2041080382.845471,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1511103848.7169952,
+            "present_value_fcff": 1528362071.9908547,
+            "revenue": 10567159781.23773,
+            "revenue_growth": 0.045,
+            "year": 2029
+          },
+          {
+            "capex": 241776615.79471925,
+            "cash_taxes": 701152185.8046861,
+            "da": 124185261.7491058,
+            "delta_nwc": 60444153.948679924,
+            "discount_factor": 0.6965586323501163,
+            "ebit": 3022207697.4339914,
+            "ebit_margin": 0.275,
+            "ebitda": 3146392959.1830974,
+            "fcff": 2143020003.6350121,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1571548002.6656752,
+            "present_value_fcff": 1492739082.8309453,
+            "revenue": 10989846172.48724,
+            "revenue_growth": 0.04,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 49051346749.86806,
+        "terminal_value_present_value": 34167139007.019417,
+        "upside_downside_pct": -0.3757257902800756
+      },
+      "bear": {
+        "current_price": 73.69,
+        "description": "Modest underperformance vs base case: slightly lower revenue growth and EBIT margin with a slightly higher WACC and lower terminal growth.",
+        "enterprise_value": 37566664224.92084,
+        "equity_value": 40819194224.92084,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 43580232967.841125,
+        "implied_market_cap": 40819194224.92084,
+        "investments_adjustment": 1164413000.0,
+        "net_debt": -2088117000.0,
+        "per_share_value": 41.46391666514721,
+        "projected_years": [
+          {
+            "capex": 222910468.125,
+            "cash_taxes": 543211778.6644,
+            "da": 106997024.7,
+            "delta_nwc": 109112040.2249999,
+            "discount_factor": 0.9276437847866419,
+            "ebit": 2514430080.45,
+            "ebit_margin": 0.282,
+            "ebitda": 2621427105.1499996,
+            "fcff": 1746192818.1355999,
+            "nol_balance_end": 0.0,
+            "nol_used": 173000000.0,
+            "nwc": 1257215040.225,
+            "present_value_fcff": 1619844914.78256,
+            "revenue": 8916418725.0,
+            "revenue_growth": 0.075,
+            "year": 2026
+          },
+          {
+            "capex": 227903662.611,
+            "cash_taxes": 616859246.8004401,
+            "da": 112052634.117075,
+            "delta_nwc": 91214963.55675006,
+            "discount_factor": 0.8605229914532856,
+            "ebit": 2658876063.795,
+            "ebit_margin": 0.28,
+            "ebitda": 2770928697.912075,
+            "fcff": 1834950824.943885,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1348430003.78175,
+            "present_value_fcff": 1579017373.0503862,
+            "revenue": 9495985942.125,
+            "revenue_growth": 0.065,
+            "year": 2027
+          },
+          {
+            "capex": 229328060.50231877,
+            "cash_taxes": 636136098.2629539,
+            "da": 114664030.25115938,
+            "delta_nwc": 67421500.18908763,
+            "discount_factor": 0.7982588046876489,
+            "ebit": 2741965940.7885942,
+            "ebit_margin": 0.275,
+            "ebitda": 2856629971.0397534,
+            "fcff": 1923744312.0853932,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1415851503.9708376,
+            "present_value_fcff": 1535645835.0899494,
+            "revenue": 9970785239.23125,
+            "revenue_growth": 0.05,
+            "year": 2028
+          },
+          {
+            "capex": 238501182.9224115,
+            "cash_taxes": 656770040.0684286,
+            "da": 117176668.13144565,
+            "delta_nwc": 67003676.80763388,
+            "discount_factor": 0.7404998188197114,
+            "ebit": 2830905345.122537,
+            "ebit_margin": 0.273,
+            "ebitda": 2948082013.2539825,
+            "fcff": 1985807113.4555092,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1482855180.7784715,
+            "present_value_fcff": 1470489807.7246985,
+            "revenue": 10369616648.8005,
+            "revenue_growth": 0.04,
+            "year": 2029
+          },
+          {
+            "capex": 236116171.0931874,
+            "cash_taxes": 677267039.1211137,
+            "da": 121277851.51604624,
+            "delta_nwc": 51899931.32724643,
+            "discount_factor": 0.6869200545637396,
+            "ebit": 2919254478.9703174,
+            "ebit_margin": 0.272,
+            "ebitda": 3040532330.4863634,
+            "fcff": 2075249188.9448159,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1534755112.105718,
+            "present_value_fcff": 1425530286.1033292,
+            "revenue": 10732553231.508518,
+            "revenue_growth": 0.035,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 43580232967.841125,
+        "terminal_value_present_value": 29936136008.16991,
+        "upside_downside_pct": -0.4373196272880009
+      },
+      "bull": {
+        "current_price": 73.69,
+        "description": "Modest outperformance vs base case: slightly higher revenue growth and EBIT margin with a slightly lower WACC and higher terminal growth.",
+        "enterprise_value": 47414969192.07278,
+        "equity_value": 50667499192.07278,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 55640600190.78914,
+        "implied_market_cap": 50667499192.07278,
+        "investments_adjustment": 1164413000.0,
+        "net_debt": -2088117000.0,
+        "per_share_value": 51.46777157224969,
+        "projected_years": [
+          {
+            "capex": 224984053.875,
+            "cash_taxes": 561165381.74848,
+            "da": 107992345.86,
+            "delta_nwc": 120807063.85499978,
+            "discount_factor": 0.9328358208955223,
+            "ebit": 2591816300.64,
+            "ebit_margin": 0.288,
+            "ebitda": 2699808646.5,
+            "fcff": 1792852147.0215201,
+            "nol_balance_end": 0.0,
+            "nol_used": 173000000.0,
+            "nwc": 1268910063.8549998,
+            "present_value_fcff": 1672436704.3111193,
+            "revenue": 8999362155.0,
+            "revenue_growth": 0.085,
+            "year": 2026
+          },
+          {
+            "capex": 232183543.599,
+            "cash_taxes": 641910103.536702,
+            "da": 114156908.936175,
+            "delta_nwc": 104842569.10575008,
+            "discount_factor": 0.870182668745823,
+            "ebit": 2766853894.55475,
+            "ebit_margin": 0.286,
+            "ebitda": 2881010803.490925,
+            "fcff": 1902074587.2494726,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1373752632.9607499,
+            "present_value_fcff": 1655152340.4863558,
+            "revenue": 9674314316.625,
+            "revenue_growth": 0.075,
+            "year": 2027
+          },
+          {
+            "capex": 235859783.03931752,
+            "cash_taxes": 668529172.8651822,
+            "da": 117929891.51965876,
+            "delta_nwc": 82425157.97764516,
+            "discount_factor": 0.8117375641285662,
+            "ebit": 2881591262.349923,
+            "ebit_margin": 0.281,
+            "ebitda": 2999521153.8695817,
+            "fcff": 2012707039.987437,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1456177790.938395,
+            "present_value_fcff": 1633789909.9438188,
+            "revenue": 10254773175.622501,
+            "revenue_growth": 0.06,
+            "year": 2028
+          },
+          {
+            "capex": 247652772.19128343,
+            "cash_taxes": 696959506.0172781,
+            "da": 121672883.72876099,
+            "delta_nwc": 83576401.38132358,
+            "discount_factor": 0.7572178769856027,
+            "ebit": 3004135801.798612,
+            "ebit_margin": 0.279,
+            "ebitda": 3125808685.5273733,
+            "fcff": 2097620005.9374883,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1539754192.3197186,
+            "present_value_fcff": 1588355367.6185124,
+            "revenue": 10767511834.403627,
+            "revenue_growth": 0.05,
+            "year": 2029
+          },
+          {
+            "capex": 247545097.07293937,
+            "cash_taxes": 725712208.2189227,
+            "da": 127148163.49655522,
+            "delta_nwc": 69288938.65438724,
+            "discount_factor": 0.7063599598746294,
+            "ebit": 3128069863.012598,
+            "ebit_margin": 0.278,
+            "ebitda": 3255218026.5091534,
+            "fcff": 2212671782.5629044,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1609043130.9741058,
+            "present_value_fcff": 1562942751.5468578,
+            "revenue": 11252049866.95179,
+            "revenue_growth": 0.045,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 55640600190.78914,
+        "terminal_value_present_value": 39302292118.166115,
+        "upside_downside_pct": -0.3015636915151352
+      }
+    },
+    "ticker": "MNST"
+  },
+  "assumptions": {
+    "cash": 2088117000.0,
+    "current_price": 73.69,
+    "debt": 0.0,
+    "diluted_shares": 984451000.0,
+    "investments": 1164413000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 173000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.275,
+    "tax_rate": 0.232,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.03,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.075
+  },
+  "company_name": "Monster Beverage Corporation",
+  "comps": [
+    {
+      "company_name": "The Coca-Cola Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer forward valuation multiples (EV/NTM Revenue, EV/NTM EBITDA, P/E NTM) were not reliably captured from primary/high-quality sources within this run; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "KO"
+    },
+    {
+      "company_name": "PepsiCo, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer forward valuation multiples (EV/NTM Revenue, EV/NTM EBITDA, P/E NTM) were not reliably captured from primary/high-quality sources within this run; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PEP"
+    },
+    {
+      "company_name": "Keurig Dr Pepper Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer forward valuation multiples (EV/NTM Revenue, EV/NTM EBITDA, P/E NTM) were not reliably captured from primary/high-quality sources within this run; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "KDP"
+    },
+    {
+      "company_name": "Constellation Brands, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer forward valuation multiples (EV/NTM Revenue, EV/NTM EBITDA, P/E NTM) were not reliably captured from primary/high-quality sources within this run; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "STZ"
+    },
+    {
+      "company_name": "Molson Coors Beverage Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer forward valuation multiples (EV/NTM Revenue, EV/NTM EBITDA, P/E NTM) were not reliably captured from primary/high-quality sources within this run; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "TAP"
+    },
+    {
+      "company_name": "Brown-Forman Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer forward valuation multiples (EV/NTM Revenue, EV/NTM EBITDA, P/E NTM) were not reliably captured from primary/high-quality sources within this run; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "BF.B"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.025,
+      "2027": 0.024,
+      "2028": 0.023,
+      "2029": 0.023,
+      "2030": 0.022
+    },
+    "da_pct_sales": {
+      "2026": 0.012,
+      "2027": 0.0118,
+      "2028": 0.0115,
+      "2029": 0.0113,
+      "2030": 0.0113
+    },
+    "ebit_margin": {
+      "2026": 0.285,
+      "2027": 0.283,
+      "2028": 0.278,
+      "2029": 0.276,
+      "2030": 0.275
+    },
+    "nwc_pct_sales": {
+      "2026": 0.141,
+      "2027": 0.142,
+      "2028": 0.142,
+      "2029": 0.143,
+      "2030": 0.143
+    },
+    "revenue_growth": {
+      "2026": 0.08,
+      "2027": 0.07,
+      "2028": 0.055,
+      "2029": 0.045,
+      "2030": 0.04
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 221428000.0,
+      "2024": 264074000.0,
+      "2025": 132275000.0
+    },
+    "da": {
+      "2023": 68898000.0,
+      "2024": 80434000.0,
+      "2025": 114441000.0
+    },
+    "ebit": {
+      "2023": 1953355000.0,
+      "2024": 1930294000.0,
+      "2025": 2419354000.0
+    },
+    "nwc": {
+      "2023": 1174027000.0,
+      "2024": 1010698000.0,
+      "2025": 1148103000.0
+    },
+    "revenue": {
+      "2023": 7140027000.0,
+      "2024": 7492709000.0,
+      "2025": 8294343000.0
+    }
+  },
+  "notes": [
+    "EBIT is modeled using the company-reported operating income line item as the EBIT proxy.",
+    "D&A equals 'Depreciation and amortization' from the consolidated statements of cash flows; capex equals 'Purchases of property and equipment' (cash flow investing activity), using absolute values.",
+    "NWC definition (non-standard but explicit): NWC = (Total current assets \u2212 cash and cash equivalents \u2212 short-term investments) \u2212 total current liabilities. This excludes cash and short-term investments from the working-capital base; prepaid items and income taxes payable remain included because they are embedded in current assets/liabilities.",
+    "NWC for 2023 is computed from the FY2024 10-K balance sheet (2023 year-end); NWC for 2024 and 2025 are computed from the FY2025 10-K balance sheet (2024/2025 year-end).",
+    "FY2025 capex was unusually low as a percent of sales vs 2024, so the base-case capex margin ramps back to a normalized range; this is an assumption reflecting timing/normalization rather than a firm guidance signal.",
+    "WACC is provided as an assumption (not explicitly disclosed) and is intended to be conservative for a large-cap consumer beverage business; downstream models should recalibrate if their pipeline uses a different capital structure or discount-rate framework.",
+    "Peer comps forward multiples (EV/NTM Revenue, EV/NTM EBITDA, P/E NTM) were not populated from primary/high-quality sources in this run; the comps array is therefore set to null values to avoid inventing inputs."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained category/brand demand translating into continued worldwide case sales growth.",
+      "Margin sustainability from pricing actions and supply-chain optimization, partially offset by promotional pressure.",
+      "Potential favorable FX or continued international distribution execution."
+    ],
+    "company_overview": [
+      "Monster Beverage develops, markets, and distributes ready-to-drink energy drinks and related functional beverages, operating primarily through bottlers/distributors.",
+      "The company reports multiple segments, including Monster Energy\u00ae Drinks, Strategic Brands (concentrates/beverage bases), Alcohol Brands, and Other.",
+      "International net sales were a large and growing share of consolidated net sales (approximately low-40% range in 2025)."
+    ],
+    "current_context": [
+      "FY2025 performance: net sales of 8.29B with operating income of 2.42B; operating margin expanded vs FY2024.",
+      "FY2025 tax rate (effective combined rate) was approximately low-20% range, supporting sustainable earnings conversion.",
+      "The company does not provide explicit quantitative guidance for future periods in its annual filings; the DCF base case is therefore assumption-driven."
+    ],
+    "investment_highlights": [
+      "Revenue growth is modeled with decelerating but positive rates after strong FY2025 momentum.",
+      "EBIT margin trends toward a normalized level below the FY2025 peak, reflecting continued pricing/supply-chain benefits but with mean reversion.",
+      "Capital intensity and depreciation are modeled as stable percentages of sales to reflect a mature beverage manufacturing/distribution footprint.",
+      "Working-capital intensity is held roughly consistent with recent history to support durable free-cash-flow generation."
+    ],
+    "key_risks": [
+      "Regulatory and litigation risk affecting energy drink and alcohol product marketing, ingredients, or distribution practices.",
+      "Promotional allowances and co-packing/distribution cost pressures that can compress gross profit and EBIT margins.",
+      "Impairment/valuation charges or brand/product mix shifts that could affect reported operating results."
+    ],
+    "sources": [
+      {
+        "label": "Monster Beverage Corporation \u2014 FY2025 Form 10-K (SEC)",
+        "notes": "Historical net sales, operating income (EBIT proxy), effective tax rate, D&A, capex, and balance sheet components used for NWC.",
+        "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926020831/mnst-20251231x10k.htm"
+      },
+      {
+        "label": "Monster Beverage Corporation \u2014 FY2024 Form 10-K (SEC)",
+        "notes": "Balance sheet (2024 and 2023) values used to compute historical NWC for 2023.",
+        "url": "https://www.sec.gov/Archives/edgar/data/865752/000141057825000248/mnst-20241231x10k.htm"
+      },
+      {
+        "label": "Monster Beverage \u2014 FY2024 Q4 and Full-Year Financial Results (Investor Relations)",
+        "notes": "Supplementary context on tax rate and operational drivers; used as a high-quality investor materials reference.",
+        "url": "https://investors.monsterbevcorp.com/news-releases/news-release-details/monster-beverage-reports-2024-fourth-quarter-and-full-year"
+      },
+      {
+        "label": "MNST \u2014 Beta (5Y Monthly) from Yahoo Finance Key Statistics",
+        "notes": "Used as an input reference to support an internally-consistent WACC assumption (WACC itself is still an assumption).",
+        "url": "https://uk.finance.yahoo.com/quote/MNST/key-statistics/"
+      }
+    ],
+    "subtitle": "MNST DCF Input Package (Base + Bull/Bear Drivers)",
+    "valuation_summary": [
+      "DCF base case is anchored to disclosed FY2023\u2013FY2025 revenue and operating income, then transitions to conservative mid/late-cycle growth and margins.",
+      "Terminal value is calculated using Gordon growth with a 3.0% long-run growth rate and an EBIT-margin target consistent with stability in a mature beverage category.",
+      "Peer comps are listed but forward-multiple inputs were not reliably sourced in this run (left null for downstream filling)."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 73.69,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.272,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.029,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.078
+      },
+      "description": "Modest underperformance vs base case: slightly lower revenue growth and EBIT margin with a slightly higher WACC and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.025,
+          "2027": 0.024,
+          "2028": 0.023,
+          "2029": 0.023,
+          "2030": 0.022
+        },
+        "da_pct_sales": {
+          "2026": 0.012,
+          "2027": 0.0118,
+          "2028": 0.0115,
+          "2029": 0.0113,
+          "2030": 0.0113
+        },
+        "ebit_margin": {
+          "2026": 0.282,
+          "2027": 0.28,
+          "2028": 0.275,
+          "2029": 0.273,
+          "2030": 0.272
+        },
+        "nwc_pct_sales": {
+          "2026": 0.141,
+          "2027": 0.142,
+          "2028": 0.142,
+          "2029": 0.143,
+          "2030": 0.143
+        },
+        "revenue_growth": {
+          "2026": 0.075,
+          "2027": 0.065,
+          "2028": 0.05,
+          "2029": 0.04,
+          "2030": 0.035
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 73.69,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.278,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.031,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.072
+      },
+      "description": "Modest outperformance vs base case: slightly higher revenue growth and EBIT margin with a slightly lower WACC and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.025,
+          "2027": 0.024,
+          "2028": 0.023,
+          "2029": 0.023,
+          "2030": 0.022
+        },
+        "da_pct_sales": {
+          "2026": 0.012,
+          "2027": 0.0118,
+          "2028": 0.0115,
+          "2029": 0.0113,
+          "2030": 0.0113
+        },
+        "ebit_margin": {
+          "2026": 0.288,
+          "2027": 0.286,
+          "2028": 0.281,
+          "2029": 0.279,
+          "2030": 0.278
+        },
+        "nwc_pct_sales": {
+          "2026": 0.141,
+          "2027": 0.142,
+          "2028": 0.142,
+          "2029": 0.143,
+          "2030": 0.143
+        },
+        "revenue_growth": {
+          "2026": 0.085,
+          "2027": 0.075,
+          "2028": 0.06,
+          "2029": 0.05,
+          "2030": 0.045
+        }
+      }
+    }
+  },
+  "ticker": "MNST"
+}

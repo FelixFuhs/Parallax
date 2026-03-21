@@ -1,0 +1,688 @@
+{
+  "_meta": {
+    "cost_usd": 0.02116,
+    "generated_at": "2026-03-21T17:32:51Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10182,
+      "prompt": 2515,
+      "reasoning": 6344
+    }
+  },
+  "_valuation": {
+    "company_name": "Amcor plc",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 38.28,
+        "description": "Base case",
+        "enterprise_value": 21765513337.662468,
+        "equity_value": 8422513337.662468,
+        "exit_multiple_terminal_value": 27221450334.16968,
+        "gordon_terminal_value": 21525168850.869827,
+        "implied_market_cap": 8422513337.662468,
+        "investments_adjustment": 0.0,
+        "net_debt": 13271000000.0,
+        "per_share_value": 5.287202346304123,
+        "projected_years": [
+          {
+            "capex": 593155680.0,
+            "cash_taxes": 55194696.96,
+            "da": 702421200.0,
+            "delta_nwc": -143360080.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1326795600.0,
+            "ebit_margin": 0.085,
+            "ebitda": 2029216800.0,
+            "fcff": 1524226503.04,
+            "nol_balance_end": 1238563520.0,
+            "nol_used": 1061436480.0,
+            "nwc": 733639920.0,
+            "present_value_fcff": 1404817053.4930875,
+            "revenue": 15609360000.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 613916128.8,
+            "cash_taxes": 58470664.56192,
+            "da": 727005941.9999999,
+            "delta_nwc": -6633978.000000119,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1405544821.1999998,
+            "ebit_margin": 0.087,
+            "ebitda": 2132550763.1999998,
+            "fcff": 1466797947.83808,
+            "nol_balance_end": 114127663.0400002,
+            "nol_used": 1124435856.9599998,
+            "nwc": 727005941.9999999,
+            "present_value_fcff": 1245979271.454548,
+            "revenue": 16155687599.999998,
+            "revenue_growth": 0.035,
+            "year": 2027
+          },
+          {
+            "capex": 615693254.4359999,
+            "cash_taxes": 280846563.0929919,
+            "da": 748816120.2599999,
+            "delta_nwc": 5169820.031999946,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 1464351524.0639997,
+            "ebit_margin": 0.088,
+            "ebitda": 2213167644.3239994,
+            "fcff": 1311458006.7630076,
+            "nol_balance_end": 0.0,
+            "nol_used": 114127663.0400002,
+            "nwc": 732175762.0319998,
+            "present_value_fcff": 1026751094.246581,
+            "revenue": 16640358227.999998,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 632932665.560208,
+            "cash_taxes": 316671608.2392045,
+            "da": 769782971.6272799,
+            "delta_nwc": 3394633.0785120726,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 1522459654.9961758,
+            "ebit_margin": 0.089,
+            "ebitda": 2292242626.6234555,
+            "fcff": 1339243719.745531,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 735570395.1105119,
+            "present_value_fcff": 966363828.5357331,
+            "revenue": 17106288258.383999,
+            "revenue_growth": 0.028,
+            "year": 2029
+          },
+          {
+            "capex": 648755982.199213,
+            "cash_taxes": 328235459.1018721,
+            "da": 789027545.9179618,
+            "delta_nwc": 18389259.877762675,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 1578055091.8359237,
+            "ebit_margin": 0.09,
+            "ebitda": 2367082637.7538853,
+            "fcff": 1371701936.575038,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 753959654.9882746,
+            "present_value_fcff": 912244095.0351138,
+            "revenue": 17533945464.843597,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "average",
+        "terminal_value": 24373309592.519753,
+        "terminal_value_present_value": 16209357994.897402,
+        "upside_downside_pct": -0.8618808164497356
+      },
+      "bear": {
+        "current_price": 38.28,
+        "description": "Modestly weaker revenue growth and less favorable operating leverage; higher working-capital needs and slightly higher reinvestment intensity.",
+        "enterprise_value": 20907694738.742172,
+        "equity_value": 7564694738.742172,
+        "exit_multiple_terminal_value": 26354134382.685417,
+        "gordon_terminal_value": 20520296510.29896,
+        "implied_market_cap": 7564694738.742172,
+        "investments_adjustment": 0.0,
+        "net_debt": 13271000000.0,
+        "per_share_value": 4.74870981716395,
+        "projected_years": [
+          {
+            "capex": 605838284.9999999,
+            "cash_taxes": 52990655.327999994,
+            "da": 714578489.9999999,
+            "delta_nwc": -115818565.00000012,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1273813830.0,
+            "ebit_margin": 0.082,
+            "ebitda": 1988392320.0,
+            "fcff": 1445381944.672,
+            "nol_balance_end": 1280948936.0,
+            "nol_used": 1019051064.0,
+            "nwc": 761181434.9999999,
+            "present_value_fcff": 1332149257.762212,
+            "revenue": 15534314999.999998,
+            "revenue_growth": 0.035,
+            "year": 2026
+          },
+          {
+            "capex": 624013433.55,
+            "cash_taxes": 55911603.646079995,
+            "da": 736015844.6999999,
+            "delta_nwc": 6835098.600000024,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1344028933.8,
+            "ebit_margin": 0.084,
+            "ebitda": 2080044778.5,
+            "fcff": 1393284642.70392,
+            "nol_balance_end": 205725788.96000004,
+            "nol_used": 1075223147.04,
+            "nwc": 768016533.5999999,
+            "present_value_fcff": 1183533005.7583895,
+            "revenue": 16000344449.999998,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 624429442.5056999,
+            "cash_taxes": 247733050.19897193,
+            "da": 755888272.5068998,
+            "delta_nwc": -12128261.093100071,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 1396750068.7627497,
+            "ebit_margin": 0.085,
+            "ebitda": 2152638341.2696495,
+            "fcff": 1292604109.6580777,
+            "nol_balance_end": 0.0,
+            "nol_used": 205725788.96000004,
+            "nwc": 755888272.5068998,
+            "present_value_fcff": 1011990225.5161517,
+            "revenue": 16432353750.149996,
+            "revenue_growth": 0.027,
+            "year": 2028
+          },
+          {
+            "capex": 640040178.5683422,
+            "cash_taxes": 301290492.4797501,
+            "da": 774785479.3195722,
+            "delta_nwc": 2054044.2187685966,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 1448511983.0757217,
+            "ebit_margin": 0.086,
+            "ebitda": 2223297462.395294,
+            "fcff": 1279912747.128433,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 757942316.7256684,
+            "present_value_fcff": 923552124.434629,
+            "revenue": 16843162593.903744,
+            "revenue_growth": 0.025,
+            "year": 2029
+          },
+          {
+            "capex": 654761102.6754141,
+            "cash_taxes": 311804129.31616557,
+            "da": 792605545.3439224,
+            "delta_nwc": 17432673.28469038,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 1499058314.020027,
+            "ebit_margin": 0.087,
+            "ebitda": 2291663859.3639493,
+            "fcff": 1307665954.0876791,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 775374990.0103588,
+            "present_value_fcff": 869657257.9561174,
+            "revenue": 17230555333.56353,
+            "revenue_growth": 0.023,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "average",
+        "terminal_value": 23437215446.492188,
+        "terminal_value_present_value": 15586812867.314672,
+        "upside_downside_pct": -0.8759480194053305
+      },
+      "bull": {
+        "current_price": 38.28,
+        "description": "Modestly stronger post-merger revenue growth and gradual EBIT margin recovery; slightly improved cash conversion via lower NWC and capex intensity.",
+        "enterprise_value": 22658739019.61465,
+        "equity_value": 9315739019.61465,
+        "exit_multiple_terminal_value": 28081983813.327614,
+        "gordon_terminal_value": 22596066925.094456,
+        "implied_market_cap": 9315739019.61465,
+        "investments_adjustment": 0.0,
+        "net_debt": 13271000000.0,
+        "per_share_value": 5.847921544014219,
+        "projected_years": [
+          {
+            "capex": 580322984.9999999,
+            "cash_taxes": 56764998.576,
+            "da": 705798224.9999999,
+            "delta_nwc": -171201775.00000012,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1364543234.9999998,
+            "ebit_margin": 0.087,
+            "ebitda": 2070341459.9999995,
+            "fcff": 1604455251.4239998,
+            "nol_balance_end": 1208365412.0000002,
+            "nol_used": 1091634587.9999998,
+            "nwc": 705798224.9999999,
+            "present_value_fcff": 1478760600.3907833,
+            "revenue": 15684404999.999998,
+            "revenue_growth": 0.045,
+            "year": 2026
+          },
+          {
+            "capex": 603535904.3999999,
+            "cash_taxes": 60392738.714879975,
+            "da": 734030153.9999999,
+            "delta_nwc": -4391633.399999976,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1451748526.7999997,
+            "ebit_margin": 0.089,
+            "ebitda": 2185778680.7999997,
+            "fcff": 1526241671.0851197,
+            "nol_balance_end": 46966590.56000042,
+            "nol_used": 1161398821.4399998,
+            "nwc": 701406591.5999999,
+            "present_value_fcff": 1296474056.4336638,
+            "revenue": 16311781199.999998,
+            "revenue_growth": 0.04,
+            "year": 2027
+          },
+          {
+            "capex": 606602519.2655998,
+            "cash_taxes": 305664259.1816318,
+            "da": 758253149.0819998,
+            "delta_nwc": 6296347.543200016,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 1516506298.1639996,
+            "ebit_margin": 0.09,
+            "ebitda": 2274759447.2459993,
+            "fcff": 1356196321.2555676,
+            "nol_balance_end": 0.0,
+            "nol_used": 46966590.56000042,
+            "nwc": 707702939.1431999,
+            "present_value_fcff": 1061777082.972947,
+            "revenue": 16850069979.599997,
+            "revenue_growth": 0.033,
+            "year": 2028
+          },
+          {
+            "capex": 624800594.8435677,
+            "cash_taxes": 328506268.31108475,
+            "da": 781000743.5544598,
+            "delta_nwc": 3875516.095307946,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 1579357059.1879075,
+            "ebit_margin": 0.091,
+            "ebitda": 2360357802.7423673,
+            "fcff": 1403175423.4924068,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 711578455.2385079,
+            "present_value_fcff": 1012495301.9089158,
+            "revenue": 17355572078.987995,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 641670210.9043441,
+            "cash_taxes": 341083365.4407091,
+            "da": 802087763.6304301,
+            "delta_nwc": 19212618.291439652,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 1639823872.3111017,
+            "ebit_margin": 0.092,
+            "ebitda": 2441911635.9415317,
+            "fcff": 1439945441.305039,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 730791073.5299475,
+            "present_value_fcff": 957629125.5249636,
+            "revenue": 17824172525.12067,
+            "revenue_growth": 0.027,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "average",
+        "terminal_value": 25339025369.211037,
+        "terminal_value_present_value": 16851602852.383377,
+        "upside_downside_pct": -0.8472329795189598
+      }
+    },
+    "ticker": "AMCR"
+  },
+  "assumptions": {
+    "cash": 827000000.0,
+    "current_price": 38.28,
+    "debt": 14098000000.0,
+    "diluted_shares": 1593000000.0,
+    "investments": 0.0,
+    "minority_interest": 72000000.0,
+    "net_debt_override": null,
+    "nol_balance": 2300000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.09,
+    "tax_rate": 0.208,
+    "terminal_exit_ebitda_multiple": 11.5,
+    "terminal_growth": 0.02,
+    "terminal_method": "average",
+    "wacc": 0.085
+  },
+  "company_name": "Amcor plc",
+  "comps": [
+    {
+      "company_name": "Crown Holdings, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer selected for packaging exposure; NTM multiple fields not captured in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CCK"
+    },
+    {
+      "company_name": "Packaging Corporation of America",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer selected for packaging end-market and cash-flow characteristics; NTM multiple fields not captured in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PKG"
+    },
+    {
+      "company_name": "Sonoco Products Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer selected for packaging/consumer protective packaging exposure; NTM multiple fields not captured in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SON"
+    },
+    {
+      "company_name": "Sealed Air Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer selected for protective packaging overlap; NTM multiple fields not captured in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SEE"
+    },
+    {
+      "company_name": "Silgan Holdings Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer selected for rigid packaging components; NTM multiple fields not captured in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SLGN"
+    },
+    {
+      "company_name": "International Paper Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Paper/corrugated packaging peer (different material mix); NTM multiple fields not captured in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "IP"
+    },
+    {
+      "company_name": "Graphic Packaging Holding Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Packaging peer with beverage/food packaging overlap; NTM multiple fields not captured in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "GPK"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.038,
+      "2027": 0.038,
+      "2028": 0.037,
+      "2029": 0.037,
+      "2030": 0.037
+    },
+    "da_pct_sales": {
+      "2026": 0.045,
+      "2027": 0.045,
+      "2028": 0.045,
+      "2029": 0.045,
+      "2030": 0.045
+    },
+    "ebit_margin": {
+      "2026": 0.085,
+      "2027": 0.087,
+      "2028": 0.088,
+      "2029": 0.089,
+      "2030": 0.09
+    },
+    "nwc_pct_sales": {
+      "2026": 0.047,
+      "2027": 0.045,
+      "2028": 0.044,
+      "2029": 0.043,
+      "2030": 0.043
+    },
+    "revenue_growth": {
+      "2026": 0.04,
+      "2027": 0.035,
+      "2028": 0.03,
+      "2029": 0.028,
+      "2030": 0.025
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 526000000.0,
+      "2024": 492000000.0,
+      "2025": 580000000.0
+    },
+    "da": {
+      "2023": 586000000.0,
+      "2024": 595000000.0,
+      "2025": 722000000.0
+    },
+    "ebit": {
+      "2023": 1508000000.0,
+      "2024": 1214000000.0,
+      "2025": 1009000000.0
+    },
+    "nwc": {
+      "2023": 236000000.0,
+      "2024": 212000000.0,
+      "2025": 877000000.0
+    },
+    "revenue": {
+      "2023": 14694000000.0,
+      "2024": 13640000000.0,
+      "2025": 15009000000.0
+    }
+  },
+  "notes": [
+    "Fiscal year mapping: historical years are Amcor fiscal years ended June 30 (FY2023\u2013FY2025). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm))",
+    "EBIT definition: used Operating income as the EBIT proxy (from Consolidated Statements of Income). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm))",
+    "D&A definition: used 'Depreciation, amortization, and impairment' from cash flow statement line item. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm))",
+    "Capex definition: used 'Purchase of property, plant, and equipment, and other intangible assets' from cash flow statement (reported as cash outflows). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm))",
+    "NWC construction (historical): (Trade receivables + Inventories + Prepaid expenses & other current assets) - (Trade payables + Accrued employee costs + Other current liabilities); cash, short-term debt, and current portion of long-term debt excluded. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm))",
+    "FY2025 NWC level is elevated vs FY2023/FY2024, consistent with merger-related balance-sheet changes; base-case gradually normalizes NWC % of sales.",
+    "WACC, terminal growth, and terminal exit EBITDA multiple are model assumptions (not explicitly provided by the company) and should be tuned to the pipeline\u2019s risk framework.",
+    "NOL utilization is assumed at 80% because a utilization rate is not disclosed in the filing excerpt captured here. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm))",
+    "Investments field left null: this pipeline input is not consistently defined in Amcor\u2019s filings for DCF 'investments' adjustments beyond capex; treat as null until the model\u2019s convention is confirmed."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Evidence of merger integration progress (synergies, productivity) and stabilization of end-market volumes and pricing/mix.",
+      "Further guidance reaffirmations with improving operating leverage toward the target EBIT margin.",
+      "Portfolio optimization actions (divestitures / reallocations) that improve cash conversion and reduce risk."
+    ],
+    "company_overview": [
+      "Global packaging solutions company spanning flexible packaging and rigid packaging end markets. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm))",
+      "Fiscal 2025 net sales were $15.009B with operating income of $1.009B (results affected by merger and integration items). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm))",
+      "Cash generation supports ongoing reinvestment and capital return; leverage increased around the Berry merger. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm))"
+    ],
+    "current_context": [
+      "Most recent operating update as of this research: fiscal 2026 second-quarter results released Feb. 3, 2026 and fiscal 2026 guidance reaffirmed. ([amcor.com](https://www.amcor.com/media/news/amcor-reports-fiscal-2026-second-quarter-results?utm_source=openai))",
+      "Model setup assumes post-merger normalization: revenue grows at low-to-mid single digits and EBIT margin recovers toward a mid-cycle target.",
+      "Valuation date proxy price uses the last trading day before 2026-03-21 (Mar 20, 2026 close: $38.28). ([stockanalysis.com](https://stockanalysis.com/stocks/amcr/history/))"
+    ],
+    "investment_highlights": [
+      "Revenue growth: base-case low-to-mid single digit trajectory starting from fiscal 2025 net sales run-rate. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm))",
+      "Margin recovery thesis: EBIT margin normalizes from merger-integration noise toward a 9.0% target by 2030. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm))",
+      "Cash flow durability: D&A and reinvestment intensity held broadly consistent with recent % of sales; capex maintained in the high-3% range of revenue.",
+      "Working-capital discipline: NWC intensity assumed to gradually reduce from the higher post-merger level to a steadier mid-4% range.",
+      "Tax shield: large net operating loss carryforwards are incorporated via an 80% utilization assumption (no disclosed utilization rate). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm))"
+    ],
+    "key_risks": [
+      "Demand softness or adverse pricing/mix that slows revenue growth and delays EBIT margin recovery.",
+      "Higher integration costs or integration execution risk post-Berry merger impacting profitability.",
+      "Leverage/refinancing risk and sustained working-capital pressure reducing free cash flow."
+    ],
+    "sources": [
+      {
+        "label": "Amcor plc \u2014 Form 10-K (fiscal year ended June 30, 2025)",
+        "notes": "Primary source for FY2025/FY2024/FY2023 net sales, operating income, D&A, cash flow/capex, and balance-sheet components used for NWC for 2024\u20132025. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm"
+      },
+      {
+        "label": "Amcor plc \u2014 Form 10-K (fiscal year ended June 30, 2024)",
+        "notes": "Primary source for FY2023 balance-sheet components used to compute NWC for 2023. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1748790/000174879024000022/amcr-20240630.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1748790/000174879024000022/amcr-20240630.htm"
+      },
+      {
+        "label": "Amcor \u2014 Fiscal 2026 Q2 press release (Feb. 3, 2026) & guidance reaffirmation",
+        "notes": "Supports the latest earnings/guidance context for the pitchbook section. ([assets.ctfassets.net](https://assets.ctfassets.net/f7tuyt85vtoa/2ESUxN7c2YLNrNLUfMVX3h/0b87f80e2bcc83e1b964c5c276d742d3/Amcor_2Q26_press_release_FINAL.pdf?utm_source=openai))",
+        "url": "https://assets.ctfassets.net/f7tuyt85vtoa/2ESUxN7c2YLNrNLUfMVX3h/0b87f80e2bcc83e1b964c5c276d742d3/Amcor_2Q26_press_release_FINAL.pdf"
+      },
+      {
+        "label": "AMCR stock price (close on Mar 20, 2026)",
+        "notes": "Used as a market price proxy for as-of 2026-03-21 (markets closed on 2026-03-21). ([stockanalysis.com](https://stockanalysis.com/stocks/amcr/history/))",
+        "url": "https://stockanalysis.com/stocks/amcr/history/"
+      }
+    ],
+    "subtitle": "DCF Valuation Inputs (Base/Bull/Bear) \u2014 Amcor (AMCR)",
+    "valuation_summary": [
+      "DCF base-case is anchored on reported FY2023\u2013FY2025 net sales, operating income (EBIT proxy), depreciation/amortization, and capex from Amcor\u2019s SEC filings. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1748790/000174879025000023/amcr-20250630.htm))",
+      "Forecast drivers are expressed as margins and % of sales (EBIT margin, D&A %, capex %, NWC %), enabling internal consistency and QA via the forecast revenue chain.",
+      "Terminal value uses Gordon-growth economics with conservative long-run growth and an exit EBITDA multiple assumption for terminal construct.",
+      "Comp set prepared but NTM multiple fields are not populated in this run (see notes)."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 38.28,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.087,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 11.5,
+        "terminal_growth": 0.02,
+        "terminal_method": "average",
+        "wacc": 0.085
+      },
+      "description": "Modestly weaker revenue growth and less favorable operating leverage; higher working-capital needs and slightly higher reinvestment intensity.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.039,
+          "2027": 0.039,
+          "2028": 0.038,
+          "2029": 0.038,
+          "2030": 0.038
+        },
+        "da_pct_sales": {
+          "2026": 0.046,
+          "2027": 0.046,
+          "2028": 0.046,
+          "2029": 0.046,
+          "2030": 0.046
+        },
+        "ebit_margin": {
+          "2026": 0.082,
+          "2027": 0.084,
+          "2028": 0.085,
+          "2029": 0.086,
+          "2030": 0.087
+        },
+        "nwc_pct_sales": {
+          "2026": 0.049,
+          "2027": 0.048,
+          "2028": 0.046,
+          "2029": 0.045,
+          "2030": 0.045
+        },
+        "revenue_growth": {
+          "2026": 0.035,
+          "2027": 0.03,
+          "2028": 0.027,
+          "2029": 0.025,
+          "2030": 0.023
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 38.28,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.092,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 11.5,
+        "terminal_growth": 0.02,
+        "terminal_method": "average",
+        "wacc": 0.085
+      },
+      "description": "Modestly stronger post-merger revenue growth and gradual EBIT margin recovery; slightly improved cash conversion via lower NWC and capex intensity.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.037,
+          "2027": 0.037,
+          "2028": 0.036,
+          "2029": 0.036,
+          "2030": 0.036
+        },
+        "da_pct_sales": {
+          "2026": 0.045,
+          "2027": 0.045,
+          "2028": 0.045,
+          "2029": 0.045,
+          "2030": 0.045
+        },
+        "ebit_margin": {
+          "2026": 0.087,
+          "2027": 0.089,
+          "2028": 0.09,
+          "2029": 0.091,
+          "2030": 0.092
+        },
+        "nwc_pct_sales": {
+          "2026": 0.045,
+          "2027": 0.043,
+          "2028": 0.042,
+          "2029": 0.041,
+          "2030": 0.041
+        },
+        "revenue_growth": {
+          "2026": 0.045,
+          "2027": 0.04,
+          "2028": 0.033,
+          "2029": 0.03,
+          "2030": 0.027
+        }
+      }
+    }
+  },
+  "ticker": "AMCR"
+}

@@ -1,0 +1,670 @@
+{
+  "_meta": {
+    "cost_usd": 0.023604,
+    "generated_at": "2026-03-21T17:32:32Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11044,
+      "prompt": 2514,
+      "reasoning": 7437
+    }
+  },
+  "_valuation": {
+    "company_name": "DaVita Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 149.31,
+        "description": "Base case",
+        "enterprise_value": 32262129324.378403,
+        "equity_value": 21078376324.378403,
+        "exit_multiple_terminal_value": 36556344056.99863,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 21078376324.378403,
+        "investments_adjustment": 198215000.0,
+        "net_debt": 9572448000.0,
+        "per_share_value": 277.767362777603,
+        "projected_years": [
+          {
+            "capex": 618481246.9769999,
+            "cash_taxes": 252702774.42896995,
+            "da": 776631702.8249999,
+            "delta_nwc": -62776621.88800001,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2132207038.6649997,
+            "ebit_margin": 0.151,
+            "ebitda": 2908838741.49,
+            "fcff": 2100431341.9720302,
+            "nol_balance_end": 0.0,
+            "nol_used": 973020000.0,
+            "nwc": 180743378.112,
+            "present_value_fcff": 1935881421.172378,
+            "revenue": 14120576414.999998,
+            "revenue_growth": 0.035,
+            "year": 2026
+          },
+          {
+            "capex": 634515161.4962324,
+            "cash_taxes": 486519970.0355249,
+            "da": 794967271.2998774,
+            "delta_nwc": 5964531.4776960015,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2231742981.8143344,
+            "ebit_margin": 0.153,
+            "ebitda": 3026710253.114212,
+            "fcff": 1899710590.1047583,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 186707909.589696,
+            "present_value_fcff": 1613719204.1493838,
+            "revenue": 14586555436.694998,
+            "revenue_growth": 0.033,
+            "year": 2027
+          },
+          {
+            "capex": 651177383.771569,
+            "cash_taxes": 504880534.13346684,
+            "da": 812091887.3825573,
+            "delta_nwc": 5787945.197280556,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2315965752.9058113,
+            "ebit_margin": 0.154,
+            "ebitda": 3128057640.2883687,
+            "fcff": 1966211777.1860523,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 192495854.78697655,
+            "present_value_fcff": 1539363123.5888371,
+            "revenue": 15038738655.232542,
+            "revenue_growth": 0.031,
+            "year": 2028
+          },
+          {
+            "capex": 669163715.2032273,
+            "cash_taxes": 523403748.5351168,
+            "da": 836454644.004034,
+            "delta_nwc": 5774875.643609315,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2400934626.307875,
+            "ebit_margin": 0.155,
+            "ebitda": 3237389270.311909,
+            "fcff": 2039046930.929956,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 198270730.43058586,
+            "present_value_fcff": 1471323829.77455,
+            "revenue": 15489900814.889519,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 688569462.9441208,
+            "cash_taxes": 538582457.2426351,
+            "da": 852742274.7108902,
+            "delta_nwc": 5749851.182486951,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2470561730.4708033,
+            "ebit_margin": 0.155,
+            "ebitda": 3323304005.1816936,
+            "fcff": 2090402233.8124504,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 204020581.6130728,
+            "present_value_fcff": 1390212438.4288936,
+            "revenue": 15939107938.521313,
+            "revenue_growth": 0.029,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 36556344056.99863,
+        "terminal_value_present_value": 24311629307.26436,
+        "upside_downside_pct": 0.8603399824365616
+      },
+      "bear": {
+        "current_price": 149.31,
+        "description": "Bear: modestly slower revenue growth and slightly lower operating margin with a higher discount rate, lower terminal growth, and a lower terminal multiple.",
+        "enterprise_value": 29285825981.160816,
+        "equity_value": 18102072981.160816,
+        "exit_multiple_terminal_value": 33403825722.11983,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 18102072981.160816,
+        "investments_adjustment": 198215000.0,
+        "net_debt": 9572448000.0,
+        "per_share_value": 238.54612876274385,
+        "projected_years": [
+          {
+            "capex": 615493414.8659999,
+            "cash_taxes": 241267017.56247997,
+            "da": 772879858.85,
+            "delta_nwc": -63649778.30399999,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 2079749438.36,
+            "ebit_margin": 0.148,
+            "ebitda": 2852629297.21,
+            "fcff": 2059518643.08552,
+            "nol_balance_end": 0.0,
+            "nol_used": 973020000.0,
+            "nwc": 179870221.696,
+            "present_value_fcff": 1889466645.032587,
+            "revenue": 14052361070.0,
+            "revenue_growth": 0.03,
+            "year": 2026
+          },
+          {
+            "capex": 628393482.32826,
+            "cash_taxes": 469229358.45946074,
+            "da": 787297581.3078201,
+            "delta_nwc": 5036366.207488,
+            "discount_factor": 0.84167999326656,
+            "ebit": 2152428249.81404,
+            "ebit_margin": 0.149,
+            "ebitda": 2939725831.1218605,
+            "fcff": 1837066624.1266513,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 184906587.903488,
+            "present_value_fcff": 1546222223.825142,
+            "revenue": 14445827179.960001,
+            "revenue_growth": 0.028,
+            "year": 2027
+          },
+          {
+            "capex": 641767429.131467,
+            "cash_taxes": 484660391.0530941,
+            "da": 800356609.078504,
+            "delta_nwc": 4807571.285490721,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 2223212802.9958444,
+            "ebit_margin": 0.15,
+            "ebitda": 3023569412.0743484,
+            "fcff": 1892334020.6042964,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 189714159.18897873,
+            "present_value_fcff": 1461229069.4681711,
+            "revenue": 14821418686.638962,
+            "revenue_growth": 0.026,
+            "year": 2028
+          },
+          {
+            "capex": 656292419.4443733,
+            "cash_taxes": 500088746.8349508,
+            "da": 820365524.3054665,
+            "delta_nwc": 4742853.979724437,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 2293985077.224545,
+            "ebit_margin": 0.151,
+            "ebitda": 3114350601.5300117,
+            "fcff": 1953226581.2709632,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 194457013.16870317,
+            "present_value_fcff": 1383714953.095034,
+            "revenue": 15191954153.804935,
+            "revenue_growth": 0.025,
+            "year": 2029
+          },
+          {
+            "capex": 672043437.5110382,
+            "cash_taxes": 512090876.7589897,
+            "da": 832276016.3620496,
+            "delta_nwc": 4666968.31604889,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 2349040719.0779343,
+            "ebit_margin": 0.151,
+            "ebitda": 3181316735.439984,
+            "fcff": 1992515452.8539069,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 199123981.48475206,
+            "present_value_fcff": 1294998330.4942148,
+            "revenue": 15556561053.496254,
+            "revenue_growth": 0.024,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 33403825722.11983,
+        "terminal_value_present_value": 21710194759.245667,
+        "upside_downside_pct": 0.5976567461170976
+      },
+      "bull": {
+        "current_price": 149.31,
+        "description": "Bull: modestly faster revenue growth and slightly higher operating margin with a somewhat lower discount rate and higher terminal multiple.",
+        "enterprise_value": 35696218332.23285,
+        "equity_value": 24512465332.23285,
+        "exit_multiple_terminal_value": 40092130200.488014,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 24512465332.23285,
+        "investments_adjustment": 198215000.0,
+        "net_debt": 9572448000.0,
+        "per_share_value": 323.0212206922692,
+        "projected_years": [
+          {
+            "capex": 621469079.0879999,
+            "cash_taxes": 273507226.77776,
+            "da": 780383546.8,
+            "delta_nwc": -61903465.472,
+            "discount_factor": 0.9259259259259258,
+            "ebit": 2227640306.32,
+            "ebit_margin": 0.157,
+            "ebitda": 3008023853.12,
+            "fcff": 2174951012.7262406,
+            "nol_balance_end": 0.0,
+            "nol_used": 973020000.0,
+            "nwc": 181616534.528,
+            "present_value_fcff": 2013843530.3020744,
+            "revenue": 14188791760.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 640666514.33928,
+            "cash_taxes": 507290055.6299348,
+            "da": 802674138.65496,
+            "delta_nwc": 6901428.312064022,
+            "discount_factor": 0.8573388203017832,
+            "ebit": 2327018603.80704,
+            "ebit_margin": 0.158,
+            "ebitda": 3129692742.4620004,
+            "fcff": 1974834744.1807215,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 188517962.84006402,
+            "present_value_fcff": 1693102489.8668737,
+            "revenue": 14727965846.880001,
+            "revenue_growth": 0.038,
+            "year": 2027
+          },
+          {
+            "capex": 660678874.3320206,
+            "cash_taxes": 528878779.26319855,
+            "da": 823941321.3378547,
+            "delta_nwc": 6786646.662242323,
+            "discount_factor": 0.7938322410201696,
+            "ebit": 2426049446.1614614,
+            "ebit_margin": 0.159,
+            "ebitda": 3249990767.499316,
+            "fcff": 2053646467.2418542,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 195304609.50230634,
+            "present_value_fcff": 1630250777.3537555,
+            "revenue": 15258172617.367682,
+            "revenue_growth": 0.036,
+            "year": 2028
+          },
+          {
+            "capex": 682223414.0677438,
+            "cash_taxes": 550832238.0250672,
+            "da": 852779267.5846797,
+            "delta_nwc": 6835661.332580715,
+            "discount_factor": 0.7350298527964533,
+            "ebit": 2526753385.436088,
+            "ebit_margin": 0.16,
+            "ebitda": 3379532653.0207677,
+            "fcff": 2139641339.5953758,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 202140270.83488706,
+            "present_value_fcff": 1572700258.879995,
+            "revenue": 15792208658.97555,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 705419010.1460471,
+            "cash_taxes": 569560534.1179194,
+            "da": 873609190.8058684,
+            "delta_nwc": 6872769.208386153,
+            "discount_factor": 0.6805831970337529,
+            "ebit": 2612663000.540915,
+            "ebit_margin": 0.16,
+            "ebitda": 3486272191.3467836,
+            "fcff": 2204419877.8744307,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 209013040.0432732,
+            "present_value_fcff": 1500291128.088535,
+            "revenue": 16329143753.380718,
+            "revenue_growth": 0.034,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 40092130200.488014,
+        "terminal_value_present_value": 27286030147.74161,
+        "upside_downside_pct": 1.1634265668225114
+      }
+    },
+    "ticker": "DVA"
+  },
+  "assumptions": {
+    "cash": 700741000.0,
+    "current_price": 149.31,
+    "debt": 10273189000.0,
+    "diluted_shares": 75885000.0,
+    "investments": 198215000.0,
+    "minority_interest": 1809520000.0,
+    "net_debt_override": null,
+    "nol_balance": 973020000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.155,
+    "tax_rate": 0.218,
+    "terminal_exit_ebitda_multiple": 11.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.085
+  },
+  "company_name": "DaVita Inc.",
+  "comps": [
+    {
+      "company_name": "Fresenius Medical Care AG & Co. KGaA",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E multiples not reliably available from open primary sources used for this package; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "FMS"
+    },
+    {
+      "company_name": "Humana Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Healthcare services/managed care peer for rough multiple range; NTM EV multiples not captured from free sources; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "HUM"
+    },
+    {
+      "company_name": "Encompass Health Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Post-acute care provider as a healthcare-services peer; NTM EV multiples not captured from free sources; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "EHC"
+    },
+    {
+      "company_name": "Tenet Healthcare Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Hospital-services peer; NTM EV/EBITDA and NTM P/E not captured from open sources; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "THC"
+    },
+    {
+      "company_name": "Universal Health Services, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Behavioral/acute-care provider peer; NTM EV multiples not captured from open sources; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "UHS"
+    },
+    {
+      "company_name": "Option Care Health Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Infusion/home healthcare peer; NTM EV multiples not captured from open sources; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "OPCH"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0438,
+      "2027": 0.0435,
+      "2028": 0.0433,
+      "2029": 0.0432,
+      "2030": 0.0432
+    },
+    "da_pct_sales": {
+      "2026": 0.055,
+      "2027": 0.0545,
+      "2028": 0.054,
+      "2029": 0.054,
+      "2030": 0.0535
+    },
+    "ebit_margin": {
+      "2026": 0.151,
+      "2027": 0.153,
+      "2028": 0.154,
+      "2029": 0.155,
+      "2030": 0.155
+    },
+    "nwc_pct_sales": {
+      "2026": 0.0128,
+      "2027": 0.0128,
+      "2028": 0.0128,
+      "2029": 0.0128,
+      "2030": 0.0128
+    },
+    "revenue_growth": {
+      "2026": 0.035,
+      "2027": 0.033,
+      "2028": 0.031,
+      "2029": 0.03,
+      "2030": 0.029
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 567985000.0,
+      "2024": 555443000.0,
+      "2025": 575864000.0
+    },
+    "da": {
+      "2023": 745443000.0,
+      "2024": 723860000.0,
+      "2025": 715348000.0
+    },
+    "ebit": {
+      "2023": 1602784000.0,
+      "2024": 2090483000.0,
+      "2025": 2043615000.0
+    },
+    "nwc": {
+      "2023": 142747000.0,
+      "2024": 112640000.0,
+      "2025": 243520000.0
+    },
+    "revenue": {
+      "2023": 12140147000.0,
+      "2024": 12815550000.0,
+      "2025": 13643069000.0
+    }
+  },
+  "notes": [
+    "Historical revenue, EBIT proxy (operating income), and depreciation/amortization are sourced from DaVita\u2019s Consolidated Statements of Income/Cash Flows in the 2025 Form 10-K. ([investors.davita.com](https://investors.davita.com/wp-content/uploads/sites/3/2026/02/davita-form-10k.pdf))",
+    "Capex is modeled as 'Additions of property and equipment' from the Consolidated Statements of Cash Flows (excluding acquisitions cash outflows). ([investors.davita.com](https://investors.davita.com/wp-content/uploads/sites/3/2026/02/davita-form-10k.pdf))",
+    "NWC construction (year-end) is: (Total current assets - cash and cash equivalents - restricted cash and equivalents - short-term investments) - (Total current liabilities - current portion of long-term debt). 2025/2024 balance sheet items from the 2025 Form 10-K; 2023 balance sheet items from the 2024 Form 10-K. ([investors.davita.com](https://investors.davita.com/wp-content/uploads/sites/3/2026/02/davita-form-10k.pdf))",
+    "Tax rate uses the effective income tax rate (continuing operations) from the 2025 Form 10-K; WACC, terminal growth, and terminal exit multiple are base-case modeling assumptions (not explicitly provided by the company). ([investors.davita.com](https://investors.davita.com/wp-content/uploads/sites/3/2026/02/davita-form-10k.pdf))",
+    "Current price uses a market-data feed snapshot (latest trade shown as Mar 20, 2026 UTC) of 149.31; current_context references 4Q 2025 guidance issued Feb 2, 2026. ([investors.davita.com](https://investors.davita.com/2026-02-02-davita-inc-4th-quarter-2025-results/))",
+    "NOL utilization percent is set to null because the 10-K discloses NOL amounts and constraints qualitatively, but does not provide a specific utilization percentage suitable for a single DCF input. ([investors.davita.com](https://investors.davita.com/wp-content/uploads/sites/3/2026/02/davita-form-10k.pdf))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Medicare ESRD payment updates (e.g., ESRD PPS factors) that impact treatment reimbursement and margins.",
+      "Execution on ancillary services and integrated kidney care (IKC) scaling, supporting revenue diversification.",
+      "Improved operational execution and normalization of items impacting operating income after prior cybersecurity and other discrete effects."
+    ],
+    "company_overview": [
+      "DaVita is a leading provider of kidney care services, primarily through U.S. dialysis patient services and related ancillary services.",
+      "The company also operates in international dialysis patient services and related kidney care businesses, plus integrated kidney care (IKC) offerings."
+    ],
+    "current_context": [
+      "4Q 2025 (year ended Dec 31, 2025): revenues of 13643069000 and operating income (EBIT proxy) of 2043615000. ([investors.davita.com](https://investors.davita.com/wp-content/uploads/sites/3/2026/02/davita-form-10k.pdf))",
+      "4Q 2025 cash generation: operating cash flow of 1886500000 and free cash flow of 1024000000 (FY 2025). ([investors.davita.com](https://investors.davita.com/2026-02-02-davita-inc-4th-quarter-2025-results/))",
+      "Capital returns: repurchased 12.7 million shares in FY 2025 at an average price of 140.09 per share. ([investors.davita.com](https://investors.davita.com/2026-02-02-davita-inc-4th-quarter-2025-results/))",
+      "2026 guidance (company-provided, non-GAAP): adjusted operating income of 2085000000\u20132235000000 and free cash flow of 1000000000\u20131250000000. ([investors.davita.com](https://investors.davita.com/2026-02-02-davita-inc-4th-quarter-2025-results/))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes ongoing ESRD patient base growth and steady ancillary expansion, consistent with DaVita\u2019s historical low-to-mid single digit top-line trajectory.",
+      "EBIT margins modeled to stabilize and gradually improve toward a terminal level, reflecting operating leverage and cost discipline after normalization items.",
+      "Capital intensity is modeled from historical capex (additions of property and equipment) as a % of sales and remains broadly stable over the forecast period.",
+      "Working capital intensity is modeled using a normalized NWC-to-sales ratio to avoid over-fitting temporary FY fluctuations.",
+      "Terminal value is driven by a reasonable exit EBITDA multiple applied to terminal-period cash generation dynamics."
+    ],
+    "key_risks": [
+      "Reimbursement or regulatory changes that pressure pricing or utilization trends faster than modeled.",
+      "Operational and technology risks (including cybersecurity/billing continuity) that can increase costs or reduce collections.",
+      "Labor and supply cost inflation, especially if margin recovery is slower than the base-case trajectory."
+    ],
+    "sources": [
+      {
+        "label": "DaVita 2025 Form 10-K (PDF)",
+        "notes": "Primary source for historical revenue, operating income, depreciation and amortization, capex (additions of property and equipment), balance-sheet items used to construct NWC, cash/debt, diluted shares, and NOL carryforwards. ([investors.davita.com](https://investors.davita.com/wp-content/uploads/sites/3/2026/02/davita-form-10k.pdf))",
+        "url": "https://investors.davita.com/wp-content/uploads/sites/3/2026/02/davita-form-10k.pdf"
+      },
+      {
+        "label": "DaVita 4Q 2025 Results (Investor Relations)",
+        "notes": "Primary source for FY 2025 operating cash flow/free cash flow context, share repurchase disclosure, and 2026 guidance ranges (adjusted operating income and free cash flow). ([investors.davita.com](https://investors.davita.com/2026-02-02-davita-inc-4th-quarter-2025-results/))",
+        "url": "https://investors.davita.com/2026-02-02-davita-inc-4th-quarter-2025-results/"
+      },
+      {
+        "label": "DaVita 4Q 2024 Results (Investor Relations)",
+        "notes": "Supplemental source for historical FY 2024 results and cash flow context (used where relevant to cross-check historical items). ([investors.davita.com](https://investors.davita.com/2025-02-13-DaVita-Inc-4th-Quarter-2024-Results/?ftag=YHF4eb9d17))",
+        "url": "https://newsroom.davita.com/2025-02-13-DaVita-Inc-4th-Quarter-2024-Results"
+      }
+    ],
+    "subtitle": "DaVita (DVA) \u2014 DCF Base-Case & Scenario Input Package",
+    "valuation_summary": [
+      "DCF base case is anchored in the company\u2019s last three fiscal years\u2019 revenue, operating income, depreciation/amortization, capex, and a constructed NWC ratio from reported balance-sheet items.",
+      "Scenario analysis applies modest deltas to growth, margin, and cost of capital (WACC) to stress valuation without assuming aggressive or unrealistic outcomes.",
+      "Comps inputs are included for completeness, but NTM-specific EV/Revenue and EV/EBITDA were not consistently available from open sources and are left null."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 149.31,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.151,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 10.5,
+        "terminal_growth": 0.015,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.09
+      },
+      "description": "Bear: modestly slower revenue growth and slightly lower operating margin with a higher discount rate, lower terminal growth, and a lower terminal multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0438,
+          "2027": 0.0435,
+          "2028": 0.0433,
+          "2029": 0.0432,
+          "2030": 0.0432
+        },
+        "da_pct_sales": {
+          "2026": 0.055,
+          "2027": 0.0545,
+          "2028": 0.054,
+          "2029": 0.054,
+          "2030": 0.0535
+        },
+        "ebit_margin": {
+          "2026": 0.148,
+          "2027": 0.149,
+          "2028": 0.15,
+          "2029": 0.151,
+          "2030": 0.151
+        },
+        "nwc_pct_sales": {
+          "2026": 0.0128,
+          "2027": 0.0128,
+          "2028": 0.0128,
+          "2029": 0.0128,
+          "2030": 0.0128
+        },
+        "revenue_growth": {
+          "2026": 0.03,
+          "2027": 0.028,
+          "2028": 0.026,
+          "2029": 0.025,
+          "2030": 0.024
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 149.31,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.16,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 11.5,
+        "terminal_growth": 0.025,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.08
+      },
+      "description": "Bull: modestly faster revenue growth and slightly higher operating margin with a somewhat lower discount rate and higher terminal multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0438,
+          "2027": 0.0435,
+          "2028": 0.0433,
+          "2029": 0.0432,
+          "2030": 0.0432
+        },
+        "da_pct_sales": {
+          "2026": 0.055,
+          "2027": 0.0545,
+          "2028": 0.054,
+          "2029": 0.054,
+          "2030": 0.0535
+        },
+        "ebit_margin": {
+          "2026": 0.157,
+          "2027": 0.158,
+          "2028": 0.159,
+          "2029": 0.16,
+          "2030": 0.16
+        },
+        "nwc_pct_sales": {
+          "2026": 0.0128,
+          "2027": 0.0128,
+          "2028": 0.0128,
+          "2029": 0.0128,
+          "2030": 0.0128
+        },
+        "revenue_growth": {
+          "2026": 0.04,
+          "2027": 0.038,
+          "2028": 0.036,
+          "2029": 0.035,
+          "2030": 0.034
+        }
+      }
+    }
+  },
+  "ticker": "DVA"
+}

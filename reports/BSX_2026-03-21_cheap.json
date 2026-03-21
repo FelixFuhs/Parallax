@@ -1,0 +1,666 @@
+{
+  "_meta": {
+    "cost_usd": 0.024538,
+    "generated_at": "2026-03-21T17:33:11Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11494,
+      "prompt": 2514,
+      "reasoning": 7734
+    }
+  },
+  "_valuation": {
+    "company_name": "Boston Scientific Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 69.48,
+        "description": "Base case",
+        "enterprise_value": 78629432103.65628,
+        "equity_value": 68919432103.65628,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 90190858844.05824,
+        "implied_market_cap": 68919432103.65628,
+        "investments_adjustment": 0.0,
+        "net_debt": 9471000000.0,
+        "per_share_value": 46.115377787658936,
+        "projected_years": [
+          {
+            "capex": 936251360.0,
+            "cash_taxes": 441734628.608,
+            "da": 1446933920.0,
+            "delta_nwc": 332451800.0,
+            "discount_factor": 0.9300595238095238,
+            "ebit": 3659891679.9999995,
+            "ebit_margin": 0.172,
+            "ebitda": 5106825600.0,
+            "fcff": 3396387811.392,
+            "nol_balance_end": 0.0,
+            "nol_used": 626000000.0,
+            "nwc": 2021451800.0,
+            "present_value_fcff": 3158842830.5357146,
+            "revenue": 21278440000.0,
+            "revenue_growth": 0.06,
+            "year": 2026
+          },
+          {
+            "capex": 987745184.8,
+            "cash_taxes": 568725718.40448,
+            "da": 1526515285.6000001,
+            "delta_nwc": 111179849.0,
+            "discount_factor": 0.8650107178287983,
+            "ebit": 3906083230.7999997,
+            "ebit_margin": 0.174,
+            "ebitda": 5432598516.4,
+            "fcff": 3764947764.1955194,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2132631649.0,
+            "present_value_fcff": 3256720168.0946956,
+            "revenue": 22448754200.0,
+            "revenue_growth": 0.055,
+            "year": 2027
+          },
+          {
+            "capex": 1037132444.04,
+            "cash_taxes": 604025935.408896,
+            "da": 1602841049.88,
+            "delta_nwc": 106631582.44999981,
+            "discount_factor": 0.8045114563139866,
+            "ebit": 4148529776.16,
+            "ebit_margin": 0.176,
+            "ebitda": 5751370826.04,
+            "fcff": 4003580864.1411037,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2239263231.45,
+            "present_value_fcff": 3220926671.480968,
+            "revenue": 23571191910.0,
+            "revenue_growth": 0.05,
+            "year": 2028
+          },
+          {
+            "capex": 1083803404.0217998,
+            "cash_taxes": 634793506.4937866,
+            "da": 1674968897.1246,
+            "delta_nwc": 100766845.41524982,
+            "discount_factor": 0.7482435419586928,
+            "ebit": 4359845511.633149,
+            "ebit_margin": 0.177,
+            "ebitda": 6034814408.75775,
+            "fcff": 4215450652.826912,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2340030076.8652496,
+            "present_value_fcff": 3154183727.4232926,
+            "revenue": 24631895545.949997,
+            "revenue_growth": 0.045,
+            "year": 2029
+          },
+          {
+            "capex": 1127155540.1826718,
+            "cash_taxes": 663915106.904688,
+            "da": 1741967653.009584,
+            "delta_nwc": 93601203.07461023,
+            "discount_factor": 0.6959110323276534,
+            "ebit": 4559856503.466264,
+            "ebit_margin": 0.178,
+            "ebitda": 6301824156.475847,
+            "fcff": 4417152306.313877,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2433631279.93986,
+            "present_value_fcff": 3073945021.435365,
+            "revenue": 25617171367.788,
+            "revenue_growth": 0.04,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 90190858844.05824,
+        "terminal_value_present_value": 62764813684.68624,
+        "upside_downside_pct": -0.3362783853244252
+      },
+      "bear": {
+        "current_price": 69.48,
+        "description": "Modestly weaker growth and margin pressure; higher discount rate and a lower long-run growth assumption.",
+        "enterprise_value": 67118348472.32337,
+        "equity_value": 57408348472.32337,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 76091014266.76505,
+        "implied_market_cap": 57408348472.32338,
+        "investments_adjustment": 0.0,
+        "net_debt": 9471000000.0,
+        "per_share_value": 38.41308027589386,
+        "projected_years": [
+          {
+            "capex": 927418800.0,
+            "cash_taxes": 421362891.04,
+            "da": 1433283600.0,
+            "delta_nwc": 313381500.0,
+            "discount_factor": 0.9272137227630969,
+            "ebit": 3519975900.0,
+            "ebit_margin": 0.167,
+            "ebitda": 4953259500.0,
+            "fcff": 3291096308.96,
+            "nol_balance_end": 0.0,
+            "nol_used": 626000000.0,
+            "nwc": 2002381500.0,
+            "present_value_fcff": 3051549660.602689,
+            "revenue": 21077700000.0,
+            "revenue_growth": 0.05,
+            "year": 2026
+          },
+          {
+            "capex": 969152646.0,
+            "cash_taxes": 541985401.5576001,
+            "da": 1497781362.0,
+            "delta_nwc": 90107167.5,
+            "discount_factor": 0.8597252876802011,
+            "ebit": 3722427208.5000005,
+            "ebit_margin": 0.169,
+            "ebitda": 5220208570.5,
+            "fcff": 3618963355.4424,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2092488667.5,
+            "present_value_fcff": 3111314311.861823,
+            "revenue": 22026196500.0,
+            "revenue_growth": 0.045,
+            "year": 2027
+          },
+          {
+            "capex": 1007918751.8399999,
+            "cash_taxes": 570335407.1775361,
+            "da": 1557692616.48,
+            "delta_nwc": 83699546.69999981,
+            "discount_factor": 0.7971490845435337,
+            "ebit": 3917138785.5600004,
+            "ebit_margin": 0.171,
+            "ebitda": 5474831402.040001,
+            "fcff": 3812877696.322465,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2176188214.2,
+            "present_value_fcff": 3039431965.0999107,
+            "revenue": 22907244360.0,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 1043195908.1543999,
+            "cash_taxes": 593749176.5248243,
+            "da": 1612211858.0568001,
+            "delta_nwc": 76166587.49700022,
+            "discount_factor": 0.7391275702768045,
+            "ebit": 4077947640.9671993,
+            "ebit_margin": 0.172,
+            "ebitda": 5690159499.023999,
+            "fcff": 3977047826.847775,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2252354801.697,
+            "present_value_fcff": 2939545697.132642,
+            "revenue": 23708997912.6,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 1074491785.3990319,
+            "cash_taxes": 615117242.8195258,
+            "da": 1660578213.798504,
+            "delta_nwc": 67570644.05091,
+            "discount_factor": 0.6853292260331985,
+            "ebit": 4224706338.0461936,
+            "ebit_margin": 0.173,
+            "ebitda": 5885284551.844698,
+            "fcff": 4128104879.5752306,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2319925445.74791,
+            "present_value_fcff": 2829110922.103163,
+            "revenue": 24420267849.978,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 76091014266.76505,
+        "terminal_value_present_value": 52147395915.52315,
+        "upside_downside_pct": -0.4471347110550682
+      },
+      "bull": {
+        "current_price": 69.48,
+        "description": "Modestly better top-line growth and slight margin expansion; lower discount rate and a higher long-run growth assumption.",
+        "enterprise_value": 91903756410.2335,
+        "equity_value": 82193756410.2335,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 106603235647.2,
+        "implied_market_cap": 82193756410.2335,
+        "investments_adjustment": 0.0,
+        "net_debt": 9471000000.0,
+        "per_share_value": 54.99749508881466,
+        "projected_years": [
+          {
+            "capex": 945083920.0,
+            "cash_taxes": 462398643.616,
+            "da": 1460584240.0,
+            "delta_nwc": 351522100.0,
+            "discount_factor": 0.9324009324009324,
+            "ebit": 3801814860.0,
+            "ebit_margin": 0.177,
+            "ebitda": 5262399100.0,
+            "fcff": 3503394436.384,
+            "nol_balance_end": 0.0,
+            "nol_used": 626000000.0,
+            "nwc": 2040522100.0,
+            "present_value_fcff": 3266568239.0526805,
+            "revenue": 21479180000.0,
+            "revenue_growth": 0.07,
+            "year": 2026
+          },
+          {
+            "capex": 1006514374.8,
+            "cash_taxes": 596185914.58608,
+            "da": 1555522215.6000001,
+            "delta_nwc": 132633936.5,
+            "discount_factor": 0.8693714987421282,
+            "ebit": 4094683479.2999997,
+            "ebit_margin": 0.179,
+            "ebitda": 5650205694.9,
+            "fcff": 3914871469.01392,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2173156036.5,
+            "present_value_fcff": 3403477676.3994284,
+            "revenue": 22875326700.0,
+            "revenue_growth": 0.065,
+            "year": 2027
+          },
+          {
+            "capex": 1066905237.288,
+            "cash_taxes": 639018042.3043872,
+            "da": 1648853548.536,
+            "delta_nwc": 130389362.19000006,
+            "discount_factor": 0.8106027960299562,
+            "ebit": 4388860180.662,
+            "ebit_margin": 0.181,
+            "ebitda": 6037713729.198,
+            "fcff": 4201401087.4156127,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2303545398.69,
+            "present_value_fcff": 3405667468.702394,
+            "revenue": 24247846302.0,
+            "revenue_growth": 0.06,
+            "year": 2028
+          },
+          {
+            "capex": 1125585025.3388398,
+            "cash_taxes": 677888697.805886,
+            "da": 1739540493.7054799,
+            "delta_nwc": 126694996.92794943,
+            "discount_factor": 0.755806802825134,
+            "ebit": 4655828968.44702,
+            "ebit_margin": 0.182,
+            "ebitda": 6395369462.152499,
+            "fcff": 4465200742.079824,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2430240395.6179495,
+            "present_value_fcff": 3374829096.843768,
+            "revenue": 25581477848.609997,
+            "revenue_growth": 0.055,
+            "year": 2029
+          },
+          {
+            "capex": 1181864276.6057818,
+            "cash_taxes": 715694029.0296758,
+            "da": 1826517518.390754,
+            "delta_nwc": 121512019.78089762,
+            "discount_factor": 0.7047149676691227,
+            "ebit": 4915480968.610411,
+            "ebit_margin": 0.183,
+            "ebitda": 6741998487.001164,
+            "fcff": 4722928161.58481,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2551752415.398847,
+            "present_value_fcff": 3328318166.6948285,
+            "revenue": 26860551741.040497,
+            "revenue_growth": 0.05,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 106603235647.2,
+        "terminal_value_present_value": 75124895762.5404,
+        "upside_downside_pct": -0.20844134875050868
+      }
+    },
+    "ticker": "BSX"
+  },
+  "assumptions": {
+    "cash": 1965000000.0,
+    "current_price": 69.48,
+    "debt": 11436000000.0,
+    "diluted_shares": 1494500000.0,
+    "investments": 0.0,
+    "minority_interest": 239000000.0,
+    "net_debt_override": null,
+    "nol_balance": 626000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.178,
+    "tax_rate": 0.1456,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.0752
+  },
+  "company_name": "Boston Scientific Corporation",
+  "comps": [
+    {
+      "company_name": "Medtronic plc",
+      "ev_ntm_ebitda": 13.79,
+      "ev_ntm_revenue": 3.67,
+      "notes": "EV/NTM Revenue proxied using EV / Sales; EV/EBITDA and forward P/E from Stockanalysis. ([stockanalysis.com](https://stockanalysis.com/stocks/mdt/statistics/))",
+      "pe_ntm": 14.49,
+      "source": "stockanalysis.com (statistics page; multiples shown as EV/Sales and EV/EBITDA)",
+      "ticker": "MDT"
+    },
+    {
+      "company_name": "Abbott Laboratories",
+      "ev_ntm_ebitda": 16.35,
+      "ev_ntm_revenue": 4.44,
+      "notes": "EV/NTM Revenue proxied using EV / Sales; EV/EBITDA and forward P/E from Stockanalysis. ([stockanalysis.com](https://stockanalysis.com/stocks/abt/statistics/?utm_source=openai))",
+      "pe_ntm": 19.42,
+      "source": "stockanalysis.com (statistics page; multiples shown as EV/Sales and EV/EBITDA)",
+      "ticker": "ABT"
+    },
+    {
+      "company_name": "Edwards Lifesciences Corporation",
+      "ev_ntm_ebitda": 25.57,
+      "ev_ntm_revenue": 7.56,
+      "notes": "EV/NTM Revenue proxied using EV / Sales; EV/EBITDA and forward P/E from Stockanalysis. ([stockanalysis.com](https://stockanalysis.com/stocks/ew/statistics/?utm_source=openai))",
+      "pe_ntm": 28.77,
+      "source": "stockanalysis.com (statistics page; multiples shown as EV/Sales and EV/EBITDA)",
+      "ticker": "EW"
+    },
+    {
+      "company_name": "Stryker Corporation",
+      "ev_ntm_ebitda": 20.81,
+      "ev_ntm_revenue": 5.76,
+      "notes": "EV/NTM Revenue proxied using EV / Sales; EV/EBITDA and forward P/E from Stockanalysis. ([stockanalysis.com](https://stockanalysis.com/stocks/syk/statistics/?utm_source=openai))",
+      "pe_ntm": 23.09,
+      "source": "stockanalysis.com (statistics page; multiples shown as EV/Sales and EV/EBITDA)",
+      "ticker": "SYK"
+    },
+    {
+      "company_name": "Becton, Dickinson and Company",
+      "ev_ntm_ebitda": 10.8,
+      "ev_ntm_revenue": 2.98,
+      "notes": "EV/NTM Revenue proxied using EV / Sales; EV/EBITDA and forward P/E from Stockanalysis. ([stockanalysis.com](https://stockanalysis.com/stocks/bdx/statistics/?utm_source=openai))",
+      "pe_ntm": 12.67,
+      "source": "stockanalysis.com (statistics page; multiples shown as EV/Sales and EV/EBITDA)",
+      "ticker": "BDX"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.044,
+      "2027": 0.044,
+      "2028": 0.044,
+      "2029": 0.044,
+      "2030": 0.044
+    },
+    "da_pct_sales": {
+      "2026": 0.068,
+      "2027": 0.068,
+      "2028": 0.068,
+      "2029": 0.068,
+      "2030": 0.068
+    },
+    "ebit_margin": {
+      "2026": 0.172,
+      "2027": 0.174,
+      "2028": 0.176,
+      "2029": 0.177,
+      "2030": 0.178
+    },
+    "nwc_pct_sales": {
+      "2026": 0.095,
+      "2027": 0.095,
+      "2028": 0.095,
+      "2029": 0.095,
+      "2030": 0.095
+    },
+    "revenue_growth": {
+      "2026": 0.06,
+      "2027": 0.055,
+      "2028": 0.05,
+      "2029": 0.045,
+      "2030": 0.04
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 711000000.0,
+      "2024": 790000000.0,
+      "2025": 876000000.0
+    },
+    "da": {
+      "2023": 1196000000.0,
+      "2024": 1269000000.0,
+      "2025": 1368000000.0
+    },
+    "ebit": {
+      "2023": 2343000000.0,
+      "2024": 2603000000.0,
+      "2025": 3613000000.0
+    },
+    "nwc": {
+      "2023": 1247000000.0,
+      "2024": 1885000000.0,
+      "2025": 1689000000.0
+    },
+    "revenue": {
+      "2023": 14240000000.0,
+      "2024": 16747000000.0,
+      "2025": 20074000000.0
+    }
+  },
+  "notes": [
+    "Historical income statement values use Boston Scientific FY 2025 Form 10-K operating income (EBIT) and net sales (revenue) for 2023\u20132025 (all in $ millions in filing, converted to $ absolute units). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000885725/000088572526000010/bsx-20251231.htm))",
+    "D&A is taken from the consolidated statements of cash flows line 'Depreciation and amortization' and capex is taken from 'Purchases of property, plant and equipment and internal use software' (cash flow statement lines). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000885725/000088572526000010/bsx-20251231.htm))",
+    "NWC construction (for historical and forecast ratios): NWC = (Total current assets - Cash and cash equivalents) - (Total current liabilities - Current debt obligations). Balance-sheet components were sourced from the FY 2025 and FY 2024 Form 10-K consolidated balance sheets. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000885725/000088572526000010/bsx-20251231.htm))",
+    "Tax rate set to 0.1456 (14.56%) consistent with effective tax rate support in Stockanalysis and the 2025 income tax expense / pre-tax income implied by the FY 2025 tax note. ([stockanalysis.com](https://stockanalysis.com/stocks/bsx/statistics/))",
+    "WACC set to 0.0752 and comps multiples sourced from Stockanalysis. If your DCF requires CAPM-by-CAPM reconstruction, treat these as model inputs rather than a fully decomposed derivation. ([stockanalysis.com](https://stockanalysis.com/stocks/bsx/statistics/))",
+    "NOLs: nol_balance populated using the disclosed tax-effect amount of net operating loss carryforwards and credits (U.S. tax effect $529M + foreign tax effect $97M = $626M). This is not the pre-tax NOL dollar value; nol_utilization_pct is left null because the filing disclosure does not provide an explicit utilization rate. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000885725/000088572526000010/bsx-20251231.htm))",
+    "Forecast drivers are base-case assumptions that intentionally normalize away from the unusually high FY 2024\u2013FY 2025 reported growth partly influenced by acquisitions/FX; all forecast years use annual data only."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Sustained adoption of platform products (electrophysiology/structural heart) that can extend franchise growth beyond base-case rates.",
+      "Successful regulatory and commercial execution in key geographies (including pacing versus competing technologies).",
+      "Potential bolt-on acquisitions or divestitures that can reshape growth and margin profile (included only implicitly via base-case normalization)."
+    ],
+    "company_overview": [
+      "Boston Scientific is a medical device company focused on interventional procedures across MedSurg and Cardiovascular modalities.",
+      "Net sales are driven by single-use device franchises (e.g., electrophysiology and structural heart therapies) and broader procedural offerings.",
+      "The company reports operating income (EBIT) after significant R&D and SG&A investments supporting product innovation and commercial execution."
+    ],
+    "current_context": [
+      "FY 2025 net sales were $20.074B with operating income (EBIT) of $3.613B, reflecting strong operating leverage versus FY 2024. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000885725/000088572526000010/bsx-20251231.htm))",
+      "FY 2025 operating cash flow was $4.534B and capex (purchases of property/plant/equipment and internal-use software) was $876M, supporting ongoing investment while maintaining reinvestment discipline. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000885725/000088572526000010/bsx-20251231.htm))",
+      "FY 2025 results were released in early 2026 (latest annual earnings context as of the research date). ([prnewswire.com](https://www.prnewswire.com/news-releases/boston-scientific-announces-results-for-fourth-quarter-and-full-year-2025-302678393.html?utm_source=openai))"
+    ],
+    "investment_highlights": [
+      "Revenue growth base case normalizes from acquisition/FX-impacted history toward mid-single-digit growth, aligning with large-cap medtech maturity.",
+      "EBIT margin is assumed to stay near recent levels with modest steady improvement (2026 EBIT margin 0.172 to 2030 0.178).",
+      "Reinvestment intensity is kept economically consistent: D&A ~0.068 of sales and capex ~0.044 of sales in the forecast.",
+      "Working capital intensity is modeled around ~0.095 of sales (historical ~0.088\u20130.113 depending on year), supporting stable FCF conversion."
+    ],
+    "key_risks": [
+      "Regulatory, reimbursement, and pricing pressure (including country-level coverage changes) could compress margins versus assumptions.",
+      "Procedure volumes and payer behavior can shift with macro conditions, impacting revenue growth cadence.",
+      "Product performance, recalls/quality, and litigation/product liability outcomes may create operating volatility and cash flow headwinds."
+    ],
+    "sources": [
+      {
+        "label": "Boston Scientific FY 2025 Form 10-K (SEC filing)",
+        "notes": "Historical revenue, operating income (EBIT), D&A, capex, cash/debt, balance-sheet items for working capital, and tax note used for tax-rate support. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000885725/000088572526000010/bsx-20251231.htm))",
+        "url": null
+      },
+      {
+        "label": "Boston Scientific FY 2024 Form 10-K (SEC filing)",
+        "notes": "Used to source 2023/2024 balance-sheet items for NWC calculation consistency and historical operating context. ([sec.gov](https://www.sec.gov/Archives/edgar/data/885725/000088572525000011/bsx-20241231.htm))",
+        "url": null
+      },
+      {
+        "label": "Boston Scientific FY 2025 earnings release (latest annual earnings context)",
+        "notes": "Provides the latest published earnings context as of the research date (supporting 'current_context' framing). ([prnewswire.com](https://www.prnewswire.com/news-releases/boston-scientific-announces-results-for-fourth-quarter-and-full-year-2025-302678393.html?utm_source=openai))",
+        "url": null
+      },
+      {
+        "label": "Stockanalysis (BSX valuation stats used for WACC, beta, effective tax, and comps inputs)",
+        "notes": "WACC and effective tax rate used for base-case assumptions; peer valuation multiples (EV/Sales, EV/EBITDA, forward P/E) used for comps. ([stockanalysis.com](https://stockanalysis.com/stocks/bsx/statistics/))",
+        "url": null
+      }
+    ],
+    "subtitle": "BSX DCF inputs (annual) \u2014 operating model & valuation setup",
+    "valuation_summary": [
+      "DCF uses a Gordon-growth terminal approach with terminal growth of 0.025 and WACC of 0.0752 (Stockanalysis inputs). ([stockanalysis.com](https://stockanalysis.com/stocks/bsx/statistics/))",
+      "Scenario analysis provides moderate sensitivity on growth/margin plus discount-rate and terminal-growth changes (not extreme assumptions).",
+      "Peer comps benchmark valuation using EV/EBITDA and forward P/E from large medtech peers (Stockanalysis), with EV/Sales used as an EV/NTM Revenue proxy. ([stockanalysis.com](https://stockanalysis.com/stocks/mdt/statistics/))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.173,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.023,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0785
+      },
+      "description": "Modestly weaker growth and margin pressure; higher discount rate and a lower long-run growth assumption.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.044,
+          "2027": 0.044,
+          "2028": 0.044,
+          "2029": 0.044,
+          "2030": 0.044
+        },
+        "da_pct_sales": {
+          "2026": 0.068,
+          "2027": 0.068,
+          "2028": 0.068,
+          "2029": 0.068,
+          "2030": 0.068
+        },
+        "ebit_margin": {
+          "2026": 0.167,
+          "2027": 0.169,
+          "2028": 0.171,
+          "2029": 0.172,
+          "2030": 0.173
+        },
+        "nwc_pct_sales": {
+          "2026": 0.095,
+          "2027": 0.095,
+          "2028": 0.095,
+          "2029": 0.095,
+          "2030": 0.095
+        },
+        "revenue_growth": {
+          "2026": 0.05,
+          "2027": 0.045,
+          "2028": 0.04,
+          "2029": 0.035,
+          "2030": 0.03
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.183,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.027,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0725
+      },
+      "description": "Modestly better top-line growth and slight margin expansion; lower discount rate and a higher long-run growth assumption.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.044,
+          "2027": 0.044,
+          "2028": 0.044,
+          "2029": 0.044,
+          "2030": 0.044
+        },
+        "da_pct_sales": {
+          "2026": 0.068,
+          "2027": 0.068,
+          "2028": 0.068,
+          "2029": 0.068,
+          "2030": 0.068
+        },
+        "ebit_margin": {
+          "2026": 0.177,
+          "2027": 0.179,
+          "2028": 0.181,
+          "2029": 0.182,
+          "2030": 0.183
+        },
+        "nwc_pct_sales": {
+          "2026": 0.095,
+          "2027": 0.095,
+          "2028": 0.095,
+          "2029": 0.095,
+          "2030": 0.095
+        },
+        "revenue_growth": {
+          "2026": 0.07,
+          "2027": 0.065,
+          "2028": 0.06,
+          "2029": 0.055,
+          "2030": 0.05
+        }
+      }
+    }
+  },
+  "ticker": "BSX"
+}

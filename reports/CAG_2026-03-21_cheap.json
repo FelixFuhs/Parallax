@@ -1,0 +1,687 @@
+{
+  "_meta": {
+    "cost_usd": 0.027225,
+    "generated_at": "2026-03-21T17:15:35Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12769,
+      "prompt": 2514,
+      "reasoning": 8609
+    }
+  },
+  "_valuation": {
+    "company_name": "Conagra Brands, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 15.16,
+        "description": "Base case",
+        "enterprise_value": 14465093626.724133,
+        "equity_value": 7402293626.724133,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 16049469788.369844,
+        "implied_market_cap": 7402293626.724133,
+        "investments_adjustment": 936800000.0,
+        "net_debt": 7999600000.0,
+        "per_share_value": 15.431089486604403,
+        "projected_years": [
+          {
+            "capex": 389028800.0,
+            "cash_taxes": 291595896.0,
+            "da": 390190080.0,
+            "delta_nwc": 61140000.0,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 1300633600.0,
+            "ebit_margin": 0.112,
+            "ebitda": 1690823680.0,
+            "fcff": 949058984.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 59800000.0,
+            "nwc": 580640000.0,
+            "present_value_fcff": 870696315.5963302,
+            "revenue": 11612800000.0,
+            "revenue_growth": 0.0,
+            "year": 2026
+          },
+          {
+            "capex": 389806857.5999999,
+            "cash_taxes": 315405099.5999999,
+            "da": 390973943.99999994,
+            "delta_nwc": -8767664.00000012,
+            "discount_factor": 0.84167999326656,
+            "ebit": 1342149359.9999998,
+            "ebit_margin": 0.115,
+            "ebitda": 1733123303.9999998,
+            "fcff": 1036679010.8000001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 571872335.9999999,
+            "present_value_fcff": 872551982.8297281,
+            "revenue": 11670863999.999998,
+            "revenue_growth": 0.005,
+            "year": 2027
+          },
+          {
+            "capex": 392925312.46079993,
+            "cash_taxes": 323457528.92543995,
+            "da": 392925312.46079993,
+            "delta_nwc": -1307136.7680000067,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 1376415016.7039998,
+            "ebit_margin": 0.117,
+            "ebitda": 1769340329.1647997,
+            "fcff": 1054264624.5465599,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 570565199.2319999,
+            "present_value_fcff": 814085726.6876339,
+            "revenue": 11764230911.999998,
+            "revenue_growth": 0.008,
+            "year": 2028
+          },
+          {
+            "capex": 395666378.263296,
+            "cash_taxes": 329484344.4216575,
+            "da": 396854565.585408,
+            "delta_nwc": -235284.6182398796,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 1402061040.0921597,
+            "ebit_margin": 0.118,
+            "ebitda": 1798915605.6775677,
+            "fcff": 1074000167.6108541,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 570329914.61376,
+            "present_value_fcff": 760848795.4237756,
+            "revenue": 11881873221.119999,
+            "revenue_growth": 0.01,
+            "year": 2029
+          },
+          {
+            "capex": 399227375.6676656,
+            "cash_taxes": 338084444.25910413,
+            "da": 399227375.6676656,
+            "delta_nwc": -861435.8085312843,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 1438657209.6132092,
+            "ebit_margin": 0.12,
+            "ebitda": 1837884585.2808747,
+            "fcff": 1101434201.1626363,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 569468478.8052287,
+            "present_value_fcff": 715856657.2780427,
+            "revenue": 11988810080.110077,
+            "revenue_growth": 0.009,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 16049469788.369844,
+        "terminal_value_present_value": 10431054148.908623,
+        "upside_downside_pct": 0.01788189225622716
+      },
+      "bear": {
+        "current_price": 15.16,
+        "description": "Modestly weaker organic growth, margin compression, and working-capital normalization versus base case; higher discount rate and lower terminal growth.",
+        "enterprise_value": 12557294833.472626,
+        "equity_value": 5494494833.472626,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 13798403483.416004,
+        "implied_market_cap": 5494494833.472626,
+        "investments_adjustment": 936800000.0,
+        "net_debt": 7999600000.0,
+        "per_share_value": 11.45402300077679,
+        "projected_years": [
+          {
+            "capex": 389019509.76,
+            "cash_taxes": 279795665.408,
+            "da": 391335102.08,
+            "delta_nwc": 94131964.79999995,
+            "discount_factor": 0.9132420091324202,
+            "ebit": 1250419852.8,
+            "ebit_margin": 0.108,
+            "ebitda": 1641754954.8799999,
+            "fcff": 878807814.912,
+            "nol_balance_end": 0.0,
+            "nol_used": 59800000.0,
+            "nwc": 613631964.8,
+            "present_value_fcff": 802564214.5315069,
+            "revenue": 11577961600.0,
+            "revenue_growth": -0.003,
+            "year": 2026
+          },
+          {
+            "capex": 388637437.02720004,
+            "cash_taxes": 302615150.592672,
+            "da": 390957660.53184,
+            "delta_nwc": -10373853.593599916,
+            "discount_factor": 0.8340109672442193,
+            "ebit": 1287724045.0752,
+            "ebit_margin": 0.111,
+            "ebitda": 1678681705.6070402,
+            "fcff": 997802971.580768,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 603258111.2064,
+            "present_value_fcff": 832178621.4472326,
+            "revenue": 11601117523.2,
+            "revenue_growth": 0.002,
+            "year": 2027
+          },
+          {
+            "capex": 390969261.6493633,
+            "cash_taxes": 309916081.8835475,
+            "da": 392136334.07219714,
+            "delta_nwc": -8051175.561100841,
+            "discount_factor": 0.7616538513645839,
+            "ebit": 1318791837.8023298,
+            "ebit_margin": 0.113,
+            "ebitda": 1710928171.874527,
+            "fcff": 1018094003.902717,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 595206935.6452992,
+            "present_value_fcff": 775435219.1236941,
+            "revenue": 11670724228.339201,
+            "revenue_growth": 0.006,
+            "year": 2028
+          },
+          {
+            "capex": 392530804.551115,
+            "cash_taxes": 314847312.9917476,
+            "da": 393706046.48090875,
+            "delta_nwc": -7585970.748420477,
+            "discount_factor": 0.6955742934836383,
+            "ebit": 1339775799.9648836,
+            "ebit_margin": 0.114,
+            "ebitda": 1733481846.4457922,
+            "fcff": 1033689699.6513503,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 587620964.8968787,
+            "present_value_fcff": 719007982.5163022,
+            "revenue": 11752419297.937574,
+            "revenue_growth": 0.007,
+            "year": 2029
+          },
+          {
+            "capex": 394885989.37842166,
+            "cash_taxes": 319514786.3159236,
+            "da": 396068282.75979424,
+            "delta_nwc": -2385741.1174812317,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 1359637388.5783982,
+            "ebit_margin": 0.115,
+            "ebitda": 1755705671.3381925,
+            "fcff": 1043690636.7613283,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 585235223.7793975,
+            "present_value_fcff": 662981166.4664379,
+            "revenue": 11822933813.7252,
+            "revenue_growth": 0.006,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 13798403483.416004,
+        "terminal_value_present_value": 8765127629.387453,
+        "upside_downside_pct": -0.2444575857007395
+      },
+      "bull": {
+        "current_price": 15.16,
+        "description": "Modestly stronger organic growth, operating margin expansion, and working-capital efficiency versus base case; lower discount rate and higher terminal growth.",
+        "enterprise_value": 16854612127.988716,
+        "equity_value": 9791812127.988716,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 18856878537.47479,
+        "implied_market_cap": 9791812127.988716,
+        "investments_adjustment": 936800000.0,
+        "net_debt": 7999600000.0,
+        "per_share_value": 20.412366328932073,
+        "projected_years": [
+          {
+            "capex": 388639771.2,
+            "cash_taxes": 306837405.67999995,
+            "da": 387472684.79999995,
+            "delta_nwc": 40701471.99999988,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1365491087.9999998,
+            "ebit_margin": 0.117,
+            "ebitda": 1752963772.7999997,
+            "fcff": 1016785123.92,
+            "nol_balance_end": 0.0,
+            "nol_used": 59800000.0,
+            "nwc": 560201471.9999999,
+            "present_value_fcff": 937129146.470046,
+            "revenue": 11670863999.999998,
+            "revenue_growth": 0.005,
+            "year": 2026
+          },
+          {
+            "capex": 391360249.59839994,
+            "cash_taxes": 331422193.35359985,
+            "da": 389009737.58879983,
+            "delta_nwc": -7831149.744000077,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1410307205.7599995,
+            "ebit_margin": 0.12,
+            "ebitda": 1799316943.3487992,
+            "fcff": 1084365650.1408,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 552370322.2559998,
+            "present_value_fcff": 921120134.3335387,
+            "revenue": 11752560047.999996,
+            "revenue_growth": 0.007,
+            "year": 2027
+          },
+          {
+            "capex": 394867213.5167231,
+            "cash_taxes": 340989247.3350738,
+            "da": 393677854.43986547,
+            "delta_nwc": 681648.4827840328,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 1451018073.7662716,
+            "ebit_margin": 0.122,
+            "ebitda": 1844695928.2061372,
+            "fcff": 1108157818.871556,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 553051970.7387838,
+            "present_value_fcff": 867585730.7338746,
+            "revenue": 11893590768.575996,
+            "revenue_growth": 0.012,
+            "year": 2028
+          },
+          {
+            "capex": 399605620.07892376,
+            "cash_taxes": 347909652.0596774,
+            "da": 397198357.307364,
+            "delta_nwc": 618466.7199659348,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 1480466604.5092657,
+            "ebit_margin": 0.123,
+            "ebitda": 1877664961.8166296,
+            "fcff": 1129531222.9580626,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 553670437.4587498,
+            "present_value_fcff": 815040683.7642701,
+            "revenue": 12036313857.798908,
+            "revenue_growth": 0.012,
+            "year": 2029
+          },
+          {
+            "capex": 402784410.5687684,
+            "cash_taxes": 357455953.48814416,
+            "da": 401567539.237745,
+            "delta_nwc": 6018.156928896904,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 1521089163.779337,
+            "ebit_margin": 0.125,
+            "ebitda": 1922656703.017082,
+            "fcff": 1162410320.8032403,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 553676455.6156787,
+            "present_value_fcff": 773055663.8334378,
+            "revenue": 12168713310.234695,
+            "revenue_growth": 0.011,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 18856878537.47479,
+        "terminal_value_present_value": 12540680768.853548,
+        "upside_downside_pct": 0.34646215890053256
+      }
+    },
+    "ticker": "CAG"
+  },
+  "assumptions": {
+    "cash": 68000000.0,
+    "current_price": 15.16,
+    "debt": 8067600000.0,
+    "diluted_shares": 479700000.0,
+    "investments": 936800000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 59800000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.12,
+    "tax_rate": 0.235,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.09
+  },
+  "company_name": "Conagra Brands, Inc.",
+  "comps": [
+    {
+      "company_name": "The Kraft Heinz Company",
+      "ev_ntm_ebitda": 7.62,
+      "ev_ntm_revenue": 1.75,
+      "notes": "StockAnalysis valuation metrics used as proxy for EV/NTM Revenue and EV/NTM EBITDA; Forward PE used for P/E NTM.",
+      "pe_ntm": 10.6,
+      "source": "https://stockanalysis.com/stocks/khc/statistics/",
+      "ticker": "KHC"
+    },
+    {
+      "company_name": "General Mills, Inc.",
+      "ev_ntm_ebitda": 9.8,
+      "ev_ntm_revenue": 1.85,
+      "notes": "StockAnalysis EV/Sales and EV/EBITDA used as proxy for EV/NTM Revenue and EV/NTM EBITDA; Forward PE used for P/E NTM.",
+      "pe_ntm": 11.75,
+      "source": "https://stockanalysis.com/stocks/gis/statistics/",
+      "ticker": "GIS"
+    },
+    {
+      "company_name": "Hormel Foods Corporation",
+      "ev_ntm_ebitda": 12.07,
+      "ev_ntm_revenue": 1.2,
+      "notes": "StockAnalysis EV/Sales and EV/EBITDA used as proxy for EV/NTM Revenue and EV/NTM EBITDA; Forward PE used for P/E NTM.",
+      "pe_ntm": 15.19,
+      "source": "https://stockanalysis.com/stocks/hrl/statistics/",
+      "ticker": "HRL"
+    },
+    {
+      "company_name": "The Campbell's Company",
+      "ev_ntm_ebitda": 7.57,
+      "ev_ntm_revenue": 1.34,
+      "notes": "StockAnalysis EV/Sales and EV/EBITDA used as proxy for EV/NTM Revenue and EV/NTM EBITDA; Forward PE used for P/E NTM.",
+      "pe_ntm": 9.79,
+      "source": "https://stockanalysis.com/stocks/cpb/statistics/",
+      "ticker": "CPB"
+    },
+    {
+      "company_name": "McCormick & Company, Incorporated",
+      "ev_ntm_ebitda": 15.48,
+      "ev_ntm_revenue": 2.96,
+      "notes": "StockAnalysis EV/Sales and EV/EBITDA used as proxy for EV/NTM Revenue and EV/NTM EBITDA; Forward PE used for P/E NTM.",
+      "pe_ntm": 19.33,
+      "source": "https://stockanalysis.com/stocks/mkc/statistics/",
+      "ticker": "MKC"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0335,
+      "2027": 0.0334,
+      "2028": 0.0334,
+      "2029": 0.0333,
+      "2030": 0.0333
+    },
+    "da_pct_sales": {
+      "2026": 0.0336,
+      "2027": 0.0335,
+      "2028": 0.0334,
+      "2029": 0.0334,
+      "2030": 0.0333
+    },
+    "ebit_margin": {
+      "2026": 0.112,
+      "2027": 0.115,
+      "2028": 0.117,
+      "2029": 0.118,
+      "2030": 0.12
+    },
+    "nwc_pct_sales": {
+      "2026": 0.05,
+      "2027": 0.049,
+      "2028": 0.0485,
+      "2029": 0.048,
+      "2030": 0.0475
+    },
+    "revenue_growth": {
+      "2026": 0.0,
+      "2027": 0.005,
+      "2028": 0.008,
+      "2029": 0.01,
+      "2030": 0.009
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 362200000.0,
+      "2024": 388100000.0,
+      "2025": 389300000.0
+    },
+    "da": {
+      "2023": 369900000.0,
+      "2024": 400900000.0,
+      "2025": 390200000.0
+    },
+    "ebit": {
+      "2023": 1075300000.0,
+      "2024": 852800000.0,
+      "2025": 1364600000.0
+    },
+    "nwc": {
+      "2023": 1003300000.0,
+      "2024": 778700000.0,
+      "2025": 519500000.0
+    },
+    "revenue": {
+      "2023": 12277000000.0,
+      "2024": 12050900000.0,
+      "2025": 11612800000.0
+    }
+  },
+  "notes": [
+    "Historical facts: Revenue, Operating profit (EBIT proxy), Depreciation & amortization, and Additions to property, plant & equipment are taken directly from Conagra\u2019s FY2025 annual report for fiscal years ended May 28, 2023; May 26, 2024; and May 25, 2025. ([conagrabrands.com](https://www.conagrabrands.com/files/2025-annual-report))",
+    "EBIT definition caveat: EBIT in this input is modeled using GAAP 'Operating profit' which includes non-cash impairment charges; base-case EBIT margin is therefore a normalized operating-margins assumption anchored to FY2026 adjusted operating margin guidance rather than directly to the volatile GAAP operating profit history. ([conagrabrands.com](https://www.conagrabrands.com/files/events/2025-12-19/Q2FY26-Earnings-Press-Release))",
+    "Tax rate base-case uses adjusted effective tax rate of 23.5% disclosed in Q2 FY26 guidance context (modeled as a steady tax_rate for the DCF). ([conagrabrands.com](https://www.conagrabrands.com/files/events/2025-12-19/Q2FY26-Earnings-Press-Release))",
+    "NWC construction (historical and carried into pct-of-sales) is calculated as: (Total current assets \u2212 cash & cash equivalents) \u2212 (Total current liabilities \u2212 notes payable \u2212 current installments of long-term debt). NWC includes 'current assets held for sale' and 'current liabilities held for sale' as part of total current assets/liabilities. ([conagrabrands.com](https://www.conagrabrands.com/files/2025-annual-report))",
+    "Capital intensity base-case uses historical D&A and capex intensity (as % of sales) and assumes mild normalization over the forecast window.",
+    "WACC (0.09) and terminal_growth (0.02) are modeling assumptions not explicitly provided in the cited filings/press releases; they are set to be economically conservative for a large-cap consumer staples/food company with material leverage. ([conagrabrands.com](https://www.conagrabrands.com/files/events/2025-12-19/Q2FY26-Earnings-Press-Release))",
+    "Terminal method is Gordon growth; terminal_exit_ebitda_multiple is set to null because it is not used under gordon_growth. ([conagrabrands.com](https://www.conagrabrands.com/files/events/2025-12-19/Q2FY26-Earnings-Press-Release))",
+    "Investments set equal to the carrying value of Conagra\u2019s equity method investments (approx. $936.8M at FY2025) as the DCF bridge 'investments' input. ([conagrabrands.com](https://www.conagrabrands.com/files/2025-annual-report))",
+    "NOL balance equals approximately $25.6M foreign + $34.2M federal net operating loss carryforwards (modeled as $59.8M total) and NOL_utilization_pct is assumed (0.80) due to limited disclosure on full utilization schedule. ([conagrabrands.com](https://www.conagrabrands.com/files/2025-annual-report))",
+    "Comps: EV/NTM Revenue and EV/NTM EBITDA are proxied using StockAnalysis EV/Sales and EV/EBITDA, and P/E NTM is proxied using StockAnalysis 'Forward PE'. Treat as directional reasonableness checks rather than precise NTM consensus metrics. ([stockanalysis.com](https://stockanalysis.com/stocks/khc/statistics/))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Sustained margin recovery (cost savings/productivity) that supports moving adjusted operating margin toward the top end of guidance.",
+      "Deleveraging trajectory and free-cash-flow conversion improvements that reduce equity discount risk."
+    ],
+    "company_overview": [
+      "Conagra Brands is a U.S.-centric branded food company with operations across Grocery & Snacks, Refrigerated & Frozen, International, and Foodservice.",
+      "FY2025 net sales were $11.6B, with operating profit heavily influenced by non-cash impairment charges in certain years.",
+      "Strategy emphasizes brand-building and disciplined cost/cash-flow management while navigating macro/input cost volatility."
+    ],
+    "current_context": [
+      "In Q2 FY26, reported net sales declined 6.8% and organic net sales declined 3.0%; reported operating margin was negative due to non-cash impairment charges, while adjusted operating margin was 11.3%.",
+      "FY2026 guidance (reaffirmed) calls for organic net sales change of (1)% to 1% and adjusted operating margin of ~11.0% to ~11.5%, alongside adjusted EPS of $1.70 to $1.85.",
+      "Company ended the quarter with net debt of $7.6B (3.83x net leverage)."
+    ],
+    "investment_highlights": [
+      "Base case assumes flat-to-low single-digit revenue growth consistent with management\u2019s organic sales range, with gradual normalization of profitability toward a 12.0% EBIT margin.",
+      "D&A and capex are modeled as roughly steady percentages of sales based on recent historical intensity.",
+      "Working-capital intensity is normalized from an unusually high recent peak toward a ~4.5%\u20135.0% of sales range, supporting free-cash-flow durability.",
+      "Valuation framework blends DCF outputs with peer EV/EBITDA and EV/Sales context (using forward PE and EV multiples from public market data providers)."
+    ],
+    "key_risks": [
+      "Further goodwill/brand impairments or other non-cash charges could distort GAAP operating profit and reduce investor confidence in earnings power.",
+      "Demand softness, retailer ordering volatility, and/or persistent cost-of-goods inflation could pressure organic growth and margins."
+    ],
+    "sources": [
+      {
+        "label": "Conagra Brands FY2025 Annual Report (Form 10-K) \u2014 historical financials, balance sheet, D&A/capex, and tax/NOL disclosures",
+        "notes": "Supports FY2025/FY2024/FY2023 revenue, operating profit (EBIT proxy), depreciation & amortization, additions to property, plant & equipment, current assets/liabilities components for NWC, cash/debt components, equity-method investments, and NOL carryforward amounts. ([conagrabrands.com](https://www.conagrabrands.com/files/2025-annual-report))",
+        "url": "https://www.conagrabrands.com/files/2025-annual-report"
+      },
+      {
+        "label": "Conagra Brands Q2 FY26 Earnings Press Release (PDF) \u2014 FY2026 guidance and adjusted effective tax rate",
+        "notes": "Supports FY2026 outlook (organic net sales change range and adjusted operating margin range), and adjusted effective tax rate used for base-case tax_rate. ([conagrabrands.com](https://www.conagrabrands.com/files/events/2025-12-19/Q2FY26-Earnings-Press-Release))",
+        "url": "https://www.conagrabrands.com/files/events/2025-12-19/Q2FY26-Earnings-Press-Release"
+      },
+      {
+        "label": "Conagra Brands Q2 FY26 Results (HTML) \u2014 operating margin context and net debt",
+        "notes": "Supports Q2 FY26 reported/adjusted operating margin and net debt level for current_context. ([conagrabrands.com](https://www.conagrabrands.com/news-room/news-conagra-brands-reports-second-quarter-results-prn-122942))",
+        "url": "https://www.conagrabrands.com/news-room/news-conagra-brands-reports-second-quarter-results-prn-122942"
+      },
+      {
+        "label": "StockAnalysis \u2014 KHC statistics (Forward PE, EV/EBITDA, EV/Sales)",
+        "notes": "Used for peer EV/NTM proxy and forward P/E. ([stockanalysis.com](https://stockanalysis.com/stocks/khc/statistics/))",
+        "url": "https://stockanalysis.com/stocks/khc/statistics/"
+      },
+      {
+        "label": "StockAnalysis \u2014 GIS statistics (Forward PE, EV/EBITDA, EV/Sales)",
+        "notes": "Used for peer EV/NTM proxy and forward P/E. ([stockanalysis.com](https://stockanalysis.com/stocks/gis/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/gis/statistics/"
+      },
+      {
+        "label": "StockAnalysis \u2014 HRL statistics (Forward PE, EV/EBITDA, EV/Sales)",
+        "notes": "Used for peer EV/NTM proxy and forward P/E. ([stockanalysis.com](https://stockanalysis.com/stocks/hrl/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/hrl/statistics/"
+      },
+      {
+        "label": "StockAnalysis \u2014 CPB statistics (Forward PE, EV/EBITDA, EV/Sales)",
+        "notes": "Used for peer EV/NTM proxy and forward P/E. ([stockanalysis.com](https://stockanalysis.com/stocks/cpb/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/cpb/statistics/"
+      },
+      {
+        "label": "StockAnalysis \u2014 MKC statistics (Forward PE, EV/EBITDA, EV/Sales)",
+        "notes": "Used for peer EV/NTM proxy and forward P/E. ([stockanalysis.com](https://stockanalysis.com/stocks/mkc/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/mkc/statistics/"
+      }
+    ],
+    "subtitle": "Conagra Brands (CAG) DCF Input Package \u2014 Base/Bull/Bear (USD)",
+    "valuation_summary": [
+      "The DCF base case anchors near-term margins to FY2026 adjusted operating margin guidance and transitions to a steady-state EBIT margin by year 5.",
+      "Terminal assumptions (Gordon growth) use economically conservative long-run growth and a separate WACC assumption for risk capture.",
+      "Peer comps are used as a reasonableness check rather than as the primary valuation driver, given differences in impairment/accounting and capital structure."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 15.16,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.115,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.018,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.095
+      },
+      "description": "Modestly weaker organic growth, margin compression, and working-capital normalization versus base case; higher discount rate and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0336,
+          "2027": 0.0335,
+          "2028": 0.0335,
+          "2029": 0.0334,
+          "2030": 0.0334
+        },
+        "da_pct_sales": {
+          "2026": 0.0338,
+          "2027": 0.0337,
+          "2028": 0.0336,
+          "2029": 0.0335,
+          "2030": 0.0335
+        },
+        "ebit_margin": {
+          "2026": 0.108,
+          "2027": 0.111,
+          "2028": 0.113,
+          "2029": 0.114,
+          "2030": 0.115
+        },
+        "nwc_pct_sales": {
+          "2026": 0.053,
+          "2027": 0.052,
+          "2028": 0.051,
+          "2029": 0.05,
+          "2030": 0.0495
+        },
+        "revenue_growth": {
+          "2026": -0.003,
+          "2027": 0.002,
+          "2028": 0.006,
+          "2029": 0.007,
+          "2030": 0.006
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 15.16,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.125,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.085
+      },
+      "description": "Modestly stronger organic growth, operating margin expansion, and working-capital efficiency versus base case; lower discount rate and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0333,
+          "2027": 0.0333,
+          "2028": 0.0332,
+          "2029": 0.0332,
+          "2030": 0.0331
+        },
+        "da_pct_sales": {
+          "2026": 0.0332,
+          "2027": 0.0331,
+          "2028": 0.0331,
+          "2029": 0.033,
+          "2030": 0.033
+        },
+        "ebit_margin": {
+          "2026": 0.117,
+          "2027": 0.12,
+          "2028": 0.122,
+          "2029": 0.123,
+          "2030": 0.125
+        },
+        "nwc_pct_sales": {
+          "2026": 0.048,
+          "2027": 0.047,
+          "2028": 0.0465,
+          "2029": 0.046,
+          "2030": 0.0455
+        },
+        "revenue_growth": {
+          "2026": 0.005,
+          "2027": 0.007,
+          "2028": 0.012,
+          "2029": 0.012,
+          "2030": 0.011
+        }
+      }
+    }
+  },
+  "ticker": "CAG"
+}

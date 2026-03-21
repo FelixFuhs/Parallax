@@ -1,0 +1,670 @@
+{
+  "_meta": {
+    "cost_usd": 0.023253,
+    "generated_at": "2026-03-21T17:18:06Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10815,
+      "prompt": 2514,
+      "reasoning": 7385
+    }
+  },
+  "_valuation": {
+    "company_name": "Medtronic plc",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 86.16,
+        "description": "Base case",
+        "enterprise_value": 113870476784.11464,
+        "equity_value": 94087476784.11464,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 127080037157.4413,
+        "implied_market_cap": 94087476784.11464,
+        "investments_adjustment": 6747000000.0,
+        "net_debt": 26298000000.0,
+        "per_share_value": 72.94168290884149,
+        "projected_years": [
+          {
+            "capex": 1932334866.0,
+            "cash_taxes": 967648889.7306001,
+            "da": 3005854236.0,
+            "delta_nwc": 237325018.0,
+            "discount_factor": 0.9250693802035153,
+            "ebit": 6476900199.0,
+            "ebit_margin": 0.181,
+            "ebitda": 9482754435.0,
+            "fcff": 6345445661.2694,
+            "nol_balance_end": 10205309980.1,
+            "nol_used": 647690019.9000001,
+            "nwc": 5081325018.0,
+            "present_value_fcff": 5869977484.985569,
+            "revenue": 35783979000.0,
+            "revenue_growth": 0.067,
+            "year": 2026
+          },
+          {
+            "capex": 2010165020.325,
+            "cash_taxes": 1021644767.00286,
+            "da": 3156146947.8,
+            "delta_nwc": 216493072.9499998,
+            "discount_factor": 0.8557533581901159,
+            "ebit": 6838318386.9,
+            "ebit_margin": 0.182,
+            "ebitda": 9994465334.7,
+            "fcff": 6746162474.42214,
+            "nol_balance_end": 9521478141.41,
+            "nol_used": 683831838.69,
+            "nwc": 5297818090.95,
+            "present_value_fcff": 5773051192.382888,
+            "revenue": 37573177950.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 2080990460.76075,
+            "cash_taxes": 1067618781.5179887,
+            "da": 3278541574.972125,
+            "delta_nwc": 199137843.13500118,
+            "discount_factor": 0.7916312286680074,
+            "ebit": 7146042714.3105,
+            "ebit_margin": 0.182,
+            "ebitda": 10424584289.282625,
+            "fcff": 7076837203.868886,
+            "nol_balance_end": 8806873869.97895,
+            "nol_used": 714604271.4310501,
+            "nwc": 5496955934.085001,
+            "present_value_fcff": 5602245330.782192,
+            "revenue": 39263970957.75,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 2168392060.1127014,
+            "cash_taxes": 1106346359.5156908,
+            "da": 3416240321.1209545,
+            "delta_nwc": 189959091.49359417,
+            "discount_factor": 0.7323138100536609,
+            "ebit": 7405263450.5735655,
+            "ebit_margin": 0.181,
+            "ebitda": 10821503771.694519,
+            "fcff": 7356806260.572534,
+            "nol_balance_end": 8066347524.921594,
+            "nol_used": 740526345.0573566,
+            "nwc": 5686915025.578595,
+            "present_value_fcff": 5387490822.506497,
+            "revenue": 40913057737.9755,
+            "revenue_growth": 0.042,
+            "year": 2029
+          },
+          {
+            "capex": 2255127742.5172095,
+            "cash_taxes": 1150600213.8963184,
+            "da": 3531615143.9420457,
+            "delta_nwc": 227476601.02314377,
+            "discount_factor": 0.6774410823808149,
+            "ebit": 7701473988.596508,
+            "ebit_margin": 0.181,
+            "ebitda": 11233089132.538553,
+            "fcff": 7599884575.101881,
+            "nol_balance_end": 7296200126.061943,
+            "nol_used": 770147398.8596509,
+            "nwc": 5914391626.601739,
+            "present_value_fcff": 5148474032.526278,
+            "revenue": 42549580047.49452,
+            "revenue_growth": 0.04,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 127080037157.4413,
+        "terminal_value_present_value": 86089237920.93121,
+        "upside_downside_pct": -0.15341593652690932
+      },
+      "bear": {
+        "current_price": 80.0,
+        "description": "Modestly weaker growth and margin profile; slightly higher WACC and lower terminal growth.",
+        "enterprise_value": 101937688190.8251,
+        "equity_value": 82154688190.8251,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 112720923779.48996,
+        "implied_market_cap": 82154688190.8251,
+        "investments_adjustment": 6747000000.0,
+        "net_debt": 26298000000.0,
+        "per_share_value": 63.69074206591604,
+        "projected_years": [
+          {
+            "capex": 1834239141.0,
+            "cash_taxes": 947151229.6008,
+            "da": 2973960549.0,
+            "delta_nwc": 320362630.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 6339700332.0,
+            "ebit_margin": 0.178,
+            "ebitda": 9313660881.0,
+            "fcff": 6211907880.3992,
+            "nol_balance_end": 10219029966.8,
+            "nol_used": 633970033.2,
+            "nwc": 5164362630.0,
+            "present_value_fcff": 5725260719.261936,
+            "revenue": 35616294000.0,
+            "revenue_growth": 0.062,
+            "year": 2026
+          },
+          {
+            "capex": 1940945557.824,
+            "cash_taxes": 998190974.5127712,
+            "da": 3116710655.352,
+            "delta_nwc": 173237654.0159998,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 6681331824.047999,
+            "ebit_margin": 0.179,
+            "ebitda": 9798042479.4,
+            "fcff": 6685668293.047229,
+            "nol_balance_end": 9550896784.395199,
+            "nol_used": 668133182.4047999,
+            "nwc": 5337600284.016,
+            "present_value_fcff": 5679176277.302325,
+            "revenue": 37325876112.0,
+            "revenue_growth": 0.048,
+            "year": 2027
+          },
+          {
+            "capex": 2020524325.6947837,
+            "cash_taxes": 1039116804.4677947,
+            "da": 3225067673.705136,
+            "delta_nwc": 179985374.6120634,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 6955266428.833967,
+            "ebit_margin": 0.179,
+            "ebitda": 10180334102.539103,
+            "fcff": 6940707597.764461,
+            "nol_balance_end": 8855370141.511803,
+            "nol_used": 695526642.8833967,
+            "nwc": 5517585658.628063,
+            "present_value_fcff": 5433936187.12949,
+            "revenue": 38856237032.591995,
+            "revenue_growth": 0.041,
+            "year": 2028
+          },
+          {
+            "capex": 2077137863.05127,
+            "cash_taxes": 1072577526.5960201,
+            "da": 3347620245.305931,
+            "delta_nwc": 169335480.9880352,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 7179233779.089827,
+            "ebit_margin": 0.178,
+            "ebitda": 10526854024.395758,
+            "fcff": 7207803153.760433,
+            "nol_balance_end": 8137446763.602819,
+            "nol_used": 717923377.9089828,
+            "nwc": 5686921139.616098,
+            "present_value_fcff": 5200965401.818981,
+            "revenue": 40332774039.83049,
+            "revenue_growth": 0.038,
+            "year": 2029
+          },
+          {
+            "capex": 2153991963.984167,
+            "cash_taxes": 1112262895.0800729,
+            "da": 3450569651.042598,
+            "delta_nwc": 210416082.16579533,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 7444865428.91615,
+            "ebit_margin": 0.178,
+            "ebitda": 10895435079.958748,
+            "fcff": 7418764138.728711,
+            "nol_balance_end": 7392960220.711205,
+            "nol_used": 744486542.891615,
+            "nwc": 5897337221.781894,
+            "present_value_fcff": 4933815136.917907,
+            "revenue": 41825086679.304214,
+            "revenue_growth": 0.037,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 112720923779.48996,
+        "terminal_value_present_value": 74964534468.39445,
+        "upside_downside_pct": -0.20386572417604953
+      },
+      "bull": {
+        "current_price": 92.0,
+        "description": "Modestly stronger top-line and operating leverage; slightly lower WACC and higher terminal growth.",
+        "enterprise_value": 125764095430.88603,
+        "equity_value": 105981095430.88603,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 141585896617.19925,
+        "implied_market_cap": 105981095430.88602,
+        "investments_adjustment": 6747000000.0,
+        "net_debt": 26298000000.0,
+        "per_share_value": 82.16225709813631,
+        "projected_years": [
+          {
+            "capex": 1959365688.0,
+            "cash_taxes": 982925684.0928001,
+            "da": 3037915608.0,
+            "delta_nwc": 189232960.00000095,
+            "discount_factor": 0.9276437847866419,
+            "ebit": 6579154512.0,
+            "ebit_margin": 0.183,
+            "ebitda": 9617070120.0,
+            "fcff": 6485545787.907199,
+            "nol_balance_end": 10195084548.8,
+            "nol_used": 657915451.2,
+            "nwc": 5033232960.000001,
+            "present_value_fcff": 6016276241.101297,
+            "revenue": 35951664000.0,
+            "revenue_growth": 0.072,
+            "year": 2026
+          },
+          {
+            "capex": 2042342128.512,
+            "cash_taxes": 1039688299.5545088,
+            "da": 3195887219.616,
+            "delta_nwc": 223906963.39199924,
+            "discount_factor": 0.8605229914532856,
+            "ebit": 6959091697.151999,
+            "ebit_margin": 0.184,
+            "ebitda": 10154978916.768,
+            "fcff": 6849041525.30949,
+            "nol_balance_end": 9499175379.084799,
+            "nol_used": 695909169.7152,
+            "nwc": 5257139923.392,
+            "present_value_fcff": 5893757701.947097,
+            "revenue": 37821150528.0,
+            "revenue_growth": 0.052,
+            "year": 2027
+          },
+          {
+            "capex": 2118532836.2506557,
+            "cash_taxes": 1088553649.6335707,
+            "da": 3326294546.6365438,
+            "delta_nwc": 207486831.79660702,
+            "discount_factor": 0.7982588046876489,
+            "ebit": 7286169006.918143,
+            "ebit_margin": 0.184,
+            "ebitda": 10612463553.554688,
+            "fcff": 7197890235.873853,
+            "nol_balance_end": 8770558478.392984,
+            "nol_used": 728616900.6918144,
+            "nwc": 5464626755.188607,
+            "present_value_fcff": 5745779255.96156,
+            "revenue": 39598744602.815994,
+            "revenue_growth": 0.047,
+            "year": 2028
+          },
+          {
+            "capex": 2211748281.0456843,
+            "cash_taxes": 1130273651.466266,
+            "da": 3472651506.6885514,
+            "delta_nwc": 240443577.22829914,
+            "discount_factor": 0.7404998188197114,
+            "ebit": 7565419353.857201,
+            "ebit_margin": 0.183,
+            "ebitda": 11038070860.545752,
+            "fcff": 7455605350.805503,
+            "nol_balance_end": 8014016543.007264,
+            "nol_used": 756541935.3857201,
+            "nwc": 5705070332.416906,
+            "present_value_fcff": 5520874411.462746,
+            "revenue": 41341089365.3399,
+            "revenue_growth": 0.044,
+            "year": 2029
+          },
+          {
+            "capex": 2304641708.849603,
+            "cash_taxes": 1177745144.8278491,
+            "da": 3596964162.4101286,
+            "delta_nwc": 239612953.9615097,
+            "discount_factor": 0.6869200545637396,
+            "ebit": 7883166966.719204,
+            "ebit_margin": 0.183,
+            "ebitda": 11480131129.129333,
+            "fcff": 7758131321.49037,
+            "nol_balance_end": 7225699846.335343,
+            "nol_used": 788316696.6719204,
+            "nwc": 5944683286.378416,
+            "present_value_fcff": 5329215990.670822,
+            "revenue": 43077415118.68417,
+            "revenue_growth": 0.042,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 141585896617.19925,
+        "terminal_value_present_value": 97258191829.74251,
+        "upside_downside_pct": -0.10693198806373583
+      }
+    },
+    "ticker": "MDT"
+  },
+  "assumptions": {
+    "cash": 2218000000.0,
+    "current_price": 86.16,
+    "debt": 28516000000.0,
+    "diluted_shares": 1289900000.0,
+    "investments": 6747000000.0,
+    "minority_interest": 232000000.0,
+    "net_debt_override": null,
+    "nol_balance": 10853000000.0,
+    "nol_utilization_pct": 0.1,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.181,
+    "tax_rate": 0.166,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.081
+  },
+  "company_name": "Medtronic plc",
+  "comps": [
+    {
+      "company_name": "Johnson & Johnson",
+      "ev_ntm_ebitda": 14.8,
+      "ev_ntm_revenue": 5.1,
+      "notes": "Multiples provided as NTM; may not match the exact as-of date for this package.",
+      "pe_ntm": 17.5,
+      "source": "mergersandacquisitions.net healthcare/medtech M&A trends (directional NTM multiples snapshot; as of 2024)",
+      "ticker": "JNJ"
+    },
+    {
+      "company_name": "Stryker Corporation",
+      "ev_ntm_ebitda": 19.2,
+      "ev_ntm_revenue": 6.0,
+      "notes": "Multiples provided as NTM; may not match the exact as-of date for this package.",
+      "pe_ntm": 25.0,
+      "source": "mergersandacquisitions.net healthcare/medtech M&A trends (directional NTM multiples snapshot; as of 2024)",
+      "ticker": "SYK"
+    },
+    {
+      "company_name": "Boston Scientific Corporation",
+      "ev_ntm_ebitda": 23.5,
+      "ev_ntm_revenue": 7.1,
+      "notes": "Multiples provided as NTM; may not match the exact as-of date for this package.",
+      "pe_ntm": 30.2,
+      "source": "mergersandacquisitions.net healthcare/medtech M&A trends (directional NTM multiples snapshot; as of 2024)",
+      "ticker": "BSX"
+    },
+    {
+      "company_name": "Abbott Laboratories",
+      "ev_ntm_ebitda": 15.5,
+      "ev_ntm_revenue": 4.8,
+      "notes": "Multiples provided as NTM; may not match the exact as-of date for this package.",
+      "pe_ntm": 22.0,
+      "source": "mergersandacquisitions.net healthcare/medtech M&A trends (directional NTM multiples snapshot; as of 2024)",
+      "ticker": "ABT"
+    },
+    {
+      "company_name": "Siemens Healthineers",
+      "ev_ntm_ebitda": 13.0,
+      "ev_ntm_revenue": 3.6,
+      "notes": "Multiples provided as NTM; may not match the exact as-of date for this package.",
+      "pe_ntm": 20.5,
+      "source": "mergersandacquisitions.net healthcare/medtech M&A trends (directional NTM multiples snapshot; as of 2024)",
+      "ticker": "HL"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.054,
+      "2027": 0.0535,
+      "2028": 0.053,
+      "2029": 0.053,
+      "2030": 0.053
+    },
+    "da_pct_sales": {
+      "2026": 0.084,
+      "2027": 0.084,
+      "2028": 0.0835,
+      "2029": 0.0835,
+      "2030": 0.083
+    },
+    "ebit_margin": {
+      "2026": 0.181,
+      "2027": 0.182,
+      "2028": 0.182,
+      "2029": 0.181,
+      "2030": 0.181
+    },
+    "nwc_pct_sales": {
+      "2026": 0.142,
+      "2027": 0.141,
+      "2028": 0.14,
+      "2029": 0.139,
+      "2030": 0.139
+    },
+    "revenue_growth": {
+      "2026": 0.067,
+      "2027": 0.05,
+      "2028": 0.045,
+      "2029": 0.042,
+      "2030": 0.04
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 1459000000.0,
+      "2024": 1587000000.0,
+      "2025": 1859000000.0
+    },
+    "da": {
+      "2023": 2697000000.0,
+      "2024": 2647000000.0,
+      "2025": 2861000000.0
+    },
+    "ebit": {
+      "2023": 5485000000.0,
+      "2024": 5144000000.0,
+      "2025": 5955000000.0
+    },
+    "nwc": {
+      "2023": 4685000000.0,
+      "2024": 4233000000.0,
+      "2025": 4844000000.0
+    },
+    "revenue": {
+      "2023": 31227000000.0,
+      "2024": 32364000000.0,
+      "2025": 33537000000.0
+    }
+  },
+  "notes": [
+    "Fiscal-year mapping: historical years 2023\u20132025 refer to Medtronic fiscal years ended April 28, 2023; April 26, 2024; and April 25, 2025.",
+    "EBIT is taken as the GAAP operating profit line item from the Consolidated Statements of Income (not EBIT-adjusted / non-GAAP).",
+    "DA uses GAAP \u201cDepreciation and amortization\u201d from the Consolidated Statements of Cash Flows.",
+    "Capex uses GAAP \u201cAdditions to property, plant, and equipment\u201d from the cash flow statement, reported here as an absolute positive value.",
+    "NWC construction: modeled as non-cash working capital excluding liquidity and debt: NWC = (Total current assets \u2212 Cash and cash equivalents \u2212 Investments) \u2212 (Total current liabilities \u2212 Current debt obligations). This excludes short-term liquidity (cash/investments) and isolates operating working capital.",
+    "WACC, tax_rate (as a steady-state assumption), terminal growth, and terminal method are model assumptions (not explicitly company-provided for DCF).",
+    "Terminal exit EBITDA multiple is set to null because the base-case terminal method is Gordon growth (terminal multiple not used in the terminal value build).",
+    "NOL balance is taken from disclosed tax-effective NOL carryforwards (U.S. federal + non-U.S. jurisdictions) and NOL utilization percent is a simplifying DCF assumption; management\u2019s valuation allowance disclosure suggests utilization may be limited, hence a conservative utilization rate."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Execution and commercialization milestones in cardiac ablation/pacing ecosystems (e.g., PFA-related franchise expansion and trial readouts).",
+      "Progress toward strategic corporate actions (including the announced intent to separate the Diabetes business) and related capital structure implications.",
+      "Regulatory and adoption inflection points in surgical and neuroscience platforms (e.g., CE/FDA milestones and trial progression)."
+    ],
+    "company_overview": [
+      "Medtronic plc is a global healthcare technology company providing products and therapies across cardiovascular, neuroscience, surgical, and diabetes/endocrine areas.",
+      "The company reports results and manages performance through portfolio-level operating segments (Cardiovascular, Neuroscience, Medical Surgical, and Diabetes) with global distribution.",
+      "Medtronic invests in clinical innovation platforms (e.g., cardiac ablation/pacing ecosystems) while emphasizing operating efficiencies and earnings conversion."
+    ],
+    "current_context": [
+      "In Q3 FY26 (ended 2026-01-23), Medtronic reported revenue up 8.7% reported and 6.0% organic, and reiterated FY26 organic revenue growth of ~5.5%.",
+      "The company reiterated FY26 diluted non-GAAP EPS guidance of $5.62 to $5.66 (tariff impact assumptions referenced).",
+      "Cardiac Ablation Solutions grew 80% (including 137% in the U.S.), and Medtronic secured CE Mark for Sphere-360 and initiated a U.S. pivotal trial.",
+      "Management characterized results as ahead of guidance and highlighted continued execution against the growth-and-efficiency plan."
+    ],
+    "investment_highlights": [
+      "Base case uses FY26\u2013FY30 revenue growth that steps down from near-term guidance toward mid-single-digit durability, consistent with enterprise-level organic growth expectations.",
+      "EBIT margin in the model converges toward ~0.18 through a mix of operating leverage and cost discipline, consistent with recent operating profit conversion.",
+      "Reinvestment assumptions keep D&A/capex intensity stable (DA and capex as % of sales) to reflect ongoing platform and manufacturing investment needs.",
+      "Non-cash working capital intensity is modeled as gradually normalizing versus FY25 levels, supporting steady FCF conversion.",
+      "Scenario framework captures upside/downside around growth acceleration and operating leverage, with terminal assumptions adjusted via WACC and terminal growth."
+    ],
+    "key_risks": [
+      "Regulatory delays, reimbursement pressure, and competitive dynamics could constrain growth and margin expansion.",
+      "Tariffs, FX, and geopolitical disruptions may impact both reported revenue and operating costs.",
+      "Working-capital volatility or higher-than-expected reinvestment needs could reduce FCF conversion versus model expectations.",
+      "Large litigation or product-liability charges could introduce earnings volatility and valuation downside."
+    ],
+    "sources": [
+      {
+        "label": "Medtronic FY25 Form 10-K (fiscal year ended April 25, 2025) \u2014 financial statements and balance-sheet components used for historical inputs",
+        "notes": "Provides net sales, operating profit (EBIT), depreciation & amortization, additions to PP&E (capex), diluted weighted average shares, cash/investments, and current/non-current debt and noncontrolling interests.",
+        "url": null
+      },
+      {
+        "label": "Medtronic FY24 Form 10-K (fiscal year ended April 26, 2024) \u2014 balance sheet used for FY23 NWC",
+        "notes": "Used to source FY23 year-end current assets/current liabilities for NWC calculation.",
+        "url": null
+      },
+      {
+        "label": "Medtronic Q3 FY26 earnings release (February 17, 2026) \u2014 FY26 guidance reaffirmation",
+        "notes": "Provides reiterated FY26 organic revenue growth guidance and EPS guidance used to anchor the 2026 revenue growth assumption.",
+        "url": null
+      },
+      {
+        "label": "Healthcare/MedTech M&A Trends & Analysis \u2014 Global MedTech Public Comps (as of 2024) for NTM multiples",
+        "notes": "Directional peer NTM EV/Revenue, EV/EBITDA, and P/E used for comps context.",
+        "url": null
+      }
+    ],
+    "subtitle": "MedTech DCF Inputs \u2014 FY23\u2013FY25 History, FY26\u2013FY30 Base Case",
+    "valuation_summary": [
+      "DCF base case is anchored to GAAP operating profit (EBIT) and reinvestment rates derived directly from FY23\u2013FY25 reporting.",
+      "Terminal value applies a Gordon-growth framework with a 2.0% long-run growth rate and an explicit WACC assumption (model-driven).",
+      "Comps provide directional context using NTM EV/Revenue, EV/EBITDA, and forward P/E snapshots for large-cap medtech peers."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 80.0,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.178,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.018,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.085
+      },
+      "description": "Modestly weaker growth and margin profile; slightly higher WACC and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0515,
+          "2027": 0.052,
+          "2028": 0.052,
+          "2029": 0.0515,
+          "2030": 0.0515
+        },
+        "da_pct_sales": {
+          "2026": 0.0835,
+          "2027": 0.0835,
+          "2028": 0.083,
+          "2029": 0.083,
+          "2030": 0.0825
+        },
+        "ebit_margin": {
+          "2026": 0.178,
+          "2027": 0.179,
+          "2028": 0.179,
+          "2029": 0.178,
+          "2030": 0.178
+        },
+        "nwc_pct_sales": {
+          "2026": 0.145,
+          "2027": 0.143,
+          "2028": 0.142,
+          "2029": 0.141,
+          "2030": 0.141
+        },
+        "revenue_growth": {
+          "2026": 0.062,
+          "2027": 0.048,
+          "2028": 0.041,
+          "2029": 0.038,
+          "2030": 0.037
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 92.0,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.184,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.078
+      },
+      "description": "Modestly stronger top-line and operating leverage; slightly lower WACC and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0545,
+          "2027": 0.054,
+          "2028": 0.0535,
+          "2029": 0.0535,
+          "2030": 0.0535
+        },
+        "da_pct_sales": {
+          "2026": 0.0845,
+          "2027": 0.0845,
+          "2028": 0.084,
+          "2029": 0.084,
+          "2030": 0.0835
+        },
+        "ebit_margin": {
+          "2026": 0.183,
+          "2027": 0.184,
+          "2028": 0.184,
+          "2029": 0.183,
+          "2030": 0.183
+        },
+        "nwc_pct_sales": {
+          "2026": 0.14,
+          "2027": 0.139,
+          "2028": 0.138,
+          "2029": 0.138,
+          "2030": 0.138
+        },
+        "revenue_growth": {
+          "2026": 0.072,
+          "2027": 0.052,
+          "2028": 0.047,
+          "2029": 0.044,
+          "2030": 0.042
+        }
+      }
+    }
+  },
+  "ticker": "MDT"
+}

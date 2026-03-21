@@ -1,0 +1,686 @@
+{
+  "_meta": {
+    "cost_usd": 0.023036,
+    "generated_at": "2026-03-21T17:20:31Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [
+      "margin_reversal"
+    ],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10758,
+      "prompt": 2515,
+      "reasoning": 7268
+    }
+  },
+  "_valuation": {
+    "company_name": "Sandisk Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 709.71,
+        "description": "Base case",
+        "enterprise_value": 11118859599.726486,
+        "equity_value": 10750859599.726486,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 15501066775.092945,
+        "implied_market_cap": 10750859599.726486,
+        "investments_adjustment": 0.0,
+        "net_debt": 368000000.0,
+        "per_share_value": 74.14385930845853,
+        "projected_years": [
+          {
+            "capex": 222415200.00000003,
+            "cash_taxes": 0.0,
+            "da": 317736000.00000006,
+            "delta_nwc": 316452800.0,
+            "discount_factor": 0.9174311926605504,
+            "ebit": -397170000.00000006,
+            "ebit_margin": -0.05,
+            "ebitda": -79434000.0,
+            "fcff": -618302000.0,
+            "nol_balance_end": 2497170000.0,
+            "nol_used": 0.0,
+            "nwc": -63547200.00000001,
+            "present_value_fcff": -567249541.2844037,
+            "revenue": 7943400000.000001,
+            "revenue_growth": 0.08,
+            "year": 2026
+          },
+          {
+            "capex": 229484826.00000006,
+            "cash_taxes": 0.0,
+            "da": 305979768.00000006,
+            "delta_nwc": 12550571.999999993,
+            "discount_factor": 0.84167999326656,
+            "ebit": 0.0,
+            "ebit_margin": 0.0,
+            "ebitda": 305979768.00000006,
+            "fcff": 63944370.00000001,
+            "nol_balance_end": 2497170000.0,
+            "nol_used": 0.0,
+            "nwc": -50996628.000000015,
+            "present_value_fcff": 53820696.91103443,
+            "revenue": 8499438000.000002,
+            "revenue_growth": 0.07,
+            "year": 2027
+          },
+          {
+            "capex": 234244511.28000003,
+            "cash_taxes": 18919748.988,
+            "da": 297310341.24000007,
+            "delta_nwc": 14959010.88000001,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 450470214.0000001,
+            "ebit_margin": 0.05,
+            "ebitda": 747780555.2400002,
+            "fcff": 479657284.0920002,
+            "nol_balance_end": 2136793828.8,
+            "nol_used": 360376171.2000001,
+            "nwc": -36037617.120000005,
+            "present_value_fcff": 370383430.86679924,
+            "revenue": 9009404280.000002,
+            "revenue_growth": 0.06,
+            "year": 2028
+          },
+          {
+            "capex": 236496862.35000005,
+            "cash_taxes": 31785178.299840007,
+            "da": 293256109.31400007,
+            "delta_nwc": 7657993.638,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 756789959.5200002,
+            "ebit_margin": 0.08,
+            "ebitda": 1050046068.8340003,
+            "fcff": 774106034.5461603,
+            "nol_balance_end": 1531361861.1839998,
+            "nol_used": 605431967.6160002,
+            "nwc": -28379623.482000005,
+            "present_value_fcff": 548396230.9102057,
+            "revenue": 9459874494.000002,
+            "revenue_growth": 0.05,
+            "year": 2029
+          },
+          {
+            "capex": 245956736.84400007,
+            "cash_taxes": 41320731.78979201,
+            "da": 295148084.2128,
+            "delta_nwc": 8703084.534479998,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 983826947.3760003,
+            "ebit_margin": 0.1,
+            "ebitda": 1278975031.5888004,
+            "fcff": 982994478.4205283,
+            "nol_balance_end": 744300303.2831995,
+            "nol_used": 787061557.9008002,
+            "nwc": -19676538.947520006,
+            "present_value_fcff": 638878964.0834727,
+            "revenue": 9838269473.760002,
+            "revenue_growth": 0.04,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 15501066775.092945,
+        "terminal_value_present_value": 10074629818.239378,
+        "upside_downside_pct": -0.895529358035735
+      },
+      "bear": {
+        "current_price": 709.71,
+        "description": "Modestly weaker revenue growth and slower margin recovery amid NAND pricing cyclicality; slightly higher discount rate and lower terminal growth.",
+        "enterprise_value": 5682283836.65921,
+        "equity_value": 5314283836.65921,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 8905558823.632597,
+        "implied_market_cap": 5314283836.65921,
+        "investments_adjustment": 0.0,
+        "net_debt": 368000000.0,
+        "per_share_value": 36.65023335627041,
+        "projected_years": [
+          {
+            "capex": 218296400.0,
+            "cash_taxes": 0.0,
+            "da": 311852000.0,
+            "delta_nwc": 317629600.0,
+            "discount_factor": 0.9132420091324202,
+            "ebit": -623704000.0,
+            "ebit_margin": -0.08,
+            "ebitda": -311852000.0,
+            "fcff": -847778000.0,
+            "nol_balance_end": 2723704000.0,
+            "nol_used": 0.0,
+            "nwc": -62370400.0,
+            "present_value_fcff": -774226484.0182649,
+            "revenue": 7796300000.0,
+            "revenue_growth": 0.06,
+            "year": 2026
+          },
+          {
+            "capex": 221025105.0,
+            "cash_taxes": 0.0,
+            "da": 294700140.0,
+            "delta_nwc": 13253710.0,
+            "discount_factor": 0.8340109672442193,
+            "ebit": -163722300.0,
+            "ebit_margin": -0.02,
+            "ebitda": 130977840.0,
+            "fcff": -103300975.0,
+            "nol_balance_end": 2887426300.0,
+            "nol_used": 0.0,
+            "nwc": -49116690.0,
+            "present_value_fcff": -86154146.07702091,
+            "revenue": 8186115000.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 221352549.6,
+            "cash_taxes": 7151390.064000001,
+            "da": 280947466.8,
+            "delta_nwc": 15062451.600000001,
+            "discount_factor": 0.7616538513645839,
+            "ebit": 170271192.0,
+            "ebit_margin": 0.02,
+            "ebitda": 451218658.8,
+            "fcff": 207652267.536,
+            "nol_balance_end": 2751209346.4,
+            "nol_used": 136216953.6,
+            "nwc": -34054238.4,
+            "present_value_fcff": 158159149.31338334,
+            "revenue": 8513559600.0,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 219224159.70000002,
+            "cash_taxes": 18414829.4148,
+            "da": 271837958.028,
+            "delta_nwc": 7747339.235999998,
+            "discount_factor": 0.6955742934836383,
+            "ebit": 438448319.40000004,
+            "ebit_margin": 0.05,
+            "ebitda": 710286277.428,
+            "fcff": 464899949.0772,
+            "nol_balance_end": 2400450690.88,
+            "nol_used": 350758655.52000004,
+            "nwc": -26306899.164,
+            "present_value_fcff": 323372453.6199528,
+            "revenue": 8768966388.0,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 223608642.89400002,
+            "cash_taxes": 26296376.404334404,
+            "da": 268330371.4728,
+            "delta_nwc": 8418207.73248,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 626104200.1032001,
+            "ebit_margin": 0.07,
+            "ebitda": 894434571.5760001,
+            "fcff": 636111344.5451856,
+            "nol_balance_end": 1899567330.79744,
+            "nol_used": 500883360.08256006,
+            "nwc": -17888691.43152,
+            "present_value_fcff": 404075524.254744,
+            "revenue": 8944345715.76,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 8905558823.632597,
+        "terminal_value_present_value": 5657057339.566416,
+        "upside_downside_pct": -0.9483588601594025
+      },
+      "bull": {
+        "current_price": 709.71,
+        "description": "Modestly higher revenue growth and margin normalization on sustained datacenter/enterprise SSD demand; slightly lower discount rate and higher terminal growth.",
+        "enterprise_value": 15156993869.39275,
+        "equity_value": 14788993869.39275,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 20676387413.05203,
+        "implied_market_cap": 14788993869.39275,
+        "investments_adjustment": 0.0,
+        "net_debt": 368000000.0,
+        "per_share_value": 101.99306116822586,
+        "projected_years": [
+          {
+            "capex": 224474600.00000003,
+            "cash_taxes": 0.0,
+            "da": 320678000.00000006,
+            "delta_nwc": 315864400.0,
+            "discount_factor": 0.9191176470588235,
+            "ebit": -320678000.00000006,
+            "ebit_margin": -0.04,
+            "ebitda": 0.0,
+            "fcff": -540339000.0,
+            "nol_balance_end": 2420678000.0,
+            "nol_used": 0.0,
+            "nwc": -64135600.00000001,
+            "present_value_fcff": -496635110.2941176,
+            "revenue": 8016950000.000001,
+            "revenue_growth": 0.09,
+            "year": 2026
+          },
+          {
+            "capex": 233774262.00000006,
+            "cash_taxes": 3636488.52,
+            "da": 311699016.00000006,
+            "delta_nwc": 12185763.999999993,
+            "discount_factor": 0.844777249134948,
+            "ebit": 86583060.00000001,
+            "ebit_margin": 0.01,
+            "ebitda": 398282076.00000006,
+            "fcff": 148685561.48000002,
+            "nol_balance_end": 2351411552.0,
+            "nol_used": 69266448.00000001,
+            "nwc": -51949836.000000015,
+            "present_value_fcff": 125606179.61315961,
+            "revenue": 8658306000.000002,
+            "revenue_growth": 0.08,
+            "year": 2027
+          },
+          {
+            "capex": 240874072.92000005,
+            "cash_taxes": 23346256.298399992,
+            "da": 305724784.8600001,
+            "delta_nwc": 14892286.320000008,
+            "discount_factor": 0.776449677513739,
+            "ebit": 555863245.2,
+            "ebit_margin": 0.06,
+            "ebitda": 861588030.0600002,
+            "fcff": 582475414.5216,
+            "nol_balance_end": 1906720955.84,
+            "nol_used": 444690596.1600001,
+            "nwc": -37057549.68000001,
+            "present_value_fcff": 452262847.76497775,
+            "revenue": 9264387420.000002,
+            "revenue_growth": 0.07,
+            "year": 2028
+          },
+          {
+            "capex": 245506266.63000008,
+            "cash_taxes": 41245052.793840006,
+            "da": 304427770.6212001,
+            "delta_nwc": 7596797.6844,
+            "discount_factor": 0.71364860065601,
+            "ebit": 982025066.5200003,
+            "ebit_margin": 0.1,
+            "ebitda": 1286452837.1412005,
+            "fcff": 992104720.0329603,
+            "nol_balance_end": 1121100902.6239996,
+            "nol_used": 785620053.2160003,
+            "nwc": -29460751.995600007,
+            "present_value_fcff": 708014145.1557447,
+            "revenue": 9820250665.200003,
+            "revenue_growth": 0.06,
+            "year": 2029
+          },
+          {
+            "capex": 257781579.96150008,
+            "cash_taxes": 51968766.520238414,
+            "da": 309337895.9538001,
+            "delta_nwc": 8838225.59868,
+            "discount_factor": 0.6559270226617738,
+            "ebit": 1237351583.8152003,
+            "ebit_margin": 0.12,
+            "ebitda": 1546689479.7690005,
+            "fcff": 1228100907.688582,
+            "nol_balance_end": 131219635.57183933,
+            "nol_used": 989881267.0521603,
+            "nwc": -20622526.396920007,
+            "present_value_fcff": 805544571.9083935,
+            "revenue": 10311263198.460003,
+            "revenue_growth": 0.05,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 20676387413.05203,
+        "terminal_value_present_value": 13562201235.244593,
+        "upside_downside_pct": -0.8562891023541646
+      }
+    },
+    "ticker": "SNDK"
+  },
+  "assumptions": {
+    "cash": 1481000000.0,
+    "current_price": 709.71,
+    "debt": 1849000000.0,
+    "diluted_shares": 145000000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 2100000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.1,
+    "tax_rate": 0.21,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.09
+  },
+  "company_name": "Sandisk Corporation",
+  "comps": [
+    {
+      "company_name": "Micron Technology",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue and EV/NTM EBITDA not populated in this run; populate from your market-data terminal/sheet.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "MU"
+    },
+    {
+      "company_name": "Western Digital",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue and EV/NTM EBITDA not populated in this run; populate from your market-data terminal/sheet.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "WDC"
+    },
+    {
+      "company_name": "Seagate Technology",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue and EV/NTM EBITDA not populated in this run; populate from your market-data terminal/sheet.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "STX"
+    },
+    {
+      "company_name": "Pure Storage",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue and EV/NTM EBITDA not populated in this run; populate from your market-data terminal/sheet.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PSTG"
+    },
+    {
+      "company_name": "NetApp",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue and EV/NTM EBITDA not populated in this run; populate from your market-data terminal/sheet.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "NTAP"
+    },
+    {
+      "company_name": "Dell Technologies",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue and EV/NTM EBITDA not populated in this run; populate from your market-data terminal/sheet.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "DELL"
+    },
+    {
+      "company_name": "HP Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue and EV/NTM EBITDA not populated in this run; populate from your market-data terminal/sheet.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "HPQ"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.028,
+      "2027": 0.027,
+      "2028": 0.026,
+      "2029": 0.025,
+      "2030": 0.025
+    },
+    "da_pct_sales": {
+      "2026": 0.04,
+      "2027": 0.036,
+      "2028": 0.033,
+      "2029": 0.031,
+      "2030": 0.03
+    },
+    "ebit_margin": {
+      "2026": -0.05,
+      "2027": 0.0,
+      "2028": 0.05,
+      "2029": 0.08,
+      "2030": 0.1
+    },
+    "nwc_pct_sales": {
+      "2026": -0.008,
+      "2027": -0.006,
+      "2028": -0.004,
+      "2029": -0.003,
+      "2030": -0.002
+    },
+    "revenue_growth": {
+      "2026": 0.08,
+      "2027": 0.07,
+      "2028": 0.06,
+      "2029": 0.05,
+      "2030": 0.04
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 219000000.0,
+      "2024": 166000000.0,
+      "2025": 204000000.0
+    },
+    "da": {
+      "2023": 448000000.0,
+      "2024": 224000000.0,
+      "2025": 163000000.0
+    },
+    "ebit": {
+      "2023": -2035000000.0,
+      "2024": -468000000.0,
+      "2025": -1377000000.0
+    },
+    "nwc": {
+      "2023": 197000000.0,
+      "2024": -86000000.0,
+      "2025": -380000000.0
+    },
+    "revenue": {
+      "2023": 6086000000.0,
+      "2024": 6663000000.0,
+      "2025": 7355000000.0
+    }
+  },
+  "notes": [
+    "Historical EBIT is proxied by 'Operating loss' from the FY2025 Form 10-K consolidated statements (this includes goodwill impairment and other line items; the forecast implicitly assumes normalization beyond these non-recurring items).",
+    "Historical D&A uses 'Depreciation and amortization' from the FY2025 Form 10-K consolidated cash flow reconciliation.",
+    "Historical capex uses 'Purchases of property, plant and equipment' from the FY2025 Form 10-K consolidated cash flow statement; reported as positive expenditures (cash outflow magnitudes).",
+    "Historical NWC is implemented as the net working-capital cash flow impact derived from cash flow line items (Accounts receivable, Inventories, Accounts payable, Accounts payable to related parties, Accrued expenses, Accrued compensation, Other assets and liabilities, net). This is not a balance-sheet NWC calculation; populate your exact NWC definition if your DCF expects a balance-sheet-based measure.",
+    "Tax rate is set to 0.21 (U.S. federal statutory) because effective tax rate is unstable in loss years (effective tax rate in the filing can be negative); update if your pipeline uses an effective forward tax rate by jurisdiction.",
+    "WACC (0.09) is an estimation for a cycle-exposed memory/storage business; replace with your firm's cost of capital standard if available.",
+    "NOL balance is set using the filing reference that NOL carryforwards total $2.1 billion as of FY2025 year-end; exact split by jurisdiction/expiry not modeled here.",
+    "Comps: EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM were left null because forward EV/NTM metrics were not reliably accessible within this run; populate from your market-data source (e.g., Bloomberg/FactSet/CapIQ).",
+    "investments is null because the schema field is ambiguous relative to Sandisk\u2019s disclosures (e.g., strategic investments vs. Flash Ventures financing vs. other cash flows); map if your DCF pipeline expects a specific balance-sheet or cash-flow definition."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained datacenter/enterprise SSD deployment leading to continued revenue and margin expansion versus prior-cycle baselines.",
+      "Further normalization in operating results as capacity utilization and pricing improve and impairment risk reduces.",
+      "Any incremental product/design-win momentum (enterprise SSDs, semi-custom, and AI infrastructure builds) translating into stronger forward shipments."
+    ],
+    "company_overview": [
+      "Sandisk Corporation designs, develops, and manufactures flash-based data storage solutions including SSDs, embedded products, removable storage, and related components.",
+      "Revenue is generated primarily through the flash memory storage products segment across consumer, datacenter/cloud, and embedded end markets.",
+      "The company separated from Western Digital and began trading independently on Nasdaq under ticker SNDK in February 2025."
+    ],
+    "current_context": [
+      "FY2026 Q2 revenue was $3.03 billion (up 31% sequentially and above guidance); datacenter revenue was up 64% sequentially.",
+      "Management guided FY2026 Q3 revenue to $4.40 billion to $4.80 billion and non-GAAP diluted EPS to $12.00 to $14.00."
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth reflects management commentary on improving exabytes sold and average selling prices (ASP) as supply-demand balances improve.",
+      "DCF margin recovery is modeled via a transition from operating losses (including non-recurring impairment effects) to normalized positive EBIT margins over the forecast horizon.",
+      "Capital intensity remains modest (modeled capex at ~2.5% of sales) consistent with recent historical purchases of property, plant and equipment as a percent of net revenue.",
+      "Working capital needs are modeled as relatively small cash releases over time (modeled NWC investment near 0% to -1% of sales), consistent with recent cash flow behavior."
+    ],
+    "key_risks": [
+      "NAND pricing and supply-demand cyclicality could reverse revenue momentum and pressure EBIT margins.",
+      "Future impairment charges or additional restructuring costs could delay margin normalization and increase earnings volatility.",
+      "Tax and valuation allowances could reduce effective realization of NOLs, lowering long-run tax benefits."
+    ],
+    "sources": [
+      {
+        "label": "Sandisk FY2025 Form 10-K (PDF)",
+        "notes": "Provides FY2023-FY2025 net revenue, operating loss (EBIT proxy), depreciation & amortization, purchases of property, plant and equipment, and NOL carryforward reference.",
+        "url": "https://investor.sandisk.com/static-files/342a38e2-e204-4f50-ad22-3e3a28e2f6ff"
+      },
+      {
+        "label": "Sandisk FY2026 Q2 financial results (press release)",
+        "notes": "Used for latest trading/current context: revenue and datacenter growth, plus Q3 guidance.",
+        "url": "https://www.sandisk.com/fr-ca/company/newsroom/press-releases/2026/2026-01-29-sandisk-reports-fiscal-second-quarter-2026-financial-results"
+      },
+      {
+        "label": "Sandisk separation from Western Digital\u2014Nasdaq listing update (PDF)",
+        "notes": "Used for post-separation company identity/positioning context.",
+        "url": "https://investor.sandisk.com/node/6606/pdf"
+      },
+      {
+        "label": "Sandisk FY2025 Q4 financial results (press release)",
+        "notes": "Additional management commentary source around the separation year transition and operating recovery.",
+        "url": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-fourth-quarter-2025-financial-results"
+      }
+    ],
+    "subtitle": "SanDisk (SNDK) | DCF input pack (FY2025 10-K + FY2026 Q2 update)",
+    "valuation_summary": [
+      "DCF framework uses Gordon growth with explicit cash/debt and normalized EBIT margins to avoid mechanically carrying forward non-operating/impairment distortions into terminal economics.",
+      "Scenario analysis adjusts only a small set of cycle-sensitive drivers (growth, margin recovery, and discount/terminal assumptions) to reflect the storage/memory demand and pricing cycle."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.07,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.095
+      },
+      "description": "Modestly weaker revenue growth and slower margin recovery amid NAND pricing cyclicality; slightly higher discount rate and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.028,
+          "2027": 0.027,
+          "2028": 0.026,
+          "2029": 0.025,
+          "2030": 0.025
+        },
+        "da_pct_sales": {
+          "2026": 0.04,
+          "2027": 0.036,
+          "2028": 0.033,
+          "2029": 0.031,
+          "2030": 0.03
+        },
+        "ebit_margin": {
+          "2026": -0.08,
+          "2027": -0.02,
+          "2028": 0.02,
+          "2029": 0.05,
+          "2030": 0.07
+        },
+        "nwc_pct_sales": {
+          "2026": -0.008,
+          "2027": -0.006,
+          "2028": -0.004,
+          "2029": -0.003,
+          "2030": -0.002
+        },
+        "revenue_growth": {
+          "2026": 0.06,
+          "2027": 0.05,
+          "2028": 0.04,
+          "2029": 0.03,
+          "2030": 0.02
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.12,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.027,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.088
+      },
+      "description": "Modestly higher revenue growth and margin normalization on sustained datacenter/enterprise SSD demand; slightly lower discount rate and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.028,
+          "2027": 0.027,
+          "2028": 0.026,
+          "2029": 0.025,
+          "2030": 0.025
+        },
+        "da_pct_sales": {
+          "2026": 0.04,
+          "2027": 0.036,
+          "2028": 0.033,
+          "2029": 0.031,
+          "2030": 0.03
+        },
+        "ebit_margin": {
+          "2026": -0.04,
+          "2027": 0.01,
+          "2028": 0.06,
+          "2029": 0.1,
+          "2030": 0.12
+        },
+        "nwc_pct_sales": {
+          "2026": -0.008,
+          "2027": -0.006,
+          "2028": -0.004,
+          "2029": -0.003,
+          "2030": -0.002
+        },
+        "revenue_growth": {
+          "2026": 0.09,
+          "2027": 0.08,
+          "2028": 0.07,
+          "2029": 0.06,
+          "2030": 0.05
+        }
+      }
+    }
+  },
+  "ticker": "SNDK"
+}

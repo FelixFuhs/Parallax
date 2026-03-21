@@ -1,0 +1,682 @@
+{
+  "_meta": {
+    "cost_usd": 0.023858,
+    "generated_at": "2026-03-21T17:36:27Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11513,
+      "prompt": 2515,
+      "reasoning": 7171
+    }
+  },
+  "_valuation": {
+    "company_name": "Ulta Beauty, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 529.97,
+        "description": "Base case",
+        "enterprise_value": 19364387763.04154,
+        "equity_value": 19796343763.04154,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 22458930113.10781,
+        "implied_market_cap": 19796343763.04154,
+        "investments_adjustment": 70000000.0,
+        "net_debt": -361956000.0,
+        "per_share_value": 440.00675164014,
+        "projected_years": [
+          {
+            "capex": 435545658.90000004,
+            "cash_taxes": 400075084.40625,
+            "da": 319400149.86,
+            "delta_nwc": 76572317.80000007,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 1649794162.5,
+            "ebit_margin": 0.125,
+            "ebitda": 1969194312.3600001,
+            "fcff": 1057001251.25375,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 871091317.8000001,
+            "present_value_fcff": 969725918.581422,
+            "revenue": 13198353300.0,
+            "revenue_growth": 0.065,
+            "year": 2026
+          },
+          {
+            "capex": 475668652.93200004,
+            "cash_taxes": 430864862.902155,
+            "da": 342761235.20100003,
+            "delta_nwc": 66255733.565999985,
+            "discount_factor": 0.84167999326656,
+            "ebit": 1776762321.246,
+            "ebit_margin": 0.127,
+            "ebitda": 2119523556.447,
+            "fcff": 1146734307.046845,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 937347051.366,
+            "present_value_fcff": 965183323.8337218,
+            "revenue": 13990254498.0,
+            "revenue_growth": 0.06,
+            "year": 2027
+          },
+          {
+            "capex": 501830428.84326,
+            "cash_taxes": 461720893.8320376,
+            "da": 364565046.836133,
+            "delta_nwc": 51554087.825129986,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 1904003685.90531,
+            "ebit_margin": 0.129,
+            "ebitda": 2268568732.7414427,
+            "fcff": 1253463322.2410152,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 988901139.19113,
+            "present_value_fcff": 967903670.2969702,
+            "revenue": 14759718495.39,
+            "revenue_growth": 0.055,
+            "year": 2028
+          },
+          {
+            "capex": 534670802.49550277,
+            "cash_taxes": 492323325.16741693,
+            "da": 387442610.50398755,
+            "delta_nwc": 64942761.37971604,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 2030199279.0408945,
+            "ebit_margin": 0.131,
+            "ebitda": 2417641889.544882,
+            "fcff": 1325705000.5022464,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1053843900.5708461,
+            "present_value_fcff": 939162844.79099,
+            "revenue": 15497704420.1595,
+            "revenue_growth": 0.05,
+            "year": 2029
+          },
+          {
+            "capex": 567913378.4767449,
+            "cash_taxes": 525299592.4703291,
+            "da": 408897632.5032563,
+            "delta_nwc": 57643711.59078312,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 2166183886.475584,
+            "ebit_margin": 0.1335,
+            "ebitda": 2575081518.9788404,
+            "fcff": 1424224836.4409833,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1111487612.1616292,
+            "present_value_fcff": 925648422.3486223,
+            "revenue": 16226096527.906996,
+            "revenue_growth": 0.047,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 22458930113.10781,
+        "terminal_value_present_value": 14596763583.189812,
+        "upside_downside_pct": -0.16975158661784628
+      },
+      "bear": {
+        "current_price": 529.97,
+        "description": "Modestly weaker growth and margin compression vs base case; slightly higher WACC and lower terminal growth.",
+        "enterprise_value": 15830425554.522156,
+        "equity_value": 16262381554.522156,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 18002992297.150047,
+        "implied_market_cap": 16262381554.522156,
+        "investments_adjustment": 70000000.0,
+        "net_debt": -361956000.0,
+        "per_share_value": 361.4585484768544,
+        "projected_years": [
+          {
+            "capex": 431456028.3,
+            "cash_taxes": 383636318.49674994,
+            "da": 316401087.42,
+            "delta_nwc": 68393056.60000002,
+            "discount_factor": 0.9132420091324202,
+            "ebit": 1582005437.1,
+            "ebit_margin": 0.121,
+            "ebitda": 1898406524.52,
+            "fcff": 1014921121.1232501,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 862912056.6,
+            "present_value_fcff": 926868603.7655253,
+            "revenue": 13074425100.0,
+            "revenue_growth": 0.055,
+            "year": 2026
+          },
+          {
+            "capex": 466756976.07000005,
+            "cash_taxes": 409476285.40376246,
+            "da": 336339585.6975,
+            "delta_nwc": 56873749.18500006,
+            "discount_factor": 0.8340109672442193,
+            "ebit": 1688562001.665,
+            "ebit_margin": 0.123,
+            "ebitda": 2024901587.3625,
+            "fcff": 1091794576.7037377,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 919785805.7850001,
+            "present_value_fcff": 910568650.9486773,
+            "revenue": 13728146355.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 487761039.99315,
+            "cash_taxes": 431381602.1351182,
+            "da": 354344049.64208245,
+            "delta_nwc": 41390361.260324836,
+            "discount_factor": 0.7616538513645839,
+            "ebit": 1778893204.6808999,
+            "ebit_margin": 0.124,
+            "ebitda": 2133237254.3229823,
+            "fcff": 1172704250.934389,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 961176167.0453249,
+            "present_value_fcff": 893194709.2357968,
+            "revenue": 14345912940.974998,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 514731356.322183,
+            "cash_taxes": 452254905.4642368,
+            "da": 372993736.46535,
+            "delta_nwc": 53366796.14042699,
+            "discount_factor": 0.6955742934836383,
+            "ebit": 1864968682.3267498,
+            "ebit_margin": 0.125,
+            "ebitda": 2237962418.7921,
+            "fcff": 1217609360.865253,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1014542963.1857519,
+            "present_value_fcff": 846937770.9229127,
+            "revenue": 14919749458.613998,
+            "revenue_growth": 0.04,
+            "year": 2029
+          },
+          {
+            "capex": 542034497.8314466,
+            "cash_taxes": 475073878.9743404,
+            "da": 390264838.43864155,
+            "delta_nwc": 46295982.57007933,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 1959067542.1622283,
+            "ebit_margin": 0.1265,
+            "ebitda": 2349332380.60087,
+            "fcff": 1285928021.2250035,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1060838945.7558312,
+            "present_value_fcff": 816857054.643283,
+            "revenue": 15486699938.04133,
+            "revenue_growth": 0.038,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 18002992297.150047,
+        "terminal_value_present_value": 11435998765.00596,
+        "upside_downside_pct": -0.3179641329191193
+      },
+      "bull": {
+        "current_price": 529.97,
+        "description": "Modestly stronger top-line and margin recovery vs base case; slightly lower WACC and higher terminal growth.",
+        "enterprise_value": 22764605674.198883,
+        "equity_value": 23196561674.198883,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 26642287648.650684,
+        "implied_market_cap": 23196561674.19888,
+        "investments_adjustment": 70000000.0,
+        "net_debt": -361956000.0,
+        "per_share_value": 515.5822647684844,
+        "projected_years": [
+          {
+            "capex": 439635289.5,
+            "cash_taxes": 410292964.49625,
+            "da": 322399212.3,
+            "delta_nwc": 84751579.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1691929750.5,
+            "ebit_margin": 0.127,
+            "ebitda": 2014328962.8,
+            "fcff": 1079649129.80375,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 879270579.0,
+            "present_value_fcff": 995068322.3997697,
+            "revenue": 13322281500.0,
+            "revenue_growth": 0.075,
+            "year": 2026
+          },
+          {
+            "capex": 484664600.97,
+            "cash_taxes": 449383868.987625,
+            "da": 349243609.52250004,
+            "delta_nwc": 75803781.73500001,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1853129356.65,
+            "ebit_margin": 0.13,
+            "ebitda": 2202372966.1725,
+            "fcff": 1192520714.479875,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 955074360.735,
+            "present_value_fcff": 1012993025.5302726,
+            "revenue": 14254841205.0,
+            "revenue_growth": 0.07,
+            "year": 2027
+          },
+          {
+            "capex": 514713806.2301401,
+            "cash_taxes": 484587909.9243171,
+            "da": 373924441.584837,
+            "delta_nwc": 59214610.36557007,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 1998300659.4817202,
+            "ebit_margin": 0.132,
+            "ebitda": 2372225101.0665574,
+            "fcff": 1313708774.5465298,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1014288971.1005701,
+            "present_value_fcff": 1028513238.5719874,
+            "revenue": 15138641359.710001,
+            "revenue_growth": 0.062,
+            "year": 2028
+          },
+          {
+            "capex": 552053265.1438648,
+            "cash_taxes": 519970169.58985174,
+            "da": 400038597.9303368,
+            "delta_nwc": 73816015.26994598,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2144206884.9066052,
+            "ebit_margin": 0.134,
+            "ebitda": 2544245482.836942,
+            "fcff": 1398406032.8332791,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1088104986.370516,
+            "present_value_fcff": 1009053832.2576615,
+            "revenue": 16001543917.21347,
+            "revenue_growth": 0.057,
+            "year": 2029
+          },
+          {
+            "capex": 589736901.0689025,
+            "cash_taxes": 555700657.0643543,
+            "da": 424610568.76960975,
+            "delta_nwc": 66094377.15005016,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2291549101.2963066,
+            "ebit_margin": 0.136,
+            "ebitda": 2716159670.0659165,
+            "fcff": 1504627734.7826095,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1154199363.5205662,
+            "present_value_fcff": 1000645788.7700214,
+            "revenue": 16849625744.825783,
+            "revenue_growth": 0.053,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 26642287648.650684,
+        "terminal_value_present_value": 17718331466.66917,
+        "upside_downside_pct": -0.027148206939101582
+      }
+    },
+    "ticker": "ULTA"
+  },
+  "assumptions": {
+    "cash": 424243000.0,
+    "current_price": 529.97,
+    "debt": 62287000.0,
+    "diluted_shares": 44991000.0,
+    "investments": 70000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.1335,
+    "tax_rate": 0.2425,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.09
+  },
+  "company_name": "Ulta Beauty, Inc.",
+  "comps": [
+    {
+      "company_name": "TJX Companies, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM were not retrieved in this run; placeholder left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "TJX"
+    },
+    {
+      "company_name": "Ross Stores, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM were not retrieved in this run; placeholder left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ROST"
+    },
+    {
+      "company_name": "Target Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM were not retrieved in this run; placeholder left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "TGT"
+    },
+    {
+      "company_name": "Macy's, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM were not retrieved in this run; placeholder left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "M"
+    },
+    {
+      "company_name": "Nordstrom, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM were not retrieved in this run; placeholder left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "JWN"
+    },
+    {
+      "company_name": "Sally Beauty Holdings, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM were not retrieved in this run; placeholder left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SBH"
+    },
+    {
+      "company_name": "Walgreens Boots Alliance, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM were not retrieved in this run; placeholder left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "WBA"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.033,
+      "2027": 0.034,
+      "2028": 0.034,
+      "2029": 0.0345,
+      "2030": 0.035
+    },
+    "da_pct_sales": {
+      "2026": 0.0242,
+      "2027": 0.0245,
+      "2028": 0.0247,
+      "2029": 0.025,
+      "2030": 0.0252
+    },
+    "ebit_margin": {
+      "2026": 0.125,
+      "2027": 0.127,
+      "2028": 0.129,
+      "2029": 0.131,
+      "2030": 0.1335
+    },
+    "nwc_pct_sales": {
+      "2026": 0.066,
+      "2027": 0.067,
+      "2028": 0.067,
+      "2029": 0.068,
+      "2030": 0.0685
+    },
+    "revenue_growth": {
+      "2026": 0.065,
+      "2027": 0.06,
+      "2028": 0.055,
+      "2029": 0.05,
+      "2030": 0.047
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 435267000.0,
+      "2024": 374458000.0,
+      "2025": 434829000.0
+    },
+    "da": {
+      "2023": 243840000.0,
+      "2024": 267042000.0,
+      "2025": 300772000.0
+    },
+    "ebit": {
+      "2023": 1678029000.0,
+      "2024": 1564972000.0,
+      "2025": 1532992000.0
+    },
+    "nwc": {
+      "2023": 695554000.0,
+      "2024": 834243000.0,
+      "2025": 794519000.0
+    },
+    "revenue": {
+      "2023": 11207303000.0,
+      "2024": 11295654000.0,
+      "2025": 12392820000.0
+    }
+  },
+  "notes": [
+    "Fiscal-year label mapping: schema year 2023 corresponds to Ulta fiscal year ended Feb 3, 2024; year 2024 corresponds to fiscal year ended Feb 1, 2025; year 2025 corresponds to fiscal year ended Jan 31, 2026. ([ulta.com](https://www.ulta.com/investor/sec-filings/all-sec-filings/content/0001558370-25-003810/ulta-20250201x10k.htm))",
+    "EBIT is modeled as GAAP Operating income (not adjusted operating income). ([ulta.com](https://www.ulta.com/investor/sec-filings/all-sec-filings/content/0001558370-25-003810/ulta-20250201x10k.htm))",
+    "NWC definition (for historical NWC and forecast NWC as % sales): NWC = (Receivables, net + Merchandise inventories, net + Prepaid expenses and other current assets + Prepaid income taxes) \u2212 (Accounts payable + Accrued liabilities + Deferred revenue + Accrued income taxes). This excludes cash/short-term investments, short-term debt, and current operating lease liabilities to keep NWC tied to operating working capital rather than financing/lease structure. ([ulta.com](https://www.ulta.com/investor/sec-filings/all-sec-filings/content/0001558370-25-003810/ulta-20250201x10k.htm))",
+    "FY2025 values come from the company\u2019s FY2025 results press release (unaudited) rather than a 10-K in this run; final audited numbers may differ. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+    "Tax rate uses an effective tax rate implied by company-reported GAAP income tax expense divided by pre-tax income for FY2023\u2013FY2025, averaged to form a stable DCF input (analytical choice). ([ulta.com](https://www.ulta.com/investor/sec-filings/all-sec-filings/content/0001558370-25-003810/ulta-20250201x10k.htm))",
+    "WACC, terminal growth, and terminal method are analytical DCF inputs (not explicitly disclosed by Ulta) set for economic sensibility; adjust in your model governance as needed.",
+    "Comps NTM multiple fields (EV/NTM Revenue, EV/NTM EBITDA, P/E NTM) were not populated due to lack of consistently retrievable NTM multiple inputs from primary/official sources in this run; fields left null by design.",
+    "NOL balance and utilization percent were not populated as numerically reliable DCF inputs because Ulta discloses NOL-related tax attributes, but the NOL tax-basis/use rate needed for a utilization assumption was not unambiguously available for this package. ([ulta.com](https://www.ulta.com/investor/sec-filings/all-sec-filings/content/0001558370-25-003810/ulta-20250201x10k.htm))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Outperformance (or miss) vs FY2026 net sales growth and comparable sales ranges; impacts near-term earnings power. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+      "Operating leverage: continued improvement in gross margin/opex discipline leading to faster EBIT margin normalization vs base case. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+      "Execution of international initiatives (including Space NK) and integration-related synergy realization. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))"
+    ],
+    "company_overview": [
+      "Largest U.S. specialty beauty retailer with a large assortment across cosmetics, fragrance, skin care, hair care, wellness, and salon services. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+      "Omnichannel model: store base plus e-commerce/app, supported by Ulta Beauty Rewards loyalty engagement. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+      "International growth via Space NK (U.K. & Ireland) and other international initiatives (including joint venture/franchise structure). ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))"
+    ],
+    "current_context": [
+      "Fiscal 2025 (ended Jan 31, 2026) net sales of $12.39B (+9.7% YoY) and operating income of $1.53B (12.4% of net sales). ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+      "Balance sheet/capital deployment: cash & cash equivalents of $424M, short-term investments of $70M, and short-term debt of $62M; invested $435M in capital expenditures during fiscal 2025. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+      "Fiscal 2026 outlook: net sales growth guidance of 6.0% to 7.0% and capital expenditures of $400M to $450M. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))"
+    ],
+    "investment_highlights": [
+      "Base case assumes continued mid-to-high single-digit top-line growth supported by new store openings and improving comparable sales, consistent with FY2026 guidance. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+      "EBIT margin modeled as gradual mean reversion from FY2025 levels toward a normalized low-to-mid-13% profile as strategic investments mature. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+      "Capital intensity kept steady (capex modeled in the ~3.3% to ~3.5% of sales range) to match recent capex levels and FY2026 capex guidance. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+      "Working-capital needs normalized around ~6.6% to ~6.9% of sales based on recent NWC history derived from operating balance-sheet components. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+      "Valuation anchors combine a DCF with a comps cross-check (comps multiples left null where consistent NTM inputs were not retrievable in this run)."
+    ],
+    "key_risks": [
+      "Consumer demand volatility and promotional intensity could pressure comparable sales and merchandise margin. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+      "Investment/expense acceleration (e.g., technology, corporate overhead, marketing) may delay margin recovery. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+      "Working-capital swings (inventory build/turns and payables) could reduce free cash flow relative to DCF assumptions. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+      "Modeling risk: WACC and terminal assumptions are not explicitly disclosed by the company and are set as analytical inputs."
+    ],
+    "sources": [
+      {
+        "label": "Ulta Beauty \u2014 Fourth Quarter and Fiscal 2025 Results and Fiscal 2026 Guidance (press release)",
+        "notes": "Used for FY2025 net sales, operating income (EBIT), cash/short-term investments/short-term debt, D&A, capex, FY2026 guidance ranges, and FY2025 balance sheet components for NWC. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+        "url": "https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025"
+      },
+      {
+        "label": "Ulta Beauty \u2014 Form 10-K for fiscal year ended February 1, 2025 (covers FY2024 and FY2023 audited financials)",
+        "notes": "Used for FY2024 and FY2023 net sales (revenue), operating income (EBIT), D&A (depreciation and amortization), capex (capital expenditures), and balance sheet components for NWC; also includes tax footnote context for NOL disclosure. ([ulta.com](https://www.ulta.com/investor/sec-filings/all-sec-filings/content/0001558370-25-003810/ulta-20250201x10k.htm))",
+        "url": "https://www.ulta.com/investor/sec-filings/all-sec-filings/content/0001558370-25-003810/ulta-20250201x10k.htm"
+      },
+      {
+        "label": "Ulta Beauty \u2014 Current market price snapshot (finance tool)",
+        "notes": "Used only to populate current_price (as of research date/time).",
+        "url": "https://finance.example/ULTA"
+      }
+    ],
+    "subtitle": "DCF & Comps Input Package \u2014 Ulta Beauty (ULTA)",
+    "valuation_summary": [
+      "DCF drivers are chained from FY2025 revenue and built from empirically observed operating relationships (EBIT margin, D&A intensity, capex intensity, and working-capital intensity) using primary-company disclosures. ([ulta.com](https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025))",
+      "Terminal value uses a Gordon-growth framework with a conservative terminal growth assumption reflecting long-run mature retail economics (modeled, not explicitly disclosed).",
+      "Scenario framing (bull/bear) adjusts only a few key levers\u2014growth, EBIT margin, WACC, and terminal growth\u2014while keeping operating cost structure and reinvestment intensity broadly consistent."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 529.97,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.1265,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.095
+      },
+      "description": "Modestly weaker growth and margin compression vs base case; slightly higher WACC and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.033,
+          "2027": 0.034,
+          "2028": 0.034,
+          "2029": 0.0345,
+          "2030": 0.035
+        },
+        "da_pct_sales": {
+          "2026": 0.0242,
+          "2027": 0.0245,
+          "2028": 0.0247,
+          "2029": 0.025,
+          "2030": 0.0252
+        },
+        "ebit_margin": {
+          "2026": 0.121,
+          "2027": 0.123,
+          "2028": 0.124,
+          "2029": 0.125,
+          "2030": 0.1265
+        },
+        "nwc_pct_sales": {
+          "2026": 0.066,
+          "2027": 0.067,
+          "2028": 0.067,
+          "2029": 0.068,
+          "2030": 0.0685
+        },
+        "revenue_growth": {
+          "2026": 0.055,
+          "2027": 0.05,
+          "2028": 0.045,
+          "2029": 0.04,
+          "2030": 0.038
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 529.97,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.136,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.027,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.085
+      },
+      "description": "Modestly stronger top-line and margin recovery vs base case; slightly lower WACC and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.033,
+          "2027": 0.034,
+          "2028": 0.034,
+          "2029": 0.0345,
+          "2030": 0.035
+        },
+        "da_pct_sales": {
+          "2026": 0.0242,
+          "2027": 0.0245,
+          "2028": 0.0247,
+          "2029": 0.025,
+          "2030": 0.0252
+        },
+        "ebit_margin": {
+          "2026": 0.127,
+          "2027": 0.13,
+          "2028": 0.132,
+          "2029": 0.134,
+          "2030": 0.136
+        },
+        "nwc_pct_sales": {
+          "2026": 0.066,
+          "2027": 0.067,
+          "2028": 0.067,
+          "2029": 0.068,
+          "2030": 0.0685
+        },
+        "revenue_growth": {
+          "2026": 0.075,
+          "2027": 0.07,
+          "2028": 0.062,
+          "2029": 0.057,
+          "2030": 0.053
+        }
+      }
+    }
+  },
+  "ticker": "ULTA"
+}

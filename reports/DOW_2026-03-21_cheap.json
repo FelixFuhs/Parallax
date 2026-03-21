@@ -1,0 +1,681 @@
+{
+  "_meta": {
+    "cost_usd": 0.025375,
+    "generated_at": "2026-03-21T17:16:17Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11979,
+      "prompt": 2514,
+      "reasoning": 7919
+    }
+  },
+  "_valuation": {
+    "company_name": "Dow Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 36.65,
+        "description": "Base case",
+        "enterprise_value": 29669123764.49278,
+        "equity_value": 14195123764.492779,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 32942197889.83652,
+        "implied_market_cap": 14195123764.492777,
+        "investments_adjustment": 0.0,
+        "net_debt": 13960000000.0,
+        "per_share_value": 19.948178421153425,
+        "projected_years": [
+          {
+            "capex": 2634690560.0,
+            "cash_taxes": 463129200.0,
+            "da": 2799358720.0,
+            "delta_nwc": -681957440.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1852516800.0,
+            "ebit_margin": 0.045,
+            "ebitda": 4651875520.0,
+            "fcff": 2236013200.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4693042560.0,
+            "present_value_fcff": 2060841658.986175,
+            "revenue": 41167040000.0,
+            "revenue_growth": 0.03,
+            "year": 2026
+          },
+          {
+            "capex": 2721655932.0,
+            "cash_taxes": 527452700.0,
+            "da": 2890440796.0,
+            "delta_nwc": 159522280.0,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2109810800.0,
+            "ebit_margin": 0.05,
+            "ebitda": 5000251596.0,
+            "fcff": 1591620684.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4852564840.0,
+            "present_value_fcff": 1352010604.5998006,
+            "revenue": 42196216000.0,
+            "revenue_growth": 0.025,
+            "year": 2027
+          },
+          {
+            "capex": 2797609120.8,
+            "cash_taxes": 591801929.4,
+            "da": 2969769682.0800004,
+            "delta_nwc": 54011156.480000496,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2367207717.6,
+            "ebit_margin": 0.055,
+            "ebitda": 5336977399.68,
+            "fcff": 1893555193.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4906575996.4800005,
+            "present_value_fcff": 1482479695.4252627,
+            "revenue": 43040140320.0,
+            "revenue_growth": 0.02,
+            "year": 2028
+          },
+          {
+            "capex": 2869873516.39728,
+            "cash_taxes": 635315511.2635201,
+            "da": 3045132967.7803206,
+            "delta_nwc": 44503505.09087944,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2541262045.0540805,
+            "ebit_margin": 0.058,
+            "ebitda": 5586395012.834401,
+            "fcff": 2036702480.0827212,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4951079501.57088,
+            "present_value_fcff": 1469632134.3324552,
+            "revenue": 43814862845.76,
+            "revenue_growth": 0.018,
+            "year": 2029
+          },
+          {
+            "capex": 2940941223.9331026,
+            "cash_taxes": 668395732.7120687,
+            "da": 3119180085.9896545,
+            "delta_nwc": 84168351.52670479,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2673582930.8482747,
+            "ebit_margin": 0.06,
+            "ebitda": 5792763016.837929,
+            "fcff": 2099257708.6660528,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5035247853.097585,
+            "present_value_fcff": 1396101731.4513278,
+            "revenue": 44559715514.13792,
+            "revenue_growth": 0.017,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 32942197889.83652,
+        "terminal_value_present_value": 21908057939.697758,
+        "upside_downside_pct": -0.4557113664078192
+      },
+      "bear": {
+        "current_price": 36.65,
+        "description": "Slower recovery and weaker profitability versus base case.",
+        "enterprise_value": 26318066129.345505,
+        "equity_value": 10844066129.345505,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 28823129431.96709,
+        "implied_market_cap": 10844066129.345505,
+        "investments_adjustment": 0.0,
+        "net_debt": 13960000000.0,
+        "per_share_value": 15.2389911879504,
+        "projected_years": [
+          {
+            "capex": 2583531520.0,
+            "cash_taxes": 413768720.0,
+            "da": 2745002240.0,
+            "delta_nwc": -773084480.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1655074880.0,
+            "ebit_margin": 0.041,
+            "ebitda": 4400077120.0,
+            "fcff": 2175861360.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4601915520.0,
+            "present_value_fcff": 2005402175.1152074,
+            "revenue": 40367680000.0,
+            "revenue_growth": 0.01,
+            "year": 2026
+          },
+          {
+            "capex": 2642771090.3999996,
+            "cash_taxes": 471191744.7999999,
+            "da": 2806663871.2,
+            "delta_nwc": 110001927.99999905,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1884766979.1999996,
+            "ebit_margin": 0.046,
+            "ebitda": 4691430850.4,
+            "fcff": 1467466087.2000008,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4711917447.999999,
+            "present_value_fcff": 1246546825.9678488,
+            "revenue": 40973195199.99999,
+            "revenue_growth": 0.015,
+            "year": 2027
+          },
+          {
+            "capex": 2695216780.2559996,
+            "cash_taxes": 528677137.6655999,
+            "da": 2861076274.4256,
+            "delta_nwc": 15078135.833600044,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2114708550.6623995,
+            "ebit_margin": 0.051,
+            "ebitda": 4975784825.087999,
+            "fcff": 1736812771.3328,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4726995583.833599,
+            "present_value_fcff": 1359764784.1343677,
+            "revenue": 41464873542.399994,
+            "revenue_growth": 0.012,
+            "year": 2028
+          },
+          {
+            "capex": 2745824658.4144983,
+            "cash_taxes": 555453079.7556046,
+            "da": 2913508607.019964,
+            "delta_nwc": 10075964.270802498,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2221812319.0224185,
+            "ebit_margin": 0.053,
+            "ebitda": 5135320926.042383,
+            "fcff": 1823967223.6014767,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4737071548.104402,
+            "present_value_fcff": 1316127843.8984416,
+            "revenue": 41920987151.36639,
+            "revenue_growth": 0.011,
+            "year": 2029
+          },
+          {
+            "capex": 2794453003.5100837,
+            "cash_taxes": 571592659.8088807,
+            "da": 2963813791.601604,
+            "delta_nwc": 47370715.481043816,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2286370639.2355227,
+            "ebit_margin": 0.054,
+            "ebitda": 5250184430.837127,
+            "fcff": 1836768052.0371184,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4784442263.585445,
+            "present_value_fcff": 1221534186.6497018,
+            "revenue": 42340197022.88005,
+            "revenue_growth": 0.01,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 28823129431.96709,
+        "terminal_value_present_value": 19168690313.579937,
+        "upside_downside_pct": -0.5842021503969876
+      },
+      "bull": {
+        "current_price": 36.65,
+        "description": "Moderately higher demand recovery and margin expansion versus base case.",
+        "enterprise_value": 31021233121.61976,
+        "equity_value": 15547233121.619759,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 34404054925.517746,
+        "implied_market_cap": 15547233121.619757,
+        "investments_adjustment": 0.0,
+        "net_debt": 13960000000.0,
+        "per_share_value": 21.848275887605055,
+        "projected_years": [
+          {
+            "capex": 2647480320.0,
+            "cash_taxes": 496402560.0,
+            "da": 2812947840.0,
+            "delta_nwc": -659175680.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1985610240.0,
+            "ebit_margin": 0.048,
+            "ebitda": 4798558080.0,
+            "fcff": 2313850880.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4715824320.0,
+            "present_value_fcff": 2132581456.221198,
+            "revenue": 41366880000.0,
+            "revenue_growth": 0.035,
+            "year": 2026
+          },
+          {
+            "capex": 2748208672.8,
+            "cash_taxes": 564554494.8,
+            "da": 2918640218.4,
+            "delta_nwc": 184082616.0,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2258217979.2,
+            "ebit_margin": 0.053,
+            "ebitda": 5176858197.6,
+            "fcff": 1680012414.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4899906936.0,
+            "present_value_fcff": 1427095426.9574637,
+            "revenue": 42607886400.0,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 2833211406.1679997,
+            "cash_taxes": 632024082.9144,
+            "da": 3007562877.3168,
+            "delta_nwc": 69109991.7407999,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2528096331.6576,
+            "ebit_margin": 0.058,
+            "ebitda": 5535659208.9744,
+            "fcff": 2001313728.1511998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 4969016927.7408,
+            "present_value_fcff": 1566844725.2701695,
+            "revenue": 43587867787.2,
+            "revenue_growth": 0.023,
+            "year": 2028
+          },
+          {
+            "capex": 2912105446.862832,
+            "cash_taxes": 678009283.429896,
+            "da": 3089943947.4346085,
+            "delta_nwc": 54920713.41187191,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2712037133.719584,
+            "ebit_margin": 0.061,
+            "ebitda": 5801981081.154192,
+            "fcff": 2156945637.4495926,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5023937641.152672,
+            "present_value_fcff": 1556396504.547574,
+            "revenue": 44459625142.944,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 2990087629.363556,
+            "cash_taxes": 702217549.3202289,
+            "da": 3171305061.4461956,
+            "delta_nwc": 95454815.18190098,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2808870197.2809157,
+            "ebit_margin": 0.062,
+            "ebitda": 5980175258.727112,
+            "fcff": 2192415264.8614254,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5119392456.334573,
+            "present_value_fcff": 1458055737.8437955,
+            "revenue": 45304358020.659935,
+            "revenue_growth": 0.019,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 34404054925.517746,
+        "terminal_value_present_value": 22880259270.779556,
+        "upside_downside_pct": -0.4038669607747597
+      }
+    },
+    "ticker": "DOW"
+  },
+  "assumptions": {
+    "cash": 3816000000.0,
+    "current_price": 36.65,
+    "debt": 18161000000.0,
+    "diluted_shares": 711600000.0,
+    "investments": 0.0,
+    "minority_interest": 1514000000.0,
+    "net_debt_override": 13960000000.0,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.06,
+    "tax_rate": 0.25,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Dow Inc.",
+  "comps": [
+    {
+      "company_name": "LyondellBasell Industries N.V.",
+      "ev_ntm_ebitda": 8.7,
+      "ev_ntm_revenue": 0.81,
+      "notes": "EV/Revenue shown in the source is LTM; used as a proxy for EV/NTM revenue due to source limitation. ([balmoraladvisors.com](https://balmoraladvisors.com/wp-content/uploads/2025/05/2025-Q1-Chemicals-Balmoral-Advisors.pdf))",
+      "pe_ntm": 22.17,
+      "source": "Balmoral Advisors (03/31/2025) + Yahoo Finance forward P/E",
+      "ticker": "LYB"
+    },
+    {
+      "company_name": "BASF SE",
+      "ev_ntm_ebitda": 7.3,
+      "ev_ntm_revenue": 1.0,
+      "notes": "EV/Revenue shown in the source is LTM; used as a proxy for EV/NTM revenue due to source limitation. ([balmoraladvisors.com](https://balmoraladvisors.com/wp-content/uploads/2025/05/2025-Q1-Chemicals-Balmoral-Advisors.pdf))",
+      "pe_ntm": 21.6,
+      "source": "Balmoral Advisors (03/31/2025) + Yahoo Finance forward P/E",
+      "ticker": "BASFY"
+    },
+    {
+      "company_name": "Eastman Chemical Company",
+      "ev_ntm_ebitda": 7.9,
+      "ev_ntm_revenue": 1.56,
+      "notes": "EV/Revenue shown in the source is LTM; used as a proxy for EV/NTM revenue due to source limitation. ([balmoraladvisors.com](https://balmoraladvisors.com/wp-content/uploads/2025/05/2025-Q1-Chemicals-Balmoral-Advisors.pdf))",
+      "pe_ntm": 9.43,
+      "source": "Balmoral Advisors (03/31/2025) + Yahoo Finance forward P/E",
+      "ticker": "EMN"
+    },
+    {
+      "company_name": "Huntsman Corporation",
+      "ev_ntm_ebitda": 11.1,
+      "ev_ntm_revenue": 0.8,
+      "notes": "Forward P/E may be unstable if near-term EPS assumptions are weak. EV/Revenue shown in the source is LTM; used as a proxy for EV/NTM revenue. ([balmoraladvisors.com](https://balmoraladvisors.com/wp-content/uploads/2025/05/2025-Q1-Chemicals-Balmoral-Advisors.pdf))",
+      "pe_ntm": 153.85,
+      "source": "Balmoral Advisors (03/31/2025) + Yahoo Finance forward P/E",
+      "ticker": "HUN"
+    },
+    {
+      "company_name": "Olin Corporation",
+      "ev_ntm_ebitda": 6.8,
+      "ev_ntm_revenue": 0.89,
+      "notes": "EV/Revenue shown in the source is LTM; used as a proxy for EV/NTM revenue. Forward P/E taken from StockAnalysis ratios page. ([balmoraladvisors.com](https://balmoraladvisors.com/wp-content/uploads/2025/05/2025-Q1-Chemicals-Balmoral-Advisors.pdf))",
+      "pe_ntm": 18.25,
+      "source": "Balmoral Advisors (03/31/2025) + StockAnalysis forward P/E",
+      "ticker": "OLN"
+    },
+    {
+      "company_name": "Westlake Corporation",
+      "ev_ntm_ebitda": 7.3,
+      "ev_ntm_revenue": 1.31,
+      "notes": "EV/Revenue shown in the source is LTM; used as a proxy for EV/NTM revenue. ([balmoraladvisors.com](https://balmoraladvisors.com/wp-content/uploads/2025/05/2025-Q1-Chemicals-Balmoral-Advisors.pdf))",
+      "pe_ntm": 39.37,
+      "source": "Balmoral Advisors (03/31/2025) + Yahoo Finance forward P/E",
+      "ticker": "WLK"
+    },
+    {
+      "company_name": "DuPont de Nemours, Inc.",
+      "ev_ntm_ebitda": 11.2,
+      "ev_ntm_revenue": 3.02,
+      "notes": "EV/Revenue shown in the source is LTM; used as a proxy for EV/NTM revenue. ([balmoraladvisors.com](https://balmoraladvisors.com/wp-content/uploads/2025/05/2025-Q1-Chemicals-Balmoral-Advisors.pdf))",
+      "pe_ntm": 17.7,
+      "source": "Balmoral Advisors (03/31/2025) + Yahoo Finance forward P/E",
+      "ticker": "DD"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.064,
+      "2027": 0.0645,
+      "2028": 0.065,
+      "2029": 0.0655,
+      "2030": 0.066
+    },
+    "da_pct_sales": {
+      "2026": 0.068,
+      "2027": 0.0685,
+      "2028": 0.069,
+      "2029": 0.0695,
+      "2030": 0.07
+    },
+    "ebit_margin": {
+      "2026": 0.045,
+      "2027": 0.05,
+      "2028": 0.055,
+      "2029": 0.058,
+      "2030": 0.06
+    },
+    "nwc_pct_sales": {
+      "2026": 0.114,
+      "2027": 0.115,
+      "2028": 0.114,
+      "2029": 0.113,
+      "2030": 0.113
+    },
+    "revenue_growth": {
+      "2026": 0.03,
+      "2027": 0.025,
+      "2028": 0.02,
+      "2029": 0.018,
+      "2030": 0.017
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 2356000000.0,
+      "2024": 2940000000.0,
+      "2025": 2479000000.0
+    },
+    "da": {
+      "2023": 2611000000.0,
+      "2024": 2894000000.0,
+      "2025": 2834000000.0
+    },
+    "ebit": {
+      "2023": 2778000000.0,
+      "2024": 2588000000.0,
+      "2025": 422000000.0
+    },
+    "nwc": {
+      "2023": 4957000000.0,
+      "2024": 4745000000.0,
+      "2025": 5375000000.0
+    },
+    "revenue": {
+      "2023": 44622000000.0,
+      "2024": 42964000000.0,
+      "2025": 39968000000.0
+    }
+  },
+  "notes": [
+    "EBIT is modeled using Dow\u2019s reported Operating EBIT (non-GAAP) definition from its Operating EBIT reconciliation (excludes significant items). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1751788/000175178826000018/dow-20251231.htm))",
+    "NWC is computed from balance-sheet components using: (Total current assets \u2212 cash & cash equivalents) \u2212 (Total current liabilities \u2212 notes payable \u2212 long-term debt due within one year). This excludes cash and short-term debt to align with typical invested-capital DCF conventions. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1751788/000175178826000018/dow-20251231.htm))",
+    "WACC is set as an assumption (0.085) because a company-provided WACC metric was not directly extracted from the provided primary sources used here.",
+    "Comps EV/NTM revenue is approximated using the source\u2019s LTM EV/Revenue where true EV/NTM revenue was not available in the peer table; this is flagged as a proxy limitation. ([balmoraladvisors.com](https://balmoraladvisors.com/wp-content/uploads/2025/05/2025-Q1-Chemicals-Balmoral-Advisors.pdf))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Evidence of margin stabilization and improved operating rates as the cycle moves from 2025 trough conditions to normalization.",
+      "Execution of cost actions and operating-model simplification translating into sustained Operating EBIT improvement. ([investors.dow.com](https://investors.dow.com/en/news/news-details/2026/Dow-reports-fourth-quarter-2025-results/default.aspx))",
+      "Capital allocation outcomes (capex timing and project execution) affecting free-cash-flow generation through the cycle. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1751788/000175178826000018/dow-20251231.htm))"
+    ],
+    "company_overview": [
+      "Dow Inc. is a global chemicals and materials company serving packaging, infrastructure/industrial intermediates, and specialty applications.",
+      "Dow reports operating performance using Operating EBIT (non-GAAP) and has highlighted cost actions and operating model simplification as key levers.",
+      "The company\u2019s capital program remains significant, and working-capital dynamics can swing with pricing and demand cycles."
+    ],
+    "current_context": [
+      "Full-year 2025 net sales were $40.0 billion, with Operating EBIT down to $0.4 billion versus $2.6 billion in 2024; cash provided by operating activities\u2014continuing operations was $1.1 billion. ([investors.dow.com](https://investors.dow.com/en/news/news-details/2026/Dow-reports-fourth-quarter-2025-results/default.aspx))",
+      "Management emphasized progress on near-term cash/cost support actions (including accelerated cost savings) and stated expectations for at least $2 billion in additional near-term earnings. ([investors.dow.com](https://investors.dow.com/en/news/news-details/2026/Dow-reports-fourth-quarter-2025-results/default.aspx))",
+      "2025 cash returns included dividends of ~$1.5 billion. ([investors.dow.com](https://investors.dow.com/en/news/news-details/2026/Dow-reports-fourth-quarter-2025-results/default.aspx))"
+    ],
+    "investment_highlights": [
+      "Base-case assumes a cyclic recovery in profitability (Operating EBIT margin rising from depressed 2025 levels toward a normalized mid-cycle margin). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1751788/000175178826000018/dow-20251231.htm))",
+      "Forecast maintains a roughly steady capital intensity and depreciation structure, consistent with historical D&A and capex levels. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1751788/000175178826000018/dow-20251231.htm))",
+      "Working-capital intensity is normalized (NWC as a percent of sales returns toward mid-cycle), supporting more predictable free-cash-flow conversion. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1751788/000175178826000018/dow-20251231.htm))",
+      "Valuation triangulation uses sector EV/EBITDA forward multiples and forward P/E snapshots from major market-data summaries. ([balmoraladvisors.com](https://balmoraladvisors.com/wp-content/uploads/2025/05/2025-Q1-Chemicals-Balmoral-Advisors.pdf))"
+    ],
+    "key_risks": [
+      "Prolonged commodity/chemical price weakness and weaker-than-modeled demand could delay operating-margin recovery.",
+      "Working-capital pressure (receivables/inventory dynamics) could reduce free-cash-flow versus modeled NWC intensity.",
+      "Higher-than-assumed tax or input-cost volatility could pressure effective profitability and cash taxes."
+    ],
+    "sources": [
+      {
+        "label": "Dow Inc. Form 10-K (2025, SEC HTML)",
+        "notes": "Net sales, operating EBIT (reconciliation), depreciation & amortization, capex, and balance-sheet items for cash/debt and working-capital components. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1751788/000175178826000018/dow-20251231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1751788/000175178826000018/dow-20251231.htm"
+      },
+      {
+        "label": "Dow Inc. 2024 Annual Report (PDF; includes 2024/2023 Operating EBIT reconciliation)",
+        "notes": "Operating EBIT for 2023, plus prior-year cash flow (D&A and capex) and working-capital balance-sheet items needed to compute NWC. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1751788/000095017025030017/dow_2024_annual_report.pdf))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1751788/000095017025030017/dow_2024_annual_report.pdf"
+      },
+      {
+        "label": "Dow \u2014 Reports fourth quarter 2025 results (Investor Relations)",
+        "notes": "Latest trading/earnings context: full-year 2025 net sales, Operating EBIT, cash provided by operating activities, and management commentary on cost/cash actions. ([investors.dow.com](https://investors.dow.com/en/news/news-details/2026/Dow-reports-fourth-quarter-2025-results/default.aspx))",
+        "url": "https://investors.dow.com/en/news/news-details/2026/Dow-reports-fourth-quarter-2025-results/default.aspx"
+      },
+      {
+        "label": "Balmoral Advisors \u2014 2025 Q1 Chemicals industry multiples (peer forward EV/EBITDA and LTM EV/Revenue)",
+        "notes": "Peer enterprise value multiples used for EV/EBITDA and EV/Revenue input fields; NTM EV/EBITDA is provided while EV/Revenue is LTM (used as proxy for EV/NTM revenue). ([balmoraladvisors.com](https://balmoraladvisors.com/wp-content/uploads/2025/05/2025-Q1-Chemicals-Balmoral-Advisors.pdf))",
+        "url": "https://balmoraladvisors.com/wp-content/uploads/2025/05/2025-Q1-Chemicals-Balmoral-Advisors.pdf"
+      }
+    ],
+    "subtitle": "Dow (DOW) \u2014 DCF base-case recovery with operating margin normalization",
+    "valuation_summary": [
+      "DCF base case links revenue growth and operating margin to historical operating dynamics using company-reported Operating EBIT and net sales. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1751788/000175178826000018/dow-20251231.htm))",
+      "Terminal value uses a Gordon growth approach with economically modest long-run growth, consistent with mature chemicals/materials industry assumptions.",
+      "Comps provide a reasonableness check on the implied valuation range for a chemicals peer set using forward EV/EBITDA and forward P/E where available. ([balmoraladvisors.com](https://balmoraladvisors.com/wp-content/uploads/2025/05/2025-Q1-Chemicals-Balmoral-Advisors.pdf))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 36.65,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.054,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.085
+      },
+      "description": "Slower recovery and weaker profitability versus base case.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.064,
+          "2027": 0.0645,
+          "2028": 0.065,
+          "2029": 0.0655,
+          "2030": 0.066
+        },
+        "da_pct_sales": {
+          "2026": 0.068,
+          "2027": 0.0685,
+          "2028": 0.069,
+          "2029": 0.0695,
+          "2030": 0.07
+        },
+        "ebit_margin": {
+          "2026": 0.041,
+          "2027": 0.046,
+          "2028": 0.051,
+          "2029": 0.053,
+          "2030": 0.054
+        },
+        "nwc_pct_sales": {
+          "2026": 0.114,
+          "2027": 0.115,
+          "2028": 0.114,
+          "2029": 0.113,
+          "2030": 0.113
+        },
+        "revenue_growth": {
+          "2026": 0.01,
+          "2027": 0.015,
+          "2028": 0.012,
+          "2029": 0.011,
+          "2030": 0.01
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 36.65,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.062,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.085
+      },
+      "description": "Moderately higher demand recovery and margin expansion versus base case.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.064,
+          "2027": 0.0645,
+          "2028": 0.065,
+          "2029": 0.0655,
+          "2030": 0.066
+        },
+        "da_pct_sales": {
+          "2026": 0.068,
+          "2027": 0.0685,
+          "2028": 0.069,
+          "2029": 0.0695,
+          "2030": 0.07
+        },
+        "ebit_margin": {
+          "2026": 0.048,
+          "2027": 0.053,
+          "2028": 0.058,
+          "2029": 0.061,
+          "2030": 0.062
+        },
+        "nwc_pct_sales": {
+          "2026": 0.114,
+          "2027": 0.115,
+          "2028": 0.114,
+          "2029": 0.113,
+          "2030": 0.113
+        },
+        "revenue_growth": {
+          "2026": 0.035,
+          "2027": 0.03,
+          "2028": 0.023,
+          "2029": 0.02,
+          "2030": 0.019
+        }
+      }
+    }
+  },
+  "ticker": "DOW"
+}

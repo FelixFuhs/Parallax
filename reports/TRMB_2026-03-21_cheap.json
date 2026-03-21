@@ -1,0 +1,664 @@
+{
+  "_meta": {
+    "cost_usd": 0.020838,
+    "generated_at": "2026-03-21T17:22:39Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 9797,
+      "prompt": 2515,
+      "reasoning": 6471
+    }
+  },
+  "_valuation": {
+    "company_name": "Trimble Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 65.71,
+        "description": "Base case",
+        "enterprise_value": 12639458881.496138,
+        "equity_value": 12111458881.496138,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 14419075680.274038,
+        "implied_market_cap": 12111458881.496138,
+        "investments_adjustment": 610800000.0,
+        "net_debt": 1138800000.0,
+        "per_share_value": 50.150968453400154,
+        "projected_years": [
+          {
+            "capex": 27019543.600000005,
+            "cash_taxes": 140203561.52000004,
+            "da": 212296414.00000003,
+            "delta_nwc": -2477848.400000021,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 656188916.0000001,
+            "ebit_margin": 0.17,
+            "ebitda": 868485330.0000001,
+            "fcff": 703740073.2800001,
+            "nol_balance_end": 0.0,
+            "nol_used": 18900000.0,
+            "nwc": -127377848.40000002,
+            "present_value_fcff": 648608362.4700462,
+            "revenue": 3859934800.0000005,
+            "revenue_growth": 0.076,
+            "year": 2026
+          },
+          {
+            "capex": 29727287.862200003,
+            "cash_taxes": 155885010.87192002,
+            "da": 221936601.16300002,
+            "delta_nwc": -2933550.447999999,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 708568231.2360001,
+            "ebit_margin": 0.174,
+            "ebitda": 930504832.399,
+            "fcff": 747826084.11288,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -130311398.84800002,
+            "present_value_fcff": 635244820.7546391,
+            "revenue": 4072231214.0000005,
+            "revenue_growth": 0.055,
+            "year": 2027
+          },
+          {
+            "capex": 32341660.301588003,
+            "cash_taxes": 165708454.2294522,
+            "da": 229796007.40602002,
+            "delta_nwc": -1608531.3295299858,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 753220246.49751,
+            "ebit_margin": 0.177,
+            "ebitda": 983016253.90353,
+            "fcff": 786574670.7020198,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -131919930.17753,
+            "present_value_fcff": 615815679.7130954,
+            "revenue": 4255481618.63,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 34354503.10719999,
+            "cash_taxes": 173446196.45660713,
+            "da": 235636655.92758968,
+            "delta_nwc": -212774.0809314996,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 788391802.0754869,
+            "ebit_margin": 0.179,
+            "ebitda": 1024028458.0030766,
+            "fcff": 816440532.520201,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -132132704.2584615,
+            "present_value_fcff": 589122492.9006107,
+            "revenue": 4404423475.28205,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 36292449.4363241,
+            "cash_taxes": 180645667.06930318,
+            "da": 240437477.51564714,
+            "delta_nwc": 572575.0517866462,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 821116668.4968326,
+            "ebit_margin": 0.181,
+            "ebitda": 1061554146.0124798,
+            "fcff": 844043454.4550658,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -131560129.20667486,
+            "present_value_fcff": 561327236.4419032,
+            "revenue": 4536556179.540512,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 14419075680.274038,
+        "terminal_value_present_value": 9589340289.215843,
+        "upside_downside_pct": -0.23678331375132922
+      },
+      "bear": {
+        "current_price": 65.71,
+        "description": "Modestly lower growth and margin expansion; slightly higher discount rate and lower terminal growth.",
+        "enterprise_value": 11250102707.651196,
+        "equity_value": 10722102707.651196,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 12644306688.270916,
+        "implied_market_cap": 10722102707.651196,
+        "investments_adjustment": 610800000.0,
+        "net_debt": 1138800000.0,
+        "per_share_value": 44.39794081843145,
+        "projected_years": [
+          {
+            "capex": 26893988.1,
+            "cash_taxes": 137842257.168,
+            "da": 211309906.5,
+            "delta_nwc": -1885943.900000006,
+            "discount_factor": 0.9191176470588235,
+            "ebit": 645455714.4000001,
+            "ebit_margin": 0.168,
+            "ebitda": 856765620.9000001,
+            "fcff": 693915319.5320001,
+            "nol_balance_end": 0.0,
+            "nol_used": 18900000.0,
+            "nwc": -126785943.9,
+            "present_value_fcff": 637789815.7463236,
+            "revenue": 3841998300.0,
+            "revenue_growth": 0.071,
+            "year": 2026
+          },
+          {
+            "capex": 29448916.9695,
+            "cash_taxes": 152650276.4556,
+            "da": 219858352.7175,
+            "delta_nwc": -2305198.980000004,
+            "discount_factor": 0.844777249134948,
+            "ebit": 693864892.9799999,
+            "ebit_margin": 0.172,
+            "ebitda": 913723245.6974999,
+            "fcff": 733929251.2523999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -129091142.88000001,
+            "present_value_fcff": 620006733.9326745,
+            "revenue": 4034098215.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 31885512.291360002,
+            "cash_taxes": 161525292.5286,
+            "da": 226554955.7544,
+            "delta_nwc": -968183.571600005,
+            "discount_factor": 0.776449677513739,
+            "ebit": 734205875.13,
+            "ebit_margin": 0.175,
+            "ebitda": 960760830.8844,
+            "fcff": 768318209.63604,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -130059326.45160002,
+            "present_value_fcff": 596560426.0998365,
+            "revenue": 4195462143.6000004,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 33706342.86168241,
+            "cash_taxes": 168272434.74793756,
+            "da": 231190941.42307806,
+            "delta_nwc": 419546.2143599987,
+            "discount_factor": 0.71364860065601,
+            "ebit": 764874703.3997161,
+            "ebit_margin": 0.177,
+            "ebitda": 996065644.8227942,
+            "fcff": 793667320.9988142,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -129639780.23724002,
+            "present_value_fcff": 566399573.0172081,
+            "revenue": 4321326007.908001,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 35434873.2648456,
+            "cash_taxes": 174428163.64620247,
+            "da": 234756035.37960213,
+            "delta_nwc": 1188364.6521746963,
+            "discount_factor": 0.6559270226617738,
+            "ebit": 792855289.3009204,
+            "ebit_margin": 0.179,
+            "ebitda": 1027611324.6805224,
+            "fcff": 816559923.1172998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -128451415.58506532,
+            "present_value_fcff": 535603719.1952574,
+            "revenue": 4429359158.1057005,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 12644306688.270916,
+        "terminal_value_present_value": 8293742439.659896,
+        "upside_downside_pct": -0.32433509635624025
+      },
+      "bull": {
+        "current_price": 65.71,
+        "description": "Modestly higher growth and margin expansion; slightly lower discount rate and higher terminal growth.",
+        "enterprise_value": 14129850748.951027,
+        "equity_value": 13601850748.951027,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 16287721581.405453,
+        "implied_market_cap": 13601850748.951027,
+        "investments_adjustment": 610800000.0,
+        "net_debt": 1138800000.0,
+        "per_share_value": 56.322363349693696,
+        "projected_years": [
+          {
+            "capex": 27145099.1,
+            "cash_taxes": 142580649.99199998,
+            "da": 213282921.5,
+            "delta_nwc": -3069752.900000006,
+            "discount_factor": 0.9242144177449167,
+            "ebit": 666993863.5999999,
+            "ebit_margin": 0.172,
+            "ebitda": 880276785.0999999,
+            "fcff": 713620788.9079999,
+            "nol_balance_end": 0.0,
+            "nol_used": 18900000.0,
+            "nwc": -127969752.9,
+            "present_value_fcff": 659538621.9112753,
+            "revenue": 3877871300.0,
+            "revenue_growth": 0.081,
+            "year": 2026
+          },
+          {
+            "capex": 30006968.119400002,
+            "cash_taxes": 159160247.34015998,
+            "da": 224024625.001,
+            "delta_nwc": -3567641.596000001,
+            "discount_factor": 0.8541722899675755,
+            "ebit": 723455669.7279999,
+            "ebit_margin": 0.176,
+            "ebitda": 947480294.7289999,
+            "fcff": 761880720.8654399,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -131537394.496,
+            "present_value_fcff": 650777400.02378,
+            "revenue": 4110543578.0,
+            "revenue_growth": 0.06,
+            "year": 2027
+          },
+          {
+            "capex": 32802137.752440006,
+            "cash_taxes": 169966866.406722,
+            "da": 233067820.87260002,
+            "delta_nwc": -2260798.967900008,
+            "discount_factor": 0.789438345626225,
+            "ebit": 772576665.4851,
+            "ebit_margin": 0.179,
+            "ebitda": 1005644486.3577001,
+            "fcff": 805136281.1664381,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -133798193.46390001,
+            "present_value_fcff": 635605453.807684,
+            "revenue": 4316070756.900001,
+            "revenue_growth": 0.05,
+            "year": 2028
+          },
+          {
+            "capex": 35011965.9799728,
+            "cash_taxes": 178740575.04134834,
+            "da": 240146176.91391602,
+            "delta_nwc": -863214.1513799876,
+            "discount_factor": 0.7296103009484519,
+            "ebit": 812457159.278856,
+            "ebit_margin": 0.181,
+            "ebitda": 1052603336.192772,
+            "fcff": 839714009.3228308,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -134661407.61528,
+            "present_value_fcff": 612663991.0526618,
+            "revenue": 4488713587.176001,
+            "revenue_growth": 0.04,
+            "year": 2029
+          },
+          {
+            "capex": 37166548.501817286,
+            "cash_taxes": 187040655.33539546,
+            "da": 246228383.82453948,
+            "delta_nwc": -67330.703807652,
+            "discount_factor": 0.6743163594717669,
+            "ebit": 850184796.9790703,
+            "ebit_margin": 0.183,
+            "ebitda": 1096413180.8036098,
+            "fcff": 872273307.6702046,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -134728738.31908765,
+            "present_value_fcff": 588188161.2925689,
+            "revenue": 4645818562.72716,
+            "revenue_growth": 0.035,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 16287721581.405453,
+        "terminal_value_present_value": 10983077120.863056,
+        "upside_downside_pct": -0.14286465759102573
+      }
+    },
+    "ticker": "TRMB"
+  },
+  "assumptions": {
+    "cash": 253400000.0,
+    "current_price": 65.71,
+    "debt": 1392200000.0,
+    "diluted_shares": 241500000.0,
+    "investments": 610800000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 18900000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.181,
+    "tax_rate": 0.22,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Trimble Inc.",
+  "comps": [
+    {
+      "company_name": "Autodesk, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as available; EV/NTM Revenue and EV/NTM EBITDA not available from the sourced page (left null).",
+      "pe_ntm": 19.97,
+      "source": "https://stockanalysis.com/stocks/adsk/statistics/",
+      "ticker": "ADSK"
+    },
+    {
+      "company_name": "Bentley Systems, Incorporated",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as available; EV/NTM Revenue and EV/NTM EBITDA not available from the sourced page (left null).",
+      "pe_ntm": 27.63,
+      "source": "https://stockanalysis.com/stocks/bsy/statistics/",
+      "ticker": "BSY"
+    },
+    {
+      "company_name": "The Descartes Systems Group Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as available; EV/NTM Revenue and EV/NTM EBITDA not available from the sourced page (left null).",
+      "pe_ntm": 26.64,
+      "source": "https://stockanalysis.com/stocks/dsgx/statistics/",
+      "ticker": "DSGX"
+    },
+    {
+      "company_name": "Dassault Syst\u00e8mes SE",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as available; EV/NTM Revenue and EV/NTM EBITDA not available from the sourced page (left null).",
+      "pe_ntm": 12.79,
+      "source": "https://stockanalysis.com/quote/otc/DASTY/statistics/",
+      "ticker": "DASTY"
+    },
+    {
+      "company_name": "Hexagon AB (publ)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as available; EV/NTM Revenue and EV/NTM EBITDA not available from the sourced page (left null).",
+      "pe_ntm": 20.53,
+      "source": "https://stockanalysis.com/quote/otc/HXGBF/statistics/",
+      "ticker": "HXGBF"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.007,
+      "2027": 0.0073,
+      "2028": 0.0076,
+      "2029": 0.0078,
+      "2030": 0.008
+    },
+    "da_pct_sales": {
+      "2026": 0.055,
+      "2027": 0.0545,
+      "2028": 0.054,
+      "2029": 0.0535,
+      "2030": 0.053
+    },
+    "ebit_margin": {
+      "2026": 0.17,
+      "2027": 0.174,
+      "2028": 0.177,
+      "2029": 0.179,
+      "2030": 0.181
+    },
+    "nwc_pct_sales": {
+      "2026": -0.033,
+      "2027": -0.032,
+      "2028": -0.031,
+      "2029": -0.03,
+      "2030": -0.029
+    },
+    "revenue_growth": {
+      "2026": 0.076,
+      "2027": 0.055,
+      "2028": 0.045,
+      "2029": 0.035,
+      "2030": 0.03
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 42000000.0,
+      "2024": 33600000.0,
+      "2025": 25300000.0
+    },
+    "da": {
+      "2023": 250600000.0,
+      "2024": 232000000.0,
+      "2025": 199900000.0
+    },
+    "ebit": {
+      "2023": 448800000.0,
+      "2024": 460700000.0,
+      "2025": 592000000.0
+    },
+    "nwc": {
+      "2023": -228200000.0,
+      "2024": -256400000.0,
+      "2025": -124900000.0
+    },
+    "revenue": {
+      "2023": 3798700000.0,
+      "2024": 3683300000.0,
+      "2025": 3587300000.0
+    }
+  },
+  "notes": [
+    "Fiscal-year mapping: Trimble uses a 52\u201353 week fiscal calendar ending near year-end (e.g., FY ended January 3, 2025 for the 2024 column in the filing). The JSON keys 2023/2024/2025 are aligned to the company\u2019s fiscal years presented in the source tables (2023: Dec 29, 2023; 2024: Jan 3, 2025; 2025: year of 2025 in the Feb 10, 2026 guidance package).",
+    "EBIT definition: GAAP operating income as presented in the SEC statements (i.e., operating income).",
+    "D&A definition: depreciation and amortization line item from the cash flow statements (not amortization of purchased intangibles separately).",
+    "Capex definition: purchases of property and equipment (cash flow investing activity).",
+    "NWC construction: approximated as (Total current assets - cash and cash equivalents) - Total current liabilities using end-of-year balance sheet totals from the cited filings; this results in negative NWC driven largely by deferred revenue and other current liabilities. If your DCF pipeline defines NWC differently (e.g., excluding deferred revenue), you should adjust.",
+    "Investments: set to equity investments shown on the balance sheet (non-operating) rather than excess cash; if your pipeline treats equity investments differently, set this field accordingly.",
+    "WACC and terminal_growth are base-case assumptions (not explicitly disclosed in the filing) and were selected to be economically reasonable for a US-listed industrial/technology company; tune as needed to your house methodology.",
+    "Tax rate is set to the GAAP tax-rate assumption disclosed for FY 2026 guidance (22.0%).",
+    "NOL balance and utilization: only US federal NOLs disclosed in the FY 2024 10-K were used (end-of-2024 disclosure). NOL utilization percent is assumed (0.80) due to lack of a detailed modeled taxable-income schedule.",
+    "Comps: forward P/E is sourced from StockAnalysis statistics pages; EV/NTM revenue and EV/NTM EBITDA were not available on the same sourced pages, so those fields are left null."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained ARR/recurring revenue growth and continued subscription/services mix shift translating into higher operating income.",
+      "Further operating margin expansion as scale benefits offset ongoing R&D and commercial investment.",
+      "Updates to FY 2026 guidance (revenue and margin) and any additional capital allocation commentary (buybacks/deleveraging)."
+    ],
+    "company_overview": [
+      "Trimble connects physical and digital workflows across construction, geospatial, and transportation through software, hardware, and subscription/services offerings.",
+      "The company is executing its Connect & Scale strategy with a stated focus on recurring revenue growth and operating margin expansion.",
+      "Trimble reports results on a GAAP basis with operating income reflecting operating expense structure and product/service mix."
+    ],
+    "current_context": [
+      "FY 2025 GAAP revenue was $3,587.3 million with GAAP operating income of $592.0 million (16.5% operating margin).",
+      "FY 2026 GAAP revenue guidance is $3,810 million to $3,910 million; FY 2026 guidance also assumes a 22.0% GAAP tax rate.",
+      "Balance sheet at end of FY 2025 shows cash and cash equivalents of $253.4 million and long-term debt of $1,392.2 million."
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes continuation of the post-divestiture mix shift and ongoing recurring services momentum.",
+      "Base-case EBIT margin expansion moves from FY 2025\u2019s 16.5% toward ~18% in the terminal year, reflecting operating leverage rather than one-time items.",
+      "Depreciation and amortization and capex are modeled as gradually moderating as a percent of sales (consistent with recent trend).",
+      "Working capital is modeled as a persistently negative investment (source of cash) consistent with recurring-revenue deferred revenue dynamics."
+    ],
+    "key_risks": [
+      "Macro slowdown in construction/transportation and associated customer capex could pressure organic growth.",
+      "Execution risk in the subscription model transition could limit margin expansion versus the base case.",
+      "Geopolitical and FX volatility may affect reported revenue, mix, and margins."
+    ],
+    "sources": [
+      {
+        "label": "SEC 8-K (Exhibit 99.1) \u2014 FY 2025 results and FY 2026 guidance",
+        "notes": "Provides FY 2025 revenue, GAAP operating income, FY 2026 revenue guidance, cash flow items (D&A, capex), and end-of-year cash/debt and balance sheet current assets/liabilities.",
+        "url": "https://www.sec.gov/Archives/edgar/data/864749/000086474926000006/a2025q4-8kex991.htm"
+      },
+      {
+        "label": "SEC 10-K \u2014 Fiscal year ended January 3, 2025",
+        "notes": "Provides FY 2024 and FY 2023 revenue and GAAP operating income, plus depreciation/amortization and capex from cash flow and working-capital components from balance sheet.",
+        "url": "https://www.sec.gov/Archives/edgar/data/864749/000086474925000090/trmb-20250103.htm"
+      },
+      {
+        "label": "Trimble Q4 2025 Earnings Presentation (PDF)",
+        "notes": "Supports qualitative context and guidance framing (may include additional detail not used directly in the numeric input build).",
+        "url": "https://s202.q4cdn.com/922416715/files/doc_financials/2025/q4/Trimble-Q4-25-Earnings-Presentation.pdf"
+      }
+    ],
+    "subtitle": "Trimble (TRMB) \u2014 DCF Driver Inputs (FY25A / FY26E)",
+    "valuation_summary": [
+      "DCF is driven by EBIT margin expansion plus mid-single-digit revenue growth into 2030, with a conservative terminal growth rate.",
+      "Terminal value is computed using a Gordon growth approach anchored to a steady-state EBIT margin target.",
+      "Comps set context via forward P/E across software/engineering peers; EV/NTM revenue and EV/NTM EBITDA were not available from the sourced public pages."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 65.71,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.179,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.088
+      },
+      "description": "Modestly lower growth and margin expansion; slightly higher discount rate and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.007,
+          "2027": 0.0073,
+          "2028": 0.0076,
+          "2029": 0.0078,
+          "2030": 0.008
+        },
+        "da_pct_sales": {
+          "2026": 0.055,
+          "2027": 0.0545,
+          "2028": 0.054,
+          "2029": 0.0535,
+          "2030": 0.053
+        },
+        "ebit_margin": {
+          "2026": 0.168,
+          "2027": 0.172,
+          "2028": 0.175,
+          "2029": 0.177,
+          "2030": 0.179
+        },
+        "nwc_pct_sales": {
+          "2026": -0.033,
+          "2027": -0.032,
+          "2028": -0.031,
+          "2029": -0.03,
+          "2030": -0.029
+        },
+        "revenue_growth": {
+          "2026": 0.071,
+          "2027": 0.05,
+          "2028": 0.04,
+          "2029": 0.03,
+          "2030": 0.025
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 65.71,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.183,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.027,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.082
+      },
+      "description": "Modestly higher growth and margin expansion; slightly lower discount rate and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.007,
+          "2027": 0.0073,
+          "2028": 0.0076,
+          "2029": 0.0078,
+          "2030": 0.008
+        },
+        "da_pct_sales": {
+          "2026": 0.055,
+          "2027": 0.0545,
+          "2028": 0.054,
+          "2029": 0.0535,
+          "2030": 0.053
+        },
+        "ebit_margin": {
+          "2026": 0.172,
+          "2027": 0.176,
+          "2028": 0.179,
+          "2029": 0.181,
+          "2030": 0.183
+        },
+        "nwc_pct_sales": {
+          "2026": -0.033,
+          "2027": -0.032,
+          "2028": -0.031,
+          "2029": -0.03,
+          "2030": -0.029
+        },
+        "revenue_growth": {
+          "2026": 0.081,
+          "2027": 0.06,
+          "2028": 0.05,
+          "2029": 0.04,
+          "2030": 0.035
+        }
+      }
+    }
+  },
+  "ticker": "TRMB"
+}

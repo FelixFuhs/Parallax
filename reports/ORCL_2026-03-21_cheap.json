@@ -1,0 +1,688 @@
+{
+  "_meta": {
+    "cost_usd": 0.024759,
+    "generated_at": "2026-03-21T17:20:11Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12135,
+      "prompt": 2515,
+      "reasoning": 7270
+    }
+  },
+  "_valuation": {
+    "company_name": "Oracle Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 149.68,
+        "description": "Base case",
+        "enterprise_value": -2678166552.8402786,
+        "equity_value": -84561166552.84027,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 66449145531.90386,
+        "implied_market_cap": -84561166552.84027,
+        "investments_adjustment": 417000000.0,
+        "net_debt": 81782000000.0,
+        "per_share_value": -29.50494297028621,
+        "projected_years": [
+          {
+            "capex": 49999999998.53553,
+            "cash_taxes": 2254999999.9330826,
+            "da": 7235999999.788061,
+            "delta_nwc": -1403999999.607521,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 20769999999.39166,
+            "ebit_margin": 0.31,
+            "ebitda": 28005999999.179718,
+            "fcff": -22844999999.681374,
+            "nol_balance_end": 0.0,
+            "nol_used": 270000000.0,
+            "nwc": -13399999999.607521,
+            "present_value_fcff": -21055299538.876842,
+            "revenue": 66999999998.037605,
+            "revenue_growth": 0.1672677224,
+            "year": 2026
+          },
+          {
+            "capex": 59999999998.7093,
+            "cash_taxes": 3167999999.931851,
+            "da": 9764999999.789938,
+            "delta_nwc": -4600000000.005268,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 28799999999.380463,
+            "ebit_margin": 0.32,
+            "ebitda": 38564999999.1704,
+            "fcff": -20002999999.46548,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -17999999999.61279,
+            "present_value_fcff": -16991654101.353167,
+            "revenue": 89999999998.06395,
+            "revenue_growth": 0.3432835821,
+            "year": 2027
+          },
+          {
+            "capex": 54999999998.81686,
+            "cash_taxes": 3667949999.9210963,
+            "da": 11183399999.759426,
+            "delta_nwc": -2519999999.9457893,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 33344999999.282692,
+            "ebit_margin": 0.325,
+            "ebitda": 44528399999.042114,
+            "fcff": -11619549999.75005,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -20519999999.55858,
+            "present_value_fcff": -9097039794.925093,
+            "revenue": 102599999997.7929,
+            "revenue_growth": 0.1399999999999999,
+            "year": 2028
+          },
+          {
+            "capex": 51999999998.881386,
+            "cash_taxes": 4171305599.9102683,
+            "da": 12582863999.72932,
+            "delta_nwc": -2462399999.947033,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 37920959999.18426,
+            "ebit_margin": 0.33,
+            "ebitda": 50503823998.913574,
+            "fcff": -3205081599.9310417,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -22982399999.50561,
+            "present_value_fcff": -2312704461.4906282,
+            "revenue": 114911999997.52805,
+            "revenue_growth": 0.1200000000000001,
+            "year": 2029
+          },
+          {
+            "capex": 49999999998.92441,
+            "cash_taxes": 4657957919.899799,
+            "da": 13904351999.700891,
+            "delta_nwc": -2298239999.9505577,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 42345071999.08908,
+            "ebit_margin": 0.335,
+            "ebitda": 56249423998.78997,
+            "fcff": 3889706079.9163246,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -25280639999.45617,
+            "present_value_fcff": 2586831226.3855557,
+            "revenue": 126403199997.28084,
+            "revenue_growth": 0.09999999999999987,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 66449145531.90386,
+        "terminal_value_present_value": 44191700117.4199,
+        "upside_downside_pct": -1.1971201427731575
+      },
+      "bear": {
+        "current_price": 149.68,
+        "description": "Modestly weaker revenue growth and EBIT margin vs. base case; slightly higher WACC and lower terminal growth.",
+        "enterprise_value": -15445278747.40887,
+        "equity_value": -97328278747.40887,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 50022246914.42015,
+        "implied_market_cap": -97328278747.40887,
+        "investments_adjustment": 417000000.0,
+        "net_debt": 81782000000.0,
+        "per_share_value": -33.959622731126615,
+        "projected_years": [
+          {
+            "capex": 49785824625.40119,
+            "cash_taxes": 2208521317.684161,
+            "da": 7205004539.78806,
+            "delta_nwc": -1346600999.607521,
+            "discount_factor": 0.9195402298850576,
+            "ebit": 20347466524.401466,
+            "ebit_margin": 0.305,
+            "ebitda": 27552471064.189526,
+            "fcff": -23095273879.288307,
+            "nol_balance_end": 0.0,
+            "nol_used": 270000000.0,
+            "nwc": -13342600999.607521,
+            "present_value_fcff": -21237033452.219135,
+            "revenue": 66713004998.0376,
+            "revenue_growth": 0.1622677224,
+            "year": 2026
+          },
+          {
+            "capex": 59520612867.6193,
+            "cash_taxes": 3093583853.7945137,
+            "da": 9686979744.205042,
+            "delta_nwc": -4513582860.678272,
+            "discount_factor": 0.8455542343770646,
+            "ebit": 28123489579.950123,
+            "ebit_margin": 0.315,
+            "ebitda": 37810469324.15517,
+            "fcff": -20290144536.58038,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -17856183860.285793,
+            "present_value_fcff": -17156417629.028202,
+            "revenue": 89280919301.42896,
+            "revenue_growth": 0.3382835821,
+            "year": 2027
+          },
+          {
+            "capex": 54321261085.68912,
+            "cash_taxes": 3566951287.93069,
+            "da": 11045388931.376284,
+            "delta_nwc": -2410584821.1385803,
+            "discount_factor": 0.7775211350593697,
+            "ebit": 32426829890.279,
+            "ebit_margin": 0.32,
+            "ebitda": 43472218821.65528,
+            "fcff": -12005408730.825943,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -20266768681.424374,
+            "present_value_fcff": -9334459023.243454,
+            "revenue": 101333843407.12187,
+            "revenue_growth": 0.135,
+            "year": 2028
+          },
+          {
+            "capex": 51129005158.250885,
+            "cash_taxes": 4039293665.512137,
+            "da": 12372102276.184027,
+            "delta_nwc": -2330678398.363804,
+            "discount_factor": 0.7149619632729837,
+            "ebit": 36720851504.65579,
+            "ebit_margin": 0.325,
+            "ebitda": 49092953780.83982,
+            "fcff": -3744666644.5593987,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -22597447079.788177,
+            "present_value_fcff": -2677294215.9970436,
+            "revenue": 112987235398.94089,
+            "revenue_growth": 0.115,
+            "year": 2029
+          },
+          {
+            "capex": 48939039028.22092,
+            "cash_taxes": 4491073126.254802,
+            "da": 13609312503.80243,
+            "delta_nwc": -2146757472.5798798,
+            "discount_factor": 0.6574362880671115,
+            "ebit": 40827937511.40729,
+            "ebit_margin": 0.33,
+            "ebitda": 54437250015.20972,
+            "fcff": 3153895333.313881,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -24744204552.368057,
+            "present_value_fcff": 2073485240.8860633,
+            "revenue": 123721022761.84027,
+            "revenue_growth": 0.095,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 50022246914.42015,
+        "terminal_value_present_value": 32886440332.192905,
+        "upside_downside_pct": -1.2268814987381522
+      },
+      "bull": {
+        "current_price": 149.68,
+        "description": "Modestly stronger revenue growth and EBIT margin vs. base case; slightly lower WACC and higher terminal growth.",
+        "enterprise_value": 12611443593.003891,
+        "equity_value": -69271556406.99611,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 86129946748.41206,
+        "implied_market_cap": -69271556406.99611,
+        "investments_adjustment": 417000000.0,
+        "net_debt": 81782000000.0,
+        "per_share_value": -24.170117378575057,
+        "projected_years": [
+          {
+            "capex": 50214175371.66985,
+            "cash_taxes": 2301794376.682003,
+            "da": 7266995459.78806,
+            "delta_nwc": -1461398999.607521,
+            "discount_factor": 0.9237875288683602,
+            "ebit": 21195403424.381844,
+            "ebit_margin": 0.315,
+            "ebitda": 28462398884.169903,
+            "fcff": -22592171864.574432,
+            "nol_balance_end": 0.0,
+            "nol_used": 270000000.0,
+            "nwc": -13457398999.607521,
+            "present_value_fcff": -20870366618.54451,
+            "revenue": 67286994998.0376,
+            "revenue_growth": 0.1722677224,
+            "year": 2026
+          },
+          {
+            "capex": 60481300429.799286,
+            "cash_taxes": 3243309735.547987,
+            "da": 9843331644.949833,
+            "delta_nwc": -4686991129.332264,
+            "discount_factor": 0.8533833984927116,
+            "ebit": 29484633959.527153,
+            "ebit_margin": 0.325,
+            "ebitda": 39327965604.47699,
+            "fcff": -19709653431.53802,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -18144390128.939785,
+            "present_value_fcff": -16819891028.519451,
+            "revenue": 90721950644.69893,
+            "revenue_growth": 0.3482835821,
+            "year": 2027
+          },
+          {
+            "capex": 55684355183.722374,
+            "cash_taxes": 3770721795.6209445,
+            "da": 11322553050.21165,
+            "delta_nwc": -2630936568.696274,
+            "discount_factor": 0.7883449408708652,
+            "ebit": 34279289051.099495,
+            "ebit_margin": 0.33,
+            "ebitda": 45601842101.31114,
+            "fcff": -11222298309.3359,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -20775326697.63606,
+            "present_value_fcff": -8847042097.10862,
+            "revenue": 103876633488.18028,
+            "revenue_growth": 0.145,
+            "year": 2028
+          },
+          {
+            "capex": 52882058088.437645,
+            "cash_taxes": 4306335687.044374,
+            "da": 12796302787.825209,
+            "delta_nwc": -2596915837.204506,
+            "discount_factor": 0.7282632248229701,
+            "ebit": 39148506245.85795,
+            "ebit_margin": 0.335,
+            "ebitda": 51944809033.68316,
+            "fcff": -2646668904.5943527,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -23372242534.840565,
+            "present_value_fcff": -1927471631.4985611,
+            "revenue": 116861212674.20282,
+            "revenue_growth": 0.125,
+            "year": 2029
+          },
+          {
+            "capex": 51079260653.604546,
+            "cash_taxes": 4829523336.18678,
+            "da": 14204480400.549353,
+            "delta_nwc": -2454085466.1582603,
+            "discount_factor": 0.6727604848249147,
+            "ebit": 43904757601.698,
+            "ebit_margin": 0.34,
+            "ebitda": 58109238002.24735,
+            "fcff": 4654539478.6142845,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -25826328000.998825,
+            "present_value_fcff": 3131390236.269252,
+            "revenue": 129131640004.99411,
+            "revenue_growth": 0.105,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 86129946748.41206,
+        "terminal_value_present_value": 57944824732.405785,
+        "upside_downside_pct": -1.161478603544729
+      }
+    },
+    "ticker": "ORCL"
+  },
+  "assumptions": {
+    "cash": 10786000000.0,
+    "current_price": 149.68,
+    "debt": 92568000000.0,
+    "diluted_shares": 2866000000.0,
+    "investments": 417000000.0,
+    "minority_interest": 518000000.0,
+    "net_debt_override": null,
+    "nol_balance": 270000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.335,
+    "tax_rate": 0.11,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Oracle Corporation",
+  "comps": [
+    {
+      "company_name": "Microsoft Corporation",
+      "ev_ntm_ebitda": 17.35,
+      "ev_ntm_revenue": null,
+      "notes": "Forward PE and EV/EBITDA taken from StockAnalysis statistics; EV/Revenue not captured in the retrieved snippet, set null. ([stockanalysis.com](https://stockanalysis.com/stocks/msft/statistics/?utm_source=openai))",
+      "pe_ntm": 23.07,
+      "source": "StockAnalysis (MSFT statistics)",
+      "ticker": "MSFT"
+    },
+    {
+      "company_name": "SAP SE",
+      "ev_ntm_ebitda": 16.81,
+      "ev_ntm_revenue": null,
+      "notes": "Forward PE and EV/EBITDA taken from StockAnalysis statistics; EV/Revenue not captured in the retrieved snippet, set null. ([stockanalysis.com](https://stockanalysis.com/stocks/sap/statistics/?utm_source=openai))",
+      "pe_ntm": 22.52,
+      "source": "StockAnalysis (SAP statistics)",
+      "ticker": "SAP"
+    },
+    {
+      "company_name": "Salesforce, Inc.",
+      "ev_ntm_ebitda": 14.93,
+      "ev_ntm_revenue": null,
+      "notes": "Forward PE and EV/EBITDA taken from StockAnalysis statistics; EV/Revenue not captured in the retrieved snippet, set null. ([stockanalysis.com](https://stockanalysis.com/stocks/crm/statistics/?utm_source=openai))",
+      "pe_ntm": 14.72,
+      "source": "StockAnalysis (CRM statistics)",
+      "ticker": "CRM"
+    },
+    {
+      "company_name": "Workday, Inc.",
+      "ev_ntm_ebitda": 24.66,
+      "ev_ntm_revenue": 3.54,
+      "notes": "Forward PE plus EV/Sales and EV/EBITDA shown on StockAnalysis statistics page; used as proxies for NTM where available. ([stockanalysis.com](https://stockanalysis.com/stocks/wday/statistics/?utm_source=openai))",
+      "pe_ntm": 13.11,
+      "source": "StockAnalysis (WDAY statistics)",
+      "ticker": "WDAY"
+    },
+    {
+      "company_name": "International Business Machines Corporation",
+      "ev_ntm_ebitda": 17.6,
+      "ev_ntm_revenue": 4.2,
+      "notes": "Forward PE plus EV/Sales and EV/EBITDA shown on StockAnalysis statistics page; used as proxies for NTM where available. ([stockanalysis.com](https://stockanalysis.com/stocks/ibm/statistics/?utm_source=openai))",
+      "pe_ntm": 20.09,
+      "source": "StockAnalysis (IBM statistics)",
+      "ticker": "IBM"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.746268656716418,
+      "2027": 0.6666666666666666,
+      "2028": 0.5360623781676414,
+      "2029": 0.4525201893622946,
+      "2030": 0.3955596060859219
+    },
+    "da_pct_sales": {
+      "2026": 0.108,
+      "2027": 0.1085,
+      "2028": 0.109,
+      "2029": 0.1095,
+      "2030": 0.11
+    },
+    "ebit_margin": {
+      "2026": 0.31,
+      "2027": 0.32,
+      "2028": 0.325,
+      "2029": 0.33,
+      "2030": 0.335
+    },
+    "nwc_pct_sales": {
+      "2026": -0.2,
+      "2027": -0.2,
+      "2028": -0.2,
+      "2029": -0.2,
+      "2030": -0.2
+    },
+    "revenue_growth": {
+      "2026": 0.1672677224,
+      "2027": 0.3432835821,
+      "2028": 0.1399999999999999,
+      "2029": 0.1200000000000001,
+      "2030": 0.09999999999999987
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 8695000000.0,
+      "2024": 6866000000.0,
+      "2025": 21215000000.0
+    },
+    "da": {
+      "2023": 6108000000.0,
+      "2024": 6139000000.0,
+      "2025": 6174000000.0
+    },
+    "ebit": {
+      "2023": 13093000000.0,
+      "2024": 15353000000.0,
+      "2025": 17678000000.0
+    },
+    "nwc": {
+      "2023": -8212000000.0,
+      "2024": -9046000000.0,
+      "2025": -11996000000.0
+    },
+    "revenue": {
+      "2023": 49954000000.0,
+      "2024": 52961000000.0,
+      "2025": 57399000000.0
+    }
+  },
+  "notes": [
+    "Fiscal year convention: Oracle fiscal years end on May 31; historical years are FY2023 (ended May 31, 2023), FY2024, and FY2025 (ended May 31, 2025). Forecast years are FY2026\u2013FY2030.",
+    "EBIT in this package is proxied by GAAP Operating Income from the consolidated statements of operations (not EBIT as defined in every accounting schema). ([s23.q4cdn.com](https://s23.q4cdn.com/440135859/files/doc_downloads/proxy-voting-material/2025/09/Oracle-2025-10-K-PDF-Final-9-26-25.pdf))",
+    "D&A in this package equals GAAP cash-flow addbacks: Depreciation + Amortization of intangible assets (not including amortization separately disclosed in operating expenses). ([s23.q4cdn.com](https://s23.q4cdn.com/440135859/files/doc_downloads/proxy-voting-material/2025/09/Oracle-2025-10-K-PDF-Final-9-26-25.pdf))",
+    "NWC definition (for historical and forecast pct): constructed as (Trade receivables + Prepaid expenses & other current assets) \u2212 (Accounts payable + Accrued compensation & related benefits + Deferred revenues + Other current liabilities), excluding (i) Cash & cash equivalents and Marketable securities from current assets and (ii) current notes payable & other borrowings from current liabilities. This yields negative NWC consistent with deferred-revenue dynamics. ([s23.q4cdn.com](https://s23.q4cdn.com/440135859/files/doc_downloads/proxy-voting-material/2025/09/Oracle-2025-10-K-PDF-Final-9-26-25.pdf))",
+    "Tax rate, WACC, and terminal assumptions (except where explicitly guided for revenue/capex) are modeling choices and not guaranteed to match Oracle\u2019s internal long-run assumptions.",
+    "FY2026 capex % of sales is directly implied from management\u2019s FY2026 capex guidance ($50B) versus FY2026 revenue guidance ($67B). For FY2027\u2013FY2030, capex % of sales tapers as a sober normalization assumption (no further capex guidance captured in retrieved materials). ([investor.oracle.com](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx))",
+    "NOL balance is set to federal net operating loss carryforwards of approximately $270 million disclosed in the tax footnote; NOL utilization percent is set to null because the retrieved filing excerpt does not explicitly state the 0.80 rule used in many models. ([s23.q4cdn.com](https://s23.q4cdn.com/440135859/files/doc_downloads/proxy-voting-material/2025/09/Oracle-2025-10-K-PDF-Final-9-26-25.pdf))",
+    "Current price is taken from the finance lookup available at/near 2026-03-21 research time (latest trade shown for 2026-03-20 close)."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Further upside (or downside) to FY2026/FY2027 revenue guidance driven by AI cloud demand and conversion of large-scale contracts. ([investor.oracle.com](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx))",
+      "Evidence that high guided capex translates into sustainable operating margin expansion as AI infrastructure ramps efficiently. ([investor.oracle.com](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx))",
+      "Sustained RPO momentum and improved operating leverage could reset market expectations for forward profitability. ([investor.oracle.com](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx))"
+    ],
+    "company_overview": [
+      "Oracle delivers enterprise applications and mission-critical databases, alongside cloud infrastructure and cloud applications (integrated suite approach).",
+      "Oracle\u2019s FY2026 setup highlights a mix shift toward cloud growth while maintaining GAAP profitability through operating expense discipline.",
+      "Oracle reports in a unified consolidated structure with results driven by cloud services & license support, hardware, and services."
+    ],
+    "current_context": [
+      "In Q3 FY26 (ended Feb. 28, 2026), Oracle reported total revenue of $17.2 billion (+22% in USD) and cloud revenue of $8.9 billion (+44% in USD). ([investor.oracle.com](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx))",
+      "Management guided FY2026 revenue to $67 billion and FY2026 capital expenditures to $50 billion; it also raised FY2027 revenue guidance to $90 billion. ([investor.oracle.com](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx))",
+      "Q3 RPO ended at $553 billion (+325% YoY), supported by large-scale AI-related contract dynamics described by management. ([investor.oracle.com](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth is anchored on management\u2019s FY2026 and FY2027 revenue guidance, then tapers to more mature growth rates after 2027. ([investor.oracle.com](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx))",
+      "EBIT margin is modeled to improve gradually from FY2025 operating margin levels, consistent with scale benefits while sustaining significant AI/cloud investment.",
+      "D&A is held near recent sales-based levels; amortization of acquired intangibles remains a key driver of non-cash expense per GAAP cash flow reconciliation. ([s23.q4cdn.com](https://s23.q4cdn.com/440135859/files/doc_downloads/proxy-voting-material/2025/09/Oracle-2025-10-K-PDF-Final-9-26-25.pdf))",
+      "Working-capital dynamics are modeled as negative (deferred revenue-heavy model), based on historical balance-sheet construction excluding cash/investments and current debt. ([s23.q4cdn.com](https://s23.q4cdn.com/440135859/files/doc_downloads/proxy-voting-material/2025/09/Oracle-2025-10-K-PDF-Final-9-26-25.pdf))",
+      "Terminal value uses a Gordon growth approach with conservative long-run growth (2.5%), consistent with a mature enterprise software/cloud profile."
+    ],
+    "key_risks": [
+      "Capex intensity risk: if AI infrastructure spend does not produce expected revenue/earnings, free cash flow and equity value could be pressured. ([investor.oracle.com](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx))",
+      "Margin risk from competition or pricing pressure in cloud and applications; sustained investment could keep EBIT margin below model targets. ([s23.q4cdn.com](https://s23.q4cdn.com/440135859/files/doc_downloads/proxy-voting-material/2025/09/Oracle-2025-10-K-PDF-Final-9-26-25.pdf))",
+      "Tax and regulatory volatility risk, including changing effective tax rate vs. the modeled long-run assumption."
+    ],
+    "sources": [
+      {
+        "label": "Oracle FY2025 Form 10-K (PDF)",
+        "notes": "Provides GAAP revenue, operating income (EBIT proxy), cash flow items (depreciation, amortization, capital expenditures), and FY2025 balance sheet items including cash, marketable securities, debt, and noncontrolling interests. ([s23.q4cdn.com](https://s23.q4cdn.com/440135859/files/doc_downloads/proxy-voting-material/2025/09/Oracle-2025-10-K-PDF-Final-9-26-25.pdf))",
+        "url": "https://s23.q4cdn.com/440135859/files/doc_downloads/proxy-voting-material/2025/09/Oracle-2025-10-K-PDF-Final-9-26-25.pdf"
+      },
+      {
+        "label": "Oracle FY2024 Form 10-K (PDF)",
+        "notes": "Provides FY2024 and FY2023 balance-sheet line items used to construct historical NWC (excludes cash/investments and current debt). ([s23.q4cdn.com](https://s23.q4cdn.com/440135859/files/doc_downloads/proxy-voting-material/2024/10-k-print_clean.pdf))",
+        "url": "https://s23.q4cdn.com/440135859/files/doc_downloads/proxy-voting-material/2024/10-k-print_clean.pdf"
+      },
+      {
+        "label": "Oracle Q3 FY2026 Financial Results / Guidance",
+        "notes": "Used for Q3 performance and management guidance: FY2026 revenue $67B, FY2026 capex $50B, and FY2027 revenue guidance $90B; also includes Q3 RPO. ([investor.oracle.com](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx))",
+        "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx"
+      },
+      {
+        "label": "StockAnalysis peer multiples (MSFT statistics)",
+        "notes": "Used for forward P/E and EV/EBITDA inputs in the comps table. ([stockanalysis.com](https://stockanalysis.com/stocks/msft/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/msft/statistics/"
+      },
+      {
+        "label": "StockAnalysis peer multiples (SAP statistics)",
+        "notes": "Used for forward P/E and EV/EBITDA inputs in the comps table. ([stockanalysis.com](https://stockanalysis.com/stocks/sap/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/sap/statistics/"
+      },
+      {
+        "label": "StockAnalysis peer multiples (CRM statistics)",
+        "notes": "Used for forward P/E and EV/EBITDA inputs in the comps table. ([stockanalysis.com](https://stockanalysis.com/stocks/crm/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/crm/statistics/"
+      },
+      {
+        "label": "StockAnalysis peer multiples (WDAY statistics)",
+        "notes": "Used for forward P/E, EV/Sales and EV/EBITDA inputs in the comps table. ([stockanalysis.com](https://stockanalysis.com/stocks/wday/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/wday/statistics/"
+      },
+      {
+        "label": "StockAnalysis peer multiples (IBM statistics)",
+        "notes": "Used for forward P/E, EV/Sales and EV/EBITDA inputs in the comps table. ([stockanalysis.com](https://stockanalysis.com/stocks/ibm/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/ibm/statistics/"
+      }
+    ],
+    "subtitle": "Oracle (ORCL) DCF Inputs: AI cloud-led growth with guided capex intensity",
+    "valuation_summary": [
+      "DCF inputs use GAAP operating income as EBIT and GAAP cash-flow-derived D&A and capex, improving internal consistency with the source filings. ([s23.q4cdn.com](https://s23.q4cdn.com/440135859/files/doc_downloads/proxy-voting-material/2025/09/Oracle-2025-10-K-PDF-Final-9-26-25.pdf))",
+      "FY2026 capex intensity is explicitly reflected via management\u2019s $50 billion capex guidance, with subsequent-year capex % of sales tapering to reflect normalization (assumption; no public guidance provided beyond FY2026). ([investor.oracle.com](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx))",
+      "Comps provide a directional check: peer forward P/E ratios cluster broadly in the mid-teens to low-20s and EV/EBITDA spans a wide SaaS/software range; valuation outputs should be interpreted alongside growth and capex intensity."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 149.68,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.33,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.023,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0875
+      },
+      "description": "Modestly weaker revenue growth and EBIT margin vs. base case; slightly higher WACC and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.746268656716418,
+          "2027": 0.6666666666666666,
+          "2028": 0.5360623781676414,
+          "2029": 0.4525201893622946,
+          "2030": 0.3955596060859219
+        },
+        "da_pct_sales": {
+          "2026": 0.108,
+          "2027": 0.1085,
+          "2028": 0.109,
+          "2029": 0.1095,
+          "2030": 0.11
+        },
+        "ebit_margin": {
+          "2026": 0.305,
+          "2027": 0.315,
+          "2028": 0.32,
+          "2029": 0.325,
+          "2030": 0.33
+        },
+        "nwc_pct_sales": {
+          "2026": -0.2,
+          "2027": -0.2,
+          "2028": -0.2,
+          "2029": -0.2,
+          "2030": -0.2
+        },
+        "revenue_growth": {
+          "2026": 0.1622677224,
+          "2027": 0.3382835821,
+          "2028": 0.135,
+          "2029": 0.115,
+          "2030": 0.095
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 149.68,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.34,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.027,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0825
+      },
+      "description": "Modestly stronger revenue growth and EBIT margin vs. base case; slightly lower WACC and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.746268656716418,
+          "2027": 0.6666666666666666,
+          "2028": 0.5360623781676414,
+          "2029": 0.4525201893622946,
+          "2030": 0.3955596060859219
+        },
+        "da_pct_sales": {
+          "2026": 0.108,
+          "2027": 0.1085,
+          "2028": 0.109,
+          "2029": 0.1095,
+          "2030": 0.11
+        },
+        "ebit_margin": {
+          "2026": 0.315,
+          "2027": 0.325,
+          "2028": 0.33,
+          "2029": 0.335,
+          "2030": 0.34
+        },
+        "nwc_pct_sales": {
+          "2026": -0.2,
+          "2027": -0.2,
+          "2028": -0.2,
+          "2029": -0.2,
+          "2030": -0.2
+        },
+        "revenue_growth": {
+          "2026": 0.1722677224,
+          "2027": 0.3482835821,
+          "2028": 0.145,
+          "2029": 0.125,
+          "2030": 0.105
+        }
+      }
+    }
+  },
+  "ticker": "ORCL"
+}

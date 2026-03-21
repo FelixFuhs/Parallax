@@ -1,0 +1,684 @@
+{
+  "_meta": {
+    "cost_usd": 0.025316,
+    "generated_at": "2026-03-21T17:21:01Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12075,
+      "prompt": 2515,
+      "reasoning": 7775
+    }
+  },
+  "_valuation": {
+    "company_name": "Revvity, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 85.94,
+        "description": "Base case",
+        "enterprise_value": 11751619196.080683,
+        "equity_value": 9451415196.080683,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 13037196477.45214,
+        "implied_market_cap": 9451415196.080683,
+        "investments_adjustment": 0.0,
+        "net_debt": 2300204000.0,
+        "per_share_value": 81.16421483027808,
+        "projected_years": [
+          {
+            "capex": 80352138.834,
+            "cash_taxes": 7874509.605732001,
+            "da": 422592730.164,
+            "delta_nwc": 26660043.826000094,
+            "discount_factor": 0.9259259259259258,
+            "ebit": 374976647.892,
+            "ebit_margin": 0.126,
+            "ebitda": 797569378.056,
+            "fcff": 682682685.790268,
+            "nol_balance_end": 356818681.6864,
+            "nol_used": 299981318.3136,
+            "nwc": 604129043.8260001,
+            "present_value_fcff": 632113597.9539517,
+            "revenue": 2976005142.0,
+            "revenue_growth": 0.042,
+            "year": 2026
+          },
+          {
+            "capex": 83164463.69319,
+            "cash_taxes": 8214800.91369399,
+            "da": 437383475.7197399,
+            "delta_nwc": 21144516.533909917,
+            "discount_factor": 0.8573388203017832,
+            "ebit": 391180995.89019,
+            "ebit_margin": 0.127,
+            "ebitda": 828564471.6099299,
+            "fcff": 716040690.469136,
+            "nol_balance_end": 43873884.97424799,
+            "nol_used": 312944796.712152,
+            "nwc": 625273560.35991,
+            "present_value_fcff": 613889480.8548833,
+            "revenue": 3080165321.97,
+            "revenue_growth": 0.035,
+            "year": 2027
+          },
+          {
+            "capex": 84073112.46317114,
+            "cash_taxes": 38032586.66279906,
+            "da": 452091265.1321467,
+            "delta_nwc": 25103347.374055386,
+            "discount_factor": 0.7938322410201696,
+            "ebit": 406088996.0485248,
+            "ebit_margin": 0.128,
+            "ebitda": 858180261.1806715,
+            "fcff": 710971214.680646,
+            "nol_balance_end": 0.0,
+            "nol_used": 43873884.97424799,
+            "nwc": 650376907.7339654,
+            "present_value_fcff": 564391872.6507692,
+            "revenue": 3172570281.6291,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 84961432.14202729,
+            "cash_taxes": 44261638.398606144,
+            "da": 467287876.7811501,
+            "delta_nwc": 16243559.841940999,
+            "discount_factor": 0.7350298527964533,
+            "ebit": 421539413.3200585,
+            "ebit_margin": 0.129,
+            "ebitda": 888827290.1012087,
+            "fcff": 743360659.7186342,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 666620467.5759064,
+            "present_value_fcff": 546392276.2876621,
+            "revenue": 3267747390.077973,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 87340352.24200407,
+            "cash_taxes": 45853684.92705213,
+            "da": 482051559.4895224,
+            "delta_nwc": 18665373.092125416,
+            "discount_factor": 0.6805831970337529,
+            "ebit": 436701761.21002036,
+            "ebit_margin": 0.13,
+            "ebitda": 918753320.6995428,
+            "fcff": 766893910.4383612,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 685285840.6680318,
+            "present_value_fcff": 521935109.3518564,
+            "revenue": 3359244317.0001564,
+            "revenue_growth": 0.028,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 13037196477.45214,
+        "terminal_value_present_value": 8872896858.98156,
+        "upside_downside_pct": -0.05557115626858178
+      },
+      "bear": {
+        "current_price": 85.94,
+        "description": "Modestly lower growth and margin trajectory vs. base case; slightly higher discount rate and slightly lower terminal growth.",
+        "enterprise_value": 10763285220.443419,
+        "equity_value": 8463081220.4434185,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 11886175323.654613,
+        "implied_market_cap": 8463081220.443418,
+        "investments_adjustment": 0.0,
+        "net_debt": 2300204000.0,
+        "per_share_value": 72.67687727727858,
+        "projected_years": [
+          {
+            "capex": 82928296.836,
+            "cash_taxes": 7650135.383121,
+            "da": 420564933.95399994,
+            "delta_nwc": 29684601.83499992,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 364292161.101,
+            "ebit_margin": 0.123,
+            "ebitda": 784857095.055,
+            "fcff": 664594061.000879,
+            "nol_balance_end": 365366271.1192,
+            "nol_used": 291433728.8808,
+            "nwc": 607153601.8349999,
+            "present_value_fcff": 613660259.4652623,
+            "revenue": 2961724887.0,
+            "revenue_growth": 0.037,
+            "year": 2026
+          },
+          {
+            "capex": 85416145.74108,
+            "cash_taxes": 7943701.5539204385,
+            "da": 433181881.97261995,
+            "delta_nwc": 18214608.055050015,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 378271502.56764,
+            "ebit_margin": 0.124,
+            "ebitda": 811453384.54026,
+            "fcff": 699878929.1902095,
+            "nol_balance_end": 62749069.065087974,
+            "nol_used": 302617202.054112,
+            "nwc": 625368209.8900499,
+            "present_value_fcff": 596713695.1495066,
+            "revenue": 3050576633.61,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 84589439.47337168,
+            "cash_taxes": 34531214.15883255,
+            "da": 448010734.9885981,
+            "delta_nwc": 23150826.072466254,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 391617775.3396837,
+            "ebit_margin": 0.125,
+            "ebitda": 839628510.3282819,
+            "fcff": 697357030.6236113,
+            "nol_balance_end": 0.0,
+            "nol_used": 62749069.065087974,
+            "nwc": 648519035.9625162,
+            "present_value_fcff": 548996801.0428983,
+            "revenue": 3132942202.7174697,
+            "revenue_growth": 0.027,
+            "year": 2028
+          },
+          {
+            "capex": 86957943.77862608,
+            "cash_taxes": 42609392.45152678,
+            "da": 460555035.5682789,
+            "delta_nwc": 14937868.422556877,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 405803737.63358843,
+            "ebit_margin": 0.126,
+            "ebitda": 866358773.2018673,
+            "fcff": 721853568.5491576,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 663456904.3850731,
+            "present_value_fcff": 524729259.0907026,
+            "revenue": 3220664584.393559,
+            "revenue_growth": 0.028,
+            "year": 2029
+          },
+          {
+            "capex": 87481301.77359003,
+            "cash_taxes": 44021251.2887103,
+            "da": 475370092.6564892,
+            "delta_nwc": 16586422.60962677,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 419250012.2734315,
+            "ebit_margin": 0.127,
+            "ebitda": 894620104.9299207,
+            "fcff": 746531129.2579935,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 680043326.9946998,
+            "present_value_fcff": 501078350.1057093,
+            "revenue": 3301181199.0033975,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 11886175323.654613,
+        "terminal_value_present_value": 7978106855.589339,
+        "upside_downside_pct": -0.15433002935444984
+      },
+      "bull": {
+        "current_price": 85.94,
+        "description": "Modestly higher growth and margin trajectory vs. base case; slightly lower discount rate and slightly higher terminal growth.",
+        "enterprise_value": 12878187439.594791,
+        "equity_value": 10577983439.594791,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 14361736376.353489,
+        "implied_market_cap": 10577983439.594791,
+        "investments_adjustment": 0.0,
+        "net_debt": 2300204000.0,
+        "per_share_value": 90.838641891261,
+        "projected_years": [
+          {
+            "capex": 82232848.4175,
+            "cash_taxes": 8100683.140472996,
+            "da": 427610811.77099997,
+            "delta_nwc": 26568650.194000006,
+            "discount_factor": 0.9285051067780873,
+            "ebit": 385746816.213,
+            "ebit_margin": 0.129,
+            "ebitda": 813357627.984,
+            "fcff": 696455446.2320269,
+            "nol_balance_end": 348202547.02959996,
+            "nol_used": 308597452.97040004,
+            "nwc": 604037650.194,
+            "present_value_fcff": 646662438.4698486,
+            "revenue": 2990285397.0,
+            "revenue_growth": 0.047,
+            "year": 2026
+          },
+          {
+            "capex": 85357696.657365,
+            "cash_taxes": 8473691.340894781,
+            "da": 443860022.61829793,
+            "delta_nwc": 22953430.70737207,
+            "discount_factor": 0.8621217333129872,
+            "ebit": 403509111.47118,
+            "ebit_margin": 0.13,
+            "ebitda": 847369134.089478,
+            "fcff": 730584315.3838462,
+            "nol_balance_end": 25395257.852655947,
+            "nol_used": 322807289.176944,
+            "nwc": 626991080.9013721,
+            "present_value_fcff": 629852616.3100036,
+            "revenue": 3103916242.086,
+            "revenue_growth": 0.038,
+            "year": 2027
+          },
+          {
+            "capex": 86571327.90802062,
+            "cash_taxes": 41436779.97639052,
+            "da": 460110576.10373914,
+            "delta_nwc": 27103396.625894785,
+            "discount_factor": 0.800484432045485,
+            "ebit": 420031257.62780374,
+            "ebit_margin": 0.131,
+            "ebitda": 880141833.7315428,
+            "fcff": 725030329.221237,
+            "nol_balance_end": 0.0,
+            "nol_used": 25395257.852655947,
+            "nwc": 654094477.5272669,
+            "present_value_fcff": 580375491.3024129,
+            "revenue": 3206345478.0748377,
+            "revenue_growth": 0.033,
+            "year": 2028
+          },
+          {
+            "capex": 87687136.13439065,
+            "cash_taxes": 45862026.672553,
+            "da": 476488588.8057454,
+            "delta_nwc": 17622074.747499347,
+            "discount_factor": 0.7432538830505896,
+            "ebit": 436781206.4052667,
+            "ebit_margin": 0.132,
+            "ebitda": 913269795.2110121,
+            "fcff": 762098557.6565691,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 671716552.2747662,
+            "present_value_fcff": 566432712.2454987,
+            "revenue": 3308948533.3732324,
+            "revenue_growth": 0.032,
+            "year": 2029
+          },
+          {
+            "capex": 90317750.21842237,
+            "cash_taxes": 47595750.2566139,
+            "da": 492487354.964605,
+            "delta_nwc": 20151496.568243027,
+            "discount_factor": 0.6901150260451158,
+            "ebit": 453292859.5867991,
+            "ebit_margin": 0.133,
+            "ebitda": 945780214.551404,
+            "fcff": 787715217.5081247,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 691868048.8430092,
+            "present_value_fcff": 543614107.8467535,
+            "revenue": 3408216989.374429,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 14361736376.353489,
+        "terminal_value_present_value": 9911250073.420275,
+        "upside_downside_pct": 0.05700072016826874
+      }
+    },
+    "ticker": "RVTY"
+  },
+  "assumptions": {
+    "cash": 919860000.0,
+    "current_price": 85.94,
+    "debt": 3220064000.0,
+    "diluted_shares": 116448058.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 656800000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.13,
+    "tax_rate": 0.105,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.08
+  },
+  "company_name": "Revvity, Inc.",
+  "comps": [
+    {
+      "company_name": "Danaher Corporation",
+      "ev_ntm_ebitda": 19.53,
+      "ev_ntm_revenue": 6.23,
+      "notes": "Forward PE and EV/Sales, EV/EBITDA: ([stockanalysis.com](https://stockanalysis.com/stocks/dhr/statistics/?utm_source=openai))",
+      "pe_ntm": 23.19,
+      "source": "StockAnalysis statistics page (forward PE; EV/Sales and EV/EBITDA)",
+      "ticker": "DHR"
+    },
+    {
+      "company_name": "Thermo Fisher Scientific Inc.",
+      "ev_ntm_ebitda": 19.34,
+      "ev_ntm_revenue": 4.83,
+      "notes": "Forward PE and EV/Sales, EV/EBITDA: ([stockanalysis.com](https://stockanalysis.com/stocks/tmo/statistics/?utm_source=openai))",
+      "pe_ntm": 20.21,
+      "source": "StockAnalysis statistics page (forward PE; EV/Sales and EV/EBITDA)",
+      "ticker": "TMO"
+    },
+    {
+      "company_name": "Agilent Technologies, Inc.",
+      "ev_ntm_ebitda": 17.58,
+      "ev_ntm_revenue": 4.87,
+      "notes": "Forward PE and EV/Sales, EV/EBITDA: ([stockanalysis.com](https://stockanalysis.com/stocks/a/statistics/?utm_source=openai))",
+      "pe_ntm": 18.86,
+      "source": "StockAnalysis statistics page (forward PE; EV/Sales and EV/EBITDA)",
+      "ticker": "A"
+    },
+    {
+      "company_name": "Waters Corporation",
+      "ev_ntm_ebitda": 27.55,
+      "ev_ntm_revenue": 9.52,
+      "notes": "Forward PE and EV/Sales, EV/EBITDA: ([stockanalysis.com](https://stockanalysis.com/stocks/wat/statistics/?utm_source=openai))",
+      "pe_ntm": 20.68,
+      "source": "StockAnalysis statistics page (forward PE; EV/Sales and EV/EBITDA)",
+      "ticker": "WAT"
+    },
+    {
+      "company_name": "Bio-Rad Laboratories, Inc.",
+      "ev_ntm_ebitda": 15.69,
+      "ev_ntm_revenue": 2.62,
+      "notes": "Forward PE and EV/Sales, EV/EBITDA: ([stockanalysis.com](https://stockanalysis.com/stocks/bio/statistics/?utm_source=openai))",
+      "pe_ntm": 24.89,
+      "source": "StockAnalysis statistics page (forward PE; EV/Sales and EV/EBITDA)",
+      "ticker": "BIO"
+    },
+    {
+      "company_name": "Bruker Corporation",
+      "ev_ntm_ebitda": 14.7,
+      "ev_ntm_revenue": 2.14,
+      "notes": "Forward PE and EV/Sales, EV/EBITDA: ([stockanalysis.com](https://stockanalysis.com/stocks/brkr/statistics/?utm_source=openai))",
+      "pe_ntm": 17.36,
+      "source": "StockAnalysis statistics page (forward PE; EV/Sales and EV/EBITDA)",
+      "ticker": "BRKR"
+    },
+    {
+      "company_name": "Illumina, Inc.",
+      "ev_ntm_ebitda": 17.12,
+      "ev_ntm_revenue": 4.49,
+      "notes": "Forward PE and EV/Sales, EV/EBITDA: ([stockanalysis.com](https://stockanalysis.com/stocks/ilmn/statistics/?utm_source=openai))",
+      "pe_ntm": 23.74,
+      "source": "StockAnalysis statistics page (forward PE; EV/Sales and EV/EBITDA)",
+      "ticker": "ILMN"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.027,
+      "2027": 0.027,
+      "2028": 0.0265,
+      "2029": 0.026,
+      "2030": 0.026
+    },
+    "da_pct_sales": {
+      "2026": 0.142,
+      "2027": 0.142,
+      "2028": 0.1425,
+      "2029": 0.143,
+      "2030": 0.1435
+    },
+    "ebit_margin": {
+      "2026": 0.126,
+      "2027": 0.127,
+      "2028": 0.128,
+      "2029": 0.129,
+      "2030": 0.13
+    },
+    "nwc_pct_sales": {
+      "2026": 0.203,
+      "2027": 0.203,
+      "2028": 0.205,
+      "2029": 0.204,
+      "2030": 0.204
+    },
+    "revenue_growth": {
+      "2026": 0.042,
+      "2027": 0.035,
+      "2028": 0.03,
+      "2029": 0.03,
+      "2030": 0.028
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 81368000.0,
+      "2024": 86648000.0,
+      "2025": 73522000.0
+    },
+    "da": {
+      "2023": 431769000.0,
+      "2024": 427849000.0,
+      "2025": 405340000.0
+    },
+    "ebit": {
+      "2023": 300562000.0,
+      "2024": 346741000.0,
+      "2025": 356635000.0
+    },
+    "nwc": {
+      "2023": 669421000.0,
+      "2024": 533354000.0,
+      "2025": 577469000.0
+    },
+    "revenue": {
+      "2023": 2750571000.0,
+      "2024": 2755026000.0,
+      "2025": 2856051000.0
+    }
+  },
+  "notes": [
+    "Fiscal-year mapping: Revvity reports a 52/53-week fiscal calendar; fiscal years ended Dec 28, 2025 (FY2025), Dec 29, 2024 (FY2024), and Dec 31, 2023 (FY2023). Forecast years 2026-2030 are modeled as the next five fiscal years under the same convention. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000031791/000003179126000012/revv-20251228.htm))",
+    "Historical EBIT definition: operating income from continuing operations (GAAP) from the consolidated statements of operations. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000031791/000003179126000012/revv-20251228.htm))",
+    "Historical D&A definition: depreciation and amortization from the consolidated statements of cash flows, in the reconciliation from income from continuing operations. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000031791/000003179126000012/revv-20251228.htm))",
+    "Historical capex definition: capital expenditures from the consolidated statements of cash flows (absolute value used; cash flow presentation is negative). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000031791/000003179126000012/revv-20251228.htm))",
+    "Historical NWC construction (and forecast NWC % of sales): computed as (Total current assets \u2212 cash and cash equivalents \u2212 marketable securities*) \u2212 (Total current liabilities \u2212 current portion of long-term debt). For FY2024/FY2025, marketable securities were not presented as a separate current line item; for FY2023, marketable securities were present in the FY2024 10-K balance sheet and excluded in the NWC calculation. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000031791/000003179126000012/revv-20251228.htm))",
+    "*Marketable securities are treated as cash-like for NWC exclusion for FY2023 due to their presentation on the balance sheet. If your pipeline uses a different cash-like definition, adjust NWC accordingly.",
+    "Investments balance-sheet item: not cleanly separated as a standalone line item in the FY2025 balance sheet excerpt used here; set investments to null and treat investments as not explicitly modeled in equity bridge/FCF addbacks unless your model handles marketable securities separately. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000031791/000003179126000012/revv-20251228.htm))",
+    "NOL balance: modeled as total net operating loss (NOL) carryforwards across U.S. federal, state, and foreign jurisdictions as disclosed; utilization percent (0.80) is an assumption reflecting partial realizability given valuation allowance and jurisdictional limitations. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000031791/000003179126000012/revv-20251228.htm))",
+    "WACC and terminal growth are modeling inputs (not explicitly disclosed in the filings) and should be validated against your firm\u2019s WACC build (cost of equity, capital structure, leverage, and tax shield approach).",
+    "Current price: obtained from market data snapshot (tool timestamp is March 20, 23:15 UTC); base-case uses $85.94 as the current_price input with as_of_date set to 2026-03-21 for pipeline consistency.",
+    "Terminal method set to gordon_growth; therefore terminal_exit_ebitda_multiple is null by definition."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Achievement (or beat/miss) of FY2026 revenue guidance and organic growth targets (2-3%). ([news.revvity.com](https://news.revvity.com/press-announcements/press-releases/press-release-details/2026/Revvity-Announces-Financial-Results-for-the-Fourth-Quarter-and-Full-Year-of-2025/default.aspx))",
+      "Potential operating leverage from improved mix and cost actions supporting EBIT margin normalization toward the model\u2019s target trajectory."
+    ],
+    "company_overview": [
+      "Revvity is a life-sciences solutions and diagnostics-focused provider delivering end-to-end workflows from discovery to development and diagnosis. ([sec.gov](https://www.sec.gov/Archives/edgar/data/31791/000003179125000009/revv-20241229.htm))",
+      "The company reports results under two principal businesses/segments: Life Sciences Solutions and Diagnostics (as reflected in its financial disclosures and earnings materials). ([news.revvity.com](https://news.revvity.com/press-announcements/press-releases/press-release-details/2026/Revvity-Announces-Financial-Results-for-the-Fourth-Quarter-and-Full-Year-of-2025/default.aspx))"
+    ],
+    "current_context": [
+      "FY2025 results (GAAP): total revenue $2,856,051,000 and operating income from continuing operations $356,635,000. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000031791/000003179126000012/revv-20251228.htm))",
+      "FY2026 outlook: total revenue guidance $2.96-$2.99 billion with organic revenue growth of 2-3%. ([news.revvity.com](https://news.revvity.com/press-announcements/press-releases/press-release-details/2026/Revvity-Announces-Financial-Results-for-the-Fourth-Quarter-and-Full-Year-of-2025/default.aspx))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth is anchored to FY2026 guidance (2-3% organic) and translates into mid-single-digit total revenue growth starting from FY2025 revenue. ([news.revvity.com](https://news.revvity.com/press-announcements/press-releases/press-release-details/2026/Revvity-Announces-Financial-Results-for-the-Fourth-Quarter-and-Full-Year-of-2025/default.aspx))",
+      "Model applies gradual EBIT margin normalization toward a terminal target consistent with recent profitability levels (EBIT margin ~0.11-0.13 over 2023-2025). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000031791/000003179126000012/revv-20251228.htm))",
+      "Capital intensity and working-capital needs are modeled using recent FY2023-FY2025 cash flow and balance sheet history (capex and NWC as % of sales converge toward steady-state). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000031791/000003179126000012/revv-20251228.htm))",
+      "Peer set includes large-cap life-sciences tools/diagnostics names; forward valuation multiples from comparable companies are provided for triangulation. ([stockanalysis.com](https://stockanalysis.com/stocks/dhr/statistics/?utm_source=openai))"
+    ],
+    "key_risks": [
+      "Revenue volatility from customer demand cycles, macro conditions, and international exposure.",
+      "Margin downside from input cost inflation, execution risk in transformation/cost initiatives, or adverse product mix."
+    ],
+    "sources": [
+      {
+        "label": "Revvity FY2025 Form 10-K (fiscal years ended Dec 28, 2025 / Dec 29, 2024 / Dec 31, 2023)",
+        "notes": "Provides GAAP revenue, operating income from continuing operations, cash flow items (D&A, capex), and FY2025 balance sheet cash and debt. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000031791/000003179126000012/revv-20251228.htm))",
+        "url": "`https://www.sec.gov/Archives/edgar/data/31791/000003179126000012/revv-20251228.htm`"
+      },
+      {
+        "label": "Revvity FY2024 Form 10-K (fiscal years ended Dec 29, 2024 / Dec 31, 2023)",
+        "notes": "Used to source FY2023 balance sheet components for NWC construction. ([sec.gov](https://www.sec.gov/Archives/edgar/data/31791/000003179125000009/revv-20241229.htm))",
+        "url": "`https://www.sec.gov/Archives/edgar/data/31791/000003179125000009/revv-20241229.htm`"
+      },
+      {
+        "label": "Revvity FY2025 earnings release (FY2026 guidance initiated)",
+        "notes": "Provides FY2026 revenue guidance and organic growth range used to anchor base-case near-term growth. ([news.revvity.com](https://news.revvity.com/press-announcements/press-releases/press-release-details/2026/Revvity-Announces-Financial-Results-for-the-Fourth-Quarter-and-Full-Year-of-2025/default.aspx))",
+        "url": "`https://news.revvity.com/press-announcements/press-releases/press-release-details/2026/Revvity-Announces-Financial-Results-for-the-Fourth-Quarter-and-Full-Year-of-2025/default.aspx`"
+      },
+      {
+        "label": "StockAnalysis peer statistics (forward P/E, EV/Sales, EV/EBITDA)",
+        "notes": "Used for peer valuation multiples (EV/Sales, EV/EBITDA) and forward P/E triangulation. ([stockanalysis.com](https://stockanalysis.com/stocks/dhr/statistics/?utm_source=openai))",
+        "url": "`https://stockanalysis.com/`"
+      }
+    ],
+    "subtitle": "Revvity (RVTY) \u2014 DCF input package (base-case & comps)",
+    "valuation_summary": [
+      "DCF base case uses management\u2019s FY2026 guidance as the near-term anchor and then fades growth and margin improvements to economically reasonable steady-state levels.",
+      "Terminal value is calculated with Gordon growth (terminal_growth set to 0.02) consistent with long-run real growth assumptions rather than relying on an aggressive exit multiple.",
+      "Comps provide a cross-check using EV/Sales, EV/EBITDA, and forward P/E from a relevant large-cap peer set."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 85.94,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.127,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.019,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.083
+      },
+      "description": "Modestly lower growth and margin trajectory vs. base case; slightly higher discount rate and slightly lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.028,
+          "2027": 0.028,
+          "2028": 0.027,
+          "2029": 0.027,
+          "2030": 0.0265
+        },
+        "da_pct_sales": {
+          "2026": 0.142,
+          "2027": 0.142,
+          "2028": 0.143,
+          "2029": 0.143,
+          "2030": 0.144
+        },
+        "ebit_margin": {
+          "2026": 0.123,
+          "2027": 0.124,
+          "2028": 0.125,
+          "2029": 0.126,
+          "2030": 0.127
+        },
+        "nwc_pct_sales": {
+          "2026": 0.205,
+          "2027": 0.205,
+          "2028": 0.207,
+          "2029": 0.206,
+          "2030": 0.206
+        },
+        "revenue_growth": {
+          "2026": 0.037,
+          "2027": 0.03,
+          "2028": 0.027,
+          "2029": 0.028,
+          "2030": 0.025
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 85.94,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.133,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.021,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.077
+      },
+      "description": "Modestly higher growth and margin trajectory vs. base case; slightly lower discount rate and slightly higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0275,
+          "2027": 0.0275,
+          "2028": 0.027,
+          "2029": 0.0265,
+          "2030": 0.0265
+        },
+        "da_pct_sales": {
+          "2026": 0.143,
+          "2027": 0.143,
+          "2028": 0.1435,
+          "2029": 0.144,
+          "2030": 0.1445
+        },
+        "ebit_margin": {
+          "2026": 0.129,
+          "2027": 0.13,
+          "2028": 0.131,
+          "2029": 0.132,
+          "2030": 0.133
+        },
+        "nwc_pct_sales": {
+          "2026": 0.202,
+          "2027": 0.202,
+          "2028": 0.204,
+          "2029": 0.203,
+          "2030": 0.203
+        },
+        "revenue_growth": {
+          "2026": 0.047,
+          "2027": 0.038,
+          "2028": 0.033,
+          "2029": 0.032,
+          "2030": 0.03
+        }
+      }
+    }
+  },
+  "ticker": "RVTY"
+}

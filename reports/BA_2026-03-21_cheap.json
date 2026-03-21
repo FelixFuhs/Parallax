@@ -1,0 +1,689 @@
+{
+  "_meta": {
+    "cost_usd": 0.022163,
+    "generated_at": "2026-03-21T17:33:28Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10672,
+      "prompt": 2514,
+      "reasoning": 6656
+    }
+  },
+  "_valuation": {
+    "company_name": "The Boeing Company",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 195.12,
+        "description": "Base case",
+        "enterprise_value": 78780664512.47281,
+        "equity_value": 54077664512.47281,
+        "exit_multiple_terminal_value": 100680270549.03418,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 54077664512.47281,
+        "investments_adjustment": 0.0,
+        "net_debt": 24700000000.0,
+        "per_share_value": 70.94013447786017,
+        "projected_years": [
+          {
+            "capex": 3129415740.0,
+            "cash_taxes": 788992089.6,
+            "da": 2048344848.0,
+            "delta_nwc": 708433160.0,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 4931200560.0,
+            "ebit_margin": 0.052,
+            "ebitda": 6979545408.0,
+            "fcff": 2352704418.3999996,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 21052433160.0,
+            "present_value_fcff": 2158444420.5504584,
+            "revenue": 94830780000.0,
+            "revenue_growth": 0.06,
+            "year": 2026
+          },
+          {
+            "capex": 3265972063.2000003,
+            "cash_taxes": 924031120.32,
+            "da": 2140804858.4999998,
+            "delta_nwc": 853477020.0,
+            "discount_factor": 0.84167999326656,
+            "ebit": 5775194502.0,
+            "ebit_margin": 0.058,
+            "ebitda": 7915999360.5,
+            "fcff": 2872519156.98,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 21905910180.0,
+            "present_value_fcff": 2417741904.704991,
+            "revenue": 99572319000.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 3386255424.552,
+            "cash_taxes": 1043836534.5408001,
+            "da": 2216081531.664,
+            "delta_nwc": 669125983.6800003,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 6523978340.88,
+            "ebit_margin": 0.063,
+            "ebitda": 8740059872.544,
+            "fcff": 3640841929.7712,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 22575036163.68,
+            "present_value_fcff": 2811397991.682966,
+            "revenue": 103555211760.0,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 3494056399.994159,
+            "cash_taxes": 1148965785.519552,
+            "da": 2282926420.8550797,
+            "delta_nwc": 682946621.5571976,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 7181036159.4972,
+            "ebit_margin": 0.067,
+            "ebitda": 9463962580.35228,
+            "fcff": 4137993773.28137,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 23257982785.237198,
+            "present_value_fcff": 2931459112.223323,
+            "revenue": 107179644171.59999,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 3587838588.6443095,
+            "cash_taxes": 1236424375.1635776,
+            "da": 2340374710.1310573,
+            "delta_nwc": 587344450.0603676,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 7727652344.77236,
+            "ebit_margin": 0.07,
+            "ebitda": 10068027054.903418,
+            "fcff": 4656419641.035162,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 23845327235.297565,
+            "present_value_fcff": 3026353272.484826,
+            "revenue": 110395033496.74799,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 100680270549.03418,
+        "terminal_value_present_value": 65435267810.82625,
+        "upside_downside_pct": -0.6364281750827174
+      },
+      "bear": {
+        "current_price": 195.12,
+        "description": "Modestly weaker growth and margin recovery; higher working-capital intensity and capital intensity reflecting delays and cost pressure.",
+        "enterprise_value": 58422520708.48487,
+        "equity_value": 33719520708.48487,
+        "exit_multiple_terminal_value": 77071581724.3412,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 33719520708.48487,
+        "investments_adjustment": 0.0,
+        "net_debt": 24700000000.0,
+        "per_share_value": 44.23392458150973,
+        "projected_years": [
+          {
+            "capex": 3146861025.0,
+            "cash_taxes": 631250928.0000001,
+            "da": 2047808070.0,
+            "delta_nwc": 1261314500.0,
+            "discount_factor": 0.9132420091324202,
+            "ebit": 3945318300.0000005,
+            "ebit_margin": 0.042,
+            "ebitda": 5993126370.0,
+            "fcff": 953699917.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 21605314500.0,
+            "present_value_fcff": 870958828.3105023,
+            "revenue": 93936150000.0,
+            "revenue_growth": 0.05,
+            "year": 2026
+          },
+          {
+            "capex": 3253196746.8,
+            "cash_taxes": 750286817.28,
+            "da": 2119951033.2,
+            "delta_nwc": 668825388.0,
+            "discount_factor": 0.8340109672442193,
+            "ebit": 4689292608.0,
+            "ebit_margin": 0.048,
+            "ebitda": 6809243641.2,
+            "fcff": 2136934689.12,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 22274139888.0,
+            "present_value_fcff": 1782226967.0106962,
+            "revenue": 97693596000.0,
+            "revenue_growth": 0.04,
+            "year": 2027
+          },
+          {
+            "capex": 3340730208.816,
+            "cash_taxes": 853294944.9023999,
+            "da": 2173487123.808,
+            "delta_nwc": 466975388.88000107,
+            "discount_factor": 0.7616538513645839,
+            "ebit": 5333093405.639999,
+            "ebit_margin": 0.053,
+            "ebitda": 7506580529.448,
+            "fcff": 2845579986.849598,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 22741115276.88,
+            "present_value_fcff": 2167346956.349978,
+            "revenue": 100624403880.0,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 3413934462.638699,
+            "cash_taxes": 940636927.4702399,
+            "da": 2217510300.5054994,
+            "delta_nwc": 465387867.9449959,
+            "discount_factor": 0.6955742934836383,
+            "ebit": 5878980796.688999,
+            "ebit_margin": 0.057,
+            "ebitda": 8096491097.194498,
+            "fcff": 3276531839.1405635,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 23206503144.824997,
+            "present_value_fcff": 2279071319.0868435,
+            "revenue": 103140013976.99998,
+            "revenue_growth": 0.025,
+            "year": 2029
+          },
+          {
+            "capex": 3471692870.46582,
+            "cash_taxes": 1009947016.862784,
+            "da": 2251340225.089956,
+            "delta_nwc": 358927248.63996124,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 6312168855.3924,
+            "ebit_margin": 0.06,
+            "ebitda": 8563509080.482355,
+            "fcff": 3722941944.5137906,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 23565430393.46496,
+            "present_value_fcff": 2364915719.393409,
+            "revenue": 105202814256.54,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 77071581724.3412,
+        "terminal_value_present_value": 48958000918.33344,
+        "upside_downside_pct": -0.7732988695084577
+      },
+      "bull": {
+        "current_price": 195.12,
+        "description": "Modestly faster revenue growth and margin normalization; slightly better capital intensity and working-capital efficiency.",
+        "enterprise_value": 102495496992.51874,
+        "equity_value": 77792496992.51874,
+        "exit_multiple_terminal_value": 128642978892.7123,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 77792496992.51874,
+        "investments_adjustment": 0.0,
+        "net_debt": 24700000000.0,
+        "per_share_value": 102.04971401353632,
+        "projected_years": [
+          {
+            "capex": 3111075825.0,
+            "cash_taxes": 949596067.2,
+            "da": 2048523774.0,
+            "delta_nwc": 715590200.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 5934975420.0,
+            "ebit_margin": 0.062,
+            "ebitda": 7983499194.0,
+            "fcff": 3207237101.8,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 21059590200.0,
+            "present_value_fcff": 2955978895.668203,
+            "revenue": 95725410000.0,
+            "revenue_growth": 0.07,
+            "year": 2026
+          },
+          {
+            "capex": 3277446587.5800004,
+            "cash_taxes": 1103982008.448,
+            "da": 2161288306.98,
+            "delta_nwc": 1060637542.7999992,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 6899887552.8,
+            "ebit_margin": 0.068,
+            "ebitda": 9061175859.78,
+            "fcff": 3619109720.9520016,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 22120227742.8,
+            "present_value_fcff": 3074271885.9623284,
+            "revenue": 101468934600.0,
+            "revenue_growth": 0.06,
+            "year": 2027
+          },
+          {
+            "capex": 3430664678.8259997,
+            "cash_taxes": 1244415013.9343998,
+            "da": 2258698484.196,
+            "delta_nwc": 892926624.4799995,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 7777593837.089999,
+            "ebit_margin": 0.073,
+            "ebitda": 10036292321.286,
+            "fcff": 4468286004.045601,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 23013154367.28,
+            "present_value_fcff": 3498257298.6719837,
+            "revenue": 106542381330.0,
+            "revenue_growth": 0.05,
+            "year": 2028
+          },
+          {
+            "capex": 3573910910.524184,
+            "cash_taxes": 1371669234.194952,
+            "da": 2349206237.1358347,
+            "delta_nwc": 924255158.0377502,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 8572932713.71845,
+            "ebit_margin": 0.077,
+            "ebitda": 10922138950.854284,
+            "fcff": 5052303648.097398,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 23937409525.31775,
+            "present_value_fcff": 3645612388.7802496,
+            "revenue": 111336788489.84999,
+            "revenue_growth": 0.045,
+            "year": 2029
+          },
+          {
+            "capex": 3705288320.9422083,
+            "cash_taxes": 1482115328.3768833,
+            "da": 2431595460.6183243,
+            "delta_nwc": 841706120.9832649,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 9263220802.35552,
+            "ebit_margin": 0.08,
+            "ebitda": 11694816262.973845,
+            "fcff": 5665706492.671489,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 24779115646.301014,
+            "present_value_fcff": 3767952172.6467514,
+            "revenue": 115790260029.444,
+            "revenue_growth": 0.04,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 128642978892.7123,
+        "terminal_value_present_value": 85553424350.78922,
+        "upside_downside_pct": -0.4769899855804822
+      }
+    },
+    "ticker": "BA"
+  },
+  "assumptions": {
+    "cash": 29400000000.0,
+    "current_price": 195.12,
+    "debt": 54100000000.0,
+    "diluted_shares": 762300000.0,
+    "investments": 0.0,
+    "minority_interest": 3000000.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.07,
+    "tax_rate": 0.16,
+    "terminal_exit_ebitda_multiple": 10.0,
+    "terminal_growth": 0.025,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.09
+  },
+  "company_name": "The Boeing Company",
+  "comps": [
+    {
+      "company_name": "Airbus SE (ADR)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E not captured from free sources in this run; populated as null per schema guidance.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "EADSY"
+    },
+    {
+      "company_name": "Lockheed Martin Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not captured in this run; populated as null per schema guidance.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "LMT"
+    },
+    {
+      "company_name": "Northrop Grumman Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not captured in this run; populated as null per schema guidance.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "NOC"
+    },
+    {
+      "company_name": "General Dynamics Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not captured in this run; populated as null per schema guidance.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "GD"
+    },
+    {
+      "company_name": "RTX Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not captured in this run; populated as null per schema guidance.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "RTX"
+    },
+    {
+      "company_name": "Embraer S.A. (ADR)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not captured in this run; populated as null per schema guidance.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ERJ"
+    },
+    {
+      "company_name": "Bombardier Inc. (ADR)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not captured in this run; populated as null per schema guidance.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "BDRBF"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.033,
+      "2027": 0.0328,
+      "2028": 0.0327,
+      "2029": 0.0326,
+      "2030": 0.0325
+    },
+    "da_pct_sales": {
+      "2026": 0.0216,
+      "2027": 0.0215,
+      "2028": 0.0214,
+      "2029": 0.0213,
+      "2030": 0.0212
+    },
+    "ebit_margin": {
+      "2026": 0.052,
+      "2027": 0.058,
+      "2028": 0.063,
+      "2029": 0.067,
+      "2030": 0.07
+    },
+    "nwc_pct_sales": {
+      "2026": 0.222,
+      "2027": 0.22,
+      "2028": 0.218,
+      "2029": 0.217,
+      "2030": 0.216
+    },
+    "revenue_growth": {
+      "2026": 0.06,
+      "2027": 0.05,
+      "2028": 0.04,
+      "2029": 0.035,
+      "2030": 0.03
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 1527000000.0,
+      "2024": 2230000000.0,
+      "2025": 2942000000.0
+    },
+    "da": {
+      "2023": 1861000000.0,
+      "2024": 1836000000.0,
+      "2025": 1953000000.0
+    },
+    "ebit": {
+      "2023": -773000000.0,
+      "2024": -10707000000.0,
+      "2025": 4281000000.0
+    },
+    "nwc": {
+      "2023": 13448000000.0,
+      "2024": 30920000000.0,
+      "2025": 20344000000.0
+    },
+    "revenue": {
+      "2023": 77794000000.0,
+      "2024": 66517000000.0,
+      "2025": 89463000000.0
+    }
+  },
+  "notes": [
+    "Historical revenue/EBIT are sourced from StockAnalysis income statement (FY2023-FY2025). ([stockanalysis.com](https://stockanalysis.com/stocks/ba/financials/))",
+    "Historical D&A and capex are sourced from StockAnalysis cash flow statement (FY2023-FY2025); capex values are reported as positive cash outflows. ([stockanalysis.com](https://stockanalysis.com/stocks/ba/financials/cash-flow-statement/))",
+    "NWC is defined (for modeling consistency) as Total current assets minus Total current liabilities, using StockAnalysis balance sheet. This includes cash and unearned revenue; operating-only NWC would likely differ. ([stockanalysis.com](https://stockanalysis.com/stocks/ba/financials/balance-sheet/))",
+    "Cash and debt are taken from Boeing\u2019s latest FY2025 earnings press release (cash and investments in marketable securities, and consolidated debt). ([boeing.mediaroom.com](https://boeing.mediaroom.com/2026-01-27-Boeing-Reports-Fourth-Quarter-Results?asPDF=1))",
+    "NOL balance and utilization assumptions were not reliably retrievable from the available extracted sources in this run, so nol_balance and nol_utilization_pct are set to null; comps NTM multiple fields are also set to null due to missing free-source NTM inputs."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Sustained improvement in production quality and delivery throughput (commercial deliveries and program performance), supporting continued backlog conversion. ([boeing.mediaroom.com](https://boeing.mediaroom.com/2026-01-27-Boeing-Reports-Fourth-Quarter-Results?asPDF=1))",
+      "Further stabilization of cash flow after PP&E investment needs decline from near-term ramp levels. ([boeing.mediaroom.com](https://boeing.mediaroom.com/2026-01-27-Boeing-Reports-Fourth-Quarter-Results?asPDF=1))",
+      "Potential incremental contract awards or defense program execution that improves revenue visibility and margin durability. ([investors.boeing.com](https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-Reports-Fourth-Quarter-Results/default.aspx))"
+    ],
+    "company_overview": [
+      "Boeing is an aerospace manufacturer and services provider with operations spanning Commercial Airplanes and Defense/Space & Security, plus Global Services. ([sec.gov](https://www.sec.gov/Archives/edgar/data/12927/000119312526096681/d23314dars.pdf))",
+      "FY2025 revenue was $89.463B with GAAP earnings from operations (EBIT) of $4.281B (EBIT margin 0.048). ([stockanalysis.com](https://stockanalysis.com/stocks/ba/financials/))",
+      "FY2025 included 600 commercial deliveries and increased total company backlog to a record $682B. ([boeing.mediaroom.com](https://boeing.mediaroom.com/2026-01-27-Boeing-Reports-Fourth-Quarter-Results?asPDF=1))"
+    ],
+    "current_context": [
+      "Boeing reported FY2025 revenue of $89.463B and GAAP earnings from operations of $4.281B, reversing FY2024 operating losses. ([boeing.mediaroom.com](https://boeing.mediaroom.com/2026-01-27-Boeing-Reports-Fourth-Quarter-Results?asPDF=1))",
+      "Total company backlog reached $682.207B, reflecting strong order flow across commercial and defense programs. ([investors.boeing.com](https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-Reports-Fourth-Quarter-Results/default.aspx))",
+      "FY2025 operating cash flow was $1.065B and free cash flow (non-GAAP) was -$1.877B; additions to PP&E were -$2.942B. ([boeing.mediaroom.com](https://boeing.mediaroom.com/2026-01-27-Boeing-Reports-Fourth-Quarter-Results?asPDF=1))",
+      "The company acquired Spirit AeroSystems in December 2025, reinforcing commitments to safety, quality, and production stability. ([boeing.mediaroom.com](https://boeing.mediaroom.com/2026-01-27-Boeing-Reports-Fourth-Quarter-Results?asPDF=1))"
+    ],
+    "investment_highlights": [
+      "Base case models a gradual EBIT margin recovery from FY2025 toward a normalized target margin by FY2030, consistent with an improving operating environment after FY2024 disruptions. ([boeing.mediaroom.com](https://boeing.mediaroom.com/2026-01-27-Boeing-Reports-Fourth-Quarter-Results?asPDF=1))",
+      "Revenue growth assumptions reflect continued conversion of backlog and higher delivery volumes (FY2025 600 deliveries; backlog $682B), ramping to a mid-single-digit growth profile. ([boeing.mediaroom.com](https://boeing.mediaroom.com/2026-01-27-Boeing-Reports-Fourth-Quarter-Results?asPDF=1))",
+      "D&A and capex are held near recent intensity to reflect ongoing production system investment and longer-cycle factory expansions. ([stockanalysis.com](https://stockanalysis.com/stocks/ba/financials/cash-flow-statement/))",
+      "NWC intensity is assumed to decline modestly versus the FY2024 peak, reflecting stabilization in working-capital timing and production flow. ([stockanalysis.com](https://stockanalysis.com/stocks/ba/financials/balance-sheet/))",
+      "Terminal value is anchored on an exit-multiple framework with terminal growth below long-run nominal GDP to reflect aerospace cyclicality and execution risk."
+    ],
+    "key_risks": [
+      "Program execution and safety/quality events that delay deliveries or trigger charges, pushing margins below base case. ([sec.gov](https://www.sec.gov/Archives/edgar/data/12927/000119312526096681/d23314dars.pdf))",
+      "Liquidity and capital market risk (debt servicing and working-capital volatility) if operating cash flow underperforms. ([boeing.mediaroom.com](https://boeing.mediaroom.com/2026-01-27-Boeing-Reports-Fourth-Quarter-Results?asPDF=1))",
+      "Pension and other long-duration obligations that can pressure future cash generation and effective tax dynamics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/12927/000119312526096681/d23314dars.pdf))"
+    ],
+    "sources": [
+      {
+        "label": "Boeing 2025 Annual Report on Form 10-K (PDF)",
+        "notes": "Primary filing supporting company financial context and segment disclosure. ([sec.gov](https://www.sec.gov/Archives/edgar/data/12927/000119312526096681/d23314dars.pdf))",
+        "url": "https://www.sec.gov/Archives/edgar/data/12927/000119312526096681/d23314dars.pdf"
+      },
+      {
+        "label": "Boeing Reports Fourth Quarter Results (FY2025) \u2014 Press Release (PDF)",
+        "notes": "Used for latest FY2025 operating cash flow/free cash flow, cash/investments, consolidated debt, backlog, and deliveries. ([boeing.mediaroom.com](https://boeing.mediaroom.com/2026-01-27-Boeing-Reports-Fourth-Quarter-Results?asPDF=1))",
+        "url": "https://boeing.mediaroom.com/2026-01-27-Boeing-Reports-Fourth-Quarter-Results?asPDF=1"
+      },
+      {
+        "label": "StockAnalysis \u2014 Boeing income statement (FY2023-FY2025 revenue & EBIT)",
+        "notes": "Used for FY2023-FY2025 revenue and operating income (EBIT) inputs. ([stockanalysis.com](https://stockanalysis.com/stocks/ba/financials/))",
+        "url": "https://stockanalysis.com/stocks/ba/financials/"
+      },
+      {
+        "label": "StockAnalysis \u2014 Boeing cash flow statement (FY2023-FY2025 D&A & capex)",
+        "notes": "Used for FY2023-FY2025 depreciation & amortization and capital expenditures (cash outflow; converted to positive capex). ([stockanalysis.com](https://stockanalysis.com/stocks/ba/financials/cash-flow-statement/))",
+        "url": "https://stockanalysis.com/stocks/ba/financials/cash-flow-statement/"
+      },
+      {
+        "label": "StockAnalysis \u2014 Boeing balance sheet (FY2023-FY2025 current assets/liabilities, minority interest, debt)",
+        "notes": "Used to compute NWC as (Total current assets - Total current liabilities) and minority interest. ([stockanalysis.com](https://stockanalysis.com/stocks/ba/financials/balance-sheet/))",
+        "url": "https://stockanalysis.com/stocks/ba/financials/balance-sheet/"
+      }
+    ],
+    "subtitle": "Boeing (BA) DCF Inputs \u2014 Recovery to Mid-Cycle Margins",
+    "valuation_summary": [
+      "DCF base case uses WACC 0.09 and terminal growth 0.025 with an exit EBITDA multiple (10.0) to balance Boeing-specific risk with long-run industry maturation.",
+      "Scenario framework applies realistic deltas to growth and margin recovery (bull/bear) rather than assuming abrupt normalization, helping triangulate sensitivity to execution outcomes.",
+      "Comp outputs are intentionally limited in this run due to missing free-source NTM multiple fields (set to null per schema)."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 195.12,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.06,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 9.0,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.095
+      },
+      "description": "Modestly weaker growth and margin recovery; higher working-capital intensity and capital intensity reflecting delays and cost pressure.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0335,
+          "2027": 0.0333,
+          "2028": 0.0332,
+          "2029": 0.0331,
+          "2030": 0.033
+        },
+        "da_pct_sales": {
+          "2026": 0.0218,
+          "2027": 0.0217,
+          "2028": 0.0216,
+          "2029": 0.0215,
+          "2030": 0.0214
+        },
+        "ebit_margin": {
+          "2026": 0.042,
+          "2027": 0.048,
+          "2028": 0.053,
+          "2029": 0.057,
+          "2030": 0.06
+        },
+        "nwc_pct_sales": {
+          "2026": 0.23,
+          "2027": 0.228,
+          "2028": 0.226,
+          "2029": 0.225,
+          "2030": 0.224
+        },
+        "revenue_growth": {
+          "2026": 0.05,
+          "2027": 0.04,
+          "2028": 0.03,
+          "2029": 0.025,
+          "2030": 0.02
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 195.12,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.08,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 11.0,
+        "terminal_growth": 0.03,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.085
+      },
+      "description": "Modestly faster revenue growth and margin normalization; slightly better capital intensity and working-capital efficiency.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0325,
+          "2027": 0.0323,
+          "2028": 0.0322,
+          "2029": 0.0321,
+          "2030": 0.032
+        },
+        "da_pct_sales": {
+          "2026": 0.0214,
+          "2027": 0.0213,
+          "2028": 0.0212,
+          "2029": 0.0211,
+          "2030": 0.021
+        },
+        "ebit_margin": {
+          "2026": 0.062,
+          "2027": 0.068,
+          "2028": 0.073,
+          "2029": 0.077,
+          "2030": 0.08
+        },
+        "nwc_pct_sales": {
+          "2026": 0.22,
+          "2027": 0.218,
+          "2028": 0.216,
+          "2029": 0.215,
+          "2030": 0.214
+        },
+        "revenue_growth": {
+          "2026": 0.07,
+          "2027": 0.06,
+          "2028": 0.05,
+          "2029": 0.045,
+          "2030": 0.04
+        }
+      }
+    }
+  },
+  "ticker": "BA"
+}

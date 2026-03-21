@@ -1,0 +1,699 @@
+{
+  "_meta": {
+    "cost_usd": 0.026892,
+    "generated_at": "2026-03-21T17:12:57Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 13158,
+      "prompt": 2514,
+      "reasoning": 7953
+    }
+  },
+  "_valuation": {
+    "company_name": "Baker Hughes Company",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 60.35,
+        "description": "Base case",
+        "enterprise_value": 49288021082.991905,
+        "equity_value": 46740021082.991905,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 53741923216.64575,
+        "implied_market_cap": 46740021082.991905,
+        "investments_adjustment": 0.0,
+        "net_debt": 2372000000.0,
+        "per_share_value": 47.02215400703411,
+        "projected_years": [
+          {
+            "capex": 1253500000.0158656,
+            "cash_taxes": 51567900.00065268,
+            "da": 1158125000.0146585,
+            "delta_nwc": -562499999.9827547,
+            "discount_factor": 0.9259259259259258,
+            "ebit": 3106500000.039319,
+            "ebit_margin": 0.114,
+            "ebitda": 4264625000.0539775,
+            "fcff": 3522057100.020214,
+            "nol_balance_end": 757799999.9685445,
+            "nol_used": 2485200000.0314555,
+            "nwc": 1362500000.0172453,
+            "present_value_fcff": 3261163981.500198,
+            "revenue": 27250000000.344902,
+            "revenue_growth": -0.0174160747,
+            "year": 2026
+          },
+          {
+            "capex": 1278570000.0161827,
+            "cash_taxes": 204712860.00599793,
+            "da": 1181287500.0149515,
+            "delta_nwc": -209007500.0026455,
+            "discount_factor": 0.8573388203017832,
+            "ebit": 3224220000.0408087,
+            "ebit_margin": 0.116,
+            "ebitda": 4405507500.05576,
+            "fcff": 3131232140.0362244,
+            "nol_balance_end": 0.0,
+            "nol_used": 757799999.9685445,
+            "nwc": 1153492500.0145998,
+            "present_value_fcff": 2684526869.0296845,
+            "revenue": 27795000000.3518,
+            "revenue_growth": 0.02,
+            "year": 2027
+          },
+          {
+            "capex": 1310534250.0165873,
+            "cash_taxes": 279029835.75353163,
+            "da": 1210819687.5153253,
+            "delta_nwc": 14592375.000184536,
+            "discount_factor": 0.7938322410201696,
+            "ebit": 3361805250.0425496,
+            "ebit_margin": 0.118,
+            "ebitda": 4572624937.557875,
+            "fcff": 2968468476.7875714,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1168084875.0147843,
+            "present_value_fcff": 2356465983.326007,
+            "revenue": 28489875000.36059,
+            "revenue_growth": 0.025,
+            "year": 2028
+          },
+          {
+            "capex": 1336744935.0169191,
+            "cash_taxes": 289434338.1036633,
+            "da": 1235036081.265632,
+            "delta_nwc": 23361697.50029564,
+            "discount_factor": 0.7350298527964533,
+            "ebit": 3487160700.0441365,
+            "ebit_margin": 0.12,
+            "ebitda": 4722196781.309769,
+            "fcff": 3072655810.6888905,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1191446572.51508,
+            "present_value_fcff": 2258493748.224822,
+            "revenue": 29059672500.367805,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 1363479833.7172573,
+            "cash_taxes": 297683216.73961776,
+            "da": 1259736802.8909445,
+            "delta_nwc": 23828931.450301647,
+            "discount_factor": 0.6805831970337529,
+            "ebit": 3586544779.995394,
+            "ebit_margin": 0.121,
+            "ebitda": 4846281582.886339,
+            "fcff": 3161289600.9791617,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1215275503.9653816,
+            "present_value_fcff": 2151520583.383955,
+            "revenue": 29640865950.37516,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 53741923216.64575,
+        "terminal_value_present_value": 36575849917.52724,
+        "upside_downside_pct": -0.22084251852470405
+      },
+      "bear": {
+        "current_price": 60.35,
+        "description": "Modestly weaker revenue growth and margin compression with higher terminal risk (higher WACC) and lower steady-state growth.",
+        "enterprise_value": 45346582213.38596,
+        "equity_value": 42798582213.38596,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 49148011778.28118,
+        "implied_market_cap": 42798582213.38596,
+        "investments_adjustment": 0.0,
+        "net_debt": 2372000000.0,
+        "per_share_value": 43.056923755921495,
+        "projected_years": [
+          {
+            "capex": 1210545450.0,
+            "cash_taxes": 49567801.026,
+            "da": 1140602824.0,
+            "delta_nwc": -526147480.0,
+            "discount_factor": 0.9242144177449167,
+            "ebit": 2986012110.0,
+            "ebit_margin": 0.111,
+            "ebitda": 4126614934.0,
+            "fcff": 3392649162.974,
+            "nol_balance_end": 854190312.0,
+            "nol_used": 2388809688.0,
+            "nwc": 1398852520.0,
+            "present_value_fcff": 3135535270.7707944,
+            "revenue": 26901010000.0,
+            "revenue_growth": -0.03,
+            "year": 2026
+          },
+          {
+            "capex": 1228703631.7499998,
+            "cash_taxes": 185191345.48585,
+            "da": 1157711866.36,
+            "delta_nwc": -238410201.125,
+            "discount_factor": 0.8541722899675755,
+            "ebit": 3085411341.95,
+            "ebit_margin": 0.113,
+            "ebitda": 4243123208.3099995,
+            "fcff": 3067638432.19915,
+            "nol_balance_end": 0.0,
+            "nol_used": 854190312.0,
+            "nwc": 1160442318.875,
+            "present_value_fcff": 2620291744.4240913,
+            "revenue": 27304525149.999996,
+            "revenue_growth": 0.015,
+            "year": 2027
+          },
+          {
+            "capex": 1253277704.3849998,
+            "cash_taxes": 265834126.407885,
+            "da": 1180866103.6871998,
+            "delta_nwc": 9283538.55099988,
+            "discount_factor": 0.789438345626225,
+            "ebit": 3202820800.095,
+            "ebit_margin": 0.115,
+            "ebitda": 4383686903.7822,
+            "fcff": 2855291534.4383144,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1169725857.4259999,
+            "present_value_fcff": 2254076625.227548,
+            "revenue": 27850615652.999996,
+            "revenue_growth": 0.02,
+            "year": 2028
+          },
+          {
+            "capex": 1272076869.9507747,
+            "cash_taxes": 274514188.5353772,
+            "da": 1198579095.2425077,
+            "delta_nwc": 17545887.861389875,
+            "discount_factor": 0.7296103009484519,
+            "ebit": 3307399861.8720145,
+            "ebit_margin": 0.117,
+            "ebitda": 4505978957.114522,
+            "fcff": 2941842010.766981,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1187271745.2873898,
+            "present_value_fcff": 2146398234.818496,
+            "revenue": 28268374887.794994,
+            "revenue_growth": 0.015,
+            "year": 2029
+          },
+          {
+            "capex": 1291158023.0000362,
+            "cash_taxes": 283394839.84825236,
+            "da": 1216557781.6711452,
+            "delta_nwc": 17809076.1793108,
+            "discount_factor": 0.6743163594717669,
+            "ebit": 3414395660.8223176,
+            "ebit_margin": 0.119,
+            "ebitda": 4630953442.493463,
+            "fcff": 3038591503.465863,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1205080821.4667006,
+            "present_value_fcff": 2048971960.5389438,
+            "revenue": 28692400511.111916,
+            "revenue_growth": 0.015,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 49148011778.28118,
+        "terminal_value_present_value": 33141308377.606087,
+        "upside_downside_pct": -0.2865464166375892
+      },
+      "bull": {
+        "current_price": 60.35,
+        "description": "Modestly better revenue growth and margin expansion with slightly lower terminal risk (lower WACC) and higher steady-state growth.",
+        "enterprise_value": 53574270859.251236,
+        "equity_value": 51026270859.251236,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 58757448945.7192,
+        "implied_market_cap": 51026270859.251236,
+        "investments_adjustment": 0.0,
+        "net_debt": 2372000000.0,
+        "per_share_value": 51.334276518361406,
+        "projected_years": [
+          {
+            "capex": 1276688655.0,
+            "cash_taxes": 53324402.274000004,
+            "da": 1169611542.0,
+            "delta_nwc": -607127840.0,
+            "discount_factor": 0.9276437847866419,
+            "ebit": 3212313390.0,
+            "ebit_margin": 0.117,
+            "ebitda": 4381924932.0,
+            "fcff": 3659039714.726,
+            "nol_balance_end": 673149288.0,
+            "nol_used": 2569850712.0,
+            "nwc": 1317872160.0,
+            "present_value_fcff": 3394285449.653061,
+            "revenue": 27455670000.0,
+            "revenue_growth": -0.01,
+            "year": 2026
+          },
+          {
+            "capex": 1308605871.3749998,
+            "cash_taxes": 222087753.00074998,
+            "da": 1198851830.5499997,
+            "delta_nwc": -178118659.125,
+            "discount_factor": 0.8605229914532856,
+            "ebit": 3348905348.2499995,
+            "ebit_margin": 0.119,
+            "ebitda": 4547757178.799999,
+            "fcff": 3195182213.5492496,
+            "nol_balance_end": 0.0,
+            "nol_used": 673149288.0,
+            "nwc": 1139753500.875,
+            "present_value_fcff": 2749527756.6417313,
+            "revenue": 28142061749.999996,
+            "revenue_growth": 0.025,
+            "year": 2027
+          },
+          {
+            "capex": 1347864047.51625,
+            "cash_taxes": 291109647.93990743,
+            "da": 1234817385.4664998,
+            "delta_nwc": 19699443.224999905,
+            "discount_factor": 0.7982588046876489,
+            "ebit": 3507345155.902499,
+            "ebit_margin": 0.121,
+            "ebitda": 4742162541.3689995,
+            "fcff": 3083489402.687842,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1159452944.1,
+            "present_value_fcff": 2461422564.856629,
+            "revenue": 28986323602.499996,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 1381560648.704156,
+            "cash_taxes": 300853400.6188878,
+            "da": 1265687820.103162,
+            "delta_nwc": 28986323.602499723,
+            "discount_factor": 0.7404998188197114,
+            "ebit": 3624739766.492624,
+            "ebit_margin": 0.122,
+            "ebitda": 4890427586.595786,
+            "fcff": 3179027213.6702423,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1188439267.7024996,
+            "present_value_fcff": 2354069075.745746,
+            "revenue": 29710981692.562492,
+            "revenue_growth": 0.025,
+            "year": 2029
+          },
+          {
+            "capex": 1411954982.9756472,
+            "cash_taxes": 309992439.1655566,
+            "da": 1293532952.1454318,
+            "delta_nwc": 26145663.88945508,
+            "discount_factor": 0.6869200545637396,
+            "ebit": 3734848664.6452603,
+            "ebit_margin": 0.123,
+            "ebitda": 5028381616.790692,
+            "fcff": 3280288530.7600336,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1214584931.5919547,
+            "present_value_fcff": 2253295976.5344915,
+            "revenue": 30364623289.798866,
+            "revenue_growth": 0.022,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 58757448945.7192,
+        "terminal_value_present_value": 40361670035.81958,
+        "upside_downside_pct": -0.14939061278605792
+      }
+    },
+    "ticker": "BKR"
+  },
+  "assumptions": {
+    "cash": 3715000000.0,
+    "current_price": 60.35,
+    "debt": 6087000000.0,
+    "diluted_shares": 994000000.0,
+    "investments": 0.0,
+    "minority_interest": 176000000.0,
+    "net_debt_override": null,
+    "nol_balance": 3243000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.121,
+    "tax_rate": 0.083,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.08
+  },
+  "company_name": "Baker Hughes Company",
+  "comps": [
+    {
+      "company_name": "Schlumberger Limited",
+      "ev_ntm_ebitda": 8.8,
+      "ev_ntm_revenue": 2.4,
+      "notes": "Peer multiple snapshot labeled NTM/illustrative by source; refresh with live terminal data for production use. ([mergersandacquisitions.net](https://mergersandacquisitions.net/insights/oil-gas-services-m-a-trends-analysis-report))",
+      "pe_ntm": 19.2,
+      "source": "mergersandacquisitions.net (Oil & Gas Services \u2014 Public Peer Comps (NTM, November 2025))",
+      "ticker": "SLB"
+    },
+    {
+      "company_name": "Halliburton Company",
+      "ev_ntm_ebitda": 6.5,
+      "ev_ntm_revenue": 1.5,
+      "notes": "Peer multiple snapshot labeled NTM/illustrative by source; refresh with live terminal data for production use. ([mergersandacquisitions.net](https://mergersandacquisitions.net/insights/oil-gas-services-m-a-trends-analysis-report))",
+      "pe_ntm": 15.1,
+      "source": "mergersandacquisitions.net (Oil & Gas Services \u2014 Public Peer Comps (NTM, November 2025))",
+      "ticker": "HAL"
+    },
+    {
+      "company_name": "Weatherford International plc",
+      "ev_ntm_ebitda": 7.5,
+      "ev_ntm_revenue": 1.7,
+      "notes": "Peer multiple snapshot labeled NTM/illustrative by source; refresh with live terminal data for production use. ([mergersandacquisitions.net](https://mergersandacquisitions.net/insights/oil-gas-services-m-a-trends-analysis-report))",
+      "pe_ntm": 17.5,
+      "source": "mergersandacquisitions.net (Oil & Gas Services \u2014 Public Peer Comps (NTM, November 2025))",
+      "ticker": "WFT"
+    },
+    {
+      "company_name": "NOV Inc.",
+      "ev_ntm_ebitda": 6.3,
+      "ev_ntm_revenue": 1.2,
+      "notes": "Peer multiple snapshot labeled NTM/illustrative by source; refresh with live terminal data for production use. ([mergersandacquisitions.net](https://mergersandacquisitions.net/insights/oil-gas-services-m-a-trends-analysis-report))",
+      "pe_ntm": 14.2,
+      "source": "mergersandacquisitions.net (Oil & Gas Services \u2014 Public Peer Comps (NTM, November 2025))",
+      "ticker": "NOV"
+    },
+    {
+      "company_name": "TechnipFMC plc",
+      "ev_ntm_ebitda": 10.2,
+      "ev_ntm_revenue": 2.3,
+      "notes": "Peer multiple snapshot labeled NTM/illustrative by source; refresh with live terminal data for production use. ([mergersandacquisitions.net](https://mergersandacquisitions.net/insights/oil-gas-services-m-a-trends-analysis-report))",
+      "pe_ntm": 21.0,
+      "source": "mergersandacquisitions.net (Oil & Gas Services \u2014 Public Peer Comps (NTM, November 2025))",
+      "ticker": "FTI"
+    },
+    {
+      "company_name": "Tidewater Inc.",
+      "ev_ntm_ebitda": 8.0,
+      "ev_ntm_revenue": 1.8,
+      "notes": "Peer multiple snapshot labeled NTM/illustrative by source; refresh with live terminal data for production use. ([mergersandacquisitions.net](https://mergersandacquisitions.net/insights/oil-gas-services-m-a-trends-analysis-report))",
+      "pe_ntm": 16.8,
+      "source": "mergersandacquisitions.net (Oil & Gas Services \u2014 Public Peer Comps (NTM, November 2025))",
+      "ticker": "TDW"
+    },
+    {
+      "company_name": "Patterson-UTI Energy Inc.",
+      "ev_ntm_ebitda": 4.8,
+      "ev_ntm_revenue": 1.0,
+      "notes": "Peer multiple snapshot labeled NTM/illustrative by source; refresh with live terminal data for production use. ([mergersandacquisitions.net](https://mergersandacquisitions.net/insights/oil-gas-services-m-a-trends-analysis-report))",
+      "pe_ntm": 11.4,
+      "source": "mergersandacquisitions.net (Oil & Gas Services \u2014 Public Peer Comps (NTM, November 2025))",
+      "ticker": "PTEN"
+    },
+    {
+      "company_name": "Liberty Energy Inc.",
+      "ev_ntm_ebitda": 4.5,
+      "ev_ntm_revenue": 0.9,
+      "notes": "Peer multiple snapshot labeled NTM/illustrative by source; refresh with live terminal data for production use. ([mergersandacquisitions.net](https://mergersandacquisitions.net/insights/oil-gas-services-m-a-trends-analysis-report))",
+      "pe_ntm": 10.8,
+      "source": "mergersandacquisitions.net (Oil & Gas Services \u2014 Public Peer Comps (NTM, November 2025))",
+      "ticker": "LBRT"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.046,
+      "2027": 0.046,
+      "2028": 0.046,
+      "2029": 0.046,
+      "2030": 0.046
+    },
+    "da_pct_sales": {
+      "2026": 0.0425,
+      "2027": 0.0425,
+      "2028": 0.0425,
+      "2029": 0.0425,
+      "2030": 0.0425
+    },
+    "ebit_margin": {
+      "2026": 0.114,
+      "2027": 0.116,
+      "2028": 0.118,
+      "2029": 0.12,
+      "2030": 0.121
+    },
+    "nwc_pct_sales": {
+      "2026": 0.05,
+      "2027": 0.0415,
+      "2028": 0.041,
+      "2029": 0.041,
+      "2030": 0.041
+    },
+    "revenue_growth": {
+      "2026": -0.0174160747,
+      "2027": 0.02,
+      "2028": 0.025,
+      "2029": 0.02,
+      "2030": 0.02
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 1224000000.0,
+      "2024": 1278000000.0,
+      "2025": 1273000000.0
+    },
+    "da": {
+      "2023": 1087000000.0,
+      "2024": 1136000000.0,
+      "2025": 1188000000.0
+    },
+    "ebit": {
+      "2023": 2871000000.0,
+      "2024": 3463000000.0,
+      "2025": 3099000000.0
+    },
+    "nwc": {
+      "2023": 812000000.0,
+      "2024": 909000000.0,
+      "2025": 1925000000.0
+    },
+    "revenue": {
+      "2023": 25506000000.0,
+      "2024": 27829000000.0,
+      "2025": 27733000000.0
+    }
+  },
+  "notes": [
+    "EBIT is modeled as an EBIT proxy: income before income taxes plus interest expense, net (used because an 'Operating income' / 'EBIT' line item is not explicitly labeled as such in the financial statement excerpt). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001701605/000170160526000007/bkr-20251231.htm))",
+    "DA equals 'Depreciation and amortization' from the cash flow statement; capex equals 'Expenditures for capital assets' (absolute value). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001701605/000170160526000007/bkr-20251231.htm))",
+    "NWC definition used for historical: (Total current assets - Cash and cash equivalents) - (Total current liabilities - short-term and current portion of long-term debt). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001701605/000170160526000007/bkr-20251231.htm))",
+    "2026 revenue in the base case is anchored to company FY2026 guidance ($27.25 billion) from 4Q25 prepared remarks, then followed by modeled growth rates for 2027-2030. ([investors.bakerhughes.com](https://investors.bakerhughes.com/files/doc_financials/2025/Q4/Baker-Hughes-4Q25-Earnings-Call-Prepared-Remarks-1-25-2025.pdf))",
+    "EBIT margin, D&A%, capex%, and NWC% for forecast years are base-case modeling assumptions (not direct company guidance). Management references margin/cost initiatives and targets for Adjusted EBITDA margin, used directionally as context. ([investors.bakerhughes.com](https://investors.bakerhughes.com/files/doc_financials/2025/Q4/Baker-Hughes-4Q25-Earnings-Call-Prepared-Remarks-1-25-2025.pdf))",
+    "NOL balance sourced from 2025 Form 10-K note on NOL carryforwards; NOL utilization percent is an explicit modeling assumption set to 0.80. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001701605/000170160526000007/bkr-20251231.htm))",
+    "Investments and preferred equity are set to null/0 because the schema requires a valuation-mapping convention that is not unambiguously specified in the supplied primary excerpts; noncontrolling interests are included from the balance sheet. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001701605/000170160526000007/bkr-20251231.htm))",
+    "Peer comps are filled using an external NTM snapshot that explicitly indicates it is illustrative; refresh these inputs with your preferred market-data terminal before final valuation outputs. ([mergersandacquisitions.net](https://mergersandacquisitions.net/insights/oil-gas-services-m-a-trends-analysis-report))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Regulatory clearance and closing of the Chart acquisition, followed by Day-1 integration execution and synergy realization. ([investors.bakerhughes.com](https://investors.bakerhughes.com/files/doc_financials/2025/Q4/Baker-Hughes-4Q25-Earnings-Call-Prepared-Remarks-1-25-2025.pdf))",
+      "Sustained IET order intake (power systems/LNG momentum) translating into higher backlog conversion and improved mix/cash generation. ([investors.bakerhughes.com](https://investors.bakerhughes.com/files/doc_financials/2025/Q4/Baker-Hughes-4Q25-Earnings-Call-Prepared-Remarks-1-25-2025.pdf))",
+      "Further margin progress from productivity and cost-out initiatives (company commentary targets higher Adjusted EBITDA margin by 2028). ([investors.bakerhughes.com](https://investors.bakerhughes.com/files/doc_financials/2025/Q4/Baker-Hughes-4Q25-Earnings-Call-Prepared-Remarks-1-25-2025.pdf))"
+    ],
+    "company_overview": [
+      "Baker Hughes is an energy technology company serving the energy and industrial value chain, organized into Oilfield Services & Equipment (OFSE) and Industrial & Energy Technology (IET). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001701605/000170160526000007/bkr-20251231.htm))",
+      "The business combines project-based and longer-duration technology/service revenue streams, with IET positioned to capture power systems, LNG, and other energy infrastructure end-markets. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001701605/000170160526000007/bkr-20251231.htm))"
+    ],
+    "current_context": [
+      "FY2026 guidance (starting point for the base-case): company anticipates 2026 revenue of $27.25 billion and Adjusted EBITDA of $4.85 billion, with effective tax rate projected to fall within 22% to 26%. ([investors.bakerhughes.com](https://investors.bakerhughes.com/files/doc_financials/2025/Q4/Baker-Hughes-4Q25-Earnings-Call-Prepared-Remarks-1-25-2025.pdf))",
+      "Management highlighted IET order momentum, including record IET orders and backlog visibility, and noted strong working-capital performance in Q4 2025 supported by collections and customer down payments. ([investors.bakerhughes.com](https://investors.bakerhughes.com/files/doc_financials/2025/Q4/Baker-Hughes-4Q25-Earnings-Call-Prepared-Remarks-1-25-2025.pdf))",
+      "Chart acquisition: management expects closing in the second quarter (timing subject to regulatory progress). ([investors.bakerhughes.com](https://investors.bakerhughes.com/files/doc_financials/2025/Q4/Baker-Hughes-4Q25-Earnings-Call-Prepared-Remarks-1-25-2025.pdf))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue starts from FY2026 guidance and then steps to modest growth, reflecting normalization after 2025 while IET order durability supports upside visibility. ([investors.bakerhughes.com](https://investors.bakerhughes.com/files/doc_financials/2025/Q4/Baker-Hughes-4Q25-Earnings-Call-Prepared-Remarks-1-25-2025.pdf))",
+      "EBIT margin is modeled to gradually expand from ~2025 levels toward a low- to mid-teens steady state, consistent with management\u2019s cost-out and margin expansion emphasis through the near term and beyond. ([investors.bakerhughes.com](https://investors.bakerhughes.com/files/doc_financials/2025/Q4/Baker-Hughes-4Q25-Earnings-Call-Prepared-Remarks-1-25-2025.pdf))",
+      "Capital intensity is kept broadly stable (~mid-4% of sales) to reflect ongoing investment needs, while working-capital intensity normalizes from an elevated 2025 level toward a more typical run-rate for long-cycle services. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001701605/000170160526000007/bkr-20251231.htm))",
+      "Balance-sheet adjustments for valuation use cash and total debt from the latest annual report, with noncontrolling interests incorporated from the equity section. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001701605/000170160526000007/bkr-20251231.htm))"
+    ],
+    "key_risks": [
+      "Cyclicality in OFSE and broader upstream/downstream capex environment could pressure volumes and pricing, offsetting IET gains. ([investors.bakerhughes.com](https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Announces-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx))",
+      "Working-capital volatility (progress collections/deferred income dynamics) can change free-cash-flow conversion relative to the DCF build. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001701605/000170160526000007/bkr-20251231.htm))",
+      "Execution and regulatory timing risk around the Chart acquisition may affect near-term reported results and leverage targets. ([investors.bakerhughes.com](https://investors.bakerhughes.com/files/doc_financials/2025/Q4/Baker-Hughes-4Q25-Earnings-Call-Prepared-Remarks-1-25-2025.pdf))",
+      "Tax-rate normalization and NOL utilization assumptions could differ from model expectations. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001701605/000170160526000007/bkr-20251231.htm))"
+    ],
+    "sources": [
+      {
+        "label": "Baker Hughes 2025 Form 10-K (SEC HTML)",
+        "notes": "Provides consolidated revenue, income before income taxes, interest expense, D&A, cash capex, cash/debt, and noncontrolling interests. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001701605/000170160526000007/bkr-20251231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1701605/000170160526000007/bkr-20251231.htm"
+      },
+      {
+        "label": "Baker Hughes 2024 Form 10-K (SEC HTML)",
+        "notes": "Provides 2023 balance-sheet inputs used to compute 2023 NWC (and 2023 cash and current liability components). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1701605/000170160525000035/bkr-20241231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1701605/000170160525000035/bkr-20241231.htm"
+      },
+      {
+        "label": "Baker Hughes Q4 & Full-Year 2025 Results Press Release",
+        "notes": "Supports latest context for FY2025 execution and forward-looking commentary framework. ([investors.bakerhughes.com](https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Announces-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx))",
+        "url": "https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Announces-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+      },
+      {
+        "label": "Baker Hughes 4Q25 Earnings Call Prepared Remarks (Guidance & Outlook)",
+        "notes": "Provides FY2026 revenue/Adjusted EBITDA guidance, projected effective tax rate range, Chart acquisition closing timing, and commentary on margin/cost-out and working-capital efficiency. ([investors.bakerhughes.com](https://investors.bakerhughes.com/files/doc_financials/2025/Q4/Baker-Hughes-4Q25-Earnings-Call-Prepared-Remarks-1-25-2025.pdf))",
+        "url": "https://investors.bakerhughes.com/files/doc_financials/2025/Q4/Baker-Hughes-4Q25-Earnings-Call-Prepared-Remarks-1-25-2025.pdf"
+      },
+      {
+        "label": "M&A Insights Blog: Oil & Gas Services Public Peer Comps (NTM snapshot)",
+        "notes": "Used to populate peer EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM fields; source notes the snapshot is illustrative and should be refreshed. ([mergersandacquisitions.net](https://mergersandacquisitions.net/insights/oil-gas-services-m-a-trends-analysis-report))",
+        "url": "https://mergersandacquisitions.net/insights/oil-gas-services-m-a-trends-analysis-report"
+      }
+    ],
+    "subtitle": "DCF input deck \u2014 Baker Hughes (BKR)",
+    "valuation_summary": [
+      "The DCF uses an EBIT-based operating cash flow build (EBIT proxy, plus D&A, less cash capex, less the change in NWC), with a Gordon-growth terminal value. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001701605/000170160526000007/bkr-20251231.htm))",
+      "A WACC in the 8% range is applied as a sober discount-rate assumption for an industrial/service business; terminal growth is set at 2% as a long-run nominal proxy. ([mergersandacquisitions.net](https://mergersandacquisitions.net/insights/oil-gas-services-m-a-trends-analysis-report))",
+      "Oilfield-services and energy-technology peer multiples (NTM snapshot) are used only as a cross-check; they should be refreshed with live data before investment committee use. ([mergersandacquisitions.net](https://mergersandacquisitions.net/insights/oil-gas-services-m-a-trends-analysis-report))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 60.35,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.119,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.019,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.082
+      },
+      "description": "Modestly weaker revenue growth and margin compression with higher terminal risk (higher WACC) and lower steady-state growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.045,
+          "2027": 0.045,
+          "2028": 0.045,
+          "2029": 0.045,
+          "2030": 0.045
+        },
+        "da_pct_sales": {
+          "2026": 0.0424,
+          "2027": 0.0424,
+          "2028": 0.0424,
+          "2029": 0.0424,
+          "2030": 0.0424
+        },
+        "ebit_margin": {
+          "2026": 0.111,
+          "2027": 0.113,
+          "2028": 0.115,
+          "2029": 0.117,
+          "2030": 0.119
+        },
+        "nwc_pct_sales": {
+          "2026": 0.052,
+          "2027": 0.0425,
+          "2028": 0.042,
+          "2029": 0.042,
+          "2030": 0.042
+        },
+        "revenue_growth": {
+          "2026": -0.03,
+          "2027": 0.015,
+          "2028": 0.02,
+          "2029": 0.015,
+          "2030": 0.015
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 60.35,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.123,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.021,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.078
+      },
+      "description": "Modestly better revenue growth and margin expansion with slightly lower terminal risk (lower WACC) and higher steady-state growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0465,
+          "2027": 0.0465,
+          "2028": 0.0465,
+          "2029": 0.0465,
+          "2030": 0.0465
+        },
+        "da_pct_sales": {
+          "2026": 0.0426,
+          "2027": 0.0426,
+          "2028": 0.0426,
+          "2029": 0.0426,
+          "2030": 0.0426
+        },
+        "ebit_margin": {
+          "2026": 0.117,
+          "2027": 0.119,
+          "2028": 0.121,
+          "2029": 0.122,
+          "2030": 0.123
+        },
+        "nwc_pct_sales": {
+          "2026": 0.048,
+          "2027": 0.0405,
+          "2028": 0.04,
+          "2029": 0.04,
+          "2030": 0.04
+        },
+        "revenue_growth": {
+          "2026": -0.01,
+          "2027": 0.025,
+          "2028": 0.03,
+          "2029": 0.025,
+          "2030": 0.022
+        }
+      }
+    }
+  },
+  "ticker": "BKR"
+}

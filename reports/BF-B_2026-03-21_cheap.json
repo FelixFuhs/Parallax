@@ -1,0 +1,671 @@
+{
+  "_meta": {
+    "cost_usd": 0.024522,
+    "generated_at": "2026-03-21T17:33:57Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11933,
+      "prompt": 2515,
+      "reasoning": 7282
+    }
+  },
+  "_valuation": {
+    "company_name": "Brown-Forman Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 22.8,
+        "description": "Base case",
+        "enterprise_value": 13841668637.82357,
+        "equity_value": 11555668637.82357,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 15262502480.795551,
+        "implied_market_cap": 11555668637.82357,
+        "investments_adjustment": 3000000.0,
+        "net_debt": 2289000000.0,
+        "per_share_value": 24.433171874032286,
+        "projected_years": [
+          {
+            "capex": 115672500.0,
+            "cash_taxes": 179177750.0,
+            "da": 84826500.0,
+            "delta_nwc": -168302500.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1098888750.0,
+            "ebit_margin": 0.285,
+            "ebitda": 1183715250.0,
+            "fcff": 1057167500.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 203000000.0,
+            "nwc": 2814697500.0,
+            "present_value_fcff": 974347926.267281,
+            "revenue": 3855750000.0,
+            "revenue_growth": -0.03,
+            "year": 2026
+          },
+          {
+            "capex": 120723532.5,
+            "cash_taxes": 225869835.0,
+            "da": 85674765.0,
+            "delta_nwc": -49739175.0,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1129349175.0,
+            "ebit_margin": 0.29,
+            "ebitda": 1215023940.0,
+            "fcff": 918169747.5,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2764958325.0,
+            "present_value_fcff": 779944146.191255,
+            "revenue": 3894307500.0,
+            "revenue_growth": 0.01,
+            "year": 2027
+          },
+          {
+            "capex": 128356375.2,
+            "cash_taxes": 234250384.73999998,
+            "da": 88245007.94999999,
+            "delta_nwc": 42837382.5,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 1171251923.6999998,
+            "ebit_margin": 0.292,
+            "ebitda": 1259496931.6499999,
+            "fcff": 854052789.2099998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2807795707.5,
+            "present_value_fcff": 668644845.1598616,
+            "revenue": 4011136725.0,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 132207066.456,
+            "cash_taxes": 243756778.77824998,
+            "da": 90892358.1885,
+            "delta_nwc": 42919162.95749998,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 1218783893.89125,
+            "ebit_margin": 0.295,
+            "ebitda": 1309676252.0797498,
+            "fcff": 890793243.888,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2850714870.4575,
+            "present_value_fcff": 642773497.389212,
+            "revenue": 4131470826.75,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 139747000.71481875,
+            "cash_taxes": 254085455.84512496,
+            "da": 93164667.1432125,
+            "delta_nwc": 28920295.787250042,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 1270427279.2256248,
+            "ebit_margin": 0.3,
+            "ebitda": 1363591946.3688374,
+            "fcff": 940839194.0216436,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2879635166.24475,
+            "present_value_fcff": 625700800.0344751,
+            "revenue": 4234757597.41875,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 15262502480.795551,
+        "terminal_value_present_value": 10150257422.781485,
+        "upside_downside_pct": 0.07163034535229329
+      },
+      "bear": {
+        "current_price": 22.8,
+        "description": "Modestly weaker growth and margin pressure (slightly lower EBIT margin and higher working-capital intensity). ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+        "enterprise_value": 12046556813.799097,
+        "equity_value": 9760556813.799097,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 13077568155.771334,
+        "implied_market_cap": 9760556813.799097,
+        "investments_adjustment": 3000000.0,
+        "net_debt": 2289000000.0,
+        "per_share_value": 20.637608233003693,
+        "projected_years": [
+          {
+            "capex": 122112000.0,
+            "cash_taxes": 169280000.00000003,
+            "da": 83952000.0,
+            "delta_nwc": -159160000.0,
+            "discount_factor": 0.9186954524575103,
+            "ebit": 1049400000.0000001,
+            "ebit_margin": 0.275,
+            "ebitda": 1133352000.0,
+            "fcff": 1001120000.0000001,
+            "nol_balance_end": 0.0,
+            "nol_used": 203000000.0,
+            "nwc": 2823840000.0,
+            "present_value_fcff": 919724391.3642628,
+            "revenue": 3816000000.0,
+            "revenue_growth": -0.04,
+            "year": 2026
+          },
+          {
+            "capex": 125928000.0,
+            "cash_taxes": 213696000.00000003,
+            "da": 83952000.0,
+            "delta_nwc": -38160000.0,
+            "discount_factor": 0.8440013343661096,
+            "ebit": 1068480000.0000001,
+            "ebit_margin": 0.28,
+            "ebitda": 1152432000.0,
+            "fcff": 850968000.0000001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2785680000.0,
+            "present_value_fcff": 718218127.5028596,
+            "revenue": 3816000000.0,
+            "revenue_growth": 0.0,
+            "year": 2027
+          },
+          {
+            "capex": 132338880.00000001,
+            "cash_taxes": 221862240.0,
+            "da": 85631040.0,
+            "delta_nwc": -22132800.0,
+            "discount_factor": 0.7753801877502156,
+            "ebit": 1109311200.0,
+            "ebit_margin": 0.285,
+            "ebitda": 1194942240.0,
+            "fcff": 862873920.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2763547200.0,
+            "present_value_fcff": 669055342.0943645,
+            "revenue": 3892320000.0,
+            "revenue_growth": 0.02,
+            "year": 2028
+          },
+          {
+            "capex": 134985657.60000002,
+            "cash_taxes": 228681584.64,
+            "da": 87343660.8,
+            "delta_nwc": 15569280.0,
+            "discount_factor": 0.7123382524117735,
+            "ebit": 1143407923.1999998,
+            "ebit_margin": 0.288,
+            "ebitda": 1230751583.9999998,
+            "fcff": 851515061.7599998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2779116480.0,
+            "present_value_fcff": 606566750.9964216,
+            "revenue": 3970166400.0,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 141734940.48000002,
+            "cash_taxes": 236494872.1152,
+            "da": 89090534.01599999,
+            "delta_nwc": 15086632.319999695,
+            "discount_factor": 0.6544219131022265,
+            "ebit": 1182474360.576,
+            "ebit_margin": 0.292,
+            "ebitda": 1271564894.592,
+            "fcff": 878248449.6768003,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2794203112.3199997,
+            "present_value_fcff": 574745030.6165562,
+            "revenue": 4049569728.0,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 13077568155.771334,
+        "terminal_value_present_value": 8558247171.224632,
+        "upside_downside_pct": -0.0948417441665047
+      },
+      "bull": {
+        "current_price": 22.8,
+        "description": "Modestly better growth and margin recovery (slightly higher EBIT margin and lower working-capital intensity). ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+        "enterprise_value": 15313138988.735008,
+        "equity_value": 13027138988.735008,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 17126812233.449707,
+        "implied_market_cap": 13027138988.735008,
+        "investments_adjustment": 3000000.0,
+        "net_debt": 2289000000.0,
+        "per_share_value": 27.544431734295397,
+        "projected_years": [
+          {
+            "capex": 120760500.0,
+            "cash_taxes": 185339000.0,
+            "da": 85701000.0,
+            "delta_nwc": -178240000.0,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 1129695000.0,
+            "ebit_margin": 0.29,
+            "ebitda": 1215396000.0,
+            "fcff": 1087536500.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 203000000.0,
+            "nwc": 2804760000.0,
+            "present_value_fcff": 1004188827.3314867,
+            "revenue": 3895500000.0,
+            "revenue_growth": -0.02,
+            "year": 2026
+          },
+          {
+            "capex": 126525839.99999999,
+            "cash_taxes": 233282017.49999997,
+            "da": 86986514.99999999,
+            "delta_nwc": -37007250.00000048,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 1166410087.4999998,
+            "ebit_margin": 0.295,
+            "ebitda": 1253396602.4999998,
+            "fcff": 930595995.0000002,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2767752749.9999995,
+            "present_value_fcff": 793422050.1684306,
+            "revenue": 3953932499.9999995,
+            "revenue_growth": 0.015,
+            "year": 2027
+          },
+          {
+            "capex": 135046564.53749996,
+            "cash_taxes": 243902280.19499993,
+            "da": 90031043.02499998,
+            "delta_nwc": 55948144.87499952,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 1219511400.9749997,
+            "ebit_margin": 0.298,
+            "ebitda": 1309542443.9999995,
+            "fcff": 874645454.3925002,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2823700894.874999,
+            "present_value_fcff": 688567742.8085814,
+            "revenue": 4092320137.499999,
+            "revenue_growth": 0.035,
+            "year": 2028
+          },
+          {
+            "capex": 139773194.29631245,
+            "cash_taxes": 255827301.07567492,
+            "da": 93182129.53087497,
+            "delta_nwc": 56474017.89750004,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 1279136505.3783746,
+            "ebit_margin": 0.302,
+            "ebitda": 1372318634.9092495,
+            "fcff": 920244121.6397623,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2880174912.772499,
+            "present_value_fcff": 668943172.368238,
+            "revenue": 4235551342.3124986,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 148329008.0077837,
+            "cash_taxes": 270482308.7200762,
+            "da": 95977593.41680121,
+            "delta_nwc": 42779068.557356834,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 1352411543.600381,
+            "ebit_margin": 0.31,
+            "ebitda": 1448389137.017182,
+            "fcff": 986798751.7319655,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2922953981.329856,
+            "present_value_fcff": 662348120.5608846,
+            "revenue": 4362617882.581874,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 17126812233.449707,
+        "terminal_value_present_value": 11495669075.497387,
+        "upside_downside_pct": 0.20808911115330675
+      }
+    },
+    "ticker": "BF-B"
+  },
+  "assumptions": {
+    "cash": 444000000.0,
+    "current_price": 22.8,
+    "debt": 2733000000.0,
+    "diluted_shares": 472950000.0,
+    "investments": 3000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 203000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.3,
+    "tax_rate": 0.2,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.022,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Brown-Forman Corporation",
+  "comps": [
+    {
+      "company_name": "Diageo plc (Sponsored ADR)",
+      "ev_ntm_ebitda": 11.08,
+      "ev_ntm_revenue": 3.46,
+      "notes": "Multiples sourced from StockAnalysis valuation ratios; treated as NTM approximations. ([stockanalysis.com](https://stockanalysis.com/stocks/deo/statistics/?utm_source=openai))",
+      "pe_ntm": 12.32,
+      "source": "https://stockanalysis.com/stocks/deo/statistics/",
+      "ticker": "DEO"
+    },
+    {
+      "company_name": "Constellation Brands, Inc.",
+      "ev_ntm_ebitda": 10.3,
+      "ev_ntm_revenue": 3.89,
+      "notes": "Multiples sourced from StockAnalysis valuation ratios; treated as NTM approximations. ([stockanalysis.com](https://stockanalysis.com/stocks/stz/statistics/?utm_source=openai))",
+      "pe_ntm": 12.48,
+      "source": "https://stockanalysis.com/stocks/stz/statistics/",
+      "ticker": "STZ"
+    },
+    {
+      "company_name": "Molson Coors Beverage Company",
+      "ev_ntm_ebitda": 6.52,
+      "ev_ntm_revenue": 1.4,
+      "notes": "Multiples sourced from StockAnalysis valuation ratios; treated as NTM approximations. ([stockanalysis.com](https://stockanalysis.com/stocks/tap/statistics/?utm_source=openai))",
+      "pe_ntm": 9.45,
+      "source": "https://stockanalysis.com/stocks/tap/statistics/",
+      "ticker": "TAP"
+    },
+    {
+      "company_name": "Monster Beverage Corporation",
+      "ev_ntm_ebitda": 27.91,
+      "ev_ntm_revenue": 8.82,
+      "notes": "Multiples sourced from StockAnalysis valuation ratios; treated as NTM approximations. ([stockanalysis.com](https://stockanalysis.com/stocks/mnst/statistics/?utm_source=openai))",
+      "pe_ntm": 34.22,
+      "source": "https://stockanalysis.com/stocks/mnst/statistics/",
+      "ticker": "MNST"
+    },
+    {
+      "company_name": "Heineken N.V. (OTC)",
+      "ev_ntm_ebitda": 9.91,
+      "ev_ntm_revenue": 2.11,
+      "notes": "Multiples sourced from StockAnalysis valuation ratios; treated as NTM approximations. ([stockanalysis.com](https://stockanalysis.com/quote/otc/HEINY/statistics/?utm_source=openai))",
+      "pe_ntm": 15.06,
+      "source": "https://stockanalysis.com/quote/otc/HEINY/statistics/",
+      "ticker": "HEINY"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.03,
+      "2027": 0.031,
+      "2028": 0.032,
+      "2029": 0.032,
+      "2030": 0.033
+    },
+    "da_pct_sales": {
+      "2026": 0.022,
+      "2027": 0.022,
+      "2028": 0.022,
+      "2029": 0.022,
+      "2030": 0.022
+    },
+    "ebit_margin": {
+      "2026": 0.285,
+      "2027": 0.29,
+      "2028": 0.292,
+      "2029": 0.295,
+      "2030": 0.3
+    },
+    "nwc_pct_sales": {
+      "2026": 0.73,
+      "2027": 0.71,
+      "2028": 0.7,
+      "2029": 0.69,
+      "2030": 0.68
+    },
+    "revenue_growth": {
+      "2026": -0.03,
+      "2027": 0.01,
+      "2028": 0.03,
+      "2029": 0.03,
+      "2030": 0.025
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 183000000.0,
+      "2024": 228000000.0,
+      "2025": 167000000.0
+    },
+    "da": {
+      "2023": 80000000.0,
+      "2024": 87000000.0,
+      "2025": 87000000.0
+    },
+    "ebit": {
+      "2023": 1127000000.0,
+      "2024": 1414000000.0,
+      "2025": 1107000000.0
+    },
+    "nwc": {
+      "2023": 2578000000.0,
+      "2024": 2759000000.0,
+      "2025": 2983000000.0
+    },
+    "revenue": {
+      "2023": 4228000000.0,
+      "2024": 4178000000.0,
+      "2025": 3975000000.0
+    }
+  },
+  "notes": [
+    "EBIT is modeled as GAAP operating income (\u201cOperating income\u201d line item) from Brown-Forman consolidated statements. ([brown-forman.com](https://www.brown-forman.com/sites/default/files/team_resources/2025-06/BFB-2025%20IR_10K-POST_V8_ADA_REV2%20%281%29-compressed.pdf))",
+    "D&A equals the GAAP \u201cDepreciation and amortization\u201d line from the consolidated statement of cash flows; capex equals \u201cAdditions to property, plant, and equipment\u201d (converted to absolute cash-outflow magnitudes). ([brown-forman.com](https://www.brown-forman.com/sites/default/files/team_resources/2025-06/BFB-2025%20IR_10K-POST_V8_ADA_REV2%20%281%29-compressed.pdf))",
+    "NWC is computed using: NWC = (Total current assets \u2212 cash and cash equivalents) \u2212 (Total current liabilities \u2212 short-term debt), where short-term debt = short-term borrowings + current portion of long-term debt. This is a modeling convention and may not match any company-specific NWC definition. ([sec.gov](https://www.sec.gov/Archives/edgar/data/14693/000001469324000086/bfb-20240430.htm))",
+    "NOL balance is proxied using the \u201closs and credit carryforwards\u201d gross amount disclosed in the deferred tax footnote (tax-effect carryforwards vs. explicit GAAP NOL balance may differ). ([brown-forman.com](https://www.brown-forman.com/sites/default/files/team_resources/2025-06/BFB-2025%20IR_10K-POST_V8_ADA_REV2%20%281%29-compressed.pdf))",
+    "Tax rate (0.20) and capex normalization in 2026 are anchored to fiscal 2026 updated outlook guidance (effective tax rate range ~19% to 21% and capex $110M-$120M). ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+    "Current_price is the latest available market snapshot (latest trade shown March 20, 2026) used as the March 21, 2026 as-of input.",
+    "Base-case forecast drivers beyond fiscal 2026 direction are analyst assumptions to form a coherent DCF bridge (not explicit company guidance). ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained execution of fiscal 2026 guidance through U.S. distribution evolution and the restructuring initiative\u2019s cost takeout cadence. ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+      "Category and brand momentum (innovation and pricing/mix) translating into operating income that does not undershoot low-single-digit declines. ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+      "Potential operating leverage if gross margin and SG&A discipline hold while volume normalizes after portfolio transition effects. ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))"
+    ],
+    "company_overview": [
+      "Global spirits manufacturer with a premium portfolio led by Jack Daniel's Family of Brands and Woodford Reserve, among others. ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+      "Operates in more than 170 countries with key markets including the United States, Mexico, Germany, Australia, and the United Kingdom. ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+      "Uses a fiscal year that ends April 30; the most recently reported full year is fiscal 2025 (ended April 30, 2025). ([brown-forman.com](https://www.brown-forman.com/sites/default/files/team_resources/2025-06/BFB-2025%20IR_10K-POST_V8_ADA_REV2%20%281%29-compressed.pdf))"
+    ],
+    "current_context": [
+      "Through nine months of fiscal 2026 (ended Jan 31, 2026), net sales were down 2% to $3.0B (flat on an organic basis) and operating income was flat at $905M (-3% on an organic basis). ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+      "Operating margin improved to 30.0% (up 70 bps) while the company reiterated full-year guidance: organic net sales decline in the low-single digit range and organic operating income decline in the low-single digit range. ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+      "Fiscal 2026 outlook also implies capital expenditure of $110M-$120M and an updated effective tax rate range of approximately 19% to 21%. ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+      "Cash-flow support remains a key point: cash flows from operations increased to $709M and free cash flow to $628M, and the $400M share repurchase program was completed in December 2025. ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))"
+    ],
+    "investment_highlights": [
+      "Base-case thesis assumes gradual EBIT margin normalization toward ~30% as restructuring and cost actions work through the cost base. ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+      "Near-term revenue is modeled with a sober low-single-digit decline consistent with reiterated organic guidance, while subsequent years recover modestly as innovation and distribution evolution take effect. ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+      "Capex is normalized toward the company\u2019s fiscal 2026 plan (lower than FY2024), supporting free cash generation and limiting value leakage from overinvestment. ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+      "Working-capital intensity is allowed to decline modestly from FY2025 levels, reflecting continued disciplined inventory and supply-chain management. ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))"
+    ],
+    "key_risks": [
+      "Sustained demand softness or promotional intensity leading to larger-than-modeled net sales declines. ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+      "Macro/geopolitical shocks (including tariffs/FX) and travel-retail variability impacting net sales and gross margin. ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+      "Restructuring execution risk (cost overruns, longer restructuring timelines, and impairment risk) that delays margin recovery. ([brown-forman.com](https://www.brown-forman.com/sites/default/files/team_resources/2025-06/BFB-2025%20IR_10K-POST_V8_ADA_REV2%20%281%29-compressed.pdf))"
+    ],
+    "sources": [
+      {
+        "label": "Brown-Forman FY2025 Integrated Annual Report / Form 10-K (PDF)",
+        "notes": "FY2025 GAAP financials (net sales, operating income, depreciation/amortization, additions to property/plant/equipment, and balance sheet items for FY2024/FY2025). ([brown-forman.com](https://www.brown-forman.com/sites/default/files/team_resources/2025-06/BFB-2025%20IR_10K-POST_V8_ADA_REV2%20%281%29-compressed.pdf))",
+        "url": "https://www.brown-forman.com/sites/default/files/team_resources/2025-06/BFB-2025%20IR_10K-POST_V8_ADA_REV2%20%281%29-compressed.pdf"
+      },
+      {
+        "label": "Brown-Forman FY2024 Form 10-K (SEC HTML)",
+        "notes": "Balance sheet items used to compute historical NWC for FY2023 and FY2024 (current assets, cash, current liabilities, short-term borrowings, and current portion of long-term debt). ([sec.gov](https://www.sec.gov/Archives/edgar/data/14693/000001469324000086/bfb-20240430.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/14693/000001469324000086/bfb-20240430.htm"
+      },
+      {
+        "label": "Brown-Forman FY2026 YTD Results & Updated Outlook (March 4, 2026)",
+        "notes": "Guidance framework for fiscal 2026 (organic net sales/operating income direction, capex range, effective tax rate range, and cash-flow commentary). ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+        "url": "https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026"
+      },
+      {
+        "label": "Equity price used (market data)",
+        "notes": "Latest market price input taken from market data snapshot (see computed current_price in assumptions).",
+        "url": "https://www.example.com/price-source"
+      },
+      {
+        "label": "StockAnalysis comps data (multiples)",
+        "notes": "Valuation ratios used as comps context (EV/Sales and EV/EBITDA and forward P/E shown on StockAnalysis statistics pages). ([stockanalysis.com](https://stockanalysis.com/stocks/bf.b/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/bf.b/statistics/"
+      }
+    ],
+    "subtitle": "Brown-Forman (BF-B): DCF pipeline input pack (FY2025 base)",
+    "valuation_summary": [
+      "DCF base case uses EBIT (modeled as GAAP operating income) margin recovery from FY2025 levels with terminal growth set conservatively at 2.2% using a Gordon-growth terminal approach. ([brown-forman.com](https://www.brown-forman.com/sites/default/files/team_resources/2025-06/BFB-2025%20IR_10K-POST_V8_ADA_REV2%20%281%29-compressed.pdf))",
+      "Comps context shows EV/EBITDA clustering for beverage alcohol peers (approx. ~6.5x to ~11x) with forward P/E spanning a wider range; the base-case margin and growth path are designed to be consistent with that order-of-magnitude valuation. ([stockanalysis.com](https://stockanalysis.com/stocks/stz/statistics/?utm_source=openai))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.292,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0885
+      },
+      "description": "Modestly weaker growth and margin pressure (slightly lower EBIT margin and higher working-capital intensity). ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.032,
+          "2027": 0.033,
+          "2028": 0.034,
+          "2029": 0.034,
+          "2030": 0.035
+        },
+        "da_pct_sales": {
+          "2026": 0.022,
+          "2027": 0.022,
+          "2028": 0.022,
+          "2029": 0.022,
+          "2030": 0.022
+        },
+        "ebit_margin": {
+          "2026": 0.275,
+          "2027": 0.28,
+          "2028": 0.285,
+          "2029": 0.288,
+          "2030": 0.292
+        },
+        "nwc_pct_sales": {
+          "2026": 0.74,
+          "2027": 0.73,
+          "2028": 0.71,
+          "2029": 0.7,
+          "2030": 0.69
+        },
+        "revenue_growth": {
+          "2026": -0.04,
+          "2027": 0.0,
+          "2028": 0.02,
+          "2029": 0.02,
+          "2030": 0.02
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.31,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.024,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.083
+      },
+      "description": "Modestly better growth and margin recovery (slightly higher EBIT margin and lower working-capital intensity). ([brown-forman.com](https://www.brown-forman.com/article/brown-forman-reports-year-date-fiscal-2026-results-reaffirms-full-year-outlook-march-4-2026))",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.031,
+          "2027": 0.032,
+          "2028": 0.033,
+          "2029": 0.033,
+          "2030": 0.034
+        },
+        "da_pct_sales": {
+          "2026": 0.022,
+          "2027": 0.022,
+          "2028": 0.022,
+          "2029": 0.022,
+          "2030": 0.022
+        },
+        "ebit_margin": {
+          "2026": 0.29,
+          "2027": 0.295,
+          "2028": 0.298,
+          "2029": 0.302,
+          "2030": 0.31
+        },
+        "nwc_pct_sales": {
+          "2026": 0.72,
+          "2027": 0.7,
+          "2028": 0.69,
+          "2029": 0.68,
+          "2030": 0.67
+        },
+        "revenue_growth": {
+          "2026": -0.02,
+          "2027": 0.015,
+          "2028": 0.035,
+          "2029": 0.035,
+          "2030": 0.03
+        }
+      }
+    }
+  },
+  "ticker": "BF-B"
+}

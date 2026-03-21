@@ -1,0 +1,690 @@
+{
+  "_meta": {
+    "cost_usd": 0.026597,
+    "generated_at": "2026-03-21T17:37:08Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12193,
+      "prompt": 2515,
+      "reasoning": 8682
+    }
+  },
+  "_valuation": {
+    "company_name": "Skyworks Solutions, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 54.44,
+        "description": "Base case",
+        "enterprise_value": 14274997788.901115,
+        "equity_value": 14667597788.901115,
+        "exit_multiple_terminal_value": 16524145669.388666,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 14667597788.901115,
+        "investments_adjustment": 0.0,
+        "net_debt": -392600000.0,
+        "per_share_value": 94.56865112121932,
+        "projected_years": [
+          {
+            "capex": 180232290.0,
+            "cash_taxes": 56592939.06,
+            "da": 493493175.0,
+            "delta_nwc": 107986350.0,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 600774300.0,
+            "ebit_margin": 0.14,
+            "ebitda": 1094267475.0,
+            "fcff": 749455895.94,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 986986350.0,
+            "present_value_fcff": 687574216.4587156,
+            "revenue": 4291245000.0,
+            "revenue_growth": 0.05,
+            "year": 2026
+          },
+          {
+            "capex": 182978686.8,
+            "cash_taxes": 63060703.524000004,
+            "da": 513232902.0,
+            "delta_nwc": 61793928.0,
+            "discount_factor": 0.84167999326656,
+            "ebit": 669434220.0,
+            "ebit_margin": 0.15,
+            "ebitda": 1182667122.0,
+            "fcff": 874833803.6759999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1048780278.0,
+            "present_value_fcff": 736330109.9873747,
+            "revenue": 4462894800.0,
+            "revenue_growth": 0.04,
+            "year": 2027
+          },
+          {
+            "capex": 189382940.838,
+            "cash_taxes": 67443422.418918,
+            "da": 531196053.57000005,
+            "delta_nwc": 59802790.31999993,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 715959898.29,
+            "ebit_margin": 0.155,
+            "ebitda": 1247155951.8600001,
+            "fcff": 930526798.283082,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1108583068.32,
+            "present_value_fcff": 718537421.3883102,
+            "revenue": 4619096118.0,
+            "revenue_growth": 0.035,
+            "year": 2028
+          },
+          {
+            "capex": 195064429.06314,
+            "cash_taxes": 71707587.19121088,
+            "da": 551889604.17864,
+            "delta_nwc": 57045837.05730009,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 761227040.2464,
+            "ebit_margin": 0.16,
+            "ebitda": 1313116644.42504,
+            "fcff": 989298791.1133889,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1165628905.3773,
+            "present_value_fcff": 700844204.901046,
+            "revenue": 4757669001.54,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 200916361.9350342,
+            "cash_taxes": 76166902.76966432,
+            "da": 568446292.3039992,
+            "delta_nwc": 34968867.16131878,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 808565846.811723,
+            "ebit_margin": 0.165,
+            "ebitda": 1377012139.1157222,
+            "fcff": 1064960007.2497048,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1200597772.5386188,
+            "present_value_fcff": 692150933.8640964,
+            "revenue": 4900399071.5862,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 16524145669.388666,
+        "terminal_value_present_value": 10739560902.301573,
+        "upside_downside_pct": 0.7371170301473058
+      },
+      "bear": {
+        "current_price": 54.44,
+        "description": "Weaker cycle and margin recovery (lower growth and operating leverage), slightly higher WACC and lower terminal growth/multiple.",
+        "enterprise_value": 12101679365.882214,
+        "equity_value": 12494279365.882214,
+        "exit_multiple_terminal_value": 13985053097.35207,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 12494279365.882214,
+        "investments_adjustment": 0.0,
+        "net_debt": -392600000.0,
+        "per_share_value": 80.55628217847978,
+        "projected_years": [
+          {
+            "capex": 178515792.0,
+            "cash_taxes": 52050104.49600001,
+            "da": 488793240.0,
+            "delta_nwc": 141090240.0,
+            "discount_factor": 0.9132420091324202,
+            "ebit": 552548880.0,
+            "ebit_margin": 0.13,
+            "ebitda": 1041342120.0,
+            "fcff": 669685983.504,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1020090240.0,
+            "present_value_fcff": 611585373.0630137,
+            "revenue": 4250376000.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 179493378.48000002,
+            "cash_taxes": 55673592.53976001,
+            "da": 503457037.20000005,
+            "delta_nwc": 52492143.600000024,
+            "discount_factor": 0.8340109672442193,
+            "ebit": 591014782.8000001,
+            "ebit_margin": 0.135,
+            "ebitda": 1094471820.0,
+            "fcff": 806812705.3802401,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1072582383.6,
+            "present_value_fcff": 672890644.7990993,
+            "revenue": 4377887280.0,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 184878179.83440003,
+            "cash_taxes": 61591489.2282456,
+            "da": 518560748.3160001,
+            "delta_nwc": 54723591.00000012,
+            "discount_factor": 0.7616538513645839,
+            "ebit": 653837465.268,
+            "ebit_margin": 0.145,
+            "ebitda": 1172398213.584,
+            "fcff": 871204953.5213542,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1127305974.6000001,
+            "present_value_fcff": 663556608.1774427,
+            "revenue": 4509223898.400001,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 188575743.43108806,
+            "cash_taxes": 64989640.35807985,
+            "da": 533531371.6586881,
+            "delta_nwc": 45543161.37384009,
+            "discount_factor": 0.6955742934836383,
+            "ebit": 689911256.4552001,
+            "ebit_margin": 0.15,
+            "ebitda": 1223442628.1138883,
+            "fcff": 924334082.9508802,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1172849135.9738402,
+            "present_value_fcff": 642943026.6914052,
+            "revenue": 4599408376.368001,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 192347258.2997098,
+            "cash_taxes": 68499080.93741617,
+            "da": 544201999.0918618,
+            "delta_nwc": 23456982.71947694,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 727166464.3037809,
+            "ebit_margin": 0.155,
+            "ebitda": 1271368463.3956428,
+            "fcff": 987065141.43904,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1196306118.6933172,
+            "present_value_fcff": 627011085.2774317,
+            "revenue": 4691396543.895361,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 13985053097.35207,
+        "terminal_value_present_value": 8883692627.873821,
+        "upside_downside_pct": 0.47972597682732876
+      },
+      "bull": {
+        "current_price": 54.44,
+        "description": "Modestly stronger RF/end-market recovery (higher early revenue growth), improved operating leverage, slightly lower WACC and higher terminal multiple.",
+        "enterprise_value": 16152998556.141962,
+        "equity_value": 16545598556.141962,
+        "exit_multiple_terminal_value": 18659772727.58159,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 16545598556.141962,
+        "investments_adjustment": 0.0,
+        "net_debt": -392600000.0,
+        "per_share_value": 106.676973282669,
+        "projected_years": [
+          {
+            "capex": 181948788.0,
+            "cash_taxes": 59172345.126,
+            "da": 498193110.0,
+            "delta_nwc": 95725650.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 628156530.0,
+            "ebit_margin": 0.145,
+            "ebitda": 1126349640.0,
+            "fcff": 789502856.874,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 974725650.0,
+            "present_value_fcff": 727652402.6488479,
+            "revenue": 4332114000.0,
+            "revenue_growth": 0.06,
+            "year": 2026
+          },
+          {
+            "capex": 186497507.70000002,
+            "cash_taxes": 66415856.339700006,
+            "da": 523102765.5,
+            "delta_nwc": 71479881.0,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 705051553.5,
+            "ebit_margin": 0.155,
+            "ebitda": 1228154319.0,
+            "fcff": 903761073.9603,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1046205531.0,
+            "present_value_fcff": 767704622.2772198,
+            "revenue": 4548719700.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 193957408.00800002,
+            "cash_taxes": 71300635.45113601,
+            "da": 544026876.12,
+            "delta_nwc": 65501563.67999983,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 756906958.08,
+            "ebit_margin": 0.16,
+            "ebitda": 1300933834.2,
+            "fcff": 970174227.0608643,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1111707094.6799998,
+            "present_value_fcff": 759557259.254724,
+            "revenue": 4730668488.0,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 199776130.24824002,
+            "cash_taxes": 75734643.71825354,
+            "da": 565220270.9462401,
+            "delta_nwc": 57714155.55360031,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 803977109.5356001,
+            "ebit_margin": 0.165,
+            "ebitda": 1369197380.4818401,
+            "fcff": 1035972450.9617462,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1169421250.2336001,
+            "present_value_fcff": 747531079.8240395,
+            "revenue": 4872588542.64,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 205769414.15568724,
+            "cash_taxes": 80370521.9094921,
+            "da": 582176879.0746273,
+            "delta_nwc": 35082637.507008076,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 853190253.8162643,
+            "ebit_margin": 0.17,
+            "ebitda": 1435367132.8908916,
+            "fcff": 1114144559.3187041,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1204503887.7406082,
+            "present_value_fcff": 740956740.0566158,
+            "revenue": 5018766198.919201,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 18659772727.58159,
+        "terminal_value_present_value": 12409596452.080515,
+        "upside_downside_pct": 0.9595329405339641
+      }
+    },
+    "ticker": "SWKS"
+  },
+  "assumptions": {
+    "cash": 1388400000.0,
+    "current_price": 54.44,
+    "debt": 995800000.0,
+    "diluted_shares": 155100000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.165,
+    "tax_rate": 0.0942,
+    "terminal_exit_ebitda_multiple": 12.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.09
+  },
+  "company_name": "Skyworks Solutions, Inc.",
+  "comps": [
+    {
+      "company_name": "Qorvo, Inc.",
+      "ev_ntm_ebitda": 9.72,
+      "ev_ntm_revenue": 2.0,
+      "notes": "Used EV/Sales and EV/EBITDA as proxies for EV/NTM multiples because the page does not explicitly label them as NTM.",
+      "pe_ntm": 12.8,
+      "source": "StockAnalysis.com statistics (Forward PE; EV/Sales and EV/EBITDA shown on page)",
+      "ticker": "QRVO"
+    },
+    {
+      "company_name": "Analog Devices, Inc.",
+      "ev_ntm_ebitda": 28.52,
+      "ev_ntm_revenue": 13.24,
+      "notes": "Used EV/Sales and EV/EBITDA as proxies for EV/NTM multiples because the page does not explicitly label them as NTM.",
+      "pe_ntm": 25.86,
+      "source": "StockAnalysis.com statistics (Forward PE; EV/Sales and EV/EBITDA shown on page)",
+      "ticker": "ADI"
+    },
+    {
+      "company_name": "Texas Instruments Incorporated",
+      "ev_ntm_ebitda": 22.35,
+      "ev_ntm_revenue": 10.17,
+      "notes": "Used EV/Sales and EV/EBITDA as proxies for EV/NTM multiples because the page does not explicitly label them as NTM.",
+      "pe_ntm": 28.98,
+      "source": "StockAnalysis.com statistics (Forward PE; EV/Sales and EV/EBITDA shown on page)",
+      "ticker": "TXN"
+    },
+    {
+      "company_name": "NXP Semiconductors N.V.",
+      "ev_ntm_ebitda": 14.21,
+      "ev_ntm_revenue": 4.69,
+      "notes": "Used EV/Sales and EV/EBITDA as proxies for EV/NTM multiples because the page does not explicitly label them as NTM.",
+      "pe_ntm": 13.74,
+      "source": "StockAnalysis.com statistics (Forward PE; EV/Sales and EV/EBITDA shown on page)",
+      "ticker": "NXPI"
+    },
+    {
+      "company_name": "onsemi",
+      "ev_ntm_ebitda": 13.7,
+      "ev_ntm_revenue": 4.01,
+      "notes": "Used EV/Sales and EV/EBITDA as proxies for EV/NTM multiples because the page does not explicitly label them as NTM.",
+      "pe_ntm": 20.34,
+      "source": "StockAnalysis.com statistics (Forward PE; EV/Sales and EV/EBITDA shown on page)",
+      "ticker": "ON"
+    },
+    {
+      "company_name": "Monolithic Power Systems, Inc.",
+      "ev_ntm_ebitda": 65.63,
+      "ev_ntm_revenue": 18.37,
+      "notes": "Used EV/Sales and EV/EBITDA as proxies for EV/NTM multiples because the page does not explicitly label them as NTM.",
+      "pe_ntm": 49.67,
+      "source": "StockAnalysis.com statistics (Forward PE; EV/Sales and EV/EBITDA shown on page)",
+      "ticker": "MPWR"
+    },
+    {
+      "company_name": "Diodes Incorporated",
+      "ev_ntm_ebitda": 14.92,
+      "ev_ntm_revenue": 1.81,
+      "notes": "Used EV/Sales and EV/EBITDA as proxies for EV/NTM multiples because the page does not explicitly label them as NTM.",
+      "pe_ntm": 29.08,
+      "source": "StockAnalysis.com statistics (Forward PE; EV/Sales and EV/EBITDA shown on page)",
+      "ticker": "DIOD"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.042,
+      "2027": 0.041,
+      "2028": 0.041,
+      "2029": 0.041,
+      "2030": 0.041
+    },
+    "da_pct_sales": {
+      "2026": 0.115,
+      "2027": 0.115,
+      "2028": 0.115,
+      "2029": 0.116,
+      "2030": 0.116
+    },
+    "ebit_margin": {
+      "2026": 0.14,
+      "2027": 0.15,
+      "2028": 0.155,
+      "2029": 0.16,
+      "2030": 0.165
+    },
+    "nwc_pct_sales": {
+      "2026": 0.23,
+      "2027": 0.235,
+      "2028": 0.24,
+      "2029": 0.245,
+      "2030": 0.245
+    },
+    "revenue_growth": {
+      "2026": 0.05,
+      "2027": 0.04,
+      "2028": 0.035,
+      "2029": 0.03,
+      "2030": 0.03
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 210300000.0,
+      "2024": 157000000.0,
+      "2025": 195000000.0
+    },
+    "da": {
+      "2023": 613700000.0,
+      "2024": 451300000.0,
+      "2025": 463000000.0
+    },
+    "ebit": {
+      "2023": 1125000000.0,
+      "2024": 637400000.0,
+      "2025": 500000000.0
+    },
+    "nwc": {
+      "2023": 1788800000.0,
+      "2024": 1175600000.0,
+      "2025": 879000000.0
+    },
+    "revenue": {
+      "2023": 4772400000.0,
+      "2024": 4178000000.0,
+      "2025": 4086900000.0
+    }
+  },
+  "notes": [
+    "Fiscal year labels in this package correspond to Skyworks fiscal years ended: FY23 (Sep. 29, 2023), FY24 (Sep. 27, 2024), FY25 (Oct. 3, 2025).",
+    "NWC is constructed as: (receivables + inventory + other current assets) minus (accounts payable + accrued compensation/benefits + other current liabilities), excluding cash/marketable securities and excluding current portion of long-term debt; this definition is consistent across FY23\u2013FY25 but may differ from other conventions.",
+    "D&A is modeled as (depreciation + amortization of intangible assets) based on company cash-flow line items; D&A components can include acquisition-related amortization.",
+    "WACC, target_ebit_margin, terminal exit multiple, and NOL items are DCF inputs; NOL balance/utilization were not extracted within the research call budget and are left null."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained Broad Markets strength (Wi-Fi 7 and data-center/cloud infrastructure scaling) that lifts overall revenue growth beyond the base-case recovery path.",
+      "Stabilization of Mobile demand versus the guided seasonal decline and any upside from share gains / design wins.",
+      "Execution and approvals related to the proposed combination with Qorvo (deal announced in late Oct. 2025)."
+    ],
+    "company_overview": [
+      "Skyworks is a leading developer and manufacturer of analog and mixed-signal semiconductor solutions used across aerospace, automotive, broadband, defense, connected home, smartphones and wearables.",
+      "Revenue is largely driven by RF front-end / connectivity content across mobile and broader end markets.",
+      "The company returned to positive operating income in FY25 but still reflects a cyclical down-cycle rebound profile."
+    ],
+    "current_context": [
+      "In Q1 FY26 (ended Jan. 2, 2026), Skyworks reported revenue of $1.035 billion and GAAP operating income of $104 million, highlighting outperformance across revenue and gross margin versus expectations.",
+      "For the March-quarter (Q2 FY26), management guided revenue of $875 million to $925 million; Mobile is expected to decline about 20% sequentially (seasonality), while Broad Markets are expected to be roughly flat sequentially and up high-single-digits year-over-year."
+    ],
+    "investment_highlights": [
+      "Base-case model assumes a gradual normalization from FY25 margins toward a sustainable mid-to-high teens EBIT margin as revenue recovers modestly.",
+      "Cash conversion is supported by a controlled capex profile (roughly low-to-mid single-digit capex as a percent of sales) and continued working-capital normalization (modeled via NWC % of sales).",
+      "Wireless platform innovation (Wi-Fi 7 / data center and connected infrastructure programs) is reflected in the revenue growth profile rather than a margin-only thesis.",
+      "Terminal value is anchored using an exit-multiple framework consistent with analog/RF peer valuation ranges."
+    ],
+    "key_risks": [
+      "Semiconductor cycle volatility (especially smartphone/Mobile exposure) and further declines in average selling prices or demand.",
+      "Competitive pricing pressure and market-share loss that prevents operating-margin recovery.",
+      "Working-capital swings (modeled NWC % of sales) that could reduce free cash flow relative to expectations."
+    ],
+    "sources": [
+      {
+        "label": "FY25 Q4 / Full Year financials (press release with income statement, cash flow, and condensed balance sheet)",
+        "notes": "Used for FY25 revenue, operating income (EBIT), depreciation and amortization components, and capex; also used for cash/debt snapshot.",
+        "url": null
+      },
+      {
+        "label": "FY24 Q4 / Full Year financials (press release with FY24 and FY23 statements)",
+        "notes": "Used for FY24 and FY23 revenue, operating income (EBIT), depreciation and amortization components, and capex.",
+        "url": null
+      },
+      {
+        "label": "Skyworks FY25 Form 10-K (period ended Oct. 3, 2025) \u2014 balance sheet for NWC construction",
+        "notes": "Used to compute NWC for FY25 from current assets and current liabilities, excluding cash/marketable securities and excluding current portion of long-term debt.",
+        "url": null
+      },
+      {
+        "label": "Skyworks FY24 Form 10-K (period ended Sep. 27, 2024) \u2014 balance sheet for NWC construction",
+        "notes": "Used to compute NWC for FY24 and FY23 using a consistent definition across years.",
+        "url": null
+      },
+      {
+        "label": "Q1 FY26 results press release (Feb. 3, 2026) \u2014 latest guidance/context",
+        "notes": "Used for Q1 performance and Q2 FY26 revenue guidance and qualitative drivers (Mobile vs Broad Markets).",
+        "url": null
+      },
+      {
+        "label": "Qorvo / Skyworks combination announcement (Oct. 28, 2025) \u2014 strategic context",
+        "notes": "Used for merger as a potential catalyst (regulatory and closing risk not modeled in cash flows explicitly).",
+        "url": null
+      }
+    ],
+    "subtitle": "Skyworks (SWKS) \u2014 DCF Input Package (Base/Bull/Bear)",
+    "valuation_summary": [
+      "DCF base case uses FY25 starting economics with modest top-line growth, improving EBIT margin, and economically consistent reinvestment (capex) and working-capital assumptions.",
+      "Bull/bear scenarios apply restrained changes to growth/margins and to capital-market assumptions (WACC and terminal growth/multiple) to reflect plausible cycle outcomes.",
+      "Comps are used as a reasonableness check via forward P/E and EV/valuation ratios for selected analog/RF and power-semiconductor peers."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 54.44,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.155,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 11.0,
+        "terminal_growth": 0.015,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.095
+      },
+      "description": "Weaker cycle and margin recovery (lower growth and operating leverage), slightly higher WACC and lower terminal growth/multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.042,
+          "2027": 0.041,
+          "2028": 0.041,
+          "2029": 0.041,
+          "2030": 0.041
+        },
+        "da_pct_sales": {
+          "2026": 0.115,
+          "2027": 0.115,
+          "2028": 0.115,
+          "2029": 0.116,
+          "2030": 0.116
+        },
+        "ebit_margin": {
+          "2026": 0.13,
+          "2027": 0.135,
+          "2028": 0.145,
+          "2029": 0.15,
+          "2030": 0.155
+        },
+        "nwc_pct_sales": {
+          "2026": 0.24,
+          "2027": 0.245,
+          "2028": 0.25,
+          "2029": 0.255,
+          "2030": 0.255
+        },
+        "revenue_growth": {
+          "2026": 0.04,
+          "2027": 0.03,
+          "2028": 0.03,
+          "2029": 0.02,
+          "2030": 0.02
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 54.44,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.17,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 13.0,
+        "terminal_growth": 0.025,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.085
+      },
+      "description": "Modestly stronger RF/end-market recovery (higher early revenue growth), improved operating leverage, slightly lower WACC and higher terminal multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.042,
+          "2027": 0.041,
+          "2028": 0.041,
+          "2029": 0.041,
+          "2030": 0.041
+        },
+        "da_pct_sales": {
+          "2026": 0.115,
+          "2027": 0.115,
+          "2028": 0.115,
+          "2029": 0.116,
+          "2030": 0.116
+        },
+        "ebit_margin": {
+          "2026": 0.145,
+          "2027": 0.155,
+          "2028": 0.16,
+          "2029": 0.165,
+          "2030": 0.17
+        },
+        "nwc_pct_sales": {
+          "2026": 0.225,
+          "2027": 0.23,
+          "2028": 0.235,
+          "2029": 0.24,
+          "2030": 0.24
+        },
+        "revenue_growth": {
+          "2026": 0.06,
+          "2027": 0.05,
+          "2028": 0.04,
+          "2029": 0.03,
+          "2030": 0.03
+        }
+      }
+    }
+  },
+  "ticker": "SWKS"
+}

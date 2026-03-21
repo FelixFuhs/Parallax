@@ -1,0 +1,683 @@
+{
+  "_meta": {
+    "cost_usd": 0.025585,
+    "generated_at": "2026-03-21T17:19:11Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12390,
+      "prompt": 2514,
+      "reasoning": 7676
+    }
+  },
+  "_valuation": {
+    "company_name": "Norfolk Southern Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 281.09,
+        "description": "Base case",
+        "enterprise_value": 66288142541.0695,
+        "equity_value": 54820142541.0695,
+        "exit_multiple_terminal_value": 84774699517.55968,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 54820142541.0695,
+        "investments_adjustment": 4089000000.0,
+        "net_debt": 15557000000.0,
+        "per_share_value": 243.6450779603089,
+        "projected_years": [
+          {
+            "capex": 2324187599.9999995,
+            "cash_taxes": 934620119.9999998,
+            "da": 1409347799.9999998,
+            "delta_nwc": 70129300.00000006,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 4326944999.999999,
+            "ebit_margin": 0.35,
+            "ebitda": 5736292799.999999,
+            "fcff": 2407355779.9999995,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -506870699.99999994,
+            "present_value_fcff": 2218761087.5576034,
+            "revenue": 12362699999.999998,
+            "revenue_growth": 0.015,
+            "year": 2026
+          },
+          {
+            "capex": 2344190448.5999994,
+            "cash_taxes": 944997073.6751997,
+            "da": 1429078669.1999998,
+            "delta_nwc": 5439588.0,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 4374986452.199999,
+            "ebit_margin": 0.349,
+            "ebitda": 5804065121.399999,
+            "fcff": 2509438011.1247997,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -501431111.99999994,
+            "present_value_fcff": 2131655385.4401665,
+            "revenue": 12535777799.999998,
+            "revenue_growth": 0.014,
+            "year": 2027
+          },
+          {
+            "capex": 2361966181.5203996,
+            "cash_taxes": 954539107.164115,
+            "da": 1441307320.4438999,
+            "delta_nwc": 6180138.45540005,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 4419162533.167199,
+            "ebit_margin": 0.348,
+            "ebitda": 5860469853.611099,
+            "fcff": 2537784426.4711847,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -495250973.5445999,
+            "present_value_fcff": 1986851979.5556746,
+            "revenue": 12698742911.399998,
+            "revenue_growth": 0.013,
+            "year": 2028
+          },
+          {
+            "capex": 2383884211.7854757,
+            "cash_taxes": 965993576.4500844,
+            "da": 1452177444.376058,
+            "delta_nwc": 6908116.14380157,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 4472192483.565206,
+            "ebit_margin": 0.348,
+            "ebitda": 5924369927.941263,
+            "fcff": 2567584023.561901,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -488342857.4007983,
+            "present_value_fcff": 1852702604.0995107,
+            "revenue": 12851127826.336798,
+            "revenue_growth": 0.012,
+            "year": 2029
+          },
+          {
+            "capex": 2403610692.9989023,
+            "cash_taxes": 973813127.9008311,
+            "da": 1461655151.1479814,
+            "delta_nwc": 7620718.801017821,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 4508394110.651996,
+            "ebit_margin": 0.347,
+            "ebitda": 5970049261.799977,
+            "fcff": 2585004722.099226,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -480722138.5997805,
+            "present_value_fcff": 1719145559.6110861,
+            "revenue": 12992490232.4265,
+            "revenue_growth": 0.011,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 84774699517.55968,
+        "terminal_value_present_value": 56379025924.805466,
+        "upside_downside_pct": -0.13321328414276956
+      },
+      "bear": {
+        "current_price": 281.09,
+        "description": "Modestly weaker growth and margin normalization; slightly lower terminal growth and exit multiple.",
+        "enterprise_value": 62628105538.50241,
+        "equity_value": 51160105538.50241,
+        "exit_multiple_terminal_value": 79708838959.67564,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 51160105538.50241,
+        "investments_adjustment": 4089000000.0,
+        "net_debt": 15557000000.0,
+        "per_share_value": 227.37824683778848,
+        "projected_years": [
+          {
+            "capex": 2317318080.0,
+            "cash_taxes": 918545443.1999999,
+            "da": 1405182240.0,
+            "delta_nwc": 71627440.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 4252525199.9999995,
+            "ebit_margin": 0.345,
+            "ebitda": 5657707440.0,
+            "fcff": 2350216476.799999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -505372560.0,
+            "present_value_fcff": 2166098135.2995386,
+            "revenue": 12326160000.0,
+            "revenue_growth": 0.012,
+            "year": 2026
+          },
+          {
+            "capex": 2330346831.1199994,
+            "cash_taxes": 925957705.5590398,
+            "da": 1420639244.6399999,
+            "delta_nwc": 6902649.600000083,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 4286841229.439999,
+            "ebit_margin": 0.344,
+            "ebitda": 5707480474.079999,
+            "fcff": 2444273287.8009605,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -498469910.3999999,
+            "present_value_fcff": 2076300866.7000453,
+            "revenue": 12461747759.999998,
+            "revenue_growth": 0.011,
+            "year": 2027
+          },
+          {
+            "capex": 2341063934.1935997,
+            "cash_taxes": 932498627.7233087,
+            "da": 1428552454.4675999,
+            "delta_nwc": 7601666.133599997,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 4317123276.496799,
+            "ebit_margin": 0.343,
+            "ebitda": 5745675730.964399,
+            "fcff": 2464511502.913891,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -490868244.2663999,
+            "present_value_fcff": 1929486014.3069732,
+            "revenue": 12586365237.599998,
+            "revenue_growth": 0.01,
+            "year": 2028
+          },
+          {
+            "capex": 2355783688.3389726,
+            "cash_taxes": 938147992.587475,
+            "da": 1435059605.295439,
+            "delta_nwc": 8281828.326340795,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 4343277743.460532,
+            "ebit_margin": 0.342,
+            "ebitda": 5778337348.755971,
+            "fcff": 2476123839.503183,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -482586415.9400591,
+            "present_value_fcff": 1786707287.2483258,
+            "revenue": 12699642524.738398,
+            "revenue_growth": 0.009,
+            "year": 2029
+          },
+          {
+            "capex": 2368229338.013216,
+            "cash_taxes": 945653176.5281748,
+            "da": 1440139462.3053343,
+            "delta_nwc": 8940548.337415874,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 4378023965.408216,
+            "ebit_margin": 0.342,
+            "ebitda": 5818163427.713551,
+            "fcff": 2495340364.8347445,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -473645867.60264325,
+            "present_value_fcff": 1659514689.1802435,
+            "revenue": 12801239664.936304,
+            "revenue_growth": 0.008,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 79708838959.67564,
+        "terminal_value_present_value": 53009998545.76728,
+        "upside_downside_pct": -0.1910838278210235
+      },
+      "bull": {
+        "current_price": 281.09,
+        "description": "Modestly stronger growth and operating leverage; slightly higher terminal growth and exit multiple.",
+        "enterprise_value": 70067710133.82547,
+        "equity_value": 58599710133.82547,
+        "exit_multiple_terminal_value": 90036121278.60895,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 58599710133.82547,
+        "investments_adjustment": 4089000000.0,
+        "net_debt": 15557000000.0,
+        "per_share_value": 260.4431561503354,
+        "projected_years": [
+          {
+            "capex": 2331057120.0,
+            "cash_taxes": 950773723.2,
+            "da": 1413513360.0,
+            "delta_nwc": 68631160.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 4401730200.0,
+            "ebit_margin": 0.355,
+            "ebitda": 5815243560.0,
+            "fcff": 2464781556.8,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -508368840.0,
+            "present_value_fcff": 2271688070.7834105,
+            "revenue": 12399240000.0,
+            "revenue_growth": 0.018,
+            "year": 2026
+          },
+          {
+            "capex": 2358075063.9599996,
+            "cash_taxes": 964213110.6451197,
+            "da": 1437543087.12,
+            "delta_nwc": 3967756.8000000715,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 4463949586.319999,
+            "ebit_margin": 0.354,
+            "ebitda": 5901492673.439999,
+            "fcff": 2575236742.034879,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -504401083.1999999,
+            "present_value_fcff": 2187548465.276289,
+            "revenue": 12610027079.999998,
+            "revenue_growth": 0.017,
+            "year": 2027
+          },
+          {
+            "capex": 2382992477.47008,
+            "cash_taxes": 976873174.3125733,
+            "da": 1454137882.7572799,
+            "delta_nwc": 4741370.182079971,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 4522560992.1878395,
+            "ebit_margin": 0.353,
+            "ebitda": 5976698874.94512,
+            "fcff": 2612091852.980386,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -499659713.01791996,
+            "present_value_fcff": 2045027865.5432742,
+            "revenue": 12811787513.279999,
+            "revenue_growth": 0.016,
+            "year": 2028
+          },
+          {
+            "capex": 2412235382.4691415,
+            "cash_taxes": 988717415.6328503,
+            "da": 1469447968.8356495,
+            "delta_nwc": 5509068.630710423,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 4577395442.744678,
+            "ebit_margin": 0.352,
+            "ebitda": 6046843411.580327,
+            "fcff": 2640381544.8476253,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -494150644.38720953,
+            "present_value_fcff": 1905231423.4177382,
+            "revenue": 13003964325.979198,
+            "revenue_growth": 0.015,
+            "year": 2029
+          },
+          {
+            "capex": 2439413667.910438,
+            "cash_taxes": 1002559459.4517102,
+            "da": 1483427230.486077,
+            "delta_nwc": 6267910.805121958,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 4641478978.943103,
+            "ebit_margin": 0.352,
+            "ebitda": 6124906209.42918,
+            "fcff": 2676665171.2619095,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -487882733.5820876,
+            "present_value_fcff": 1780103921.823291,
+            "revenue": 13186019826.542908,
+            "revenue_growth": 0.014,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 90036121278.60895,
+        "terminal_value_present_value": 59878110386.98146,
+        "upside_downside_pct": -0.07345278682864764
+      }
+    },
+    "ticker": "NSC"
+  },
+  "assumptions": {
+    "cash": 1530000000.0,
+    "current_price": 281.09,
+    "debt": 17087000000.0,
+    "diluted_shares": 225000000.0,
+    "investments": 4089000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.347,
+    "tax_rate": 0.216,
+    "terminal_exit_ebitda_multiple": 14.2,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.085
+  },
+  "company_name": "Norfolk Southern Corporation",
+  "comps": [
+    {
+      "company_name": "CSX Corporation",
+      "ev_ntm_ebitda": 14.6,
+      "ev_ntm_revenue": 6.6,
+      "notes": "EV/S taken from AlphaSpread peer comparison; EV/EBITDA treated as NTM proxy due to data availability. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/csx/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 26.2,
+      "source": "AlphaSpread forward EV/S peer table (EV/S proxy) and EV/EBITDA peer table",
+      "ticker": "CSX"
+    },
+    {
+      "company_name": "Union Pacific Corporation",
+      "ev_ntm_ebitda": 14.1,
+      "ev_ntm_revenue": 7.3,
+      "notes": "EV/S taken from AlphaSpread peer comparison; EV/EBITDA treated as NTM proxy due to data availability. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/csx/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 21.1,
+      "source": "AlphaSpread forward EV/S peer table (EV/S proxy) and EV/EBITDA peer table",
+      "ticker": "UNP"
+    },
+    {
+      "company_name": "Canadian Pacific Kansas City Limited",
+      "ev_ntm_ebitda": 15.6,
+      "ev_ntm_revenue": 8.2,
+      "notes": "EV/S taken from AlphaSpread peer comparison; EV/EBITDA treated as NTM proxy due to data availability. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/csx/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 24.7,
+      "source": "AlphaSpread forward EV/S peer table (EV/S proxy) and EV/EBITDA peer table",
+      "ticker": "CP"
+    },
+    {
+      "company_name": "Canadian National Railway Company",
+      "ev_ntm_ebitda": 12.4,
+      "ev_ntm_revenue": 6.3,
+      "notes": "AlphaSpread peer label uses TSX ticker (CNR) while this package uses CNI for convenience. EV/S taken from AlphaSpread peer comparison; EV/EBITDA treated as NTM proxy due to data availability. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/csx/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 19.1,
+      "source": "AlphaSpread forward EV/S peer table (EV/S proxy) and EV/EBITDA peer table",
+      "ticker": "CNI"
+    },
+    {
+      "company_name": "MTR Corporation Limited",
+      "ev_ntm_ebitda": 12.1,
+      "ev_ntm_revenue": 4.5,
+      "notes": "Included as a rail operator peer; EV/S and EV/EBITDA treated as NTM proxies due to data availability. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/csx/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 12.4,
+      "source": "AlphaSpread forward EV/S peer table (EV/S proxy) and EV/EBITDA peer table",
+      "ticker": "MTR"
+    },
+    {
+      "company_name": "East Japan Railway Company",
+      "ev_ntm_ebitda": 11.3,
+      "ev_ntm_revenue": 3.0,
+      "notes": "Included as a rail operator peer; EV/S and EV/EBITDA treated as NTM proxies due to data availability. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/csx/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 18.8,
+      "source": "AlphaSpread forward EV/S peer table (EV/S proxy) and EV/EBITDA peer table",
+      "ticker": "9020"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.188,
+      "2027": 0.187,
+      "2028": 0.186,
+      "2029": 0.1855,
+      "2030": 0.185
+    },
+    "da_pct_sales": {
+      "2026": 0.114,
+      "2027": 0.114,
+      "2028": 0.1135,
+      "2029": 0.113,
+      "2030": 0.1125
+    },
+    "ebit_margin": {
+      "2026": 0.35,
+      "2027": 0.349,
+      "2028": 0.348,
+      "2029": 0.348,
+      "2030": 0.347
+    },
+    "nwc_pct_sales": {
+      "2026": -0.041,
+      "2027": -0.04,
+      "2028": -0.039,
+      "2029": -0.038,
+      "2030": -0.037
+    },
+    "revenue_growth": {
+      "2026": 0.015,
+      "2027": 0.014,
+      "2028": 0.013,
+      "2029": 0.012,
+      "2030": 0.011
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 2349000000.0,
+      "2024": 2381000000.0,
+      "2025": 2204000000.0
+    },
+    "da": {
+      "2023": 1298000000.0,
+      "2024": 1353000000.0,
+      "2025": 1393000000.0
+    },
+    "ebit": {
+      "2023": 2851000000.0,
+      "2024": 4071000000.0,
+      "2025": 4356000000.0
+    },
+    "nwc": {
+      "2023": 639000000.0,
+      "2024": -357000000.0,
+      "2025": -577000000.0
+    },
+    "revenue": {
+      "2023": 12156000000.0,
+      "2024": 12123000000.0,
+      "2025": 12180000000.0
+    }
+  },
+  "notes": [
+    "EBIT is defined as 'Income from railway operations' (operating income proxy) from NSC consolidated statements of income. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+    "D&A uses the face-line item 'Depreciation' from the income statement; NSC does not present a separate amortization line on the consolidated statement of income. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+    "Capex is modeled from cash flow 'Property additions' (absolute value of cash outflows). ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+    "NWC is defined as Total current assets minus Total current liabilities using GAAP line items from the balance sheet (this includes cash and excludes the common 'cash/debt-excluded' refinement). ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+    "Tax rate is set to NSC\u2019s effective tax rate for 2025 (income taxes / income before income taxes) as shown in the tax rate reconciliation. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+    "WACC and terminal growth/multiple are not explicitly provided by NSC; they are modeling assumptions. (This package sets WACC=0.085, terminal growth=0.02, terminal exit EV/EBITDA=14.2 derived from a peer average of class-I rail EV/EBITDA multiples.) ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/csx/relative-valuation/ratio/enterprise-value-to-ebitda))",
+    "NOL balance was not located as a discrete numeric balance in the accessible 10-K text extraction; nol_balance is set to null. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+    "Current price uses a market-data snapshot with latest trade time on Mar 20, 2026; package as_of_date is Mar 21, 2026.",
+    "Comps multiples are taken from AlphaSpread: EV/S is treated as a proxy for EV/NTM revenue and EV/EBITDA is treated as an EV/NTM EBITDA proxy due to data availability limits in the peer tables. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/csx/relative-valuation/ratio/enterprise-value-to-sales))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Regulatory milestones for the Union Pacific transaction (including STB-related requirements), which can change probability-weighted outcomes. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+      "Sustained execution on productivity and operating ratio improvements, supported by the cost/safety initiatives highlighted in 2025 results. ([norfolksouthern.com](https://www.norfolksouthern.com/en/newsroom/news-releases/norfolk-southern-reports-fourth-quarter-and-full-year-2025-results))",
+      "Ongoing resolution and uncertainty reduction related to the Eastern Ohio incident and related proceedings. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))"
+    ],
+    "company_overview": [
+      "Norfolk Southern is primarily engaged in U.S. rail transportation of raw materials, intermediate products, and finished goods. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+      "As of Dec 31, 2025, NSC operated approximately 19,100 route miles in 22 states and the District of Columbia. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+      "NSC is managed as one reportable operating segment: railway operations. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))"
+    ],
+    "current_context": [
+      "Full-year 2025: revenue (railway operating revenues) of $12.18B (essentially flat vs. 2024) and income from railway operations of $4.36B; operating ratio improved to 64.2%. ([norfolksouthern.com](https://www.norfolksouthern.com/en/newsroom/news-releases/norfolk-southern-reports-fourth-quarter-and-full-year-2025-results))",
+      "Company highlighted productivity/cost actions, including over $215M in annual savings, while emphasizing safety/service improvements into 2026 despite an unclear demand environment. ([norfolksouthern.com](https://www.norfolksouthern.com/en/newsroom/news-releases/norfolk-southern-reports-fourth-quarter-and-full-year-2025-results))",
+      "Merger context: NSC\u2019s proposed combination with Union Pacific remains subject to U.S. Surface Transportation Board approval, with a $2.5B termination fee referenced in the 10-K. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))"
+    ],
+    "investment_highlights": [
+      "Base-case modeling assumes modest post-2025 growth (mid-single-digit? no\u2014low single-digit) after near-flat 2023\u20132025 revenue performance. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+      "EBIT margin in the base case is normalized around the mid-to-high 30% range, reflecting 2024\u20132025 operating performance while muting incident/one-time effects. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+      "Capital intensity is modeled with capex at ~18.5%\u201319% of sales and depreciation at ~11%\u201311.5% of sales, consistent with the recent historical ratios. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+      "Working-capital needs are incorporated via an NWC utilization rate (NWC as total current assets minus total current liabilities) that is modeled as negative based on recent year-end balance sheets. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+      "Terminal value is anchored to a long-run exit EV/EBITDA multiple consistent with observed peer railroad valuation levels. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/csx/relative-valuation/ratio/enterprise-value-to-ebitda))"
+    ],
+    "key_risks": [
+      "Transaction risk: delays, adverse regulatory conditions, or failure to close can increase costs and impair management focus. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+      "Rail cyclicality: volume and pricing can swing with macro conditions; fuel surcharge dynamics add volatility. ([norfolksouthern.com](https://www.norfolksouthern.com/en/newsroom/news-releases/norfolk-southern-reports-fourth-quarter-and-full-year-2025-results))",
+      "Safety/regulatory risk, including potential incremental costs from major incidents on the network. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))"
+    ],
+    "sources": [
+      {
+        "label": "NSC Form 10-K (FY ended Dec 31, 2025) \u2014 consolidated financial statements, taxes, balance sheet, cash flow",
+        "notes": "Used for historical revenue, operating income (EBIT proxy), depreciation, cash flow property additions (capex), effective tax rate, and balance sheet cash/debt/investments. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm"
+      },
+      {
+        "label": "NSC Form 10-K (FY ended Dec 31, 2023) \u2014 historical comparatives for 2023 revenue/EBIT/DA/capex and NWC",
+        "notes": "Used for 2023 income statement, capex (property additions), and year-end current assets/liabilities to compute NWC. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000070216524000005/nsc-20231231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/702165/000070216524000005/nsc-20231231.htm"
+      },
+      {
+        "label": "NSC press release \u2014 fourth quarter and full year 2025 results (latest operating update as of Mar 2026)",
+        "notes": "Used for current-context bullets on 2025 operating performance, operating ratio, and productivity savings. ([norfolksouthern.com](https://www.norfolksouthern.com/en/newsroom/news-releases/norfolk-southern-reports-fourth-quarter-and-full-year-2025-results))",
+        "url": "https://www.norfolksouthern.com/en/newsroom/news-releases/norfolk-southern-reports-fourth-quarter-and-full-year-2025-results"
+      },
+      {
+        "label": "AlphaSpread \u2014 EV/S peer comparison (forward EV/S proxy for EV/NTM revenue; forward P/E)",
+        "notes": "Provides peer forward EV/S multiples and P/E values used to populate comps. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/csx/relative-valuation/ratio/enterprise-value-to-sales))",
+        "url": "https://www.alphaspread.com/security/nasdaq/csx/relative-valuation/ratio/enterprise-value-to-sales"
+      },
+      {
+        "label": "AlphaSpread \u2014 EV/EBITDA peer comparison (EV/EBITDA used as EV/NTM EBITDA proxy due to availability)",
+        "notes": "Provides peer EV/EBITDA and P/E values used in comps and to anchor terminal exit multiple. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/csx/relative-valuation/ratio/enterprise-value-to-ebitda))",
+        "url": "https://www.alphaspread.com/security/nasdaq/csx/relative-valuation/ratio/enterprise-value-to-ebitda"
+      }
+    ],
+    "subtitle": "DCF Inputs & Valuation Package \u2014 Norfolk Southern (NSC)",
+    "valuation_summary": [
+      "DCF uses a consistent operating bridge: revenue growth + modeled EBIT margin to derive steady-state operating profitability over 2026\u20132030. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))",
+      "Terminal value is estimated with an exit-multiple approach using EV/EBITDA peer context, with terminal growth set conservatively. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/csx/relative-valuation/ratio/enterprise-value-to-ebitda))",
+      "Net asset assumptions use year-end cash, total debt, and equity-linked investments disclosed on the latest balance sheet. ([sec.gov](https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 281.09,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.342,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 13.7,
+        "terminal_growth": 0.019,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.085
+      },
+      "description": "Modestly weaker growth and margin normalization; slightly lower terminal growth and exit multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.188,
+          "2027": 0.187,
+          "2028": 0.186,
+          "2029": 0.1855,
+          "2030": 0.185
+        },
+        "da_pct_sales": {
+          "2026": 0.114,
+          "2027": 0.114,
+          "2028": 0.1135,
+          "2029": 0.113,
+          "2030": 0.1125
+        },
+        "ebit_margin": {
+          "2026": 0.345,
+          "2027": 0.344,
+          "2028": 0.343,
+          "2029": 0.342,
+          "2030": 0.342
+        },
+        "nwc_pct_sales": {
+          "2026": -0.041,
+          "2027": -0.04,
+          "2028": -0.039,
+          "2029": -0.038,
+          "2030": -0.037
+        },
+        "revenue_growth": {
+          "2026": 0.012,
+          "2027": 0.011,
+          "2028": 0.01,
+          "2029": 0.009,
+          "2030": 0.008
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 281.09,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.352,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 14.7,
+        "terminal_growth": 0.021,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.085
+      },
+      "description": "Modestly stronger growth and operating leverage; slightly higher terminal growth and exit multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.188,
+          "2027": 0.187,
+          "2028": 0.186,
+          "2029": 0.1855,
+          "2030": 0.185
+        },
+        "da_pct_sales": {
+          "2026": 0.114,
+          "2027": 0.114,
+          "2028": 0.1135,
+          "2029": 0.113,
+          "2030": 0.1125
+        },
+        "ebit_margin": {
+          "2026": 0.355,
+          "2027": 0.354,
+          "2028": 0.353,
+          "2029": 0.352,
+          "2030": 0.352
+        },
+        "nwc_pct_sales": {
+          "2026": -0.041,
+          "2027": -0.04,
+          "2028": -0.039,
+          "2029": -0.038,
+          "2030": -0.037
+        },
+        "revenue_growth": {
+          "2026": 0.018,
+          "2027": 0.017,
+          "2028": 0.016,
+          "2029": 0.015,
+          "2030": 0.014
+        }
+      }
+    }
+  },
+  "ticker": "NSC"
+}

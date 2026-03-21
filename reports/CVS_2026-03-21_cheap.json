@@ -1,0 +1,682 @@
+{
+  "_meta": {
+    "cost_usd": 0.023835,
+    "generated_at": "2026-03-21T17:15:07Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11170,
+      "prompt": 2514,
+      "reasoning": 7496
+    }
+  },
+  "_valuation": {
+    "company_name": "CVS Health Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 71.48,
+        "description": "Base case",
+        "enterprise_value": 298932938259.93604,
+        "equity_value": 244792938259.93604,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 341158226225.0761,
+        "implied_market_cap": 244792938259.93604,
+        "investments_adjustment": 2145000000.0,
+        "net_debt": 56117000000.0,
+        "per_share_value": 192.598692572727,
+        "projected_years": [
+          {
+            "capex": 3208494660.0,
+            "cash_taxes": 3401322864.5,
+            "da": 5066044200.0,
+            "delta_nwc": -797962250.0000019,
+            "discount_factor": 0.9259259259259258,
+            "ebit": 16253558475.0,
+            "ebit_margin": 0.0385,
+            "ebitda": 21319602675.0,
+            "fcff": 15507747400.500002,
+            "nol_balance_end": 0.0,
+            "nol_used": 793000000.0,
+            "nwc": -14775962250.000002,
+            "present_value_fcff": 14359025370.833334,
+            "revenue": 422170350000.0,
+            "revenue_growth": 0.05,
+            "year": 2026
+          },
+          {
+            "capex": 3308760118.125,
+            "cash_taxes": 3785221575.135,
+            "da": 5249899387.425,
+            "delta_nwc": -664918301.25,
+            "discount_factor": 0.8573388203017832,
+            "ebit": 17205552614.25,
+            "ebit_margin": 0.039,
+            "ebitda": 22455452001.675,
+            "fcff": 16026388609.665,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -15440880551.250002,
+            "present_value_fcff": 13740045104.308128,
+            "revenue": 441168015750.0,
+            "revenue_growth": 0.045,
+            "year": 2027
+          },
+          {
+            "capex": 3447728043.08625,
+            "cash_taxes": 3994767559.2559347,
+            "da": 5470395161.696851,
+            "delta_nwc": -556577568.6701965,
+            "discount_factor": 0.7938322410201696,
+            "ebit": 18158034360.25425,
+            "ebit_margin": 0.0395,
+            "ebitda": 23628429521.9511,
+            "fcff": 16742511488.27911,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -15997458119.920198,
+            "present_value_fcff": 13290745415.046541,
+            "revenue": 459697072411.5,
+            "revenue_growth": 0.042,
+            "year": 2028
+          },
+          {
+            "capex": 3578741708.7235274,
+            "cash_taxes": 4199056938.235606,
+            "da": 5630553621.725017,
+            "delta_nwc": -607903408.5569687,
+            "discount_factor": 0.7350298527964533,
+            "ebit": 19086622446.525482,
+            "ebit_margin": 0.04,
+            "ebitda": 24717176068.2505,
+            "fcff": 17547280829.848335,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -16605361528.477167,
+            "present_value_fcff": 12897775245.341448,
+            "revenue": 477165561163.137,
+            "revenue_growth": 0.038,
+            "year": 2029
+          },
+          {
+            "capex": 3703997668.528851,
+            "cash_taxes": 4400349230.2122755,
+            "da": 5827622998.485393,
+            "delta_nwc": -581187653.4967022,
+            "discount_factor": 0.6805831970337529,
+            "ebit": 20001587410.055798,
+            "ebit_margin": 0.0405,
+            "ebitda": 25829210408.54119,
+            "fcff": 18306051163.29677,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -17186549181.97387,
+            "present_value_fcff": 12458790825.779966,
+            "revenue": 493866355803.8468,
+            "revenue_growth": 0.035,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 341158226225.0761,
+        "terminal_value_present_value": 232186556298.62662,
+        "upside_downside_pct": 1.6944416979956212
+      },
+      "bear": {
+        "current_price": 71.48,
+        "description": "Modestly weaker growth and operating profitability versus base case; terminal economics and discount rate unchanged.",
+        "enterprise_value": 278857233715.0532,
+        "equity_value": 224717233715.05322,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 317567628395.5961,
+        "implied_market_cap": 224717233715.05322,
+        "investments_adjustment": 2145000000.0,
+        "net_debt": 56117000000.0,
+        "per_share_value": 176.8034883674691,
+        "projected_years": [
+          {
+            "capex": 3193216114.0,
+            "cash_taxes": 3199424920.45,
+            "da": 5041920180.0,
+            "delta_nwc": -727600525.0000019,
+            "discount_factor": 0.9259259259259258,
+            "ebit": 15335840547.499998,
+            "ebit_margin": 0.0365,
+            "ebitda": 20377760727.5,
+            "fcff": 14712720218.050001,
+            "nol_balance_end": 0.0,
+            "nol_used": 793000000.0,
+            "nwc": -14705600525.000002,
+            "present_value_fcff": 13622889090.787037,
+            "revenue": 420160015000.0,
+            "revenue_growth": 0.045,
+            "year": 2026
+          },
+          {
+            "capex": 3277248117.0,
+            "cash_taxes": 3556906622.9839997,
+            "da": 5199900345.64,
+            "delta_nwc": -588224021.0,
+            "discount_factor": 0.8573388203017832,
+            "ebit": 16167757377.199999,
+            "ebit_margin": 0.037,
+            "ebitda": 21367657722.84,
+            "fcff": 15121727003.855999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -15293824546.000002,
+            "present_value_fcff": 12964443590.41152,
+            "revenue": 436966415600.0,
+            "revenue_growth": 0.04,
+            "year": 2027
+          },
+          {
+            "capex": 3398506297.3289995,
+            "cash_taxes": 3738356927.061899,
+            "da": 5392296658.428679,
+            "delta_nwc": -475244673.60655594,
+            "discount_factor": 0.7938322410201696,
+            "ebit": 16992531486.644997,
+            "ebit_margin": 0.0375,
+            "ebitda": 22384828145.073677,
+            "fcff": 15723209594.289333,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -15769069219.606558,
+            "present_value_fcff": 12481590708.264532,
+            "revenue": 453134172977.19995,
+            "revenue_growth": 0.037,
+            "year": 2028
+          },
+          {
+            "capex": 3510657005.1408563,
+            "cash_taxes": 3913212341.730341,
+            "da": 5523433688.088281,
+            "delta_nwc": -520379284.247015,
+            "discount_factor": 0.7350298527964533,
+            "ebit": 17787328826.047005,
+            "ebit_margin": 0.038,
+            "ebitda": 23310762514.135284,
+            "fcff": 16407272451.511105,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -16289448503.853573,
+            "present_value_fcff": 12059835054.82551,
+            "revenue": 468087600685.4475,
+            "revenue_growth": 0.033,
+            "year": 2029
+          },
+          {
+            "capex": 3615976715.2950816,
+            "cash_taxes": 4083643037.139912,
+            "da": 5689136698.730928,
+            "delta_nwc": -488683455.1156063,
+            "discount_factor": 0.6805831970337529,
+            "ebit": 18562013805.18142,
+            "ebit_margin": 0.0385,
+            "ebitda": 24251150503.912346,
+            "fcff": 17040214206.592962,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -16778131958.96918,
+            "present_value_fcff": 11597283462.863014,
+            "revenue": 482130228706.0109,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 317567628395.5961,
+        "terminal_value_present_value": 216131191807.90164,
+        "upside_downside_pct": 1.4734679402276032
+      },
+      "bull": {
+        "current_price": 71.48,
+        "description": "Modestly better revenue growth and operating profitability versus base case; terminal economics and discount rate unchanged.",
+        "enterprise_value": 319720192230.18005,
+        "equity_value": 265580192230.18005,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 365652248231.4754,
+        "implied_market_cap": 265580192230.18005,
+        "investments_adjustment": 2145000000.0,
+        "net_debt": 56117000000.0,
+        "per_share_value": 208.95373110163655,
+        "projected_years": [
+          {
+            "capex": 3223773206.0,
+            "cash_taxes": 3604989903.35,
+            "da": 5090168220.0,
+            "delta_nwc": -868323975.0000019,
+            "discount_factor": 0.9259259259259258,
+            "ebit": 17179317742.5,
+            "ebit_margin": 0.0405,
+            "ebitda": 22269485962.5,
+            "fcff": 16309046828.150003,
+            "nol_balance_end": 0.0,
+            "nol_used": 793000000.0,
+            "nwc": -14846323975.000002,
+            "present_value_fcff": 15100969285.324076,
+            "revenue": 424180685000.0,
+            "revenue_growth": 0.055,
+            "year": 2026
+          },
+          {
+            "capex": 3340422894.375,
+            "cash_taxes": 4017415267.635,
+            "da": 5300137659.075001,
+            "delta_nwc": -742316198.75,
+            "discount_factor": 0.8573388203017832,
+            "ebit": 18260978489.25,
+            "ebit_margin": 0.041,
+            "ebitda": 23561116148.325,
+            "fcff": 16945594185.065002,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -15588640173.750002,
+            "present_value_fcff": 14528115727.936386,
+            "revenue": 445389719250.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 3497422770.4106245,
+            "cash_taxes": 4257529319.1798677,
+            "da": 5549244129.051525,
+            "delta_nwc": -639401480.9552956,
+            "discount_factor": 0.7938322410201696,
+            "ebit": 19352405996.272125,
+            "ebit_margin": 0.0415,
+            "ebitda": 24901650125.32365,
+            "fcff": 17786099516.688454,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -16228041654.705297,
+            "present_value_fcff": 14119179238.34055,
+            "revenue": 466323036054.74994,
+            "revenue_growth": 0.047,
+            "year": 2028
+          },
+          {
+            "capex": 3647811949.538281,
+            "cash_taxes": 4494104321.831162,
+            "da": 5739224133.940228,
+            "delta_nwc": -697805791.1523247,
+            "discount_factor": 0.7350298527964533,
+            "ebit": 20427746917.414375,
+            "ebit_margin": 0.042,
+            "ebitda": 26166971051.354603,
+            "fcff": 18722860571.137486,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -16925847445.857622,
+            "present_value_fcff": 13761861449.531706,
+            "revenue": 486374926605.1041,
+            "revenue_growth": 0.043,
+            "year": 2029
+          },
+          {
+            "capex": 3793724427.519812,
+            "cash_taxes": 4729509786.308033,
+            "da": 5968793099.297837,
+            "delta_nwc": -677033897.8343067,
+            "discount_factor": 0.6805831970337529,
+            "ebit": 21497771755.945602,
+            "ebit_margin": 0.0425,
+            "ebitda": 27466564855.24344,
+            "fcff": 19620364539.2499,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -17602881343.69193,
+            "present_value_fcff": 13353290425.090374,
+            "revenue": 505829923669.3083,
+            "revenue_growth": 0.04,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 365652248231.4754,
+        "terminal_value_present_value": 248856776103.95697,
+        "upside_downside_pct": 1.9232474972249096
+      }
+    },
+    "ticker": "CVS"
+  },
+  "assumptions": {
+    "cash": 8453000000.0,
+    "current_price": 71.48,
+    "debt": 64570000000.0,
+    "diluted_shares": 1271000000.0,
+    "investments": 2145000000.0,
+    "minority_interest": 168000000.0,
+    "net_debt_override": null,
+    "nol_balance": 793000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.0405,
+    "tax_rate": 0.22,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.08
+  },
+  "company_name": "CVS Health Corporation",
+  "comps": [
+    {
+      "company_name": "Walgreens Boots Alliance Inc",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM multiples not captured from accessible sources in this run; P/E unavailable in market snapshot due to negative EPS.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "WBA"
+    },
+    {
+      "company_name": "UnitedHealth Group Inc",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM multiples not captured from accessible sources in this run; P/E shown from market-data snapshot (not verified as strictly NTM).",
+      "pe_ntm": 17.7798,
+      "source": null,
+      "ticker": "UNH"
+    },
+    {
+      "company_name": "Humana Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM multiples not captured from accessible sources in this run; P/E shown from market-data snapshot (not verified as strictly NTM).",
+      "pe_ntm": 24.2379,
+      "source": null,
+      "ticker": "HUM"
+    },
+    {
+      "company_name": "Cigna Group (The)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM multiples not captured from accessible sources in this run; P/E shown from market-data snapshot (not verified as strictly NTM).",
+      "pe_ntm": 12.517,
+      "source": null,
+      "ticker": "CI"
+    },
+    {
+      "company_name": "Centene Corp.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM multiples not captured from accessible sources in this run; P/E unavailable in market snapshot due to negative EPS.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CNC"
+    },
+    {
+      "company_name": "Molina Healthcare Inc",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM multiples not captured from accessible sources in this run; P/E shown from market-data snapshot (not verified as strictly NTM).",
+      "pe_ntm": 11.746,
+      "source": null,
+      "ticker": "MOH"
+    },
+    {
+      "company_name": "Elevance Health Inc",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM multiples not captured from accessible sources in this run; P/E shown from market-data snapshot (not verified as strictly NTM).",
+      "pe_ntm": 13.1501,
+      "source": null,
+      "ticker": "ELV"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0076,
+      "2027": 0.0075,
+      "2028": 0.0075,
+      "2029": 0.0075,
+      "2030": 0.0075
+    },
+    "da_pct_sales": {
+      "2026": 0.012,
+      "2027": 0.0119,
+      "2028": 0.0119,
+      "2029": 0.0118,
+      "2030": 0.0118
+    },
+    "ebit_margin": {
+      "2026": 0.0385,
+      "2027": 0.039,
+      "2028": 0.0395,
+      "2029": 0.04,
+      "2030": 0.0405
+    },
+    "nwc_pct_sales": {
+      "2026": -0.035,
+      "2027": -0.035,
+      "2028": -0.0348,
+      "2029": -0.0348,
+      "2030": -0.0348
+    },
+    "revenue_growth": {
+      "2026": 0.05,
+      "2027": 0.045,
+      "2028": 0.042,
+      "2029": 0.038,
+      "2030": 0.035
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 3031000000.0,
+      "2024": 2781000000.0,
+      "2025": 2832000000.0
+    },
+    "da": {
+      "2023": 4366000000.0,
+      "2024": 4597000000.0,
+      "2025": 4606000000.0
+    },
+    "ebit": {
+      "2023": 17534000000.0,
+      "2024": 11976000000.0,
+      "2025": 14443000000.0
+    },
+    "nwc": {
+      "2023": -11331000000.0,
+      "2024": -15964000000.0,
+      "2025": -13978000000.0
+    },
+    "revenue": {
+      "2023": 357776000000.0,
+      "2024": 372809000000.0,
+      "2025": 402067000000.0
+    }
+  },
+  "notes": [
+    "Historical financials (2023-2025) are sourced from CVS FY2025 Form 10-K: Total revenues and GAAP operating income from the Consolidated Statements of Operations; D&A from the cash flow reconciliation; capex from Purchases of property and equipment; cash/investments/debt/minority interest from the Consolidated Balance Sheets. ([s206.q4cdn.com](https://s206.q4cdn.com/752775519/files/doc_financials/2025/q4/2025-Form-10-K.pdf))",
+    "EBIT in this package is operationalized as normalized EBIT = 'adjusted operating income (loss)' consolidated totals from the FY2025 10-K segment reconciliation (to remove non-recurring items like goodwill impairment and restructuring/litigation effects that distort GAAP EBIT). ([s206.q4cdn.com](https://s206.q4cdn.com/752775519/files/doc_financials/2025/q4/2025-Form-10-K.pdf))",
+    "NWC is defined as Total current assets minus Total current liabilities (includes cash; does not exclude investments/cash or operating claims balances separately). FY2024 and FY2025 use FY2025 10-K balance sheet totals; FY2023 current assets/liabilities use StockAnalysis because the FY2024 10-K PDF was not accessible in time for direct extraction. ([s206.q4cdn.com](https://s206.q4cdn.com/752775519/files/doc_financials/2025/q4/2025-Form-10-K.pdf))",
+    "Tax-rate normalization: FY2025 effective tax rate was 19.1% in management disclosure; this model uses a normalized DCF tax_rate of 0.22 to reduce non-recurring volatility. ([cvshealth.com](https://www.cvshealth.com/content/dam/enterprise/cvs-enterprise/pdfs/2026/Q4-2025-EarningsRelease.pdf))",
+    "Unavailable fields: nol_utilization_pct not explicitly provided in accessible extracts; set to null. Comparable EV/NTM Revenue and EV/NTM EBITDA were set to null due to lack of accessible NTM EV multiple data in this run; P/E values are from the market-data snapshot and may not be strictly NTM. ([s206.q4cdn.com](https://s206.q4cdn.com/752775519/files/doc_financials/2025/q4/2025-Form-10-K.pdf))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Improvement in medical cost trends/utilization management (reducing volatility in insurance operating results).",
+      "PBM/pharmacy execution against reimbursement and pricing dynamics, supporting stable margin progression.",
+      "Sustained free cash flow and capital allocation (repurchases/dividends) if operating cash flow remains resilient."
+    ],
+    "company_overview": [
+      "Integrated U.S. healthcare platform spanning health insurance (Aetna), pharmacy benefit management and health services, and retail pharmacy/ancillary wellness offerings.",
+      "Scale and cash generation are supported by recurring insurance enrollment and pharmacy/health services volumes.",
+      "Reported profitability can be volatile year-to-year due to litigation and impairment charges, so the base case uses normalized operating profitability."
+    ],
+    "current_context": [
+      "FY2025 results released Feb 10, 2026: total revenues of $402,067 million and GAAP operating income of $4,660 million. ([s206.q4cdn.com](https://s206.q4cdn.com/752775519/files/doc_financials/2025/q4/2025-Form-10-K.pdf))",
+      "2026 guidance (confirmed) includes GAAP diluted EPS of $5.94 to $6.14, adjusted EPS of $7.00 to $7.20, and cash flow from operations of at least $9.0 billion. ([cvshealth.com](https://www.cvshealth.com/content/dam/enterprise/cvs-enterprise/pdfs/2026/Q4-2025-EarningsRelease.pdf))",
+      "FY2025 effective income tax rate decreased to 19.1% (driven by non-recurring items), which informs the normalization approach in the DCF. ([cvshealth.com](https://www.cvshealth.com/content/dam/enterprise/cvs-enterprise/pdfs/2026/Q4-2025-EarningsRelease.pdf))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth is modeled as mid-single-digit early in the forecast, decelerating toward low-to-mid single digits by 2030.",
+      "EBIT margin normalizes from the FY2025 GAAP distortion; operating profitability converges toward ~4.0% by the terminal years.",
+      "Asset intensity is assumed to remain stable (D&A and capex expressed as low single-digit percentages of sales).",
+      "Working capital remains structurally negative due to payer/claims timing dynamics and is held near the recent ratio."
+    ],
+    "key_risks": [
+      "Adverse medical cost/utilization developments that worsen insurance margins versus normalized assumptions.",
+      "Regulatory reimbursement pressure (Medicare/Medicaid/IRA-related dynamics) and commercial contract pricing changes.",
+      "Litigation or impairment charges that create earnings volatility and can impact confidence in normalized operating profitability."
+    ],
+    "sources": [
+      {
+        "label": "CVS Health FY2025 Form 10-K (PDF)",
+        "notes": "Primary source for FY2023-2025 revenue, operating income, cash & balance sheet items, D&A, capex, NOL carryovers, and adjusted operating income bridge.",
+        "url": "https://s206.q4cdn.com/752775519/files/doc_financials/2025/q4/2025-Form-10-K.pdf"
+      },
+      {
+        "label": "CVS Health Q4/FY2025 Earnings Release (PDF)",
+        "notes": "Primary source for FY2025 headline results, FY2026 guidance ranges, and tax-rate commentary.",
+        "url": "https://www.cvshealth.com/content/dam/enterprise/cvs-enterprise/pdfs/2026/Q4-2025-EarningsRelease.pdf"
+      },
+      {
+        "label": "CVS Health Q4/FY2024 Results (HTML press release)",
+        "notes": "Supplemental support for FY2024 results context where needed for time-series interpretation.",
+        "url": "https://www.cvshealth.com/news/company-news/cvs-health-corporation-reports-fourth-quarter-and-full-year-2024-results.html"
+      },
+      {
+        "label": "CVS Health Balance Sheet (2023 current assets/liabilities) \u2014 StockAnalysis (HTML)",
+        "notes": "Used to compute FY2023 net working capital where FY2024 10-K PDF was not accessible in time; FY2024/FY2025 NWC comes directly from the FY2025 10-K.",
+        "url": "https://stockanalysis.com/stocks/cvs/financials/balance-sheet/"
+      }
+    ],
+    "subtitle": "CVS Health (CVS) DCF Inputs \u2014 FY2023-2025 History & 2026-2030 Base Case",
+    "valuation_summary": [
+      "DCF framework uses explicit 2026-2030 forecasts of growth, normalized EBIT margin, D&A, capex, and working capital intensity, with a gordon-growth terminal value.",
+      "Terminal assumptions (2.5% growth and 8.0% WACC) are intended to be economically conservative for a mature U.S. healthcare operator.",
+      "Peer comps are used qualitatively given limited accessible NTM EV multiple data in this run; valuation sensitivity should be driven primarily by discount rate and terminal margin."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 71.48,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.0385,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.025,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.08
+      },
+      "description": "Modestly weaker growth and operating profitability versus base case; terminal economics and discount rate unchanged.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0076,
+          "2027": 0.0075,
+          "2028": 0.0075,
+          "2029": 0.0075,
+          "2030": 0.0075
+        },
+        "da_pct_sales": {
+          "2026": 0.012,
+          "2027": 0.0119,
+          "2028": 0.0119,
+          "2029": 0.0118,
+          "2030": 0.0118
+        },
+        "ebit_margin": {
+          "2026": 0.0365,
+          "2027": 0.037,
+          "2028": 0.0375,
+          "2029": 0.038,
+          "2030": 0.0385
+        },
+        "nwc_pct_sales": {
+          "2026": -0.035,
+          "2027": -0.035,
+          "2028": -0.0348,
+          "2029": -0.0348,
+          "2030": -0.0348
+        },
+        "revenue_growth": {
+          "2026": 0.045,
+          "2027": 0.04,
+          "2028": 0.037,
+          "2029": 0.033,
+          "2030": 0.03
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 71.48,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.0425,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.025,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.08
+      },
+      "description": "Modestly better revenue growth and operating profitability versus base case; terminal economics and discount rate unchanged.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0076,
+          "2027": 0.0075,
+          "2028": 0.0075,
+          "2029": 0.0075,
+          "2030": 0.0075
+        },
+        "da_pct_sales": {
+          "2026": 0.012,
+          "2027": 0.0119,
+          "2028": 0.0119,
+          "2029": 0.0118,
+          "2030": 0.0118
+        },
+        "ebit_margin": {
+          "2026": 0.0405,
+          "2027": 0.041,
+          "2028": 0.0415,
+          "2029": 0.042,
+          "2030": 0.0425
+        },
+        "nwc_pct_sales": {
+          "2026": -0.035,
+          "2027": -0.035,
+          "2028": -0.0348,
+          "2029": -0.0348,
+          "2030": -0.0348
+        },
+        "revenue_growth": {
+          "2026": 0.055,
+          "2027": 0.05,
+          "2028": 0.047,
+          "2029": 0.043,
+          "2030": 0.04
+        }
+      }
+    }
+  },
+  "ticker": "CVS"
+}

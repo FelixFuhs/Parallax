@@ -1,0 +1,687 @@
+{
+  "_meta": {
+    "cost_usd": 0.024502,
+    "generated_at": "2026-03-21T17:21:39Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11702,
+      "prompt": 2514,
+      "reasoning": 7497
+    }
+  },
+  "_valuation": {
+    "company_name": "ResMed Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 225.99,
+        "description": "Base case",
+        "enterprise_value": 36624310659.61168,
+        "equity_value": 37165468659.61168,
+        "exit_multiple_terminal_value": 51929200240.55408,
+        "gordon_terminal_value": 37505481413.97681,
+        "implied_market_cap": 37165468659.61168,
+        "investments_adjustment": 0.0,
+        "net_debt": -541158000.0,
+        "per_share_value": 252.2428984634972,
+        "projected_years": [
+          {
+            "capex": 102347578.21249999,
+            "cash_taxes": 299770647.78787506,
+            "da": 215759759.475,
+            "delta_nwc": 151463396.5,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1831191804.775,
+            "ebit_margin": 0.331,
+            "ebitda": 2046951564.25,
+            "fcff": 1493369941.7496247,
+            "nol_balance_end": 0.0,
+            "nol_used": 14400000.0,
+            "nwc": 1438398396.5,
+            "present_value_fcff": 1376377826.49735,
+            "revenue": 5532301525.0,
+            "revenue_growth": 0.075,
+            "year": 2026
+          },
+          {
+            "capex": 107821790.5714875,
+            "cash_taxes": 323730507.26504815,
+            "da": 230373333.9532875,
+            "delta_nwc": 93495895.77250004,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1962003074.333625,
+            "ebit_margin": 0.333,
+            "ebitda": 2192376408.2869124,
+            "fcff": 1667328214.677877,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1531894292.2725,
+            "present_value_fcff": 1416320766.7844949,
+            "revenue": 5891901124.125,
+            "revenue_growth": 0.065,
+            "year": 2027
+          },
+          {
+            "capex": 113666556.48661952,
+            "cash_taxes": 344184831.20756054,
+            "da": 244820275.509642,
+            "delta_nwc": 91913657.53635001,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2085968673.9852152,
+            "ebit_margin": 0.334,
+            "ebitda": 2330788949.4948573,
+            "fcff": 1781023904.2643273,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1623807949.80885,
+            "present_value_fcff": 1394378038.1472578,
+            "revenue": 6245415191.5725,
+            "revenue_growth": 0.06,
+            "year": 2028
+          },
+          {
+            "capex": 118600434.48796177,
+            "cash_taxes": 364202167.5734493,
+            "da": 258285390.6626723,
+            "delta_nwc": 89309437.23948693,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2207285864.081511,
+            "ebit_margin": 0.335,
+            "ebitda": 2465571254.7441835,
+            "fcff": 1893459215.4432852,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1713117387.048337,
+            "present_value_fcff": 1366271478.174049,
+            "revenue": 6588913027.108988,
+            "revenue_growth": 0.055,
+            "year": 2029
+          },
+          {
+            "capex": 124530456.21235986,
+            "cash_taxes": 383553805.1340685,
+            "da": 271891496.0636524,
+            "delta_nwc": 85655869.35241675,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2324568515.9640512,
+            "ebit_margin": 0.336,
+            "ebitda": 2596460012.027704,
+            "fcff": 2002719881.3288586,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1798773256.4007537,
+            "present_value_fcff": 1331899691.2065175,
+            "revenue": 6918358678.4644375,
+            "revenue_growth": 0.05,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "average",
+        "terminal_value": 44717340827.26544,
+        "terminal_value_present_value": 29739062858.802013,
+        "upside_downside_pct": 0.1161684077326306
+      },
+      "bear": {
+        "current_price": 225.99,
+        "description": "Softer revenue growth and modest margin compression vs base case; slightly higher WACC and less favorable terminal assumptions.",
+        "enterprise_value": 33721156415.570038,
+        "equity_value": 34262314415.570038,
+        "exit_multiple_terminal_value": 47700451642.50067,
+        "gordon_terminal_value": 34396207503.33249,
+        "implied_market_cap": 34262314415.570038,
+        "investments_adjustment": 0.0,
+        "net_debt": -541158000.0,
+        "per_share_value": 232.53912322227526,
+        "projected_years": [
+          {
+            "capex": 104135926.845,
+            "cash_taxes": 295151304.672675,
+            "da": 213752691.945,
+            "delta_nwc": 165487137.57500005,
+            "discount_factor": 0.9199632014719411,
+            "ebit": 1803195785.895,
+            "ebit_margin": 0.329,
+            "ebitda": 2016948477.84,
+            "fcff": 1452174108.7473247,
+            "nol_balance_end": 0.0,
+            "nol_used": 14400000.0,
+            "nwc": 1452422137.575,
+            "present_value_fcff": 1335946742.1778517,
+            "revenue": 5480838255.0,
+            "revenue_growth": 0.065,
+            "year": 2026
+          },
+          {
+            "capex": 109222144.74564001,
+            "cash_taxes": 317296140.1746345,
+            "da": 227158822.31673002,
+            "delta_nwc": 87145328.25450015,
+            "discount_factor": 0.8463322920625034,
+            "ebit": 1923006910.1493,
+            "ebit_margin": 0.331,
+            "ebitda": 2150165732.46603,
+            "fcff": 1636502119.2912555,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1539567465.8295002,
+            "present_value_fcff": 1385024589.5849125,
+            "revenue": 5809688550.3,
+            "revenue_growth": 0.06,
+            "year": 2027
+          },
+          {
+            "capex": 114616440.56459355,
+            "cash_taxes": 335758749.41863286,
+            "da": 240265479.6862068,
+            "delta_nwc": 84676210.6206224,
+            "discount_factor": 0.7785945649149065,
+            "ebit": 2034901511.628078,
+            "ebit_margin": 0.332,
+            "ebitda": 2275166991.314285,
+            "fcff": 1740115590.7104359,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1624243676.4501226,
+            "present_value_fcff": 1354844541.2508373,
+            "revenue": 6129221420.5665,
+            "revenue_growth": 0.055,
+            "year": 2028
+          },
+          {
+            "capex": 119060126.09450425,
+            "cash_taxes": 353608574.5006777,
+            "da": 252278753.67051712,
+            "delta_nwc": 81212183.82250595,
+            "discount_factor": 0.7162783485877705,
+            "ebit": 2143082269.7010767,
+            "ebit_margin": 0.333,
+            "ebitda": 2395361023.371594,
+            "fcff": 1841480138.9539058,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1705455860.2726285,
+            "present_value_fcff": 1319012352.8870819,
+            "revenue": 6435682491.594825,
+            "revenue_growth": 0.05,
+            "year": 2029
+          },
+          {
+            "capex": 124417831.76875694,
+            "cash_taxes": 370630632.9068214,
+            "da": 264303826.40606207,
+            "delta_nwc": 76745513.71226835,
+            "discount_factor": 0.6589497227118405,
+            "ebit": 2246246260.041342,
+            "ebit_margin": 0.334,
+            "ebitda": 2510550086.447404,
+            "fcff": 1938756108.0595572,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1782201373.984897,
+            "present_value_fcff": 1277542799.8117323,
+            "revenue": 6725288203.716592,
+            "revenue_growth": 0.045,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "average",
+        "terminal_value": 41048329572.91658,
+        "terminal_value_present_value": 27048785389.857624,
+        "upside_downside_pct": 0.028979703625272135
+      },
+      "bull": {
+        "current_price": 225.99,
+        "description": "Moderately stronger demand and modest margin expansion vs base case; slightly lower WACC and more favorable terminal assumptions.",
+        "enterprise_value": 39808860470.26292,
+        "equity_value": 40350018470.26292,
+        "exit_multiple_terminal_value": 56379981171.70397,
+        "gordon_terminal_value": 41060203880.31683,
+        "implied_market_cap": 40350018470.26292,
+        "investments_adjustment": 0.0,
+        "net_debt": -541158000.0,
+        "per_share_value": 273.85651194694526,
+        "projected_years": [
+          {
+            "capex": 100507766.30999999,
+            "cash_taxes": 304423956.661275,
+            "da": 217766827.005,
+            "delta_nwc": 136925022.72500014,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 1859393676.7350001,
+            "ebit_margin": 0.333,
+            "ebitda": 2077160503.7400002,
+            "fcff": 1535303758.0437253,
+            "nol_balance_end": 0.0,
+            "nol_used": 14400000.0,
+            "nwc": 1423860022.7250001,
+            "present_value_fcff": 1417639665.78368,
+            "revenue": 5583764795.0,
+            "revenue_growth": 0.085,
+            "year": 2026
+          },
+          {
+            "capex": 106348384.28557001,
+            "cash_taxes": 330247580.9766788,
+            "da": 233607967.72841504,
+            "delta_nwc": 99670201.59074998,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 2001500490.7677503,
+            "ebit_margin": 0.335,
+            "ebitda": 2235108458.4961653,
+            "fcff": 1698842291.6431665,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1523530224.3157501,
+            "present_value_fcff": 1448425461.9517846,
+            "revenue": 5974628330.650001,
+            "revenue_growth": 0.07,
+            "year": 2027
+          },
+          {
+            "capex": 111988433.42970361,
+            "cash_taxes": 352763565.3035664,
+            "da": 249428783.5479762,
+            "delta_nwc": 99029464.58052373,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 2137961001.839796,
+            "ebit_margin": 0.336,
+            "ebitda": 2387389785.387772,
+            "fcff": 1823608322.0739784,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1622559688.8962739,
+            "present_value_fcff": 1435642133.3825786,
+            "revenue": 6362979172.14225,
+            "revenue_growth": 0.065,
+            "year": 2028
+          },
+          {
+            "capex": 117358787.85099165,
+            "cash_taxes": 375042264.27898806,
+            "da": 264394510.56085476,
+            "delta_nwc": 97353581.33377647,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 2272983419.872655,
+            "ebit_margin": 0.337,
+            "ebitda": 2537377930.43351,
+            "fcff": 1947623296.9697533,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1719913270.2300503,
+            "present_value_fcff": 1415764878.2713394,
+            "revenue": 6744757922.470785,
+            "revenue_growth": 0.06,
+            "year": 2029
+          },
+          {
+            "capex": 122390377.26115485,
+            "cash_taxes": 396843682.5496865,
+            "da": 279647780.60252243,
+            "delta_nwc": 94595229.86265254,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 2405113227.5738573,
+            "ebit_margin": 0.338,
+            "ebitda": 2684761008.1763797,
+            "fcff": 2070931718.502886,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1814508500.0927029,
+            "present_value_fcff": 1390027834.0977116,
+            "revenue": 7115719608.206677,
+            "revenue_growth": 0.055,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "average",
+        "terminal_value": 48720092526.01041,
+        "terminal_value_present_value": 32701360496.77582,
+        "upside_downside_pct": 0.21180809746867224
+      }
+    },
+    "ticker": "RMD"
+  },
+  "assumptions": {
+    "cash": 1209450000.0,
+    "current_price": 225.99,
+    "debt": 668292000.0,
+    "diluted_shares": 147340000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 14400000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.336,
+    "tax_rate": 0.165,
+    "terminal_exit_ebitda_multiple": 20.0,
+    "terminal_growth": 0.03,
+    "terminal_method": "average",
+    "wacc": 0.085
+  },
+  "company_name": "ResMed Inc.",
+  "comps": [
+    {
+      "company_name": "Koninklijke Philips",
+      "ev_ntm_ebitda": 13.33,
+      "ev_ntm_revenue": 1.51,
+      "notes": "EV/Sales used as proxy for EV/NTM Revenue; EV/EBITDA used as proxy for EV/NTM EBITDA; Forward PE used as P/E NTM proxy. ([stockanalysis.com](https://stockanalysis.com/stocks/phg/statistics/))",
+      "pe_ntm": 15.0,
+      "source": "StockAnalysis (Statistics)",
+      "ticker": "PHG"
+    },
+    {
+      "company_name": "Medtronic",
+      "ev_ntm_ebitda": 13.79,
+      "ev_ntm_revenue": 3.67,
+      "notes": "EV/Sales used as proxy for EV/NTM Revenue; EV/EBITDA used as proxy for EV/NTM EBITDA; Forward PE used as P/E NTM proxy. ([stockanalysis.com](https://stockanalysis.com/stocks/mdt/statistics/))",
+      "pe_ntm": 14.49,
+      "source": "StockAnalysis (Statistics)",
+      "ticker": "MDT"
+    },
+    {
+      "company_name": "Danaher",
+      "ev_ntm_ebitda": 19.01,
+      "ev_ntm_revenue": 6.06,
+      "notes": "EV/Sales used as proxy for EV/NTM Revenue; EV/EBITDA used as proxy for EV/NTM EBITDA; Forward PE used as P/E NTM proxy. ([stockanalysis.com](https://stockanalysis.com/stocks/dhr/statistics/))",
+      "pe_ntm": 22.51,
+      "source": "StockAnalysis (Statistics)",
+      "ticker": "DHR"
+    },
+    {
+      "company_name": "Becton, Dickinson and Company",
+      "ev_ntm_ebitda": 10.37,
+      "ev_ntm_revenue": 2.86,
+      "notes": "EV/Sales used as proxy for EV/NTM Revenue; EV/EBITDA used as proxy for EV/NTM EBITDA; Forward PE used as P/E NTM proxy. ([stockanalysis.com](https://stockanalysis.com/stocks/bdx/statistics/))",
+      "pe_ntm": 11.97,
+      "source": "StockAnalysis (Statistics)",
+      "ticker": "BDX"
+    },
+    {
+      "company_name": "Boston Scientific",
+      "ev_ntm_ebitda": 21.19,
+      "ev_ntm_revenue": 5.63,
+      "notes": "EV/Sales used as proxy for EV/NTM Revenue; EV/EBITDA used as proxy for EV/NTM EBITDA; Forward PE used as P/E NTM proxy. ([stockanalysis.com](https://stockanalysis.com/stocks/bsx/statistics/))",
+      "pe_ntm": 20.03,
+      "source": "StockAnalysis (Statistics)",
+      "ticker": "BSX"
+    },
+    {
+      "company_name": "Edwards Lifesciences",
+      "ev_ntm_ebitda": 24.74,
+      "ev_ntm_revenue": 7.32,
+      "notes": "EV/Sales used as proxy for EV/NTM Revenue; EV/EBITDA used as proxy for EV/NTM EBITDA; Forward PE used as P/E NTM proxy. ([stockanalysis.com](https://stockanalysis.com/stocks/ew/statistics/))",
+      "pe_ntm": 27.9,
+      "source": "StockAnalysis (Statistics)",
+      "ticker": "EW"
+    },
+    {
+      "company_name": "GE HealthCare Technologies",
+      "ev_ntm_ebitda": 10.36,
+      "ev_ntm_revenue": 1.83,
+      "notes": "EV/Sales used as proxy for EV/NTM Revenue; EV/EBITDA used as proxy for EV/NTM EBITDA; Forward PE used as P/E NTM proxy. ([stockanalysis.com](https://stockanalysis.com/stocks/gehc/statistics/))",
+      "pe_ntm": 13.76,
+      "source": "StockAnalysis (Statistics)",
+      "ticker": "GEHC"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0185,
+      "2027": 0.0183,
+      "2028": 0.0182,
+      "2029": 0.018,
+      "2030": 0.018
+    },
+    "da_pct_sales": {
+      "2026": 0.039,
+      "2027": 0.0391,
+      "2028": 0.0392,
+      "2029": 0.0392,
+      "2030": 0.0393
+    },
+    "ebit_margin": {
+      "2026": 0.331,
+      "2027": 0.333,
+      "2028": 0.334,
+      "2029": 0.335,
+      "2030": 0.336
+    },
+    "nwc_pct_sales": {
+      "2026": 0.26,
+      "2027": 0.26,
+      "2028": 0.26,
+      "2029": 0.26,
+      "2030": 0.26
+    },
+    "revenue_growth": {
+      "2026": 0.075,
+      "2027": 0.065,
+      "2028": 0.06,
+      "2029": 0.055,
+      "2030": 0.05
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 119672000.0,
+      "2024": 99460000.0,
+      "2025": 89865000.0
+    },
+    "da": {
+      "2023": 165156000.0,
+      "2024": 176870000.0,
+      "2025": 198473000.0
+    },
+    "ebit": {
+      "2023": 1131871000.0,
+      "2024": 1319893000.0,
+      "2025": 1685363000.0
+    },
+    "nwc": {
+      "2023": 1391308000.0,
+      "2024": 1218603000.0,
+      "2025": 1286935000.0
+    },
+    "revenue": {
+      "2023": 4222993000.0,
+      "2024": 4685297000.0,
+      "2025": 5146327000.0
+    }
+  },
+  "notes": [
+    "EBIT in this package is set equal to GAAP \u201cincome from operations\u201d from ResMed\u2019s consolidated financial statements (used to compute EBIT margin). ([sec.gov](https://www.sec.gov/Archives/edgar/data/943819/000094381925000083/rmd-20250630x10k_ars.pdf))",
+    "NWC construction: NWC = (Total current assets \u2212 Cash and cash equivalents) \u2212 (Total current liabilities \u2212 Short-term debt, net). FY2023 uses the June 30, 2023 balance sheet from ResMed\u2019s FY2024 annual report; FY2024\u2013FY2025 uses the June 30 balance sheets from ResMed\u2019s FY2025 10-K. ([investor.resmed.com](https://investor.resmed.com/sec-filings/annual-reports/content/0000943819-24-000013/rmd-20240630.htm))",
+    "Comps multiples use StockAnalysis \u201cEV / Sales\u201d and \u201cEV / EBITDA\u201d as proxies for EV/NTM Revenue and EV/NTM EBITDA (forward/NTM definitions may differ by provider). ([stockanalysis.com](https://stockanalysis.com/stocks/phg/statistics/))",
+    "NOL utilization percent is not explicitly disclosed in the filings; NOL balance is set to the disclosed U.S. + non-U.S. net operating loss carryforwards (~$14.4 million total). ([sec.gov](https://www.sec.gov/Archives/edgar/data/943819/000094381925000083/rmd-20250630x10k_ars.pdf))",
+    "WACC is an assumption (not directly disclosed as a single consolidated figure in the filing); set to 0.085 base case for DCF inputs and adjusted modestly in bull/bear scenarios."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Sustained demand for sleep/breathing devices and consumables (masks/accessories) supporting incremental revenue growth. ([investor.resmed.com](https://investor.resmed.com/sec-filings/all-sec-filings/content/0001193125-26-029326/0001193125-26-029326.pdf))",
+      "Acceleration in digital health/connected-care adoption, including AI-enabled product clearances and continued ecosystem scaling. ([investor.resmed.com](https://investor.resmed.com/sec-filings/all-sec-filings/content/0001193125-26-029326/0001193125-26-029326.pdf))",
+      "Integration progress from VirtuOx and related operational execution affecting margins and cash generation. ([investor.resmed.com](https://investor.resmed.com/sec-filings/all-sec-filings/content/0001193125-26-029326/0001193125-26-029326.pdf))"
+    ],
+    "company_overview": [
+      "ResMed reports two operating segments: Sleep and Breathing Health (therapy-based devices/masks and related offerings) and Residential Care Software (cloud/SaaS for residential care providers). ([sec.gov](https://www.sec.gov/Archives/edgar/data/943819/000094381925000083/rmd-20250630x10k_ars.pdf))",
+      "The company markets products in more than 140 countries through a mix of distributors and direct sales. ([sec.gov](https://www.sec.gov/Archives/edgar/data/943819/000094381925000083/rmd-20250630x10k_ars.pdf))",
+      "Fiscal 2025 performance showed revenue of $5,146.3 million and GAAP income from operations of $1,685.4 million. ([sec.gov](https://www.sec.gov/Archives/edgar/data/943819/000094381925000083/rmd-20250630x10k_ars.pdf))"
+    ],
+    "current_context": [
+      "In Q2 FY2026 (quarter ended Dec 31, 2025), revenue grew to $1,422.8 million (+11% YoY headline; +9% constant currency) with gross margin up to 61.8%. ([investor.resmed.com](https://investor.resmed.com/sec-filings/all-sec-filings/content/0001193125-26-029326/0001193125-26-029326.pdf))",
+      "Income from operations increased 18% YoY and operating cash flow was $340 million in the quarter. ([investor.resmed.com](https://investor.resmed.com/sec-filings/all-sec-filings/content/0001193125-26-029326/0001193125-26-029326.pdf))",
+      "ResMed highlighted ongoing investment to scale digital health and noted additional SG&A related to the VirtuOx acquisition and employee/marketing/technology investments. ([investor.resmed.com](https://investor.resmed.com/sec-filings/all-sec-filings/content/0001193125-26-029326/0001193125-26-029326.pdf))"
+    ],
+    "investment_highlights": [
+      "Base case assumes ResMed sustains high-single-digit revenue growth into FY2026 before moderating toward low-to-mid single digits, consistent with recent execution. ([investor.resmed.com](https://investor.resmed.com/sec-filings/all-sec-filings/content/0001193125-26-029326/0001193125-26-029326.pdf))",
+      "EBIT margin is modeled around the recent ~33% GAAP operating profitability level, reflecting continued operating leverage (gross margin expansion and controlled opex). ([sec.gov](https://www.sec.gov/Archives/edgar/data/943819/000094381925000083/rmd-20250630x10k_ars.pdf))",
+      "Capital intensity is kept moderate (modeled capex at ~1.7%\u20131.85% of sales), consistent with historical capex levels derived from cash flow. ([sec.gov](https://www.sec.gov/Archives/edgar/data/943819/000094381925000083/rmd-20250630x10k_ars.pdf))",
+      "Working capital needs are modeled using an NWC-as-%-of-sales normalization around ~26%, with explicit treatment of receivables/inventory vs payables/accruals and customer consideration timing. ([sec.gov](https://www.sec.gov/Archives/edgar/data/943819/000094381925000083/rmd-20250630x10k_ars.pdf))"
+    ],
+    "key_risks": [
+      "Reimbursement and healthcare procurement dynamics could reduce device/mask volumes or pricing. ([sec.gov](https://www.sec.gov/Archives/edgar/data/943819/000094381925000083/rmd-20250630x10k_ars.pdf))",
+      "Manufacturing, supply chain, or quality/regulatory issues could pressure gross margin and/or increase costs. ([sec.gov](https://www.sec.gov/Archives/edgar/data/943819/000094381925000083/rmd-20250630x10k_ars.pdf))",
+      "Working-capital swings (customer payment terms, inventory levels, deferred revenue recognition) could affect free cash flow conversion. ([sec.gov](https://www.sec.gov/Archives/edgar/data/943819/000094381925000083/rmd-20250630x10k_ars.pdf))"
+    ],
+    "sources": [
+      {
+        "label": "ResMed FY2025 Form 10-K (SEC filing PDF)",
+        "notes": "Anchors FY2025 historical revenue, GAAP income from operations (EBIT proxy), D&A, capex, and balance-sheet cash/debt/tax/NOL disclosures. ([sec.gov](https://www.sec.gov/Archives/edgar/data/943819/000094381925000083/rmd-20250630x10k_ars.pdf))",
+        "url": null
+      },
+      {
+        "label": "ResMed FY2024 Annual Report (for June 30, 2023 balance sheet)",
+        "notes": "Used to compute historical NWC for FY2023 from current assets/liabilities line items. ([investor.resmed.com](https://investor.resmed.com/sec-filings/annual-reports/content/0000943819-24-000013/rmd-20240630.htm))",
+        "url": null
+      },
+      {
+        "label": "ResMed Q2 FY2026 earnings press release (8-K exhibit PDF, dated Jan 29, 2026)",
+        "notes": "Latest operating update used in current_context and catalyst bullets (revenue growth, gross margin, operating cash flow, and qualitative commentary). ([investor.resmed.com](https://investor.resmed.com/sec-filings/all-sec-filings/content/0001193125-26-029326/0001193125-26-029326.pdf))",
+        "url": null
+      },
+      {
+        "label": "Peer multiples (EV/Sales, EV/EBITDA, Forward P/E) from StockAnalysis",
+        "notes": "Used EV/Sales as proxy for EV/NTM revenue and EV/EBITDA as proxy for EV/NTM EBITDA; Forward P/E used as P/E NTM proxy for PHG/MDT/DHR/BDX/BSX/EW/GEHC. ([stockanalysis.com](https://stockanalysis.com/stocks/phg/statistics/))",
+        "url": null
+      },
+      {
+        "label": "Current market price (tool snapshot)",
+        "notes": "Current price used in assumptions: 225.99 (as of Mar 20, 2026 snapshot).",
+        "url": null
+      }
+    ],
+    "subtitle": "ResMed (RMD): Base-case DCF + medical-device comps",
+    "valuation_summary": [
+      "DCF base-case uses FY2023\u2013FY2025 historicals (revenue, GAAP income from operations as EBIT proxy, D&A, and capex) to anchor operating structure and reinvestment assumptions. ([sec.gov](https://www.sec.gov/Archives/edgar/data/943819/000094381925000083/rmd-20250630x10k_ars.pdf))",
+      "Terminal value is computed with a balanced terminal approach (average method) and economically conservative terminal growth (3%).",
+      "Peer multiples are included as a sanity check using EV/Sales, EV/EBITDA, and forward P/E from medical-tech large caps as proxies for NTM-style multiples. ([stockanalysis.com](https://stockanalysis.com/stocks/bsx/statistics/))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 225.99,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.334,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 19.0,
+        "terminal_growth": 0.029,
+        "terminal_method": "average",
+        "wacc": 0.087
+      },
+      "description": "Softer revenue growth and modest margin compression vs base case; slightly higher WACC and less favorable terminal assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.019,
+          "2027": 0.0188,
+          "2028": 0.0187,
+          "2029": 0.0185,
+          "2030": 0.0185
+        },
+        "da_pct_sales": {
+          "2026": 0.039,
+          "2027": 0.0391,
+          "2028": 0.0392,
+          "2029": 0.0392,
+          "2030": 0.0393
+        },
+        "ebit_margin": {
+          "2026": 0.329,
+          "2027": 0.331,
+          "2028": 0.332,
+          "2029": 0.333,
+          "2030": 0.334
+        },
+        "nwc_pct_sales": {
+          "2026": 0.265,
+          "2027": 0.265,
+          "2028": 0.265,
+          "2029": 0.265,
+          "2030": 0.265
+        },
+        "revenue_growth": {
+          "2026": 0.065,
+          "2027": 0.06,
+          "2028": 0.055,
+          "2029": 0.05,
+          "2030": 0.045
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 225.99,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.338,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 21.0,
+        "terminal_growth": 0.031,
+        "terminal_method": "average",
+        "wacc": 0.083
+      },
+      "description": "Moderately stronger demand and modest margin expansion vs base case; slightly lower WACC and more favorable terminal assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.018,
+          "2027": 0.0178,
+          "2028": 0.0176,
+          "2029": 0.0174,
+          "2030": 0.0172
+        },
+        "da_pct_sales": {
+          "2026": 0.039,
+          "2027": 0.0391,
+          "2028": 0.0392,
+          "2029": 0.0392,
+          "2030": 0.0393
+        },
+        "ebit_margin": {
+          "2026": 0.333,
+          "2027": 0.335,
+          "2028": 0.336,
+          "2029": 0.337,
+          "2030": 0.338
+        },
+        "nwc_pct_sales": {
+          "2026": 0.255,
+          "2027": 0.255,
+          "2028": 0.255,
+          "2029": 0.255,
+          "2030": 0.255
+        },
+        "revenue_growth": {
+          "2026": 0.085,
+          "2027": 0.07,
+          "2028": 0.065,
+          "2029": 0.06,
+          "2030": 0.055
+        }
+      }
+    }
+  },
+  "ticker": "RMD"
+}

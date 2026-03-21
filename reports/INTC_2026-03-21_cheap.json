@@ -1,0 +1,712 @@
+{
+  "_meta": {
+    "cost_usd": 0.022453,
+    "generated_at": "2026-03-21T17:15:58Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [
+      "margin_reversal"
+    ],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11085,
+      "prompt": 2515,
+      "reasoning": 6475
+    }
+  },
+  "_valuation": {
+    "company_name": "Intel Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 43.87,
+        "description": "Base case",
+        "enterprise_value": 28607774785.037125,
+        "equity_value": 15871774785.037125,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 46935672278.64271,
+        "implied_market_cap": 15871774785.037125,
+        "investments_adjustment": 8512000000.0,
+        "net_debt": 9169000000.0,
+        "per_share_value": 3.503703043054553,
+        "projected_years": [
+          {
+            "capex": 15242805200.000002,
+            "cash_taxes": 0.0,
+            "da": 11704296850.0,
+            "delta_nwc": 82070500.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": -544385900.0,
+            "ebit_margin": -0.01,
+            "ebitda": 11159910950.0,
+            "fcff": -4164964750.000002,
+            "nol_balance_end": 3705385900.0,
+            "nol_used": 0.0,
+            "nwc": -2721929500.0,
+            "present_value_fcff": -3838677188.940094,
+            "revenue": 54438590000.0,
+            "revenue_growth": 0.03,
+            "year": 2026
+          },
+          {
+            "capex": 15569436740.000002,
+            "cash_taxes": 27175744.127999995,
+            "da": 11889388056.0,
+            "delta_nwc": 4355087.199999809,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1132322672.0,
+            "ebit_margin": 0.02,
+            "ebitda": 13021710728.0,
+            "fcff": -2579256843.328002,
+            "nol_balance_end": 2799527762.4,
+            "nol_used": 905858137.6,
+            "nwc": -2717574412.8,
+            "present_value_fcff": -2190963361.573193,
+            "revenue": 56616133600.0,
+            "revenue_growth": 0.04,
+            "year": 2027
+          },
+          {
+            "capex": 15897810314.880001,
+            "cash_taxes": 158655211.64160004,
+            "da": 12247202020.352,
+            "delta_nwc": 9058581.376000404,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 4121654526.0800004,
+            "ebit_margin": 0.07,
+            "ebitda": 16368856546.432,
+            "fcff": 303332438.5343981,
+            "nol_balance_end": 0.0,
+            "nol_used": 2799527762.4,
+            "nwc": -2708515831.424,
+            "present_value_fcff": 237481422.6453217,
+            "revenue": 58880778944.0,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 16071508612.764801,
+            "cash_taxes": 727766427.74784,
+            "da": 12432676474.025599,
+            "delta_nwc": 40038929.68192005,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 6064720231.232,
+            "ebit_margin": 0.1,
+            "ebitda": 18497396705.2576,
+            "fcff": 1658082735.063037,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2668476901.7420797,
+            "present_value_fcff": 1196429862.8101614,
+            "revenue": 60647202312.32,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 16241320779.239296,
+            "cash_taxes": 899519304.6963302,
+            "da": 12680723531.482988,
+            "delta_nwc": 44878929.711116314,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 7495994205.802752,
+            "ebit_margin": 0.12,
+            "ebitda": 20176717737.28574,
+            "fcff": 2990998723.6389966,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2623597972.0309634,
+            "present_value_fcff": 1989150012.2176688,
+            "revenue": 62466618381.6896,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 46935672278.64271,
+        "terminal_value_present_value": 31214354037.87726,
+        "upside_downside_pct": -0.9201344188954969
+      },
+      "bear": {
+        "current_price": 43.87,
+        "description": "Softer demand/mix with slower margin recovery; modestly higher WACC and slightly higher long-run reinvestment needs.",
+        "enterprise_value": 9636753750.771534,
+        "equity_value": -3099246249.228466,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 25151683061.735146,
+        "implied_market_cap": -3099246249.228466,
+        "investments_adjustment": 8512000000.0,
+        "net_debt": 9169000000.0,
+        "per_share_value": -0.6841603199179837,
+        "projected_years": [
+          {
+            "capex": 15289051574.999996,
+            "cash_taxes": 0.0,
+            "da": 11641137514.999998,
+            "delta_nwc": -146518724.99999952,
+            "discount_factor": 0.9174311926605504,
+            "ebit": -1072915899.9999999,
+            "ebit_margin": -0.02,
+            "ebitda": 10568221614.999998,
+            "fcff": -4574311234.999998,
+            "nol_balance_end": 4233915900.0,
+            "nol_used": 0.0,
+            "nwc": -2950518724.9999995,
+            "present_value_fcff": -4196615811.9266033,
+            "revenue": 53645794999.99999,
+            "revenue_growth": 0.015,
+            "year": 2026
+          },
+          {
+            "capex": 15471447278.0,
+            "cash_taxes": 0.0,
+            "da": 11824606133.899998,
+            "delta_nwc": 77249944.80000019,
+            "discount_factor": 0.84167999326656,
+            "ebit": -276275844.24999994,
+            "ebit_margin": -0.005,
+            "ebitda": 11548330289.649998,
+            "fcff": -4000366933.1500025,
+            "nol_balance_end": 4510191744.25,
+            "nol_used": 0.0,
+            "nwc": -2873268780.1999993,
+            "present_value_fcff": -3367028813.3574634,
+            "revenue": 55255168849.99999,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 15575050719.593746,
+            "cash_taxes": 61167471.91694996,
+            "da": 11893675094.962496,
+            "delta_nwc": 41441376.63749981,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 2548644663.206249,
+            "ebit_margin": 0.045,
+            "ebitda": 14442319758.168745,
+            "fcff": -1235339809.9794512,
+            "nol_balance_end": 2471276013.6850004,
+            "nol_used": 2038915730.5649996,
+            "nwc": -2831827403.5624995,
+            "present_value_fcff": -953908993.5279064,
+            "revenue": 56636548071.249985,
+            "revenue_growth": 0.025,
+            "year": 2028
+          },
+          {
+            "capex": 15597705338.822248,
+            "cash_taxes": 292693524.4910849,
+            "da": 11958240759.763721,
+            "delta_nwc": 58902009.994100094,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 4910388717.777374,
+            "ebit_margin": 0.085,
+            "ebitda": 16868629477.541096,
+            "fcff": 919328604.2336621,
+            "nol_balance_end": 0.0,
+            "nol_used": 2471276013.6850004,
+            "nwc": -2772925393.5683994,
+            "present_value_fcff": 651275560.4925044,
+            "revenue": 57769279032.67499,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 15584418404.644732,
+            "cash_taxes": 740994988.2963156,
+            "da": 12055870841.328943,
+            "delta_nwc": 126514721.08155823,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 6174958235.802629,
+            "ebit_margin": 0.105,
+            "ebitda": 18230829077.131573,
+            "fcff": 1778900963.1089687,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2646410672.486841,
+            "present_value_fcff": 1156163569.0408735,
+            "revenue": 58809126055.26314,
+            "revenue_growth": 0.018,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 25151683061.735146,
+        "terminal_value_present_value": 16346868240.05013,
+        "upside_downside_pct": -1.0155951748328695
+      },
+      "bull": {
+        "current_price": 43.87,
+        "description": "Modestly faster normalization of gross margin and operating leverage; slightly higher growth with lower WACC.",
+        "enterprise_value": 44890902286.489944,
+        "equity_value": 32154902286.489944,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 65968824212.75106,
+        "implied_market_cap": 32154902286.489944,
+        "investments_adjustment": 8512000000.0,
+        "net_debt": 9169000000.0,
+        "per_share_value": 7.098212425273719,
+        "projected_years": [
+          {
+            "capex": 15115958000.000002,
+            "cash_taxes": 0.0,
+            "da": 11653029440.0,
+            "delta_nwc": 220545360.0,
+            "discount_factor": 0.9242144177449167,
+            "ebit": 0.0,
+            "ebit_margin": 0.0,
+            "ebitda": 11653029440.0,
+            "fcff": -3683473920.000002,
+            "nol_balance_end": 3161000000.0,
+            "nol_used": 0.0,
+            "nwc": -2583454640.0,
+            "present_value_fcff": -3404319704.2513876,
+            "revenue": 54967120000.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 15467747568.0,
+            "cash_taxes": 41555142.72,
+            "da": 11947103532.0,
+            "delta_nwc": -13741780.0,
+            "discount_factor": 0.8541722899675755,
+            "ebit": 1731464280.0,
+            "ebit_margin": 0.03,
+            "ebitda": 13678567812.0,
+            "fcff": -1816993118.7199993,
+            "nol_balance_end": 1775828576.0,
+            "nol_used": 1385171424.0,
+            "nwc": -2597196420.0,
+            "present_value_fcff": -1552025173.0723886,
+            "revenue": 57715476000.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 15726312900.480001,
+            "cash_taxes": 363131883.26399994,
+            "da": 12304939483.199999,
+            "delta_nwc": 16160333.28000021,
+            "discount_factor": 0.789438345626225,
+            "ebit": 4801927603.2,
+            "ebit_margin": 0.08,
+            "ebitda": 17106867086.399998,
+            "fcff": 1001261969.3759961,
+            "nol_balance_end": 0.0,
+            "nol_used": 1775828576.0,
+            "nwc": -2581036086.72,
+            "present_value_fcff": 790434592.6426423,
+            "revenue": 60024095040.0,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 15903984221.798399,
+            "cash_taxes": 820049186.4364798,
+            "da": 12549237550.0128,
+            "delta_nwc": 33913613.69759989,
+            "discount_factor": 0.7296103009484519,
+            "ebit": 6833743220.303999,
+            "ebit_margin": 0.11,
+            "ebitda": 19382980770.3168,
+            "fcff": 2625033748.384319,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2547122473.0224,
+            "present_value_fcff": 1915251663.1585257,
+            "revenue": 62124938366.399994,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 16125149002.382784,
+            "cash_taxes": 998223509.6713151,
+            "da": 12797737303.478401,
+            "delta_nwc": 51563698.84411192,
+            "discount_factor": 0.6743163594717669,
+            "ebit": 8318529247.26096,
+            "ebit_margin": 0.13,
+            "ebitda": 21116266550.73936,
+            "fcff": 3941330339.8411508,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2495558774.178288,
+            "present_value_fcff": 2657703526.2373066,
+            "revenue": 63988686517.392,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 65968824212.75106,
+        "terminal_value_present_value": 44483857381.775246,
+        "upside_downside_pct": -0.8381989417535054
+      }
+    },
+    "ticker": "INTC"
+  },
+  "assumptions": {
+    "cash": 37416000000.0,
+    "current_price": 43.87,
+    "debt": 46585000000.0,
+    "diluted_shares": 4530000000.0,
+    "investments": 8512000000.0,
+    "minority_interest": 12079000000.0,
+    "net_debt_override": null,
+    "nol_balance": 3161000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.12,
+    "tax_rate": 0.12,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Intel Corporation",
+  "comps": [
+    {
+      "company_name": "NVIDIA Corporation",
+      "ev_ntm_ebitda": 39.4,
+      "ev_ntm_revenue": 16.8,
+      "notes": "ValueSense labels these as EV/Revenue NTM, EV/EBITDA NTM, and P/E NTM; methodology may differ from strict sell-side NTM definitions.",
+      "pe_ntm": 29.8,
+      "source": "ValueSense (peer set multiples shown on AMD metric pages) ([valuesense.io](https://valuesense.io/ticker/amd/ev-to-revenue-ntm))",
+      "ticker": "NVDA"
+    },
+    {
+      "company_name": "Broadcom Inc.",
+      "ev_ntm_ebitda": 39.1,
+      "ev_ntm_revenue": 20.1,
+      "notes": "As displayed in the peer-set comparison table.",
+      "pe_ntm": 36.8,
+      "source": "ValueSense (peer set multiples shown on AMD metric pages) ([valuesense.io](https://valuesense.io/ticker/amd/ev-to-revenue-ntm))",
+      "ticker": "AVGO"
+    },
+    {
+      "company_name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "ev_ntm_ebitda": 18.4,
+      "ev_ntm_revenue": 12.2,
+      "notes": "Peer-set selection includes TSM; P/E NTM is highly sensitive to earnings assumptions.",
+      "pe_ntm": 5.9,
+      "source": "ValueSense (peer set multiples shown on AMD metric pages) ([valuesense.io](https://valuesense.io/ticker/amd/ev-to-revenue-ntm))",
+      "ticker": "TSM"
+    },
+    {
+      "company_name": "ASML Holding N.V.",
+      "ev_ntm_ebitda": 34.4,
+      "ev_ntm_revenue": 11.6,
+      "notes": "Multiple inputs reflect ValueSense\u2019s NTM model/estimates.",
+      "pe_ntm": 39.0,
+      "source": "ValueSense (peer set multiples shown on AMD metric pages) ([valuesense.io](https://valuesense.io/ticker/amd/ev-to-revenue-ntm))",
+      "ticker": "ASML"
+    },
+    {
+      "company_name": "Micron Technology, Inc.",
+      "ev_ntm_ebitda": 27.4,
+      "ev_ntm_revenue": 9.8,
+      "notes": "DRAM/NAND cycle can swing NTM earnings and thus P/E.",
+      "pe_ntm": 34.0,
+      "source": "ValueSense (peer set multiples shown on AMD metric pages) ([valuesense.io](https://valuesense.io/ticker/amd/ev-to-revenue-ntm))",
+      "ticker": "MU"
+    },
+    {
+      "company_name": "QUALCOMM Incorporated",
+      "ev_ntm_ebitda": 9.6,
+      "ev_ntm_revenue": 3.2,
+      "notes": "Represents a lower-multiple peer in the provided peer set.",
+      "pe_ntm": 10.2,
+      "source": "ValueSense (peer set multiples shown on AMD metric pages) ([valuesense.io](https://valuesense.io/ticker/amd/ev-to-revenue-ntm))",
+      "ticker": "QCOM"
+    },
+    {
+      "company_name": "Applied Materials, Inc.",
+      "ev_ntm_ebitda": 28.7,
+      "ev_ntm_revenue": 9.0,
+      "notes": "Equipment/procurement cycle differs somewhat from pure chip vendors.",
+      "pe_ntm": 33.4,
+      "source": "ValueSense (peer set multiples shown on AMD metric pages) ([valuesense.io](https://valuesense.io/ticker/amd/ev-to-revenue-ntm))",
+      "ticker": "AMAT"
+    },
+    {
+      "company_name": "Texas Instruments Incorporated",
+      "ev_ntm_ebitda": 18.0,
+      "ev_ntm_revenue": 9.2,
+      "notes": "Included for broad semiconductor coverage; not a direct foundry analogue.",
+      "pe_ntm": 26.4,
+      "source": "ValueSense (peer set multiples shown on AMD metric pages) ([valuesense.io](https://valuesense.io/ticker/amd/ev-to-revenue-ntm))",
+      "ticker": "TXN"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.28,
+      "2027": 0.275,
+      "2028": 0.27,
+      "2029": 0.265,
+      "2030": 0.26
+    },
+    "da_pct_sales": {
+      "2026": 0.215,
+      "2027": 0.21,
+      "2028": 0.208,
+      "2029": 0.205,
+      "2030": 0.203
+    },
+    "ebit_margin": {
+      "2026": -0.01,
+      "2027": 0.02,
+      "2028": 0.07,
+      "2029": 0.1,
+      "2030": 0.12
+    },
+    "nwc_pct_sales": {
+      "2026": -0.05,
+      "2027": -0.048,
+      "2028": -0.046,
+      "2029": -0.044,
+      "2030": -0.042
+    },
+    "revenue_growth": {
+      "2026": 0.03,
+      "2027": 0.04,
+      "2028": 0.04,
+      "2029": 0.03,
+      "2030": 0.03
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 25750000000.0,
+      "2024": 23944000000.0,
+      "2025": 14646000000.0
+    },
+    "da": {
+      "2023": 9602000000.0,
+      "2024": 11379000000.0,
+      "2025": 11706000000.0
+    },
+    "ebit": {
+      "2023": 93000000.0,
+      "2024": -11678000000.0,
+      "2025": -2214000000.0
+    },
+    "nwc": {
+      "2023": -7530000000.0,
+      "2024": -6675000000.0,
+      "2025": -2804000000.0
+    },
+    "revenue": {
+      "2023": 54228000000.0,
+      "2024": 53101000000.0,
+      "2025": 52853000000.0
+    }
+  },
+  "notes": [
+    "EBIT is treated as GAAP operating income (loss) from the consolidated segment reconciliation. ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm))",
+    "D&A is defined as depreciation + amortization of intangibles (per Intel cash flow reconciliation). ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm))",
+    "Capex is defined as absolute \u201cAdditions to property, plant and equipment\u201d from the cash flow statement. ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm))",
+    "NWC construction (for DCF modeling) is: (Total current assets \u2212 cash & cash equivalents \u2212 short-term investments) \u2212 (Total current liabilities \u2212 short-term debt). This is a simplification and may differ from more detailed working-capital schedules. ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm))",
+    "tax_rate (0.12) is set to Intel\u2019s non-GAAP tax rate disclosed alongside Q1 2026 and FY2025 results; GAAP tax rate can be distorted when earnings are negative. ([intc.com](https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial))",
+    "WACC (0.085) is a model assumption (not directly reported by Intel). Treat as a baseline scenario input subject to refinement if your pipeline has a standardized WACC module.",
+    "Comps multiples come from ValueSense peer-set tables; exact NTM definitions may differ from strict \u201cnext 12 months\u201d sell-side conventions. ([valuesense.io](https://valuesense.io/ticker/amd/ev-to-revenue-ntm))",
+    "NOL carryforwards are taken from Intel\u2019s disclosed federal and non-U.S. net operating loss carryforwards; the non-U.S. figure is presented in rounded \u201cbillion\u201d terms in the filing. ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained ramp in Intel 18A/advanced-node execution and foundry supply improvement beyond Q1 2026. ([intc.com](https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial))",
+      "Further evidence of gross margin expansion and operating expense discipline translating into positive GAAP operating income. ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm))",
+      "Progress on foundry customer traction and partner ecosystem that supports revenue visibility and utilization. ([intc.com](https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial))"
+    ],
+    "company_overview": [
+      "Intel operates across Intel Products (CCG and DCAI) and Intel Foundry services. ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm))",
+      "FY2025 net revenue was $52.853B with GAAP operating loss of $(2.214)B. ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm))",
+      "As of Dec 27, 2025, Intel reported $37.416B cash and short-term investments and $46.585B total debt. ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm))"
+    ],
+    "current_context": [
+      "Q4 2025 revenue was $13.7B (down 4% YoY); GAAP operating margin (loss) was 4.2% for the quarter. ([intc.com](https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial))",
+      "FY2025 revenue was $52.9B (flat YoY) and GAAP operating margin (loss) was (4.2)%. ([intc.com](https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial))",
+      "Intel guided Q1 2026 revenue to $11.7B\u2013$12.7B (midpoint used for modeling where applicable). ([intc.com](https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial))",
+      "Management highlighted supply constraints expected to be lowest in Q1 before improving in Q2 and beyond. ([intc.com](https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial))"
+    ],
+    "investment_highlights": [
+      "Base case assumes revenue stabilizes and returns to modest mid-single-digit growth after demand/supply normalization (consistent with Q1 2026 setup and improving supply expectations). ([intc.com](https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial))",
+      "Base case EBIT margin recovers from the 2024/2025 impairment/accelerated-depreciation impact toward a sustainable positive margin as those charges roll through. ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm))",
+      "Depreciation/amortization and capex remain structurally high, reflecting ongoing manufacturing investment; capex gradually normalizes as the fab build cycle matures. ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm))",
+      "Working capital modeled as still negative but improving (consistent with historical movement from more negative NWC in 2023/2024 toward 2025). ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm))"
+    ],
+    "key_risks": [
+      "Demand/supply mismatch and utilization risk: if product cycles or customer ramps slip, margin recovery may stall. ([intc.com](https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial))",
+      "Asset impairment/accelerated depreciation or restructuring charges could re-expand losses and delay EBIT normalization. ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm))",
+      "Macro/competitive pressures (pricing and mix) could keep EBIT margin below base case assumptions. ([intc.com](https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial))"
+    ],
+    "sources": [
+      {
+        "label": "Intel FY2025 Form 10-K (SEC)",
+        "notes": "Used for FY2023\u2013FY2025 net revenue, operating income (EBIT), depreciation and amortization, capex, cash/debt, non-controlling interests, equity investments, diluted share count, and NOL carryforwards. ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+      },
+      {
+        "label": "Intel FY2024 Form 10-K (SEC) for FY2023 balance sheet",
+        "notes": "Used for Dec 30, 2023 current assets/current liabilities and short-term debt to construct NWC. ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm"
+      },
+      {
+        "label": "Intel Q4 & Full-Year 2025 Financial Results (Press Release)",
+        "notes": "Used for Q4/FY2025 operating context, Q1 2026 revenue guidance, and non-GAAP tax rate used in DCF tax-rate assumption. ([intc.com](https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial))",
+        "url": "https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial"
+      },
+      {
+        "label": "ValueSense peer multiples (EV/Revenue NTM, EV/EBITDA NTM, P/E NTM)",
+        "notes": "EV/Revenue NTM peer-set values for selected semiconductor peers. ([valuesense.io](https://valuesense.io/ticker/amd/ev-to-revenue-ntm))",
+        "url": "https://valuesense.io/ticker/amd/ev-to-revenue-ntm"
+      },
+      {
+        "label": "ValueSense peer multiples (EV/EBITDA NTM)",
+        "notes": "EV/EBITDA NTM peer-set values for selected semiconductor peers. ([valuesense.io](https://valuesense.io/ticker/amd/ev-to-ebitda-ntm))",
+        "url": "https://valuesense.io/ticker/amd/ev-to-ebitda-ntm"
+      },
+      {
+        "label": "ValueSense peer multiples (P/E NTM)",
+        "notes": "P/E NTM peer-set values for selected semiconductor peers. ([valuesense.io](https://valuesense.io/ticker/amd/price-to-earnings-ntm))",
+        "url": "https://valuesense.io/ticker/amd/price-to-earnings-ntm"
+      },
+      {
+        "label": "INTC market price (as of 2026-03-21)",
+        "notes": "Used as current_price input.",
+        "url": null
+      }
+    ],
+    "subtitle": "Intel (INTC) DCF Input Package \u2014 GAAP Recovery + Elevated Capex",
+    "valuation_summary": [
+      "DCF uses Gordon growth with terminal growth of 2.0% and an 8.5% WACC assumption to reflect Intel\u2019s capital intensity and longer-duration cash flow risk. ([intc.com](https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial))",
+      "GAAP EBIT is explicitly modeled (including operating losses) to stay consistent with the historical margin trough and recovery timing. ([sec.gov](https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm))",
+      "Peer cross-check uses ValueSense semiconductor peer multiples (EV/Revenue NTM, EV/EBITDA NTM, and P/E NTM) for broad sense-check on valuation levels. ([valuesense.io](https://valuesense.io/ticker/amd/ev-to-revenue-ntm))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 43.87,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.105,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.018,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.09
+      },
+      "description": "Softer demand/mix with slower margin recovery; modestly higher WACC and slightly higher long-run reinvestment needs.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.285,
+          "2027": 0.28,
+          "2028": 0.275,
+          "2029": 0.27,
+          "2030": 0.265
+        },
+        "da_pct_sales": {
+          "2026": 0.217,
+          "2027": 0.214,
+          "2028": 0.21,
+          "2029": 0.207,
+          "2030": 0.205
+        },
+        "ebit_margin": {
+          "2026": -0.02,
+          "2027": -0.005,
+          "2028": 0.045,
+          "2029": 0.085,
+          "2030": 0.105
+        },
+        "nwc_pct_sales": {
+          "2026": -0.055,
+          "2027": -0.052,
+          "2028": -0.05,
+          "2029": -0.048,
+          "2030": -0.045
+        },
+        "revenue_growth": {
+          "2026": 0.015,
+          "2027": 0.03,
+          "2028": 0.025,
+          "2029": 0.02,
+          "2030": 0.018
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 43.87,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.13,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.021,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.082
+      },
+      "description": "Modestly faster normalization of gross margin and operating leverage; slightly higher growth with lower WACC.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.275,
+          "2027": 0.268,
+          "2028": 0.262,
+          "2029": 0.256,
+          "2030": 0.252
+        },
+        "da_pct_sales": {
+          "2026": 0.212,
+          "2027": 0.207,
+          "2028": 0.205,
+          "2029": 0.202,
+          "2030": 0.2
+        },
+        "ebit_margin": {
+          "2026": 0.0,
+          "2027": 0.03,
+          "2028": 0.08,
+          "2029": 0.11,
+          "2030": 0.13
+        },
+        "nwc_pct_sales": {
+          "2026": -0.047,
+          "2027": -0.045,
+          "2028": -0.043,
+          "2029": -0.041,
+          "2030": -0.039
+        },
+        "revenue_growth": {
+          "2026": 0.04,
+          "2027": 0.05,
+          "2028": 0.04,
+          "2029": 0.035,
+          "2030": 0.03
+        }
+      }
+    }
+  },
+  "ticker": "INTC"
+}

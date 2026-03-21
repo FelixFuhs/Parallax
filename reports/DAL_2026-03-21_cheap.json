@@ -1,0 +1,690 @@
+{
+  "_meta": {
+    "cost_usd": 0.028033,
+    "generated_at": "2026-03-21T17:14:51Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 13312,
+      "prompt": 2514,
+      "reasoning": 8712
+    }
+  },
+  "_valuation": {
+    "company_name": "Delta Air Lines, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 63.44,
+        "description": "Base case",
+        "enterprise_value": 56815208495.70535,
+        "equity_value": 52039208495.70535,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 65129029961.680626,
+        "implied_market_cap": 52039208495.70536,
+        "investments_adjustment": 4222000000.0,
+        "net_debt": 8998000000.0,
+        "per_share_value": 79.57065519221003,
+        "projected_years": [
+          {
+            "capex": 4984212239.999999,
+            "cash_taxes": 706528447.6199999,
+            "da": 2557687859.9999995,
+            "delta_nwc": -313521999.9999962,
+            "discount_factor": 0.9225479094665093,
+            "ebit": 6099101819.999999,
+            "ebit_margin": 0.093,
+            "ebitda": 8656789679.999998,
+            "fcff": 3279570992.3799963,
+            "nol_balance_end": 0.0,
+            "nol_used": 2400000000.0,
+            "nwc": -19674521999.999996,
+            "present_value_fcff": 3025561362.967171,
+            "revenue": 65581739999.99999,
+            "revenue_growth": 0.035,
+            "year": 2026
+          },
+          {
+            "capex": 5187581215.74,
+            "cash_taxes": 1211012014.91886,
+            "da": 2658211551.0719995,
+            "delta_nwc": -465499190.52000046,
+            "discount_factor": 0.8510946452610267,
+            "ebit": 6340377041.459999,
+            "ebit_margin": 0.0935,
+            "ebitda": 8998588592.531998,
+            "fcff": 3065494552.39314,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -20140021190.519997,
+            "present_value_fcff": 2609025998.6186495,
+            "revenue": 67811519159.99999,
+            "revenue_growth": 0.034,
+            "year": 2027
+          },
+          {
+            "capex": 5253697446.920999,
+            "cash_taxes": 1257665119.493595,
+            "da": 2745932532.2573752,
+            "delta_nwc": -524522100.7025986,
+            "discount_factor": 0.7851755857437005,
+            "ebit": 6584634133.4743185,
+            "ebit_margin": 0.094,
+            "ebitda": 9330566665.731693,
+            "fcff": 3343726200.019698,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -20664543291.222595,
+            "present_value_fcff": 2625412177.667024,
+            "revenue": 70049299292.27998,
+            "revenue_growth": 0.033,
+            "year": 2028
+          },
+          {
+            "capex": 5349524888.352838,
+            "cash_taxes": 1297910403.31739,
+            "da": 2826573285.6026487,
+            "delta_nwc": -516683631.5798569,
+            "discount_factor": 0.7243620951919928,
+            "ebit": 6795342425.745498,
+            "ebit_margin": 0.094,
+            "ebitda": 9621915711.348146,
+            "fcff": 3491164051.2577763,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -21181226922.802452,
+            "present_value_fcff": 2528866906.8280487,
+            "revenue": 72290876869.63295,
+            "revenue_growth": 0.032,
+            "year": 2029
+          },
+          {
+            "capex": 5440828265.839184,
+            "cash_taxes": 1345263421.7022514,
+            "da": 2906743868.051071,
+            "delta_nwc": -582086140.5542831,
+            "discount_factor": 0.6682587366161538,
+            "ebit": 7043263987.969903,
+            "ebit_margin": 0.0945,
+            "ebitda": 9950007856.020973,
+            "fcff": 3746002309.033821,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -21763313063.356735,
+            "present_value_fcff": 2503298770.3961363,
+            "revenue": 74531894052.59157,
+            "revenue_growth": 0.031,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 65129029961.680626,
+        "terminal_value_present_value": 43523043279.22832,
+        "upside_downside_pct": 0.2542663176577873
+      },
+      "bear": {
+        "current_price": 63.44,
+        "description": "Modestly softer revenue growth and margin compression with higher capital intensity and more negative working-capital impact.",
+        "enterprise_value": 48575659165.70428,
+        "equity_value": 43799659165.70428,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 54644484225.46675,
+        "implied_market_cap": 43799659165.70428,
+        "investments_adjustment": 4222000000.0,
+        "net_debt": 8998000000.0,
+        "per_share_value": 66.9719559108628,
+        "projected_years": [
+          {
+            "capex": 5035156896.0,
+            "cash_taxes": 678172233.888,
+            "da": 2550274272.0,
+            "delta_nwc": -583452640.0,
+            "discount_factor": 0.9203865623561895,
+            "ebit": 5950639968.0,
+            "ebit_margin": 0.091,
+            "ebitda": 8500914240.0,
+            "fcff": 3371037750.1119995,
+            "nol_balance_end": 0.0,
+            "nol_used": 2400000000.0,
+            "nwc": -19944452640.0,
+            "present_value_fcff": 3102657846.3985267,
+            "revenue": 65391648000.0,
+            "revenue_growth": 0.032,
+            "year": 2026
+          },
+          {
+            "capex": 5224956154.32,
+            "cash_taxes": 1178244467.4964318,
+            "da": 2642816532.2495995,
+            "delta_nwc": -416021664.5759964,
+            "discount_factor": 0.8471114241658441,
+            "ebit": 6168819201.551999,
+            "ebit_margin": 0.0915,
+            "ebitda": 8811635733.801598,
+            "fcff": 2824456776.561163,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -20360474304.575996,
+            "present_value_fcff": 2392629602.487596,
+            "revenue": 67418789087.99999,
+            "revenue_growth": 0.031,
+            "year": 2027
+          },
+          {
+            "capex": 5277542809.80864,
+            "cash_taxes": 1220223450.7099662,
+            "da": 2722101028.2170877,
+            "delta_nwc": -471931523.6160011,
+            "discount_factor": 0.7796699716206572,
+            "ebit": 6388604453.97888,
+            "ebit_margin": 0.092,
+            "ebitda": 9110705482.195969,
+            "fcff": 3084870745.2933626,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -20832405828.191998,
+            "present_value_fcff": 2405181086.4362717,
+            "revenue": 69441352760.64,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 5359136399.302391,
+            "cash_taxes": 1255609930.7805548,
+            "da": 2793896442.8363132,
+            "delta_nwc": -461229465.03616714,
+            "discount_factor": 0.7175977649522846,
+            "ebit": 6573873983.144266,
+            "ebit_margin": 0.092,
+            "ebitda": 9367770425.98058,
+            "fcff": 3214253560.9338007,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -21293635293.228165,
+            "present_value_fcff": 2306541171.316017,
+            "revenue": 71455151990.69855,
+            "revenue_growth": 0.029,
+            "year": 2029
+          },
+          {
+            "capex": 5435736322.23642,
+            "cash_taxes": 1297782046.9339454,
+            "da": 2864779953.6110864,
+            "delta_nwc": -522765891.9639549,
+            "discount_factor": 0.6604673400389182,
+            "ebit": 6794670402.795526,
+            "ebit_margin": 0.0925,
+            "ebitda": 9659450356.406612,
+            "fcff": 3448697879.200201,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -21816401185.19212,
+            "present_value_fcff": 2277752314.873215,
+            "revenue": 73455896246.43811,
+            "revenue_growth": 0.028,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 54644484225.46675,
+        "terminal_value_present_value": 36090897144.19265,
+        "upside_downside_pct": 0.05567395824184751
+      },
+      "bull": {
+        "current_price": 63.44,
+        "description": "Modestly higher top-line and margin expansion with slightly lower capital intensity and improved working-capital conversion.",
+        "enterprise_value": 64702665477.135284,
+        "equity_value": 59926665477.135284,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 74844531294.41156,
+        "implied_market_cap": 59926665477.135284,
+        "investments_adjustment": 4222000000.0,
+        "net_debt": 8998000000.0,
+        "per_share_value": 91.63098696809676,
+        "projected_years": [
+          {
+            "capex": 4932887400.0,
+            "cash_taxes": 735029891.64,
+            "da": 2565101448.0,
+            "delta_nwc": -41690440.0,
+            "discount_factor": 0.9246417013407305,
+            "ebit": 6248324040.0,
+            "ebit_margin": 0.095,
+            "ebitda": 8813425488.0,
+            "fcff": 3187198636.3599997,
+            "nol_balance_end": 0.0,
+            "nol_used": 2400000000.0,
+            "nwc": -19402690440.0,
+            "present_value_fcff": 2947016769.6347666,
+            "revenue": 65771832000.0,
+            "revenue_growth": 0.038,
+            "year": 2026
+          },
+          {
+            "capex": 5149506928.691999,
+            "cash_taxes": 1244100412.355052,
+            "da": 2673651279.5327997,
+            "delta_nwc": -513283376.9279976,
+            "discount_factor": 0.8549622758582807,
+            "ebit": 6513614724.372,
+            "ebit_margin": 0.0955,
+            "ebitda": 9187266003.9048,
+            "fcff": 3306942039.7857456,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -19915973816.927998,
+            "present_value_fcff": 2827310692.466646,
+            "revenue": 68205389783.99999,
+            "revenue_growth": 0.037,
+            "year": 2027
+          },
+          {
+            "capex": 5228898002.400576,
+            "cash_taxes": 1295636132.0542834,
+            "da": 2769902725.5959806,
+            "delta_nwc": -575653489.7769623,
+            "discount_factor": 0.7905337733317438,
+            "ebit": 6783435246.357504,
+            "ebit_margin": 0.096,
+            "ebitda": 9553337971.953484,
+            "fcff": 3604457327.275588,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -20491627306.70496,
+            "present_value_fcff": 2849445251.744423,
+            "revenue": 70660783816.224,
+            "revenue_growth": 0.036,
+            "year": 2028
+          },
+          {
+            "capex": 5338775521.234804,
+            "cash_taxes": 1340983396.6761832,
+            "da": 2859535929.8668613,
+            "delta_nwc": -570939133.2350883,
+            "discount_factor": 0.7309604931407709,
+            "ebit": 7020855479.980017,
+            "ebit_margin": 0.096,
+            "ebitda": 9880391409.846878,
+            "fcff": 3771571625.1709785,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -21062566439.94005,
+            "present_value_fcff": 2756869855.0507174,
+            "revenue": 73133911249.79184,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 5444673424.724503,
+            "cash_taxes": 1393798586.4973567,
+            "da": 2949198105.0591054,
+            "delta_nwc": -640506794.7256775,
+            "discount_factor": 0.6758765539905418,
+            "ebit": 7297374798.41548,
+            "ebit_margin": 0.0965,
+            "ebitda": 10246572903.474585,
+            "fcff": 4048607686.978403,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -21703073234.665726,
+            "present_value_fcff": 2736359011.9345813,
+            "revenue": 75620464232.28476,
+            "revenue_growth": 0.034,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 74844531294.41156,
+        "terminal_value_present_value": 50585663896.30415,
+        "upside_downside_pct": 0.44437243014023897
+      }
+    },
+    "ticker": "DAL"
+  },
+  "assumptions": {
+    "cash": 4310000000.0,
+    "current_price": 63.44,
+    "debt": 13308000000.0,
+    "diluted_shares": 654000000.0,
+    "investments": 4222000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 2400000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.0945,
+    "tax_rate": 0.191,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.0839545456
+  },
+  "company_name": "Delta Air Lines, Inc.",
+  "comps": [
+    {
+      "company_name": "United Airlines Holdings, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/R and EV/EBITDA and NTM P/E were not reliably available via free, consistent sources during this run; would require paid terminal data or a dedicated forward-multiple dataset.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "UAL"
+    },
+    {
+      "company_name": "American Airlines Group Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/R and EV/EBITDA and NTM P/E were not reliably available via free, consistent sources during this run; would require paid terminal data or a dedicated forward-multiple dataset.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "AAL"
+    },
+    {
+      "company_name": "Southwest Airlines Co.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/R and EV/EBITDA and NTM P/E were not reliably available via free, consistent sources during this run; would require paid terminal data or a dedicated forward-multiple dataset.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "LUV"
+    },
+    {
+      "company_name": "Alaska Air Group, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/R and EV/EBITDA and NTM P/E were not reliably available via free, consistent sources during this run; would require paid terminal data or a dedicated forward-multiple dataset.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ALK"
+    },
+    {
+      "company_name": "Spirit Airlines, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/R and EV/EBITDA and NTM P/E were not reliably available via free, consistent sources during this run; would require paid terminal data or a dedicated forward-multiple dataset.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SAVE"
+    },
+    {
+      "company_name": "JetBlue Airways Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/R and EV/EBITDA and NTM P/E were not reliably available via free, consistent sources during this run; would require paid terminal data or a dedicated forward-multiple dataset.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "JBLU"
+    },
+    {
+      "company_name": "Ryanair Holdings plc (ADR)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/R and EV/EBITDA and NTM P/E were not reliably available via free, consistent sources during this run; would require paid terminal data or a dedicated forward-multiple dataset.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "RYAAY"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.076,
+      "2027": 0.0765,
+      "2028": 0.075,
+      "2029": 0.074,
+      "2030": 0.073
+    },
+    "da_pct_sales": {
+      "2026": 0.039,
+      "2027": 0.0392,
+      "2028": 0.0392,
+      "2029": 0.0391,
+      "2030": 0.039
+    },
+    "ebit_margin": {
+      "2026": 0.093,
+      "2027": 0.0935,
+      "2028": 0.094,
+      "2029": 0.094,
+      "2030": 0.0945
+    },
+    "nwc_pct_sales": {
+      "2026": -0.3,
+      "2027": -0.297,
+      "2028": -0.295,
+      "2029": -0.293,
+      "2030": -0.292
+    },
+    "revenue_growth": {
+      "2026": 0.035,
+      "2027": 0.034,
+      "2028": 0.033,
+      "2029": 0.032,
+      "2030": 0.031
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 5323000000.0,
+      "2024": 5140000000.0,
+      "2025": 4499000000.0
+    },
+    "da": {
+      "2023": 2341000000.0,
+      "2024": 2513000000.0,
+      "2025": 2443000000.0
+    },
+    "ebit": {
+      "2023": 5521000000.0,
+      "2024": 5995000000.0,
+      "2025": 5822000000.0
+    },
+    "nwc": {
+      "2023": -17034000000.0,
+      "2024": -17720000000.0,
+      "2025": -19361000000.0
+    },
+    "revenue": {
+      "2023": 58048000000.0,
+      "2024": 61643000000.0,
+      "2025": 63364000000.0
+    }
+  },
+  "notes": [
+    "EBIT is operationalized as GAAP Operating Income from Delta\u2019s Consolidated Statements of Operations (i.e., excludes non-operating items like interest and investment gains/losses). ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))",
+    "Capex is operationalized as the sum of Flight equipment additions and Ground property/technology additions from the Consolidated Statements of Cash Flows (absolute magnitudes). ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))",
+    "NWC construction: NWC = (Total current assets \u2212 cash and cash equivalents \u2212 short-term investments, if present) \u2212 (Total current liabilities \u2212 current maturities of debt and finance leases). This yields negative NWC for DAL due to large current liabilities (including air traffic liability and deferred revenue). ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))",
+    "WACC is computed using CAPM cost of equity (risk-free + beta * implied ERP) and an after-tax cost of debt derived from 2025 interest expense net divided by total debt; weights use market value of equity from the finance snapshot and book total debt for weighting. ([finance.yahoo.com](https://finance.yahoo.com/quote/DAL//?utm_source=openai))",
+    "Investments is set to equity investments on the balance sheet (equity investments line item) as the closest available non-operating investment adjustment input in the schema; if your DCF pipeline uses a different investments definition, adjust accordingly. ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))",
+    "Minority interest is set to null because Delta\u2019s filings here did not present a standalone 'noncontrolling interests' line item in the places accessed during this run; other equity stakes exist but are treated as investments rather than minority interests for this schema. ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))",
+    "NOL balance uses Delta\u2019s disclosed U.S. federal pre-tax net operating loss carryforwards amount (~$2.4B) and assumes 80% utilization (schema default). Actual utilization depends on taxable income generation and limitations/recognition. ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))",
+    "Comps: NTM EV/Revenue and EV/EBITDA and NTM P/E were not available from consistent free sources in this run; comps numeric fields are set to null with an explanation."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Sustained demand/pricing that supports revenue growth and operating leverage versus base-case margin trajectory. ([ir.delta.com](https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-December-Quarter-and-Full-Year-2025-Financial-Results/default.aspx))",
+      "Fuel-cost volatility and hedging outcomes materially impacting operating income and free cash flow. ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))",
+      "Execution of fleet/cost initiatives (including MRO separability detail and operational efficiency) that could shift EBIT margin above/below the path."
+    ],
+    "company_overview": [
+      "Delta Air Lines operates a global passenger and cargo network and is a member of the SkyTeam airline alliance. ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))",
+      "Delta\u2019s customer proposition is reinforced by its SkyMiles loyalty program and a differentiated, premium-oriented product offering. ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))",
+      "Delta also operates a refinery business (Monroe Energy / Trainer refinery) that supports jet fuel supply and generates refinery-related revenue. ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))"
+    ],
+    "current_context": [
+      "Full-year 2025 (GAAP): operating revenue $63.4 billion; operating income $5.8 billion; operating margin 9.2%. ([ir.delta.com](https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-December-Quarter-and-Full-Year-2025-Financial-Results/default.aspx))",
+      "Company outlook: 2026 earnings expected to grow 20% YoY and March-quarter 2026 revenue growth guided to 5%\u20137% YoY. ([ir.delta.com](https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-December-Quarter-and-Full-Year-2025-Financial-Results/default.aspx))",
+      "2026 guidance bands: EPS $6.50\u2013$7.50; 1Q26 EPS $0.50\u2013$0.90; operating margin 4.5%\u20136%; free cash flow $3\u2013$4 billion (company-provided ranges). ([ir.delta.com](https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-December-Quarter-and-Full-Year-2025-Financial-Results/default.aspx))"
+    ],
+    "investment_highlights": [
+      "Base case reflects low-to-mid single digit revenue growth and gradual re-expansion/normalization of EBIT margin toward ~9.45% by 2030, consistent with management\u2019s margin expansion framing. ([ir.delta.com](https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-December-Quarter-and-Full-Year-2025-Financial-Results/default.aspx))",
+      "Depreciation and amortization is held around ~3.9% of sales to reflect a stable reinvestment/depreciation profile, aligned with recent history. ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))",
+      "Capex intensity gradually declines from 2025\u2019s level (reflecting a normalization after a lower 2025 cash capex print) toward ~7.3% of sales by 2030. ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))",
+      "Working-capital is negative in the historical and forecast drivers, consistent with airlines\u2019 large deferred/air-traffic liabilities; base-case NWC stays around -29% to -30% of sales. ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))"
+    ],
+    "key_risks": [
+      "Macroeconomic downturn or demand shock causing unit revenue and margin underperformance versus modeled growth. ([ir.delta.com](https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-December-Quarter-and-Full-Year-2025-Financial-Results/default.aspx))",
+      "Higher-than-modeled labor, airport, or disruption costs compressing operating margins. ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))",
+      "Balance-sheet/liquidity constraints and capital market conditions affecting the effective cost of capital (WACC) used in the DCF."
+    ],
+    "sources": [
+      {
+        "label": "Delta Air Lines 2025 Form 10-K (filed Feb 10, 2026) \u2014 financial statements, tax rate, balance sheet, liquidity/debt",
+        "notes": "Used for revenue, operating income (EBIT), D&A, 2024\u20132025 balance-sheet components, cash, equity investments, diluted shares, effective tax rate, and NOL disclosure. ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))",
+        "url": null
+      },
+      {
+        "label": "Delta Air Lines press release (Jan 13, 2026) \u2014 FY2025 results and FY2026 guidance",
+        "notes": "Used for current_context (FY25 revenue, operating margin, earnings growth outlook, and 2026/1Q26 guidance ranges). ([ir.delta.com](https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-December-Quarter-and-Full-Year-2025-Financial-Results/default.aspx))",
+        "url": null
+      },
+      {
+        "label": "Delta Air Lines 2024 Form 10-K \u2014 balance-sheet components for 2023 NWC construction",
+        "notes": "Used to compute 2023 NWC (current assets/liabilities, cash, short-term investments, and current maturities of debt/finance leases). ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2024/q4/DAL-12-31-2024-10K-2-11-25-Filed.pdf))",
+        "url": null
+      },
+      {
+        "label": "Damodaran implied equity risk premium (US) dataset (Jan 2026 update metadata; used for ERP input)",
+        "notes": "Used for implied ERP input in CAPM-based WACC estimation. ([pages.stern.nyu.edu](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histimpl.html))",
+        "url": null
+      },
+      {
+        "label": "Trading Economics / Federal Reserve-based 10-year UST yield (March 2026) \u2014 risk-free input",
+        "notes": "Used for risk-free rate input in CAPM-based WACC estimation. ([tradingeconomics.com](https://tradingeconomics.com/united-states/10-year-treasury-constant-maturity-rate-percent-d-na-fed-data.html))",
+        "url": null
+      }
+    ],
+    "subtitle": "Delta Air Lines (DAL) DCF Inputs \u2014 Base Case, Bull/Bear Overrides, and Validation Targets",
+    "valuation_summary": [
+      "DCF build anchors on 2023\u20132025 actuals (revenue, operating income as EBIT, D&A, and cash capex derived from property/equipment additions). ([s2.q4cdn.com](https://s2.q4cdn.com/181345880/files/doc_financials/2025/q4/DAL-12-31-2025-10K-2-10-26-Filed.pdf))",
+      "Terminal value uses a Gordon growth approach with WACC ~8.4% and terminal growth 2.5%, targeting economically plausible long-run maturity for a developed-market airline. ([tradingeconomics.com](https://tradingeconomics.com/united-states/10-year-treasury-constant-maturity-rate-percent-d-na-fed-data.html))",
+      "Peer comps are included as placeholders (null NTM EV/revenue and EV/EBITDA) because consistent NTM forward multiple datasets were not available in this run without paid sources."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 63.44,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.0925,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0865
+      },
+      "description": "Modestly softer revenue growth and margin compression with higher capital intensity and more negative working-capital impact.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.077,
+          "2027": 0.0775,
+          "2028": 0.076,
+          "2029": 0.075,
+          "2030": 0.074
+        },
+        "da_pct_sales": {
+          "2026": 0.039,
+          "2027": 0.0392,
+          "2028": 0.0392,
+          "2029": 0.0391,
+          "2030": 0.039
+        },
+        "ebit_margin": {
+          "2026": 0.091,
+          "2027": 0.0915,
+          "2028": 0.092,
+          "2029": 0.092,
+          "2030": 0.0925
+        },
+        "nwc_pct_sales": {
+          "2026": -0.305,
+          "2027": -0.302,
+          "2028": -0.3,
+          "2029": -0.298,
+          "2030": -0.297
+        },
+        "revenue_growth": {
+          "2026": 0.032,
+          "2027": 0.031,
+          "2028": 0.03,
+          "2029": 0.029,
+          "2030": 0.028
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 63.44,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.0965,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.026,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0815
+      },
+      "description": "Modestly higher top-line and margin expansion with slightly lower capital intensity and improved working-capital conversion.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.075,
+          "2027": 0.0755,
+          "2028": 0.074,
+          "2029": 0.073,
+          "2030": 0.072
+        },
+        "da_pct_sales": {
+          "2026": 0.039,
+          "2027": 0.0392,
+          "2028": 0.0392,
+          "2029": 0.0391,
+          "2030": 0.039
+        },
+        "ebit_margin": {
+          "2026": 0.095,
+          "2027": 0.0955,
+          "2028": 0.096,
+          "2029": 0.096,
+          "2030": 0.0965
+        },
+        "nwc_pct_sales": {
+          "2026": -0.295,
+          "2027": -0.292,
+          "2028": -0.29,
+          "2029": -0.288,
+          "2030": -0.287
+        },
+        "revenue_growth": {
+          "2026": 0.038,
+          "2027": 0.037,
+          "2028": 0.036,
+          "2029": 0.035,
+          "2030": 0.034
+        }
+      }
+    }
+  },
+  "ticker": "DAL"
+}

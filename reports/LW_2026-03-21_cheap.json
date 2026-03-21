@@ -1,0 +1,686 @@
+{
+  "_meta": {
+    "cost_usd": 0.031064,
+    "generated_at": "2026-03-21T17:19:28Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 14627,
+      "prompt": 2514,
+      "reasoning": 9822
+    }
+  },
+  "_valuation": {
+    "company_name": "Lamb Weston Holdings, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 40.0,
+        "description": "Base case",
+        "enterprise_value": 8127479658.193485,
+        "equity_value": 4114279658.1934853,
+        "exit_multiple_terminal_value": 8168110297.62974,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 4114279658.1934853,
+        "investments_adjustment": 47500000.0,
+        "net_debt": 4060700000.0,
+        "per_share_value": 28.83167244704615,
+        "projected_years": [
+          {
+            "capex": 503201400.0,
+            "cash_taxes": 128753640.0,
+            "da": 335467600.0,
+            "delta_nwc": -76577100.0,
+            "discount_factor": 0.9505703422053231,
+            "ebit": 612873500.0,
+            "ebit_margin": 0.095,
+            "ebitda": 948341100.0,
+            "fcff": 392963160.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 76400000.0,
+            "nwc": 858022900.0,
+            "present_value_fcff": 373539125.4752851,
+            "revenue": 6451300000.0,
+            "revenue_growth": 0.0,
+            "year": 2026
+          },
+          {
+            "capex": 458364865.0,
+            "cash_taxes": 157153668.0,
+            "da": 347047683.49999994,
+            "delta_nwc": -6773865.000000119,
+            "discount_factor": 0.9035839754803451,
+            "ebit": 654806950.0,
+            "ebit_margin": 0.1,
+            "ebitda": 1001854633.5,
+            "fcff": 393109965.5000001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 851249034.9999999,
+            "present_value_fcff": 355207865.4274314,
+            "revenue": 6548069499.999999,
+            "revenue_growth": 0.015,
+            "year": 2027
+          },
+          {
+            "capex": 458594047.4324999,
+            "cash_taxes": 167486521.67099994,
+            "da": 345607108.20999986,
+            "delta_nwc": 6122444.982499838,
+            "discount_factor": 0.858920128783598,
+            "ebit": 697860506.9624997,
+            "ebit_margin": 0.105,
+            "ebitda": 1043467615.1724997,
+            "fcff": 411264601.0864999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 857371479.9824997,
+            "present_value_fcff": 353243444.1293516,
+            "revenue": 6646290542.499998,
+            "revenue_growth": 0.015,
+            "year": 2028
+          },
+          {
+            "capex": 457371129.9726799,
+            "cash_taxes": 172724862.02497676,
+            "da": 349754393.5085199,
+            "delta_nwc": 3562411.7307801247,
+            "discount_factor": 0.816464000744865,
+            "ebit": 719686925.1040698,
+            "ebit_margin": 0.107,
+            "ebitda": 1069441318.6125897,
+            "fcff": 435782914.88415295,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 860933891.7132798,
+            "present_value_fcff": 355801062.1425745,
+            "revenue": 6726046029.009998,
+            "revenue_growth": 0.012,
+            "year": 2029
+          },
+          {
+            "capex": 456052824.95099396,
+            "cash_taxes": 178064804.48832837,
+            "da": 347144687.649264,
+            "delta_nwc": 3524448.1192011833,
+            "discount_factor": 0.7761064645863736,
+            "ebit": 741936685.3680348,
+            "ebit_margin": 0.109,
+            "ebitda": 1089081373.0172987,
+            "fcff": 451439295.45877534,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 864458339.832481,
+            "present_value_fcff": 350364955.57387346,
+            "revenue": 6806758581.358118,
+            "revenue_growth": 0.012,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 8168110297.62974,
+        "terminal_value_present_value": 6339323205.444969,
+        "upside_downside_pct": -0.27920818882384624
+      },
+      "bear": {
+        "current_price": 40.0,
+        "description": "Modestly weaker growth and less margin recovery; higher discount rate and lower terminal exit multiple.",
+        "enterprise_value": 7162564248.751763,
+        "equity_value": 3149364248.7517633,
+        "exit_multiple_terminal_value": 7200023251.258024,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 3149364248.7517633,
+        "investments_adjustment": 47500000.0,
+        "net_debt": 4060700000.0,
+        "per_share_value": 22.06982655046786,
+        "projected_years": [
+          {
+            "capex": 498169386.0,
+            "cash_taxes": 122684256.96,
+            "da": 332112924.0,
+            "delta_nwc": -85157329.0,
+            "discount_factor": 0.9478672985781991,
+            "ebit": 587584404.0,
+            "ebit_margin": 0.092,
+            "ebitda": 919697328.0,
+            "fcff": 384001014.03999996,
+            "nol_balance_end": 0.0,
+            "nol_used": 76400000.0,
+            "nwc": 849442671.0,
+            "present_value_fcff": 363982003.82938385,
+            "revenue": 6386787000.0,
+            "revenue_growth": -0.01,
+            "year": 2026
+          },
+          {
+            "capex": 452439991.08000004,
+            "cash_taxes": 147366168.5232,
+            "da": 342561707.532,
+            "delta_nwc": -9196973.279999971,
+            "discount_factor": 0.8984524157139329,
+            "ebit": 614025702.1800001,
+            "ebit_margin": 0.095,
+            "ebitda": 956587409.7120001,
+            "fcff": 365978223.3888,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 840245697.72,
+            "present_value_fcff": 328814018.90236074,
+            "revenue": 6463428444.0,
+            "revenue_growth": 0.012,
+            "year": 2027
+          },
+          {
+            "capex": 451774257.950268,
+            "cash_taxes": 155567483.6072227,
+            "da": 340467556.71614397,
+            "delta_nwc": 4375741.0565879345,
+            "discount_factor": 0.8516136641838227,
+            "ebit": 648197848.363428,
+            "ebit_margin": 0.099,
+            "ebitda": 988665405.079572,
+            "fcff": 376947922.4654934,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 844621438.776588,
+            "present_value_fcff": 321014001.4573183,
+            "revenue": 6547453013.771999,
+            "revenue_growth": 0.013,
+            "year": 2028
+          },
+          {
+            "capex": 449679072.98586094,
+            "cash_taxes": 160297363.6643716,
+            "da": 343872232.2833054,
+            "delta_nwc": 1833286.8438560963,
+            "discount_factor": 0.8072167433022016,
+            "ebit": 667905681.9348817,
+            "ebit_margin": 0.101,
+            "ebitda": 1011777914.2181871,
+            "fcff": 399968190.72409844,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 846454725.620444,
+            "present_value_fcff": 322861020.3407806,
+            "revenue": 6612927543.909719,
+            "revenue_growth": 0.01,
+            "year": 2029
+          },
+          {
+            "capex": 447496806.89637077,
+            "cash_taxes": 165106284.57430273,
+            "da": 340631897.78678966,
+            "delta_nwc": 1785490.4368556738,
+            "discount_factor": 0.7651343538409494,
+            "ebit": 687942852.3929281,
+            "ebit_margin": 0.103,
+            "ebitda": 1028574750.1797178,
+            "fcff": 414186168.27218866,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 848240216.0572997,
+            "present_value_fcff": 316908066.2307998,
+            "revenue": 6679056819.348817,
+            "revenue_growth": 0.01,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 7200023251.258024,
+        "terminal_value_present_value": 5508985137.99112,
+        "upside_downside_pct": -0.4482543362383036
+      },
+      "bull": {
+        "current_price": 40.0,
+        "description": "Modestly stronger top-line and margin expansion versus base case; slightly lower discount rate and higher terminal exit multiple.",
+        "enterprise_value": 9015295419.992722,
+        "equity_value": 5002095419.992722,
+        "exit_multiple_terminal_value": 9064336056.675379,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 5002095419.992722,
+        "investments_adjustment": 47500000.0,
+        "net_debt": 4060700000.0,
+        "per_share_value": 35.053226489087045,
+        "projected_years": [
+          {
+            "capex": 508233414.0,
+            "cash_taxes": 133352126.64,
+            "da": 338822276.0,
+            "delta_nwc": -67996871.0,
+            "discount_factor": 0.9532888465204957,
+            "ebit": 632033861.0,
+            "ebit_margin": 0.097,
+            "ebitda": 970856137.0,
+            "fcff": 397267467.36,
+            "nol_balance_end": 0.0,
+            "nol_used": 76400000.0,
+            "nwc": 866603129.0,
+            "present_value_fcff": 378710645.7197331,
+            "revenue": 6515813000.0,
+            "revenue_growth": 0.01,
+            "year": 2026
+          },
+          {
+            "capex": 463860727.46999997,
+            "cash_taxes": 162218722.97807997,
+            "da": 351208836.51299995,
+            "delta_nwc": -5147492.2700001,
+            "discount_factor": 0.9087596249003772,
+            "ebit": 675911345.7419999,
+            "ebit_margin": 0.102,
+            "ebitda": 1027120182.2549999,
+            "fcff": 406188224.07692,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 861455636.7299999,
+            "present_value_fcff": 369127458.1510922,
+            "revenue": 6626581820.999999,
+            "revenue_growth": 0.017,
+            "year": 2027
+          },
+          {
+            "capex": 464549891.97938395,
+            "cash_taxes": 174509176.81312507,
+            "da": 350095570.7670719,
+            "delta_nwc": 7050683.057543993,
+            "discount_factor": 0.8663104145856791,
+            "ebit": 727121570.0546879,
+            "ebit_margin": 0.108,
+            "ebitda": 1077217140.8217597,
+            "fcff": 431107388.97170687,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 868506319.7875439,
+            "present_value_fcff": 373472820.871029,
+            "revenue": 6732607130.135999,
+            "revenue_growth": 0.016,
+            "year": 2028
+          },
+          {
+            "capex": 463768909.5522882,
+            "cash_taxes": 181688290.4481317,
+            "da": 354646813.18704385,
+            "delta_nwc": 4470451.134410262,
+            "discount_factor": 0.8258440558490745,
+            "ebit": 757034543.5338821,
+            "ebit_margin": 0.111,
+            "ebitda": 1111681356.720926,
+            "fcff": 461753705.5860958,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 872976770.9219542,
+            "present_value_fcff": 381336553.0245608,
+            "revenue": 6820131022.827766,
+            "revenue_growth": 0.013,
+            "year": 2029
+          },
+          {
+            "capex": 462889112.65034336,
+            "cash_taxes": 187366458.73249716,
+            "da": 352348429.03235084,
+            "delta_nwc": 4439905.295860767,
+            "discount_factor": 0.7872679274061721,
+            "ebit": 780693578.0520716,
+            "ebit_margin": 0.113,
+            "ebitda": 1133042007.0844223,
+            "fcff": 478346530.405721,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 877416676.2178149,
+            "present_value_fcff": 376586881.5744455,
+            "revenue": 6908792726.124527,
+            "revenue_growth": 0.013,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 9064336056.675379,
+        "terminal_value_present_value": 7136061060.65186,
+        "upside_downside_pct": -0.12366933777282385
+      }
+    },
+    "ticker": "LW"
+  },
+  "assumptions": {
+    "cash": 70700000.0,
+    "current_price": 40.0,
+    "debt": 4131400000.0,
+    "diluted_shares": 142700000.0,
+    "investments": 47500000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 76400000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.11,
+    "tax_rate": 0.24,
+    "terminal_exit_ebitda_multiple": 7.5,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.052
+  },
+  "company_name": "Lamb Weston Holdings, Inc.",
+  "comps": [
+    {
+      "company_name": "Conagra Brands, Inc.",
+      "ev_ntm_ebitda": 8.66,
+      "ev_ntm_revenue": 1.4,
+      "notes": "StockAnalysis forward PE is used as a proxy for NTM P/E; EV/Sales and EV/EBITDA are taken from StockAnalysis enterprise-valuation multiples (not explicitly confirmed as NTM in the captured snippet). ([stockanalysis.com](https://stockanalysis.com/stocks/cag/statistics/?utm_source=openai))",
+      "pe_ntm": 9.6,
+      "source": "stockanalysis.com",
+      "ticker": "CAG"
+    },
+    {
+      "company_name": "Hormel Foods Corporation",
+      "ev_ntm_ebitda": 12.07,
+      "ev_ntm_revenue": 1.2,
+      "notes": "Used the first reported figures in the StockAnalysis 'Forward PE', 'EV/Sales Ratio', and 'EV/EBITDA Ratio' lists as NTM proxies (exact NTM mapping not confirmed in snippet). ([stockanalysis.com](https://stockanalysis.com/stocks/hrl/financials/ratios/?utm_source=openai))",
+      "pe_ntm": 15.19,
+      "source": "stockanalysis.com",
+      "ticker": "HRL"
+    },
+    {
+      "company_name": "Tyson Foods, Inc.",
+      "ev_ntm_ebitda": 10.84,
+      "ev_ntm_revenue": 0.51,
+      "notes": "Used the first reported figures in the StockAnalysis 'Forward PE', 'EV/Sales Ratio', and 'EV/EBITDA Ratio' lists as NTM proxies (exact NTM mapping not confirmed in snippet). ([stockanalysis.com](https://stockanalysis.com/stocks/tsn/financials/ratios/?utm_source=openai))",
+      "pe_ntm": 14.26,
+      "source": "stockanalysis.com",
+      "ticker": "TSN"
+    },
+    {
+      "company_name": "General Mills, Inc.",
+      "ev_ntm_ebitda": 9.8,
+      "ev_ntm_revenue": 1.85,
+      "notes": "StockAnalysis forward PE used as a proxy for NTM P/E; EV/Sales and EV/EBITDA are taken from StockAnalysis enterprise-valuation multiples (not explicitly confirmed as NTM in the captured snippet). ([stockanalysis.com](https://stockanalysis.com/stocks/gis/statistics/?utm_source=openai))",
+      "pe_ntm": 11.75,
+      "source": "stockanalysis.com",
+      "ticker": "GIS"
+    },
+    {
+      "company_name": "The Campbell's Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Comp multiples not captured within the remaining research budget/tool call limits; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CPB"
+    },
+    {
+      "company_name": "J.M. Smucker Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Comp multiples not captured within the remaining research budget/tool call limits; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SJM"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.078,
+      "2027": 0.07,
+      "2028": 0.069,
+      "2029": 0.068,
+      "2030": 0.067
+    },
+    "da_pct_sales": {
+      "2026": 0.052,
+      "2027": 0.053,
+      "2028": 0.052,
+      "2029": 0.052,
+      "2030": 0.051
+    },
+    "ebit_margin": {
+      "2026": 0.095,
+      "2027": 0.1,
+      "2028": 0.105,
+      "2029": 0.107,
+      "2030": 0.109
+    },
+    "nwc_pct_sales": {
+      "2026": 0.133,
+      "2027": 0.13,
+      "2028": 0.129,
+      "2029": 0.128,
+      "2030": 0.127
+    },
+    "revenue_growth": {
+      "2026": 0.0,
+      "2027": 0.015,
+      "2028": 0.015,
+      "2029": 0.012,
+      "2030": 0.012
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 654000000.0,
+      "2024": 929500000.0,
+      "2025": 638200000.0
+    },
+    "da": {
+      "2023": 222800000.0,
+      "2024": 306800000.0,
+      "2025": 407500000.0
+    },
+    "ebit": {
+      "2023": 882100000.0,
+      "2024": 1065300000.0,
+      "2025": 665100000.0
+    },
+    "nwc": {
+      "2023": 676000000.0,
+      "2024": 777200000.0,
+      "2025": 934600000.0
+    },
+    "revenue": {
+      "2023": 5350600000.0,
+      "2024": 6467600000.0,
+      "2025": 6451300000.0
+    }
+  },
+  "notes": [
+    "Fiscal year mapping: schema year labels 2023/2024/2025 correspond to fiscal years ended May 28, 2023; May 26, 2024; and May 25, 2025, respectively. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1679273/000167927325000049/lw-20250525.htm))",
+    "EBIT: used 'income from operations' from the consolidated statement of earnings (operating income). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1679273/000167927325000049/lw-20250525.htm))",
+    "D&A: used cash-flow 'Depreciation and amortization of intangibles and debt issuance costs'. This may slightly differ from an operating-only D&A measure because it includes debt issuance cost amortization. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1679273/000167927325000049/lw-20250525.htm))",
+    "Capex: used 'Additions to property, plant and equipment' from the consolidated cash flow statement. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1679273/000167927325000049/lw-20250525.htm))",
+    "NWC construction for historicals: non-cash working capital = (Total current assets - cash and cash equivalents) - (Total current liabilities - short-term borrowings - current portion of long-term debt/financing obligations). This is a simplified working-capital proxy consistent across FY2023\u2013FY2025 using balance-sheet line items. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1679273/000167927325000049/lw-20250525.htm))",
+    "WACC and beta: sourced as proxies from StockAnalysis; actual WACC can vary materially with input methodology and market date. ([stockanalysis.com](https://stockanalysis.com/stocks/lw/statistics/))",
+    "NOL utilization percent is not disclosed in the referenced filings; set to null and should be calibrated in the model based on jurisdictional limitations and projected profitability. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1679273/000167927325000049/lw-20250525.htm))",
+    "Comparable multiples: EV/Sales and EV/EBITDA fields use captured StockAnalysis enterprise-valuation multiples; NTM equivalence is not explicitly confirmed in the captured snippets, so interpret as approximations where NTM is not directly verifiable. ([stockanalysis.com](https://stockanalysis.com/stocks/gis/statistics/?utm_source=openai))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Sustained improvement in price/mix and utilization as capacity additions ramp down and cost-savings initiatives scale. ([businesswire.com](https://www.businesswire.com/news/home/20250930710677/en/Lamb-Weston-Reports-First-Quarter-Fiscal-2026-Results-Reaffirms-Fiscal-Year-2026-Outlook))",
+      "Progress on the FY2026 cost savings program and working capital improvement target (management stated ~100M run-rate progress and additional working capital by FY2026). ([businesswire.com](https://www.businesswire.com/news/home/20250930710677/en/Lamb-Weston-Reports-First-Quarter-Fiscal-2026-Results-Reaffirms-Fiscal-Year-2026-Outlook))",
+      "Any updates to FY2026 net sales/adjusted EBITDA ranges or incremental guidance changes driven by demand/inputs."
+    ],
+    "company_overview": [
+      "Lamb Weston is a leading supplier of frozen potato products sold to restaurants and retailers globally. ([businesswire.com](https://www.businesswire.com/news/home/20250930710677/en/Lamb-Weston-Reports-First-Quarter-Fiscal-2026-Results-Reaffirms-Fiscal-Year-2026-Outlook))",
+      "Operations span North America and International, with performance sensitive to restaurant traffic, price/mix, and manufacturing utilization/cost inflation. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1679273/000167927325000049/lw-20250525.htm))",
+      "The business invests in price/trade support and capacity additions, driving near-term margin volatility as initiatives cycle through. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1679273/000167927325000049/lw-20250525.htm))"
+    ],
+    "current_context": [
+      "Most recent guidance reiteration: FY2026 net sales expected between 6.35B and 6.55B and adjusted EBITDA between 1.00B and 1.20B; cash used for capex ~500M. ([businesswire.com](https://www.businesswire.com/news/home/20250723251810/en/Lamb-Weston-Reports-Fiscal-Fourth-Quarter-and-Full-Year-2025-Results-Provides-Fiscal-Year-2026-Outlook))",
+      "Q2 FY2026 showed volume growth and continued pressure from price/mix; the company reaffirmed FY2026 targets. ([markets.financialcontent.com](https://markets.financialcontent.com/stocks/article/bizwire-2025-12-19-lamb-weston-reports-second-quarter-fiscal-2026-results-reaffirms-fiscal-year-2026-outlook))",
+      "Near-term operating narrative emphasizes executional focus (Focus to Win) and targeted cost savings/work-capital improvements into FY2026. ([businesswire.com](https://www.businesswire.com/news/home/20250930710677/en/Lamb-Weston-Reports-First-Quarter-Fiscal-2026-Results-Reaffirms-Fiscal-Year-2026-Outlook))"
+    ],
+    "investment_highlights": [
+      "Revenue trajectory: base case assumes roughly flat FY2026 then modest mid-single low growth as pricing investments and volume normalize. ([businesswire.com](https://www.businesswire.com/news/home/20250723251810/en/Lamb-Weston-Reports-Fiscal-Fourth-Quarter-and-Full-Year-2025-Results-Provides-Fiscal-Year-2026-Outlook))",
+      "Margin recovery: base case EBIT margin steps up gradually from FY2025 levels, consistent with a transition from pricing investments and factory burden to normalized utilization. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1679273/000167927325000049/lw-20250525.htm))",
+      "Capital intensity: capex scales down from elevated prior-year levels toward ~mid-to-high single digit % of sales, roughly consistent with FY2026 capex guidance. ([businesswire.com](https://www.businesswire.com/news/home/20250723251810/en/Lamb-Weston-Reports-Fiscal-Fourth-Quarter-and-Full-Year-2025-Results-Provides-Fiscal-Year-2026-Outlook))",
+      "Working capital discipline: base case holds NWC intensity near recent history, reflecting working-capital improvements discussed by management. ([businesswire.com](https://www.businesswire.com/news/home/20250930710677/en/Lamb-Weston-Reports-First-Quarter-Fiscal-2026-Results-Reaffirms-Fiscal-Year-2026-Outlook))"
+    ],
+    "key_risks": [
+      "Demand softness (particularly outside North America) and persistent price/mix pressure can keep margins below plan. ([businesswire.com](https://www.businesswire.com/news/home/20250723251810/en/Lamb-Weston-Reports-Fiscal-Fourth-Quarter-and-Full-Year-2025-Results-Provides-Fiscal-Year-2026-Outlook))",
+      "Input cost inflation (potatoes/energy) and underutilization can delay margin normalization. ([businesswire.com](https://www.businesswire.com/news/home/20250723251810/en/Lamb-Weston-Reports-Fiscal-Fourth-Quarter-and-Full-Year-2025-Results-Provides-Fiscal-Year-2026-Outlook))",
+      "Execution risk related to restructurings, plant transitions, and ERP/capacity start-ups may cause volatility versus base-case margins."
+    ],
+    "sources": [
+      {
+        "label": "SEC Form 10-K (FY ended May 25, 2025) \u2014 revenue, operating income (EBIT), cash flow D&A and capex, balance sheet, and NOL disclosure",
+        "notes": "Historical financial statement lines used for revenue, EBIT, D&A, capex, cash, debt, equity-method investments, and gross NOL carryforwards. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1679273/000167927325000049/lw-20250525.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1679273/000167927325000049/lw-20250525.htm"
+      },
+      {
+        "label": "SEC Form 10-K (FY ended May 26, 2024) \u2014 balance sheet for FY2023 NWC build",
+        "notes": "Balance sheet line items used to compute FY2023 non-cash working capital intensity (NWC). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1679273/000167927324000036/lw-20240526.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1679273/000167927324000036/lw-20240526.htm"
+      },
+      {
+        "label": "Business Wire / FY2026 Outlook (FY2025 Q4 & Full Year results) \u2014 FY2026 net sales and capex guidance",
+        "notes": "FY2026 net sales range (6.35B\u20136.55B), adjusted EBITDA range (1.00B\u20131.20B), and cash used for capex (~500M). ([businesswire.com](https://www.businesswire.com/news/home/20250723251810/en/Lamb-Weston-Reports-Fiscal-Fourth-Quarter-and-Full-Year-2025-Results-Provides-Fiscal-Year-2026-Outlook))",
+        "url": "https://www.businesswire.com/news/home/20250723251810/en/Lamb-Weston-Reports-Fiscal-Fourth-Quarter-and-Full-Year-2025-Results-Provides-Fiscal-Year-2026-Outlook"
+      },
+      {
+        "label": "Business Wire (via FinancialContent) \u2014 Q2 FY2026 results and reaffirmed FY2026 targets",
+        "notes": "Current context on Q2 FY2026 operating/trading setup and reaffirmation of FY2026 targets. ([markets.financialcontent.com](https://markets.financialcontent.com/stocks/article/bizwire-2025-12-19-lamb-weston-reports-second-quarter-fiscal-2026-results-reaffirms-fiscal-year-2026-outlook))",
+        "url": "https://markets.financialcontent.com/stocks/article/bizwire-2025-12-19-lamb-weston-reports-second-quarter-fiscal-2026-results-reaffirms-fiscal-year-2026-outlook"
+      },
+      {
+        "label": "Business Wire \u2014 Q1 FY2026 results and reaffirmed FY2026 outlook (includes Focus to Win narrative)",
+        "notes": "Current context narrative, capex reaffirmation, and working-capital/cost-savings direction into FY2026. ([businesswire.com](https://www.businesswire.com/news/home/20250930710677/en/Lamb-Weston-Reports-First-Quarter-Fiscal-2026-Results-Reaffirms-Fiscal-Year-2026-Outlook))",
+        "url": "https://www.businesswire.com/news/home/20250930710677/en/Lamb-Weston-Reports-First-Quarter-Fiscal-2026-Results-Reaffirms-Fiscal-Year-2026-Outlook"
+      },
+      {
+        "label": "StockAnalysis.com \u2014 LW WACC/beta proxy and market price reference",
+        "notes": "Used WACC and beta proxies for DCF inputs and cross-checks for market context. ([stockanalysis.com](https://stockanalysis.com/stocks/lw/statistics/))",
+        "url": "https://stockanalysis.com/stocks/lw/statistics/"
+      }
+    ],
+    "subtitle": "DCF Input Package \u2014 Lamb Weston (LW)",
+    "valuation_summary": [
+      "DCF base case chains from FY2025 actuals using explicit forecast drivers (growth, EBIT margin, D&A, capex, NWC) derived from filings and guidance. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1679273/000167927325000049/lw-20250525.htm))",
+      "Terminal value uses an exit-multiple approach with economically reasonable long-run growth and a terminal EBITDA multiple selected to sit within typical food-processing valuation ranges (proxy). ([businesswire.com](https://www.businesswire.com/news/home/20250723251810/en/Lamb-Weston-Reports-Fiscal-Fourth-Quarter-and-Full-Year-2025-Results-Provides-Fiscal-Year-2026-Outlook))",
+      "Selected comp set covers adjacent food-processing/consumer-packaged food businesses to triangulate valuation sensitivity (multiples may be trailing/approximate due to availability). ([stockanalysis.com](https://stockanalysis.com/stocks/gis/statistics/?utm_source=openai))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 40.0,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.105,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 7.0,
+        "terminal_growth": 0.018,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.055
+      },
+      "description": "Modestly weaker growth and less margin recovery; higher discount rate and lower terminal exit multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.078,
+          "2027": 0.07,
+          "2028": 0.069,
+          "2029": 0.068,
+          "2030": 0.067
+        },
+        "da_pct_sales": {
+          "2026": 0.052,
+          "2027": 0.053,
+          "2028": 0.052,
+          "2029": 0.052,
+          "2030": 0.051
+        },
+        "ebit_margin": {
+          "2026": 0.092,
+          "2027": 0.095,
+          "2028": 0.099,
+          "2029": 0.101,
+          "2030": 0.103
+        },
+        "nwc_pct_sales": {
+          "2026": 0.133,
+          "2027": 0.13,
+          "2028": 0.129,
+          "2029": 0.128,
+          "2030": 0.127
+        },
+        "revenue_growth": {
+          "2026": -0.01,
+          "2027": 0.012,
+          "2028": 0.013,
+          "2029": 0.01,
+          "2030": 0.01
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 40.0,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.115,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 8.0,
+        "terminal_growth": 0.021,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.049
+      },
+      "description": "Modestly stronger top-line and margin expansion versus base case; slightly lower discount rate and higher terminal exit multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.078,
+          "2027": 0.07,
+          "2028": 0.069,
+          "2029": 0.068,
+          "2030": 0.067
+        },
+        "da_pct_sales": {
+          "2026": 0.052,
+          "2027": 0.053,
+          "2028": 0.052,
+          "2029": 0.052,
+          "2030": 0.051
+        },
+        "ebit_margin": {
+          "2026": 0.097,
+          "2027": 0.102,
+          "2028": 0.108,
+          "2029": 0.111,
+          "2030": 0.113
+        },
+        "nwc_pct_sales": {
+          "2026": 0.133,
+          "2027": 0.13,
+          "2028": 0.129,
+          "2029": 0.128,
+          "2030": 0.127
+        },
+        "revenue_growth": {
+          "2026": 0.01,
+          "2027": 0.017,
+          "2028": 0.016,
+          "2029": 0.013,
+          "2030": 0.013
+        }
+      }
+    }
+  },
+  "ticker": "LW"
+}

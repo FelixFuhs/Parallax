@@ -1,0 +1,683 @@
+{
+  "_meta": {
+    "cost_usd": 0.028299,
+    "generated_at": "2026-03-21T17:34:28Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 13180,
+      "prompt": 2514,
+      "reasoning": 9057
+    }
+  },
+  "_valuation": {
+    "company_name": "General Motors Company",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 72.81,
+        "description": "Base case",
+        "enterprise_value": 100979714189.09894,
+        "equity_value": -3677285810.901062,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 115059240551.07317,
+        "implied_market_cap": -3677285810.901062,
+        "investments_adjustment": 6724000000.0,
+        "net_debt": 109332000000.0,
+        "per_share_value": -3.779327657657823,
+        "projected_years": [
+          {
+            "capex": 10481326350.0,
+            "cash_taxes": 1991452006.5,
+            "da": 7089188003.999999,
+            "delta_nwc": 397196250.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 10481326350.0,
+            "ebit_margin": 0.055,
+            "ebitda": 17570514354.0,
+            "fcff": 4700539747.5,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 23821196250.0,
+            "present_value_fcff": 4332294698.156682,
+            "revenue": 190569570000.0,
+            "revenue_growth": 0.03,
+            "year": 2026
+          },
+          {
+            "capex": 10548025699.499998,
+            "cash_taxes": 2301032272.9649997,
+            "da": 7227350942.249998,
+            "delta_nwc": 595529906.2499962,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 12110696173.499998,
+            "ebit_margin": 0.062,
+            "ebitda": 19338047115.749996,
+            "fcff": 5893459237.035002,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 24416726156.249996,
+            "present_value_fcff": 5006230106.424007,
+            "revenue": 195333809249.99997,
+            "revenue_growth": 0.025,
+            "year": 2027
+          },
+          {
+            "capex": 10590803803.725746,
+            "cash_taxes": 2429890080.251039,
+            "da": 7393580013.921747,
+            "delta_nwc": 561584701.5937462,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 12788895159.215996,
+            "ebit_margin": 0.064,
+            "ebitda": 20182475173.13774,
+            "fcff": 6600196587.567211,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 24978310857.843742,
+            "present_value_fcff": 5167347359.641234,
+            "revenue": 199826486862.74994,
+            "revenue_growth": 0.023,
+            "year": 2028
+          },
+          {
+            "capex": 10721690152.620848,
+            "cash_taxes": 2522149969.235571,
+            "da": 7556238774.228025,
+            "delta_nwc": 549522838.8725624,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 13274473522.292479,
+            "ebit_margin": 0.065,
+            "ebitda": 20830712296.520504,
+            "fcff": 7037349335.791525,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 25527833696.716305,
+            "present_value_fcff": 5077970310.117327,
+            "revenue": 204222669573.73044,
+            "revenue_growth": 0.022,
+            "year": 2029
+          },
+          {
+            "capex": 10831970394.190662,
+            "cash_taxes": 2572592968.6202826,
+            "da": 7707363549.712586,
+            "delta_nwc": 510556673.9343262,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 13539962992.738329,
+            "ebit_margin": 0.065,
+            "ebitda": 21247326542.450916,
+            "fcff": 7332206505.705643,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 26038390370.65063,
+            "present_value_fcff": 4876250379.225235,
+            "revenue": 208307122965.20505,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 115059240551.07317,
+        "terminal_value_present_value": 76519621335.53445,
+        "upside_downside_pct": -1.0519067114085678
+      },
+      "bear": {
+        "current_price": 72.81,
+        "description": "Modestly weaker top-line and margin performance; slightly lower reinvestment and working-capital intensity.",
+        "enterprise_value": 89305727678.02118,
+        "equity_value": -15351272321.97882,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 100635160669.08342,
+        "implied_market_cap": -15351272321.97882,
+        "investments_adjustment": 6724000000.0,
+        "net_debt": 109332000000.0,
+        "per_share_value": -15.777258295970011,
+        "projected_years": [
+          {
+            "capex": 10002127140.0,
+            "cash_taxes": 1756977427.8,
+            "da": 6944873184.0,
+            "delta_nwc": -400235640.0,
+            "discount_factor": 0.9199632014719411,
+            "ebit": 9247249620.0,
+            "ebit_margin": 0.049,
+            "ebitda": 16192122804.0,
+            "fcff": 4833253876.200001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 23023764360.0,
+            "present_value_fcff": 4446415709.475621,
+            "revenue": 188719380000.0,
+            "revenue_growth": 0.02,
+            "year": 2026
+          },
+          {
+            "capex": 9960608876.399998,
+            "cash_taxes": 2038093816.248,
+            "da": 7049046281.759998,
+            "delta_nwc": 345356465.3999939,
+            "discount_factor": 0.8463322920625034,
+            "ebit": 10726809559.199999,
+            "ebit_margin": 0.056,
+            "ebitda": 17775855840.96,
+            "fcff": 5431796682.912006,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 23369120825.399994,
+            "present_value_fcff": 4597104936.666421,
+            "revenue": 191550170699.99997,
+            "revenue_growth": 0.015,
+            "year": 2027
+          },
+          {
+            "capex": 9896056468.874096,
+            "cash_taxes": 2138324358.5684814,
+            "da": 7140683883.422878,
+            "delta_nwc": 206778409.27064896,
+            "discount_factor": 0.7785945649149065,
+            "ebit": 11254338729.307796,
+            "ebit_margin": 0.058,
+            "ebitda": 18395022612.730675,
+            "fcff": 6153863376.017448,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 23575899234.670643,
+            "present_value_fcff": 4791364577.796083,
+            "revenue": 194040322919.09995,
+            "revenue_growth": 0.013,
+            "year": 2028
+          },
+          {
+            "capex": 9916624743.103523,
+            "cash_taxes": 2201294324.1621876,
+            "da": 7226372090.0239525,
+            "delta_nwc": 184726387.41898346,
+            "discount_factor": 0.7162783485877705,
+            "ebit": 11585759600.853619,
+            "ebit_margin": 0.059,
+            "ebitda": 18812131690.87757,
+            "fcff": 6509486236.192877,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 23760625622.089626,
+            "present_value_fcff": 4662604051.415055,
+            "revenue": 196368806794.12915,
+            "revenue_growth": 0.012,
+            "year": 2029
+          },
+          {
+            "capex": 9916624743.103521,
+            "cash_taxes": 2223307267.4038095,
+            "da": 7298635810.924191,
+            "delta_nwc": 39273761.35882568,
+            "discount_factor": 0.6589497227118405,
+            "ebit": 11701617196.862156,
+            "ebit_margin": 0.059,
+            "ebitda": 19000253007.786346,
+            "fcff": 6821047235.920191,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 23799899383.448452,
+            "present_value_fcff": 4494727184.713976,
+            "revenue": 198332494862.07043,
+            "revenue_growth": 0.01,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 100635160669.08342,
+        "terminal_value_present_value": 66313511217.95403,
+        "upside_downside_pct": -1.2166908157666532
+      },
+      "bull": {
+        "current_price": 72.81,
+        "description": "Modestly stronger demand capture and margin recovery; slightly higher reinvestment and working-capital intensity.",
+        "enterprise_value": 120274293130.23901,
+        "equity_value": 15617293130.239014,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 139370205182.28946,
+        "implied_market_cap": 15617293130.239014,
+        "investments_adjustment": 6724000000.0,
+        "net_debt": 109332000000.0,
+        "per_share_value": 16.050660976607414,
+        "projected_years": [
+          {
+            "capex": 10967926320.0,
+            "cash_taxes": 2230145018.4,
+            "da": 7158015071.999999,
+            "delta_nwc": 1205729280.0,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 11737605360.0,
+            "ebit_margin": 0.061,
+            "ebitda": 18895620432.0,
+            "fcff": 4491819813.599998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 24629729280.0,
+            "present_value_fcff": 4147571388.3656497,
+            "revenue": 192419760000.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 11152649289.599998,
+            "cash_taxes": 2573075514.672,
+            "da": 7408545599.519999,
+            "delta_nwc": 662886073.199997,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 13542502708.8,
+            "ebit_margin": 0.068,
+            "ebitda": 20951048308.32,
+            "fcff": 6562437430.848,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 25292615353.199997,
+            "present_value_fcff": 5595105274.964639,
+            "revenue": 199154451599.99997,
+            "revenue_growth": 0.035,
+            "year": 2027
+          },
+          {
+            "capex": 11314960167.653997,
+            "cash_taxes": 2736163095.0872397,
+            "da": 7653027604.304158,
+            "delta_nwc": 731793032.4041977,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 14400858395.196,
+            "ebit_margin": 0.07,
+            "ebitda": 22053885999.500156,
+            "fcff": 7270969704.354723,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 26024408385.604195,
+            "present_value_fcff": 5724096743.673696,
+            "revenue": 205726548502.79996,
+            "revenue_growth": 0.033,
+            "year": 2028
+          },
+          {
+            "capex": 11570883993.99148,
+            "cash_taxes": 2864059175.76046,
+            "da": 7897924487.641891,
+            "delta_nwc": 726626169.3118896,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 15073995661.897158,
+            "ebit_margin": 0.071,
+            "ebitda": 22971920149.539047,
+            "fcff": 7810350810.475218,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 26751034554.916084,
+            "present_value_fcff": 5677494401.331671,
+            "revenue": 212309798054.88956,
+            "revenue_growth": 0.032,
+            "year": 2029
+          },
+          {
+            "capex": 11808670967.812958,
+            "cash_taxes": 2949980951.0332737,
+            "da": 8134862222.271148,
+            "delta_nwc": 583851944.6509476,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 15526215531.754072,
+            "ebit_margin": 0.071,
+            "ebitda": 23661077754.02522,
+            "fcff": 8318573890.528042,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 27334886499.56703,
+            "present_value_fcff": 5583500964.576275,
+            "revenue": 218679091996.53625,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 139370205182.28946,
+        "terminal_value_present_value": 93546524357.32709,
+        "upside_downside_pct": -0.7795541687047465
+      }
+    },
+    "ticker": "GM"
+  },
+  "assumptions": {
+    "cash": 20945000000.0,
+    "current_price": 72.81,
+    "debt": 130277000000.0,
+    "diluted_shares": 973000000.0,
+    "investments": 6724000000.0,
+    "minority_interest": 2049000000.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.065,
+    "tax_rate": 0.19,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "General Motors Company",
+  "comps": [
+    {
+      "company_name": "Ford Motor Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer set selected as auto OEM proxy; NTM EV/Revenue, EV/EBITDA, and forward P/E not pulled from a single primary/consistent source in this run, so set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "F"
+    },
+    {
+      "company_name": "Stellantis N.V.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer set selected as auto OEM proxy; NTM EV/Revenue, EV/EBITDA, and forward P/E not pulled from a single primary/consistent source in this run, so set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "STLA"
+    },
+    {
+      "company_name": "Toyota Motor Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer set selected as global OEM proxy; NTM EV/Revenue, EV/EBITDA, and forward P/E not pulled from a single primary/consistent source in this run, so set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "TM"
+    },
+    {
+      "company_name": "Honda Motor Co., Ltd.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer set selected as auto OEM proxy; NTM EV/Revenue, EV/EBITDA, and forward P/E not pulled from a single primary/consistent source in this run, so set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "HMC"
+    },
+    {
+      "company_name": "Tesla, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer set selected as EV/tech OEM proxy; NTM EV/Revenue, EV/EBITDA, and forward P/E not pulled from a single primary/consistent source in this run, so set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "TSLA"
+    },
+    {
+      "company_name": "Bayerische Motoren Werke AG (BMW)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer set selected as global OEM proxy; NTM EV/Revenue, EV/EBITDA, and forward P/E not pulled from a single primary/consistent source in this run, so set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "BMWYY"
+    },
+    {
+      "company_name": "Mercedes-Benz Group AG",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer set selected as global OEM proxy; NTM EV/Revenue, EV/EBITDA, and forward P/E not pulled from a single primary/consistent source in this run, so set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "MBGYY"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.055,
+      "2027": 0.054,
+      "2028": 0.053,
+      "2029": 0.0525,
+      "2030": 0.052
+    },
+    "da_pct_sales": {
+      "2026": 0.0372,
+      "2027": 0.037,
+      "2028": 0.037,
+      "2029": 0.037,
+      "2030": 0.037
+    },
+    "ebit_margin": {
+      "2026": 0.055,
+      "2027": 0.062,
+      "2028": 0.064,
+      "2029": 0.065,
+      "2030": 0.065
+    },
+    "nwc_pct_sales": {
+      "2026": 0.125,
+      "2027": 0.125,
+      "2028": 0.125,
+      "2029": 0.125,
+      "2030": 0.125
+    },
+    "revenue_growth": {
+      "2026": 0.03,
+      "2027": 0.025,
+      "2028": 0.023,
+      "2029": 0.022,
+      "2030": 0.02
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 10970000000.0,
+      "2024": 10830000000.0,
+      "2025": 9303000000.0
+    },
+    "da": {
+      "2023": 6719000000.0,
+      "2024": 6466000000.0,
+      "2025": 6892000000.0
+    },
+    "ebit": {
+      "2023": 9298000000.0,
+      "2024": 12784000000.0,
+      "2025": 2909000000.0
+    },
+    "nwc": {
+      "2023": 19675000000.0,
+      "2024": 24575000000.0,
+      "2025": 23424000000.0
+    },
+    "revenue": {
+      "2023": 171842000000.0,
+      "2024": 187442000000.0,
+      "2025": 185019000000.0
+    }
+  },
+  "notes": [
+    "EBIT definition: used GAAP \u2018Operating income (loss)\u2019 from GM\u2019s consolidated income statements as EBIT. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm))",
+    "D&A: used \u2018Depreciation and amortization expense\u2019 (excluding impairment charges per the line item) from GM\u2019s notes/financial disclosures and converted from \u2018(In millions)\u2019 to full USD units. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm))",
+    "Capex: used cash flow line \u2018Expenditures for property\u2019 as capex and converted from \u2018(In millions)\u2019 to full USD units. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm))",
+    "NWC construct: computed from consolidated balance sheet \u2018Total current assets\u2019 minus \u2018Cash and cash equivalents\u2019 and \u2018Marketable debt securities\u2019, less consolidated \u2018Total current liabilities\u2019 minus \u2018Short-term debt and current portion of long-term debt\u2019 (so NWC excludes debt and cash/near-cash; working capital includes GM Financial receivables given consolidated reporting). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm))",
+    "Tax rate: set to a normalized rate proxy using GM\u2019s ETR-adjusted effective tax rate for 2025 (18.9%). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm))",
+    "WACC and terminal assumptions are model inputs assumed for DCF (not disclosed as single-point inputs in GM filings/press materials).",
+    "NOL fields: gross NOL carryforward amounts and NOL utilization percent are not provided in a directly usable single number; GM discloses deferred tax assets and carryforward-related components, so `nol_balance` and `nol_utilization_pct` are set to null."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Further normalization of consolidated GAAP operating income as non-recurring EV-related charges fade and cost actions flow through.",
+      "North America and services operating performance (pricing discipline, subscriber growth, and renewal rates) supporting higher sustainable EBIT margins.",
+      "Changes to tariffs/trade policy and commodity/input cost trends driving margin variability versus base-case."
+    ],
+    "company_overview": [
+      "GM is a global automaker with major brands (Buick, Cadillac, Chevrolet, GMC) and a significant captive financing arm (GM Financial).",
+      "The company is transitioning its vehicle portfolio while also monetizing technology-driven services (e.g., OnStar and Super Cruise).",
+      "In its FY2025 reporting, GM emphasized EV capacity right-sizing and cost discipline following special charges in 2025. ([prnewswire.com](https://www.prnewswire.com/news-releases/gm-releases-2025-financial-results-and-2026-guidance-board-declares-dividend-at-20-higher-quarterly-rate-and-approves-new-6-0-billion-share-repurchase-authorization-302670831.html))"
+    ],
+    "current_context": [
+      "FY2025 results: net income attributable to stockholders of $2.7B and EBIT-adjusted of $12.7B; Q4 net income included large special charges tied to EV capacity realignment. ([prnewswire.com](https://www.prnewswire.com/news-releases/gm-releases-2025-financial-results-and-2026-guidance-board-declares-dividend-at-20-higher-quarterly-rate-and-approves-new-6-0-billion-share-repurchase-authorization-302670831.html))",
+      "2026 guidance: EBIT-adjusted $13.0B\u2013$15.0B and capital spending $10.0B\u2013$12.0B (inclusive of battery cell manufacturing joint ventures). ([prnewswire.com](https://www.prnewswire.com/news-releases/gm-releases-2025-financial-results-and-2026-guidance-board-declares-dividend-at-20-higher-quarterly-rate-and-approves-new-6-0-billion-share-repurchase-authorization-302670831.html))",
+      "GM reported record OnStar subscriber levels (12M global subscribers) and strong Super Cruise growth (to 620k+). ([news.gm.com](https://news.gm.com/home.detail.html/Pages/news/us/en/2026/jan/0127-GM-letter-shareholders-Q4-2025.html))"
+    ],
+    "investment_highlights": [
+      "Base-case assumes GAAP operating performance normalizes from 2025 special-charge impact toward a mid-cycle EBIT margin profile (margin recovery rather than perpetual peak margins). ([prnewswire.com](https://www.prnewswire.com/news-releases/gm-releases-2025-financial-results-and-2026-guidance-board-declares-dividend-at-20-higher-quarterly-rate-and-approves-new-6-0-billion-share-repurchase-authorization-302670831.html))",
+      "Revenue growth is modeled modestly (not industry-leading), consistent with a mature auto demand environment and incremental market share assumptions.",
+      "Reinvestment intensity in the base-case (capex as a percent of sales) is calibrated to 2026 management capital spending guidance as a reality check. ([prnewswire.com](https://www.prnewswire.com/news-releases/gm-releases-2025-financial-results-and-2026-guidance-board-declares-dividend-at-20-higher-quarterly-rate-and-approves-new-6-0-billion-share-repurchase-authorization-302670831.html))",
+      "Working-capital intensity is held near recent levels to reflect consolidated balance-sheet dynamics, including GM Financial receivables, within the model\u2019s NWC construct."
+    ],
+    "key_risks": [
+      "Downside risk from EV demand shortfalls and/or additional impairments/restructuring charges that depress GAAP EBIT below the normalized path.",
+      "Auto industry cyclicality and funding/credit conditions impacting GM Financial\u2019s earnings and working capital.",
+      "Labor, pensions, and other fixed-cost pressures limiting margin recovery even if volumes stabilize."
+    ],
+    "sources": [
+      {
+        "label": "GM FY2025 Form 10-K (SEC): consolidated income statement, balance sheet, and cash flow items used in the historical dataset",
+        "notes": "Income statement operating income (EBIT), depreciation and amortization expense, expenditures for property, and balance sheet current asset/current liability totals. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm))",
+        "url": null
+      },
+      {
+        "label": "GM FY2024 Form 10-K (SEC): balance sheet values for FY2023 (used to compute historical NWC)",
+        "notes": "Provides FY2023 year-end current assets, current liabilities, cash and cash equivalents, marketable debt securities, and short-term debt/current portion of long-term debt. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm))",
+        "url": null
+      },
+      {
+        "label": "GM FY2025 results and 2026 guidance press release (Jan 27, 2026)",
+        "notes": "Used for 2026 EBIT-adjusted guidance and 2026 anticipated capital spending range as sanity checks for base-case margin/capex normalization. ([prnewswire.com](https://www.prnewswire.com/news-releases/gm-releases-2025-financial-results-and-2026-guidance-board-declares-dividend-at-20-higher-quarterly-rate-and-approves-new-6-0-billion-share-repurchase-authorization-302670831.html))",
+        "url": null
+      },
+      {
+        "label": "GM Q4 and FY2025 letter to shareholders (Jan 27, 2026)",
+        "notes": "Used for technology/services context (OnStar/Subscribers and Super Cruise) and qualitative framing of 2026 operating outlook. ([news.gm.com](https://news.gm.com/home.detail.html/Pages/news/us/en/2026/jan/0127-GM-letter-shareholders-Q4-2025.html))",
+        "url": null
+      }
+    ],
+    "subtitle": "GM DCF Input Package | FY2023\u2013FY2030 Base Case",
+    "valuation_summary": [
+      "DCF inputs use FY2023\u2013FY2025 GAAP operating income as EBIT and convert filing \u2018Depreciation and amortization expense\u2019 and \u2018Expenditures for property\u2019 into full currency units. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm))",
+      "Terminal value uses a conservative Gordon growth approach (terminal growth below nominal long-run economic growth) rather than an aggressive exit multiple. ([prnewswire.com](https://www.prnewswire.com/news-releases/gm-releases-2025-financial-results-and-2026-guidance-board-declares-dividend-at-20-higher-quarterly-rate-and-approves-new-6-0-billion-share-repurchase-authorization-302670831.html))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.059,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.018,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.087
+      },
+      "description": "Modestly weaker top-line and margin performance; slightly lower reinvestment and working-capital intensity.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.053,
+          "2027": 0.052,
+          "2028": 0.051,
+          "2029": 0.0505,
+          "2030": 0.05
+        },
+        "da_pct_sales": {
+          "2026": 0.0368,
+          "2027": 0.0368,
+          "2028": 0.0368,
+          "2029": 0.0368,
+          "2030": 0.0368
+        },
+        "ebit_margin": {
+          "2026": 0.049,
+          "2027": 0.056,
+          "2028": 0.058,
+          "2029": 0.059,
+          "2030": 0.059
+        },
+        "nwc_pct_sales": {
+          "2026": 0.122,
+          "2027": 0.122,
+          "2028": 0.1215,
+          "2029": 0.121,
+          "2030": 0.12
+        },
+        "revenue_growth": {
+          "2026": 0.02,
+          "2027": 0.015,
+          "2028": 0.013,
+          "2029": 0.012,
+          "2030": 0.01
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.071,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.083
+      },
+      "description": "Modestly stronger demand capture and margin recovery; slightly higher reinvestment and working-capital intensity.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.057,
+          "2027": 0.056,
+          "2028": 0.055,
+          "2029": 0.0545,
+          "2030": 0.054
+        },
+        "da_pct_sales": {
+          "2026": 0.0372,
+          "2027": 0.0372,
+          "2028": 0.0372,
+          "2029": 0.0372,
+          "2030": 0.0372
+        },
+        "ebit_margin": {
+          "2026": 0.061,
+          "2027": 0.068,
+          "2028": 0.07,
+          "2029": 0.071,
+          "2030": 0.071
+        },
+        "nwc_pct_sales": {
+          "2026": 0.128,
+          "2027": 0.127,
+          "2028": 0.1265,
+          "2029": 0.126,
+          "2030": 0.125
+        },
+        "revenue_growth": {
+          "2026": 0.04,
+          "2027": 0.035,
+          "2028": 0.033,
+          "2029": 0.032,
+          "2030": 0.03
+        }
+      }
+    }
+  },
+  "ticker": "GM"
+}

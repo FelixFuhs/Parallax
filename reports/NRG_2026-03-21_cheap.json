@@ -1,0 +1,683 @@
+{
+  "_meta": {
+    "cost_usd": 0.019933,
+    "generated_at": "2026-03-21T17:19:21Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 9602,
+      "prompt": 2514,
+      "reasoning": 5942
+    }
+  },
+  "_valuation": {
+    "company_name": "NRG Energy, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 145.8,
+        "description": "Base case",
+        "enterprise_value": 36121387554.68931,
+        "equity_value": 23644387554.68931,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 39892514535.39359,
+        "implied_market_cap": 23644387554.68931,
+        "investments_adjustment": 0.0,
+        "net_debt": 11827000000.0,
+        "per_share_value": 118.81601786276035,
+        "projected_years": [
+          {
+            "capex": 967459500.0,
+            "cash_taxes": 92231139.0,
+            "da": 1515686550.0,
+            "delta_nwc": -310243250.0,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 2096162250.0,
+            "ebit_margin": 0.065,
+            "ebitda": 3611848800.0,
+            "fcff": 2862401411.0,
+            "nol_balance_end": 49070200.0,
+            "nol_used": 1676929800.0,
+            "nwc": -161243250.0,
+            "present_value_fcff": 2626056340.3669724,
+            "revenue": 32248650000.0,
+            "revenue_growth": 0.05,
+            "year": 2026
+          },
+          {
+            "capex": 934565876.9999999,
+            "cash_taxes": 481186735.535,
+            "da": 1568735579.2499998,
+            "delta_nwc": 11045162.62500003,
+            "discount_factor": 0.84167999326656,
+            "ebit": 2236282634.25,
+            "ebit_margin": 0.067,
+            "ebitda": 3805018213.5,
+            "fcff": 2378220438.3399997,
+            "nol_balance_end": 0.0,
+            "nol_used": 49070200.0,
+            "nwc": -150198087.37499997,
+            "present_value_fcff": 2001700562.5284061,
+            "revenue": 33377352749.999996,
+            "revenue_growth": 0.035,
+            "year": 2027
+          },
+          {
+            "capex": 928224179.9775,
+            "cash_taxes": 514304953.05420005,
+            "da": 1615797646.6275,
+            "delta_nwc": 12683394.044999957,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 2337749786.61,
+            "ebit_margin": 0.068,
+            "ebitda": 3953547433.2375,
+            "fcff": 2498334906.1608,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -137514693.33,
+            "present_value_fcff": 1929172942.1972787,
+            "revenue": 34378673332.5,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 916191644.3111249,
+            "cash_taxes": 534914967.71703386,
+            "da": 1656192587.7931876,
+            "delta_nwc": 14181202.74965626,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 2431431671.441063,
+            "ebit_margin": 0.069,
+            "ebitda": 4087624259.2342505,
+            "fcff": 2622336444.4564357,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -123333490.58034375,
+            "present_value_fcff": 1857729249.148007,
+            "revenue": 35238140165.8125,
+            "revenue_growth": 0.025,
+            "year": 2029
+          },
+          {
+            "capex": 898572574.2282189,
+            "cash_taxes": 553520705.7245829,
+            "da": 1689316439.5490515,
+            "delta_nwc": 15504781.672957495,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 2516003207.839013,
+            "ebit_margin": 0.07,
+            "ebitda": 4205319647.3880644,
+            "fcff": 2737721585.7623053,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -107828708.90738626,
+            "present_value_fcff": 1779331185.533399,
+            "revenue": 35942902969.12875,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 39892514535.39359,
+        "terminal_value_present_value": 25927397274.915245,
+        "upside_downside_pct": -0.18507532330068355
+      },
+      "bear": {
+        "current_price": 145.8,
+        "description": "Modest downside to growth and operating performance with slightly higher discounting; assumes softer margin execution and weaker terminal economics.",
+        "enterprise_value": 29894342891.503998,
+        "equity_value": 17417342891.503998,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 32547741195.459854,
+        "implied_market_cap": 17417342891.503998,
+        "investments_adjustment": 0.0,
+        "net_debt": 11827000000.0,
+        "per_share_value": 87.52433613821104,
+        "projected_years": [
+          {
+            "capex": 949031700.0,
+            "cash_taxes": 83514789.6,
+            "da": 1486816330.0,
+            "delta_nwc": -307171950.0,
+            "discount_factor": 0.9132420091324202,
+            "ebit": 1898063400.0,
+            "ebit_margin": 0.06,
+            "ebitda": 3384879730.0,
+            "fcff": 2659505190.4,
+            "nol_balance_end": 207549280.0,
+            "nol_used": 1518450720.0,
+            "nwc": -158171950.0,
+            "present_value_fcff": 2428771863.378996,
+            "revenue": 31634390000.0,
+            "revenue_growth": 0.03,
+            "year": 2026
+          },
+          {
+            "capex": 907906992.9999999,
+            "cash_taxes": 396619564.98999995,
+            "da": 1523986738.2499998,
+            "delta_nwc": 12258326.12500003,
+            "discount_factor": 0.8340109672442193,
+            "ebit": 2010365484.4999998,
+            "ebit_margin": 0.062,
+            "ebitda": 3534352222.7499995,
+            "fcff": 2217567338.6349993,
+            "nol_balance_end": 0.0,
+            "nol_used": 207549280.0,
+            "nwc": -145913623.87499997,
+            "present_value_fcff": 1849475481.024165,
+            "revenue": 32425249749.999996,
+            "revenue_growth": 0.025,
+            "year": 2027
+          },
+          {
+            "capex": 892991378.1149999,
+            "cash_taxes": 458402240.7656999,
+            "da": 1554466473.0149999,
+            "delta_nwc": 13618604.89499998,
+            "discount_factor": 0.7616538513645839,
+            "ebit": 2083646548.9349997,
+            "ebit_margin": 0.063,
+            "ebitda": 3638113021.95,
+            "fcff": 2273100798.1742997,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -132295018.97999999,
+            "present_value_fcff": 1731315977.4693651,
+            "revenue": 33073754744.999996,
+            "revenue_growth": 0.02,
+            "year": 2028
+          },
+          {
+            "capex": 872816387.7205497,
+            "cash_taxes": 472663643.81174386,
+            "da": 1577783470.1102247,
+            "delta_nwc": 14800505.248387516,
+            "discount_factor": 0.6955742934836383,
+            "ebit": 2148471108.2351995,
+            "ebit_margin": 0.064,
+            "ebitda": 3726254578.345424,
+            "fcff": 2365974041.5647435,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -117494513.73161247,
+            "present_value_fcff": 1645710722.3620248,
+            "revenue": 33569861066.17499,
+            "revenue_growth": 0.015,
+            "year": 2029
+          },
+          {
+            "capex": 851835224.5541904,
+            "cash_taxes": 487249748.44499695,
+            "da": 1601450222.1618779,
+            "delta_nwc": 15274286.785109624,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 2214771583.840895,
+            "ebit_margin": 0.065,
+            "ebitda": 3816221806.0027733,
+            "fcff": 2461862546.2184763,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -102220226.94650285,
+            "present_value_fcff": 1563843197.4792216,
+            "revenue": 34073408982.167614,
+            "revenue_growth": 0.015,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 32547741195.459854,
+        "terminal_value_present_value": 20675225649.790226,
+        "upside_downside_pct": -0.39969591126055537
+      },
+      "bull": {
+        "current_price": 145.8,
+        "description": "Modest upside to growth and operating performance with slightly lower risk/discounting; assumes stronger margin execution and somewhat better terminal economics.",
+        "enterprise_value": 42882275678.30806,
+        "equity_value": 30405275678.30806,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 47805002888.03525,
+        "implied_market_cap": 30405275678.308056,
+        "investments_adjustment": 0.0,
+        "net_debt": 11827000000.0,
+        "per_share_value": 152.79033004174903,
+        "projected_years": [
+          {
+            "capex": 985887300.0000001,
+            "cash_taxes": 126368814.0000001,
+            "da": 1544556770.0000002,
+            "delta_nwc": -313314550.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2300403700.0000005,
+            "ebit_margin": 0.07,
+            "ebitda": 3844960470.000001,
+            "fcff": 3046018906.000001,
+            "nol_balance_end": 0.0,
+            "nol_used": 1726000000.0,
+            "nwc": -164314550.00000003,
+            "present_value_fcff": 2807390696.7741942,
+            "revenue": 32862910000.000004,
+            "revenue_growth": 0.07,
+            "year": 2026
+          },
+          {
+            "capex": 956967939.2000002,
+            "cash_taxes": 541370434.176,
+            "da": 1606339040.8000002,
+            "delta_nwc": 10516131.200000018,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2460774700.8,
+            "ebit_margin": 0.072,
+            "ebitda": 4067113741.6000004,
+            "fcff": 2558259237.024,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -153798418.8,
+            "present_value_fcff": 2173126833.88817,
+            "revenue": 34177426400.000004,
+            "revenue_growth": 0.04,
+            "year": 2027
+          },
+          {
+            "capex": 950474228.1840003,
+            "cash_taxes": 565356152.0235201,
+            "da": 1654529212.0240004,
+            "delta_nwc": 12987422.031999975,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2569800691.0160003,
+            "ebit_margin": 0.073,
+            "ebitda": 4224329903.040001,
+            "fcff": 2695512100.8004804,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -140810996.76800004,
+            "present_value_fcff": 2110338253.1347246,
+            "revenue": 35202749192.00001,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 938153265.9668001,
+            "cash_taxes": 587428275.766904,
+            "da": 1695892442.3246002,
+            "delta_nwc": 14521134.04170002,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2670128526.2132,
+            "ebit_margin": 0.074,
+            "ebitda": 4366020968.5378,
+            "fcff": 2825918292.7623963,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -126289862.72630002,
+            "present_value_fcff": 2039109969.4997427,
+            "revenue": 36082817921.8,
+            "revenue_growth": 0.025,
+            "year": 2029
+          },
+          {
+            "capex": 920111857.0059,
+            "cash_taxes": 607273825.623894,
+            "da": 1729810291.171092,
+            "delta_nwc": 15876439.885592014,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2760335571.0176997,
+            "ebit_margin": 0.075,
+            "ebitda": 4490145862.188791,
+            "fcff": 2946883739.6734056,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -110413422.840708,
+            "present_value_fcff": 1959811544.0329099,
+            "revenue": 36804474280.236,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 47805002888.03525,
+        "terminal_value_present_value": 31792498380.978317,
+        "upside_downside_pct": 0.04794465049210572
+      }
+    },
+    "ticker": "NRG"
+  },
+  "assumptions": {
+    "cash": 4738000000.0,
+    "current_price": 145.8,
+    "debt": 16565000000.0,
+    "diluted_shares": 199000000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 1726000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 650000000.0,
+    "target_ebit_margin": 0.07,
+    "tax_rate": 0.22,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.09
+  },
+  "company_name": "NRG Energy, Inc.",
+  "comps": [
+    {
+      "company_name": "Vistra Corp.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer selected for merchant power exposure; NTM multiple inputs were not retrieved within the research/lookup constraints.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "VST"
+    },
+    {
+      "company_name": "AES Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer selected for generation/merchant and capacity/energy exposure; NTM multiple inputs were not retrieved within the research/lookup constraints.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "AES"
+    },
+    {
+      "company_name": "Constellation Energy Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer selected for U.S. power generation and wholesale/market exposure; NTM multiple inputs were not retrieved within the research/lookup constraints.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CEG"
+    },
+    {
+      "company_name": "Calpine Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer selected for merchant generation mix; NTM multiple inputs were not retrieved within the research/lookup constraints.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CPN"
+    },
+    {
+      "company_name": "Duke Energy Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Included as a large U.S. energy platform; NTM multiple inputs were not retrieved within the research/lookup constraints.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "DUK"
+    },
+    {
+      "company_name": "Dominion Energy, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Included as a large U.S. energy platform; NTM multiple inputs were not retrieved within the research/lookup constraints.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "D"
+    },
+    {
+      "company_name": "Exelon Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Included as a large U.S. power/utility operator; NTM multiple inputs were not retrieved within the research/lookup constraints.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "EXC"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.03,
+      "2027": 0.028,
+      "2028": 0.027,
+      "2029": 0.026,
+      "2030": 0.025
+    },
+    "da_pct_sales": {
+      "2026": 0.047,
+      "2027": 0.047,
+      "2028": 0.047,
+      "2029": 0.047,
+      "2030": 0.047
+    },
+    "ebit_margin": {
+      "2026": 0.065,
+      "2027": 0.067,
+      "2028": 0.068,
+      "2029": 0.069,
+      "2030": 0.07
+    },
+    "nwc_pct_sales": {
+      "2026": -0.005,
+      "2027": -0.0045,
+      "2028": -0.004,
+      "2029": -0.0035,
+      "2030": -0.003
+    },
+    "revenue_growth": {
+      "2026": 0.05,
+      "2027": 0.035,
+      "2028": 0.03,
+      "2029": 0.025,
+      "2030": 0.02
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 598000000.0,
+      "2024": 472000000.0,
+      "2025": 1147000000.0
+    },
+    "da": {
+      "2023": 1295000000.0,
+      "2024": 1403000000.0,
+      "2025": 1406000000.0
+    },
+    "ebit": {
+      "2023": 384000000.0,
+      "2024": 2424000000.0,
+      "2025": 1845000000.0
+    },
+    "nwc": {
+      "2024": -459000000.0,
+      "2025": 149000000.0
+    },
+    "revenue": {
+      "2023": 28823000000.0,
+      "2024": 28130000000.0,
+      "2025": 30713000000.0
+    }
+  },
+  "notes": [
+    "EBIT is proxied by 'Operating income/(loss)' from Note 18 segment reporting tables in the FY2025 Form 10-K (not a reconstructed full GAAP EBIT definition including non-operating items).",
+    "D&A is taken from the same Note 18 tables ('Depreciation and amortization'). Capex is taken from the Consolidated Statements of Cash Flows line item 'Capital expenditures' (values reported in millions in the filing; converted to full USD units).",
+    "NWC uses an operational working-capital proxy to avoid double-counting cash/collateral/derivatives: (Accounts receivable + Inventory + Prepayments/other current assets) \u2212 (Accounts payable + Deferred revenue (current) + Accrued expenses/other current liabilities). This excludes cash and cash equivalents, restricted cash, funds deposited by counterparties, derivative instruments, and cash collateral items. FY2023 NWC components were not reliably extractable for this package and is therefore set to null.",
+    "Tax rate (0.22), WACC (0.09), terminal growth (0.02), and forecast driver paths are base-case modeling assumptions and are not explicitly disclosed as a single management-provided set; treat as placeholders subject to your DCF pipeline\u2019s methodology.",
+    "NOL balance is represented as tax-effected U.S. federal + state NOL carryforwards disclosed in the FY2025 Form 10-K; 'nol_utilization_pct' is a modeling assumption set to 0.80 (not directly disclosed as a single utilization factor).",
+    "Comps: EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM were not populated because accessible NTM-multiple source data was not retrieved within the constraints of this run; peers are listed for completeness but multiples are null."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Execution and commissioning of Texas Energy Fund projects (e.g., T.H. Wharton expected June 2026; other projects expected mid-2028).",
+      "Integration and asset optimization following the portfolio acquisitions, impacting generation availability and retail/wholesale margin capture.",
+      "Ongoing capital returns (repurchases and dividend growth) as credit metrics and free-cash-flow convert into shareholder payouts."
+    ],
+    "company_overview": [
+      "NRG Energy is a U.S. energy and smart-home provider with retail energy offerings and a power generation business supporting supply into energy markets.",
+      "The company operates across multiple regions and also includes Vivint Smart Home as a distinct operating segment.",
+      "NRG\u2019s economics are influenced by wholesale power/fuel pricing, retail demand/weather, and contract/hedging performance, with capital plans spanning generation maintenance, environmental compliance, and growth investments."
+    ],
+    "current_context": [
+      "FY2025 (annual): total revenue of $30.713B and operating income (EBIT proxy) of $1.845B; depreciation and amortization of $1.406B.",
+      "FY2025 capital intensity: cash capital expenditures of $1.147B (with acquisition-related activity contributing to elevated near-term capex).",
+      "Capital allocation update: FY2025 completed ~$1.3B of share repurchases and increased the annual common dividend to $1.90 starting in 2026."
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes continued contribution from recently added generation and contracted demand, transitioning from acquisition-driven expansion to more normalized growth.",
+      "EBIT margin gradually improves from the FY2025 level toward a steady-state low-to-mid single digit margin as operating leverage and hedging/risk management stabilize.",
+      "D&A scales with sales at ~4.7% of revenue, consistent with the company\u2019s depreciation base.",
+      "Capex as a percent of sales steps down from FY2025 acquisition intensity toward a maintenance/environmental profile by 2030.",
+      "Working capital modeled as slightly negative (deferred revenue/payables outpacing receivables) and trending toward less negative over time."
+    ],
+    "key_risks": [
+      "Commodity and market price volatility (power, natural gas, and capacity) and weather-driven load swings can pressure margins even with hedging.",
+      "Regulatory and market design changes (capacity rules, retail tariffs/approvals, environmental compliance) may alter expected cash flows.",
+      "Acquisition/integration and project development execution risk (schedule/cost overruns; performance/availability) could delay cash generation."
+    ],
+    "sources": [
+      {
+        "label": "NRG Energy, Inc. Form 10-K (FY ended Dec 31, 2025) \u2014 annual report PDF",
+        "notes": "Used for FY2025/2024/2023 revenue and operating income (EBIT proxy), depreciation & amortization, and FY2025/2024/2023 cash flow capital expenditures; also used for balance-sheet current assets/liabilities line items and NOL disclosures.",
+        "url": "https://fortune.com/company-assets/1833/quartr/annual-report-10-k-80b23-2026-02-24-09-50-10.pdf"
+      },
+      {
+        "label": "NRG Energy, Inc. Form 10-K (FY ended Dec 31, 2024) \u2014 SEC filing HTML",
+        "notes": "Used as a supporting reference for business context and for confirming historical structure; detailed FY2023 balance-sheet working capital components were not reliably extractable for this package.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387125000006/nrg-20241231.htm"
+      },
+      {
+        "label": "NRG Energy investor relations \u2014 SEC filings index",
+        "notes": "Used to identify official company filing locations.",
+        "url": "https://investors.nrg.com/financial-information/sec-filings"
+      },
+      {
+        "label": "NRG Energy \u2014 Full Year 2024 financial results press release (Business Wire)",
+        "notes": "Used for incremental latest context on operating and tax-related discussion; not used for the core numeric historicals in this package.",
+        "url": "https://www.businesswire.com/news/home/20250225063184/en/NRG-Energy-Inc.-Reports-Full-Year-2024-Financial-Results"
+      }
+    ],
+    "subtitle": "NRG Energy (NRG) DCF Inputs \u2014 FY2025 Base Case (Annual Data)",
+    "valuation_summary": [
+      "DCF base case uses historical operating profitability and reinvestment intensity as anchors, then applies conservative normalization assumptions for margins, capex, and working capital.",
+      "Terminal value is computed using a Gordon-growth approach (2.0% long-run growth) with a 9.0% WACC, consistent with a high-risk utility/merchant power profile.",
+      "Comps are included for directional context, but forward NTM multiple inputs are left null due to missing accessible NTM source data in this package."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 145.8,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.065,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.018,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.095
+      },
+      "description": "Modest downside to growth and operating performance with slightly higher discounting; assumes softer margin execution and weaker terminal economics.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.03,
+          "2027": 0.028,
+          "2028": 0.027,
+          "2029": 0.026,
+          "2030": 0.025
+        },
+        "da_pct_sales": {
+          "2026": 0.047,
+          "2027": 0.047,
+          "2028": 0.047,
+          "2029": 0.047,
+          "2030": 0.047
+        },
+        "ebit_margin": {
+          "2026": 0.06,
+          "2027": 0.062,
+          "2028": 0.063,
+          "2029": 0.064,
+          "2030": 0.065
+        },
+        "nwc_pct_sales": {
+          "2026": -0.005,
+          "2027": -0.0045,
+          "2028": -0.004,
+          "2029": -0.0035,
+          "2030": -0.003
+        },
+        "revenue_growth": {
+          "2026": 0.03,
+          "2027": 0.025,
+          "2028": 0.02,
+          "2029": 0.015,
+          "2030": 0.015
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 145.8,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.075,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.085
+      },
+      "description": "Modest upside to growth and operating performance with slightly lower risk/discounting; assumes stronger margin execution and somewhat better terminal economics.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.03,
+          "2027": 0.028,
+          "2028": 0.027,
+          "2029": 0.026,
+          "2030": 0.025
+        },
+        "da_pct_sales": {
+          "2026": 0.047,
+          "2027": 0.047,
+          "2028": 0.047,
+          "2029": 0.047,
+          "2030": 0.047
+        },
+        "ebit_margin": {
+          "2026": 0.07,
+          "2027": 0.072,
+          "2028": 0.073,
+          "2029": 0.074,
+          "2030": 0.075
+        },
+        "nwc_pct_sales": {
+          "2026": -0.005,
+          "2027": -0.0045,
+          "2028": -0.004,
+          "2029": -0.0035,
+          "2030": -0.003
+        },
+        "revenue_growth": {
+          "2026": 0.07,
+          "2027": 0.04,
+          "2028": 0.03,
+          "2029": 0.025,
+          "2030": 0.02
+        }
+      }
+    }
+  },
+  "ticker": "NRG"
+}

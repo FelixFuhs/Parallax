@@ -1,0 +1,692 @@
+{
+  "_meta": {
+    "cost_usd": 0.019813,
+    "generated_at": "2026-03-21T17:33:06Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 9806,
+      "prompt": 2515,
+      "reasoning": 5642
+    }
+  },
+  "_valuation": {
+    "company_name": "Fair Isaac Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 1127.62,
+        "description": "Base case",
+        "enterprise_value": 19015272375.92306,
+        "equity_value": 16148342375.923061,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 22609941255.055347,
+        "implied_market_cap": 16148342375.92306,
+        "investments_adjustment": 54625000.0,
+        "net_debt": 2921555000.0,
+        "per_share_value": 657.4790267465926,
+        "projected_years": [
+          {
+            "capex": 44635282.98,
+            "cash_taxes": 219627499.31200004,
+            "da": 17854113.192,
+            "delta_nwc": 20773137.909999996,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1099437496.5600002,
+            "ebit_margin": 0.468,
+            "ebitda": 1117291609.752,
+            "fcff": 832255689.5500002,
+            "nol_balance_end": 0.0,
+            "nol_used": 1300000.0,
+            "nwc": 142128137.91,
+            "present_value_fcff": 767055935.0691246,
+            "revenue": 2349225420.0,
+            "revenue_growth": 0.18,
+            "year": 2026
+          },
+          {
+            "capex": 47360384.467199996,
+            "cash_taxes": 245221546.24128005,
+            "da": 19733493.528,
+            "delta_nwc": 15739810.31400001,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1226107731.2064002,
+            "ebit_margin": 0.466,
+            "ebitda": 1245841224.7344003,
+            "fcff": 937519483.71192,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 157867948.224,
+            "present_value_fcff": 796380881.9146043,
+            "revenue": 2631132470.4,
+            "revenue_growth": 0.12,
+            "year": 2027
+          },
+          {
+            "capex": 50649300.05520001,
+            "cash_taxes": 268007153.43494406,
+            "da": 21417418.309056006,
+            "delta_nwc": 15786794.822400033,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 1340035767.1747203,
+            "ebit_margin": 0.463,
+            "ebitda": 1361453185.4837763,
+            "fcff": 1027009937.1712322,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 173654743.04640004,
+            "present_value_fcff": 804054396.9801923,
+            "revenue": 2894245717.4400005,
+            "revenue_growth": 0.1,
+            "year": 2028
+          },
+          {
+            "capex": 53630373.14416321,
+            "cash_taxes": 291496851.6776871,
+            "da": 23344985.956871048,
+            "delta_nwc": 15628926.874175996,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 1457484258.3884356,
+            "ebit_margin": 0.462,
+            "ebitda": 1480829244.3453066,
+            "fcff": 1120073092.6492803,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 189283669.92057604,
+            "present_value_fcff": 808215940.1561974,
+            "revenue": 3154727832.0096006,
+            "revenue_growth": 0.09,
+            "year": 2029
+          },
+          {
+            "capex": 57920802.99569628,
+            "cash_taxes": 313453757.3884739,
+            "da": 24871874.22756369,
+            "delta_nwc": 13439140.564360887,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 1567268786.9423697,
+            "ebit_margin": 0.46,
+            "ebitda": 1592140661.1699333,
+            "fcff": 1207326960.2214022,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 202722810.48493692,
+            "present_value_fcff": 802927269.3079834,
+            "revenue": 3407106058.570369,
+            "revenue_growth": 0.08,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 22609941255.055347,
+        "terminal_value_present_value": 15036637952.494959,
+        "upside_downside_pct": -0.41693209880403626
+      },
+      "bear": {
+        "current_price": 1127.62,
+        "description": "Modestly lower growth and margin profile vs. base case; slightly higher discount rate and lower terminal growth.",
+        "enterprise_value": 16458636738.735512,
+        "equity_value": 13591706738.735512,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 19339320049.27908,
+        "implied_market_cap": 13591706738.735512,
+        "investments_adjustment": 54625000.0,
+        "net_debt": 2921555000.0,
+        "per_share_value": 553.3857228425354,
+        "projected_years": [
+          {
+            "capex": 43878752.76,
+            "cash_taxes": 211281776.46400002,
+            "da": 17551501.104,
+            "delta_nwc": 18364186.419999987,
+            "discount_factor": 0.9199632014719411,
+            "ebit": 1057708882.32,
+            "ebit_margin": 0.458,
+            "ebitda": 1075260383.424,
+            "fcff": 801735667.7800001,
+            "nol_balance_end": 0.0,
+            "nol_used": 1300000.0,
+            "nwc": 139719186.42,
+            "present_value_fcff": 737567311.6651335,
+            "revenue": 2309408040.0,
+            "revenue_growth": 0.16,
+            "year": 2026
+          },
+          {
+            "capex": 45726279.191999994,
+            "cash_taxes": 231679814.57280004,
+            "da": 19052616.33,
+            "delta_nwc": 12701744.219999999,
+            "discount_factor": 0.8463322920625034,
+            "ebit": 1158399072.864,
+            "ebit_margin": 0.456,
+            "ebitda": 1177451689.194,
+            "fcff": 887343851.2092,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 152420930.64,
+            "present_value_fcff": 750987755.4414512,
+            "revenue": 2540348844.0,
+            "revenue_growth": 0.1,
+            "year": 2027
+          },
+          {
+            "capex": 48457154.199300006,
+            "cash_taxes": 251423405.78836805,
+            "da": 20490453.775704,
+            "delta_nwc": 13717883.75760001,
+            "discount_factor": 0.7785945649149065,
+            "ebit": 1257117028.9418402,
+            "ebit_margin": 0.454,
+            "ebitda": 1277607482.717544,
+            "fcff": 964009038.9722762,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 166138814.3976,
+            "present_value_fcff": 750572198.2726566,
+            "revenue": 2768980239.96,
+            "revenue_growth": 0.09,
+            "year": 2028
+          },
+          {
+            "capex": 50838477.20566561,
+            "cash_taxes": 270341078.78777474,
+            "da": 22129690.077760324,
+            "delta_nwc": 13291105.151808023,
+            "discount_factor": 0.7162783485877705,
+            "ebit": 1351705393.9388738,
+            "ebit_margin": 0.452,
+            "ebitda": 1373835084.016634,
+            "fcff": 1039364422.8713856,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 179429919.54940802,
+            "present_value_fcff": 744474232.3951973,
+            "revenue": 2990498659.1568003,
+            "revenue_growth": 0.08,
+            "year": 2029
+          },
+          {
+            "capex": 54397170.610062204,
+            "cash_taxes": 287985020.87679994,
+            "da": 23358785.02667377,
+            "delta_nwc": 10960177.585809678,
+            "discount_factor": 0.6589497227118405,
+            "ebit": 1439925104.3839996,
+            "ebit_margin": 0.45,
+            "ebitda": 1463283889.4106734,
+            "fcff": 1109941520.3380017,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 190390097.1352177,
+            "present_value_fcff": 731395657.0530849,
+            "revenue": 3199833565.2977767,
+            "revenue_growth": 0.07,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 19339320049.27908,
+        "terminal_value_present_value": 12743639583.907988,
+        "upside_downside_pct": -0.5092444947388877
+      },
+      "bull": {
+        "current_price": 1127.62,
+        "description": "Modestly higher growth and margin profile vs. base case; slightly lower discount rate and higher terminal growth.",
+        "enterprise_value": 21884764786.690044,
+        "equity_value": 19017834786.690044,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 26307384889.500175,
+        "implied_market_cap": 19017834786.690044,
+        "investments_adjustment": 54625000.0,
+        "net_debt": 2921555000.0,
+        "per_share_value": 774.310279984123,
+        "projected_years": [
+          {
+            "capex": 45391813.199999996,
+            "cash_taxes": 228132491.67999998,
+            "da": 18156725.28,
+            "delta_nwc": 23182089.400000006,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 1141962458.3999999,
+            "ebit_margin": 0.478,
+            "ebitda": 1160119183.6799998,
+            "fcff": 863412789.3999999,
+            "nol_balance_end": 0.0,
+            "nol_used": 1300000.0,
+            "nwc": 144537089.4,
+            "present_value_fcff": 797241726.1311172,
+            "revenue": 2389042800.0,
+            "revenue_growth": 0.2,
+            "year": 2026
+          },
+          {
+            "capex": 48593130.551999986,
+            "cash_taxes": 257003668.25279996,
+            "da": 20247137.729999997,
+            "delta_nwc": 17440012.439999968,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 1285018341.2639997,
+            "ebit_margin": 0.476,
+            "ebitda": 1305265478.9939997,
+            "fcff": 982228667.7491997,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 161977101.83999997,
+            "present_value_fcff": 837443839.7403333,
+            "revenue": 2699618363.9999995,
+            "revenue_growth": 0.13,
+            "year": 2027
+          },
+          {
+            "capex": 52440086.7207,
+            "cash_taxes": 282876810.653376,
+            "da": 22174665.241896,
+            "delta_nwc": 17817481.20240003,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 1414384053.2668798,
+            "ebit_margin": 0.472,
+            "ebitda": 1436558718.5087757,
+            "fcff": 1083424339.9322999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 179794583.0424,
+            "present_value_fcff": 852929662.5330495,
+            "revenue": 2996576384.04,
+            "revenue_growth": 0.11,
+            "year": 2028
+          },
+          {
+            "capex": 56035978.38154801,
+            "cash_taxes": 310505244.9142248,
+            "da": 24392131.766085602,
+            "delta_nwc": 17979458.304240018,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 1552526224.571124,
+            "ebit_margin": 0.471,
+            "ebitda": 1576918356.3372097,
+            "fcff": 1192397674.737197,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 197774041.34664002,
+            "present_value_fcff": 866776830.7412852,
+            "revenue": 3296234022.4440002,
+            "revenue_growth": 0.1,
+            "year": 2029
+          },
+          {
+            "capex": 61079216.43588734,
+            "cash_taxes": 337732137.9396123,
+            "da": 26228134.116586912,
+            "delta_nwc": 16003216.178965628,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 1688660689.6980615,
+            "ebit_margin": 0.47,
+            "ebitda": 1714888823.8146484,
+            "fcff": 1300074253.260183,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 213777257.52560565,
+            "present_value_fcff": 872621430.3829707,
+            "revenue": 3592895084.4639606,
+            "revenue_growth": 0.09,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 26307384889.500175,
+        "terminal_value_present_value": 17657751297.16129,
+        "upside_downside_pct": -0.31332338909905544
+      }
+    },
+    "ticker": "FICO"
+  },
+  "assumptions": {
+    "cash": 134136000.0,
+    "current_price": 1127.62,
+    "debt": 3055691000.0,
+    "diluted_shares": 24561000.0,
+    "investments": 54625000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 1300000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.46,
+    "tax_rate": 0.2,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.03,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Fair Isaac Corporation",
+  "comps": [
+    {
+      "company_name": "Salesforce Inc",
+      "ev_ntm_ebitda": 19.0,
+      "ev_ntm_revenue": 4.4,
+      "notes": "EV/NTM revenue approximated using AlphaSpread peer EV/S (listed as market cap EV/S). EV/NTM EBITDA uses AlphaSpread peer EV/EBITDA; P/E uses AlphaSpread peer P/E. ([alphaspread.com](https://www.alphaspread.com/security/nyse/fico/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 34.4,
+      "source": "AlphaSpread (peer multiples table)",
+      "ticker": "CRM"
+    },
+    {
+      "company_name": "Intuit Inc",
+      "ev_ntm_ebitda": 32.3,
+      "ev_ntm_revenue": 6.3,
+      "notes": "EV/NTM revenue approximated using AlphaSpread peer EV/S (listed as market cap EV/S). EV/NTM EBITDA uses AlphaSpread peer EV/EBITDA; P/E uses AlphaSpread peer P/E. ([alphaspread.com](https://www.alphaspread.com/security/nyse/fico/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 47.6,
+      "source": "AlphaSpread (peer multiples table)",
+      "ticker": "INTU"
+    },
+    {
+      "company_name": "Adobe Inc",
+      "ev_ntm_ebitda": 16.1,
+      "ev_ntm_revenue": 4.2,
+      "notes": "EV/NTM revenue approximated using AlphaSpread peer EV/S (listed as market cap EV/S). EV/NTM EBITDA uses AlphaSpread peer EV/EBITDA; P/E uses AlphaSpread peer P/E. ([alphaspread.com](https://www.alphaspread.com/security/nyse/fico/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 21.3,
+      "source": "AlphaSpread (peer multiples table)",
+      "ticker": "ADBE"
+    },
+    {
+      "company_name": "SAP SE",
+      "ev_ntm_ebitda": 24.8,
+      "ev_ntm_revenue": 5.0,
+      "notes": "EV/NTM revenue approximated using AlphaSpread peer EV/S (listed as market cap EV/S). EV/NTM EBITDA uses AlphaSpread peer EV/EBITDA; P/E uses AlphaSpread peer P/E. ([alphaspread.com](https://www.alphaspread.com/security/nyse/fico/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 42.4,
+      "source": "AlphaSpread (peer multiples table)",
+      "ticker": "SAP"
+    },
+    {
+      "company_name": "Palantir Technologies Inc",
+      "ev_ntm_ebitda": 708.2,
+      "ev_ntm_revenue": 80.4,
+      "notes": "EV/NTM revenue approximated using AlphaSpread peer EV/S (listed as market cap EV/S). EV/NTM EBITDA uses AlphaSpread peer EV/EBITDA; P/E uses AlphaSpread peer P/E. Extreme multiples reflect AlphaSpread's peer set and valuation dispersion. ([alphaspread.com](https://www.alphaspread.com/security/nyse/fico/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 561.6,
+      "source": "AlphaSpread (peer multiples table)",
+      "ticker": "PLTR"
+    },
+    {
+      "company_name": "Applovin Corp",
+      "ev_ntm_ebitda": 68.3,
+      "ev_ntm_revenue": 27.0,
+      "notes": "EV/NTM revenue approximated using AlphaSpread peer EV/S (listed as market cap EV/S). EV/NTM EBITDA uses AlphaSpread peer EV/EBITDA; P/E uses AlphaSpread peer P/E. ([alphaspread.com](https://www.alphaspread.com/security/nyse/fico/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 86.7,
+      "source": "AlphaSpread (peer multiples table)",
+      "ticker": "APP"
+    },
+    {
+      "company_name": "Cadence Design Systems Inc",
+      "ev_ntm_ebitda": 53.9,
+      "ev_ntm_revenue": 14.6,
+      "notes": "EV/NTM revenue approximated using AlphaSpread peer EV/S (listed as market cap EV/S). EV/NTM EBITDA uses AlphaSpread peer EV/EBITDA; P/E uses AlphaSpread peer P/E. ([alphaspread.com](https://www.alphaspread.com/security/nyse/fico/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 94.9,
+      "source": "AlphaSpread (peer multiples table)",
+      "ticker": "CDNS"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.019,
+      "2027": 0.018,
+      "2028": 0.0175,
+      "2029": 0.017,
+      "2030": 0.017
+    },
+    "da_pct_sales": {
+      "2026": 0.0076,
+      "2027": 0.0075,
+      "2028": 0.0074,
+      "2029": 0.0074,
+      "2030": 0.0073
+    },
+    "ebit_margin": {
+      "2026": 0.468,
+      "2027": 0.466,
+      "2028": 0.463,
+      "2029": 0.462,
+      "2030": 0.46
+    },
+    "nwc_pct_sales": {
+      "2026": 0.0605,
+      "2027": 0.06,
+      "2028": 0.06,
+      "2029": 0.06,
+      "2030": 0.0595
+    },
+    "revenue_growth": {
+      "2026": 0.18,
+      "2027": 0.12,
+      "2028": 0.1,
+      "2029": 0.09,
+      "2030": 0.08
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 4237000.0,
+      "2024": 25551000.0,
+      "2025": 39407000.0
+    },
+    "da": {
+      "2023": 14638000.0,
+      "2024": 13827000.0,
+      "2025": 14952000.0
+    },
+    "ebit": {
+      "2023": 642830000.0,
+      "2024": 733629000.0,
+      "2025": 924850000.0
+    },
+    "nwc": {
+      "2023": 101982000.0,
+      "2024": 101461000.0,
+      "2025": 121355000.0
+    },
+    "revenue": {
+      "2023": 1513557000.0,
+      "2024": 1717526000.0,
+      "2025": 1990869000.0
+    }
+  },
+  "notes": [
+    "Fiscal years are based on FICO\u2019s reporting period ending Sep 30; historical years used are FY2023\u2013FY2025 and forecast years are FY2026\u2013FY2030. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000814547/000081454725000030/fico-20250930.htm))",
+    "EBIT is modeled as GAAP operating income from the consolidated statements of income. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000814547/000081454725000030/fico-20250930.htm))",
+    "D&A is taken from the consolidated statement of cash flows line item \u201cDepreciation and amortization\u201d (in thousands). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000814547/000081454725000030/fico-20250930.htm))",
+    "Capex is modeled as (Purchases of property and equipment + Capitalized internal-use software costs). This is a modeling choice to align with the cash-flow presentation; see historical capex components. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000814547/000081454725000030/fico-20250930.htm))",
+    "NWC construction is: (Accounts receivable, net + Prepaid expenses and other current assets) \u2212 (Accounts payable + Accrued compensation and employee benefits + Other accrued liabilities + Deferred revenue). Cash and marketable securities are excluded; \u201ccurrent maturities on debt\u201d is excluded from NWC. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000814547/000081454725000030/fico-20250930.htm))",
+    "Tax rate (0.20) is a base-case effective-tax assumption consistent with historical effective tax rates (provision for income taxes vs. income before taxes). FY2025 effective tax rate is ~0.188; FY2024 is ~0.201; FY2023 is ~0.225. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000814547/000081454725000030/fico-20250930.htm))",
+    "WACC is an assumption (0.085) and is not explicitly disclosed in the filings in this package; it should be reviewed/overridden by the DCF pipeline if you use a standardized WACC build method.",
+    "Terminal method is gordon_growth, so terminal_exit_ebitda_multiple is set to null because it is not used.",
+    "Current price uses the latest available trade from the pricing tool (most recent trade time shown as Mar 20, 2026 UTC), so presentation as_of_date is set to 2026-03-20.",
+    "NOL balance is from FY2025 Form 10-K and is stated as \u201capproximately $1.3 million\u201d; NOL utilization percent is an assumption (0.80) for modeling purposes. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000814547/000081454725000030/fico-20250930.htm))",
+    "Comps: AlphaSpread peer multiples are used due to availability. EV/NTM revenue is approximated using AlphaSpread EV/S; EV/NTM EBITDA uses AlphaSpread EV/EBITDA as presented; P/E uses AlphaSpread peer P/E. ([alphaspread.com](https://www.alphaspread.com/security/nyse/fico/relative-valuation/enterprise-value-to-ebitda))",
+    "Base-case FY2026 revenue growth (0.18) is calibrated to align with management\u2019s FY2026 guidance revenue of $2.35B cited in the Q1 FY2026 earnings release. ([sec.gov](https://www.sec.gov/Archives/edgar/data/814547/000081454726000010/exhibit991erq12026.htm))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Continued execution in Scores growth drivers (including utilization and unit price dynamics) could accelerate revenue and cash generation.",
+      "Software recurring revenue momentum (platform ARR and retention) could lift consolidated margins.",
+      "Portfolio and capital allocation actions (repurchases / financing mix) can materially affect equity value per share."
+    ],
+    "company_overview": [
+      "FICO is a global analytics software leader, providing predictive analytics and decisioning solutions to help customers improve risk management, credit access, and operational decisions.",
+      "Scores revenue is generated primarily through customer agreements with major consumer reporting agencies and through consumer offerings (myFICO.com).",
+      "Software revenue includes on-premises and SaaS analytics and digital decisioning technology, with ongoing recurring revenue components."
+    ],
+    "current_context": [
+      "In Q1 fiscal 2026 (ended Dec. 31, 2025), FICO reported revenues of $512.0 million (+16% y/y) and GAAP EPS of $6.61.",
+      "FICO reiterated fiscal 2026 guidance: revenues of $2.35 billion and GAAP net income of $795 million (GAAP EPS $33.47).",
+      "Most recently completed fiscal year (FY2025) reported total revenues of $1.990869 billion and operating income of $924.850 million."
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth is anchored to management\u2019s FY2026 revenue guidance, with a gradual taper thereafter.",
+      "High operating profitability is sustained in the base case via stable EBIT margin assumptions consistent with recent FY2023\u2013FY2025 trends.",
+      "Capital intensity remains comparatively low in this model (capex modeled as a % of sales) reflecting FICO\u2019s asset-light profile."
+    ],
+    "key_risks": [
+      "Credit-cycle and transaction-volume sensitivity could pressure Scores demand and timing of license revenue.",
+      "Regulatory and policy changes affecting consumer credit reporting and use of credit scores could impact customer demand and monetization.",
+      "Integration/technology execution risk around software platform expansion and capitalized development assumptions."
+    ],
+    "sources": [
+      {
+        "label": "FY2025 Form 10-K (fiscal year ended Sep 30, 2025)",
+        "notes": "Historical income statement (revenue, operating income), cash flow (D&A, capex components), balance sheet (cash, debt, marketable securities, working capital components), diluted shares.",
+        "url": "https://www.sec.gov/Archives/edgar/data/814547/000081454725000030/fico-20250930.htm"
+      },
+      {
+        "label": "FY2024 Form 10-K (provides Sep 30, 2023 balance sheet comparatives)",
+        "notes": "Used for FY2023 balance sheet items needed to compute NWC for the last 3 completed fiscal years.",
+        "url": "https://www.sec.gov/Archives/edgar/data/814547/000162828024045719/fico-20240930.htm"
+      },
+      {
+        "label": "Q1 FY2026 Earnings Release (Exhibit 99.1; guidance reiteration and Q1 results)",
+        "notes": "Q1 FY2026 revenues and GAAP EPS; fiscal 2026 guidance (revenues $2.35B and GAAP net income $795M / EPS $33.47).",
+        "url": "https://www.sec.gov/Archives/edgar/data/814547/000081454726000010/exhibit991erq12026.htm"
+      },
+      {
+        "label": "AlphaSpread peer multiples (EV/EBITDA and EV/S, plus P/E)",
+        "notes": "Used for EV/EBITDA and P/E peer inputs (forward-style as presented by AlphaSpread).",
+        "url": "https://www.alphaspread.com/security/nyse/fico/relative-valuation/enterprise-value-to-ebitda"
+      },
+      {
+        "label": "AlphaSpread peer EV/S (proxy for EV/NTM revenue multiple)",
+        "notes": "Used for EV/S peer inputs, treated as a proxy for EV/NTM revenue multiple in the comps table.",
+        "url": "https://www.alphaspread.com/security/nyse/fico/relative-valuation/ratio/enterprise-value-to-sales"
+      }
+    ],
+    "subtitle": "DCF + Comps Inputs \u2014 Fair Isaac (FICO)",
+    "valuation_summary": [
+      "DCF base-case uses a gordon-growth terminal value with economically consistent terminal growth assumptions.",
+      "Comps are included to triangulate implied valuation levels using EV/EBITDA and forward-style P/E benchmarks from market-data summaries."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 1127.62,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.45,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.028,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.087
+      },
+      "description": "Modestly lower growth and margin profile vs. base case; slightly higher discount rate and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.019,
+          "2027": 0.018,
+          "2028": 0.0175,
+          "2029": 0.017,
+          "2030": 0.017
+        },
+        "da_pct_sales": {
+          "2026": 0.0076,
+          "2027": 0.0075,
+          "2028": 0.0074,
+          "2029": 0.0074,
+          "2030": 0.0073
+        },
+        "ebit_margin": {
+          "2026": 0.458,
+          "2027": 0.456,
+          "2028": 0.454,
+          "2029": 0.452,
+          "2030": 0.45
+        },
+        "nwc_pct_sales": {
+          "2026": 0.0605,
+          "2027": 0.06,
+          "2028": 0.06,
+          "2029": 0.06,
+          "2030": 0.0595
+        },
+        "revenue_growth": {
+          "2026": 0.16,
+          "2027": 0.1,
+          "2028": 0.09,
+          "2029": 0.08,
+          "2030": 0.07
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 1127.62,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.47,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.032,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.083
+      },
+      "description": "Modestly higher growth and margin profile vs. base case; slightly lower discount rate and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.019,
+          "2027": 0.018,
+          "2028": 0.0175,
+          "2029": 0.017,
+          "2030": 0.017
+        },
+        "da_pct_sales": {
+          "2026": 0.0076,
+          "2027": 0.0075,
+          "2028": 0.0074,
+          "2029": 0.0074,
+          "2030": 0.0073
+        },
+        "ebit_margin": {
+          "2026": 0.478,
+          "2027": 0.476,
+          "2028": 0.472,
+          "2029": 0.471,
+          "2030": 0.47
+        },
+        "nwc_pct_sales": {
+          "2026": 0.0605,
+          "2027": 0.06,
+          "2028": 0.06,
+          "2029": 0.06,
+          "2030": 0.0595
+        },
+        "revenue_growth": {
+          "2026": 0.2,
+          "2027": 0.13,
+          "2028": 0.11,
+          "2029": 0.1,
+          "2030": 0.09
+        }
+      }
+    }
+  },
+  "ticker": "FICO"
+}

@@ -1,0 +1,668 @@
+{
+  "_meta": {
+    "cost_usd": 0.018748,
+    "generated_at": "2026-03-21T17:13:09Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 9262,
+      "prompt": 2515,
+      "reasoning": 5334
+    }
+  },
+  "_valuation": {
+    "company_name": "Allegion plc",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 142.49,
+        "description": "Base case",
+        "enterprise_value": 15650781606.40941,
+        "equity_value": 14109181606.40941,
+        "exit_multiple_terminal_value": 18145157469.350464,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 14109181606.40941,
+        "investments_adjustment": 82300000.0,
+        "net_debt": 1623900000.0,
+        "per_share_value": 162.92357513174838,
+        "projected_years": [
+          {
+            "capex": 104334379.6,
+            "cash_taxes": 29613718.454399988,
+            "da": 136238280.8,
+            "delta_nwc": 19237991.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 914003656.0,
+            "ebit_margin": 0.212,
+            "ebitda": 1050241936.8,
+            "fcff": 897055847.7456001,
+            "nol_balance_end": 353297075.1999999,
+            "nol_used": 731202924.8000001,
+            "nwc": 299637991.0,
+            "present_value_fcff": 826779583.1756684,
+            "revenue": 4311338000.0,
+            "revenue_growth": 0.06,
+            "year": 2026
+          },
+          {
+            "capex": 110527616.637,
+            "cash_taxes": 99715089.44214001,
+            "da": 143731386.24400002,
+            "delta_nwc": 14205858.710000038,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 968822318.67,
+            "ebit_margin": 0.213,
+            "ebitda": 1112553704.914,
+            "fcff": 888105140.1248599,
+            "nol_balance_end": 0.0,
+            "nol_used": 353297075.1999999,
+            "nwc": 313843849.71000004,
+            "present_value_fcff": 754405606.5109558,
+            "revenue": 4548461590.0,
+            "revenue_growth": 0.055,
+            "year": 2027
+          },
+          {
+            "capex": 116053997.46884999,
+            "cash_taxes": 165570369.722226,
+            "da": 151395544.02315,
+            "delta_nwc": 13304250.150749981,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 1022039319.273,
+            "ebit_margin": 0.214,
+            "ebitda": 1173434863.29615,
+            "fcff": 878506245.954324,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 327148099.86075,
+            "present_value_fcff": 687789654.4796184,
+            "revenue": 4775884669.5,
+            "revenue_growth": 0.05,
+            "year": 2028
+          },
+          {
+            "capex": 122125102.06071842,
+            "cash_taxes": 174328578.06454194,
+            "da": 158662530.13626122,
+            "delta_nwc": 13200545.226498067,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 1076102333.7317402,
+            "ebit_margin": 0.215,
+            "ebitda": 1234764863.8680015,
+            "fcff": 925110638.516243,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 340348645.0872481,
+            "present_value_fcff": 667536046.8560274,
+            "revenue": 5005127133.636001,
+            "revenue_growth": 0.048,
+            "year": 2029
+          },
+          {
+            "capex": 127620731.65345074,
+            "cash_taxes": 183020682.04989952,
+            "da": 166325379.77785793,
+            "delta_nwc": 12700510.101601303,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 1129757296.604318,
+            "ebit_margin": 0.216,
+            "ebitda": 1296082676.382176,
+            "fcff": 972740752.5772243,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 353049155.1888494,
+            "present_value_fcff": 646916785.5476321,
+            "revenue": 5230357854.64962,
+            "revenue_growth": 0.045,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 18145157469.350464,
+        "terminal_value_present_value": 12067353929.839508,
+        "upside_downside_pct": 0.14340357310511864
+      },
+      "bear": {
+        "current_price": 142.49,
+        "description": "Modestly lower growth and margin; slightly lower terminal multiple and terminal growth.",
+        "enterprise_value": 13896011142.144464,
+        "equity_value": 12354411142.144464,
+        "exit_multiple_terminal_value": 15868563154.461838,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 12354411142.144464,
+        "investments_adjustment": 82300000.0,
+        "net_debt": 1623900000.0,
+        "per_share_value": 142.66063674531713,
+        "projected_years": [
+          {
+            "capex": 102923026.5,
+            "cash_taxes": 28919235.114,
+            "da": 134953014.0,
+            "delta_nwc": 15130018.0,
+            "discount_factor": 0.9199632014719411,
+            "ebit": 892568985.0,
+            "ebit_margin": 0.209,
+            "ebitda": 1027521999.0,
+            "fcff": 880549719.386,
+            "nol_balance_end": 370444812.0,
+            "nol_used": 714055188.0,
+            "nwc": 295530018.0,
+            "present_value_fcff": 810073338.901564,
+            "revenue": 4270665000.0,
+            "revenue_growth": 0.05,
+            "year": 2026
+          },
+          {
+            "capex": 108000847.185,
+            "cash_taxes": 91813924.8045,
+            "da": 141025899.63000003,
+            "delta_nwc": 11067428.347499967,
+            "discount_factor": 0.8463322920625034,
+            "ebit": 937197434.25,
+            "ebit_margin": 0.21,
+            "ebitda": 1078223333.88,
+            "fcff": 867341133.5430001,
+            "nol_balance_end": 0.0,
+            "nol_used": 370444812.0,
+            "nwc": 306597446.34749997,
+            "present_value_fcff": 734058809.5515372,
+            "revenue": 4462844925.0,
+            "revenue_growth": 0.045,
+            "year": 2027
+          },
+          {
+            "capex": 112320881.0724,
+            "cash_taxes": 158650923.835404,
+            "da": 147131071.4874,
+            "delta_nwc": 9943218.492900014,
+            "discount_factor": 0.7785945649149065,
+            "ebit": 979326690.342,
+            "ebit_margin": 0.211,
+            "ebitda": 1126457761.8294,
+            "fcff": 845542738.4286959,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 316540664.8404,
+            "present_value_fcff": 658334980.5438491,
+            "revenue": 4641358722.0,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 117070847.5884948,
+            "cash_taxes": 165460131.25840598,
+            "da": 152722052.2039212,
+            "delta_nwc": 9619680.087217212,
+            "discount_factor": 0.7162783485877705,
+            "ebit": 1021358834.928432,
+            "ebit_margin": 0.212,
+            "ebitda": 1174080887.1323533,
+            "fcff": 881930228.1982353,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 326160344.9276172,
+            "present_value_fcff": 631707527.4234675,
+            "revenue": 4817730353.436,
+            "revenue_growth": 0.038,
+            "year": 2029
+          },
+          {
+            "capex": 121168327.2540921,
+            "cash_taxes": 172059024.70081076,
+            "da": 158565959.12263906,
+            "delta_nwc": 8922436.614563406,
+            "discount_factor": 0.6589497227118405,
+            "ebit": 1062092745.0667331,
+            "ebit_margin": 0.213,
+            "ebitda": 1220658704.189372,
+            "fcff": 918508915.619906,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 335082781.5421806,
+            "present_value_fcff": 605251195.2560903,
+            "revenue": 4986350915.806259,
+            "revenue_growth": 0.035,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 15868563154.461838,
+        "terminal_value_present_value": 10456585290.467957,
+        "upside_downside_pct": 0.0011975348818662468
+      },
+      "bull": {
+        "current_price": 142.49,
+        "description": "Modestly higher enterprise growth and margin expansion; slightly higher terminal multiple and slightly higher terminal growth.",
+        "enterprise_value": 17580714720.485153,
+        "equity_value": 16039114720.485153,
+        "exit_multiple_terminal_value": 20630149538.52367,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 16039114720.485153,
+        "investments_adjustment": 82300000.0,
+        "net_debt": 1623900000.0,
+        "per_share_value": 185.209176910914,
+        "projected_years": [
+          {
+            "capex": 105753867.3,
+            "cash_taxes": 30316108.626000002,
+            "da": 137523547.60000002,
+            "delta_nwc": 23370367.800000012,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 935682365.0,
+            "ebit_margin": 0.215,
+            "ebitda": 1073205912.6,
+            "fcff": 913765568.8740001,
+            "nol_balance_end": 335954108.0,
+            "nol_used": 748545892.0,
+            "nwc": 303770367.8,
+            "present_value_fcff": 843735520.65928,
+            "revenue": 4352011000.0,
+            "revenue_growth": 0.07,
+            "year": 2026
+          },
+          {
+            "capex": 113091357.846,
+            "cash_taxes": 107759565.39527999,
+            "da": 146462578.194,
+            "delta_nwc": 17427628.04949999,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 1001136610.4399999,
+            "ebit_margin": 0.216,
+            "ebitda": 1147599188.6339998,
+            "fcff": 909320637.34322,
+            "nol_balance_end": 0.0,
+            "nol_used": 335954108.0,
+            "nwc": 321197995.8495,
+            "present_value_fcff": 775282773.8543205,
+            "revenue": 4634891715.0,
+            "revenue_growth": 0.065,
+            "year": 2027
+          },
+          {
+            "capex": 119876839.31676002,
+            "cash_taxes": 172711082.35005662,
+            "da": 155741631.40743002,
+            "delta_nwc": 16815387.142020047,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 1066117792.2843001,
+            "ebit_margin": 0.217,
+            "ebitda": 1221859423.69173,
+            "fcff": 912456114.8828933,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 338013382.99152005,
+            "present_value_fcff": 718334319.6737808,
+            "revenue": 4912985217.900001,
+            "revenue_growth": 0.06,
+            "year": 2028
+          },
+          {
+            "capex": 127349489.83318594,
+            "cash_taxes": 183570391.14076713,
+            "da": 164774646.029061,
+            "delta_nwc": 17005807.033239126,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 1133150562.597328,
+            "ebit_margin": 0.218,
+            "ebitda": 1297925208.626389,
+            "fcff": 969999520.6191969,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 355019190.0247592,
+            "present_value_fcff": 705111329.9832448,
+            "revenue": 5197938360.538201,
+            "revenue_growth": 0.058,
+            "year": 2029
+          },
+          {
+            "capex": 134353711.77401114,
+            "cash_taxes": 194555142.2987089,
+            "da": 174385634.0576961,
+            "delta_nwc": 16784142.96617776,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 1200957668.5105486,
+            "ebit_margin": 0.219,
+            "ebitda": 1375343302.5682447,
+            "fcff": 1029650305.529347,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 371803332.99093693,
+            "present_value_fcff": 691110465.5385143,
+            "revenue": 5483824970.367802,
+            "revenue_growth": 0.055,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 20630149538.52367,
+        "terminal_value_present_value": 13847140310.776014,
+        "upside_downside_pct": 0.2998047365493297
+      }
+    },
+    "ticker": "ALLE"
+  },
+  "assumptions": {
+    "cash": 356200000.0,
+    "current_price": 142.49,
+    "debt": 1980100000.0,
+    "diluted_shares": 86600000.0,
+    "investments": 82300000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 1084500000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.216,
+    "tax_rate": 0.162,
+    "terminal_exit_ebitda_multiple": 14.0,
+    "terminal_growth": 0.025,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.085
+  },
+  "company_name": "Allegion plc",
+  "comps": [
+    {
+      "company_name": "Assa Abloy AB",
+      "ev_ntm_ebitda": 13.7,
+      "ev_ntm_revenue": 2.83,
+      "notes": "EV/Revenue and EV/EBITDA and P/E taken from MarketScreener 'Fiscal Period: December' columns; using 2026 column as NTM proxy. ([marketscreener.com](https://www.marketscreener.com/quote/stock/ASSA-ABLOY-AB-22363198/valuation/))",
+      "pe_ntm": 21.9,
+      "source": "MarketScreener valuation (forward estimates)",
+      "ticker": "ASAB"
+    },
+    {
+      "company_name": "Johnson Controls International plc",
+      "ev_ntm_ebitda": 19.3,
+      "ev_ntm_revenue": 3.49,
+      "notes": "EV/Revenue and EV/EBITDA and P/E taken from MarketScreener 'Fiscal Period: September' columns; using 2026 column as NTM proxy. ([marketscreener.com](https://www.marketscreener.com/quote/stock/JOHNSON-CONTROLS-INTERNAT-162050982/valuation/))",
+      "pe_ntm": 27.9,
+      "source": "MarketScreener valuation (forward estimates)",
+      "ticker": "JCI"
+    },
+    {
+      "company_name": "Fortune Brands Innovations, Inc.",
+      "ev_ntm_ebitda": 9.03,
+      "ev_ntm_revenue": 1.69,
+      "notes": "EV/Revenue and EV/EBITDA and P/E taken from MarketScreener valuation table; using 2026 column as NTM proxy. ([marketscreener.com](https://www.marketscreener.com/quote/stock/FORTUNE-BRANDS-INNOVATION-9016938/valuation/))",
+      "pe_ntm": 12.9,
+      "source": "MarketScreener valuation (forward estimates)",
+      "ticker": "FBIN"
+    },
+    {
+      "company_name": "Stanley Black & Decker, Inc.",
+      "ev_ntm_ebitda": 8.63,
+      "ev_ntm_revenue": 1.06,
+      "notes": "EV/Revenue, EV/EBITDA and P/E taken from MarketScreener valuation table; using 2026 column as NTM proxy. ([marketscreener.com](https://www.marketscreener.com/quote/stock/STANLEY-BLACK-DECKER-INC-187716628/valuation/))",
+      "pe_ntm": 13.4,
+      "source": "MarketScreener valuation (forward estimates)",
+      "ticker": "SWK"
+    },
+    {
+      "company_name": "Masco Corporation",
+      "ev_ntm_ebitda": 9.81,
+      "ev_ntm_revenue": 1.86,
+      "notes": "EV/Revenue, EV/EBITDA and P/E taken from MarketScreener valuation table; using 2026 column as NTM proxy. ([marketscreener.com](https://www.marketscreener.com/quote/stock/MASCO-CORPORATION-13461/valuation/))",
+      "pe_ntm": 14.1,
+      "source": "MarketScreener valuation (forward estimates)",
+      "ticker": "MAS"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0242,
+      "2027": 0.0243,
+      "2028": 0.0243,
+      "2029": 0.0244,
+      "2030": 0.0244
+    },
+    "da_pct_sales": {
+      "2026": 0.0316,
+      "2027": 0.0316,
+      "2028": 0.0317,
+      "2029": 0.0317,
+      "2030": 0.0318
+    },
+    "ebit_margin": {
+      "2026": 0.212,
+      "2027": 0.213,
+      "2028": 0.214,
+      "2029": 0.215,
+      "2030": 0.216
+    },
+    "nwc_pct_sales": {
+      "2026": 0.0695,
+      "2027": 0.069,
+      "2028": 0.0685,
+      "2029": 0.068,
+      "2030": 0.0675
+    },
+    "revenue_growth": {
+      "2026": 0.06,
+      "2027": 0.055,
+      "2028": 0.05,
+      "2029": 0.048,
+      "2030": 0.045
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 84200000.0,
+      "2024": 92100000.0,
+      "2025": 98100000.0
+    },
+    "da": {
+      "2023": 109000000.0,
+      "2024": 116200000.0,
+      "2025": 129700000.0
+    },
+    "ebit": {
+      "2023": 708400000.0,
+      "2024": 780700000.0,
+      "2025": 859500000.0
+    },
+    "nwc": {
+      "2023": 225700000.0,
+      "2024": 243500000.0,
+      "2025": 280400000.0
+    },
+    "revenue": {
+      "2023": 3650800000.0,
+      "2024": 3772200000.0,
+      "2025": 4067300000.0
+    }
+  },
+  "notes": [
+    "Historical data (revenue, operating income used as EBIT, total depreciation/amortization, and total capital expenditures) are taken from Allegion\u2019s FY2025 Form 10-K; FY2023 balance-sheet line items for NWC are supported by the FY2024 Form 10-K. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1579241/000157924126000007/alle-20251231.htm))",
+    "EBIT definition: modeled as GAAP operating income (operating income) from the consolidated income statement; not adjusted/\u2018non-GAAP\u2019 operating income.",
+    "NWC construction (end-of-year): NWC = (Total current assets \u2212 Cash and cash equivalents) \u2212 (Total current liabilities \u2212 Short-term borrowings and current maturities of long-term debt). This strips financing-related items so NWC tracks operating working-capital intensity. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1579241/000157924126000007/alle-20251231.htm))",
+    "Tax rate: base-case tax_rate equals FY2025 effective tax rate of 0.162 as reported; future tax effects are not separately modeled (base-case assumes stability). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1579241/000157924126000007/alle-20251231.htm))",
+    "NOL balance: uses disclosed tax loss carryforward amounts (Ireland federal tax loss carryforwards + non-Ireland tax loss carryforwards) from FY2025 disclosures; may differ from a strictly defined \u2018NOL in DCF\u2019 measure depending on jurisdictional constraints and credit vs. loss characterization. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1579241/000157924126000007/alle-20251231.htm))",
+    "Terminal exit multiple (14.0x EV/EBITDA) and WACC (8.5%) are pipeline assumptions (not directly disclosed by the company). Peer comps use forward-looking estimates; \u2018NTM\u2019 here is approximated by MarketScreener\u2019s 2026 column as the next-year proxy. ([marketscreener.com](https://www.marketscreener.com/quote/stock/ASSA-ABLOY-AB-22363198/valuation/))",
+    "Investments: treated as non-operating investments in equity method affiliates plus other debt/equity securities shown within Other noncurrent assets; this is an approximation of the \u2018investments\u2019 adjustment used by the DCF pipeline. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1579241/000157924126000007/alle-20251231.htm))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Sustained Americas non-residential demand and price realization driving revenue and margin follow-through into 2026-2027.",
+      "Execution against enterprise excellence/cost actions that sustain operating margin above the historical average.",
+      "Accretive capital deployment (buybacks and targeted acquisitions/divestitures) that improves per-share earnings power."
+    ],
+    "company_overview": [
+      "Global security products and solutions provider with operating performance evaluated via Americas and International segments.",
+      "Business model combines mechanical and electronic security products with services/software offerings across commercial and residential end-markets.",
+      "2025 performance reflected enterprise growth and operating margin expansion alongside continued cash generation for reinvestment and shareholder returns."
+    ],
+    "current_context": [
+      "FY2025: net revenues of $4,067.3 million (+7.8% reported; +4.1% organic) and operating income of $859.5 million with operating margin of 21.1%. ([allegion.com](https://www.allegion.com/content/dam/allegion-corp/migration/news/2026/Q4-FY%202025%20Allegion%20Earnings%20Call_Press%20Release_FINAL.pdf))",
+      "2026 outlook: management guided to full-year reported revenue growth of 5% to 7% (organic 2% to 4%) and adjusted EPS of $8.70 to $8.90. ([allegion.com](https://www.allegion.com/content/dam/allegion-corp/migration/news/2026/Q4-FY%202025%20Allegion%20Earnings%20Call_Press%20Release_FINAL.pdf))",
+      "Balance sheet/liquidity: ended 2025 with cash and cash equivalents of $356.2 million and total debt of $1,980.1 million. ([allegion.com](https://www.allegion.com/content/dam/allegion-corp/migration/news/2026/Q4-FY%202025%20Allegion%20Earnings%20Call_Press%20Release_FINAL.pdf))"
+    ],
+    "investment_highlights": [
+      "Base-case growth assumes a normalization of enterprise growth after FY2025 outperformance, consistent with 2026 guidance range.",
+      "Profitability outlook is anchored to modest, structurally supported EBIT margin expansion (pricing/productivity and mix), converging to a 2030 target EBIT margin.",
+      "Reinvestment discipline: capex intensity and depreciation as a % of sales held near historical levels to support growth without aggressive reinvestment assumptions.",
+      "Working-capital intensity modeled to remain controlled, with NWC as a % of sales gradually improving versus recent peak utilization.",
+      "Valuation cross-check uses forward EV/Revenue, EV/EBITDA and P/E multiples from broadly comparable industrial/security and home hardware names."
+    ],
+    "key_risks": [
+      "Macro-driven demand softness or prolonged volume weakness, especially in International markets with mixed conditions.",
+      "FX volatility and commodity/input inflation impacting realized pricing and cost structure.",
+      "Integration/acquisition execution risk and/or restructuring charges that temporarily depress operating margins.",
+      "Tax regime changes and uncertainty around effective tax rate could move after-tax cash flows and valuation."
+    ],
+    "sources": [
+      {
+        "label": "Allegion FY2025 Form 10-K (SEC)",
+        "notes": "Primary source for FY2023-2025 revenue, operating income, depreciation/amortization, capex, effective tax rate, diluted shares, and balance-sheet cash/debt items. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1579241/000157924126000007/alle-20251231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1579241/000157924126000007/alle-20251231.htm"
+      },
+      {
+        "label": "Allegion FY2024 Form 10-K (SEC) - supporting 2023 balance sheet",
+        "notes": "Supporting source for FY2023 balance-sheet line items used in NWC construction (current assets/liabilities and short-term borrowings). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1579241/000157924125000008/alle-20241231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1579241/000157924125000008/alle-20241231.htm"
+      },
+      {
+        "label": "Allegion Q4/FY2025 earnings press release + 2026 outlook",
+        "notes": "Primary source for FY2025 results and 2026 guidance (revenue growth range and EPS outlook), plus liquidity summary cash/debt. ([allegion.com](https://www.allegion.com/content/dam/allegion-corp/migration/news/2026/Q4-FY%202025%20Allegion%20Earnings%20Call_Press%20Release_FINAL.pdf))",
+        "url": "https://www.allegion.com/content/dam/allegion-corp/migration/news/2026/Q4-FY%202025%20Allegion%20Earnings%20Call_Press%20Release_FINAL.pdf"
+      },
+      {
+        "label": "Allegion Q4 2024 results page (context)",
+        "notes": "Context for FY2024 operating margin and management commentary on organic revenue and margin drivers. ([allegion.com](https://www.allegion.com/corp/en/news/year/2025/q4-2024-results.html))",
+        "url": "https://www.allegion.com/corp/en/news/year/2025/q4-2024-results.html"
+      }
+    ],
+    "subtitle": "Allegion (ALLE): DCF Inputs + Peer Multiples",
+    "valuation_summary": [
+      "DCF base case ties 2026-2030 growth rates to management\u2019s 2026 outlook and a gradual step-down toward a sustainable long-run rate.",
+      "Terminal assumptions are kept economically consistent with an industrial/security hardware profile (terminal growth of 2.5% and exit multiple approach).",
+      "Peer multiples provide a sanity check that the implied valuation range is not extreme versus forward-looking market expectations."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.213,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 13.0,
+        "terminal_growth": 0.023,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.087
+      },
+      "description": "Modestly lower growth and margin; slightly lower terminal multiple and terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0241,
+          "2027": 0.0242,
+          "2028": 0.0242,
+          "2029": 0.0243,
+          "2030": 0.0243
+        },
+        "da_pct_sales": {
+          "2026": 0.0316,
+          "2027": 0.0316,
+          "2028": 0.0317,
+          "2029": 0.0317,
+          "2030": 0.0318
+        },
+        "ebit_margin": {
+          "2026": 0.209,
+          "2027": 0.21,
+          "2028": 0.211,
+          "2029": 0.212,
+          "2030": 0.213
+        },
+        "nwc_pct_sales": {
+          "2026": 0.0692,
+          "2027": 0.0687,
+          "2028": 0.0682,
+          "2029": 0.0677,
+          "2030": 0.0672
+        },
+        "revenue_growth": {
+          "2026": 0.05,
+          "2027": 0.045,
+          "2028": 0.04,
+          "2029": 0.038,
+          "2030": 0.035
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.219,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 15.0,
+        "terminal_growth": 0.026,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.083
+      },
+      "description": "Modestly higher enterprise growth and margin expansion; slightly higher terminal multiple and slightly higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0243,
+          "2027": 0.0244,
+          "2028": 0.0244,
+          "2029": 0.0245,
+          "2030": 0.0245
+        },
+        "da_pct_sales": {
+          "2026": 0.0316,
+          "2027": 0.0316,
+          "2028": 0.0317,
+          "2029": 0.0317,
+          "2030": 0.0318
+        },
+        "ebit_margin": {
+          "2026": 0.215,
+          "2027": 0.216,
+          "2028": 0.217,
+          "2029": 0.218,
+          "2030": 0.219
+        },
+        "nwc_pct_sales": {
+          "2026": 0.0698,
+          "2027": 0.0693,
+          "2028": 0.0688,
+          "2029": 0.0683,
+          "2030": 0.0678
+        },
+        "revenue_growth": {
+          "2026": 0.07,
+          "2027": 0.065,
+          "2028": 0.06,
+          "2029": 0.058,
+          "2030": 0.055
+        }
+      }
+    }
+  },
+  "ticker": "ALLE"
+}

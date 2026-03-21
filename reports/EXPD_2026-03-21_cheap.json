@@ -1,0 +1,678 @@
+{
+  "_meta": {
+    "cost_usd": 0.025554,
+    "generated_at": "2026-03-21T17:15:37Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12015,
+      "prompt": 2515,
+      "reasoning": 8026
+    }
+  },
+  "_valuation": {
+    "company_name": "Expeditors International of Washington, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 146.35,
+        "description": "Base case",
+        "enterprise_value": 14749425058.69472,
+        "equity_value": 16061250058.69472,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 16844906184.953873,
+        "implied_market_cap": 16061250058.69472,
+        "investments_adjustment": 0.0,
+        "net_debt": -1314285000.0,
+        "per_share_value": 117.88159956179288,
+        "projected_years": [
+          {
+            "capex": 52550120.2275,
+            "cash_taxes": 290356930.96368,
+            "da": 63060144.273,
+            "delta_nwc": 16837548.33500004,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1121069231.52,
+            "ebit_margin": 0.096,
+            "ebitda": 1184129375.793,
+            "fcff": 824384776.26682,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 385367548.33500004,
+            "present_value_fcff": 759801637.1122764,
+            "revenue": 11677804495.0,
+            "revenue_growth": 0.055,
+            "year": 2026
+          },
+          {
+            "capex": 55282726.479329996,
+            "cash_taxes": 306091856.98082006,
+            "da": 66339271.775196,
+            "delta_nwc": 20039112.513419986,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1181821841.6247878,
+            "ebit_margin": 0.0962,
+            "ebitda": 1248161113.399984,
+            "fcff": 866747417.4264138,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 405406660.84842,
+            "present_value_fcff": 736263176.0508091,
+            "revenue": 12285050328.74,
+            "revenue_growth": 0.052,
+            "year": 2027
+          },
+          {
+            "capex": 57936297.35033783,
+            "cash_taxes": 320117354.95973337,
+            "da": 69523556.82040541,
+            "delta_nwc": 19459519.720724165,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 1235974343.4738739,
+            "ebit_margin": 0.096,
+            "ebitda": 1305497900.2942793,
+            "fcff": 907984728.2634838,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 424866180.5691442,
+            "present_value_fcff": 710868597.0089066,
+            "revenue": 12874732744.51952,
+            "revenue_growth": 0.048,
+            "year": 2028
+          },
+          {
+            "capex": 60543430.73110303,
+            "cash_taxes": 333825713.7747277,
+            "da": 72652116.87732366,
+            "delta_nwc": 19118978.125611484,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 1288902369.7865934,
+            "ebit_margin": 0.0958,
+            "ebitda": 1361554486.663917,
+            "fcff": 948066364.0324748,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 443985158.6947557,
+            "present_value_fcff": 684100308.0652539,
+            "revenue": 13454095718.022898,
+            "revenue_growth": 0.045,
+            "year": 2029
+          },
+          {
+            "capex": 63086254.82180936,
+            "cash_taxes": 346757104.42000973,
+            "da": 75703505.78617124,
+            "delta_nwc": 18647376.66517973,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 1338830518.9961765,
+            "ebit_margin": 0.0955,
+            "ebitda": 1414534024.7823477,
+            "fcff": 986043288.8753488,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 462632535.3599354,
+            "present_value_fcff": 655763576.4308281,
+            "revenue": 14019167738.17986,
+            "revenue_growth": 0.042,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 16844906184.953873,
+        "terminal_value_present_value": 11202627764.026646,
+        "upside_downside_pct": -0.19452272250226932
+      },
+      "bear": {
+        "current_price": 146.35,
+        "description": "Modestly weaker growth and operating leverage; slightly higher WACC and lower terminal growth.",
+        "enterprise_value": 13433928064.07294,
+        "equity_value": 14745753064.07294,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 15179224311.123545,
+        "implied_market_cap": 14745753064.07294,
+        "investments_adjustment": 0.0,
+        "net_debt": -1314285000.0,
+        "per_share_value": 108.22650488497487,
+        "projected_years": [
+          {
+            "capex": 52301067.525,
+            "cash_taxes": 284465506.26847506,
+            "da": 62761281.03,
+            "delta_nwc": 15011161.850000024,
+            "discount_factor": 0.9199632014719411,
+            "ebit": 1098322418.025,
+            "ebit_margin": 0.0945,
+            "ebitda": 1161083699.055,
+            "fcff": 809305963.411525,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 383541161.85,
+            "present_value_fcff": 744531705.0704002,
+            "revenue": 11622459450.0,
+            "revenue_growth": 0.05,
+            "year": 2026
+          },
+          {
+            "capex": 54759217.69867499,
+            "cash_taxes": 298465724.5023803,
+            "da": 65711061.23841,
+            "delta_nwc": 18026434.606949985,
+            "discount_factor": 0.8463322920625034,
+            "ebit": 1152377314.681005,
+            "ebit_margin": 0.0947,
+            "ebitda": 1218088375.919415,
+            "fcff": 846836999.1114097,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 401567596.45695,
+            "present_value_fcff": 716705498.4612914,
+            "revenue": 12168715044.15,
+            "revenue_growth": 0.047,
+            "year": 2027
+          },
+          {
+            "capex": 57113864.05971801,
+            "cash_taxes": 310642306.62080634,
+            "da": 68536636.87166163,
+            "delta_nwc": 17267406.64764881,
+            "discount_factor": 0.7785945649149065,
+            "ebit": 1199391145.2540784,
+            "ebit_margin": 0.0945,
+            "ebitda": 1267927782.12574,
+            "fcff": 882904204.7975669,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 418835003.1045988,
+            "present_value_fcff": 687424415.1959032,
+            "revenue": 12691969791.048449,
+            "revenue_growth": 0.043,
+            "year": 2028
+          },
+          {
+            "capex": 59398418.62210674,
+            "cash_taxes": 322384257.0890552,
+            "da": 71278102.3465281,
+            "delta_nwc": 16753400.124184012,
+            "discount_factor": 0.7162783485877705,
+            "ebit": 1244726861.3477035,
+            "ebit_margin": 0.0943,
+            "ebitda": 1316004963.6942315,
+            "fcff": 917468887.8588855,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 435588403.22878283,
+            "present_value_fcff": 657163099.876221,
+            "revenue": 13199648582.690388,
+            "revenue_growth": 0.04,
+            "year": 2029
+          },
+          {
+            "capex": 61596160.11112469,
+            "cash_taxes": 333248914.23676485,
+            "da": 73915392.13334963,
+            "delta_nwc": 16116770.919464946,
+            "discount_factor": 0.6589497227118405,
+            "ebit": 1286675344.5434935,
+            "ebit_margin": 0.094,
+            "ebitda": 1360590736.6768432,
+            "fcff": 949628891.4094887,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 451705174.1482478,
+            "present_value_fcff": 625757694.6734351,
+            "revenue": 13688035580.249931,
+            "revenue_growth": 0.037,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 15179224311.123545,
+        "terminal_value_present_value": 10002345650.795689,
+        "upside_downside_pct": -0.2604953543903322
+      },
+      "bull": {
+        "current_price": 146.35,
+        "description": "Modestly better top-line growth and operating leverage; slightly lower WACC and higher terminal growth.",
+        "enterprise_value": 16031894194.803116,
+        "equity_value": 17343719194.803116,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 18424229235.915718,
+        "implied_market_cap": 17343719194.803116,
+        "investments_adjustment": 0.0,
+        "net_debt": -1314285000.0,
+        "per_share_value": 127.29428615845339,
+        "projected_years": [
+          {
+            "capex": 52799172.93,
+            "cash_taxes": 296291358.75885004,
+            "da": 63359007.516,
+            "delta_nwc": 18663934.819999993,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 1143982080.15,
+            "ebit_margin": 0.0975,
+            "ebitda": 1207341087.6660001,
+            "fcff": 839586621.15715,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 387193934.82,
+            "present_value_fcff": 775241570.7822254,
+            "revenue": 11733149540.0,
+            "revenue_growth": 0.06,
+            "year": 2026
+          },
+          {
+            "capex": 55808725.78700999,
+            "cash_taxes": 313822386.6516082,
+            "da": 66970470.944412,
+            "delta_nwc": 22070054.28473997,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 1211669446.5313058,
+            "ebit_margin": 0.0977,
+            "ebitda": 1278639917.4757178,
+            "fcff": 886938750.7523596,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 409263989.10473996,
+            "present_value_fcff": 756200075.8403904,
+            "revenue": 12401939063.779999,
+            "revenue_growth": 0.057,
+            "year": 2027
+          },
+          {
+            "capex": 58766588.25372151,
+            "cash_taxes": 329778504.4171339,
+            "da": 70519905.90446582,
+            "delta_nwc": 21690991.422551215,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 1273276078.830633,
+            "ebit_margin": 0.0975,
+            "ebitda": 1343795984.7350988,
+            "fcff": 933559900.6416922,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 430954980.5272912,
+            "present_value_fcff": 734948350.0236498,
+            "revenue": 13059241834.160337,
+            "revenue_growth": 0.053,
+            "year": 2028
+          },
+          {
+            "capex": 61704917.66640759,
+            "cash_taxes": 345557137.47463065,
+            "da": 74045901.19968912,
+            "delta_nwc": 21547749.026364565,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 1334197441.986991,
+            "ebit_margin": 0.0973,
+            "ebitda": 1408243343.18668,
+            "fcff": 979433539.0192773,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 452502729.55365574,
+            "present_value_fcff": 711969099.6210285,
+            "revenue": 13712203925.868355,
+            "revenue_growth": 0.05,
+            "year": 2029
+          },
+          {
+            "capex": 64605048.796728745,
+            "cash_taxes": 360682809.0933814,
+            "da": 77526058.5560745,
+            "delta_nwc": 21267628.28902179,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 1392597718.5072641,
+            "ebit_margin": 0.097,
+            "ebitda": 1470123777.0633388,
+            "fcff": 1023568290.8842068,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 473770357.84267753,
+            "present_value_fcff": 687028163.0808328,
+            "revenue": 14356677510.384167,
+            "revenue_growth": 0.047,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 18424229235.915718,
+        "terminal_value_present_value": 12366506935.454988,
+        "upside_downside_pct": -0.13020644920769808
+      }
+    },
+    "ticker": "EXPD"
+  },
+  "assumptions": {
+    "cash": 1314285000.0,
+    "current_price": 146.35,
+    "debt": 0.0,
+    "diluted_shares": 136249000.0,
+    "investments": 0.0,
+    "minority_interest": 2460000.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.096,
+    "tax_rate": 0.259,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Expeditors International of Washington, Inc.",
+  "comps": [
+    {
+      "company_name": "C.H. Robinson Worldwide, Inc.",
+      "ev_ntm_ebitda": 30.6,
+      "ev_ntm_revenue": 1.3,
+      "notes": "EV/Revenue and EV/EBITDA shown on ValueSense 'valuation multiples overview' (labeled with LTM/NTM/forward sections; numeric extracted from the overview). P/E extracted from the same page. As of Mar 20, 2026.",
+      "pe_ntm": 34.5,
+      "source": "ValueSense (multiples page)",
+      "ticker": "CHRW"
+    },
+    {
+      "company_name": "J.B. Hunt Transport Services, Inc.",
+      "ev_ntm_ebitda": 13.8,
+      "ev_ntm_revenue": 1.8,
+      "notes": "EV/Revenue and EV/EBITDA extracted from ValueSense 'valuation multiples overview' (as of Mar 06, 2026). P/E extracted from same page. As presented on ValueSense (NTM/forward not explicitly confirmed for each multiple).",
+      "pe_ntm": 34.0,
+      "source": "ValueSense (multiples page)",
+      "ticker": "JBHT"
+    },
+    {
+      "company_name": "United Parcel Service, Inc.",
+      "ev_ntm_ebitda": 16.4,
+      "ev_ntm_revenue": 1.2,
+      "notes": "EV/Revenue and EV/EBITDA extracted from ValueSense 'valuation multiples overview' (as of Mar 18, 2026). P/E extracted from same page. ValueSense labels include LTM/NTM/forward sections; extracted numeric reflects the overview figure.",
+      "pe_ntm": 14.8,
+      "source": "ValueSense (multiples page)",
+      "ticker": "UPS"
+    },
+    {
+      "company_name": "FedEx Corporation",
+      "ev_ntm_ebitda": 10.3,
+      "ev_ntm_revenue": 1.2,
+      "notes": "EV/Revenue and EV/EBITDA extracted from ValueSense 'valuation multiples overview' (as of Jan 22, 2026). P/E extracted from same page. ValueSense labels include LTM/NTM/forward sections; extracted numeric reflects the overview figure.",
+      "pe_ntm": 19.4,
+      "source": "ValueSense (multiples page)",
+      "ticker": "FDX"
+    },
+    {
+      "company_name": "Forward Air Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": 1.2,
+      "notes": "EV/Revenue extracted (1.2x). EV/EBITDA not present in the extracted snippet. P/E appears as (1.2x) on ValueSense (interpreted as approximately -1.2), likely due to negative/near-zero earnings; treat as low-reliability.",
+      "pe_ntm": -1.2,
+      "source": "ValueSense (multiples/valuation metrics section)",
+      "ticker": "FWRD"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0045,
+      "2027": 0.0045,
+      "2028": 0.0045,
+      "2029": 0.0045,
+      "2030": 0.0045
+    },
+    "da_pct_sales": {
+      "2026": 0.0054,
+      "2027": 0.0054,
+      "2028": 0.0054,
+      "2029": 0.0054,
+      "2030": 0.0054
+    },
+    "ebit_margin": {
+      "2026": 0.096,
+      "2027": 0.0962,
+      "2028": 0.096,
+      "2029": 0.0958,
+      "2030": 0.0955
+    },
+    "nwc_pct_sales": {
+      "2026": 0.033,
+      "2027": 0.033,
+      "2028": 0.033,
+      "2029": 0.033,
+      "2030": 0.033
+    },
+    "revenue_growth": {
+      "2026": 0.055,
+      "2027": 0.052,
+      "2028": 0.048,
+      "2029": 0.045,
+      "2030": 0.042
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 39314000.0,
+      "2024": 40466000.0,
+      "2025": 53101000.0
+    },
+    "da": {
+      "2023": 67760000.0,
+      "2024": 61090000.0,
+      "2025": 56769000.0
+    },
+    "ebit": {
+      "2023": 939933000.0,
+      "2024": 1041323000.0,
+      "2025": 1052546000.0
+    },
+    "nwc": {
+      "2023": 217901000.0,
+      "2024": 444982000.0,
+      "2025": 368530000.0
+    },
+    "revenue": {
+      "2023": 9300110000.0,
+      "2024": 10600515000.0,
+      "2025": 11069009000.0
+    }
+  },
+  "notes": [
+    "EBIT is proxied as 'Operating income' (operating income / operating results), using the consolidated statement of earnings. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))",
+    "D&A is taken from the consolidated statement line 'Depreciation and amortization' (income statement line item). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))",
+    "Capex is taken from cash flow line 'Purchase of property and equipment' and converted from 'in thousands' to full dollars. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))",
+    "NWC is calculated as (Total current assets - cash and cash equivalents) - Total current liabilities. This includes contract liabilities/deferred contract costs and taxes payable as they appear in the current assets/liabilities totals; this may differ from alternative NWC constructions that exclude deferred/contract balances. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))",
+    "WACC is assumed (not directly provided in the filings); adjust if your DCF framework derives WACC from a specific capital market methodology.",
+    "NOL balance and utilization were not found in the accessible extracted portions of the FY2025 10-K; set to null. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Material improvement in freight demand/volumes and/or pricing conditions across air and ocean lanes supporting revenue growth continuation.",
+      "Sustained operating discipline enabling EBIT margin to hold in the base-case band despite cyclical trade conditions.",
+      "Potential working-capital normalization improving free-cash-flow conversion in periods following elevated deferred/contract-related balances."
+    ],
+    "company_overview": [
+      "Expeditors is a global logistics services provider with revenues generated across airfreight services, ocean freight/ocean services, and customs brokerage and other services. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))",
+      "The business model emphasizes shipment consolidation and customer services supporting international transportation and trade compliance. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))",
+      "FY2025 results: total revenues of 11069009000 and operating income (EBIT proxy) of 1052546000. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))"
+    ],
+    "current_context": [
+      "Q4 2025 earnings release (Feb 24, 2026): full-year 2025 operating income of 1052546000 and revenues of 11069009000. ([investor.expeditors.com](https://investor.expeditors.com/~/media/Files/E/Expeditors-IR-V2/press-release/2026/EXPDQ41.PDF))",
+      "2025 cash generation and shareholder returns noted by management in the annual report (cash from operations up; total returned to shareholders highlighted). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))"
+    ],
+    "investment_highlights": [
+      "Base case assumes mid-single-digit revenue growth from 2025 with EBIT margin stabilizing near the recent ~9.5%-9.8% range (defined as operating income / total revenues). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))",
+      "D&A and capex are modeled as low-single-digit percentages of sales, consistent with a service-heavy logistics platform. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))",
+      "Working-capital intensity is modeled as modest and relatively stable in percentage-of-sales terms, although historical NWC shows volatility across the 2023-2025 window (modeled with a conservative constant). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))",
+      "Capital structure is modeled with near-zero year-end debt per filings; therefore valuation sensitivity is driven primarily by operating assumptions and terminal economics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))"
+    ],
+    "key_risks": [
+      "Downturn in global trade (tariffs, demand shocks, or route disruptions) reducing volumes and pressuring operating income. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))",
+      "Foreign exchange and tax-rate volatility impacting reported results and effective cash tax burden. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))",
+      "Competition among global logistics providers and carrier capacity/rate volatility that can affect achievable pricing and spread."
+    ],
+    "sources": [
+      {
+        "label": "Expeditors FY2025 Form 10-K (SEC, fiscal year ended Dec 31, 2025)",
+        "notes": "Primary source for historical revenues, operating income (EBIT proxy), depreciation & amortization, capex (purchase of property and equipment), and balance-sheet current assets/liabilities used for NWC calculation. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526071569/expd-20251231.htm"
+      },
+      {
+        "label": "Expeditors FY2024 Form 10-K (SEC, fiscal year ended Dec 31, 2024)",
+        "notes": "Provides 2023 balance-sheet comparatives required to compute NWC for the 2023 historical year. ([sec.gov](https://www.sec.gov/Archives/edgar/data/746515/000095017025024750/expd-20241231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/746515/000095017025024750/expd-20241231.htm"
+      },
+      {
+        "label": "Expeditors Q4 2025 earnings release (Feb 24, 2026) - PDF",
+        "notes": "Used for current context and diluted weighted average shares for the valuation inputs. ([investor.expeditors.com](https://investor.expeditors.com/~/media/Files/E/Expeditors-IR-V2/press-release/2026/EXPDQ41.PDF))",
+        "url": "https://investor.expeditors.com/~/media/Files/E/Expeditors-IR-V2/press-release/2026/EXPDQ41.PDF"
+      },
+      {
+        "label": "ValueSense peer multiples: CHRW",
+        "notes": "EV/Revenue, EV/EBITDA, and P/E used in the extracted comp table. ([valuesense.io](https://valuesense.io/ticker/chrw))",
+        "url": "https://valuesense.io/ticker/chrw"
+      },
+      {
+        "label": "ValueSense peer multiples: JBHT",
+        "notes": "EV/Revenue, EV/EBITDA, and P/E used in the extracted comp table. ([valuesense.io](https://valuesense.io/ticker/jbht))",
+        "url": "https://valuesense.io/ticker/jbht"
+      },
+      {
+        "label": "ValueSense peer multiples: UPS",
+        "notes": "EV/Revenue, EV/EBITDA, and P/E used in the extracted comp table. ([valuesense.io](https://valuesense.io/ticker/ups))",
+        "url": "https://valuesense.io/ticker/ups"
+      },
+      {
+        "label": "ValueSense peer multiples: FDX",
+        "notes": "EV/Revenue, EV/EBITDA, and P/E used in the extracted comp table. ([valuesense.io](https://valuesense.io/ticker/fdx))",
+        "url": "https://valuesense.io/ticker/fdx"
+      }
+    ],
+    "subtitle": "EXPD DCF Inputs + Peer Multiples (as of 2026-03-20)",
+    "valuation_summary": [
+      "DCF is triangulated with peer valuation multiples: large transportation/logistics peers show EV/Revenue around ~1.2x-1.8x and EV/EBITDA broadly ~10x-30x in the extracted peer set. ([valuesense.io](https://valuesense.io/ticker/chrw))",
+      "Terminal assumptions use a conservative perpetual growth rate below long-run nominal GDP growth and a Gordon-growth terminal method to reflect maturity of core logistics services. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000746515/000119312526071569/expd-20251231.htm))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 146.35,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.0945,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.023,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.087
+      },
+      "description": "Modestly weaker growth and operating leverage; slightly higher WACC and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0045,
+          "2027": 0.0045,
+          "2028": 0.0045,
+          "2029": 0.0045,
+          "2030": 0.0045
+        },
+        "da_pct_sales": {
+          "2026": 0.0054,
+          "2027": 0.0054,
+          "2028": 0.0054,
+          "2029": 0.0054,
+          "2030": 0.0054
+        },
+        "ebit_margin": {
+          "2026": 0.0945,
+          "2027": 0.0947,
+          "2028": 0.0945,
+          "2029": 0.0943,
+          "2030": 0.094
+        },
+        "nwc_pct_sales": {
+          "2026": 0.033,
+          "2027": 0.033,
+          "2028": 0.033,
+          "2029": 0.033,
+          "2030": 0.033
+        },
+        "revenue_growth": {
+          "2026": 0.05,
+          "2027": 0.047,
+          "2028": 0.043,
+          "2029": 0.04,
+          "2030": 0.037
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 146.35,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.0975,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.026,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.083
+      },
+      "description": "Modestly better top-line growth and operating leverage; slightly lower WACC and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0045,
+          "2027": 0.0045,
+          "2028": 0.0045,
+          "2029": 0.0045,
+          "2030": 0.0045
+        },
+        "da_pct_sales": {
+          "2026": 0.0054,
+          "2027": 0.0054,
+          "2028": 0.0054,
+          "2029": 0.0054,
+          "2030": 0.0054
+        },
+        "ebit_margin": {
+          "2026": 0.0975,
+          "2027": 0.0977,
+          "2028": 0.0975,
+          "2029": 0.0973,
+          "2030": 0.097
+        },
+        "nwc_pct_sales": {
+          "2026": 0.033,
+          "2027": 0.033,
+          "2028": 0.033,
+          "2029": 0.033,
+          "2030": 0.033
+        },
+        "revenue_growth": {
+          "2026": 0.06,
+          "2027": 0.057,
+          "2028": 0.053,
+          "2029": 0.05,
+          "2030": 0.047
+        }
+      }
+    }
+  },
+  "ticker": "EXPD"
+}

@@ -1,0 +1,705 @@
+{
+  "_meta": {
+    "cost_usd": 0.024147,
+    "generated_at": "2026-03-21T17:33:37Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11834,
+      "prompt": 2514,
+      "reasoning": 7081
+    }
+  },
+  "_valuation": {
+    "company_name": "Eversource Energy",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 66.67,
+        "description": "Base case",
+        "enterprise_value": 60913805178.137245,
+        "equity_value": 30778585178.137245,
+        "exit_multiple_terminal_value": 77674788794.4919,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 30778585178.137245,
+        "investments_adjustment": 0.0,
+        "net_debt": 29979650000.0,
+        "per_share_value": 82.96114603271495,
+        "projected_years": [
+          {
+            "capex": 4283696870.0,
+            "cash_taxes": 647577758.1,
+            "da": 2483706980.0,
+            "delta_nwc": 80852100.0,
+            "discount_factor": 0.9444654325651681,
+            "ebit": 3083703610.0,
+            "ebit_margin": 0.221,
+            "ebitda": 5567410590.0,
+            "fcff": 555283861.8999996,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2651147900.0,
+            "present_value_fcff": 524446412.82584023,
+            "revenue": 13953410000.0,
+            "revenue_growth": 0.03,
+            "year": 2026
+          },
+          {
+            "capex": 4363677816.12,
+            "cash_taxes": 663321809.2053,
+            "da": 2531218341.0499997,
+            "delta_nwc": 226882446.5999999,
+            "discount_factor": 0.8920149533105102,
+            "ebit": 3158675281.93,
+            "ebit_margin": 0.2215,
+            "ebitda": 5689893622.98,
+            "fcff": 436011551.0547004,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2424265453.4,
+            "present_value_fcff": 388928823.3569017,
+            "revenue": 14260385020.0,
+            "revenue_growth": 0.022,
+            "year": 2027
+          },
+          {
+            "capex": 4436405779.722,
+            "cash_taxes": 678115532.625048,
+            "da": 2574569911.5108,
+            "delta_nwc": 24242654.53399992,
+            "discount_factor": 0.8424772887330093,
+            "ebit": 3229121583.9288,
+            "ebit_margin": 0.222,
+            "ebitda": 5803691495.4396,
+            "fcff": 664927528.5585523,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2400022798.866,
+            "present_value_fcff": 560186341.4639497,
+            "revenue": 14545592720.4,
+            "revenue_growth": 0.02,
+            "year": 2028
+          },
+          {
+            "capex": 4501453670.367628,
+            "cash_taxes": 690321612.2122988,
+            "da": 2613508463.2233105,
+            "delta_nwc": 30836656.567248344,
+            "discount_factor": 0.7956906769295516,
+            "ebit": 3287245772.439518,
+            "ebit_margin": 0.222,
+            "ebitda": 5900754235.662828,
+            "fcff": 678142296.5156527,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2369186142.298752,
+            "present_value_fcff": 539591502.9691004,
+            "revenue": 14807413389.367199,
+            "revenue_growth": 0.018,
+            "year": 2029
+          },
+          {
+            "capex": 4558432597.089913,
+            "cash_taxes": 704526067.728451,
+            "da": 2647802432.633085,
+            "delta_nwc": 37314681.741205215,
+            "discount_factor": 0.7515023393743405,
+            "ebit": 3354886036.802148,
+            "ebit_margin": 0.223,
+            "ebitda": 6002688469.435232,
+            "fcff": 702415122.8756628,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2331871460.5575466,
+            "present_value_fcff": 527866608.0529755,
+            "revenue": 15044332003.597075,
+            "revenue_growth": 0.016,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 77674788794.4919,
+        "terminal_value_present_value": 58372785489.468475,
+        "upside_downside_pct": 0.24435497274208706
+      },
+      "bear": {
+        "current_price": 66.67,
+        "description": "Modestly weaker growth and margin compression vs. base case; slightly lower terminal assumptions.",
+        "enterprise_value": 56350302029.54516,
+        "equity_value": 26215082029.54516,
+        "exit_multiple_terminal_value": 71801668507.95961,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 26215082029.545162,
+        "investments_adjustment": 0.0,
+        "net_debt": 29979650000.0,
+        "per_share_value": 70.66059846238588,
+        "projected_years": [
+          {
+            "capex": 4271220082.9999995,
+            "cash_taxes": 639848246.3099998,
+            "da": 2476472881.9999995,
+            "delta_nwc": 88573890.00000048,
+            "discount_factor": 0.9444654325651681,
+            "ebit": 3046896410.9999995,
+            "ebit_margin": 0.219,
+            "ebitda": 5523369292.999999,
+            "fcff": 523727073.6899986,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2643426109.9999995,
+            "present_value_fcff": 494642117.19871426,
+            "revenue": 13912768999.999998,
+            "revenue_growth": 0.027,
+            "year": 2026
+          },
+          {
+            "capex": 4338196152.965999,
+            "cash_taxes": 653493959.7090448,
+            "da": 2516437310.9524994,
+            "delta_nwc": 233317136.1300001,
+            "discount_factor": 0.8920149533105102,
+            "ebit": 3111875998.614499,
+            "ebit_margin": 0.2195,
+            "ebitda": 5628313309.5669985,
+            "fcff": 403306060.76195526,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2410108973.8699994,
+            "present_value_fcff": 359755036.9604213,
+            "revenue": 14177111610.999996,
+            "revenue_growth": 0.019,
+            "year": 2027
+          },
+          {
+            "capex": 4397527365.058034,
+            "cash_taxes": 666117259.8874792,
+            "da": 2552007683.984498,
+            "delta_nwc": 31118759.98614502,
+            "discount_factor": 0.8424772887330093,
+            "ebit": 3171986951.845139,
+            "ebit_margin": 0.22,
+            "ebitda": 5723994635.829638,
+            "fcff": 629231250.8979788,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2378990213.8838544,
+            "present_value_fcff": 530113038.2426091,
+            "revenue": 14418122508.386995,
+            "revenue_growth": 0.017,
+            "year": 2028
+          },
+          {
+            "capex": 4448855881.187891,
+            "cash_taxes": 676109018.7857913,
+            "da": 2582970602.0712585,
+            "delta_nwc": 37487118.52180672,
+            "discount_factor": 0.7956906769295516,
+            "ebit": 3219566756.1228156,
+            "ebit_margin": 0.22,
+            "ebitda": 5802537358.194075,
+            "fcff": 640085339.6985855,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2341503095.3620477,
+            "present_value_fcff": 509309937.2374495,
+            "revenue": 14634394346.012798,
+            "revenue_growth": 0.015,
+            "year": 2029
+          },
+          {
+            "capex": 4491866366.170822,
+            "cash_taxes": 688011610.7392339,
+            "da": 2609136899.1619296,
+            "delta_nwc": 43683667.12284851,
+            "discount_factor": 0.7515023393743405,
+            "ebit": 3276245765.424923,
+            "ebit_margin": 0.221,
+            "ebitda": 5885382664.586853,
+            "fcff": 661821020.5539474,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2297819428.239199,
+            "present_value_fcff": 497360045.19340503,
+            "revenue": 14824641472.510963,
+            "revenue_growth": 0.013,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 71801668507.95961,
+        "terminal_value_present_value": 53959121854.71256,
+        "upside_downside_pct": 0.05985598413658133
+      },
+      "bull": {
+        "current_price": 66.67,
+        "description": "Modestly stronger regulated growth and operating profitability vs. base case; slightly higher terminal assumptions.",
+        "enterprise_value": 64801578085.524956,
+        "equity_value": 34666358085.524956,
+        "exit_multiple_terminal_value": 82645843902.20337,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 34666358085.524956,
+        "investments_adjustment": 0.0,
+        "net_debt": 29979650000.0,
+        "per_share_value": 93.44031828982467,
+        "projected_years": [
+          {
+            "capex": 4296173656.999999,
+            "cash_taxes": 655341408.3299999,
+            "da": 2490941077.9999995,
+            "delta_nwc": 73130310.00000048,
+            "discount_factor": 0.9444654325651681,
+            "ebit": 3120673372.9999995,
+            "ebit_margin": 0.223,
+            "ebitda": 5611614450.999999,
+            "fcff": 586969075.6699996,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2658869689.9999995,
+            "present_value_fcff": 554372001.9550431,
+            "revenue": 13994050999.999998,
+            "revenue_growth": 0.033,
+            "year": 2026
+          },
+          {
+            "capex": 4389234096.149999,
+            "cash_taxes": 673231053.2771248,
+            "da": 2546042653.812499,
+            "delta_nwc": 220406303.25,
+            "discount_factor": 0.8920149533105102,
+            "ebit": 3205862158.462499,
+            "ebit_margin": 0.2235,
+            "ebitda": 5751904812.274998,
+            "fcff": 469033359.59787464,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2438463386.7499995,
+            "present_value_fcff": 418384770.3627699,
+            "revenue": 14343902274.999996,
+            "revenue_growth": 0.025,
+            "year": 2027
+          },
+          {
+            "capex": 4475512668.334124,
+            "cash_taxes": 690256117.7653677,
+            "da": 2597264728.836524,
+            "delta_nwc": 17284402.241375446,
+            "discount_factor": 0.8424772887330093,
+            "ebit": 3286933894.120799,
+            "ebit_margin": 0.224,
+            "ebitda": 5884198622.957323,
+            "fcff": 701145434.6164565,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2421178984.508624,
+            "present_value_fcff": 590699104.7631997,
+            "revenue": 14673812027.324995,
+            "revenue_growth": 0.023,
+            "year": 2028
+          },
+          {
+            "capex": 4554516472.289241,
+            "cash_taxes": 704751496.2384404,
+            "da": 2644316307.1021414,
+            "delta_nwc": 24065051.724812984,
+            "discount_factor": 0.7956906769295516,
+            "ebit": 3355959505.8973355,
+            "ebit_margin": 0.224,
+            "ebitda": 6000275812.999477,
+            "fcff": 716942792.7469821,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2397113932.783811,
+            "present_value_fcff": 570464696.0806094,
+            "revenue": 14981962079.898819,
+            "revenue_growth": 0.021,
+            "year": 2029
+          },
+          {
+            "capex": 4625785665.903319,
+            "cash_taxes": 721347764.7324483,
+            "da": 2686925007.2573733,
+            "delta_nwc": 30787932.074192524,
+            "discount_factor": 0.7515023393743405,
+            "ebit": 3434989355.8688016,
+            "ebit_margin": 0.225,
+            "ebitda": 6121914363.126175,
+            "fcff": 743993000.4162145,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2366326000.7096186,
+            "present_value_fcff": 559112480.2909199,
+            "revenue": 15266619359.416895,
+            "revenue_growth": 0.019,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 82645843902.20337,
+        "terminal_value_present_value": 62108545032.07241,
+        "upside_downside_pct": 0.4015346976124894
+      }
+    },
+    "ticker": "ES"
+  },
+  "assumptions": {
+    "cash": 135350000.0,
+    "current_price": 66.67,
+    "debt": 30115000000.0,
+    "diluted_shares": 371000000.0,
+    "investments": 0.0,
+    "minority_interest": 155570000.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.222,
+    "tax_rate": 0.21,
+    "terminal_exit_ebitda_multiple": 12.94,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.0588
+  },
+  "company_name": "Eversource Energy",
+  "comps": [
+    {
+      "company_name": "Consolidated Edison Inc.",
+      "ev_ntm_ebitda": 11.16,
+      "ev_ntm_revenue": 4.07,
+      "notes": "EV/Sales forecast used as EV/NTM revenue proxy; P/E NTM not available from the same study.",
+      "pe_ntm": null,
+      "source": "WA Dept. of Revenue 2022 Cost of Capital Electric Industry study (EV/Sales & EV/EBITDA forecast multiples). ([dor.wa.gov](https://dor.wa.gov/sites/default/files/2022-05/2022COCElectricIndustry.pdf?uid=63bd8f5c722a7))",
+      "ticker": "ED"
+    },
+    {
+      "company_name": "Duke Energy Corporation",
+      "ev_ntm_ebitda": 12.83,
+      "ev_ntm_revenue": 6.11,
+      "notes": "EV/Sales forecast used as EV/NTM revenue proxy; P/E NTM not available from the same study.",
+      "pe_ntm": null,
+      "source": "WA Dept. of Revenue 2022 Cost of Capital Electric Industry study (EV/Sales & EV/EBITDA forecast multiples). ([dor.wa.gov](https://dor.wa.gov/sites/default/files/2022-05/2022COCElectricIndustry.pdf?uid=63bd8f5c722a7))",
+      "ticker": "DUK"
+    },
+    {
+      "company_name": "Entergy Corporation",
+      "ev_ntm_ebitda": 11.57,
+      "ev_ntm_revenue": 4.49,
+      "notes": "EV/Sales forecast used as EV/NTM revenue proxy; P/E NTM not available from the same study.",
+      "pe_ntm": null,
+      "source": "WA Dept. of Revenue 2022 Cost of Capital Electric Industry study (EV/Sales & EV/EBITDA forecast multiples). ([dor.wa.gov](https://dor.wa.gov/sites/default/files/2022-05/2022COCElectricIndustry.pdf?uid=63bd8f5c722a7))",
+      "ticker": "ETR"
+    },
+    {
+      "company_name": "Exelon Corporation",
+      "ev_ntm_ebitda": 12.24,
+      "ev_ntm_revenue": 4.79,
+      "notes": "EV/Sales forecast used as EV/NTM revenue proxy; P/E NTM not available from the same study.",
+      "pe_ntm": null,
+      "source": "WA Dept. of Revenue 2022 Cost of Capital Electric Industry study (EV/Sales & EV/EBITDA forecast multiples). ([dor.wa.gov](https://dor.wa.gov/sites/default/files/2022-05/2022COCElectricIndustry.pdf?uid=63bd8f5c722a7))",
+      "ticker": "EXC"
+    },
+    {
+      "company_name": "Fortis Inc.",
+      "ev_ntm_ebitda": 13.96,
+      "ev_ntm_revenue": 4.99,
+      "notes": "EV/Sales forecast used as EV/NTM revenue proxy; P/E NTM not available from the same study.",
+      "pe_ntm": null,
+      "source": "WA Dept. of Revenue 2022 Cost of Capital Electric Industry study (EV/Sales & EV/EBITDA forecast multiples). ([dor.wa.gov](https://dor.wa.gov/sites/default/files/2022-05/2022COCElectricIndustry.pdf?uid=63bd8f5c722a7))",
+      "ticker": "FTS"
+    },
+    {
+      "company_name": "NorthWestern Corporation",
+      "ev_ntm_ebitda": 13.68,
+      "ev_ntm_revenue": 4.8,
+      "notes": "EV/Sales forecast used as EV/NTM revenue proxy; P/E NTM not available from the same study.",
+      "pe_ntm": null,
+      "source": "WA Dept. of Revenue 2022 Cost of Capital Electric Industry study (EV/Sales & EV/EBITDA forecast multiples). ([dor.wa.gov](https://dor.wa.gov/sites/default/files/2022-05/2022COCElectricIndustry.pdf?uid=63bd8f5c722a7))",
+      "ticker": "NWE"
+    },
+    {
+      "company_name": "WEC Energy Group Inc.",
+      "ev_ntm_ebitda": 15.07,
+      "ev_ntm_revenue": 5.51,
+      "notes": "EV/Sales forecast used as EV/NTM revenue proxy; P/E NTM not available from the same study.",
+      "pe_ntm": null,
+      "source": "WA Dept. of Revenue 2022 Cost of Capital Electric Industry study (EV/Sales & EV/EBITDA forecast multiples). ([dor.wa.gov](https://dor.wa.gov/sites/default/files/2022-05/2022COCElectricIndustry.pdf?uid=63bd8f5c722a7))",
+      "ticker": "WEC"
+    },
+    {
+      "company_name": "Xcel Energy Inc.",
+      "ev_ntm_ebitda": 13.03,
+      "ev_ntm_revenue": 4.44,
+      "notes": "EV/Sales forecast used as EV/NTM revenue proxy; P/E NTM not available from the same study.",
+      "pe_ntm": null,
+      "source": "WA Dept. of Revenue 2022 Cost of Capital Electric Industry study (EV/Sales & EV/EBITDA forecast multiples). ([dor.wa.gov](https://dor.wa.gov/sites/default/files/2022-05/2022COCElectricIndustry.pdf?uid=63bd8f5c722a7))",
+      "ticker": "XEL"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.307,
+      "2027": 0.306,
+      "2028": 0.305,
+      "2029": 0.304,
+      "2030": 0.303
+    },
+    "da_pct_sales": {
+      "2026": 0.178,
+      "2027": 0.1775,
+      "2028": 0.177,
+      "2029": 0.1765,
+      "2030": 0.176
+    },
+    "ebit_margin": {
+      "2026": 0.221,
+      "2027": 0.2215,
+      "2028": 0.222,
+      "2029": 0.222,
+      "2030": 0.223
+    },
+    "nwc_pct_sales": {
+      "2026": -0.19,
+      "2027": -0.17,
+      "2028": -0.165,
+      "2029": -0.16,
+      "2030": -0.155
+    },
+    "revenue_growth": {
+      "2026": 0.03,
+      "2027": 0.022,
+      "2028": 0.02,
+      "2029": 0.018,
+      "2030": 0.016
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 4481000000.0,
+      "2024": 4337000000.0,
+      "2025": 4159000000.0
+    },
+    "da": {
+      "2023": 815720000.0,
+      "2024": 1776000000.0,
+      "2025": 2404000000.0
+    },
+    "ebit": {
+      "2023": 2399000000.0,
+      "2024": 2409000000.0,
+      "2025": 2989000000.0
+    },
+    "nwc": {
+      "2023": -2093000000.0,
+      "2024": -1645000000.0,
+      "2025": -2732000000.0
+    },
+    "revenue": {
+      "2023": 11911000000.0,
+      "2024": 11901000000.0,
+      "2025": 13547000000.0
+    }
+  },
+  "notes": [
+    "Company identified as Eversource Energy (NYSE: ES). ([stockanalysis.com](https://stockanalysis.com/stocks/es/financials/))",
+    "NWC construction: historical NWC is computed as total current assets minus total current liabilities using StockAnalysis balance sheet totals; this includes cash and regulatory current balances (may differ from a DCF template that excludes cash and/or uses a non-cash working capital definition). ([stockanalysis.com](https://stockanalysis.com/stocks/es/financials/balance-sheet/))",
+    "Tax rate: normalized base-case tax rate is set to 0.21 to reflect meaningful year-to-year volatility in reported effective tax rate (FY 2024 and FY 2025 were materially different). ([stockanalysis.com](https://stockanalysis.com/stocks/es/financials/))",
+    "NOL balance and NOL utilization were not located in the accessible sources used for this package; therefore both are set to null. ([stockanalysis.com](https://stockanalysis.com/stocks/es/financials/))",
+    "Peer multiples: EV/NTM fields are populated using a regulator-style cost-of-capital study\u2019s EV/Sales and EV/EBITDA forecast multiples (not guaranteed to be exact real-time NTM). Terminal exit EBITDA multiple is the average of the selected peer EV/EBITDA forecast values from the same study. ([dor.wa.gov](https://dor.wa.gov/sites/default/files/2022-05/2022COCElectricIndustry.pdf?uid=63bd8f5c722a7))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Rate case outcomes and regulatory decisions that affect allowed returns and cost recovery, impacting EBIT margin and cash generation. ([stocktitan.net](https://www.stocktitan.net/sec-filings/ES/8-k-eversource-energy-reports-material-event-db75265cab9c.html))",
+      "Progress against the 2026\u20132030 capital investment plan and any adjustments to funding mix (debt/equity), influencing realized returns and balance sheet risk. ([stocktitan.net](https://www.stocktitan.net/sec-filings/ES/8-k-eversource-energy-reports-material-event-db75265cab9c.html))",
+      "Execution around portfolio simplification/asset sales (continued transition to a more focused regulated platform), supporting improved earnings quality vs prior periods. ([stocktitan.net](https://www.stocktitan.net/sec-filings/ES/8-k-eversource-energy-reports-material-event-db75265cab9c.html))"
+    ],
+    "company_overview": [
+      "Eversource Energy (NYSE: ES) is a regulated utility with core operations focused on electric transmission, electric distribution, and natural gas distribution (plus water distribution activity disclosed via segments). ([stocktitan.net](https://www.stocktitan.net/sec-filings/ES/8-k-eversource-energy-reports-material-event-db75265cab9c.html))",
+      "Earnings and cash flow are driven primarily by regulated rate recovery on an asset base and the timing/approval of capital spending programs across its service territories. ([stocktitan.net](https://www.stocktitan.net/sec-filings/ES/8-k-eversource-energy-reports-material-event-db75265cab9c.html))"
+    ],
+    "current_context": [
+      "Full-year 2025 GAAP earnings were $1.69B ($4.56 per share); management also reported 2025 non-GAAP recurring earnings of $1.77B ($4.76 per share). ([stocktitan.net](https://www.stocktitan.net/sec-filings/ES/8-k-eversource-energy-reports-material-event-db75265cab9c.html))",
+      "2026 outlook: management guided 2026 earnings of $4.80\u2013$4.95 per share and maintained a long-term EPS growth target of 5%\u20137% through 2030. ([stocktitan.net](https://www.stocktitan.net/sec-filings/ES/8-k-eversource-energy-reports-material-event-db75265cab9c.html))",
+      "Capital plan: Eversource outlined a $26.5B investment plan for 2026\u20132030 (excluding Aquarion-related spending), implying sustained regulated rate-base growth support. ([stocktitan.net](https://www.stocktitan.net/sec-filings/ES/8-k-eversource-energy-reports-material-event-db75265cab9c.html))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes a modest, inflation-plus-rate-base style trajectory consistent with management\u2019s 5%\u20137% long-term EPS growth framework (applied at the consolidated revenue/EBIT level). ([stocktitan.net](https://www.stocktitan.net/sec-filings/ES/8-k-eversource-energy-reports-material-event-db75265cab9c.html))",
+      "Base-case operating profitability is anchored to the company\u2019s historical EBIT margin (operating income/revenue) around the low-20%s, with small expansion/convergence across the forecast horizon. ([stockanalysis.com](https://stockanalysis.com/stocks/es/financials/))",
+      "Capex intensity remains elevated in line with utility capital needs; the model keeps capex as a stable share of revenue while allowing gradual stabilization in D&A intensity. ([stockanalysis.com](https://stockanalysis.com/stocks/es/financials/cash-flow-statement/))",
+      "Working capital is modeled as persistently negative (consistent with regulatory utility balance-sheet structure), with gradual normalization toward less negative levels rather than a sharp reversal. ([stockanalysis.com](https://stockanalysis.com/stocks/es/financials/balance-sheet/))"
+    ],
+    "key_risks": [
+      "Regulatory risk (timing, disallowances, and allowed ROE/compensation) that could pressure margins relative to the base case. ([stocktitan.net](https://www.stocktitan.net/sec-filings/ES/8-k-eversource-energy-reports-material-event-db75265cab9c.html))",
+      "Higher-than-expected operating costs, storm/restoration volatility, or project cost overruns that reduce the realized spread between earnings and investment. ([stocktitan.net](https://www.stocktitan.net/sec-filings/ES/8-k-eversource-energy-reports-material-event-db75265cab9c.html))",
+      "Interest-rate and credit-spread risk could raise the effective cost of capital, lowering DCF value even if operational performance matches expectations. ([stockanalysis.com](https://stockanalysis.com/stocks/es/statistics/))"
+    ],
+    "sources": [
+      {
+        "label": "StockAnalysis \u2014 Income Statement (FY 2023\u2013FY 2025: Revenue, Operating Income/EBIT, Depreciation & Amortization, Shares, Effective Tax Rate)",
+        "notes": "Historical revenue, EBIT (operating income), D&A, diluted shares, and effective tax rate used for input anchoring. ([stockanalysis.com](https://stockanalysis.com/stocks/es/financials/))",
+        "url": null
+      },
+      {
+        "label": "StockAnalysis \u2014 Cash Flow Statement (FY 2023\u2013FY 2025: Capital Expenditures)",
+        "notes": "Capex values used for historical capex and capex intensity calibration. ([stockanalysis.com](https://stockanalysis.com/stocks/es/financials/cash-flow-statement/))",
+        "url": null
+      },
+      {
+        "label": "StockAnalysis \u2014 Balance Sheet (FY 2023\u2013FY 2025: Cash, Total Debt, Current Assets/Liabilities, Minority Interest)",
+        "notes": "Cash, debt, minority interest, and working-capital construction for NWC (current assets minus current liabilities). ([stockanalysis.com](https://stockanalysis.com/stocks/es/financials/balance-sheet/))",
+        "url": null
+      },
+      {
+        "label": "StockAnalysis \u2014 Statistics (WACC, Beta, Working Capital)",
+        "notes": "WACC estimate used as the base-case discount rate. ([stockanalysis.com](https://stockanalysis.com/stocks/es/statistics/))",
+        "url": null
+      },
+      {
+        "label": "Eversource Energy \u2014 Full-Year & Q4 2025 Results (Exhibit 99.1 / Form 8-K dated Feb 12, 2026)",
+        "notes": "Management guidance (2026 earnings), long-term EPS growth target, and 2026\u20132030 capital investment plan used for contextual forecasting framing. ([stocktitan.net](https://www.stocktitan.net/sec-filings/ES/8-k-eversource-energy-reports-material-event-db75265cab9c.html))",
+        "url": null
+      },
+      {
+        "label": "WA Dept. of Revenue \u2014 2022 Cost of Capital Electric Industry study (peer EV/EBITDA and EV/Sales forecast multiples)",
+        "notes": "Peer EV/EBITDA and EV/Sales forecast multiples used for terminal multiple calibration and comps table. ([dor.wa.gov](https://dor.wa.gov/sites/default/files/2022-05/2022COCElectricIndustry.pdf?uid=63bd8f5c722a7))",
+        "url": null
+      },
+      {
+        "label": "Market data \u2014 Latest quote for ES",
+        "notes": "Current price used in DCF inputs (latest trade around Mar 20, 2026).",
+        "url": null
+      }
+    ],
+    "subtitle": "Regulated utility DCF inputs \u2014 Eversource Energy (ES)",
+    "valuation_summary": [
+      "DCF inputs use consolidated historical statements for revenue, EBIT (operating income), depreciation & amortization, and capex, preserving internal consistency across the historical base. ([stockanalysis.com](https://stockanalysis.com/stocks/es/financials/))",
+      "Terminal value is based on an exit-multiple framework using an average peer EV/EBITDA multiple derived from a regulator-style cost of capital peer set; this keeps the terminal assumption economically comparable to regulated peer valuation norms. ([dor.wa.gov](https://dor.wa.gov/sites/default/files/2022-05/2022COCElectricIndustry.pdf?uid=63bd8f5c722a7))",
+      "WACC is set using StockAnalysis\u2019s WACC estimate (model-based) to reflect current capital-market inputs as of the research date. ([stockanalysis.com](https://stockanalysis.com/stocks/es/statistics/))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 66.67,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.22,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 12.2,
+        "terminal_growth": 0.017,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.0588
+      },
+      "description": "Modestly weaker growth and margin compression vs. base case; slightly lower terminal assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.307,
+          "2027": 0.306,
+          "2028": 0.305,
+          "2029": 0.304,
+          "2030": 0.303
+        },
+        "da_pct_sales": {
+          "2026": 0.178,
+          "2027": 0.1775,
+          "2028": 0.177,
+          "2029": 0.1765,
+          "2030": 0.176
+        },
+        "ebit_margin": {
+          "2026": 0.219,
+          "2027": 0.2195,
+          "2028": 0.22,
+          "2029": 0.22,
+          "2030": 0.221
+        },
+        "nwc_pct_sales": {
+          "2026": -0.19,
+          "2027": -0.17,
+          "2028": -0.165,
+          "2029": -0.16,
+          "2030": -0.155
+        },
+        "revenue_growth": {
+          "2026": 0.027,
+          "2027": 0.019,
+          "2028": 0.017,
+          "2029": 0.015,
+          "2030": 0.013
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 66.67,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.224,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 13.5,
+        "terminal_growth": 0.022,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.0588
+      },
+      "description": "Modestly stronger regulated growth and operating profitability vs. base case; slightly higher terminal assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.307,
+          "2027": 0.306,
+          "2028": 0.305,
+          "2029": 0.304,
+          "2030": 0.303
+        },
+        "da_pct_sales": {
+          "2026": 0.178,
+          "2027": 0.1775,
+          "2028": 0.177,
+          "2029": 0.1765,
+          "2030": 0.176
+        },
+        "ebit_margin": {
+          "2026": 0.223,
+          "2027": 0.2235,
+          "2028": 0.224,
+          "2029": 0.224,
+          "2030": 0.225
+        },
+        "nwc_pct_sales": {
+          "2026": -0.19,
+          "2027": -0.17,
+          "2028": -0.165,
+          "2029": -0.16,
+          "2030": -0.155
+        },
+        "revenue_growth": {
+          "2026": 0.033,
+          "2027": 0.025,
+          "2028": 0.023,
+          "2029": 0.021,
+          "2030": 0.019
+        }
+      }
+    }
+  },
+  "ticker": "ES"
+}

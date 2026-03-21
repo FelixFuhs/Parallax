@@ -1,0 +1,697 @@
+{
+  "_meta": {
+    "cost_usd": 0.023993,
+    "generated_at": "2026-03-21T17:24:25Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11575,
+      "prompt": 2514,
+      "reasoning": 7217
+    }
+  },
+  "_valuation": {
+    "company_name": "Texas Instruments Incorporated",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 187.19,
+        "description": "Base case",
+        "enterprise_value": 213300758687.79413,
+        "equity_value": 204133758687.79413,
+        "exit_multiple_terminal_value": 285213974797.09216,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 204133758687.79413,
+        "investments_adjustment": 1656000000.0,
+        "net_debt": 10823000000.0,
+        "per_share_value": 223.58571597786872,
+        "projected_years": [
+          {
+            "capex": 2611631400.0000005,
+            "cash_taxes": 820794424.1752328,
+            "da": 2089305120.0,
+            "delta_nwc": 132533400.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 6715623600.0,
+            "ebit_margin": 0.36,
+            "ebitda": 8804928720.0,
+            "fcff": 5239969495.824766,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 6342533400.0,
+            "present_value_fcff": 4829464973.110384,
+            "revenue": 18654510000.0,
+            "revenue_growth": 0.055,
+            "year": 2026
+          },
+          {
+            "capex": 2631684998.25,
+            "cash_taxes": 869643092.336217,
+            "da": 2163829887.45,
+            "delta_nwc": 90474373.5,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 7115296476.75,
+            "ebit_margin": 0.365,
+            "ebitda": 9279126364.2,
+            "fcff": 5687323900.113783,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 6433007773.5,
+            "present_value_fcff": 4831127354.680527,
+            "revenue": 19493962950.0,
+            "revenue_growth": 0.045,
+            "year": 2027
+          },
+          {
+            "capex": 2622912714.9225,
+            "cash_taxes": 912410471.808642,
+            "da": 2199211430.20425,
+            "delta_nwc": -77488502.7262497,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 7465213111.7025,
+            "ebit_margin": 0.37,
+            "ebitda": 9664424541.90675,
+            "fcff": 6206589857.901857,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 6355519270.77375,
+            "present_value_fcff": 4859189463.389394,
+            "revenue": 20176251653.25,
+            "revenue_growth": 0.035,
+            "year": 2028
+          },
+          {
+            "capex": 2597692400.3559375,
+            "cash_taxes": 944862692.914052,
+            "da": 2244406233.90753,
+            "delta_nwc": -17149813.905262947,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 7730732583.45927,
+            "ebit_margin": 0.372,
+            "ebitda": 9975138817.366798,
+            "fcff": 6449733538.002072,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 6338369456.868487,
+            "present_value_fcff": 4653961861.40286,
+            "revenue": 20781539202.8475,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 2556129321.950242,
+            "cash_taxes": 961975629.4557413,
+            "da": 2279215312.0722995,
+            "delta_nwc": -54551540.40747547,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 7870748203.838454,
+            "ebit_margin": 0.3695,
+            "ebitda": 10149963515.910753,
+            "fcff": 6686410104.912247,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 6283817916.461012,
+            "present_value_fcff": 4446766438.501442,
+            "revenue": 21301077682.918686,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 285213974797.09216,
+        "terminal_value_present_value": 189680248596.70953,
+        "upside_downside_pct": 0.1944319460327406
+      },
+      "bear": {
+        "current_price": 187.19,
+        "description": "Modestly weaker demand and margin pressure: lower revenue growth (-0.01 each year) and lower EBIT margin (-0.004 each year), with other operating ratios held constant.",
+        "enterprise_value": 202125529749.90103,
+        "equity_value": 192958529749.90103,
+        "exit_multiple_terminal_value": 269454994951.38766,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 192958529749.90103,
+        "investments_adjustment": 1656000000.0,
+        "net_debt": 10823000000.0,
+        "per_share_value": 211.34559665925633,
+        "projected_years": [
+          {
+            "capex": 2586876600.0000005,
+            "cash_taxes": 803980889.1039233,
+            "da": 2069501280.0,
+            "delta_nwc": 72414600.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 6578057640.0,
+            "ebit_margin": 0.356,
+            "ebitda": 8647558920.0,
+            "fcff": 5184286830.896076,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 6282414600.0,
+            "present_value_fcff": 4778144544.604678,
+            "revenue": 18477690000.0,
+            "revenue_growth": 0.045,
+            "year": 2026
+          },
+          {
+            "capex": 2581795235.25,
+            "cash_taxes": 843807301.9672595,
+            "da": 2122809415.65,
+            "delta_nwc": 28640419.5,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 6903911703.15,
+            "ebit_margin": 0.361,
+            "ebitda": 9026721118.8,
+            "fcff": 5572478162.082741,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 6311055019.5,
+            "present_value_fcff": 4733571035.343916,
+            "revenue": 19124409150.0,
+            "revenue_growth": 0.035,
+            "year": 2027
+          },
+          {
+            "capex": 2548327519.2375,
+            "cash_taxes": 876881743.3047574,
+            "da": 2136674612.28375,
+            "delta_nwc": -136261415.19375038,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 7174522092.622499,
+            "ebit_margin": 0.366,
+            "ebitda": 9311196704.90625,
+            "fcff": 6022248857.557742,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 6174793604.30625,
+            "present_value_fcff": 4714867401.347164,
+            "revenue": 19602519378.75,
+            "revenue_growth": 0.025,
+            "year": 2028
+          },
+          {
+            "capex": 2499321220.790625,
+            "cash_taxes": 899306915.7564856,
+            "da": 2159413534.7631,
+            "delta_nwc": -76449825.5771246,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 7358001674.0076,
+            "ebit_margin": 0.368,
+            "ebitda": 9517415208.7707,
+            "fcff": 6195236897.800714,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 6098343778.729125,
+            "present_value_fcff": 4470323630.400966,
+            "revenue": 19994569766.325,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 2435338597.538385,
+            "cash_taxes": 906595456.1810609,
+            "da": 2171510249.4717264,
+            "delta_nwc": -111469726.44726276,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 7417635478.335664,
+            "ebit_margin": 0.3655,
+            "ebitda": 9589145727.80739,
+            "fcff": 6358681400.535207,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5986874052.281862,
+            "present_value_fcff": 4228811963.575243,
+            "revenue": 20294488312.819874,
+            "revenue_growth": 0.015,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 269454994951.38766,
+        "terminal_value_present_value": 179199811174.62906,
+        "upside_downside_pct": 0.12904320027381977
+      },
+      "bull": {
+        "current_price": 187.19,
+        "description": "Modestly stronger analog demand recovery and operating leverage: higher revenue growth (+0.01 each year) and higher EBIT margin (+0.005 each year), with other operating ratios held constant.",
+        "enterprise_value": 225494053138.43912,
+        "equity_value": 216327053138.43912,
+        "exit_multiple_terminal_value": 302361189042.76984,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 216327053138.43912,
+        "investments_adjustment": 1656000000.0,
+        "net_debt": 10823000000.0,
+        "per_share_value": 236.94091252841085,
+        "projected_years": [
+          {
+            "capex": 2636386200.0000005,
+            "cash_taxes": 840082444.8065227,
+            "da": 2109108960.0,
+            "delta_nwc": 192652200.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 6873435450.0,
+            "ebit_margin": 0.365,
+            "ebitda": 8982544410.0,
+            "fcff": 5313423565.193478,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 6402652200.0,
+            "present_value_fcff": 4897164576.215187,
+            "revenue": 18831330000.0,
+            "revenue_growth": 0.065,
+            "year": 2026
+          },
+          {
+            "capex": 2682052175.25,
+            "cash_taxes": 898427896.7951401,
+            "da": 2205242899.65,
+            "delta_nwc": 153475339.5,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 7350809665.5,
+            "ebit_margin": 0.37,
+            "ebitda": 9556052565.15,
+            "fcff": 5822097153.60486,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 6556127539.5,
+            "present_value_fcff": 4945611207.377401,
+            "revenue": 19867053150.0,
+            "revenue_growth": 0.055,
+            "year": 2027
+          },
+          {
+            "capex": 2698939170.4275002,
+            "cash_taxes": 951544410.9637718,
+            "da": 2262956689.05075,
+            "delta_nwc": -16390318.848750114,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 7785401453.15625,
+            "ebit_margin": 0.375,
+            "ebitda": 10048358142.207,
+            "fcff": 6414264879.664479,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 6539737220.65125,
+            "present_value_fcff": 5021779919.769129,
+            "revenue": 20761070541.75,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 2698939170.4275002,
+            "cash_taxes": 994884087.0684686,
+            "da": 2331883443.24936,
+            "delta_nwc": 45674355.19185066,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 8140000538.009341,
+            "ebit_margin": 0.377,
+            "ebitda": 10471883981.258701,
+            "fcff": 6732386368.570881,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 6585411575.843101,
+            "present_value_fcff": 4857916875.316859,
+            "revenue": 21591513363.420002,
+            "revenue_growth": 0.04,
+            "year": 2029
+          },
+          {
+            "capex": 2681665959.736764,
+            "cash_taxes": 1022876747.4227887,
+            "da": 2391152147.431948,
+            "delta_nwc": 7017241.843111038,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 8369032516.011818,
+            "ebit_margin": 0.3745,
+            "ebitda": 10760184663.443766,
+            "fcff": 7048624714.441102,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 6592428817.686212,
+            "present_value_fcff": 4687655606.816815,
+            "revenue": 22347216331.1397,
+            "revenue_growth": 0.035,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 302361189042.76984,
+        "terminal_value_present_value": 201083924952.94373,
+        "upside_downside_pct": 0.26577761914851683
+      }
+    },
+    "ticker": "TXN"
+  },
+  "assumptions": {
+    "cash": 3225000000.0,
+    "current_price": 187.19,
+    "debt": 14048000000.0,
+    "diluted_shares": 913000000.0,
+    "investments": 1656000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.3695,
+    "tax_rate": 0.12222162423981486,
+    "terminal_exit_ebitda_multiple": 28.1,
+    "terminal_growth": 0.025,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.085
+  },
+  "company_name": "Texas Instruments Incorporated",
+  "comps": [
+    {
+      "company_name": "NVIDIA Corp",
+      "ev_ntm_ebitda": 31.0,
+      "ev_ntm_revenue": 24.3,
+      "notes": "EV/S used as proxy for EV/NTM Revenue (provider does not explicitly label NTM sales in the table). ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/txn/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 35.0,
+      "source": "AlphaSpread (EV/S, EV/EBITDA, P/E competitor multiples; treated as NTM/forward where provided)",
+      "ticker": "NVDA"
+    },
+    {
+      "company_name": "Broadcom Inc",
+      "ev_ntm_ebitda": 40.9,
+      "ev_ntm_revenue": 25.6,
+      "notes": "EV/S used as proxy for EV/NTM Revenue. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/txn/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 58.9,
+      "source": "AlphaSpread (EV/S, EV/EBITDA, P/E competitor multiples; treated as NTM/forward where provided)",
+      "ticker": "AVGO"
+    },
+    {
+      "company_name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "ev_ntm_ebitda": 17.3,
+      "ev_ntm_revenue": 12.5,
+      "notes": "EV/S used as proxy for EV/NTM Revenue. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/txn/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 27.8,
+      "source": "AlphaSpread (EV/S, EV/EBITDA, P/E competitor multiples; treated as NTM/forward where provided)",
+      "ticker": "TSM"
+    },
+    {
+      "company_name": "Advanced Micro Devices Inc",
+      "ev_ntm_ebitda": 47.8,
+      "ev_ntm_revenue": 9.2,
+      "notes": "EV/S used as proxy for EV/NTM Revenue. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/txn/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 75.7,
+      "source": "AlphaSpread (EV/S, EV/EBITDA, P/E competitor multiples; treated as NTM/forward where provided)",
+      "ticker": "AMD"
+    },
+    {
+      "company_name": "Micron Technology Inc",
+      "ev_ntm_ebitda": 21.4,
+      "ev_ntm_revenue": 11.4,
+      "notes": "EV/S used as proxy for EV/NTM Revenue. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/txn/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 40.0,
+      "source": "AlphaSpread (EV/S, EV/EBITDA, P/E competitor multiples; treated as NTM/forward where provided)",
+      "ticker": "MU"
+    },
+    {
+      "company_name": "Analog Devices Inc",
+      "ev_ntm_ebitda": 28.3,
+      "ev_ntm_revenue": 16.2,
+      "notes": "EV/S used as proxy for EV/NTM Revenue. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/txn/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 55.9,
+      "source": "AlphaSpread (EV/S, EV/EBITDA, P/E competitor multiples; treated as NTM/forward where provided)",
+      "ticker": "ADI"
+    },
+    {
+      "company_name": "Qualcomm Inc",
+      "ev_ntm_ebitda": 10.3,
+      "ev_ntm_revenue": 3.5,
+      "notes": "EV/S used as proxy for EV/NTM Revenue. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/txn/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 26.0,
+      "source": "AlphaSpread (EV/S, EV/EBITDA, P/E competitor multiples; treated as NTM/forward where provided)",
+      "ticker": "QCOM"
+    },
+    {
+      "company_name": "Arm Holdings PLC",
+      "ev_ntm_ebitda": 124.0,
+      "ev_ntm_revenue": 28.0,
+      "notes": "EV/S used as proxy for EV/NTM Revenue; ARM is included but is an outlier on EV/EBITDA. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/txn/relative-valuation/ratio/enterprise-value-to-sales))",
+      "pe_ntm": 175.5,
+      "source": "AlphaSpread (EV/S, EV/EBITDA, P/E competitor multiples; treated as NTM/forward where provided)",
+      "ticker": "ARM"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.14,
+      "2027": 0.135,
+      "2028": 0.13,
+      "2029": 0.125,
+      "2030": 0.12
+    },
+    "da_pct_sales": {
+      "2026": 0.112,
+      "2027": 0.111,
+      "2028": 0.109,
+      "2029": 0.108,
+      "2030": 0.107
+    },
+    "ebit_margin": {
+      "2026": 0.36,
+      "2027": 0.365,
+      "2028": 0.37,
+      "2029": 0.372,
+      "2030": 0.3695
+    },
+    "nwc_pct_sales": {
+      "2026": 0.34,
+      "2027": 0.33,
+      "2028": 0.315,
+      "2029": 0.305,
+      "2030": 0.295
+    },
+    "revenue_growth": {
+      "2026": 0.055,
+      "2027": 0.045,
+      "2028": 0.035,
+      "2029": 0.03,
+      "2030": 0.025
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 5071000000.0,
+      "2024": 4820000000.0,
+      "2025": 4550000000.0
+    },
+    "da": {
+      "2023": 1238000000.0,
+      "2024": 1580000000.0,
+      "2025": 1999000000.0
+    },
+    "ebit": {
+      "2023": 7331000000.0,
+      "2024": 5465000000.0,
+      "2025": 6023000000.0
+    },
+    "nwc": {
+      "2023": 3826000000.0,
+      "2024": 4553000000.0,
+      "2025": 6210000000.0
+    },
+    "revenue": {
+      "2023": 17519000000.0,
+      "2024": 15641000000.0,
+      "2025": 17682000000.0
+    }
+  },
+  "notes": [
+    "All historical amounts are in absolute USD (converted from SEC \u201cin millions\u201d); EBIT is modeled as Operating profit from TI\u2019s Consolidated Statements of Income. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000097476/000009747626000059/txn-20251231.htm))",
+    "D&A is defined as (Depreciation + Amortization of capitalized software) because TI discloses them separately within cash flow adjustments. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000097476/000009747626000059/txn-20251231.htm))",
+    "NWC is constructed at each fiscal year-end as: (Total current assets - cash and cash equivalents - short-term investments) - (Total current liabilities - current portion of long-term debt). This excludes cash-like investments and current debt to keep NWC closer to operating working capital. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000097476/000009747626000059/txn-20251231.htm))",
+    "Base-case forecast drivers are modeled assumptions (recovery then gradual stabilization) rather than explicit year-by-year company guidance; capex intensity is anchored to TI\u2019s stated expectation to spend about $2B to $3B in 2026 (used qualitatively to justify the capex decline). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000097476/000009747626000059/txn-20251231.htm))",
+    "NOL: TI discloses tax loss carryforwards were not material as of Dec 31, 2025; therefore nol_balance is set to null and utilization percent is left at a placeholder value. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000097476/000009747626000059/txn-20251231.htm))",
+    "Current price uses the latest quote timestamped March 21, 2026 from the finance tool."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Synergy and execution progress from the announced acquisition of Silicon Labs (cash offer $231.00/share; expected close in first half of 2027; ~$450M annual synergies within three years post-close). ([ti.com](https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-02-04-texas-instruments-to-acquire-silicon-labs.html))",
+      "Quarterly upside/downside relative to Q1 2026 revenue/EPS guidance as demand trends through analog and embedded demand cycles. ([ti.com](https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-01-27-ti-reports-q4-2025-and-2025-financial-results-and-shareholder-returns.html))",
+      "Further disclosure on 2026 capex pace and manufacturing ramp impacts to utilization and margin."
+    ],
+    "company_overview": [
+      "Texas Instruments designs and manufactures analog and embedded processing semiconductors used across industrial, automotive, communications, and data-center end markets.",
+      "Business is reported across Analog, Embedded Processing, and Other segments, with profit driven by demand/utilization, cost structure, and mix.",
+      "The company emphasizes scale manufacturing capability (including 300mm fabs) and ongoing capital investment cycles supported by recurring cash generation."
+    ],
+    "current_context": [
+      "Q4 2025 revenue was $4.423B with operating profit of $1.473B; FY2025 revenue was $17.682B with diluted EPS of $5.45. ([ti.com](https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-01-27-ti-reports-q4-2025-and-2025-financial-results-and-shareholder-returns.html))",
+      "Management guided Q1 2026 revenue of $4.32B to $4.68B and EPS of $1.22 to $1.48. ([ti.com](https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-01-27-ti-reports-q4-2025-and-2025-financial-results-and-shareholder-returns.html))",
+      "Company-wide cash flow from operations in FY2025 was $7.153B and capital expenditures were $4.55B. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000097476/000009747626000059/txn-20251231.htm))"
+    ],
+    "investment_highlights": [
+      "Base-case thesis ties operating profitability to a cyclical recovery: EBIT margin is modeled to settle back toward the upper end of the historical range as utilization normalizes.",
+      "Capex intensity declines after the elevated spend period, consistent with management stating capex expected to be about $2B to $3B in 2026. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000097476/000009747626000059/txn-20251231.htm))",
+      "Working capital intensity is held as a % of sales and then gradually mean-reverts to reflect steadier operating cycles.",
+      "Peer-comparable valuation is used to anchor terminal value via an exit EV/EBITDA multiple."
+    ],
+    "key_risks": [
+      "Semiconductor cyclicality: demand slowdowns could reduce revenue growth and pressure utilization, lowering EBIT margin below base-case.",
+      "Cost/mix and competitive pricing risk could compress gross margin and operating profit despite revenue stabilization.",
+      "M&A execution and integration risks (regulatory approvals, deal timing, and synergy realization) following the Silicon Labs transaction. ([ti.com](https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-02-04-texas-instruments-to-acquire-silicon-labs.html))"
+    ],
+    "sources": [
+      {
+        "label": "TI FY2025 Form 10-K (SEC filing: year ended Dec 31, 2025)",
+        "notes": "Used for FY2023\u2013FY2025 revenue, operating profit (EBIT), cash flow items (depreciation, amortization of capitalized software, and capital expenditures), and FY2024\u2013FY2025 balance-sheet items (cash, short-term investments, current portion of long-term debt, total current assets/liabilities). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000097476/000009747626000059/txn-20251231.htm))",
+        "url": null
+      },
+      {
+        "label": "TI FY2024 Form 10-K (SEC filing: years ended Dec 31, 2024 and 2023)",
+        "notes": "Used to obtain FY2023 balance-sheet items required for NWC construction (current assets/liabilities, cash, short-term investments, current portion of long-term debt). ([sec.gov](https://www.sec.gov/Archives/edgar/data/97476/000009747625000007/txn-20241231.htm))",
+        "url": null
+      },
+      {
+        "label": "TI Q4 2025 and FY 2025 financial results press release (Jan 27, 2026)",
+        "notes": "Used for Q1 2026 revenue and EPS guidance and for near-term operating/timing context. ([ti.com](https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-01-27-ti-reports-q4-2025-and-2025-financial-results-and-shareholder-returns.html))",
+        "url": null
+      },
+      {
+        "label": "TI acquisition of Silicon Labs press release (Feb 4, 2026)",
+        "notes": "Used for catalyst details: offer price, synergy expectations, and expected close timing. ([ti.com](https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-02-04-texas-instruments-to-acquire-silicon-labs.html))",
+        "url": null
+      },
+      {
+        "label": "AlphaSpread competitor multiples (for comps and terminal multiple reference)",
+        "notes": "Used for EV/EBITDA multiples and forward P/E; EV/S is used as a proxy for EV/NTM revenue due to labeling limitations in the displayed table. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/txn/relative-valuation/base-case))",
+        "url": null
+      }
+    ],
+    "subtitle": "TXN DCF Inputs (FY25 base-case) + Peer Multiples",
+    "valuation_summary": [
+      "DCF uses FY2023\u2013FY2025 GAAP operating structure (revenue, operating profit as EBIT, depreciation & amortization, capex, and a consistent NWC construction). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000097476/000009747626000059/txn-20251231.htm))",
+      "Terminal value uses an exit-multiple framework (EV/EBITDA) and a modest long-run growth rate to remain economically sensible for a developed-market analog/embedded business.",
+      "Peer multiples (EV/EBITDA and forward P/E) are included to sanity-check whether the terminal assumptions imply a reasonable valuation relative to large semis. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/txn/relative-valuation/ratio/enterprise-value-to-sales))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 187.19,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.3655,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 28.1,
+        "terminal_growth": 0.025,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.085
+      },
+      "description": "Modestly weaker demand and margin pressure: lower revenue growth (-0.01 each year) and lower EBIT margin (-0.004 each year), with other operating ratios held constant.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.14,
+          "2027": 0.135,
+          "2028": 0.13,
+          "2029": 0.125,
+          "2030": 0.12
+        },
+        "da_pct_sales": {
+          "2026": 0.112,
+          "2027": 0.111,
+          "2028": 0.109,
+          "2029": 0.108,
+          "2030": 0.107
+        },
+        "ebit_margin": {
+          "2026": 0.356,
+          "2027": 0.361,
+          "2028": 0.366,
+          "2029": 0.368,
+          "2030": 0.3655
+        },
+        "nwc_pct_sales": {
+          "2026": 0.34,
+          "2027": 0.33,
+          "2028": 0.315,
+          "2029": 0.305,
+          "2030": 0.295
+        },
+        "revenue_growth": {
+          "2026": 0.045,
+          "2027": 0.035,
+          "2028": 0.025,
+          "2029": 0.02,
+          "2030": 0.015
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 187.19,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.3745,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 28.1,
+        "terminal_growth": 0.025,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.085
+      },
+      "description": "Modestly stronger analog demand recovery and operating leverage: higher revenue growth (+0.01 each year) and higher EBIT margin (+0.005 each year), with other operating ratios held constant.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.14,
+          "2027": 0.135,
+          "2028": 0.13,
+          "2029": 0.125,
+          "2030": 0.12
+        },
+        "da_pct_sales": {
+          "2026": 0.112,
+          "2027": 0.111,
+          "2028": 0.109,
+          "2029": 0.108,
+          "2030": 0.107
+        },
+        "ebit_margin": {
+          "2026": 0.365,
+          "2027": 0.37,
+          "2028": 0.375,
+          "2029": 0.377,
+          "2030": 0.3745
+        },
+        "nwc_pct_sales": {
+          "2026": 0.34,
+          "2027": 0.33,
+          "2028": 0.315,
+          "2029": 0.305,
+          "2030": 0.295
+        },
+        "revenue_growth": {
+          "2026": 0.065,
+          "2027": 0.055,
+          "2028": 0.045,
+          "2029": 0.04,
+          "2030": 0.035
+        }
+      }
+    }
+  },
+  "ticker": "TXN"
+}

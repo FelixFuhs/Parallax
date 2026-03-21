@@ -1,0 +1,679 @@
+{
+  "_meta": {
+    "cost_usd": 0.02613,
+    "generated_at": "2026-03-21T17:22:58Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12012,
+      "prompt": 2514,
+      "reasoning": 8490
+    }
+  },
+  "_valuation": {
+    "company_name": "Zimmer Biomet Holdings, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 87.87,
+        "description": "Base case",
+        "enterprise_value": 30066860312.033028,
+        "equity_value": 23139660312.033028,
+        "exit_multiple_terminal_value": 37321170277.42931,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 23139660312.033028,
+        "investments_adjustment": 0.0,
+        "net_debt": 6927200000.0,
+        "per_share_value": 116.45526075507311,
+        "projected_years": [
+          {
+            "capex": 545254560.0,
+            "cash_taxes": 103648209.00000001,
+            "da": 1116067927.5,
+            "delta_nwc": 109576774.99999952,
+            "discount_factor": 0.9132420091324202,
+            "ebit": 1192744350.0,
+            "ebit_margin": 0.14,
+            "ebitda": 2308812277.5,
+            "fcff": 1550332733.5000005,
+            "nol_balance_end": 0.0,
+            "nol_used": 452400000.0,
+            "nwc": 2641076774.9999995,
+            "present_value_fcff": 1415828980.3652973,
+            "revenue": 8519602499.999999,
+            "revenue_growth": 0.035,
+            "year": 2026
+          },
+          {
+            "capex": 561612196.8,
+            "cash_taxes": 178136368.6725,
+            "da": 1149549965.325,
+            "delta_nwc": 79232303.25000048,
+            "discount_factor": 0.8340109672442193,
+            "ebit": 1272402633.375,
+            "ebit_margin": 0.145,
+            "ebitda": 2421952598.7,
+            "fcff": 1602971729.9774997,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2720309078.25,
+            "present_value_fcff": 1336896002.983674,
+            "revenue": 8775190575.0,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 577337338.3104,
+            "cash_taxes": 185650037.85043803,
+            "da": 1181737364.3541,
+            "delta_nwc": 76168654.19099998,
+            "discount_factor": 0.7616538513645839,
+            "ebit": 1326071698.9317,
+            "ebit_margin": 0.147,
+            "ebitda": 2507809063.2858,
+            "fcff": 1668653032.9339619,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2796477732.441,
+            "present_value_fcff": 1270936009.125346,
+            "revenue": 9020895911.1,
+            "revenue_growth": 0.028,
+            "year": 2028
+          },
+          {
+            "capex": 592348109.1064705,
+            "cash_taxes": 191772700.32321984,
+            "da": 1212462535.8273067,
+            "delta_nwc": 72708421.04346609,
+            "discount_factor": 0.6955742934836383,
+            "ebit": 1369805002.308713,
+            "ebit_margin": 0.148,
+            "ebitda": 2582267538.1360197,
+            "fcff": 1725438307.6628633,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2869186153.484466,
+            "present_value_fcff": 1200170531.8022006,
+            "revenue": 9255439204.7886,
+            "revenue_growth": 0.026,
+            "year": 2029
+          },
+          {
+            "capex": 607156811.8341322,
+            "cash_taxes": 199223328.88307464,
+            "da": 1242774099.2229893,
+            "delta_nwc": 71729653.83711195,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 1423023777.7362473,
+            "ebit_margin": 0.15,
+            "ebitda": 2665797876.9592366,
+            "fcff": 1787688082.4049182,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2940915807.321578,
+            "present_value_fcff": 1135588926.8382843,
+            "revenue": 9486825184.908316,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 37321170277.42931,
+        "terminal_value_present_value": 23707439860.918224,
+        "upside_downside_pct": 0.32531308472827014
+      },
+      "bear": {
+        "current_price": 87.87,
+        "description": "Modestly lower growth and less margin recovery vs. base case; slightly more conservative valuation assumptions.",
+        "enterprise_value": 26942029312.650623,
+        "equity_value": 20014829312.650623,
+        "exit_multiple_terminal_value": 33339934444.62742,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 20014829312.650623,
+        "investments_adjustment": 0.0,
+        "net_debt": 6927200000.0,
+        "per_share_value": 100.72888431127642,
+        "projected_years": [
+          {
+            "capex": 559577370.0,
+            "cash_taxes": 96906610.50000001,
+            "da": 1119154740.0,
+            "delta_nwc": 139210175.0,
+            "discount_factor": 0.9107468123861566,
+            "ebit": 1144590075.0,
+            "ebit_margin": 0.135,
+            "ebitda": 2263744815.0,
+            "fcff": 1468050659.5,
+            "nol_balance_end": 0.0,
+            "nol_used": 452400000.0,
+            "nwc": 2670710175.0,
+            "present_value_fcff": 1337022458.56102,
+            "revenue": 8478445000.0,
+            "revenue_growth": 0.03,
+            "year": 2026
+          },
+          {
+            "capex": 573566804.25,
+            "cash_taxes": 170331960.05,
+            "da": 1147133608.5,
+            "delta_nwc": 66767754.375,
+            "discount_factor": 0.8294597562715451,
+            "ebit": 1216656857.5,
+            "ebit_margin": 0.14,
+            "ebitda": 2363790466.0,
+            "fcff": 1553123947.3249998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2737477929.375,
+            "present_value_fcff": 1288253810.8076944,
+            "revenue": 8690406125.0,
+            "revenue_growth": 0.025,
+            "year": 2027
+          },
+          {
+            "capex": 586758840.74775,
+            "cash_taxes": 176738875.061595,
+            "da": 1173517681.4955,
+            "delta_nwc": 62961992.37562513,
+            "discount_factor": 0.7554278290269081,
+            "ebit": 1262420536.15425,
+            "ebit_margin": 0.142,
+            "ebitda": 2435938217.6497498,
+            "fcff": 1609478509.4647796,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2800439921.750625,
+            "present_value_fcff": 1215844856.2704425,
+            "revenue": 8890285465.875,
+            "revenue_growth": 0.023,
+            "year": 2028
+          },
+          {
+            "capex": 599080776.4034528,
+            "cash_taxes": 181721168.84238064,
+            "da": 1198161552.8069055,
+            "delta_nwc": 58809238.356762886,
+            "discount_factor": 0.6880034872740509,
+            "ebit": 1298008348.8741474,
+            "ebit_margin": 0.143,
+            "ebitda": 2496169901.681053,
+            "fcff": 1656558718.0784569,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2859249160.107388,
+            "present_value_fcff": 1139718174.9122097,
+            "revenue": 9076981460.658375,
+            "revenue_growth": 0.021,
+            "year": 2029
+          },
+          {
+            "capex": 611062391.9315218,
+            "cash_taxes": 187947978.1243923,
+            "da": 1222124783.8630435,
+            "delta_nwc": 57184983.20214796,
+            "discount_factor": 0.6265969829454016,
+            "ebit": 1342485558.0313735,
+            "ebit_margin": 0.145,
+            "ebitda": 2564610341.894417,
+            "fcff": 1708414988.636355,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2916434143.309536,
+            "present_value_fcff": 1070487677.4982425,
+            "revenue": 9258521089.871542,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 33339934444.62742,
+        "terminal_value_present_value": 20890702334.601013,
+        "upside_downside_pct": 0.1463398692531741
+      },
+      "bull": {
+        "current_price": 87.87,
+        "description": "Modestly higher growth and gradual margin recovery vs. base case; slightly more favorable valuation assumptions.",
+        "enterprise_value": 33403214998.05647,
+        "equity_value": 26476014998.05647,
+        "exit_multiple_terminal_value": 41551336954.15707,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 26476014998.056473,
+        "investments_adjustment": 0.0,
+        "net_debt": 6927200000.0,
+        "per_share_value": 133.24617512861838,
+        "projected_years": [
+          {
+            "capex": 539327880.0,
+            "cash_taxes": 110447428.00000001,
+            "da": 1112898800.0,
+            "delta_nwc": 79531800.0,
+            "discount_factor": 0.9157509157509157,
+            "ebit": 1241310200.0,
+            "ebit_margin": 0.145,
+            "ebitda": 2354209000.0,
+            "fcff": 1624901892.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 452400000.0,
+            "nwc": 2611031800.0,
+            "present_value_fcff": 1488005395.6043956,
+            "revenue": 8560760000.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 558204355.8,
+            "cash_taxes": 186068118.60000002,
+            "da": 1151850258.0,
+            "delta_nwc": 91386113.0,
+            "discount_factor": 0.8385997396986407,
+            "ebit": 1329057990.0,
+            "ebit_margin": 0.15,
+            "ebitda": 2480908248.0,
+            "fcff": 1645249660.6000001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2702417913.0,
+            "present_value_fcff": 1379705937.118437,
+            "revenue": 8860386600.0,
+            "revenue_growth": 0.035,
+            "year": 2027
+          },
+          {
+            "capex": 576625099.5414,
+            "cash_taxes": 194771144.733984,
+            "da": 1189861316.514,
+            "delta_nwc": 89179791.12899971,
+            "discount_factor": 0.7679484795775097,
+            "ebit": 1391222462.3855999,
+            "ebit_margin": 0.152,
+            "ebitda": 2581083778.8996,
+            "fcff": 1720507743.4952164,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2791597704.1289997,
+            "present_value_fcff": 1321261305.7184834,
+            "revenue": 9152779357.8,
+            "revenue_growth": 0.033,
+            "year": 2028
+          },
+          {
+            "capex": 594500477.6271833,
+            "cash_taxes": 202130162.39324233,
+            "da": 1226747017.3259337,
+            "delta_nwc": 86539528.82799864,
+            "discount_factor": 0.7032495234226279,
+            "ebit": 1443786874.237445,
+            "ebit_margin": 0.153,
+            "ebitda": 2670533891.563379,
+            "fcff": 1787363722.7149544,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2878137232.9569983,
+            "present_value_fcff": 1256962686.1821856,
+            "revenue": 9436515517.891798,
+            "revenue_growth": 0.031,
+            "year": 2029
+          },
+          {
+            "capex": 612335491.9559988,
+            "cash_taxes": 210915558.3403996,
+            "da": 1263549427.845712,
+            "delta_nwc": 86344116.98870993,
+            "discount_factor": 0.6440013950756664,
+            "ebit": 1506539702.4314256,
+            "ebit_margin": 0.155,
+            "ebitda": 2770089130.2771378,
+            "fcff": 1860493962.9920292,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2964481349.9457083,
+            "present_value_fcff": 1198160707.696722,
+            "revenue": 9719610983.428553,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 41551336954.15707,
+        "terminal_value_present_value": 26759118965.736244,
+        "upside_downside_pct": 0.5164012191717124
+      }
+    },
+    "ticker": "ZBH"
+  },
+  "assumptions": {
+    "cash": 591900000.0,
+    "current_price": 87.87,
+    "debt": 7519100000.0,
+    "diluted_shares": 198700000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 452400000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.15,
+    "tax_rate": 0.14,
+    "terminal_exit_ebitda_multiple": 14.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.095
+  },
+  "company_name": "Zimmer Biomet Holdings, Inc.",
+  "comps": [
+    {
+      "company_name": "Stryker",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Open sources used here did not provide EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM consistently in a way that can be reliably cited.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SYK"
+    },
+    {
+      "company_name": "Medtronic",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Open sources used here did not provide EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM consistently in a way that can be reliably cited.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "MDT"
+    },
+    {
+      "company_name": "Boston Scientific",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Open sources used here did not provide EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM consistently in a way that can be reliably cited.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "BSX"
+    },
+    {
+      "company_name": "Johnson & Johnson",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Open sources used here did not provide EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM consistently in a way that can be reliably cited.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "JNJ"
+    },
+    {
+      "company_name": "Globus Medical",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Open sources used here did not provide EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM consistently in a way that can be reliably cited.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "GMED"
+    },
+    {
+      "company_name": "Smith+Nephew",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Open sources used here did not provide EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM consistently in a way that can be reliably cited.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SNN"
+    },
+    {
+      "company_name": "Hologic",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Open sources used here did not provide EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM consistently in a way that can be reliably cited.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "HOLX"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.064,
+      "2027": 0.064,
+      "2028": 0.064,
+      "2029": 0.064,
+      "2030": 0.064
+    },
+    "da_pct_sales": {
+      "2026": 0.131,
+      "2027": 0.131,
+      "2028": 0.131,
+      "2029": 0.131,
+      "2030": 0.131
+    },
+    "ebit_margin": {
+      "2026": 0.14,
+      "2027": 0.145,
+      "2028": 0.147,
+      "2029": 0.148,
+      "2030": 0.15
+    },
+    "nwc_pct_sales": {
+      "2026": 0.31,
+      "2027": 0.31,
+      "2028": 0.31,
+      "2029": 0.31,
+      "2030": 0.31
+    },
+    "revenue_growth": {
+      "2026": 0.035,
+      "2027": 0.03,
+      "2028": 0.028,
+      "2029": 0.026,
+      "2030": 0.025
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 602800000.0,
+      "2024": 444100000.0,
+      "2025": 525000000.0
+    },
+    "da": {
+      "2023": 951700000.0,
+      "2024": 996300000.0,
+      "2025": 1093800000.0
+    },
+    "ebit": {
+      "2023": 1277700000.0,
+      "2024": 1285700000.0,
+      "2025": 1098100000.0
+    },
+    "nwc": {
+      "2023": 2236300000.0,
+      "2024": 2558200000.0,
+      "2025": 2531500000.0
+    },
+    "revenue": {
+      "2023": 7394200000.0,
+      "2024": 7678600000.0,
+      "2025": 8231500000.0
+    }
+  },
+  "notes": [
+    "NWC construction: NWC is defined as (accounts receivable + inventories + prepaid expenses/other current assets) minus current liabilities excluding the current portion of long-term debt, using the disclosed balance-sheet line items from the annual report and FY2025 earnings release.",
+    "Capex definition: capex is modeled as absolute (additions to instruments + additions to other property, plant and equipment) using the cash flow statement line items; signs are converted to positive values.",
+    "EBIT definition: EBIT is taken as reported Operating Profit from Zimmer Biomet\u2019s consolidated statements (or the equivalent operating profit line in the FY2025 release).",
+    "Tax rate: base-case tax_rate is an assumed effective rate (0.14) to avoid the unusually low FY2023 effective tax rate driven by tax-specific items; sensitivity is recommended.",
+    "NOL balance limitation: nol_balance is taken from the Dec 31, 2024 net operating loss carryover disclosure; FY2025 NOL roll-forward was not extracted in the available materials, so this is a proxy for the modeling start point.",
+    "WACC and terminal exit multiple: wacc (0.095) and terminal_exit_ebitda_multiple (14.0) are modeled assumptions for the pipeline (recommended to sensitivity-test).",
+    "Investments/minority interest: investments is set to null (not separately disclosed in the extracted FY2025 release balance-sheet excerpt), and minority_interest is set to 0 due to lack of a clear balance-sheet minority-interest line item in the extracted FY2025 release table."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Execution of the 2026 U.S. go-to-market transition and the ability to stabilize reported operating margins.",
+      "Sustained integration/turn-in of acquisitions (including the Paragon 28 transition discussed in guidance materials).",
+      "Continuation of adoption/upgrade cycles in robotic and technology-enabled procedures that support mix and S.E.T./technology growth."
+    ],
+    "company_overview": [
+      "Zimmer Biomet designs, manufactures, and markets orthopedic reconstructive products and adjacent musculoskeletal solutions.",
+      "The company also operates in sports medicine/biologics and a digital/robotic technology suite used in surgical procedures.",
+      "Financial results are reported in USD and generated across the Americas, EMEA, and Asia Pacific."
+    ],
+    "current_context": [
+      "FY2025 net sales were $8.232B (reported +7.2% YoY) with operating profit of $1.098B; depreciation & amortization of $1.094B.",
+      "FY2026 reported revenue guidance is +2.5% to +4.5%, and management highlighted a transition toward a predominantly direct/specialized sales organization in the U.S.",
+      "Zimmer Biomet reported full-year operating cash flow of $1.697B and free cash flow of $1.172B in its FY2025 earnings release."
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth is modest (mid-single digit into low-single digit taper) and aligned to company\u2019s FY2026 guidance range.",
+      "EBIT margin is modeled to recover gradually from 2025 levels toward a ~0.15 target by the terminal year, reflecting normalization after cost/restructuring impacts.",
+      "Capital intensity is kept disciplined using capex at ~0.064 of sales, consistent with recent cash flow disclosures.",
+      "Working capital usage is held roughly stable (~0.31 of sales) to reflect historical NWC intensity derived from disclosed balance-sheet components."
+    ],
+    "key_risks": [
+      "Persistent margin pressure from restructuring costs, bad debt/charge timing, pricing, or inventory-related impacts.",
+      "Below-guidance revenue growth from macro/procedure volume softness, FX headwinds, or weaker international execution.",
+      "Regulatory, supply-chain, or product-launch delays that affect procedure volumes and mix."
+    ],
+    "sources": [
+      {
+        "label": "FY2025 earnings release (Q4 & full-year 2025 results, balance sheet, cash flow, guidance)",
+        "notes": "Provides FY2025 net sales, operating profit, depreciation and amortization, capex components (additions to instruments and other PP&E), year-end cash/debt and guidance for 2026. ([investor.zimmerbiomet.com](https://investor.zimmerbiomet.com/~/media/Files/Z/ZimmerBiomet-IR/press-release/zimmer-biomet-press-release-q4-2025.pdf))",
+        "url": "https://investor.zimmerbiomet.com/~/media/Files/Z/ZimmerBiomet-IR/press-release/zimmer-biomet-press-release-q4-2025.pdf"
+      },
+      {
+        "label": "2024 annual report (consolidated earnings, cash flows, and balance sheet for FY2024/FY2023/NOL disclosure)",
+        "notes": "Provides FY2024 and FY2023 net sales, operating profit, depreciation and amortization, capex cash flow line items, balance sheet components for NWC construction, and NOL carryover disclosure. ([investor.zimmerbiomet.com](https://investor.zimmerbiomet.com/~/media/Files/Z/ZimmerBiomet-IR/documents/annual-reports/2024-annual-report.pdf))",
+        "url": "https://investor.zimmerbiomet.com/~/media/Files/Z/ZimmerBiomet-IR/documents/annual-reports/2024-annual-report.pdf"
+      },
+      {
+        "label": "2023 annual report (additional historical context)",
+        "notes": "Used as supplemental context for historical performance narrative (not required for the core 2023-2025 line items already taken from the 2024 annual report and FY2025 earnings release). ([investor.zimmerbiomet.com](https://investor.zimmerbiomet.com/~/media/Files/Z/ZimmerBiomet-IR/documents/annual-reports/2023-annual-report.pdf))",
+        "url": "https://investor.zimmerbiomet.com/~/media/Files/Z/ZimmerBiomet-IR/documents/annual-reports/2023-annual-report.pdf"
+      }
+    ],
+    "subtitle": "DCF & Comps Inputs \u2014 Zimmer Biomet (ZBH)",
+    "valuation_summary": [
+      "DCF uses a 5-year explicit forecast with a terminal value based on an EBITDA exit multiple (economically consistent for a mature med-tech platform).",
+      "Tax rate, WACC, and terminal assumptions are set as model inputs to be sensitivity-tested in the full pipeline rather than treated as precise forecasts.",
+      "Comps peer set covers large-cap and orthopedic-focused med-tech companies; forward-multiple fields were left null due to limited availability from open sources."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 87.87,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.145,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 13.0,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.098
+      },
+      "description": "Modestly lower growth and less margin recovery vs. base case; slightly more conservative valuation assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.066,
+          "2027": 0.066,
+          "2028": 0.066,
+          "2029": 0.066,
+          "2030": 0.066
+        },
+        "da_pct_sales": {
+          "2026": 0.132,
+          "2027": 0.132,
+          "2028": 0.132,
+          "2029": 0.132,
+          "2030": 0.132
+        },
+        "ebit_margin": {
+          "2026": 0.135,
+          "2027": 0.14,
+          "2028": 0.142,
+          "2029": 0.143,
+          "2030": 0.145
+        },
+        "nwc_pct_sales": {
+          "2026": 0.315,
+          "2027": 0.315,
+          "2028": 0.315,
+          "2029": 0.315,
+          "2030": 0.315
+        },
+        "revenue_growth": {
+          "2026": 0.03,
+          "2027": 0.025,
+          "2028": 0.023,
+          "2029": 0.021,
+          "2030": 0.02
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 87.87,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.155,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 15.0,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.092
+      },
+      "description": "Modestly higher growth and gradual margin recovery vs. base case; slightly more favorable valuation assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.063,
+          "2027": 0.063,
+          "2028": 0.063,
+          "2029": 0.063,
+          "2030": 0.063
+        },
+        "da_pct_sales": {
+          "2026": 0.13,
+          "2027": 0.13,
+          "2028": 0.13,
+          "2029": 0.13,
+          "2030": 0.13
+        },
+        "ebit_margin": {
+          "2026": 0.145,
+          "2027": 0.15,
+          "2028": 0.152,
+          "2029": 0.153,
+          "2030": 0.155
+        },
+        "nwc_pct_sales": {
+          "2026": 0.305,
+          "2027": 0.305,
+          "2028": 0.305,
+          "2029": 0.305,
+          "2030": 0.305
+        },
+        "revenue_growth": {
+          "2026": 0.04,
+          "2027": 0.035,
+          "2028": 0.033,
+          "2029": 0.031,
+          "2030": 0.03
+        }
+      }
+    }
+  },
+  "ticker": "ZBH"
+}

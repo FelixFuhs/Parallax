@@ -1,0 +1,692 @@
+{
+  "_meta": {
+    "cost_usd": 0.025792,
+    "generated_at": "2026-03-21T17:22:16Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12554,
+      "prompt": 2515,
+      "reasoning": 7677
+    }
+  },
+  "_valuation": {
+    "company_name": "Workday, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 135.96,
+        "description": "Base case",
+        "enterprise_value": 19533374784.04665,
+        "equity_value": 24566374784.04665,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 22760562325.085854,
+        "implied_market_cap": 24566374784.04665,
+        "investments_adjustment": 6474000000.0,
+        "net_debt": 1441000000.0,
+        "per_share_value": 91.2552693450963,
+        "projected_years": [
+          {
+            "capex": 250273561.20000002,
+            "cash_taxes": 25075118.25,
+            "da": 363947430.6,
+            "delta_nwc": -422349100.0,
+            "discount_factor": 0.9104980424292087,
+            "ebit": 716431950.0,
+            "ebit_margin": 0.075,
+            "ebitda": 1080379380.6,
+            "fcff": 1227379801.15,
+            "nol_balance_end": 5104854440.0,
+            "nol_used": 573145560.0,
+            "nwc": -3343349100.0,
+            "present_value_fcff": 1117526906.2642267,
+            "revenue": 9552426000.0,
+            "revenue_growth": 0.131,
+            "year": 2026
+          },
+          {
+            "capex": 299564079.3600001,
+            "cash_taxes": 28458587.539199993,
+            "da": 407621122.2720001,
+            "delta_nwc": -379804457.7600002,
+            "discount_factor": 0.8290066852674212,
+            "ebit": 813102501.1200001,
+            "ebit_margin": 0.076,
+            "ebitda": 1220723623.3920002,
+            "fcff": 1272505414.2528005,
+            "nol_balance_end": 4454372439.104,
+            "nol_used": 650482000.8960001,
+            "nwc": -3723153557.76,
+            "present_value_fcff": 1054915495.4545608,
+            "revenue": 10698717120.000002,
+            "revenue_growth": 0.12,
+            "year": 2027
+          },
+          {
+            "capex": 345943018.0752,
+            "cash_taxes": 32148842.541815985,
+            "da": 454497551.3332801,
+            "delta_nwc": -404304519.9647999,
+            "discount_factor": 0.7548089640967142,
+            "ebit": 918538358.3376001,
+            "ebit_margin": 0.077,
+            "ebitda": 1373035909.6708803,
+            "fcff": 1399248569.018664,
+            "nol_balance_end": 3719541752.43392,
+            "nol_used": 734830686.6700802,
+            "nwc": -4127458077.7248,
+            "present_value_fcff": 1056165362.8947873,
+            "revenue": 11929069588.800001,
+            "revenue_growth": 0.115,
+            "year": 2028
+          },
+          {
+            "capex": 395448656.86872,
+            "cash_taxes": 35985827.7750535,
+            "da": 502219794.22327447,
+            "delta_nwc": -420201476.26548004,
+            "discount_factor": 0.6872520842180772,
+            "ebit": 1028166507.858672,
+            "ebit_margin": 0.078,
+            "ebitda": 1530386302.0819464,
+            "fcff": 1519153293.7036529,
+            "nol_balance_end": 2897008546.146982,
+            "nol_used": 822533206.2869377,
+            "nwc": -4547659553.99028,
+            "present_value_fcff": 1044041267.3445921,
+            "revenue": 13181621895.624,
+            "revenue_growth": 0.105,
+            "year": 2029
+          },
+          {
+            "capex": 440233217.2591025,
+            "cash_taxes": 39909667.072833374,
+            "da": 549930674.6744856,
+            "delta_nwc": -417593781.653368,
+            "discount_factor": 0.6257416773359529,
+            "ebit": 1140276202.080954,
+            "ebit_margin": 0.079,
+            "ebitda": 1690206876.7554398,
+            "fcff": 1627657774.0768716,
+            "nol_balance_end": 1984787584.4822187,
+            "nol_used": 912220961.6647633,
+            "nwc": -4965253335.643648,
+            "present_value_fcff": 1018493305.6797651,
+            "revenue": 14433875975.70828,
+            "revenue_growth": 0.095,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 22760562325.085854,
+        "terminal_value_present_value": 14242232446.408718,
+        "upside_downside_pct": -0.3288079630398919
+      },
+      "bear": {
+        "current_price": 135.96,
+        "description": "Modestly weaker growth and operating margin vs. base case; slightly higher capex and more-negative NWC intensity; higher WACC and lower terminal growth.",
+        "enterprise_value": 16326258719.319298,
+        "equity_value": 21359258719.319298,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 18752466118.93993,
+        "implied_market_cap": 21359258719.319298,
+        "investments_adjustment": 6474000000.0,
+        "net_debt": 1441000000.0,
+        "per_share_value": 79.34198369019632,
+        "projected_years": [
+          {
+            "capex": 252794692.20000002,
+            "cash_taxes": 23196516.7,
+            "da": 360729504.6,
+            "delta_nwc": -411724032.0,
+            "discount_factor": 0.907605736068252,
+            "ebit": 662757620.0000001,
+            "ebit_margin": 0.07,
+            "ebitda": 1023487124.6000001,
+            "fcff": 1159219947.7,
+            "nol_balance_end": 5147793904.0,
+            "nol_used": 530206096.0000001,
+            "nwc": -3332724032.0,
+            "present_value_fcff": 1052114673.8972591,
+            "revenue": 9467966000.0,
+            "revenue_growth": 0.121,
+            "year": 2026
+          },
+          {
+            "capex": 299519104.41,
+            "cash_taxes": 26115964.0161,
+            "da": 400409750.106,
+            "delta_nwc": -345580759.0,
+            "discount_factor": 0.8237481721439935,
+            "ebit": 746170400.4599999,
+            "ebit_margin": 0.071,
+            "ebitda": 1146580150.566,
+            "fcff": 1166525841.1398997,
+            "nol_balance_end": 4550857583.632,
+            "nol_used": 596936320.3679999,
+            "nwc": -3678304791.0,
+            "present_value_fcff": 960923529.397727,
+            "revenue": 10509442260.0,
+            "revenue_growth": 0.11,
+            "year": 2027
+          },
+          {
+            "capex": 342581544.07034993,
+            "cash_taxes": 29264592.917195994,
+            "da": 442452773.86713,
+            "delta_nwc": -362996135.66039944,
+            "discount_factor": 0.7476385661136264,
+            "ebit": 836131226.2055999,
+            "ebit_margin": 0.072,
+            "ebitda": 1278584000.0727298,
+            "fcff": 1269733998.7455833,
+            "nol_balance_end": 3881952602.66752,
+            "nol_used": 668904980.9644799,
+            "nwc": -4041300926.6603994,
+            "present_value_fcff": 949302106.1678691,
+            "revenue": 11612933697.3,
+            "revenue_growth": 0.105,
+            "year": 2028
+          },
+          {
+            "capex": 387842953.1555767,
+            "cash_taxes": 32489794.928278632,
+            "da": 484485787.38450736,
+            "delta_nwc": -371207425.6341944,
+            "discount_factor": 0.6785610511105704,
+            "ebit": 928279855.0936754,
+            "ebit_margin": 0.073,
+            "ebitda": 1412765642.4781828,
+            "fcff": 1363640320.0285218,
+            "nol_balance_end": 3139328718.59258,
+            "nol_used": 742623884.0749403,
+            "nwc": -4412508352.294594,
+            "present_value_fcff": 925313208.8953084,
+            "revenue": 12716162398.543499,
+            "revenue_growth": 0.095,
+            "year": 2029
+          },
+          {
+            "capex": 427708122.2750106,
+            "cash_taxes": 35734323.764267,
+            "da": 525667079.3121905,
+            "delta_nwc": -361266173.74262047,
+            "discount_factor": 0.6158659022604561,
+            "ebit": 1020980678.9790576,
+            "ebit_margin": 0.074,
+            "ebitda": 1546647758.291248,
+            "fcff": 1444471485.994591,
+            "nol_balance_end": 2322544175.4093337,
+            "nol_used": 816784543.1832461,
+            "nwc": -4773774526.037214,
+            "present_value_fcff": 889600735.0115606,
+            "revenue": 13797036202.419697,
+            "revenue_growth": 0.085,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 18752466118.93993,
+        "terminal_value_present_value": 11549004465.949574,
+        "upside_downside_pct": -0.41643142328481675
+      },
+      "bull": {
+        "current_price": 135.96,
+        "description": "Modestly higher growth and operating margin vs. base case; slightly lower capex and less-negative NWC intensity; lower WACC and higher terminal growth.",
+        "enterprise_value": 23203291340.783314,
+        "equity_value": 28236291340.783314,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 27387855448.82211,
+        "implied_market_cap": 28236291340.783314,
+        "investments_adjustment": 6474000000.0,
+        "net_debt": 1441000000.0,
+        "per_share_value": 104.88769280207765,
+        "projected_years": [
+          {
+            "capex": 247667970.20000002,
+            "cash_taxes": 26645989.78999999,
+            "da": 367165356.6,
+            "delta_nwc": -432636328.0,
+            "discount_factor": 0.9134088417975886,
+            "ebit": 761313994.0,
+            "ebit_margin": 0.079,
+            "ebitda": 1128479350.6,
+            "fcff": 1286801718.61,
+            "nol_balance_end": 5068948804.8,
+            "nol_used": 609051195.2,
+            "nwc": -3353636328.0,
+            "present_value_fcff": 1175376067.4187067,
+            "revenue": 9636886000.0,
+            "revenue_growth": 0.141,
+            "year": 2026
+          },
+          {
+            "capex": 299466232.4499999,
+            "cash_taxes": 30491107.303999975,
+            "da": 414896852.95799994,
+            "delta_nwc": -414193360.27999926,
+            "discount_factor": 0.8343157122740122,
+            "ebit": 871174494.3999999,
+            "ebit_margin": 0.08,
+            "ebitda": 1286071347.3579998,
+            "fcff": 1370307367.8839993,
+            "nol_balance_end": 4372009209.280001,
+            "nol_used": 696939595.52,
+            "nwc": -3767829688.2799993,
+            "present_value_fcff": 1143268967.670466,
+            "revenue": 10889681179.999998,
+            "revenue_growth": 0.13,
+            "year": 2027
+          },
+          {
+            "capex": 349150402.83374995,
+            "cash_taxes": 34731276.91346249,
+            "da": 466758959.57774997,
+            "delta_nwc": -446476928.37999964,
+            "discount_factor": 0.7620713484417356,
+            "ebit": 992322197.5274999,
+            "ebit_margin": 0.081,
+            "ebitda": 1459081157.10525,
+            "fcff": 1521676405.7380369,
+            "nol_balance_end": 3578151451.258001,
+            "nol_used": 793857758.022,
+            "nwc": -4214306616.659999,
+            "present_value_fcff": 1159625990.4127593,
+            "revenue": 12250891327.499998,
+            "revenue_growth": 0.125,
+            "year": 2028
+          },
+          {
+            "capex": 402962442.98979366,
+            "cash_taxes": 39203464.79256637,
+            "da": 520436239.92919123,
+            "delta_nwc": -470985517.0857382,
+            "discount_factor": 0.6960827077472924,
+            "ebit": 1120098994.073325,
+            "ebit_margin": 0.082,
+            "ebitda": 1640535234.0025163,
+            "fcff": 1669354843.3058944,
+            "nol_balance_end": 2682072255.999341,
+            "nol_used": 896079195.25866,
+            "nwc": -4685292133.745737,
+            "present_value_fcff": 1162009039.519424,
+            "revenue": 13659743830.162498,
+            "revenue_growth": 0.115,
+            "year": 2029
+          },
+          {
+            "capex": 452820507.96988684,
+            "cash_taxes": 43848119.18841736,
+            "da": 575082045.1217563,
+            "delta_nwc": -476861657.11097336,
+            "discount_factor": 0.6358080998787837,
+            "ebit": 1252803405.3833537,
+            "ebit_margin": 0.083,
+            "ebitda": 1827885450.50511,
+            "fcff": 1808078480.4577792,
+            "nol_balance_end": 1679829531.692658,
+            "nol_used": 1002242724.3066831,
+            "nwc": -5162153790.85671,
+            "present_value_fcff": 1149590943.0915792,
+            "revenue": 15094016932.329561,
+            "revenue_growth": 0.105,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 27387855448.82211,
+        "terminal_value_present_value": 17413420332.67038,
+        "upside_downside_pct": -0.22854006470963784
+      }
+    },
+    "ticker": "WDAY"
+  },
+  "assumptions": {
+    "cash": 1543000000.0,
+    "current_price": 135.96,
+    "debt": 2984000000.0,
+    "diluted_shares": 269205000.0,
+    "investments": 6474000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 5678000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.079,
+    "tax_rate": 0.175,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.0983
+  },
+  "company_name": "Workday, Inc.",
+  "comps": [
+    {
+      "company_name": "Ceridian HCM Holding Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E were not available from accessible free sources in a consistent way; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CDAY"
+    },
+    {
+      "company_name": "Paylocity Holding Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM-based peer multiple inputs not found from accessible free sources in a consistent manner; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PCTY"
+    },
+    {
+      "company_name": "Paycom Software, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM peer multiple inputs not available without paid consensus/estimate datasets; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PAYC"
+    },
+    {
+      "company_name": "Automatic Data Processing, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E not populated due to lack of consistent NTM estimate sources; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ADP"
+    },
+    {
+      "company_name": "Oracle Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM-based peer multiple inputs not populated; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ORCL"
+    },
+    {
+      "company_name": "SAP SE",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM-based peer multiple inputs not populated; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SAP"
+    },
+    {
+      "company_name": "Workday (for reference)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Peer table includes WDAY for completeness, but NTM multiples are left null due to estimate availability constraints.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "WDAY"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0262,
+      "2027": 0.028,
+      "2028": 0.029,
+      "2029": 0.03,
+      "2030": 0.0305
+    },
+    "da_pct_sales": {
+      "2026": 0.0381,
+      "2027": 0.0381,
+      "2028": 0.0381,
+      "2029": 0.0381,
+      "2030": 0.0381
+    },
+    "ebit_margin": {
+      "2026": 0.075,
+      "2027": 0.076,
+      "2028": 0.077,
+      "2029": 0.078,
+      "2030": 0.079
+    },
+    "nwc_pct_sales": {
+      "2026": -0.35,
+      "2027": -0.348,
+      "2028": -0.346,
+      "2029": -0.345,
+      "2030": -0.344
+    },
+    "revenue_growth": {
+      "2026": 0.131,
+      "2027": 0.12,
+      "2028": 0.115,
+      "2029": 0.105,
+      "2030": 0.095
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 364000000.0,
+      "2024": 232000000.0,
+      "2025": 269000000.0
+    },
+    "da": {
+      "2023": 361000000.0,
+      "2024": 277000000.0,
+      "2025": 322000000.0
+    },
+    "ebit": {
+      "2023": -222000000.0,
+      "2024": 183000000.0,
+      "2025": 415000000.0
+    },
+    "nwc": {
+      "2023": -2550000000.0,
+      "2024": -2840000000.0,
+      "2025": -2921000000.0
+    },
+    "revenue": {
+      "2023": 6216000000.0,
+      "2024": 7259000000.0,
+      "2025": 8446000000.0
+    }
+  },
+  "notes": [
+    "Fiscal year mapping: FY2023/FY2024/FY2025 correspond to Workday fiscal years ended Jan 31 of 2023/2024/2025, respectively; forecast years FY2026\u2013FY2030 correspond to fiscal years ended Jan 31 of 2026\u20132030.",
+    "EBIT definition: EBIT is proxied by GAAP operating income (loss) from the Consolidated Statements of Operations. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))",
+    "D&A definition (to match available disclosures): D&A is approximated as depreciation expense (property and equipment) plus amortization of acquisition-related intangible assets. This omits other amortization/non-cash items (e.g., amortization of deferred costs) due to how D&A is disclosed in the filing tables. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))",
+    "Capex definition: capex is taken from the cash flow reconciliation line item 'Capital expenditures' (not 'Total capital expenditures' including owned real estate projects in FY2024 disclosures). This is consistent with how the FY2025 filing presents the capex line used in free cash flow. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))",
+    "NWC definition: NWC is computed from balance-sheet working capital using (Total current assets - cash and cash equivalents - marketable securities) minus (Total current liabilities - operating lease liabilities). This intentionally excludes operating lease liabilities as financing-like items; subscription deferred revenue is included via 'Unearned revenue'. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))",
+    "Base-case growth inputs: FY2026 revenue growth is anchored to the latest reported fiscal 2026 revenue level; FY2027 growth and margin direction are informed by FY2027 guidance (subscription revenue growth 12%\u201313%). ([newsroom.workday.com](https://newsroom.workday.com/2026-02-24-Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results))",
+    "EBIT margin path: GAAP EBIT margin is modeled as a modest glide path rather than using non-GAAP operating margin guidance, to remain consistent with the GAAP EBIT basis used in the historical line items. ([newsroom.workday.com](https://newsroom.workday.com/2026-02-24-Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results))",
+    "WACC (0.0983) is not company-provided; it is sourced from StockAnalysis and should be replaced if a target capital structure / beta / risk-free / ERP method is preferred. ([stockanalysis.com](https://stockanalysis.com/stocks/wday/statistics/?utm_source=openai))",
+    "NOL balance includes federal, state, and foreign net operating loss and other tax attributes carryforwards (utilization constrained). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))",
+    "Peer comps: EV/NTM Revenue, EV/NTM EBITDA, and P/NTM were not populated due to inability to access consistent NTM-based estimate datasets from free sources within this run; multiples are left null and should be filled from a paid consensus platform (e.g., FactSet/CapIQ/IBES) for a production pipeline.",
+    "Scenario deltas: bull/bear only override the forecast driver ratios and the DCF-level assumptions explicitly present in the schema for scenarios (wacc, terminal_growth, target_ebit_margin, and the scenario-specific forecast ratios)."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained subscription growth and/or an acceleration in enterprise expansion could lift revenue growth above the base-case fade curve. ([newsroom.workday.com](https://newsroom.workday.com/2026-02-24-Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results))",
+      "Operating margin trajectory (including restructuring normalization) could shift GAAP EBIT margin materially relative to the modest base-case glide path. ([newsroom.workday.com](https://newsroom.workday.com/2026-02-24-Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results))",
+      "Large-scale share repurchases and capital allocation decisions can change per-share value even if enterprise value remains stable. ([newsroom.workday.com](https://newsroom.workday.com/2026-02-24-Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results))",
+      "Successful integration and monetization of acquisitions (and associated cross-sell) may improve durable profitability and working capital efficiency. ([newsroom.workday.com](https://newsroom.workday.com/2026-02-24-Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results))"
+    ],
+    "company_overview": [
+      "Workday is the AI platform for managing organizations\u2019 people and money, delivered through cloud-based applications across HCM, financial management, planning, spend, and analytics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))",
+      "Revenue is primarily subscription services plus professional services, supporting long-term subscription revenue growth via customer acquisition and expansion. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))",
+      "Workday reports results in USD and is headquartered in Pleasanton, California. ([newsroom.workday.com](https://newsroom.workday.com/2026-02-24-Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results))"
+    ],
+    "current_context": [
+      "Latest reported full-year (fiscal 2026 ended Jan 31, 2026): total revenue of $9.552B and operating income of $721M (7.5% of revenue). ([newsroom.workday.com](https://newsroom.workday.com/2026-02-24-Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results))",
+      "FY2027 guidance indicates subscription revenue growth of approximately 12% to 13% with non-GAAP operating margin of approximately 30.0%. ([newsroom.workday.com](https://newsroom.workday.com/2026-02-24-Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results))",
+      "Share repurchases: Workday repurchased approximately 12.8M shares for $2.9B in fiscal 2026. ([newsroom.workday.com](https://newsroom.workday.com/2026-02-24-Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results))",
+      "Balance sheet liquidity (as of Jan 31, 2026): cash, cash equivalents, and marketable securities of $5.443B (used to inform cash/investments assumptions). ([newsroom.workday.com](https://newsroom.workday.com/2026-02-24-Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results))"
+    ],
+    "investment_highlights": [
+      "Near-term revenue growth in the base case is anchored on the reported fiscal 2026 level and then fades from FY2027 guidance (12%\u201313%) into more normalized growth through FY2030. ([newsroom.workday.com](https://newsroom.workday.com/2026-02-24-Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results))",
+      "Base-case EBIT margin follows a modest normalization path starting from the fiscal 2026 operating-income margin level, reflecting operating leverage while avoiding extrapolating non-GAAP margin. ([newsroom.workday.com](https://newsroom.workday.com/2026-02-24-Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results))",
+      "Capital intensity is modeled via capex as a percent of sales, with FY2026 capex guidance around ~$250M informing the starting ratio. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))",
+      "Net working capital is negative due to the subscription model (notably unearned/deferred revenue); the model holds NWC intensity around the recent historical range. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))",
+      "Tax and NOL inputs are incorporated using the company\u2019s disclosed net operating loss and tax-attribute carryforwards, subject to utilization constraints. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))"
+    ],
+    "key_risks": [
+      "Competitive pressure in enterprise HR/finance platforms could slow growth below modeled rates or pressure pricing. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))",
+      "Margin risk: GAAP operating margin may be volatile due to stock-based compensation, amortization, and restructuring items. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))",
+      "Working-capital risk: subscription invoicing/collection patterns could worsen the modeled negative NWC intensity. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))",
+      "Tax risk: effective tax rate and NOL utilization can change with jurisdictional profitability and Section 382 limitations. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))"
+    ],
+    "sources": [
+      {
+        "label": "Workday FY2025 Form 10-K (fiscal year ended Jan 31, 2025)",
+        "notes": "Provides FY2023\u2013FY2025 revenue, GAAP operating income, cash flows/capex, depreciation expense, acquisition-related intangible amortization, balance-sheet cash/marketable securities/debt, diluted shares, and NOL/tax-attribute disclosures. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))",
+        "url": null
+      },
+      {
+        "label": "Workday FY2024 Form 10-K (fiscal year ended Jan 31, 2024)",
+        "notes": "Provides FY2024\u2013FY2023 balance-sheet line items used to compute FY2023 NWC, plus depreciation expense and capex reconciliation data for FY2023/FY2024. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781124000044/wday-20240131.htm))",
+        "url": null
+      },
+      {
+        "label": "Workday FY2026 Fourth Quarter and Full Year Results press release (Feb 24, 2026)",
+        "notes": "Provides fiscal 2026 total revenues and operating income, plus FY2027 subscription growth and non-GAAP operating margin guidance used to inform the base-case growth and margin profile. ([newsroom.workday.com](https://newsroom.workday.com/2026-02-24-Workday-Announces-Fiscal-2026-Fourth-Quarter-and-Full-Year-Financial-Results))",
+        "url": null
+      },
+      {
+        "label": "WACC source (StockAnalysis WACC estimate for WDAY)",
+        "notes": "Used as the WACC input in the DCF assumption set (market-implied/model-estimated). ([stockanalysis.com](https://stockanalysis.com/stocks/wday/statistics/?utm_source=openai))",
+        "url": null
+      }
+    ],
+    "subtitle": "Workday (WDAY) DCF Input Package \u2014 FY2023\u2013FY2025 History; FY2026\u2013FY2030 Base Case",
+    "valuation_summary": [
+      "DCF base case uses a gordon_growth terminal approach with terminal growth set at 0.025 and WACC set at 0.0983 (StockAnalysis market-implied). ([stockanalysis.com](https://stockanalysis.com/stocks/wday/statistics/?utm_source=openai))",
+      "Historical GAAP operating income (EBIT) is the driver for margins, and D&A/capex are carried forward as percentages of sales to maintain internal cash-flow mechanics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))",
+      "Liquidity/capital structure tie directly to the latest audited balance sheet cash, marketable securities (treated as investments), and debt. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1327811/000132781125000056/wday-20250131.htm))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 135.96,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.074,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.023,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.1018
+      },
+      "description": "Modestly weaker growth and operating margin vs. base case; slightly higher capex and more-negative NWC intensity; higher WACC and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0267,
+          "2027": 0.0285,
+          "2028": 0.0295,
+          "2029": 0.0305,
+          "2030": 0.031
+        },
+        "da_pct_sales": {
+          "2026": 0.0381,
+          "2027": 0.0381,
+          "2028": 0.0381,
+          "2029": 0.0381,
+          "2030": 0.0381
+        },
+        "ebit_margin": {
+          "2026": 0.07,
+          "2027": 0.071,
+          "2028": 0.072,
+          "2029": 0.073,
+          "2030": 0.074
+        },
+        "nwc_pct_sales": {
+          "2026": -0.352,
+          "2027": -0.35,
+          "2028": -0.348,
+          "2029": -0.347,
+          "2030": -0.346
+        },
+        "revenue_growth": {
+          "2026": 0.121,
+          "2027": 0.11,
+          "2028": 0.105,
+          "2029": 0.095,
+          "2030": 0.085
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 135.96,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.083,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.027,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0948
+      },
+      "description": "Modestly higher growth and operating margin vs. base case; slightly lower capex and less-negative NWC intensity; lower WACC and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0257,
+          "2027": 0.0275,
+          "2028": 0.0285,
+          "2029": 0.0295,
+          "2030": 0.03
+        },
+        "da_pct_sales": {
+          "2026": 0.0381,
+          "2027": 0.0381,
+          "2028": 0.0381,
+          "2029": 0.0381,
+          "2030": 0.0381
+        },
+        "ebit_margin": {
+          "2026": 0.079,
+          "2027": 0.08,
+          "2028": 0.081,
+          "2029": 0.082,
+          "2030": 0.083
+        },
+        "nwc_pct_sales": {
+          "2026": -0.348,
+          "2027": -0.346,
+          "2028": -0.344,
+          "2029": -0.343,
+          "2030": -0.342
+        },
+        "revenue_growth": {
+          "2026": 0.141,
+          "2027": 0.13,
+          "2028": 0.125,
+          "2029": 0.115,
+          "2030": 0.105
+        }
+      }
+    }
+  },
+  "ticker": "WDAY"
+}

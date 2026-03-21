@@ -1,0 +1,671 @@
+{
+  "_meta": {
+    "cost_usd": 0.024722,
+    "generated_at": "2026-03-21T17:15:51Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11469,
+      "prompt": 2514,
+      "reasoning": 7906
+    }
+  },
+  "_valuation": {
+    "company_name": "Hilton Worldwide Holdings Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 292.58,
+        "description": "Base case",
+        "enterprise_value": 34407082596.76216,
+        "equity_value": 22972082596.76216,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 39272210685.7121,
+        "implied_market_cap": 22972082596.76216,
+        "investments_adjustment": 0.0,
+        "net_debt": 11393000000.0,
+        "per_share_value": 96.52135544858051,
+        "projected_years": [
+          {
+            "capex": 122376435.0,
+            "cash_taxes": 726019582.6119573,
+            "da": 184208739.0,
+            "delta_nwc": -119346000.0,
+            "discount_factor": 0.9103322712790168,
+            "ebit": 2898389250.0,
+            "ebit_margin": 0.225,
+            "ebitda": 3082597989.0,
+            "fcff": 2353547971.3880424,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2576346000.0,
+            "present_value_fcff": 2142510670.3577993,
+            "revenue": 12881730000.0,
+            "revenue_growth": 0.07,
+            "year": 2026
+          },
+          {
+            "capex": 127748116.41000001,
+            "cash_taxes": 771056997.3866524,
+            "da": 194340219.645,
+            "delta_nwc": -155289255.1500001,
+            "discount_factor": 0.8287048441320135,
+            "ebit": 3078185996.475,
+            "ebit_margin": 0.2265,
+            "ebitda": 3272526216.12,
+            "fcff": 2529010357.4733477,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2731635255.15,
+            "present_value_fcff": 2095803134.0981984,
+            "revenue": 13590225150.0,
+            "revenue_growth": 0.055,
+            "year": 2027
+          },
+          {
+            "capex": 132076603.12027498,
+            "cash_taxes": 811090685.1979859,
+            "da": 201665351.00085,
+            "delta_nwc": -122923586.48174953,
+            "discount_factor": 0.7543967629786194,
+            "ebit": 3238007044.239,
+            "ebit_margin": 0.228,
+            "ebitda": 3439672395.23985,
+            "fcff": 2619428693.4033384,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2854558841.6317496,
+            "present_value_fcff": 1976088527.1567929,
+            "revenue": 14201785281.749998,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 135882681.575784,
+            "cash_taxes": 847234024.5032996,
+            "da": 209731965.040884,
+            "delta_nwc": -128952210.3582902,
+            "discount_factor": 0.6867517186878648,
+            "ebit": 3382297182.7015796,
+            "ebit_margin": 0.229,
+            "ebitda": 3592029147.7424636,
+            "fcff": 2737864652.02167,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2983511051.99004,
+            "present_value_fcff": 1880233255.3106346,
+            "revenue": 14769856693.019999,
+            "revenue_growth": 0.04,
+            "year": 2029
+          },
+          {
+            "capex": 139109895.26320887,
+            "cash_taxes": 880716417.1747183,
+            "da": 215543903.64958733,
+            "delta_nwc": -104422886.81965113,
+            "discount_factor": 0.6251722518778923,
+            "ebit": 3515964385.773411,
+            "ebit_margin": 0.23,
+            "ebitda": 3731508289.422998,
+            "fcff": 2816104863.804722,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3087933938.809691,
+            "present_value_fcff": 1760550619.229083,
+            "revenue": 15286801677.275698,
+            "revenue_growth": 0.035,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 39272210685.7121,
+        "terminal_value_present_value": 24551896390.609657,
+        "upside_downside_pct": -0.6701026883294124
+      },
+      "bear": {
+        "current_price": 292.58,
+        "description": "Modestly weaker demand and margin pressure versus base case; slightly higher capex intensity and more negative working capital profile.",
+        "enterprise_value": 30942432857.207535,
+        "equity_value": 19507432857.207535,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 34902720790.093636,
+        "implied_market_cap": 19507432857.207535,
+        "investments_adjustment": 0.0,
+        "net_debt": 11393000000.0,
+        "per_share_value": 81.96400360171234,
+        "projected_years": [
+          {
+            "capex": 128215350.0,
+            "cash_taxes": 712991941.5034063,
+            "da": 183347950.5,
+            "delta_nwc": -132950070.0,
+            "discount_factor": 0.9074410163339383,
+            "ebit": 2846380770.0,
+            "ebit_margin": 0.222,
+            "ebitda": 3029728720.5,
+            "fcff": 2321471498.9965935,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2589950070.0,
+            "present_value_fcff": 2106598456.43974,
+            "revenue": 12821535000.0,
+            "revenue_growth": 0.065,
+            "year": 2026
+          },
+          {
+            "capex": 133279856.32500002,
+            "cash_taxes": 753699927.3527561,
+            "da": 192515348.025,
+            "delta_nwc": -142960115.25,
+            "discount_factor": 0.8234491981251707,
+            "ebit": 3008893726.125,
+            "ebit_margin": 0.2235,
+            "ebitda": 3201409074.15,
+            "fcff": 2457389405.7222443,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2732910185.25,
+            "present_value_fcff": 2023535335.6232717,
+            "revenue": 13462611750.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 137210938.956,
+            "cash_taxes": 789108648.7720132,
+            "da": 198815850.324,
+            "delta_nwc": -109316407.41000032,
+            "discount_factor": 0.7472315772460714,
+            "ebit": 3150251149.5,
+            "ebit_margin": 0.225,
+            "ebitda": 3349066999.824,
+            "fcff": 2532063819.505987,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2842226592.6600003,
+            "present_value_fcff": 1892038041.5371706,
+            "revenue": 14001116220.0,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 140564206.29069,
+            "cash_taxes": 820357351.2633848,
+            "da": 205774405.08534,
+            "delta_nwc": -113969086.03079939,
+            "discount_factor": 0.6780685818929867,
+            "ebit": 3275001095.0202,
+            "ebit_margin": 0.226,
+            "ebitda": 3480775500.10554,
+            "fcff": 2633823028.5822644,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2956195678.6907997,
+            "present_value_fcff": 1785912645.9478674,
+            "revenue": 14491155287.699999,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 143288543.48477757,
+            "cash_taxes": 848706868.5791682,
+            "da": 210455048.2432671,
+            "delta_nwc": -88685870.36072397,
+            "discount_factor": 0.6153072430970841,
+            "ebit": 3388177017.817137,
+            "ebit_margin": 0.227,
+            "ebitda": 3598632066.060404,
+            "fcff": 2695322524.357182,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3044881549.0515237,
+            "present_value_fcff": 1658451471.7196908,
+            "revenue": 14925889946.331,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 34902720790.093636,
+        "terminal_value_present_value": 21475896905.939796,
+        "upside_downside_pct": -0.7198578043553479
+      },
+      "bull": {
+        "current_price": 292.58,
+        "description": "Modestly higher growth and margin expansion versus base case; slightly improved working capital profile and lower capex intensity.",
+        "enterprise_value": 37213470965.45946,
+        "equity_value": 25778470965.459457,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 42791960726.02524,
+        "implied_market_cap": 25778470965.459457,
+        "investments_adjustment": 0.0,
+        "net_debt": 11393000000.0,
+        "per_share_value": 108.31290321621621,
+        "projected_years": [
+          {
+            "capex": 116477324.99999999,
+            "cash_taxes": 739137693.4504288,
+            "da": 185069527.5,
+            "delta_nwc": -105501150.0,
+            "discount_factor": 0.9119927040583675,
+            "ebit": 2950758900.0,
+            "ebit_margin": 0.228,
+            "ebitda": 3135828427.5,
+            "fcff": 2385714559.049571,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2562501150.0,
+            "present_value_fcff": 2175754271.819034,
+            "revenue": 12941925000.0,
+            "revenue_growth": 0.075,
+            "year": 2026
+          },
+          {
+            "capex": 122094120.45,
+            "cash_taxes": 788640467.9196746,
+            "da": 196173699.15,
+            "delta_nwc": -167468509.5,
+            "discount_factor": 0.8317306922556931,
+            "ebit": 3148382094.75,
+            "ebit_margin": 0.2295,
+            "ebitda": 3344555793.9,
+            "fcff": 2601289715.0303254,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2729969659.5,
+            "present_value_fcff": 2163572495.439787,
+            "revenue": 13718440500.0,
+            "revenue_growth": 0.06,
+            "year": 2027
+          },
+          {
+            "capex": 126758390.22000001,
+            "cash_taxes": 833484729.8209895,
+            "da": 204541947.85500002,
+            "delta_nwc": -136498482.97500038,
+            "discount_factor": 0.7585323230786074,
+            "ebit": 3327407743.275,
+            "ebit_margin": 0.231,
+            "ebitda": 3531949691.13,
+            "fcff": 2708205054.064011,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2866468142.4750004,
+            "present_value_fcff": 2054261071.0324,
+            "revenue": 14404362525.0,
+            "revenue_growth": 0.05,
+            "year": 2028
+          },
+          {
+            "capex": 130957261.89603747,
+            "cash_taxes": 874762068.821648,
+            "da": 213746335.50847498,
+            "delta_nwc": -144043625.24999952,
+            "discount_factor": 0.6917759444401345,
+            "ebit": 3492193650.561,
+            "ebit_margin": 0.232,
+            "ebitda": 3705939986.0694747,
+            "fcff": 2844264280.6017885,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3010511767.725,
+            "present_value_fcff": 1967593608.9506419,
+            "revenue": 15052558838.624998,
+            "revenue_growth": 0.045,
+            "year": 2029
+          },
+          {
+            "capex": 134630086.25266197,
+            "cash_taxes": 913673898.7795765,
+            "da": 220730722.80959696,
+            "delta_nwc": -120420470.70900011,
+            "discount_factor": 0.6308946141724893,
+            "ebit": 3647536057.77561,
+            "ebit_margin": 0.233,
+            "ebitda": 3868266780.585207,
+            "fcff": 2940383266.2619686,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3130932238.434,
+            "present_value_fcff": 1855071966.2875884,
+            "revenue": 15654661192.169998,
+            "revenue_growth": 0.04,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 42791960726.02524,
+        "terminal_value_present_value": 26997217551.930008,
+        "upside_downside_pct": -0.6298007272670167
+      }
+    },
+    "ticker": "HLT"
+  },
+  "assumptions": {
+    "cash": 970000000.0,
+    "current_price": 292.58,
+    "debt": 12363000000.0,
+    "diluted_shares": 238000000.0,
+    "investments": 0.0,
+    "minority_interest": 42000000.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.23,
+    "tax_rate": 0.25049071052549526,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.0985
+  },
+  "company_name": "Hilton Worldwide Holdings Inc.",
+  "comps": [
+    {
+      "company_name": "Marriott International, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as 'P/E NTM' proxy; EV/NTM revenue and EV/NTM EBITDA not found in accessible sources for this package. ([valueray.com](https://www.valueray.com/symbol/NASDAQ/MAR?utm_source=openai))",
+      "pe_ntm": 30.6748,
+      "source": "ValueRay (forward P/E shown; EV/forward multiples not captured)",
+      "ticker": "MAR"
+    },
+    {
+      "company_name": "Hyatt Hotels Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as 'P/E NTM' proxy; EV/NTM revenue and EV/NTM EBITDA not found in accessible sources for this package. ([stockanalysis.com](https://stockanalysis.com/stocks/h/?utm_source=openai))",
+      "pe_ntm": 50.83,
+      "source": "StockAnalysis.com (forward P/E shown; EV/forward multiples not captured)",
+      "ticker": "H"
+    },
+    {
+      "company_name": "Wyndham Hotels & Resorts, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as 'P/E NTM' proxy; EV/NTM revenue and EV/NTM EBITDA not found in accessible sources for this package. ([stockanalysis.com](https://stockanalysis.com/stocks/wh/?utm_source=openai))",
+      "pe_ntm": 15.47,
+      "source": "StockAnalysis.com (forward P/E shown; EV/forward multiples not captured)",
+      "ticker": "WH"
+    },
+    {
+      "company_name": "Choice Hotels International, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as 'P/E NTM' proxy; EV/NTM revenue and EV/NTM EBITDA not found in accessible sources for this package. ([stockanalysis.com](https://stockanalysis.com/stocks/chh/?utm_source=openai))",
+      "pe_ntm": 13.62,
+      "source": "StockAnalysis.com (forward P/E shown; EV/forward multiples not captured)",
+      "ticker": "CHH"
+    },
+    {
+      "company_name": "InterContinental Hotels Group plc",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as 'P/E NTM' proxy; EV/NTM revenue and EV/NTM EBITDA not found in accessible sources for this package. ([stockanalysis.com](https://stockanalysis.com/stocks/ihg/?utm_source=openai))",
+      "pe_ntm": 23.67,
+      "source": "StockAnalysis.com (forward P/E shown; EV/forward multiples not captured)",
+      "ticker": "IHG"
+    },
+    {
+      "company_name": "Booking Holdings Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E used as 'P/E NTM' proxy; EV/NTM revenue and EV/NTM EBITDA not found in accessible sources for this package. ([stockanalysis.com](https://stockanalysis.com/stocks/bkng/?utm_source=openai))",
+      "pe_ntm": 16.15,
+      "source": "StockAnalysis.com (forward P/E shown; EV/forward multiples not captured)",
+      "ticker": "BKNG"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0095,
+      "2027": 0.0094,
+      "2028": 0.0093,
+      "2029": 0.0092,
+      "2030": 0.0091
+    },
+    "da_pct_sales": {
+      "2026": 0.0143,
+      "2027": 0.0143,
+      "2028": 0.0142,
+      "2029": 0.0142,
+      "2030": 0.0141
+    },
+    "ebit_margin": {
+      "2026": 0.225,
+      "2027": 0.2265,
+      "2028": 0.228,
+      "2029": 0.229,
+      "2030": 0.23
+    },
+    "nwc_pct_sales": {
+      "2026": -0.2,
+      "2027": -0.201,
+      "2028": -0.201,
+      "2029": -0.202,
+      "2030": -0.202
+    },
+    "revenue_growth": {
+      "2026": 0.07,
+      "2027": 0.055,
+      "2028": 0.045,
+      "2029": 0.04,
+      "2030": 0.035
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 151000000.0,
+      "2024": 96000000.0,
+      "2025": 101000000.0
+    },
+    "da": {
+      "2023": 147000000.0,
+      "2024": 146000000.0,
+      "2025": 177000000.0
+    },
+    "ebit": {
+      "2023": 2225000000.0,
+      "2024": 2370000000.0,
+      "2025": 2693000000.0
+    },
+    "nwc": {
+      "2023": -1944000000.0,
+      "2024": -2269000000.0,
+      "2025": -2457000000.0
+    },
+    "revenue": {
+      "2023": 10235000000.0,
+      "2024": 11174000000.0,
+      "2025": 12039000000.0
+    }
+  },
+  "notes": [
+    "EBIT in this package is mapped to 'Operating income' from Hilton\u2019s consolidated statements of operations. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001585689/000158568926000007/hlt-20251231.htm))",
+    "Depreciation & amortization (DA) uses the 'Depreciation and amortization' line from the income statement; capex uses 'Capital expenditures for property and equipment' from the cash flow statement (reported as outflows; converted to absolute values). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001585689/000158568926000007/hlt-20251231.htm))",
+    "NWC construction (per year-end balance sheet): NWC = (Total current assets - cash and cash equivalents - restricted cash and cash equivalents) - (Total current liabilities - current maturities of long-term debt). This yields negative NWC consistent with Hilton\u2019s deferred-revenue/loyalty liability structure. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001585689/000158568926000007/hlt-20251231.htm))",
+    "Tax rate equals average effective tax rate over FY2023-FY2025 computed from income tax expense / income before income taxes. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001585689/000158568926000007/hlt-20251231.htm))",
+    "WACC is sourced from GuruFocus (as-of Mar 13, 2026) rather than taken directly from company guidance/filings. ([gurufocus.com](https://www.gurufocus.com/term/wacc/HLT))",
+    "NOL fields: Hilton\u2019s filing provides deferred tax assets related to net tax loss carryforwards, but does not provide an explicit pre-tax NOL carryforward balance and utilization % in a directly model-ready format; therefore nol_balance and nol_utilization_pct are set to null. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001585689/000158568926000007/hlt-20251231.htm))",
+    "Diluted shares use Hilton\u2019s weighted average diluted shares outstanding for FY2025 (EPS footnote). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001585689/000158568926000007/hlt-20251231.htm))",
+    "Comps: forward P/E is populated using StockAnalysis (and one ValueRay reference for MAR); EV/NTM revenue and EV/NTM EBITDA were not captured reliably from accessible sources and are left null with notes."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained system-wide RevPAR and occupancy trends that translate into higher fee revenue (franchise/management).",
+      "Continued branded network expansion (net unit growth) supporting mid-term revenue growth and margin resilience."
+    ],
+    "company_overview": [
+      "Hilton operates a largely asset-light hospitality platform, generating revenue from franchise and licensing fees and management fees (including incentive fees) plus ownership revenues from consolidated hotels.",
+      "The company\u2019s consolidated model includes significant cost-reimbursement lines alongside fee revenues, with operating income reported in its IFRS/GAAP reconciliation structure.",
+      "Hilton has a global portfolio footprint and is positioned around the Hilton Honors loyalty program and its network scale."
+    ],
+    "current_context": [
+      "Hilton reported fourth quarter and full year 2025 results on February 11, 2026, including full-year diluted EPS of $6.12.",
+      "1Q26 outlook (low/high cases) provided net income attributable to Hilton stockholders of $435 million to $449 million and diluted EPS of $1.87 to $1.93 for the quarter ending March 31, 2026."
+    ],
+    "investment_highlights": [
+      "Fee-based revenue mix plus operating leverage supports gradual EBIT margin improvement under steady RevPAR and unit growth.",
+      "Capital intensity is modeled using normalized capex as a percent of sales, consistent with historical cash flow behavior.",
+      "Working capital is structurally negative historically (modeled as a negative NWC % of sales), supporting free-cash-flow conversion in the base case."
+    ],
+    "key_risks": [
+      "Downturn in travel demand (macro recession, corporate travel slowdowns) leading to weaker RevPAR and occupancy.",
+      "Higher-for-longer interest rates increasing the effective cost of capital and pressure on multiples/valuation."
+    ],
+    "sources": [
+      {
+        "label": "Hilton 2025 Form 10-K (FY ended Dec 31, 2025)",
+        "notes": "Historical revenue, operating income (EBIT proxy), depreciation & amortization, capex, and balance sheet components used for cash/debt/NWC. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001585689/000158568926000007/hlt-20251231.htm))",
+        "url": null
+      },
+      {
+        "label": "Hilton 2024 Form 10-K (FY ended Dec 31, 2024)",
+        "notes": "Balance sheet components used to derive FY2023 NWC. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1585689/000158568925000008/hlt-20241231.htm))",
+        "url": null
+      },
+      {
+        "label": "Hilton Q4 2025 earnings release (Feb 11, 2026)",
+        "notes": "Current quarter/year context and 1Q26 outlook range. ([ir.hilton.com](https://ir.hilton.com/~/media/Files/H/Hilton-Worldwide-IR-V3/quarterly-results/2025/q4-2025-earnings-release.pdf))",
+        "url": null
+      },
+      {
+        "label": "GuruFocus WACC reference (as of Mar 13, 2026)",
+        "notes": "WACC value used in the model. ([gurufocus.com](https://www.gurufocus.com/term/wacc/HLT))",
+        "url": null
+      }
+    ],
+    "subtitle": "Hilton (HLT) \u2014 DCF input package (base/bull/bear) + comps snapshot",
+    "valuation_summary": [
+      "Base-case DCF chains revenue growth from FY2025 through FY2030 and holds capital/utilization ratios near historical levels.",
+      "Terminal value uses a Gordon growth framework with terminal growth held near long-run macro expectations and WACC reflecting current discount rate conditions."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 292.58,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.227,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.023,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.102
+      },
+      "description": "Modestly weaker demand and margin pressure versus base case; slightly higher capex intensity and more negative working capital profile.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.01,
+          "2027": 0.0099,
+          "2028": 0.0098,
+          "2029": 0.0097,
+          "2030": 0.0096
+        },
+        "da_pct_sales": {
+          "2026": 0.0143,
+          "2027": 0.0143,
+          "2028": 0.0142,
+          "2029": 0.0142,
+          "2030": 0.0141
+        },
+        "ebit_margin": {
+          "2026": 0.222,
+          "2027": 0.2235,
+          "2028": 0.225,
+          "2029": 0.226,
+          "2030": 0.227
+        },
+        "nwc_pct_sales": {
+          "2026": -0.202,
+          "2027": -0.203,
+          "2028": -0.203,
+          "2029": -0.204,
+          "2030": -0.204
+        },
+        "revenue_growth": {
+          "2026": 0.065,
+          "2027": 0.05,
+          "2028": 0.04,
+          "2029": 0.035,
+          "2030": 0.03
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 292.58,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.233,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.026,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0965
+      },
+      "description": "Modestly higher growth and margin expansion versus base case; slightly improved working capital profile and lower capex intensity.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.009,
+          "2027": 0.0089,
+          "2028": 0.0088,
+          "2029": 0.0087,
+          "2030": 0.0086
+        },
+        "da_pct_sales": {
+          "2026": 0.0143,
+          "2027": 0.0143,
+          "2028": 0.0142,
+          "2029": 0.0142,
+          "2030": 0.0141
+        },
+        "ebit_margin": {
+          "2026": 0.228,
+          "2027": 0.2295,
+          "2028": 0.231,
+          "2029": 0.232,
+          "2030": 0.233
+        },
+        "nwc_pct_sales": {
+          "2026": -0.198,
+          "2027": -0.199,
+          "2028": -0.199,
+          "2029": -0.2,
+          "2030": -0.2
+        },
+        "revenue_growth": {
+          "2026": 0.075,
+          "2027": 0.06,
+          "2028": 0.05,
+          "2029": 0.045,
+          "2030": 0.04
+        }
+      }
+    }
+  },
+  "ticker": "HLT"
+}

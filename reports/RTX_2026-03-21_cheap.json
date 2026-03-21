@@ -1,0 +1,697 @@
+{
+  "_meta": {
+    "cost_usd": 0.021582,
+    "generated_at": "2026-03-21T17:20:38Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10707,
+      "prompt": 2514,
+      "reasoning": 6156
+    }
+  },
+  "_valuation": {
+    "company_name": "RTX Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 198.16,
+        "description": "Base case",
+        "enterprise_value": 161628097729.92328,
+        "equity_value": 129302097729.92328,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 179085192407.02573,
+        "implied_market_cap": 129302097729.92328,
+        "investments_adjustment": 0.0,
+        "net_debt": 30469000000.0,
+        "per_share_value": 95.32740911967213,
+        "projected_years": [
+          {
+            "capex": 2823999117.5,
+            "cash_taxes": 1839210441.64,
+            "da": 4768391952.5,
+            "delta_nwc": -321523780.0,
+            "discount_factor": 0.9225092250922509,
+            "ebit": 9629374040.0,
+            "ebit_margin": 0.104,
+            "ebitda": 14397765992.5,
+            "fcff": 10056080213.36,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2592523780.0,
+            "present_value_fcff": 9276826765.09225,
+            "revenue": 92590135000.0,
+            "revenue_growth": 0.045,
+            "year": 2026
+          },
+          {
+            "capex": 2883256803.9,
+            "cash_taxes": 1927457173.40715,
+            "da": 4901536566.63,
+            "delta_nwc": -194624463.76999998,
+            "discount_factor": 0.8510232703803052,
+            "ebit": 10091398813.65,
+            "ebit_margin": 0.105,
+            "ebitda": 14992935380.279999,
+            "fcff": 10376845866.74285,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2787148243.77,
+            "present_value_fcff": 8830937305.747852,
+            "revenue": 96108560130.0,
+            "revenue_growth": 0.038,
+            "year": 2027
+          },
+          {
+            "capex": 2925929004.59772,
+            "cash_taxes": 1998607878.2083511,
+            "da": 5008793719.735081,
+            "delta_nwc": -188372777.85480022,
+            "discount_factor": 0.7850768176940084,
+            "ebit": 10463915592.71388,
+            "ebit_margin": 0.1055,
+            "ebitda": 15472709312.448961,
+            "fcff": 10736545207.497692,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2975521021.6248,
+            "present_value_fcff": 8429012744.530145,
+            "revenue": 99184034054.16,
+            "revenue_growth": 0.032,
+            "year": 2028
+          },
+          {
+            "capex": 2953998086.2350473,
+            "cash_taxes": 2062298112.2039573,
+            "da": 5093100148.681116,
+            "delta_nwc": -80339067.58386898,
+            "discount_factor": 0.72424060672879,
+            "ebit": 10797372315.203964,
+            "ebit_margin": 0.106,
+            "ebitda": 15890472463.88508,
+            "fcff": 10954515333.029945,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3055860089.208669,
+            "present_value_fcff": 7933704831.213441,
+            "revenue": 101862002973.62231,
+            "revenue_growth": 0.027,
+            "year": 2029
+          },
+          {
+            "capex": 2969837627.6974454,
+            "cash_taxes": 2119682529.9581609,
+            "da": 5158139037.579774,
+            "delta_nwc": -70284782.0517993,
+            "discount_factor": 0.6681186408937176,
+            "ebit": 11097814292.974665,
+            "ebit_margin": 0.1065,
+            "ebitda": 16255953330.55444,
+            "fcff": 11236717954.950634,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3126144871.2604685,
+            "present_value_fcff": 7507460728.167652,
+            "revenue": 104204829042.01562,
+            "revenue_growth": 0.023,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 179085192407.02573,
+        "terminal_value_present_value": 119650155355.17195,
+        "upside_downside_pct": -0.518937176424747
+      },
+      "bear": {
+        "current_price": 198.16,
+        "description": "Modestly weaker growth and margin pressure with slightly higher reinvestment intensity and less favorable net working capital conversion.",
+        "enterprise_value": 148652417556.02365,
+        "equity_value": 116326417556.02365,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 163817001944.33838,
+        "implied_market_cap": 116326417556.02365,
+        "investments_adjustment": 0.0,
+        "net_debt": 30469000000.0,
+        "per_share_value": 85.76114535242085,
+        "projected_years": [
+          {
+            "capex": 2874990144.0,
+            "cash_taxes": 1777610091.92,
+            "da": 4837723800.0,
+            "delta_nwc": -170898680.0,
+            "discount_factor": 0.9208103130755064,
+            "ebit": 9306859120.0,
+            "ebit_margin": 0.101,
+            "ebitda": 14144582920.0,
+            "fcff": 9662881364.08,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2441898680.0,
+            "present_value_fcff": 8897680814.06998,
+            "revenue": 92147120000.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 2922270831.2720003,
+            "cash_taxes": 1854452128.17072,
+            "da": 4949774697.92,
+            "delta_nwc": -128176643.92000008,
+            "discount_factor": 0.8478916326662121,
+            "ebit": 9709173445.92,
+            "ebit_margin": 0.102,
+            "ebitda": 14658948143.84,
+            "fcff": 10010401828.317282,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2570075323.92,
+            "present_value_fcff": 8487735949.856775,
+            "revenue": 95187974960.0,
+            "revenue_growth": 0.033,
+            "year": 2027
+          },
+          {
+            "capex": 2955167795.418176,
+            "cash_taxes": 1925066756.2669463,
+            "da": 5039441770.33232,
+            "delta_nwc": -169815347.32863998,
+            "discount_factor": 0.780747359729477,
+            "ebit": 10078883540.66464,
+            "ebit_margin": 0.103,
+            "ebitda": 15118325310.99696,
+            "fcff": 10407906106.640478,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2739890671.24864,
+            "present_value_fcff": 8125945213.071854,
+            "revenue": 97853238258.88,
+            "revenue_growth": 0.028,
+            "year": 2028
+          },
+          {
+            "capex": 2970178482.1670885,
+            "cash_taxes": 1967418224.904819,
+            "da": 5100306484.529344,
+            "delta_nwc": -60277594.76747036,
+            "discount_factor": 0.7189202207453748,
+            "ebit": 10300618978.559261,
+            "ebit_margin": 0.103,
+            "ebitda": 15400925463.088604,
+            "fcff": 10523606350.784168,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2800168266.0161104,
+            "present_value_fcff": 7565633400.743182,
+            "revenue": 100006009500.57536,
+            "revenue_growth": 0.022,
+            "year": 2029
+          },
+          {
+            "capex": 2969818460.5328856,
+            "cash_taxes": 2020290202.055659,
+            "da": 5136158638.935299,
+            "delta_nwc": -47602860.52227306,
+            "discount_factor": 0.6619891535408606,
+            "ebit": 10577435612.856853,
+            "ebit_margin": 0.104,
+            "ebitda": 15713594251.792152,
+            "fcff": 10771088449.72588,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2847771126.5383835,
+            "present_value_fcff": 7130343725.547776,
+            "revenue": 101706111662.08513,
+            "revenue_growth": 0.017,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 163817001944.33838,
+        "terminal_value_present_value": 108445078452.73409,
+        "upside_downside_pct": -0.5672126294286393
+      },
+      "bull": {
+        "current_price": 198.16,
+        "description": "Modestly stronger top-line growth and sustained operating leverage, with slightly improved margins and capital efficiency.",
+        "enterprise_value": 177132432847.8466,
+        "equity_value": 144806432847.8466,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 197616667860.4638,
+        "implied_market_cap": 144806432847.8466,
+        "investments_adjustment": 0.0,
+        "net_debt": 30469000000.0,
+        "per_share_value": 106.7579127453897,
+        "projected_years": [
+          {
+            "capex": 2772387870.0,
+            "cash_taxes": 1901318486.55,
+            "da": 4698174075.0,
+            "delta_nwc": -426961350.0,
+            "discount_factor": 0.9242144177449167,
+            "ebit": 9954547050.0,
+            "ebit_margin": 0.107,
+            "ebitda": 14652721125.0,
+            "fcff": 10405976118.45,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2697961350.0,
+            "present_value_fcff": 9617353159.380775,
+            "revenue": 93033150000.0,
+            "revenue_growth": 0.05,
+            "year": 2026
+          },
+          {
+            "capex": 2843083760.685,
+            "cash_taxes": 2001608594.3826,
+            "da": 4851678772.5,
+            "delta_nwc": -213045913.5,
+            "discount_factor": 0.8541722899675755,
+            "ebit": 10479626148.6,
+            "ebit_margin": 0.108,
+            "ebitda": 15331304921.1,
+            "fcff": 10699658479.5324,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2911007263.5,
+            "present_value_fcff": 9139351785.333178,
+            "revenue": 97033575450.0,
+            "revenue_growth": 0.043,
+            "year": 2027
+          },
+          {
+            "capex": 2895171383.98656,
+            "cash_taxes": 2092867119.5561175,
+            "da": 5006233851.47676,
+            "delta_nwc": -205323045.65219975,
+            "discount_factor": 0.789438345626225,
+            "ebit": 10957419474.115799,
+            "ebit_margin": 0.109,
+            "ebitda": 15963653325.59256,
+            "fcff": 11180937867.70208,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3116330309.1521997,
+            "present_value_fcff": 8826661092.82834,
+            "revenue": 100526784166.2,
+            "revenue_growth": 0.036,
+            "year": 2028
+          },
+          {
+            "capex": 2930255231.660564,
+            "cash_taxes": 2155653133.142802,
+            "da": 5125358090.713708,
+            "delta_nwc": -93489909.27456617,
+            "discount_factor": 0.7296103009484519,
+            "ebit": 11286142058.339275,
+            "ebit_margin": 0.109,
+            "ebitda": 16411500149.052982,
+            "fcff": 11419081693.524185,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3209820218.426766,
+            "present_value_fcff": 8331479630.967138,
+            "revenue": 103542587691.186,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 2950446036.260345,
+            "cash_taxes": 2229815511.5766134,
+            "da": 5232265812.504856,
+            "delta_nwc": -80245505.46066952,
+            "discount_factor": 0.6743163594717669,
+            "ebit": 11674426762.181221,
+            "ebit_margin": 0.11,
+            "ebitda": 16906692574.686077,
+            "fcff": 11806676532.309788,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3290065723.8874354,
+            "present_value_fcff": 7961435136.727881,
+            "revenue": 106131152383.46565,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 197616667860.4638,
+        "terminal_value_present_value": 133256152042.60928,
+        "upside_downside_pct": -0.4612539728230233
+      }
+    },
+    "ticker": "RTX"
+  },
+  "assumptions": {
+    "cash": 7435000000.0,
+    "current_price": 198.16,
+    "debt": 37904000000.0,
+    "diluted_shares": 1356400000.0,
+    "investments": 0.0,
+    "minority_interest": 1857000000.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.1065,
+    "tax_rate": 0.191,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.084
+  },
+  "company_name": "RTX Corporation",
+  "comps": [
+    {
+      "company_name": "Northrop Grumman Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/Sales 2.70, EV/EBITDA 16.62, Forward PE 25.49. ([stockanalysis.com](https://stockanalysis.com/stocks/noc/statistics/))",
+      "pe_ntm": 25.49,
+      "source": "StockAnalysis statistics (EV/Sales, EV/EBITDA, Forward PE; EV multiples treated as EV/NTM proxy due to lack of explicit NTM label)",
+      "ticker": "NOC"
+    },
+    {
+      "company_name": "Lockheed Martin Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/Sales 2.17, EV/EBITDA 19.68, Forward PE 20.97. ([stockanalysis.com](https://stockanalysis.com/stocks/lmt/statistics/))",
+      "pe_ntm": 20.97,
+      "source": "StockAnalysis statistics (EV/Sales, EV/EBITDA, Forward PE; EV multiples treated as EV/NTM proxy due to lack of explicit NTM label)",
+      "ticker": "LMT"
+    },
+    {
+      "company_name": "General Dynamics Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/Sales 1.92, EV/EBITDA 15.91, Forward PE 21.17. ([stockanalysis.com](https://stockanalysis.com/stocks/gd/statistics/))",
+      "pe_ntm": 21.17,
+      "source": "StockAnalysis statistics (EV/Sales, EV/EBITDA, Forward PE; EV multiples treated as EV/NTM proxy due to lack of explicit NTM label)",
+      "ticker": "GD"
+    },
+    {
+      "company_name": "L3Harris Technologies, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/Sales 3.51, EV/EBITDA 18.98, Forward PE 29.98. ([stockanalysis.com](https://stockanalysis.com/stocks/lhx/statistics/))",
+      "pe_ntm": 29.98,
+      "source": "StockAnalysis statistics (EV/Sales, EV/EBITDA, Forward PE; EV multiples treated as EV/NTM proxy due to lack of explicit NTM label)",
+      "ticker": "LHX"
+    },
+    {
+      "company_name": "GE Aerospace",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/Sales 6.77, EV/EBITDA 29.00, Forward PE 38.59. ([stockanalysis.com](https://stockanalysis.com/stocks/ge/statistics/))",
+      "pe_ntm": 38.59,
+      "source": "StockAnalysis statistics (EV/Sales, EV/EBITDA, Forward PE; EV multiples treated as EV/NTM proxy due to lack of explicit NTM label)",
+      "ticker": "GE"
+    },
+    {
+      "company_name": "Honeywell International Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "EV/Sales 4.37, EV/EBITDA 19.30, Forward PE 21.01. ([stockanalysis.com](https://stockanalysis.com/stocks/hon/statistics/))",
+      "pe_ntm": 21.01,
+      "source": "StockAnalysis statistics (EV/Sales, EV/EBITDA, Forward PE; EV multiples treated as EV/NTM proxy due to lack of explicit NTM label)",
+      "ticker": "HON"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0305,
+      "2027": 0.03,
+      "2028": 0.0295,
+      "2029": 0.029,
+      "2030": 0.0285
+    },
+    "da_pct_sales": {
+      "2026": 0.0515,
+      "2027": 0.051,
+      "2028": 0.0505,
+      "2029": 0.05,
+      "2030": 0.0495
+    },
+    "ebit_margin": {
+      "2026": 0.104,
+      "2027": 0.105,
+      "2028": 0.1055,
+      "2029": 0.106,
+      "2030": 0.1065
+    },
+    "nwc_pct_sales": {
+      "2026": -0.028,
+      "2027": -0.029,
+      "2028": -0.03,
+      "2029": -0.03,
+      "2030": -0.03
+    },
+    "revenue_growth": {
+      "2026": 0.045,
+      "2027": 0.038,
+      "2028": 0.032,
+      "2029": 0.027,
+      "2030": 0.023
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 2415000000.0,
+      "2024": 2625000000.0,
+      "2025": 2627000000.0
+    },
+    "da": {
+      "2023": 4211000000.0,
+      "2024": 4364000000.0,
+      "2025": 4378000000.0
+    },
+    "ebit": {
+      "2023": 3561000000.0,
+      "2024": 6538000000.0,
+      "2025": 9300000000.0
+    },
+    "nwc": {
+      "2023": -3459000000.0,
+      "2024": -3409000000.0,
+      "2025": -2271000000.0
+    },
+    "revenue": {
+      "2023": 68920000000.0,
+      "2024": 80738000000.0,
+      "2025": 88603000000.0
+    }
+  },
+  "notes": [
+    "Historical financials (revenue, operating profit/EBIT, depreciation & amortization, and capex) are taken from RTX\u2019s FY2023\u2013FY2025 consolidated financial statements in the FY2025 Form 10-K and converted from $ millions to full $ values. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000101829/000130817926000038/rtx014050-ars.pdf))",
+    "NWC is modeled as operating working capital: (Accounts receivable + Contract assets + Inventory + Other assets, current) \u2212 (Accounts payable + Accrued employee compensation + Other accrued liabilities + Contract liabilities), excluding cash and excluding customer financing assets. This yields negative NWC for all historical years. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000101829/000130817926000038/rtx014050-ars.pdf))",
+    "Tax rate uses RTX\u2019s FY2025 effective income tax rate (19.1%) as the base-case tax rate. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000101829/000130817926000038/rtx014050-ars.pdf))",
+    "Cash and total debt are sourced from RTX\u2019s FY2025 liquidity and the consolidated balance sheet (as of Dec 31, 2025); minority interest is sourced from the consolidated balance sheet. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000101829/000130817926000038/rtx014050-ars.pdf))",
+    "Investments and NOL balance were not extracted into a single, clearly definable standalone input from the available extracted lines; therefore they are set to null. NOL utilization percent is modeled as 0.80 as a neutral default.",
+    "Comparable-company multiples: EV/Sales and EV/EBITDA are taken from StockAnalysis statistics pages, but the source does not explicitly label them as NTM; therefore EV/NTM fields are left null and forward P/E is populated. ([stockanalysis.com](https://stockanalysis.com/stocks/noc/statistics/))",
+    "Scenario overrides adjust only the forecast drivers (and WACC/terminal growth/target margin in the scenario assumptions) versus the base case; other historical anchors remain unchanged."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Quarterly updates to FY2026 outlook (sales/EPS/FCF) as RTX reports operating performance and backlog execution.",
+      "Revisions to commercial aftermarket and defense production plans that could shift the sales growth trajectory and margin path.",
+      "Capital allocation updates (dividend and buybacks) supported by operating cash flow strength."
+    ],
+    "company_overview": [
+      "RTX reports through three principal business segments: Collins Aerospace, Pratt & Whitney, and Raytheon. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000101829/000130817926000038/rtx014050-ars.pdf))",
+      "Collins Aerospace is a leading global provider of technologically advanced aerospace and defense products, with solutions including aftermarket services for civil and military aircraft manufacturers and commercial airlines. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000101829/000130817926000038/rtx014050-ars.pdf))",
+      "Pratt & Whitney produces and services the PW1000G geared turbofan (GTF) engine family and sustains the F135 propulsion system for the U.S. F-35 Joint Program Office. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000101829/000130817926000038/rtx014050-ars.pdf))",
+      "Raytheon delivers integrated space solutions (sensors, mission orchestration, satellite control and software) and focuses on next-generation technologies including hypersonics and advanced radars. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000101829/000130817926000038/rtx014050-ars.pdf))"
+    ],
+    "current_context": [
+      "FY2025 sales were $88.6B (+10% vs. prior year; +11% organically) and free cash flow was $7.9B (operating cash flow $10.6B). ([rtx.com](https://www.rtx.com/news/news-center/2026/01/27/rtx-reports-2025-results-and-announces-2026-outlook))",
+      "FY2025 operating profit was $9.3B, and management reported improved profitability alongside cash generation. ([rtx.com](https://www.rtx.com/news/news-center/2026/01/27/rtx-reports-2025-results-and-announces-2026-outlook))",
+      "FY2026 outlook: adjusted sales of $92.0B\u2013$93.0B with organic sales growth of 5%\u20136%, adjusted EPS of $6.60\u2013$6.80, and free cash flow of $8.25B\u2013$8.75B. ([rtx.com](https://www.rtx.com/news/news-center/2026/01/27/rtx-reports-2025-results-and-announces-2026-outlook))",
+      "Management cited investing in new capabilities, expanding production capacity, and executing on backlog as key drivers entering 2026. ([rtx.com](https://www.rtx.com/news/news-center/2026/01/27/rtx-reports-2025-results-and-announces-2026-outlook))"
+    ],
+    "investment_highlights": [
+      "Revenue base case (mid-single-digit growth tapering through 2030) is anchored to FY2026 organic sales guidance of 5%\u20136% and then converges to a more mature growth rate. ([rtx.com](https://www.rtx.com/news/news-center/2026/01/27/rtx-reports-2025-results-and-announces-2026-outlook))",
+      "Base-case EBIT margin stabilizes near ~10% as historical operating profit scales from FY2023 to FY2025, reflecting continued operating leverage. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000101829/000130817926000038/rtx014050-ars.pdf))",
+      "Capital intensity (capex as % of sales) declines modestly versus FY2025 levels, consistent with disciplined investment while maintaining production capacity. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000101829/000130817926000038/rtx014050-ars.pdf))",
+      "Working-capital dynamics are modeled with negative NWC under the stated operating-working-capital definition, supporting cash conversion as sales expand. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000101829/000130817926000038/rtx014050-ars.pdf))"
+    ],
+    "key_risks": [
+      "Program execution risk (schedule slips/cost growth) that can compress EBIT margin below the base-case convergence path.",
+      "Geopolitical and defense-spending uncertainty, including procurement timing changes across U.S. and international customers.",
+      "Manufacturing/supply chain and technology transition risks (including engine/production quality and advanced system development delays)."
+    ],
+    "sources": [
+      {
+        "label": "RTX Corporation 2025 Annual Report on Form 10-K (SEC PDF)",
+        "notes": "Provides FY2023\u2013FY2025 revenue, operating profit (EBIT), depreciation & amortization, capex, balance sheet working-capital components, and effective tax rate. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000101829/000130817926000038/rtx014050-ars.pdf))",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000101829/000130817926000038/rtx014050-ars.pdf"
+      },
+      {
+        "label": "RTX press release: Reports 2025 results and announces 2026 outlook",
+        "notes": "Contains FY2025 sales/FCF performance and FY2026 outlook ranges (adjusted sales, organic growth, adjusted EPS, and free cash flow). ([rtx.com](https://www.rtx.com/news/news-center/2026/01/27/rtx-reports-2025-results-and-announces-2026-outlook))",
+        "url": "https://www.rtx.com/news/news-center/2026/01/27/rtx-reports-2025-results-and-announces-2026-outlook"
+      },
+      {
+        "label": "Peer comp inputs (NOC) \u2014 StockAnalysis statistics",
+        "notes": "Used for EV/Sales, EV/EBITDA, and Forward P/E (treated as EV/NTM proxy where explicit NTM not shown). ([stockanalysis.com](https://stockanalysis.com/stocks/noc/statistics/))",
+        "url": "https://stockanalysis.com/stocks/noc/statistics/"
+      },
+      {
+        "label": "Peer comp inputs (LMT) \u2014 StockAnalysis statistics",
+        "notes": "Used for EV/Sales, EV/EBITDA, and Forward P/E. ([stockanalysis.com](https://stockanalysis.com/stocks/lmt/statistics/))",
+        "url": "https://stockanalysis.com/stocks/lmt/statistics/"
+      },
+      {
+        "label": "Peer comp inputs (GD) \u2014 StockAnalysis statistics",
+        "notes": "Used for EV/Sales, EV/EBITDA, and Forward P/E. ([stockanalysis.com](https://stockanalysis.com/stocks/gd/statistics/))",
+        "url": "https://stockanalysis.com/stocks/gd/statistics/"
+      },
+      {
+        "label": "Peer comp inputs (LHX) \u2014 StockAnalysis statistics",
+        "notes": "Used for EV/Sales, EV/EBITDA, and Forward P/E. ([stockanalysis.com](https://stockanalysis.com/stocks/lhx/statistics/))",
+        "url": "https://stockanalysis.com/stocks/lhx/statistics/"
+      },
+      {
+        "label": "Peer comp inputs (GE) \u2014 StockAnalysis statistics",
+        "notes": "Used for EV/Sales, EV/EBITDA, and Forward P/E. ([stockanalysis.com](https://stockanalysis.com/stocks/ge/statistics/))",
+        "url": "https://stockanalysis.com/stocks/ge/statistics/"
+      },
+      {
+        "label": "Peer comp inputs (HON) \u2014 StockAnalysis statistics",
+        "notes": "Used for EV/Sales, EV/EBITDA, and Forward P/E. ([stockanalysis.com](https://stockanalysis.com/stocks/hon/statistics/))",
+        "url": "https://stockanalysis.com/stocks/hon/statistics/"
+      }
+    ],
+    "subtitle": "RTX (RTX) DCF Input Package \u2014 FY2023-2025 History; FY2026-2030 Base/Bull/Bear",
+    "valuation_summary": [
+      "DCF inputs are anchored to RTX\u2019s FY2023\u2013FY2025 GAAP revenue, operating profit (EBIT), D&A, and capex from its Form 10-K, with conservative normalization of margins and reinvestment over FY2026\u2013FY2030. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000101829/000130817926000038/rtx014050-ars.pdf))",
+      "Terminal value uses a Gordon growth approach with economically conservative long-run growth (2.0%) and a base WACC (8.4%).",
+      "Peer comps act as a valuation plausibility check using EV/Sales and EV/EBITDA-style multiples and forward P/E from StockAnalysis. ([stockanalysis.com](https://stockanalysis.com/stocks/noc/statistics/))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.104,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.019,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.086
+      },
+      "description": "Modestly weaker growth and margin pressure with slightly higher reinvestment intensity and less favorable net working capital conversion.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0312,
+          "2027": 0.0307,
+          "2028": 0.0302,
+          "2029": 0.0297,
+          "2030": 0.0292
+        },
+        "da_pct_sales": {
+          "2026": 0.0525,
+          "2027": 0.052,
+          "2028": 0.0515,
+          "2029": 0.051,
+          "2030": 0.0505
+        },
+        "ebit_margin": {
+          "2026": 0.101,
+          "2027": 0.102,
+          "2028": 0.103,
+          "2029": 0.103,
+          "2030": 0.104
+        },
+        "nwc_pct_sales": {
+          "2026": -0.0265,
+          "2027": -0.027,
+          "2028": -0.028,
+          "2029": -0.028,
+          "2030": -0.028
+        },
+        "revenue_growth": {
+          "2026": 0.04,
+          "2027": 0.033,
+          "2028": 0.028,
+          "2029": 0.022,
+          "2030": 0.017
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.11,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.021,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.082
+      },
+      "description": "Modestly stronger top-line growth and sustained operating leverage, with slightly improved margins and capital efficiency.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0298,
+          "2027": 0.0293,
+          "2028": 0.0288,
+          "2029": 0.0283,
+          "2030": 0.0278
+        },
+        "da_pct_sales": {
+          "2026": 0.0505,
+          "2027": 0.05,
+          "2028": 0.0498,
+          "2029": 0.0495,
+          "2030": 0.0493
+        },
+        "ebit_margin": {
+          "2026": 0.107,
+          "2027": 0.108,
+          "2028": 0.109,
+          "2029": 0.109,
+          "2030": 0.11
+        },
+        "nwc_pct_sales": {
+          "2026": -0.029,
+          "2027": -0.03,
+          "2028": -0.031,
+          "2029": -0.031,
+          "2030": -0.031
+        },
+        "revenue_growth": {
+          "2026": 0.05,
+          "2027": 0.043,
+          "2028": 0.036,
+          "2029": 0.03,
+          "2030": 0.025
+        }
+      }
+    }
+  },
+  "ticker": "RTX"
+}

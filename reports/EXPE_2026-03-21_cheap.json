@@ -1,0 +1,697 @@
+{
+  "_meta": {
+    "cost_usd": 0.025883,
+    "generated_at": "2026-03-21T17:15:43Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12428,
+      "prompt": 2515,
+      "reasoning": 7876
+    }
+  },
+  "_valuation": {
+    "company_name": "Expedia Group, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 235.18,
+        "description": "Base case",
+        "enterprise_value": 45229169834.7789,
+        "equity_value": 45101169834.7789,
+        "exit_multiple_terminal_value": 53477798308.28328,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 45101169834.7789,
+        "investments_adjustment": 320000000.0,
+        "net_debt": -815000000.0,
+        "per_share_value": 341.8231344957967,
+        "projected_years": [
+          {
+            "capex": 823574700.0,
+            "cash_taxes": 321652160.0,
+            "da": 950278500.0,
+            "delta_nwc": -549443250.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2027260800.0,
+            "ebit_margin": 0.128,
+            "ebitda": 2977539300.0,
+            "fcff": 2381755690.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 419000000.0,
+            "nwc": -10611443250.0,
+            "present_value_fcff": 2195166534.562212,
+            "revenue": 15837975000.0,
+            "revenue_growth": 0.075,
+            "year": 2026
+          },
+          {
+            "capex": 868673333.8125,
+            "cash_taxes": 428433061.725,
+            "da": 1008673113.8249999,
+            "delta_nwc": -605406594.375,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2142165308.625,
+            "ebit_margin": 0.127,
+            "ebitda": 3150838422.45,
+            "fcff": 2459138621.2875,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -11216849844.375,
+            "present_value_fcff": 2088928302.8201916,
+            "revenue": 16867443375.0,
+            "revenue_growth": 0.065,
+            "year": 2027
+          },
+          {
+            "capex": 907552790.7918749,
+            "cash_taxes": 450217364.84381247,
+            "da": 1060591104.53325,
+            "delta_nwc": -527950977.63750076,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2251086824.2190623,
+            "ebit_margin": 0.1265,
+            "ebitda": 3311677928.752312,
+            "fcff": 2481858750.7541256,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -11744800822.0125,
+            "present_value_fcff": 1943067315.126578,
+            "revenue": 17795152760.625,
+            "revenue_growth": 0.055,
+            "year": 2028
+          },
+          {
+            "capex": 939094699.0600828,
+            "cash_taxes": 468617552.7982988,
+            "da": 1104598517.3102756,
+            "delta_nwc": -435536363.8162956,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2343087763.9914937,
+            "ebit_margin": 0.126,
+            "ebitda": 3447686281.3017693,
+            "fcff": 2475510393.259683,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -12180337185.828796,
+            "present_value_fcff": 1786264640.2142355,
+            "revenue": 18595934634.853123,
+            "revenue_growth": 0.045,
+            "year": 2029
+          },
+          {
+            "capex": 965129007.5488772,
+            "cash_taxes": 484494761.7895363,
+            "da": 1142712744.9378705,
+            "delta_nwc": -366339912.3066063,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2422473808.9476814,
+            "ebit_margin": 0.1255,
+            "ebitda": 3565186553.885552,
+            "fcff": 2481902696.853745,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -12546677098.135403,
+            "present_value_fcff": 1650578029.5898101,
+            "revenue": 19302580150.977543,
+            "revenue_growth": 0.038,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 53477798308.28328,
+        "terminal_value_present_value": 35565165012.46587,
+        "upside_downside_pct": 0.4534532464316552
+      },
+      "bear": {
+        "current_price": 235.18,
+        "description": "Modestly slower growth, slightly weaker margin trajectory, and more negative working-capital profile; lower terminal multiple and growth.",
+        "enterprise_value": 40371506296.003265,
+        "equity_value": 40243506296.003265,
+        "exit_multiple_terminal_value": 47205925447.53713,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 40243506296.003265,
+        "investments_adjustment": 320000000.0,
+        "net_debt": -815000000.0,
+        "per_share_value": 305.00675515944965,
+        "projected_years": [
+          {
+            "capex": 823758862.5,
+            "cash_taxes": 311604254.0,
+            "da": 949284022.5,
+            "delta_nwc": -529185375.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1977021270.0,
+            "ebit_margin": 0.126,
+            "ebitda": 2926305292.5,
+            "fcff": 2320127551.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 419000000.0,
+            "nwc": -10591185375.0,
+            "present_value_fcff": 2138366406.451613,
+            "revenue": 15690645000.0,
+            "revenue_growth": 0.065,
+            "year": 2026
+          },
+          {
+            "capex": 860788784.6999998,
+            "cash_taxes": 413840761.875,
+            "da": 998183917.6424999,
+            "delta_nwc": -499747043.25,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2069203809.3749998,
+            "ebit_margin": 0.125,
+            "ebitda": 3067387727.0175,
+            "fcff": 2292505223.6925,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -11090932418.25,
+            "present_value_fcff": 1947380682.2761157,
+            "revenue": 16553630474.999998,
+            "revenue_growth": 0.055,
+            "year": 2027
+          },
+          {
+            "capex": 890875008.0883123,
+            "cash_taxes": 430733741.77473736,
+            "da": 1039642485.1671373,
+            "delta_nwc": -412599239.58937263,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2153668708.873687,
+            "ebit_margin": 0.1245,
+            "ebitda": 3193311194.040824,
+            "fcff": 2284301683.767147,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -11503531657.839373,
+            "present_value_fcff": 1788398287.4802504,
+            "revenue": 17298543846.374996,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 913103636.930904,
+            "cash_taxes": 444019023.44875336,
+            "da": 1072449173.5717874,
+            "delta_nwc": -313103643.6193867,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2220095117.243767,
+            "ebit_margin": 0.124,
+            "ebitda": 3292544290.815554,
+            "fcff": 2248525274.0552835,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -11816635301.45876,
+            "present_value_fcff": 1622478015.2848449,
+            "revenue": 17903992880.99812,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 929467886.4241365,
+            "cash_taxes": 454611025.63715196,
+            "da": 1098796689.4954643,
+            "delta_nwc": -238839265.03251648,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2273055128.1857595,
+            "ebit_margin": 0.1235,
+            "ebitda": 3371851817.681224,
+            "fcff": 2226612170.652452,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -12055474566.491276,
+            "present_value_fcff": 1480798233.5307436,
+            "revenue": 18405304681.66607,
+            "revenue_growth": 0.028,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 47205925447.53713,
+        "terminal_value_present_value": 31394084670.979694,
+        "upside_downside_pct": 0.2969077096668493
+      },
+      "bull": {
+        "current_price": 235.18,
+        "description": "Modestly faster top-line growth, slightly better margin trajectory, and a less negative working-capital drag; higher terminal multiple and growth.",
+        "enterprise_value": 50371874591.21247,
+        "equity_value": 50243874591.21247,
+        "exit_multiple_terminal_value": 60282659047.29256,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 50243874591.21247,
+        "investments_adjustment": 320000000.0,
+        "net_debt": -815000000.0,
+        "per_share_value": 380.79984986859836,
+        "projected_years": [
+          {
+            "capex": 823243207.5,
+            "cash_taxes": 331817930.0,
+            "da": 951125647.5,
+            "delta_nwc": -488301300.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2078089650.0,
+            "ebit_margin": 0.13,
+            "ebitda": 3029215297.5,
+            "fcff": 2362455460.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 419000000.0,
+            "nwc": -10550301300.0,
+            "present_value_fcff": 2177378304.147465,
+            "revenue": 15985305000.0,
+            "revenue_growth": 0.085,
+            "year": 2026
+          },
+          {
+            "capex": 876394346.625,
+            "cash_taxes": 443352434.175,
+            "da": 1019023230.4875,
+            "delta_nwc": -705351583.125,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2216762170.875,
+            "ebit_margin": 0.129,
+            "ebitda": 3235785401.3625,
+            "fcff": 2621390203.6875,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -11255652883.125,
+            "present_value_fcff": 2226753767.281106,
+            "revenue": 17184202875.0,
+            "revenue_growth": 0.075,
+            "year": 2027
+          },
+          {
+            "capex": 924209391.1246876,
+            "cash_taxes": 470340224.7901876,
+            "da": 1081599505.2568126,
+            "delta_nwc": -640111557.09375,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2351701123.9509377,
+            "ebit_margin": 0.1285,
+            "ebitda": 3433300629.2077503,
+            "fcff": 2678862570.386625,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -11895764440.21875,
+            "present_value_fcff": 2097303200.9386485,
+            "revenue": 18301176061.875,
+            "revenue_growth": 0.065,
+            "year": 2028
+          },
+          {
+            "capex": 965387037.2639064,
+            "cash_taxes": 494278163.0791201,
+            "da": 1137225929.8968816,
+            "delta_nwc": -557728340.4856415,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2471390815.3956003,
+            "ebit_margin": 0.128,
+            "ebitda": 3608616745.292482,
+            "fcff": 2706679885.4350967,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -12453492780.704391,
+            "present_value_fcff": 1953070601.075296,
+            "revenue": 19307740745.278126,
+            "revenue_growth": 0.055,
+            "year": 2029
+          },
+          {
+            "capex": 1001608358.9020481,
+            "cash_taxes": 515980063.67681265,
+            "da": 1187765872.0717216,
+            "delta_nwc": -496595091.96855354,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2579900318.3840632,
+            "ebit_margin": 0.1275,
+            "ebitda": 3767666190.455785,
+            "fcff": 2746672859.8454776,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -12950087872.672945,
+            "present_value_fcff": 1826662214.7107952,
+            "revenue": 20234512301.051476,
+            "revenue_growth": 0.048,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 60282659047.29256,
+        "terminal_value_present_value": 40090706503.05916,
+        "upside_downside_pct": 0.6191846665047978
+      }
+    },
+    "ticker": "EXPE"
+  },
+  "assumptions": {
+    "cash": 6976000000.0,
+    "current_price": 235.18,
+    "debt": 6161000000.0,
+    "diluted_shares": 131943000.0,
+    "investments": 320000000.0,
+    "minority_interest": 1263000000.0,
+    "net_debt_override": null,
+    "nol_balance": 419000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.126,
+    "tax_rate": 0.2,
+    "terminal_exit_ebitda_multiple": 15.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.085
+  },
+  "company_name": "Expedia Group, Inc.",
+  "comps": [
+    {
+      "company_name": "Booking Holdings Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E from StockAnalysis; EV/NTM multiples not provided in the free view (EV/Sales and EV/EBITDA shown there are not explicitly labeled NTM). ([stockanalysis.com](https://stockanalysis.com/stocks/bkng/statistics/?utm_source=openai))",
+      "pe_ntm": 16.15,
+      "source": "https://stockanalysis.com/stocks/bkng/statistics/",
+      "ticker": "BKNG"
+    },
+    {
+      "company_name": "Trip.com Group Limited",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E from StockAnalysis; EV/NTM multiples not provided in free view. ([stockanalysis.com](https://stockanalysis.com/stocks/tcom/statistics/?utm_source=openai))",
+      "pe_ntm": 12.67,
+      "source": "https://stockanalysis.com/stocks/tcom/statistics/",
+      "ticker": "TCOM"
+    },
+    {
+      "company_name": "Airbnb, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E from StockAnalysis; EV/NTM multiples not provided in free view. ([stockanalysis.com](https://stockanalysis.com/stocks/abnb/statistics/))",
+      "pe_ntm": 25.95,
+      "source": "https://stockanalysis.com/stocks/abnb/statistics/",
+      "ticker": "ABNB"
+    },
+    {
+      "company_name": "Tripadvisor, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E from StockAnalysis; EV/NTM multiples not provided in free view. ([stockanalysis.com](https://stockanalysis.com/stocks/trip/?utm_source=openai))",
+      "pe_ntm": 6.78,
+      "source": "https://stockanalysis.com/stocks/trip/",
+      "ticker": "TRIP"
+    },
+    {
+      "company_name": "trivago N.V.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E from StockAnalysis; EV/NTM multiples not provided in free view. ([stockanalysis.com](https://stockanalysis.com/stocks/trvg/statistics/?utm_source=openai))",
+      "pe_ntm": 41.52,
+      "source": "https://stockanalysis.com/stocks/trvg/statistics/",
+      "ticker": "TRVG"
+    },
+    {
+      "company_name": "Sabre Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E from StockAnalysis; EV/NTM multiples not provided in free view. ([stockanalysis.com](https://stockanalysis.com/stocks/sabr/?utm_source=openai))",
+      "pe_ntm": 20.75,
+      "source": "https://stockanalysis.com/stocks/sabr/",
+      "ticker": "SABR"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.052,
+      "2027": 0.0515,
+      "2028": 0.051,
+      "2029": 0.0505,
+      "2030": 0.05
+    },
+    "da_pct_sales": {
+      "2026": 0.06,
+      "2027": 0.0598,
+      "2028": 0.0596,
+      "2029": 0.0594,
+      "2030": 0.0592
+    },
+    "ebit_margin": {
+      "2026": 0.128,
+      "2027": 0.127,
+      "2028": 0.1265,
+      "2029": 0.126,
+      "2030": 0.1255
+    },
+    "nwc_pct_sales": {
+      "2026": -0.67,
+      "2027": -0.665,
+      "2028": -0.66,
+      "2029": -0.655,
+      "2030": -0.65
+    },
+    "revenue_growth": {
+      "2026": 0.075,
+      "2027": 0.065,
+      "2028": 0.055,
+      "2029": 0.045,
+      "2030": 0.038
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 846000000.0,
+      "2024": 756000000.0,
+      "2025": 770000000.0
+    },
+    "da": {
+      "2023": 807000000.0,
+      "2024": 838000000.0,
+      "2025": 887000000.0
+    },
+    "ebit": {
+      "2023": 1033000000.0,
+      "2024": 1319000000.0,
+      "2025": 1871000000.0
+    },
+    "nwc": {
+      "2023": -8242000000.0,
+      "2024": -8627000000.0,
+      "2025": -10062000000.0
+    },
+    "revenue": {
+      "2023": 12839000000.0,
+      "2024": 13691000000.0,
+      "2025": 14733000000.0
+    }
+  },
+  "notes": [
+    "EBIT in this package is defined as GAAP operating income (reported as 'Operating income' in Expedia filings). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm))",
+    "D&A uses 'Total depreciation and amortization' from the cash-flow-related disclosure (Depreciation + amortization). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm))",
+    "Capex uses 'Capital expenditures, including internal-use software and website development' from the consolidated statements of cash flows; values are converted to positive absolute dollars. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm))",
+    "NWC is computed as (Total current assets minus cash & restricted cash minus short-term investments) minus (Total current liabilities minus current maturities of long-term debt). Large negative NWC primarily reflects deferred merchant bookings (operating liability structure). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm))",
+    "Cash in assumptions is 'cash, cash equivalents, and restricted cash and cash equivalents' per the cash flow reconciliation to avoid undercounting cash-like balances; restricted cash was excluded from NWC by construction. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm))",
+    "Tax rate is normalized to 0.20 because effective tax rates in filings include discrete/one-off effects (e.g., 2023 elevated effective tax rate); model uses a single base-case normalized rate. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm))",
+    "Comps: forward P/E (NTM proxy) is taken from StockAnalysis; EV/NTM revenue and EV/NTM EBITDA were not consistently available as NTM-labeled free data for these peers, so those fields are set to null.",
+    "NOL balance uses the disclosed state and foreign NOL carryforwards (approx.) summed; NOL utilization percent is held at 0.80 as a modeling default. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained demand and lodging strength consistent with 2025 momentum (room nights and gross bookings growth) could keep revenue growth near the FY2026 guide range. ([s202.q4cdn.com](https://s202.q4cdn.com/757635260/files/doc_financials/2025/q4/Earnings-Release-Q4-2025_FINAL.pdf))",
+      "Outperformance vs FY2026 adjusted EBITDA margin expansion (+1.0 to +1.25 points) would support multiple and cash-flow expansion. ([s202.q4cdn.com](https://s202.q4cdn.com/757635260/files/doc_financials/2025/q4/Earnings-Release-Q4-2025_FINAL.pdf))",
+      "Any improvement/deterioration in working-capital dynamics (deferred merchant bookings) could materially impact FCF conversion. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm))"
+    ],
+    "company_overview": [
+      "Global travel marketplace connecting travelers, partners, and advertisers through Expedia, Hotels.com, and Vrbo, with a large B2B travel business and advertising network. ([s202.q4cdn.com](https://s202.q4cdn.com/757635260/files/doc_financials/2025/q4/Earnings-Release-Q4-2025_FINAL.pdf))",
+      "Revenue generated across merchant, agency, and advertising/media models; trivago contributes third-party advertising revenue. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm))",
+      "In FY2025, Expedia reported revenue of $14.733B and operating income (EBIT) of $1.871B, reflecting continued margin expansion. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm))",
+      "Liquidity profile includes $5.7B+ of cash & short-term investments at FY end, plus non-redeemable non-controlling interests (primarily tied to controlled subsidiaries). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm))"
+    ],
+    "current_context": [
+      "FY2025 revenue was $14.733B (+8% y/y) with operating income (EBIT) of $1.871B (+42% y/y). ([s202.q4cdn.com](https://s202.q4cdn.com/757635260/files/doc_financials/2025/q4/Earnings-Release-Q4-2025_FINAL.pdf))",
+      "FY2026 outlook (from Q4 2025 release): revenue $15.6B\u2013$16.0B (+6% to +9%) and adjusted EBITDA margin expansion of +1.0 to +1.25 points (full year). ([s202.q4cdn.com](https://s202.q4cdn.com/757635260/files/doc_financials/2025/q4/Earnings-Release-Q4-2025_FINAL.pdf))",
+      "Market context: EXPE last price $235.18 (as of 2026-03-21)."
+    ],
+    "investment_highlights": [
+      "Base-case growth is anchored to management\u2019s FY2026 revenue guidance and then tapers to more mature rates by 2030 (from 7.5% in 2026 down to 3.8% in 2030). ([s202.q4cdn.com](https://s202.q4cdn.com/757635260/files/doc_financials/2025/q4/Earnings-Release-Q4-2025_FINAL.pdf))",
+      "EBIT margin modeled near 12.6%\u201312.8%, consistent with the post-restructuring profitability level achieved in 2025 (EBIT margin ~12.7%). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm))",
+      "Investment intensity is held stable/declining (capex ~5.0%\u20135.2% of sales) while D&A remains ~5.9%\u20136.0% of sales, implying scalable technology spend. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm))",
+      "Working capital is persistently negative due largely to deferred merchant bookings; base-case keeps NWC as a modestly improving negative percentage of sales (cash flow support, not zero). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm))"
+    ],
+    "key_risks": [
+      "Operating risk from intense competition and pricing pressure across online travel agencies and metasearch platforms, which could limit margin expansion. ([s202.q4cdn.com](https://s202.q4cdn.com/757635260/files/doc_financials/2025/q4/Earnings-Release-Q4-2025_FINAL.pdf))",
+      "Regulatory/legal and tax-related cost volatility (including reserves) could pressure EBIT margins relative to the base case. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442425000008/expe-20241231.htm))",
+      "Macro/travel demand cyclicality and FX volatility can impact both growth and effective tax rate, affecting valuation outcomes. ([s202.q4cdn.com](https://s202.q4cdn.com/757635260/files/doc_financials/2025/q4/Earnings-Release-Q4-2025_FINAL.pdf))"
+    ],
+    "sources": [
+      {
+        "label": "Expedia Group FY2025 Form 10-K (SEC filing, filed Feb 13, 2026)",
+        "notes": "Historical revenue, operating income (EBIT), D&A, capex, balance sheet items used for NWC, effective tax rate, diluted shares, non-controlling interest, and NOL carryforwards. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm"
+      },
+      {
+        "label": "Expedia Group Q4 2025 earnings release (includes FY2026 outlook)",
+        "notes": "FY2026 revenue guidance and adjusted EBITDA margin expansion; operating highlights for current context. ([s202.q4cdn.com](https://s202.q4cdn.com/757635260/files/doc_financials/2025/q4/Earnings-Release-Q4-2025_FINAL.pdf))",
+        "url": "https://s202.q4cdn.com/757635260/files/doc_financials/2025/q4/Earnings-Release-Q4-2025_FINAL.pdf"
+      },
+      {
+        "label": "StockAnalysis \u2014 Booking Holdings forward P/E (comps)",
+        "notes": "Forward PE used for TRAVEL comps screen. ([stockanalysis.com](https://stockanalysis.com/stocks/bkng/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/bkng/statistics/"
+      },
+      {
+        "label": "StockAnalysis \u2014 Trip.com forward P/E (comps)",
+        "notes": "Forward PE used for TRAVEL comps screen. ([stockanalysis.com](https://stockanalysis.com/stocks/tcom/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/tcom/statistics/"
+      },
+      {
+        "label": "StockAnalysis \u2014 Airbnb forward P/E (comps)",
+        "notes": "Forward PE used for TRAVEL comps screen. ([stockanalysis.com](https://stockanalysis.com/stocks/abnb/statistics/))",
+        "url": "https://stockanalysis.com/stocks/abnb/statistics/"
+      },
+      {
+        "label": "StockAnalysis \u2014 Tripadvisor forward P/E (comps)",
+        "notes": "Forward PE used for TRAVEL comps screen. ([stockanalysis.com](https://stockanalysis.com/stocks/trip/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/trip/"
+      },
+      {
+        "label": "StockAnalysis \u2014 trivago forward P/E (comps)",
+        "notes": "Forward PE used for TRAVEL comps screen. ([stockanalysis.com](https://stockanalysis.com/stocks/trvg/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/trvg/statistics/"
+      },
+      {
+        "label": "StockAnalysis \u2014 Sabre forward P/E (comps)",
+        "notes": "Forward PE used for TRAVEL comps screen. ([stockanalysis.com](https://stockanalysis.com/stocks/sabr/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/sabr/"
+      }
+    ],
+    "subtitle": "Expedia Group (EXPE) \u2014 DCF inputs & comps (FY2023-2030)",
+    "valuation_summary": [
+      "DCF base-case chains revenue growth to absolute forecast revenues (QA-ready via validation_support.forecast_revenue).",
+      "Terminal assumptions (2% terminal growth and 15.0x exit EBITDA multiple) are set to be economically sensible for a mature global travel marketplace rather than assuming outsized perpetual growth.",
+      "Comps are used primarily for forward earnings perspective (forward P/E); EV/NTM revenue and EV/NTM EBITDA were not consistently available from the free peer sources used here (set to null)."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 235.18,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.124,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 14.0,
+        "terminal_growth": 0.019,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.085
+      },
+      "description": "Modestly slower growth, slightly weaker margin trajectory, and more negative working-capital profile; lower terminal multiple and growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0525,
+          "2027": 0.052,
+          "2028": 0.0515,
+          "2029": 0.051,
+          "2030": 0.0505
+        },
+        "da_pct_sales": {
+          "2026": 0.0605,
+          "2027": 0.0603,
+          "2028": 0.0601,
+          "2029": 0.0599,
+          "2030": 0.0597
+        },
+        "ebit_margin": {
+          "2026": 0.126,
+          "2027": 0.125,
+          "2028": 0.1245,
+          "2029": 0.124,
+          "2030": 0.1235
+        },
+        "nwc_pct_sales": {
+          "2026": -0.675,
+          "2027": -0.67,
+          "2028": -0.665,
+          "2029": -0.66,
+          "2030": -0.655
+        },
+        "revenue_growth": {
+          "2026": 0.065,
+          "2027": 0.055,
+          "2028": 0.045,
+          "2029": 0.035,
+          "2030": 0.028
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 235.18,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.128,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 16.0,
+        "terminal_growth": 0.021,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.085
+      },
+      "description": "Modestly faster top-line growth, slightly better margin trajectory, and a less negative working-capital drag; higher terminal multiple and growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0515,
+          "2027": 0.051,
+          "2028": 0.0505,
+          "2029": 0.05,
+          "2030": 0.0495
+        },
+        "da_pct_sales": {
+          "2026": 0.0595,
+          "2027": 0.0593,
+          "2028": 0.0591,
+          "2029": 0.0589,
+          "2030": 0.0587
+        },
+        "ebit_margin": {
+          "2026": 0.13,
+          "2027": 0.129,
+          "2028": 0.1285,
+          "2029": 0.128,
+          "2030": 0.1275
+        },
+        "nwc_pct_sales": {
+          "2026": -0.66,
+          "2027": -0.655,
+          "2028": -0.65,
+          "2029": -0.645,
+          "2030": -0.64
+        },
+        "revenue_growth": {
+          "2026": 0.085,
+          "2027": 0.075,
+          "2028": 0.065,
+          "2029": 0.055,
+          "2030": 0.048
+        }
+      }
+    }
+  },
+  "ticker": "EXPE"
+}

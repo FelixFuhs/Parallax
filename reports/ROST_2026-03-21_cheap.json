@@ -1,0 +1,678 @@
+{
+  "_meta": {
+    "cost_usd": 0.025209,
+    "generated_at": "2026-03-21T17:22:35Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11707,
+      "prompt": 2515,
+      "reasoning": 8058
+    }
+  },
+  "_valuation": {
+    "company_name": "Ross Stores, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 211.19,
+        "description": "Base case",
+        "enterprise_value": 44477221970.735596,
+        "equity_value": 47554007970.735596,
+        "exit_multiple_terminal_value": 54207782901.811356,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 47554007970.735596,
+        "investments_adjustment": 0.0,
+        "net_debt": -3076786000.0,
+        "per_share_value": 146.58342366201296,
+        "projected_years": [
+          {
+            "capex": 868161331.4399999,
+            "cash_taxes": 697422936.2567999,
+            "da": 540189272.896,
+            "delta_nwc": -78387419.25600004,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2905928901.0699997,
+            "ebit_margin": 0.1205,
+            "ebitda": 3446118173.9659996,
+            "fcff": 1958921325.5252,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1360119419.256,
+            "present_value_fcff": 1805457442.8803685,
+            "revenue": 24115592540.0,
+            "revenue_growth": 0.06,
+            "year": 2026
+          },
+          {
+            "capex": 911569398.012,
+            "cash_taxes": 738371212.3897198,
+            "da": 567198736.5408,
+            "delta_nwc": -57877422.095999956,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 3076546718.2904997,
+            "ebit_margin": 0.1215,
+            "ebitda": 3643745454.8313,
+            "fcff": 2051682266.5255797,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1417996841.352,
+            "present_value_fcff": 1742812348.1285055,
+            "revenue": 25321372167.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 952590020.92254,
+            "cash_taxes": 777948517.0867409,
+            "da": 592722679.685136,
+            "delta_nwc": -55871607.68648553,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 3241452154.528087,
+            "ebit_margin": 0.1225,
+            "ebitda": 3834174834.213223,
+            "fcff": 2159507903.8904276,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1473868449.0384855,
+            "present_value_fcff": 1690696226.580985,
+            "revenue": 26460833914.515,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 990693621.7594415,
+            "cash_taxes": 815671081.9152735,
+            "da": 616431586.8725414,
+            "delta_nwc": -50698957.78021073,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 3398629507.9803066,
+            "ebit_margin": 0.1235,
+            "ebitda": 4015061094.852848,
+            "fcff": 2259395348.9583435,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1524567406.8186963,
+            "present_value_fcff": 1630321581.8029594,
+            "revenue": 27519267271.0956,
+            "revenue_growth": 0.04,
+            "year": 2029
+          },
+          {
+            "capex": 1025367898.5210218,
+            "cash_taxes": 847637462.7773781,
+            "da": 638006692.4130803,
+            "delta_nwc": -44815126.75097895,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 3531822761.5724087,
+            "ebit_margin": 0.124,
+            "ebitda": 4169829453.985489,
+            "fcff": 2341639219.438068,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1569382533.5696752,
+            "present_value_fcff": 1557296445.8799932,
+            "revenue": 28482441625.583942,
+            "revenue_growth": 0.035,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 54207782901.811356,
+        "terminal_value_present_value": 36050637925.46278,
+        "upside_downside_pct": -0.3059168347837825
+      },
+      "bear": {
+        "current_price": 211.19,
+        "description": "Modestly weaker revenue growth and margin compression; slightly worse NWC efficiency (more negative NWC).",
+        "enterprise_value": 42882763458.7125,
+        "equity_value": 45959549458.7125,
+        "exit_multiple_terminal_value": 52201415736.972015,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 45959549458.7125,
+        "investments_adjustment": 0.0,
+        "net_debt": -3076786000.0,
+        "per_share_value": 141.66856584975002,
+        "projected_years": [
+          {
+            "capex": 864066230.8199999,
+            "cash_taxes": 682612322.3477999,
+            "da": 537641210.288,
+            "delta_nwc": -107974521.2355001,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2844218009.7825,
+            "ebit_margin": 0.1185,
+            "ebitda": 3381859220.0705,
+            "fcff": 1943155188.1382003,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1389706521.2355,
+            "present_value_fcff": 1790926440.680369,
+            "revenue": 24001839745.0,
+            "revenue_growth": 0.055,
+            "year": 2026
+          },
+          {
+            "capex": 902949211.2068999,
+            "cash_taxes": 719349538.2614969,
+            "da": 561835064.75096,
+            "delta_nwc": -52504024.44218731,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2997289742.756237,
+            "ebit_margin": 0.1195,
+            "ebitda": 3559124807.507197,
+            "fcff": 1989330082.4809873,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1442210545.6776874,
+            "present_value_fcff": 1689846955.7484658,
+            "revenue": 25081922533.524998,
+            "revenue_growth": 0.045,
+            "year": 2027
+          },
+          {
+            "capex": 939067179.6551758,
+            "cash_taxes": 754383967.6563245,
+            "da": 584308467.3409983,
+            "delta_nwc": -49862861.9966476,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 3143266531.9013524,
+            "ebit_margin": 0.1205,
+            "ebitda": 3727574999.2423506,
+            "fcff": 2083986713.927498,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1492073407.674335,
+            "present_value_fcff": 1631570075.355882,
+            "revenue": 26085199434.865997,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 971934530.9431069,
+            "cash_taxes": 787266970.0639166,
+            "da": 604759263.6979332,
+            "delta_nwc": -44123114.84407568,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 3280279041.932986,
+            "ebit_margin": 0.1215,
+            "ebitda": 3885038305.630919,
+            "fcff": 2169959919.467971,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1536196522.5184107,
+            "present_value_fcff": 1565787275.7802467,
+            "revenue": 26998181415.086304,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 1001092566.8714001,
+            "cash_taxes": 814221954.3887389,
+            "da": 622902041.6088712,
+            "delta_nwc": -37743457.61829066,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 3392591476.6197453,
+            "ebit_margin": 0.122,
+            "ebitda": 4015493518.2286167,
+            "fcff": 2237922454.586769,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1573939980.1367013,
+            "present_value_fcff": 1488320086.097354,
+            "revenue": 27808126857.538895,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 52201415736.972015,
+        "terminal_value_present_value": 34716312625.050186,
+        "upside_downside_pct": -0.3291890437532552
+      },
+      "bull": {
+        "current_price": 211.19,
+        "description": "Modestly stronger revenue growth and margin expansion; slightly improved NWC efficiency (less negative NWC).",
+        "enterprise_value": 46116426469.64652,
+        "equity_value": 49193212469.64652,
+        "exit_multiple_terminal_value": 56274328517.90065,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 49193212469.64652,
+        "investments_adjustment": 0.0,
+        "net_debt": -3076786000.0,
+        "per_share_value": 151.6362092795871,
+        "projected_years": [
+          {
+            "capex": 872256432.06,
+            "cash_taxes": 712342752.849,
+            "da": 542737335.504,
+            "delta_nwc": -48459058.891499996,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2968094803.5375,
+            "ebit_margin": 0.1225,
+            "ebitda": 3510832139.0415,
+            "fcff": 1974692013.0240002,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1330191058.8915,
+            "present_value_fcff": 1819992638.7317975,
+            "revenue": 24229345335.0,
+            "revenue_growth": 0.065,
+            "year": 2026
+          },
+          {
+            "capex": 920230535.8232999,
+            "cash_taxes": 757656474.494517,
+            "da": 572587888.95672,
+            "delta_nwc": -62935724.507662535,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 3156901977.0604873,
+            "ebit_margin": 0.1235,
+            "ebitda": 3729489866.017207,
+            "fcff": 2114538580.207053,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1393126783.3991625,
+            "present_value_fcff": 1796205976.093825,
+            "revenue": 25561959328.425,
+            "revenue_growth": 0.055,
+            "year": 2027
+          },
+          {
+            "capex": 966242062.6144649,
+            "cash_taxes": 801980911.9700059,
+            "da": 601217283.4045559,
+            "delta_nwc": -61604321.9815042,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 3341587133.208358,
+            "ebit_margin": 0.1245,
+            "ebitda": 3942804416.6129136,
+            "fcff": 2236185764.009947,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1454731105.3806667,
+            "present_value_fcff": 1750727944.2388952,
+            "revenue": 26840057294.84625,
+            "revenue_growth": 0.05,
+            "year": 2028
+          },
+          {
+            "capex": 1009722955.4321157,
+            "cash_taxes": 844801539.3782035,
+            "da": 628272061.1577609,
+            "delta_nwc": -57048541.780195475,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 3520006414.075848,
+            "ebit_margin": 0.1255,
+            "ebitda": 4148278475.233609,
+            "fcff": 2350802522.2034855,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1511779647.1608622,
+            "present_value_fcff": 1696278647.4142795,
+            "revenue": 28047859873.114326,
+            "revenue_growth": 0.045,
+            "year": 2029
+          },
+          {
+            "capex": 1050111873.6494004,
+            "cash_taxes": 882093973.8654963,
+            "da": 653402943.6040714,
+            "delta_nwc": -51720253.60602307,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 3675391557.7729015,
+            "ebit_margin": 0.126,
+            "ebitda": 4328794501.376973,
+            "fcff": 2448308907.4680996,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1563499900.7668853,
+            "present_value_fcff": 1628236633.707971,
+            "revenue": 29169774268.038902,
+            "revenue_growth": 0.04,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 56274328517.90065,
+        "terminal_value_present_value": 37424984629.459755,
+        "upside_downside_pct": -0.28199152763110424
+      }
+    },
+    "ticker": "ROST"
+  },
+  "assumptions": {
+    "cash": 4594392000.0,
+    "current_price": 211.19,
+    "debt": 1517606000.0,
+    "diluted_shares": 324416000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.124,
+    "tax_rate": 0.24,
+    "terminal_exit_ebitda_multiple": 13.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.085
+  },
+  "company_name": "Ross Stores, Inc.",
+  "comps": [
+    {
+      "company_name": "TJX Companies Inc",
+      "ev_ntm_ebitda": 19.4,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue unavailable in captured sources (set null). EV/NTM EBITDA approximated using Alpha Spread forward EV/EBITDA (Mar 2027 shown as forward). P/E taken from Alpha Spread peer comparison for TJX.",
+      "pe_ntm": 33.8,
+      "source": "Alpha Spread (EV/EBITDA; forward and P/E shown in peer comparison)",
+      "ticker": "TJX"
+    },
+    {
+      "company_name": "Burlington Stores Inc",
+      "ev_ntm_ebitda": 15.2,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue unavailable in captured sources (set null). EV/NTM EBITDA and P/E taken from Alpha Spread peer comparison table (forward not explicitly labeled as NTM).",
+      "pe_ntm": 30.2,
+      "source": "Alpha Spread (TJX peer comparison includes BURL)",
+      "ticker": "BURL"
+    },
+    {
+      "company_name": "Dollar Tree Inc",
+      "ev_ntm_ebitda": 9.3,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue unavailable in captured sources (set null). EV/NTM EBITDA approximated using Alpha Spread forward EV/EBITDA (Jan 2027 shown as forward). P/E taken from Alpha Spread peer comparison for DLTR.",
+      "pe_ntm": 16.4,
+      "source": "Alpha Spread (DLTR EV/EBITDA forward and P/E in peer comparison)",
+      "ticker": "DLTR"
+    },
+    {
+      "company_name": "Dollar General Corp",
+      "ev_ntm_ebitda": 9.5,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue unavailable in captured sources (set null). EV/NTM EBITDA approximated from Alpha Spread peer comparison (not explicitly forward/NTM labeled for DG in captured excerpt).",
+      "pe_ntm": 18.1,
+      "source": "Alpha Spread (DG row appears in DLTR peer comparison table)",
+      "ticker": "DG"
+    },
+    {
+      "company_name": "Five Below Inc",
+      "ev_ntm_ebitda": 16.2,
+      "ev_ntm_revenue": null,
+      "notes": "EV/NTM Revenue unavailable in captured sources (set null). EV/NTM EBITDA approximated using Alpha Spread forward EV/EBITDA (Mar 2027 shown as forward). P/E taken from Alpha Spread peer comparison for FIVE.",
+      "pe_ntm": 42.1,
+      "source": "Alpha Spread (FIVE EV/EBITDA forward and P/E in peer comparison)",
+      "ticker": "FIVE"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.036,
+      "2027": 0.036,
+      "2028": 0.036,
+      "2029": 0.036,
+      "2030": 0.036
+    },
+    "da_pct_sales": {
+      "2026": 0.0224,
+      "2027": 0.0224,
+      "2028": 0.0224,
+      "2029": 0.0224,
+      "2030": 0.0224
+    },
+    "ebit_margin": {
+      "2026": 0.1205,
+      "2027": 0.1215,
+      "2028": 0.1225,
+      "2029": 0.1235,
+      "2030": 0.124
+    },
+    "nwc_pct_sales": {
+      "2026": -0.0564,
+      "2027": -0.056,
+      "2028": -0.0557,
+      "2029": -0.0554,
+      "2030": -0.0551
+    },
+    "revenue_growth": {
+      "2026": 0.06,
+      "2027": 0.05,
+      "2028": 0.045,
+      "2029": 0.04,
+      "2030": 0.035
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 762812000.0,
+      "2024": 720104000.0,
+      "2025": 819275000.0
+    },
+    "da": {
+      "2023": 419432000.0,
+      "2024": 446788000.0,
+      "2025": 509391000.0
+    },
+    "ebit": {
+      "2023": 2307663000.0,
+      "2024": 2585586000.0,
+      "2025": 2707357000.0
+    },
+    "nwc": {
+      "2023": -1410391000.0,
+      "2024": -1154142000.0,
+      "2025": -1281732000.0
+    },
+    "revenue": {
+      "2023": 20376941000.0,
+      "2024": 21129219000.0,
+      "2025": 22750559000.0
+    }
+  },
+  "notes": [
+    "Fiscal-year mapping: historical keys correspond to Ross fiscal 2023 (year ended Feb 3, 2024), fiscal 2024 (year ended Feb 1, 2025), and fiscal 2025 (year ended Jan 31, 2026).",
+    "EBIT is proxied using \u201cOperating income\u201d from the company\u2019s consolidated statements (i.e., earnings before interest and taxes).",
+    "D&A is taken from cash flow \u201cDepreciation and amortization\u201d (unaudited condensed for FY2025; audited for FY2023\u2013FY2024).",
+    "Capex is taken as cash flow \u201cAdditions to property and equipment\u201d presented as an absolute outflow in the schema.",
+    "NWC construction (historical and forecast NWC%): (Total current assets \u2212 cash and cash equivalents) \u2212 (Total current liabilities \u2212 current portion of long-term debt). This excludes interest-bearing debt from working capital, but includes operating lease liabilities in current liabilities as presented by the company.",
+    "NWC values are end-of-year balance sheet snapshots (not averages). If your DCF uses average NWC, consider re-averaging between beginning/end of year.",
+    "Tax rate in base-case is the effective tax rate implied by (provision for taxes on earnings) / (earnings before taxes) averaged across FY2023\u2013FY2025 where available in the captured filings/exhibit.",
+    "Terminal assumptions: terminal growth set to 0.02 and exit EV/EBITDA multiple set to 13.0; terminal method is exit_multiple.",
+    "Comps limitations: EV/NTM Revenue multiples were not captured from the used sources and are set to null. EV/NTM EBITDA is approximated using Alpha Spread \u201cForward EV/EBITDA\u201d figures as a next-12-month proxy.",
+    "NOLs: Ross\u2019s NOL balance and utilization are not found in the captured FY2024 10-K text search, so nol_balance and nol_utilization_pct are set to null."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained comparable sales outperformance within guidance ranges (especially if discretionary demand stabilizes).",
+      "Continued market share gains via new store openings and distribution/inventory execution.",
+      "Ongoing capital return (repurchases/dividend) funded by operating cash generation."
+    ],
+    "company_overview": [
+      "Ross Stores, Inc. is an off-price retailer operating Ross Dress for Less and dd\u2019s DISCOUNTS, focused on branded/apparel and home fashions offered at everyday discounts.",
+      "The company targets value-driven customers and relies on merchandising discipline plus a growing store base to drive sales and operating leverage.",
+      "Store base at fiscal 2025 year-end totaled 2,267 stores (Ross and dd\u2019s combined)."
+    ],
+    "current_context": [
+      "Fiscal 2025 results: sales of 22,750,559,000 and operating income (EBIT proxy) of 2,707,357,000; diluted EPS was 6.61.",
+      "Guidance for fiscal 2026: management projected 52-week same-store sales growth of 3% to 4% on top of a 5% gain in 2025 and fiscal 2026 EPS of 7.02 to 7.36.",
+      "Near-term setup: for the 13 weeks ending May 2, 2026, same-store sales are forecasted to increase 7% to 8%."
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth reflects continued store expansion and mid-single-digit same-store dynamics consistent with management\u2019s outlook.",
+      "EBIT margin slowly normalizes higher over the forecast horizon, consistent with off-price scale benefits and cost discipline.",
+      "Maintenance-like capital intensity is modeled via capex at ~3.6% of sales, with D&A at ~2.2% of sales.",
+      "Working capital is modeled as persistently negative (supplier-funded), with gradual improvement in NWC efficiency over time."
+    ],
+    "key_risks": [
+      "Consumer demand weakening or promotional intensity increasing, pressuring margins and inventory economics.",
+      "Merchandise supply disruptions and cost inflation (including tariff/sourcing impacts) could reduce gross profitability.",
+      "Working capital dynamics could deteriorate (inventory growth, payable normalization), reducing free cash flow."
+    ],
+    "sources": [
+      {
+        "label": "Ross Stores FY2024 Form 10-K (SEC) \u2014 fiscal years ended Feb 1, 2025 / Feb 3, 2024 / Jan 28, 2023",
+        "notes": "Supports FY2023\u2013FY2024 revenue and operating income, depreciation/amortization, capex (additions to property and equipment), and balance sheet items used to compute NWC.",
+        "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573225000010/rost-20250201.htm"
+      },
+      {
+        "label": "Ross Stores Q4 FY2025 earnings release (Exhibit 99.1, SEC) \u2014 fiscal year ended Jan 31, 2026",
+        "notes": "Supports FY2025 revenue, operating income, depreciation/amortization, capex, and balance sheet (cash/debt and current assets/liabilities) used for NWC; also includes FY2026 guidance.",
+        "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573226000003/q4fy25exhibit991.htm"
+      },
+      {
+        "label": "Alpha Spread \u2014 TJX EV/EBITDA forward and P/E peer table",
+        "notes": "Used for comps EV/EBITDA forward proxy and P/E for TJX (and peer comparison table entries including BURL).",
+        "url": "https://www.alphaspread.com/security/nyse/tjx/relative-valuation/ratio/enterprise-value-to-ebitda"
+      },
+      {
+        "label": "Alpha Spread \u2014 BURL EV/EBITDA (used as supporting context for BURL level multiple)",
+        "notes": "Supporting context for BURL EV/EBITDA multiple; for the comps table values, BURL EV/EBITDA and P/E were taken from the TJX peer comparison excerpt.",
+        "url": "https://www.alphaspread.com/security/nyse/burl/relative-valuation/ratio/enterprise-value-to-ebitda"
+      },
+      {
+        "label": "Alpha Spread \u2014 DLTR EV/EBITDA forward and P/E peer table",
+        "notes": "Used for comps EV/EBITDA forward proxy and P/E for DLTR; includes DG in peer comparison table.",
+        "url": "https://www.alphaspread.com/security/nasdaq/dltr/relative-valuation/ratio/enterprise-value-to-ebitda"
+      },
+      {
+        "label": "Alpha Spread \u2014 FIVE EV/EBITDA forward and P/E peer table",
+        "notes": "Used for comps EV/EBITDA forward proxy and P/E for FIVE.",
+        "url": "https://www.alphaspread.com/security/nasdaq/five/relative-valuation/ratio/enterprise-value-to-ebitda"
+      }
+    ],
+    "subtitle": "Ross Stores (ROST) DCF input package \u2014 FY25 actuals, FY26\u201330 base case",
+    "valuation_summary": [
+      "The DCF base case uses FY25 financials directly from management reporting, with a conservative terminal growth assumption of 0.02 and an exit EV/EBITDA multiple of 13.0.",
+      "Peer context uses forward EV/EBITDA and P/E signals from discount/off-price retail comparables; EV/NTM revenue multiples were not captured and are set to null."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 211.19,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.122,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 13.0,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.085
+      },
+      "description": "Modestly weaker revenue growth and margin compression; slightly worse NWC efficiency (more negative NWC).",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.036,
+          "2027": 0.036,
+          "2028": 0.036,
+          "2029": 0.036,
+          "2030": 0.036
+        },
+        "da_pct_sales": {
+          "2026": 0.0224,
+          "2027": 0.0224,
+          "2028": 0.0224,
+          "2029": 0.0224,
+          "2030": 0.0224
+        },
+        "ebit_margin": {
+          "2026": 0.1185,
+          "2027": 0.1195,
+          "2028": 0.1205,
+          "2029": 0.1215,
+          "2030": 0.122
+        },
+        "nwc_pct_sales": {
+          "2026": -0.0579,
+          "2027": -0.0575,
+          "2028": -0.0572,
+          "2029": -0.0569,
+          "2030": -0.0566
+        },
+        "revenue_growth": {
+          "2026": 0.055,
+          "2027": 0.045,
+          "2028": 0.04,
+          "2029": 0.035,
+          "2030": 0.03
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 211.19,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.126,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 13.0,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.085
+      },
+      "description": "Modestly stronger revenue growth and margin expansion; slightly improved NWC efficiency (less negative NWC).",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.036,
+          "2027": 0.036,
+          "2028": 0.036,
+          "2029": 0.036,
+          "2030": 0.036
+        },
+        "da_pct_sales": {
+          "2026": 0.0224,
+          "2027": 0.0224,
+          "2028": 0.0224,
+          "2029": 0.0224,
+          "2030": 0.0224
+        },
+        "ebit_margin": {
+          "2026": 0.1225,
+          "2027": 0.1235,
+          "2028": 0.1245,
+          "2029": 0.1255,
+          "2030": 0.126
+        },
+        "nwc_pct_sales": {
+          "2026": -0.0549,
+          "2027": -0.0545,
+          "2028": -0.0542,
+          "2029": -0.0539,
+          "2030": -0.0536
+        },
+        "revenue_growth": {
+          "2026": 0.065,
+          "2027": 0.055,
+          "2028": 0.05,
+          "2029": 0.045,
+          "2030": 0.04
+        }
+      }
+    }
+  },
+  "ticker": "ROST"
+}

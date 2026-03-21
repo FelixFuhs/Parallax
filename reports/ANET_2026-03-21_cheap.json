@@ -1,0 +1,697 @@
+{
+  "_meta": {
+    "cost_usd": 0.020402,
+    "generated_at": "2026-03-21T17:33:02Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 9891,
+      "prompt": 2515,
+      "reasoning": 6028
+    }
+  },
+  "_valuation": {
+    "company_name": "Arista Networks, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 131.22,
+        "description": "Base case",
+        "enterprise_value": 147650006016.22235,
+        "equity_value": 158393006016.22235,
+        "exit_multiple_terminal_value": 188861255372.40198,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 158393006016.22235,
+        "investments_adjustment": 8779100000.0,
+        "net_debt": -1963900000.0,
+        "per_share_value": 124.16164146446842,
+        "projected_years": [
+          {
+            "capex": 78799875.0,
+            "cash_taxes": 647154900.0000001,
+            "da": 101314124.99999999,
+            "delta_nwc": 295356250.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 4953135000.0,
+            "ebit_margin": 0.44,
+            "ebitda": 5054449125.0,
+            "fcff": 4033138100.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 330600000.0,
+            "nwc": 562856250.0,
+            "present_value_fcff": 3717177972.35023,
+            "revenue": 11257125000.0,
+            "revenue_growth": 0.25,
+            "year": 2026
+          },
+          {
+            "capex": 79700445.0,
+            "cash_taxes": 823836933.1500001,
+            "da": 119550667.49999999,
+            "delta_nwc": 34897087.5,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 5884549522.5,
+            "ebit_margin": 0.443,
+            "ebitda": 6004100190.0,
+            "fcff": 5065665724.35,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 597753337.5,
+            "present_value_fcff": 4303056530.697191,
+            "revenue": 13283407500.0,
+            "revenue_growth": 0.18,
+            "year": 2027
+          },
+          {
+            "capex": 90858507.30000001,
+            "cash_taxes": 943414167.4650003,
+            "da": 136287760.95000002,
+            "delta_nwc": 53399298.149999976,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 6738672624.750001,
+            "ebit_margin": 0.445,
+            "ebitda": 6874960385.700001,
+            "fcff": 5787288412.785001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 651152635.65,
+            "present_value_fcff": 4530914966.323699,
+            "revenue": 15143084550.000002,
+            "revenue_growth": 0.14,
+            "year": 2028
+          },
+          {
+            "capex": 101761528.17600003,
+            "cash_taxes": 1058998303.2182404,
+            "da": 152642292.26400003,
+            "delta_nwc": 61178061.582000256,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 7564273594.416002,
+            "ebit_margin": 0.446,
+            "ebitda": 7716915886.680002,
+            "fcff": 6494977993.703762,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 712330697.2320002,
+            "present_value_fcff": 4686609097.1428995,
+            "revenue": 16960254696.000004,
+            "revenue_growth": 0.12,
+            "year": 2029
+          },
+          {
+            "capex": 112955296.27536003,
+            "cash_taxes": 1178123740.1520052,
+            "da": 169432944.41304004,
+            "delta_nwc": 59530493.982959986,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 8415169572.514322,
+            "ebit_margin": 0.447,
+            "ebitda": 8584602516.927362,
+            "fcff": 7233992986.517037,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 771861191.2149602,
+            "present_value_fcff": 4810933927.783802,
+            "revenue": 18825882712.560005,
+            "revenue_growth": 0.11,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 188861255372.40198,
+        "terminal_value_present_value": 125601313521.92451,
+        "upside_downside_pct": -0.05379026471217485
+      },
+      "bear": {
+        "current_price": 131.22,
+        "description": "Modestly slower growth and margin pressure; higher WACC and lower terminal multiple/growth.",
+        "enterprise_value": 119575934432.8628,
+        "equity_value": 130318934432.8628,
+        "exit_multiple_terminal_value": 151979659440.08606,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 130318934432.86278,
+        "investments_adjustment": 8779100000.0,
+        "net_debt": -1963900000.0,
+        "per_share_value": 102.15484395458398,
+        "projected_years": [
+          {
+            "capex": 87895632.0,
+            "cash_taxes": 607439763.0,
+            "da": 98882585.99999999,
+            "delta_nwc": 336782470.0,
+            "discount_factor": 0.9191176470588235,
+            "ebit": 4669455450.0,
+            "ebit_margin": 0.425,
+            "ebitda": 4768338036.0,
+            "fcff": 3736220171.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 330600000.0,
+            "nwc": 604282470.0,
+            "present_value_fcff": 3434025892.463235,
+            "revenue": 10986954000.0,
+            "revenue_growth": 0.22,
+            "year": 2026
+          },
+          {
+            "capex": 89214066.48,
+            "cash_taxes": 767240971.728,
+            "da": 114703799.75999999,
+            "delta_nwc": 32960862.0,
+            "discount_factor": 0.844777249134948,
+            "ebit": 5480292655.2,
+            "ebit_margin": 0.43,
+            "ebitda": 5594996454.96,
+            "fcff": 4705580554.752001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 637243332.0,
+            "present_value_fcff": 3975167396.626298,
+            "revenue": 12744866640.0,
+            "revenue_growth": 0.16,
+            "year": 2027
+          },
+          {
+            "capex": 97064904.33024,
+            "cash_taxes": 863306678.5136641,
+            "da": 128468255.7312,
+            "delta_nwc": 33646447.9296,
+            "discount_factor": 0.776449677513739,
+            "ebit": 6166476275.0976,
+            "ebit_margin": 0.432,
+            "ebitda": 6294944530.8288,
+            "fcff": 5300926500.055296,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 670889779.9296,
+            "present_value_fcff": 4115902671.491967,
+            "revenue": 14274250636.800001,
+            "revenue_growth": 0.12,
+            "year": 2028
+          },
+          {
+            "capex": 106771394.76326402,
+            "cash_taxes": 954033815.5611651,
+            "da": 141315081.30432,
+            "delta_nwc": 51387302.29248011,
+            "discount_factor": 0.71364860065601,
+            "ebit": 6814527254.008322,
+            "ebit_margin": 0.434,
+            "ebitda": 6955842335.312642,
+            "fcff": 5843649822.695733,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 722277082.2220801,
+            "present_value_fcff": 4170312518.690551,
+            "revenue": 15701675700.480003,
+            "revenue_growth": 0.1,
+            "year": 2029
+          },
+          {
+            "capex": 116380820.29195778,
+            "cash_taxes": 1042292934.6735632,
+            "da": 154033438.62170884,
+            "delta_nwc": 47890110.88646412,
+            "discount_factor": 0.6559270226617738,
+            "ebit": 7444949533.382594,
+            "ebit_margin": 0.435,
+            "ebitda": 7598982972.004303,
+            "fcff": 6392419106.152318,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 770167193.1085442,
+            "present_value_fcff": 4192960431.9047275,
+            "revenue": 17114826513.523205,
+            "revenue_growth": 0.09,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 151979659440.08606,
+        "terminal_value_present_value": 99687565521.686,
+        "upside_downside_pct": -0.22149943640768188
+      },
+      "bull": {
+        "current_price": 131.22,
+        "description": "Modestly higher growth and operating margin expansion; slightly lower WACC and higher terminal multiple.",
+        "enterprise_value": 165542953427.51624,
+        "equity_value": 176285953427.51624,
+        "exit_multiple_terminal_value": 210945998456.07782,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 176285953427.51624,
+        "investments_adjustment": 8779100000.0,
+        "net_debt": -1963900000.0,
+        "per_share_value": 138.18762516854764,
+        "projected_years": [
+          {
+            "capex": 80060673.0,
+            "cash_taxes": 666255989.7,
+            "da": 102935150.99999999,
+            "delta_nwc": 281487472.0,
+            "discount_factor": 0.9242144177449167,
+            "ebit": 5089571355.0,
+            "ebit_margin": 0.445,
+            "ebitda": 5192506506.0,
+            "fcff": 4164702371.3,
+            "nol_balance_end": 0.0,
+            "nol_used": 330600000.0,
+            "nwc": 548987472.0,
+            "present_value_fcff": 3849077977.1719036,
+            "revenue": 11437239000.0,
+            "revenue_growth": 0.27,
+            "year": 2026
+          },
+          {
+            "capex": 84383949.342,
+            "cash_taxes": 853638919.7952001,
+            "da": 122492829.69,
+            "delta_nwc": 49866362.03999996,
+            "discount_factor": 0.8541722899675755,
+            "ebit": 6097420855.68,
+            "ebit_margin": 0.448,
+            "ebitda": 6219913685.37,
+            "fcff": 5232024454.1928,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 598853834.04,
+            "present_value_fcff": 4469050309.204218,
+            "revenue": 13610314410.0,
+            "revenue_growth": 0.19,
+            "year": 2027
+          },
+          {
+            "capex": 97041541.74329999,
+            "cash_taxes": 986067279.0045,
+            "da": 140866754.14349997,
+            "delta_nwc": 58524351.96299994,
+            "discount_factor": 0.789438345626225,
+            "ebit": 7043337707.174999,
+            "ebit_margin": 0.45,
+            "ebitda": 7184204461.3185,
+            "fcff": 6042571288.607698,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 657378186.0029999,
+            "present_value_fcff": 4770237481.406988,
+            "revenue": 15651861571.499998,
+            "revenue_growth": 0.15,
+            "year": 2028
+          },
+          {
+            "capex": 109656942.16992897,
+            "cash_taxes": 1119208274.2763073,
+            "da": 159179432.18215492,
+            "delta_nwc": 67772560.60459495,
+            "discount_factor": 0.7296103009484519,
+            "ebit": 7994344816.259337,
+            "ebit_margin": 0.452,
+            "ebitda": 8153524248.441492,
+            "fcff": 6856886471.390661,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 725150746.6075948,
+            "present_value_fcff": 5002855001.960709,
+            "revenue": 17686603575.794994,
+            "revenue_growth": 0.13,
+            "year": 2029
+          },
+          {
+            "capex": 122815775.23032045,
+            "cash_taxes": 1259059786.0708337,
+            "da": 178280964.04401356,
+            "delta_nwc": 67209093.58802104,
+            "discount_factor": 0.6743163594717669,
+            "ebit": 8993284186.22024,
+            "ebit_margin": 0.454,
+            "ebitda": 9171565150.264254,
+            "fcff": 7722480495.375079,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 792359840.1956159,
+            "present_value_fcff": 5207394933.73305,
+            "revenue": 19808996004.890396,
+            "revenue_growth": 0.12,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 210945998456.07782,
+        "terminal_value_present_value": 142244337724.03937,
+        "upside_downside_pct": 0.053098804820512324
+      }
+    },
+    "ticker": "ANET"
+  },
+  "assumptions": {
+    "cash": 1963900000.0,
+    "current_price": 131.22,
+    "debt": 0.0,
+    "diluted_shares": 1275700000.0,
+    "investments": 8779100000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 330600000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.445,
+    "tax_rate": 0.14,
+    "terminal_exit_ebitda_multiple": 22.0,
+    "terminal_growth": 0.03,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.085
+  },
+  "company_name": "Arista Networks, Inc.",
+  "comps": [
+    {
+      "company_name": "Cloudflare, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": 35.4,
+      "notes": "EV/Revenue uses CY 2025E as a proxy for NTM; EV/EBITDA shown as NM in source.",
+      "pe_ntm": null,
+      "source": "Meridian Capital CommTech Market Update Q4 2025 (Pitchbook as of 9/30/2025)",
+      "ticker": "NET"
+    },
+    {
+      "company_name": "Akamai Technologies, Inc.",
+      "ev_ntm_ebitda": 8.9,
+      "ev_ntm_revenue": 3.7,
+      "notes": "EV/Revenue and EV/EBITDA use CY 2025E as proxy for NTM.",
+      "pe_ntm": null,
+      "source": "Meridian Capital CommTech Market Update Q4 2025 (Pitchbook as of 9/30/2025)",
+      "ticker": "AKAM"
+    },
+    {
+      "company_name": "Extreme Networks, Inc.",
+      "ev_ntm_ebitda": 15.0,
+      "ev_ntm_revenue": 2.3,
+      "notes": "EV/Revenue and EV/EBITDA use CY 2025E as proxy for NTM; some cells are NM in source, but CY 2025E EV/EBITDA is provided.",
+      "pe_ntm": null,
+      "source": "Meridian Capital CommTech Market Update Q4 2025 (Pitchbook as of 9/30/2025)",
+      "ticker": "EXTR"
+    },
+    {
+      "company_name": "N-able Inc.",
+      "ev_ntm_ebitda": 12.8,
+      "ev_ntm_revenue": 3.5,
+      "notes": "EV/Revenue and EV/EBITDA use CY 2025E as proxy for NTM.",
+      "pe_ntm": null,
+      "source": "Meridian Capital CommTech Market Update Q4 2025 (Pitchbook as of 9/30/2025)",
+      "ticker": "NABL"
+    },
+    {
+      "company_name": "NetScout Systems, Inc.",
+      "ev_ntm_ebitda": 6.8,
+      "ev_ntm_revenue": 1.7,
+      "notes": "EV/Revenue and EV/EBITDA use CY 2025E as proxy for NTM.",
+      "pe_ntm": null,
+      "source": "Meridian Capital CommTech Market Update Q4 2025 (Pitchbook as of 9/30/2025)",
+      "ticker": "NTCT"
+    },
+    {
+      "company_name": "Fastly, Inc.",
+      "ev_ntm_ebitda": 32.4,
+      "ev_ntm_revenue": 2.3,
+      "notes": "EV/Revenue and EV/EBITDA use CY 2025E as proxy for NTM.",
+      "pe_ntm": null,
+      "source": "Meridian Capital CommTech Market Update Q4 2025 (Pitchbook as of 9/30/2025)",
+      "ticker": "FSLY"
+    },
+    {
+      "company_name": "A10 Networks, Inc.",
+      "ev_ntm_ebitda": 15.0,
+      "ev_ntm_revenue": 4.2,
+      "notes": "EV/Revenue and EV/EBITDA use CY 2025E as proxy for NTM.",
+      "pe_ntm": null,
+      "source": "Meridian Capital CommTech Market Update Q4 2025 (Pitchbook as of 9/30/2025)",
+      "ticker": "ATEN"
+    },
+    {
+      "company_name": "Radware Ltd.",
+      "ev_ntm_ebitda": 23.0,
+      "ev_ntm_revenue": 3.1,
+      "notes": "EV/Revenue and EV/EBITDA use CY 2025E as proxy for NTM.",
+      "pe_ntm": null,
+      "source": "Meridian Capital CommTech Market Update Q4 2025 (Pitchbook as of 9/30/2025)",
+      "ticker": "RDWR"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.007,
+      "2027": 0.006,
+      "2028": 0.006,
+      "2029": 0.006,
+      "2030": 0.006
+    },
+    "da_pct_sales": {
+      "2026": 0.009,
+      "2027": 0.009,
+      "2028": 0.009,
+      "2029": 0.009,
+      "2030": 0.009
+    },
+    "ebit_margin": {
+      "2026": 0.44,
+      "2027": 0.443,
+      "2028": 0.445,
+      "2029": 0.446,
+      "2030": 0.447
+    },
+    "nwc_pct_sales": {
+      "2026": 0.05,
+      "2027": 0.045,
+      "2028": 0.043,
+      "2029": 0.042,
+      "2030": 0.041
+    },
+    "revenue_growth": {
+      "2026": 0.25,
+      "2027": 0.18,
+      "2028": 0.14,
+      "2029": 0.12,
+      "2030": 0.11
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 34400000.0,
+      "2024": 32000000.0,
+      "2025": 119500000.0
+    },
+    "da": {
+      "2023": 70600000.0,
+      "2024": 62000000.0,
+      "2025": 72600000.0
+    },
+    "ebit": {
+      "2023": 2257300000.0,
+      "2024": 2944600000.0,
+      "2025": 3856100000.0
+    },
+    "nwc": {
+      "2023": 1472661000.0,
+      "2024": 875120000.0,
+      "2025": 267500000.0
+    },
+    "revenue": {
+      "2023": 5860200000.0,
+      "2024": 7003100000.0,
+      "2025": 9005700000.0
+    }
+  },
+  "notes": [
+    "NWC construction: computed as (accounts receivable + inventories + prepaid/other current assets) - (accounts payable + accrued liabilities + other current liabilities + deferred revenue), excluding cash and marketable securities (deferred revenue treated as an operating current liability). Historical NWC uses year-end balance sheet values. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm))",
+    "Capex construction: capex equals cash flow line 'Purchases of property, equipment and intangible assets' (used as proxy for cash capital expenditures). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm))",
+    "Debt assumption: Arista\u2019s presented balance sheet lines in the referenced 10-K excerpt do not show interest-bearing debt; model debt set to 0 (lease obligations are not treated as 'debt' in this package). ([sec.gov](https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm))",
+    "Tax and NOL: tax_rate is a smoothed assumption based on recent effective tax rates (17.4% in FY2025) and should be treated as a DCF assumption, not a forecast of cash taxes. NOL balance is taken from disclosed net operating loss carryforwards from acquisitions (federal + state). NOL utilization percent is assumed (0.80) due to lack of a disclosed utilization schedule. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm))",
+    "Current price snapshot: set using market price from the finance snapshot at the latest available trade time (Friday, 2026-03-20).",
+    "Comps limitation: Meridian/Pitchbook table provides EV/Revenue and EV/EBITDA for CY 2025E; treated as a proxy for EV/NTM multiples for pipeline completeness. P/E NTM was not available in the source table and is set to null. ([meridianib.com](https://meridianib.com/wp-content/uploads/Meridian-Capital_CommTech_Market-Update_Q4-2025.pdf))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Sustained AI/data-center ordering momentum (switching/routing platform uptake) supporting upside to the deceleration path.",
+      "Additional product/service attach and continued operating leverage translating to higher GAAP operating margin than base-case.",
+      "Working-capital dynamics (deferred revenue and inventory) moving more favorably than modeled."
+    ],
+    "company_overview": [
+      "Arista provides data-driven, client-to-cloud networking solutions spanning AI/data center, campus, and routed backbone environments.",
+      "Revenue is generated from both product and service offerings, with operating profitability supported by operating leverage.",
+      "Large customers and evolving AI networking demand drive revenue growth and can create quarter-to-quarter volatility."
+    ],
+    "current_context": [
+      "FY2025 revenue was $9.006B (+28.6% y/y) with GAAP operating income of $3.856B and GAAP gross margin of 64.1%.",
+      "Management guided Q1 2026 revenue to approximately $2.6B and non-GAAP operating margin to approximately 46%.",
+      "Earnings-call commentary indicates FY2026 revenue growth guidance was increased to 25% targeting ~$11.25B."
+    ],
+    "investment_highlights": [
+      "Near-term growth lever: AI networking demand and the company\u2019s product/platform roadmap supporting data center buildouts.",
+      "Margin durability: historically high operating margins with incremental leverage as revenue scales.",
+      "Capital intensity normalization: capex trends suggest facilities/build-out activity can be modeled as a % of sales that normalizes over time.",
+      "Valuation calibration: public-comps EV/Revenue and EV/EBITDA multiples for cloud networking peers help anchor terminal multiple sensitivity."
+    ],
+    "key_risks": [
+      "Revenue growth volatility from customer concentration and timing uncertainty in large order acceptance/shipment.",
+      "Supply chain constraints (components/merchant silicon availability) and product-cycle shifts impacting shipments and gross margin.",
+      "Trade/export control changes or broad macro IT spending slowdowns affecting enterprise demand."
+    ],
+    "sources": [
+      {
+        "label": "Arista Networks FY2025 Form 10-K (SEC)",
+        "notes": "Historical revenue, income from operations (EBIT), cash flow D&A, capex (purchases of property/equipment/intangibles), balance sheet items used for NWC, and NOL carryforwards. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm"
+      },
+      {
+        "label": "Arista Networks FY2024 Form 10-K (SEC)",
+        "notes": "Balance sheet values for FY2023 used to compute historical NWC. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1596532/000159653225000028/anet-20241231.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000028/anet-20241231.htm"
+      },
+      {
+        "label": "Arista press release \u2014 FY2025 results and Q1 2026 outlook",
+        "notes": "FY2025 results and Q1 2026 revenue/margin guidance. ([investors.arista.com](https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Networks-Inc--Reports-Fourth-Quarter-and-Year-End-2025-Financial-Results/default.aspx))",
+        "url": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Networks-Inc--Reports-Fourth-Quarter-and-Year-End-2025-Financial-Results/default.aspx"
+      },
+      {
+        "label": "Earnings-call transcript summary (FY2026 growth commentary)",
+        "notes": "States FY2026 revenue guidance increased to 25% targeting ~$11.25B (used for base-case 2026 revenue growth). ([investing.com](https://www.investing.com/news/transcripts/earnings-call-transcript-arista-networks-beats-q4-2025-forecasts-stock-dips-93CH-4504169))",
+        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-arista-networks-beats-q4-2025-forecasts-stock-dips-93CH-4504169"
+      },
+      {
+        "label": "Meridian Capital \u2014 CommTech Market Update Q4 2025 (Pitchbook multiples table)",
+        "notes": "Peer EV/Revenue and EV/EBITDA multiples (CY 2025E used as proxy for NTM). ([meridianib.com](https://meridianib.com/wp-content/uploads/Meridian-Capital_CommTech_Market-Update_Q4-2025.pdf))",
+        "url": "https://meridianib.com/wp-content/uploads/Meridian-Capital_CommTech_Market-Update_Q4-2025.pdf"
+      }
+    ],
+    "subtitle": "Arista Networks (ANET) \u2014 DCF Inputs (AI Networking Growth, Margin Expansion, Cash-Rich Balance Sheet)",
+    "valuation_summary": [
+      "Base-case revenue growth chains directly from FY2025 and incorporates management\u2019s FY2026 growth target, then decelerates to reflect a maturing cycle.",
+      "EBIT margin converges to a stabilized level below peak enterprise outcomes, with D&A and capex ratios held at reasonable normalized levels.",
+      "Terminal value uses an exit EBITDA multiple and a moderate terminal growth rate to avoid overstating long-duration economics."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.42,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 20.0,
+        "terminal_growth": 0.025,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.088
+      },
+      "description": "Modestly slower growth and margin pressure; higher WACC and lower terminal multiple/growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.008,
+          "2027": 0.007,
+          "2028": 0.0068,
+          "2029": 0.0068,
+          "2030": 0.0068
+        },
+        "da_pct_sales": {
+          "2026": 0.009,
+          "2027": 0.009,
+          "2028": 0.009,
+          "2029": 0.009,
+          "2030": 0.009
+        },
+        "ebit_margin": {
+          "2026": 0.425,
+          "2027": 0.43,
+          "2028": 0.432,
+          "2029": 0.434,
+          "2030": 0.435
+        },
+        "nwc_pct_sales": {
+          "2026": 0.055,
+          "2027": 0.05,
+          "2028": 0.047,
+          "2029": 0.046,
+          "2030": 0.045
+        },
+        "revenue_growth": {
+          "2026": 0.22,
+          "2027": 0.16,
+          "2028": 0.12,
+          "2029": 0.1,
+          "2030": 0.09
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.45,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 23.0,
+        "terminal_growth": 0.032,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.082
+      },
+      "description": "Modestly higher growth and operating margin expansion; slightly lower WACC and higher terminal multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.007,
+          "2027": 0.0062,
+          "2028": 0.0062,
+          "2029": 0.0062,
+          "2030": 0.0062
+        },
+        "da_pct_sales": {
+          "2026": 0.009,
+          "2027": 0.009,
+          "2028": 0.009,
+          "2029": 0.009,
+          "2030": 0.009
+        },
+        "ebit_margin": {
+          "2026": 0.445,
+          "2027": 0.448,
+          "2028": 0.45,
+          "2029": 0.452,
+          "2030": 0.454
+        },
+        "nwc_pct_sales": {
+          "2026": 0.048,
+          "2027": 0.044,
+          "2028": 0.042,
+          "2029": 0.041,
+          "2030": 0.04
+        },
+        "revenue_growth": {
+          "2026": 0.27,
+          "2027": 0.19,
+          "2028": 0.15,
+          "2029": 0.13,
+          "2030": 0.12
+        }
+      }
+    }
+  },
+  "ticker": "ANET"
+}

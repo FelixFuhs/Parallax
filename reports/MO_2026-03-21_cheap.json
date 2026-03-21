@@ -1,0 +1,673 @@
+{
+  "_meta": {
+    "cost_usd": 0.02526,
+    "generated_at": "2026-03-21T17:13:22Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11644,
+      "prompt": 2514,
+      "reasoning": 8162
+    }
+  },
+  "_valuation": {
+    "company_name": "Altria Group, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 64.47,
+        "description": "Base case",
+        "enterprise_value": 138075038255.64877,
+        "equity_value": 125425038255.64877,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 152111157142.46008,
+        "implied_market_cap": 125425038255.64877,
+        "investments_adjustment": 8617000000.0,
+        "net_debt": 21217000000.0,
+        "per_share_value": 74.52468107881685,
+        "projected_years": [
+          {
+            "capex": 344994780.0,
+            "cash_taxes": 1997975182.6000001,
+            "da": 264495998.0,
+            "delta_nwc": 136063684.0,
+            "discount_factor": 0.9302325581395349,
+            "ebit": 10004848620.0,
+            "ebit_margin": 0.435,
+            "ebitda": 10269344618.0,
+            "fcff": 7790310971.4,
+            "nol_balance_end": 0.0,
+            "nol_used": 1318000000.0,
+            "nwc": -4208936316.0,
+            "present_value_fcff": 7246800903.627907,
+            "revenue": 22999652000.0,
+            "revenue_growth": -0.012,
+            "year": 2026
+          },
+          {
+            "capex": 299892462.4279999,
+            "cash_taxes": 2361076425.3465996,
+            "da": 267596351.08959994,
+            "delta_nwc": 102716445.83200073,
+            "discount_factor": 0.8653326122228232,
+            "ebit": 10265549675.419998,
+            "ebit_margin": 0.445,
+            "ebitda": 10533146026.509598,
+            "fcff": 7769460692.902998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -4106219870.1679993,
+            "present_value_fcff": 6723167716.952297,
+            "revenue": 23068650955.999996,
+            "revenue_growth": 0.003,
+            "year": 2027
+          },
+          {
+            "capex": 277931106.717888,
+            "cash_taxes": 2397155795.441784,
+            "da": 268666736.49395835,
+            "delta_nwc": 76218822.75862408,
+            "discount_factor": 0.804960569509603,
+            "ebit": 10422416501.9208,
+            "ebit_margin": 0.45,
+            "ebitda": 10691083238.414757,
+            "fcff": 7939777513.496462,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -4030001047.409375,
+            "present_value_fcff": 6391207829.043652,
+            "revenue": 23160925559.823997,
+            "revenue_growth": 0.004,
+            "year": 2028
+          },
+          {
+            "capex": 267416046.51372787,
+            "cash_taxes": 2433486023.274924,
+            "da": 272066760.36614054,
+            "delta_nwc": 76894272.85861492,
+            "discount_factor": 0.7488005297763749,
+            "ebit": 10580374014.238798,
+            "ebit_margin": 0.455,
+            "ebitda": 10852440774.604939,
+            "fcff": 8074644431.957672,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3953106774.5507603,
+            "present_value_fcff": 6046298028.405761,
+            "revenue": 23253569262.063293,
+            "revenue_growth": 0.004,
+            "year": 2029
+          },
+          {
+            "capex": 256684524.29928565,
+            "cash_taxes": 2468838424.6240387,
+            "da": 273018994.027422,
+            "delta_nwc": 79503953.30699444,
+            "discount_factor": 0.6965586323501163,
+            "ebit": 10734080107.061037,
+            "ebit_margin": 0.46,
+            "ebitda": 11007099101.088459,
+            "fcff": 8202072198.85814,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3873602821.243766,
+            "present_value_fcff": 5713224193.273537,
+            "revenue": 23334956754.480515,
+            "revenue_growth": 0.0035,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 152111157142.46008,
+        "terminal_value_present_value": 105954339584.34561,
+        "upside_downside_pct": 0.1559590674548914
+      },
+      "bear": {
+        "current_price": 64.47,
+        "description": "Modest downside: slightly weaker revenue trajectory and slower EBIT margin normalization vs base case.",
+        "enterprise_value": 135118170452.04999,
+        "equity_value": 122468170452.04999,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 148642854796.22137,
+        "implied_market_cap": 122468170452.04999,
+        "investments_adjustment": 8617000000.0,
+        "net_debt": 21217000000.0,
+        "per_share_value": 72.76777804637551,
+        "projected_years": [
+          {
+            "capex": 343947225.0,
+            "cash_taxes": 1975166418.4,
+            "da": 263692872.5,
+            "delta_nwc": 148843855.0,
+            "discount_factor": 0.9302325581395349,
+            "ebit": 9905680080.0,
+            "ebit_margin": 0.432,
+            "ebitda": 10169372952.5,
+            "fcff": 7701415454.1,
+            "nol_balance_end": 0.0,
+            "nol_used": 1318000000.0,
+            "nwc": -4196156145.0,
+            "present_value_fcff": 7164107399.162791,
+            "revenue": 22929815000.0,
+            "revenue_growth": -0.015,
+            "year": 2026
+          },
+          {
+            "capex": 298087595.0,
+            "cash_taxes": 2331044992.9,
+            "da": 265985853.99999997,
+            "delta_nwc": 114649075.0,
+            "discount_factor": 0.8653326122228232,
+            "ebit": 10134978230.0,
+            "ebit_margin": 0.442,
+            "ebitda": 10400964084.0,
+            "fcff": 7657182421.1,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -4081507070.0,
+            "present_value_fcff": 6626009666.717145,
+            "revenue": 22929815000.0,
+            "revenue_growth": 0.0,
+            "year": 2027
+          },
+          {
+            "capex": 275432937.78,
+            "cash_taxes": 2359771694.4301496,
+            "da": 266251839.85399994,
+            "delta_nwc": 87729472.19000101,
+            "discount_factor": 0.804960569509603,
+            "ebit": 10259876932.304998,
+            "ebit_margin": 0.447,
+            "ebitda": 10526128772.158998,
+            "fcff": 7803194667.758848,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3993777597.809999,
+            "present_value_fcff": 6281264023.75346,
+            "revenue": 22952744814.999996,
+            "revenue_growth": 0.001,
+            "year": 2028
+          },
+          {
+            "capex": 264220521.93787244,
+            "cash_taxes": 2388553518.318367,
+            "da": 268815661.4498354,
+            "delta_nwc": 87909012.64144945,
+            "discount_factor": 0.7488005297763749,
+            "ebit": 10385015297.036379,
+            "ebit_margin": 0.452,
+            "ebitda": 10653830958.486214,
+            "fcff": 7913147905.588526,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3905868585.1685495,
+            "present_value_fcff": 5925369343.9035,
+            "revenue": 22975697559.814995,
+            "revenue_growth": 0.001,
+            "year": 2029
+          },
+          {
+            "capex": 252859039.4945439,
+            "cash_taxes": 2416183058.2974105,
+            "da": 268950069.2805604,
+            "delta_nwc": 89995807.34179544,
+            "discount_factor": 0.6965586323501163,
+            "ebit": 10505143731.72787,
+            "ebit_margin": 0.457,
+            "ebitda": 10774093801.00843,
+            "fcff": 8015055895.874681,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3815872777.826754,
+            "present_value_fcff": 5582956373.040204,
+            "revenue": 22987185408.594902,
+            "revenue_growth": 0.0005,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 148642854796.22137,
+        "terminal_value_present_value": 103538463645.47289,
+        "upside_downside_pct": 0.1287075856425548
+      },
+      "bull": {
+        "current_price": 64.47,
+        "description": "Modest upside: slightly better revenue trajectory and faster EBIT margin normalization vs base case.",
+        "enterprise_value": 141081924631.28766,
+        "equity_value": 128431924631.28766,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 155642052646.2282,
+        "implied_market_cap": 128431924631.28764,
+        "investments_adjustment": 8617000000.0,
+        "net_debt": 21217000000.0,
+        "per_share_value": 76.31130399957674,
+        "projected_years": [
+          {
+            "capex": 346042335.0,
+            "cash_taxes": 2020880321.8600001,
+            "da": 265299123.5,
+            "delta_nwc": 123283513.0,
+            "discount_factor": 0.9302325581395349,
+            "ebit": 10104436182.0,
+            "ebit_margin": 0.438,
+            "ebitda": 10369735305.5,
+            "fcff": 7879529135.639999,
+            "nol_balance_end": 0.0,
+            "nol_used": 1318000000.0,
+            "nwc": -4221716487.0,
+            "present_value_fcff": 7329794544.781395,
+            "revenue": 23069489000.0,
+            "revenue_growth": -0.009,
+            "year": 2026
+          },
+          {
+            "capex": 301702777.14199996,
+            "cash_taxes": 2391342627.43936,
+            "da": 269211708.8344,
+            "delta_nwc": 90709230.74800014,
+            "discount_factor": 0.8653326122228232,
+            "ebit": 10397141858.432001,
+            "ebit_margin": 0.448,
+            "ebitda": 10666353567.266401,
+            "fcff": 7882598931.937041,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -4131007256.252,
+            "present_value_fcff": 6821069924.877916,
+            "revenue": 23207905934.0,
+            "revenue_growth": 0.006,
+            "year": 2027
+          },
+          {
+            "capex": 280444335.30645597,
+            "cash_taxes": 2434957941.2983046,
+            "da": 271096190.79624075,
+            "delta_nwc": 64564394.30838823,
+            "discount_factor": 0.804960569509603,
+            "ebit": 10586773657.818714,
+            "ebit_margin": 0.453,
+            "ebitda": 10857869848.614954,
+            "fcff": 8077903177.701807,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -4066442861.9436116,
+            "present_value_fcff": 6502393542.366279,
+            "revenue": 23370361275.538,
+            "revenue_growth": 0.007,
+            "year": 2028
+          },
+          {
+            "capex": 270640468.75136775,
+            "cash_taxes": 2479066693.762529,
+            "da": 275347259.51226115,
+            "delta_nwc": 65670715.1842618,
+            "discount_factor": 0.7488005297763749,
+            "ebit": 10778550842.445778,
+            "ebit_margin": 0.458,
+            "ebitda": 11053898101.958038,
+            "fcff": 8238520224.25988,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -4000772146.75935,
+            "present_value_fcff": 6169008308.499177,
+            "revenue": 23533953804.466763,
+            "revenue_growth": 0.007,
+            "year": 2029
+          },
+          {
+            "capex": 260556169.54615375,
+            "cash_taxes": 2522420590.4518104,
+            "da": 277137016.69909084,
+            "delta_nwc": 68742679.06284714,
+            "discount_factor": 0.6965586323501163,
+            "ebit": 10967046045.442654,
+            "ebit_margin": 0.463,
+            "ebitda": 11244183062.141745,
+            "fcff": 8392463623.080933,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3932029467.6965027,
+            "present_value_fcff": 5845842983.341356,
+            "revenue": 23686924504.195797,
+            "revenue_growth": 0.0065,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 155642052646.2282,
+        "terminal_value_present_value": 108413815327.42152,
+        "upside_downside_pct": 0.1836715371424964
+      }
+    },
+    "ticker": "MO"
+  },
+  "assumptions": {
+    "cash": 4492000000.0,
+    "current_price": 64.47,
+    "debt": 25709000000.0,
+    "diluted_shares": 1683000000.0,
+    "investments": 8617000000.0,
+    "minority_interest": 50000000.0,
+    "net_debt_override": null,
+    "nol_balance": 1318000000.0,
+    "nol_utilization_pct": 0.6,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.46,
+    "tax_rate": 0.23,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.075
+  },
+  "company_name": "Altria Group, Inc.",
+  "comps": [
+    {
+      "company_name": "Philip Morris International, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "MarketScreener provides valuation ratios but the free excerpt used here does not clearly map all needed NTM/forward columns for EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PM"
+    },
+    {
+      "company_name": "British American Tobacco p.l.c.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "MarketScreener valuation ratio excerpt was not sufficient to reliably extract EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM for a consistent forward year.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "BTI"
+    },
+    {
+      "company_name": "Imperial Brands plc",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "MarketScreener valuation ratio excerpt did not provide all forward/NTM multiple fields needed to populate EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM consistently.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "IMB"
+    },
+    {
+      "company_name": "Japan Tobacco Inc.",
+      "ev_ntm_ebitda": 9.75,
+      "ev_ntm_revenue": 2.99,
+      "notes": "Used MarketScreener 'Fiscal Period ... 2026' column as the NTM proxy for EV/Revenue, EV/EBITDA, and P/E.",
+      "pe_ntm": 16.6,
+      "source": "MarketScreener valuation page (forward-year column used as NTM proxy).",
+      "ticker": "JAPAF"
+    },
+    {
+      "company_name": "ITC Limited",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "MarketScreener valuation excerpt was not sufficient to confidently populate EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM for the same forward year.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ITC"
+    },
+    {
+      "company_name": "KT&G Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM/forward EV/Revenue, EV/EBITDA, and P/E NTM not reliably available from the limited free excerpts retrieved.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "KTG"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.015,
+      "2027": 0.013,
+      "2028": 0.012,
+      "2029": 0.0115,
+      "2030": 0.011
+    },
+    "da_pct_sales": {
+      "2026": 0.0115,
+      "2027": 0.0116,
+      "2028": 0.0116,
+      "2029": 0.0117,
+      "2030": 0.0117
+    },
+    "ebit_margin": {
+      "2026": 0.435,
+      "2027": 0.445,
+      "2028": 0.45,
+      "2029": 0.455,
+      "2030": 0.46
+    },
+    "nwc_pct_sales": {
+      "2026": -0.183,
+      "2027": -0.178,
+      "2028": -0.174,
+      "2029": -0.17,
+      "2030": -0.166
+    },
+    "revenue_growth": {
+      "2026": -0.012,
+      "2027": 0.003,
+      "2028": 0.004,
+      "2029": 0.004,
+      "2030": 0.0035
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 196000000.0,
+      "2024": 142000000.0,
+      "2025": 216000000.0
+    },
+    "da": {
+      "2023": 272000000.0,
+      "2024": 286000000.0,
+      "2025": 266000000.0
+    },
+    "ebit": {
+      "2023": 11547000000.0,
+      "2024": 11241000000.0,
+      "2025": 9899000000.0
+    },
+    "nwc": {
+      "2023": -3864000000.0,
+      "2024": -4136000000.0,
+      "2025": -4345000000.0
+    },
+    "revenue": {
+      "2023": 24483000000.0,
+      "2024": 24018000000.0,
+      "2025": 23279000000.0
+    }
+  },
+  "notes": [
+    "EBIT in this package is proxied by GAAP operating income from the consolidated statements of earnings (i.e., operating income line).",
+    "NWC is constructed from balance sheet working-capital line items: (Receivables + Inventories + Other current assets, plus Income taxes where presented separately) minus (Accounts payable + accrued marketing + accrued settlement charges + accrued other), explicitly excluding cash/cash equivalents, excluding current portion of long-term debt, and excluding dividends payable. The presentation of income taxes within current assets differs between 2025 vs earlier years, which may slightly affect cross-year comparability.",
+    "Tax rate, WACC, and terminal growth are modeling inputs rather than explicitly disclosed single-point values by the company; tax rate is anchored to 2026 adjusted effective tax guidance (modeled as 0.23), while WACC/terminal growth are reasonable DCF assumptions.",
+    "Peer comps contain nulls for many NTM multiples due to incomplete forward/NTM multiple availability in the limited free excerpts retrieved; Japan Tobacco multiples were filled using a forward-year column as an NTM proxy.",
+    "NOL balance uses estimated federal+state NOL amounts disclosed in the 10-K; NOL utilization is a base-case modeling assumption (0.6) rather than a disclosed utilization rate."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Stabilization/acceleration in smoke-free category profitability and execution of manufacturing/innovation investment plans.",
+      "Litigation and regulatory outcomes that impact settlement charge timing and the economic durability of downstream cigarette and oral tobacco margins.",
+      "Capital allocation updates (buybacks/dividends) and any debt management actions that could move perceived risk and effective discount rates."
+    ],
+    "company_overview": [
+      "Altria Group, Inc. is a U.S.-centric tobacco products company with consolidated net revenues of $23.279 billion (2025) derived primarily from smokeable and oral tobacco categories.",
+      "The company reports operating income (EBIT proxy) and discloses D&A and capital expenditures in its annual filings, alongside large non-cash impairment/exit items affecting reported profitability.",
+      "Altria\u2019s balance sheet includes significant equity-method investments (notably ABI) that are treated as non-operating items in typical DCF equity bridge workflows."
+    ],
+    "current_context": [
+      "In its latest full-year results, Altria provided 2026 guidance including an adjusted effective tax rate range of 22.5% to 23.5% (modeled as 0.23), and 2026 capital expenditures of $300 million to $375 million (base-case mid-point reflected in capex % of sales).",
+      "The same guidance set 2026 depreciation and amortization to approximately $225 million, consistent with a roughly stable D&A intensity assumption in the model.",
+      "As of 2026-03-20, MO was trading at $64.47 per share."
+    ],
+    "investment_highlights": [
+      "Base-case revenue outlook assumes a continuation of broadly stable top-line economics (pricing offsetting volume decline) with modest net declines transitioning to low growth.",
+      "EBIT margin base-case recovers from 2025 impairment-heavy reported levels toward a mid/upper-40% normalized range by 2030.",
+      "Capex intensity steps up in 2026 per company guidance (investments in manufacturing capabilities and innovative products) and then gradually normalizes to a steadier level.",
+      "Working-capital dynamics are modeled as structurally negative (source of cash) based on historical balance sheet seasonality/accrual patterns."
+    ],
+    "key_risks": [
+      "Adverse changes to regulatory environment, excise taxes, or enforcement that pressure operating margins and working-capital structure.",
+      "Ongoing or renewed impairments/exit costs and potential unfavorable outcomes in major legal proceedings impacting operating income quality.",
+      "Higher-than-modeled discount rates (credit spread widening) or sustained volume declines that prevent EBIT margin normalization."
+    ],
+    "sources": [
+      {
+        "label": "Altria 2025 Annual Report on Form 10-K (SEC)",
+        "notes": "Used for: 2023-2025 net revenues, operating income (EBIT proxy), D&A, capex, cash, debt, non-operating investments, minority interest, and NOL estimates.",
+        "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000017/mo-20251231.htm"
+      },
+      {
+        "label": "Altria 2024 Annual Report on Form 10-K (SEC) for 2023 balance sheet items",
+        "notes": "Used for: 2023 balance-sheet working capital components and 2023-2025 cross-checks where 2025 10-K only presents 2025/2024 balance sheet.",
+        "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418025000019/mo-20241231.htm"
+      },
+      {
+        "label": "Altria press release: 2025 Fourth Quarter and Full-Year Results; 2026 Earnings Guidance",
+        "notes": "Used for: 2026 adjusted effective tax rate range; 2026 capex range; 2026 depreciation and amortization guidance.",
+        "url": "https://investor.altria.com/press-releases/news-details/2026/Altria-Reports-2025-Fourth-Quarter-and-Full-Year-Results-Provides-2026-Earnings-Guidance/default.aspx"
+      },
+      {
+        "label": "MarketScreener valuation (peer multiple proxy) \u2014 Japan Tobacco",
+        "notes": "Used for: peer valuation multiples approximated for a 2026 forward column (NTM proxy).",
+        "url": "https://www.marketscreener.com/quote/stock/JAPAN-TOBACCO-INC-111961617/valuation/"
+      }
+    ],
+    "subtitle": "Altria (MO) DCF Inputs \u2014 tobacco cash flows, smoke-free transition, and litigation/lifecycle risk",
+    "valuation_summary": [
+      "The DCF uses operating income (EBIT proxy) with explicit modeling of D&A, capex, and working-capital intensity to translate accounting earnings into free cash flow.",
+      "Terminal value is calculated using a Gordon growth framework with a 2.0% terminal growth rate and a 7.5% WACC to reflect a mature cash-generating equity profile.",
+      "Equity bridge inputs include cash, debt, non-operating equity-method investments, and minority interest per the latest balance sheet."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.457,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.075
+      },
+      "description": "Modest downside: slightly weaker revenue trajectory and slower EBIT margin normalization vs base case.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.015,
+          "2027": 0.013,
+          "2028": 0.012,
+          "2029": 0.0115,
+          "2030": 0.011
+        },
+        "da_pct_sales": {
+          "2026": 0.0115,
+          "2027": 0.0116,
+          "2028": 0.0116,
+          "2029": 0.0117,
+          "2030": 0.0117
+        },
+        "ebit_margin": {
+          "2026": 0.432,
+          "2027": 0.442,
+          "2028": 0.447,
+          "2029": 0.452,
+          "2030": 0.457
+        },
+        "nwc_pct_sales": {
+          "2026": -0.183,
+          "2027": -0.178,
+          "2028": -0.174,
+          "2029": -0.17,
+          "2030": -0.166
+        },
+        "revenue_growth": {
+          "2026": -0.015,
+          "2027": 0.0,
+          "2028": 0.001,
+          "2029": 0.001,
+          "2030": 0.0005
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.463,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.075
+      },
+      "description": "Modest upside: slightly better revenue trajectory and faster EBIT margin normalization vs base case.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.015,
+          "2027": 0.013,
+          "2028": 0.012,
+          "2029": 0.0115,
+          "2030": 0.011
+        },
+        "da_pct_sales": {
+          "2026": 0.0115,
+          "2027": 0.0116,
+          "2028": 0.0116,
+          "2029": 0.0117,
+          "2030": 0.0117
+        },
+        "ebit_margin": {
+          "2026": 0.438,
+          "2027": 0.448,
+          "2028": 0.453,
+          "2029": 0.458,
+          "2030": 0.463
+        },
+        "nwc_pct_sales": {
+          "2026": -0.183,
+          "2027": -0.178,
+          "2028": -0.174,
+          "2029": -0.17,
+          "2030": -0.166
+        },
+        "revenue_growth": {
+          "2026": -0.009,
+          "2027": 0.006,
+          "2028": 0.007,
+          "2029": 0.007,
+          "2030": 0.0065
+        }
+      }
+    }
+  },
+  "ticker": "MO"
+}

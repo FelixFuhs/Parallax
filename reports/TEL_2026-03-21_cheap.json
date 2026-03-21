@@ -1,0 +1,681 @@
+{
+  "_meta": {
+    "cost_usd": 0.024515,
+    "generated_at": "2026-03-21T17:22:04Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11763,
+      "prompt": 2514,
+      "reasoning": 7447
+    }
+  },
+  "_valuation": {
+    "company_name": "TE Connectivity plc",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 195.84,
+        "description": "Base case",
+        "enterprise_value": 36321814040.55823,
+        "equity_value": 31737814040.558228,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 39321501044.21228,
+        "implied_market_cap": 31737814040.558228,
+        "investments_adjustment": 0.0,
+        "net_debt": 4439000000.0,
+        "per_share_value": 106.1465352527031,
+        "projected_years": [
+          {
+            "capex": 951481440.0,
+            "cash_taxes": 151358739.84,
+            "da": 896588280.0,
+            "delta_nwc": 191871680.0,
+            "discount_factor": 0.9079353550027238,
+            "ebit": 3439971360.0,
+            "ebit_margin": 0.188,
+            "ebitda": 4336559640.0,
+            "fcff": 3041847780.16,
+            "nol_balance_end": 5436022912.0,
+            "nol_used": 2751977088.0,
+            "nwc": 2634871680.0,
+            "present_value_fcff": 2761801144.143817,
+            "revenue": 18297720000.0,
+            "revenue_growth": 0.06,
+            "year": 2026
+          },
+          {
+            "capex": 960630300.0,
+            "cash_taxes": 161462740.82399997,
+            "da": 951023997.0,
+            "delta_nwc": 150956190.0,
+            "discount_factor": 0.8243466088639222,
+            "ebit": 3669607746.0,
+            "ebit_margin": 0.191,
+            "ebitda": 4620631743.0,
+            "fcff": 3347582512.1760006,
+            "nol_balance_end": 2500336715.2,
+            "nol_used": 2935686196.8,
+            "nwc": 2785827870.0,
+            "present_value_fcff": 2759568291.8044558,
+            "revenue": 19212606000.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 979074401.76,
+            "cash_taxes": 298323863.4464001,
+            "da": 979074401.76,
+            "delta_nwc": 131414225.03999996,
+            "discount_factor": 0.7484534309641567,
+            "ebit": 3856354276.32,
+            "ebit_margin": 0.193,
+            "ebitda": 4835428678.08,
+            "fcff": 3426616187.8336,
+            "nol_balance_end": 0.0,
+            "nol_used": 2500336715.2,
+            "nwc": 2917242095.04,
+            "present_value_fcff": 2564662642.381377,
+            "revenue": 19981110240.0,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 1023682230.3707999,
+            "cash_taxes": 882641567.519712,
+            "da": 1017478095.6412799,
+            "delta_nwc": 122783922.42479944,
+            "discount_factor": 0.6795473315454484,
+            "ebit": 4012007125.0895996,
+            "ebit_margin": 0.194,
+            "ebitda": 5029485220.73088,
+            "fcff": 3000377500.415568,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3040026017.4647994,
+            "present_value_fcff": 2038898524.0364017,
+            "revenue": 20680449098.399998,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 1043742265.9962479,
+            "cash_taxes": 913807004.3110007,
+            "da": 1054392697.2819239,
+            "delta_nwc": 112501643.0952959,
+            "discount_factor": 0.6169850477078703,
+            "ebit": 4153668201.4136395,
+            "ebit_margin": 0.195,
+            "ebitda": 5208060898.695563,
+            "fcff": 3138009985.293019,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3152527660.5600953,
+            "present_value_fcff": 1936105240.4837866,
+            "revenue": 21300862571.351997,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 39321501044.21228,
+        "terminal_value_present_value": 24260778197.708385,
+        "upside_downside_pct": -0.4579935904171615
+      },
+      "bear": {
+        "current_price": 195.84,
+        "description": "Modestly weaker growth with less margin expansion; higher discount rate reflecting macro/industrial cycle downside.",
+        "enterprise_value": 32490313244.77272,
+        "equity_value": 27906313244.77272,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 34606818471.15951,
+        "implied_market_cap": 27906313244.77272,
+        "investments_adjustment": 0.0,
+        "net_debt": 4439000000.0,
+        "per_share_value": 93.3321513203101,
+        "projected_years": [
+          {
+            "capex": 924380100.0,
+            "cash_taxes": 148335818.4,
+            "da": 897192450.0,
+            "delta_nwc": 185139500.0,
+            "discount_factor": 0.9041591320072332,
+            "ebit": 3371268600.0,
+            "ebit_margin": 0.186,
+            "ebitda": 4268461050.0,
+            "fcff": 3010605631.6,
+            "nol_balance_end": 5490985120.0,
+            "nol_used": 2697014880.0,
+            "nwc": 2628139500.0,
+            "present_value_fcff": 2722066574.683544,
+            "revenue": 18125100000.0,
+            "revenue_growth": 0.05,
+            "year": 2026
+          },
+          {
+            "capex": 947036475.0,
+            "cash_taxes": 155844322.32599995,
+            "da": 937566110.25,
+            "delta_nwc": 146677371.75,
+            "discount_factor": 0.8175037359920734,
+            "ebit": 3541916416.5,
+            "ebit_margin": 0.187,
+            "ebitda": 4479482526.75,
+            "fcff": 3229924357.674,
+            "nol_balance_end": 2657451986.7999997,
+            "nol_used": 2833533133.2000003,
+            "nwc": 2774816871.75,
+            "present_value_fcff": 2640475229.3702927,
+            "revenue": 18940729500.0,
+            "revenue_growth": 0.045,
+            "year": 2027
+          },
+          {
+            "capex": 960579096.5925001,
+            "cash_taxes": 230480539.15535006,
+            "da": 964499827.599,
+            "delta_nwc": 126524073.05999994,
+            "discount_factor": 0.7391534683472634,
+            "ebit": 3705090801.1425,
+            "ebit_margin": 0.189,
+            "ebitda": 4669590628.7415,
+            "fcff": 3352006919.933649,
+            "nol_balance_end": 0.0,
+            "nol_used": 2657451986.7999997,
+            "nwc": 2901340944.81,
+            "present_value_fcff": 2477647540.792984,
+            "revenue": 19603655032.5,
+            "revenue_growth": 0.035,
+            "year": 2028
+          },
+          {
+            "capex": 989396469.4902751,
+            "cash_taxes": 844015763.7692552,
+            "da": 993434822.4269701,
+            "delta_nwc": 107231993.02777529,
+            "discount_factor": 0.6683123583609976,
+            "ebit": 3836435289.8602505,
+            "ebit_margin": 0.19,
+            "ebitda": 4829870112.287221,
+            "fcff": 2889225885.9999146,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3008572937.837775,
+            "present_value_fcff": 1930905365.7102456,
+            "revenue": 20191764683.475002,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 1012948143.8170805,
+            "cash_taxes": 872214774.655609,
+            "da": 1017099570.636003,
+            "delta_nwc": 104997176.35407019,
+            "discount_factor": 0.6042607218453865,
+            "ebit": 3964612612.07095,
+            "ebit_margin": 0.191,
+            "ebitda": 4981712182.706953,
+            "fcff": 2991552087.880193,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3113570114.1918454,
+            "present_value_fcff": 1807677424.0605586,
+            "revenue": 20757134094.612305,
+            "revenue_growth": 0.028,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 34606818471.15951,
+        "terminal_value_present_value": 20911541110.155098,
+        "upside_downside_pct": -0.5234265149085473
+      },
+      "bull": {
+        "current_price": 195.84,
+        "description": "Modestly better end-market demand and continued margin expansion versus base; lower discount rate reflecting improved risk sentiment.",
+        "enterprise_value": 41525067383.1032,
+        "equity_value": 36941067383.1032,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 45678939478.6861,
+        "implied_market_cap": 36941067383.1032,
+        "investments_adjustment": 0.0,
+        "net_debt": 4439000000.0,
+        "per_share_value": 123.54872034482676,
+        "projected_years": [
+          {
+            "capex": 960457680.0,
+            "cash_taxes": 154412042.4,
+            "da": 905046660.0,
+            "delta_nwc": 179788280.0,
+            "discount_factor": 0.9124087591240875,
+            "ebit": 3509364600.0,
+            "ebit_margin": 0.19,
+            "ebitda": 4414411260.0,
+            "fcff": 3119753257.6,
+            "nol_balance_end": 5380508320.0,
+            "nol_used": 2807491680.0,
+            "nwc": 2622788280.0,
+            "present_value_fcff": 2846490198.5401454,
+            "revenue": 18470340000.0,
+            "revenue_growth": 0.07,
+            "year": 2026
+          },
+          {
+            "capex": 964567330.6500001,
+            "cash_taxes": 166334277.4632,
+            "da": 964567330.6500001,
+            "delta_nwc": 163739564.0999999,
+            "discount_factor": 0.8324897437263571,
+            "ebit": 3780324487.8,
+            "ebit_margin": 0.194,
+            "ebitda": 4744891818.450001,
+            "fcff": 3450250646.2368,
+            "nol_balance_end": 2356248729.7599998,
+            "nol_used": 3024259590.2400002,
+            "nwc": 2786527844.1,
+            "present_value_fcff": 2872298276.277372,
+            "revenue": 19486208700.0,
+            "revenue_growth": 0.055,
+            "year": 2027
+          },
+          {
+            "capex": 993718698.8652,
+            "cash_taxes": 359681637.9582801,
+            "da": 1001863934.1018,
+            "delta_nwc": 145756841.07599974,
+            "discount_factor": 0.7595709340568951,
+            "ebit": 3991165265.934,
+            "ebit_margin": 0.196,
+            "ebitda": 4993029200.0358,
+            "fcff": 3493872022.1363206,
+            "nol_balance_end": 0.0,
+            "nol_used": 2356248729.7599998,
+            "nwc": 2932284685.1759996,
+            "present_value_fcff": 2653843635.329338,
+            "revenue": 20363088091.5,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 1037702969.14284,
+            "cash_taxes": 922496761.9563696,
+            "da": 1046174013.788904,
+            "delta_nwc": 138468999.0222001,
+            "discount_factor": 0.6930391734095758,
+            "ebit": 4193167099.80168,
+            "ebit_margin": 0.198,
+            "ebitda": 5239341113.590584,
+            "fcff": 3140672383.4691744,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3070753684.1981997,
+            "present_value_fcff": 2176608992.589759,
+            "revenue": 21177611615.16,
+            "revenue_growth": 0.04,
+            "year": 2029
+          },
+          {
+            "capex": 1069638807.4585012,
+            "cash_taxes": 964428432.9543864,
+            "da": 1087173869.8758535,
+            "delta_nwc": 129395206.96862745,
+            "discount_factor": 0.6323350122350144,
+            "ebit": 4383765604.3381195,
+            "ebit_margin": 0.2,
+            "ebitda": 5470939474.213973,
+            "fcff": 3307477026.8324575,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3200148891.166827,
+            "present_value_fcff": 2091433526.2291312,
+            "revenue": 21918828021.690598,
+            "revenue_growth": 0.035,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 45678939478.6861,
+        "terminal_value_present_value": 28884392754.137455,
+        "upside_downside_pct": -0.3691343936640791
+      }
+    },
+    "ticker": "TEL"
+  },
+  "assumptions": {
+    "cash": 1255000000.0,
+    "current_price": 195.84,
+    "debt": 5694000000.0,
+    "diluted_shares": 299000000.0,
+    "investments": 0.0,
+    "minority_interest": 145000000.0,
+    "net_debt_override": null,
+    "nol_balance": 8188000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.195,
+    "tax_rate": 0.22,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.1014
+  },
+  "company_name": "TE Connectivity plc",
+  "comps": [
+    {
+      "company_name": "Amphenol Corporation",
+      "ev_ntm_ebitda": 23.01,
+      "ev_ntm_revenue": 6.95,
+      "notes": "EV/Sales and EV/EBITDA are sourced from StockAnalysis valuation ratios and used here as an NTM-style proxy (definition may be LTM/TTM). ([stockanalysis.com](https://stockanalysis.com/stocks/aph/statistics/))",
+      "pe_ntm": 28.91,
+      "source": "StockAnalysis.com (valuation ratios; treated as NTM proxy using EV/Sales and EV/EBITDA)",
+      "ticker": "APH"
+    },
+    {
+      "company_name": "Sensata Technologies Holding plc",
+      "ev_ntm_ebitda": 9.53,
+      "ev_ntm_revenue": 1.94,
+      "notes": "EV/Sales and EV/EBITDA taken from StockAnalysis valuation ratios; used as NTM proxy. ([stockanalysis.com](https://stockanalysis.com/stocks/st/statistics/))",
+      "pe_ntm": 9.12,
+      "source": "StockAnalysis.com (valuation ratios; treated as NTM proxy)",
+      "ticker": "ST"
+    },
+    {
+      "company_name": "Belden Inc",
+      "ev_ntm_ebitda": 12.28,
+      "ev_ntm_revenue": 1.98,
+      "notes": "EV/Sales and EV/EBITDA taken from StockAnalysis valuation ratios; used as NTM proxy. ([stockanalysis.com](https://stockanalysis.com/stocks/bdc/statistics/))",
+      "pe_ntm": 14.11,
+      "source": "StockAnalysis.com (valuation ratios; treated as NTM proxy)",
+      "ticker": "BDC"
+    },
+    {
+      "company_name": "Sanmina Corporation",
+      "ev_ntm_ebitda": 12.77,
+      "ev_ntm_revenue": 0.82,
+      "notes": "EV/Sales and EV/EBITDA taken from StockAnalysis valuation ratios; used as NTM proxy. ([stockanalysis.com](https://stockanalysis.com/stocks/sanm/statistics/))",
+      "pe_ntm": 11.68,
+      "source": "StockAnalysis.com (valuation ratios; treated as NTM proxy)",
+      "ticker": "SANM"
+    },
+    {
+      "company_name": "nVent Electric plc",
+      "ev_ntm_ebitda": 24.13,
+      "ev_ntm_revenue": 5.21,
+      "notes": "EV/Sales and EV/EBITDA taken from StockAnalysis valuation ratios; used as NTM proxy. ([stockanalysis.com](https://stockanalysis.com/stocks/nvt/statistics/))",
+      "pe_ntm": 27.98,
+      "source": "StockAnalysis.com (valuation ratios; treated as NTM proxy)",
+      "ticker": "NVT"
+    },
+    {
+      "company_name": "Analog Devices, Inc.",
+      "ev_ntm_ebitda": 28.52,
+      "ev_ntm_revenue": 13.24,
+      "notes": "EV/Sales and EV/EBITDA taken from StockAnalysis valuation ratios; used as NTM proxy. ([stockanalysis.com](https://stockanalysis.com/stocks/adi/statistics/))",
+      "pe_ntm": 25.86,
+      "source": "StockAnalysis.com (valuation ratios; treated as NTM proxy)",
+      "ticker": "ADI"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.052,
+      "2027": 0.05,
+      "2028": 0.049,
+      "2029": 0.0495,
+      "2030": 0.049
+    },
+    "da_pct_sales": {
+      "2026": 0.049,
+      "2027": 0.0495,
+      "2028": 0.049,
+      "2029": 0.0492,
+      "2030": 0.0495
+    },
+    "ebit_margin": {
+      "2026": 0.188,
+      "2027": 0.191,
+      "2028": 0.193,
+      "2029": 0.194,
+      "2030": 0.195
+    },
+    "nwc_pct_sales": {
+      "2026": 0.144,
+      "2027": 0.145,
+      "2028": 0.146,
+      "2029": 0.147,
+      "2030": 0.148
+    },
+    "revenue_growth": {
+      "2026": 0.06,
+      "2027": 0.05,
+      "2028": 0.04,
+      "2029": 0.035,
+      "2030": 0.03
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 732000000.0,
+      "2024": 680000000.0,
+      "2025": 936000000.0
+    },
+    "da": {
+      "2023": 794000000.0,
+      "2024": 826000000.0,
+      "2025": 838000000.0
+    },
+    "ebit": {
+      "2023": 2304000000.0,
+      "2024": 2796000000.0,
+      "2025": 3211000000.0
+    },
+    "nwc": {
+      "2023": 2450000000.0,
+      "2024": 2437000000.0,
+      "2025": 2443000000.0
+    },
+    "revenue": {
+      "2023": 16034000000.0,
+      "2024": 15845000000.0,
+      "2025": 17262000000.0
+    }
+  },
+  "notes": [
+    "Historical inputs (2023\u20132025): Revenue and EBIT use TE Connectivity\u2019s consolidated statement of operations (net sales and operating income). ([te.com](https://www.te.com/content/dam/te-com/documents/about-te/our-company/global/annual-report/te-connectivity-annual-report-2025.pdf))",
+    "Historical D&A and capex: Depreciation & amortization taken from consolidated cash flow adjustments; capex taken as absolute capital expenditures from the FY2025 annual report disclosures. ([te.com](https://www.te.com/content/dam/te-com/documents/about-te/our-company/global/annual-report/te-connectivity-annual-report-2025.pdf))",
+    "Working capital (NWC) construction: NWC is computed as (Accounts receivable + Inventories + Prepaid & other current assets) \u2212 (Accounts payable + Accrued & other current liabilities), excluding cash and excluding short-term debt from current liabilities. FY23\u2013FY25 computed from year-end balance sheet line items. ([te.com](https://www.te.com/content/dam/te-com/documents/about-te/our-company/global/annual-report/te-connectivity-annual-report-2025.pdf))",
+    "Tax rate: TE\u2019s GAAP effective tax rate is highly non-linear (including valuation allowance impacts); base-case uses a normalized tax_rate=0.22. ([te.com](https://www.te.com/content/dam/te-com/documents/about-te/our-company/global/annual-report/te-connectivity-annual-report-2025.pdf))",
+    "WACC: base-case wacc uses a market-data-derived WACC of ~10.14% (0.1014) as a starting point, then bull/bear adjust modestly. ([stockanalysis.com](https://stockanalysis.com/stocks/tel/statistics/))",
+    "NOL balance: nol_balance uses net operating loss (tax-effected carryforward) totals from the FY2025 note on tax loss/credit carryforwards; treated as a single aggregate NOL balance for modeling. ([te.com](https://www.te.com/content/dam/te-com/documents/about-te/our-company/global/annual-report/te-connectivity-annual-report-2025.pdf))",
+    "Investments field: investments is set to null because the prompt\u2019s schema expects a separate value, but the filings\u2019 cash-flow investing line items are not consistently labeled in a way that cleanly maps to a single 'investments' scalar for this DCF pipeline without additional definition (kept as null to avoid inventing mapping).",
+    "Scenario overrides: bull/bear modify only the forecast drivers and select valuation assumptions (wacc, terminal_growth, target_ebit_margin); base operating model structure otherwise remains the same."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained order strength and conversion into FY26 revenue and earnings (recent Q1 orders and guidance reinforce execution momentum). ([investors.te.com](https://investors.te.com/news-releases/press-release-details/2026/TE-Connectivity-announces-first-quarter-results-for-fiscal-year-2026/default.aspx))",
+      "Further margin expansion from operational excellence and mix shift toward higher-value connectivity/power and data-centric applications.",
+      "Potential tax/valuation allowance developments that reduce normalized cash tax drag (base-case tax rate is normalized vs volatile GAAP effective rates). ([te.com](https://www.te.com/content/dam/te-com/documents/about-te/our-company/global/annual-report/te-connectivity-annual-report-2025.pdf))"
+    ],
+    "company_overview": [
+      "TE Connectivity is a global industrial technology leader focused on connectivity and sensor solutions used across transportation, energy networks, data centers, and industrial automation.",
+      "The company reports results across two main operating segments (Industrial Solutions and Transportation Solutions) with exposure to secular demand themes such as AI/data and power connectivity.",
+      "TE\u2019s strategy emphasizes innovation, operational execution, and capital allocation to support profitable growth across cyclical end markets."
+    ],
+    "current_context": [
+      "FY26 Q1 ended Dec. 26, 2025: net sales of $4.7 billion (+22% YoY reported; +15% organically) with adjusted EPS of $2.72 (+33% YoY). ([investors.te.com](https://investors.te.com/news-releases/press-release-details/2026/TE-Connectivity-announces-first-quarter-results-for-fiscal-year-2026/default.aspx))",
+      "Record quarterly orders of $5.1 billion (+28% YoY; +9% sequentially) and management guidance reiterates double-digit sales/adjusted earnings growth expectations into FY26 Q2. ([investors.te.com](https://investors.te.com/news-releases/press-release-details/2026/TE-Connectivity-announces-first-quarter-results-for-fiscal-year-2026/default.aspx))",
+      "FY26 Q2 outlook: sales ~ $4.7 billion (+13% reported; +6% organic) and adjusted EPS ~ $2.65 (+20% YoY). ([investors.te.com](https://investors.te.com/news-releases/press-release-details/2026/TE-Connectivity-announces-first-quarter-results-for-fiscal-year-2026/default.aspx))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes a deceleration from FY25\u2019s rebound into a mid-single-digit long-run profile, consistent with a maturing cycle rather than a perpetual high-growth phase.",
+      "EBIT margin is modeled to expand modestly from the FY25 level toward a ~0.195 steady-state target, reflecting operational leverage seen in recent quarters. ([te.com](https://www.te.com/content/dam/te-com/documents/about-te/our-company/global/annual-report/te-connectivity-annual-report-2025.pdf))",
+      "Sustained reinvestment is represented via normalized capex intensity (~4.9%\u20135.2% of sales) and D&A intensity near the recent range. ([te.com](https://www.te.com/content/dam/te-com/documents/about-te/our-company/global/annual-report/te-connectivity-annual-report-2025.pdf))",
+      "Working capital intensity is kept structurally stable/slightly improving in the base case (NWC as % of sales gradually rises versus FY25 cash-efficient period), reducing valuation sensitivity to large timing swings. ([te.com](https://www.te.com/content/dam/te-com/documents/about-te/our-company/global/annual-report/te-connectivity-annual-report-2025.pdf))"
+    ],
+    "key_risks": [
+      "End-market downturn risk (notably automotive/industrial demand variability) causing revenue growth to undershoot base-case.",
+      "Working capital or pricing/commodity volatility creating margin and cash conversion risk versus forecast assumptions.",
+      "Tax/regulatory changes and global minimum tax implementation affecting effective cash taxes and deferred tax utilization. ([te.com](https://www.te.com/content/dam/te-com/documents/about-te/our-company/global/annual-report/te-connectivity-annual-report-2025.pdf))"
+    ],
+    "sources": [
+      {
+        "label": "TE Connectivity plc \u2014 Annual Report (FY2025) / consolidated financial statements",
+        "notes": "Used for FY23\u2013FY25 net sales, operating income (EBIT), cash, debt, and FY25 balance sheet components. ([te.com](https://www.te.com/content/dam/te-com/documents/about-te/our-company/global/annual-report/te-connectivity-annual-report-2025.pdf))",
+        "url": null
+      },
+      {
+        "label": "TE Connectivity plc \u2014 Annual Report (FY2024) / consolidated financial statements",
+        "notes": "Used for FY23 balance sheet components needed to compute FY23 NWC. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1385157/000155837025000264/tel-20240927xars.pdf))",
+        "url": null
+      },
+      {
+        "label": "TE Connectivity plc \u2014 FY26 Q1 results press release (Jan. 21, 2026)",
+        "notes": "Used for latest earnings context, Q2 outlook, and near-term operating momentum. ([investors.te.com](https://investors.te.com/news-releases/press-release-details/2026/TE-Connectivity-announces-first-quarter-results-for-fiscal-year-2026/default.aspx))",
+        "url": null
+      },
+      {
+        "label": "Market price for TEL (finance quote)",
+        "notes": "Used to populate current_price.",
+        "url": null
+      },
+      {
+        "label": "Peer valuation multiples \u2014 StockAnalysis.com statistics pages",
+        "notes": "Used for peer forward P/E and EV/Sales & EV/EBITDA multiples (treated as NTM-style proxies per site conventions). ([stockanalysis.com](https://stockanalysis.com/stocks/aph/statistics/))",
+        "url": null
+      }
+    ],
+    "subtitle": "TE Connectivity (TEL) DCF: Growth & Margin Recovery Thesis",
+    "valuation_summary": [
+      "The DCF base case is built on observable FY23\u2013FY25 financial history (revenue, operating income/EBIT, depreciation & amortization, capex) and conservative forward operating assumptions. ([te.com](https://www.te.com/content/dam/te-com/documents/about-te/our-company/global/annual-report/te-connectivity-annual-report-2025.pdf))",
+      "Comparable multiples are included as directional context using peer EV/EBITDA, EV/Sales, and forward P/E (treated here as NTM proxies based on source conventions). ([stockanalysis.com](https://stockanalysis.com/stocks/aph/statistics/))",
+      "Terminal value uses Gordon growth with a moderate long-run growth rate (economically consistent for a mature industrial connectivity/electronics franchise)."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.191,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.018,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.106
+      },
+      "description": "Modestly weaker growth with less margin expansion; higher discount rate reflecting macro/industrial cycle downside.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.051,
+          "2027": 0.05,
+          "2028": 0.049,
+          "2029": 0.049,
+          "2030": 0.0488
+        },
+        "da_pct_sales": {
+          "2026": 0.0495,
+          "2027": 0.0495,
+          "2028": 0.0492,
+          "2029": 0.0492,
+          "2030": 0.049
+        },
+        "ebit_margin": {
+          "2026": 0.186,
+          "2027": 0.187,
+          "2028": 0.189,
+          "2029": 0.19,
+          "2030": 0.191
+        },
+        "nwc_pct_sales": {
+          "2026": 0.145,
+          "2027": 0.1465,
+          "2028": 0.148,
+          "2029": 0.149,
+          "2030": 0.15
+        },
+        "revenue_growth": {
+          "2026": 0.05,
+          "2027": 0.045,
+          "2028": 0.035,
+          "2029": 0.03,
+          "2030": 0.028
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.2,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.096
+      },
+      "description": "Modestly better end-market demand and continued margin expansion versus base; lower discount rate reflecting improved risk sentiment.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.052,
+          "2027": 0.0495,
+          "2028": 0.0488,
+          "2029": 0.049,
+          "2030": 0.0488
+        },
+        "da_pct_sales": {
+          "2026": 0.049,
+          "2027": 0.0495,
+          "2028": 0.0492,
+          "2029": 0.0494,
+          "2030": 0.0496
+        },
+        "ebit_margin": {
+          "2026": 0.19,
+          "2027": 0.194,
+          "2028": 0.196,
+          "2029": 0.198,
+          "2030": 0.2
+        },
+        "nwc_pct_sales": {
+          "2026": 0.142,
+          "2027": 0.143,
+          "2028": 0.144,
+          "2029": 0.145,
+          "2030": 0.146
+        },
+        "revenue_growth": {
+          "2026": 0.07,
+          "2027": 0.055,
+          "2028": 0.045,
+          "2029": 0.04,
+          "2030": 0.035
+        }
+      }
+    }
+  },
+  "ticker": "TEL"
+}

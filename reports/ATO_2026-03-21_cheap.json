@@ -1,0 +1,680 @@
+{
+  "_meta": {
+    "cost_usd": 0.025624,
+    "generated_at": "2026-03-21T17:33:14Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11872,
+      "prompt": 2514,
+      "reasoning": 8225
+    }
+  },
+  "_valuation": {
+    "company_name": "Atmos Energy Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 180.49,
+        "description": "Base case",
+        "enterprise_value": -26500143116.704952,
+        "equity_value": -34672858116.704956,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": -29143603717.57578,
+        "implied_market_cap": -34672858116.704956,
+        "investments_adjustment": 619429000.0,
+        "net_debt": 8792144000.0,
+        "per_share_value": -215.93205655187955,
+        "projected_years": [
+          {
+            "capex": 3553166540.25,
+            "cash_taxes": 177662263.9122,
+            "da": 749572119.45,
+            "delta_nwc": 90889185.875,
+            "discount_factor": 0.9324009324009324,
+            "ebit": 1596491267.4,
+            "ebit_margin": 0.328,
+            "ebitda": 2346063386.8500004,
+            "fcff": -1475654603.1871996,
+            "nol_balance_end": 0.0,
+            "nol_used": 435300000.0,
+            "nwc": -219030814.125,
+            "present_value_fcff": -1375901727.9134727,
+            "revenue": 4867351425.0,
+            "revenue_growth": 0.035,
+            "year": 2026
+          },
+          {
+            "capex": 3616636802.8320003,
+            "cash_taxes": 250542514.5161868,
+            "da": 773558427.2724,
+            "delta_nwc": -22078306.063800037,
+            "discount_factor": 0.8693714987421282,
+            "ebit": 1637532774.6156,
+            "ebit_margin": 0.326,
+            "ebitda": 2411091201.888,
+            "fcff": -1434009809.3963869,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -241109120.18880004,
+            "present_value_fcff": -1246687257.2058504,
+            "revenue": 5023106670.6,
+            "revenue_growth": 0.032,
+            "year": 2027
+          },
+          {
+            "capex": 3673397908.20978,
+            "cash_taxes": 257267198.5714526,
+            "da": 791591380.219854,
+            "delta_nwc": -17580873.34709999,
+            "discount_factor": 0.8106027960299562,
+            "ebit": 1681484957.9833503,
+            "ebit_margin": 0.325,
+            "ebitda": 2473076338.203204,
+            "fcff": -1440007895.2309287,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -258689993.53590003,
+            "present_value_fcff": -1167274426.179403,
+            "revenue": 5173799870.718,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 3753307247.213019,
+            "cash_taxes": 263913399.7997784,
+            "da": 814547530.2462296,
+            "delta_nwc": -2178169.745572239,
+            "discount_factor": 0.755806802825134,
+            "ebit": 1724924181.6978981,
+            "ebit_margin": 0.324,
+            "ebitda": 2539471711.944128,
+            "fcff": -1475570765.3230975,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -260868163.28147227,
+            "present_value_fcff": -1115246422.4810865,
+            "revenue": 5323840066.968822,
+            "revenue_growth": 0.029,
+            "year": 2029
+          },
+          {
+            "capex": 3831035312.1907635,
+            "cash_taxes": 270465620.1330791,
+            "da": 831881953.5042801,
+            "delta_nwc": -1831400.9830372632,
+            "discount_factor": 0.7047149676691227,
+            "ebit": 1767749151.1965954,
+            "ebit_margin": 0.323,
+            "ebitda": 2599631104.7008753,
+            "fcff": -1500038426.6399295,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -262699564.26450953,
+            "present_value_fcff": -1057099531.3319995,
+            "revenue": 5472907588.843948,
+            "revenue_growth": 0.028,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": -29143603717.57578,
+        "terminal_value_present_value": -20537933751.59314,
+        "upside_downside_pct": -2.196365762933567
+      },
+      "bear": {
+        "current_price": 180.49,
+        "description": "Modestly weaker growth and operating margins, with slightly worse terminal economics (higher WACC, lower terminal growth).",
+        "enterprise_value": -25396135265.80654,
+        "equity_value": -33568850265.80654,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": -27668059028.607143,
+        "implied_market_cap": -33568850265.80654,
+        "investments_adjustment": 619429000.0,
+        "net_debt": 8792144000.0,
+        "per_share_value": -209.05663010472833,
+        "projected_years": [
+          {
+            "capex": 3584439861.0,
+            "cash_taxes": 173517819.98580003,
+            "da": 750794835.75,
+            "delta_nwc": 19289741.0,
+            "discount_factor": 0.9306654257794322,
+            "ebit": 1569403398.6000001,
+            "ebit_margin": 0.324,
+            "ebitda": 2320198234.3500004,
+            "fcff": -1457049187.6358,
+            "nol_balance_end": 0.0,
+            "nol_used": 435300000.0,
+            "nwc": -290630259.0,
+            "present_value_fcff": -1356025302.5926476,
+            "revenue": 4843837650.0,
+            "revenue_growth": 0.03,
+            "year": 2026
+          },
+          {
+            "capex": 3631473524.5814996,
+            "cash_taxes": 245840808.3716344,
+            "da": 766091675.0486999,
+            "delta_nwc": 2102225.540100038,
+            "discount_factor": 0.866138134741212,
+            "ebit": 1606802669.0956497,
+            "ebit_margin": 0.323,
+            "ebitda": 2372894344.1443496,
+            "fcff": -1506522214.3488846,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -288528033.45989996,
+            "present_value_fcff": -1304856340.6823432,
+            "revenue": 4974621266.549999,
+            "revenue_growth": 0.027,
+            "year": 2027
+          },
+          {
+            "capex": 3674852222.025815,
+            "cash_taxes": 251451763.29211643,
+            "da": 780906097.1804857,
+            "delta_nwc": -2397767.4504770637,
+            "discount_factor": 0.8060848159527334,
+            "ebit": 1643475577.0726564,
+            "ebit_margin": 0.322,
+            "ebitda": 2424381674.2531424,
+            "fcff": -1499524543.6143122,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -290925800.910377,
+            "present_value_fcff": -1208743965.7559495,
+            "revenue": 5103961419.480299,
+            "revenue_growth": 0.026,
+            "year": 2028
+          },
+          {
+            "capex": 3740565725.301624,
+            "cash_taxes": 256937628.62480932,
+            "da": 800428749.6099979,
+            "delta_nwc": -2041584.5677921176,
+            "discount_factor": 0.7501952684529859,
+            "ebit": 1679330906.0445054,
+            "ebit_margin": 0.321,
+            "ebitda": 2479759655.6545033,
+            "fcff": -1515702113.7041376,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -292967385.47816914,
+            "present_value_fcff": -1137072554.0850337,
+            "revenue": 5231560454.967306,
+            "revenue_growth": 0.025,
+            "year": 2029
+          },
+          {
+            "capex": 3803553713.17943,
+            "cash_taxes": 262284492.67220408,
+            "da": 814281921.6947513,
+            "delta_nwc": -1674099.3455895185,
+            "discount_factor": 0.6981807989325136,
+            "ebit": 1714277729.8836868,
+            "ebit_margin": 0.32,
+            "ebitda": 2528559651.578438,
+            "fcff": -1535604454.9276066,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -294641484.82375866,
+            "present_value_fcff": -1072129545.1856835,
+            "revenue": 5357117905.886521,
+            "revenue_growth": 0.024,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": -27668059028.607143,
+        "terminal_value_present_value": -19317307557.504883,
+        "upside_downside_pct": -2.1582726472642713
+      },
+      "bull": {
+        "current_price": 180.49,
+        "description": "Modestly stronger top-line growth and operating margins, with slightly improved terminal economics (lower WACC, higher terminal growth).",
+        "enterprise_value": -27682608097.63086,
+        "equity_value": -35855323097.63086,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": -30780881203.33222,
+        "implied_market_cap": -35855323097.63086,
+        "investments_adjustment": 619429000.0,
+        "net_debt": 8792144000.0,
+        "per_share_value": -223.2960902370315,
+        "projected_years": [
+          {
+            "capex": 3521422944.0,
+            "cash_taxes": 181835488.6992,
+            "da": 758084106.0,
+            "delta_nwc": 65376740.0,
+            "discount_factor": 0.9341429238673516,
+            "ebit": 1623767246.4,
+            "ebit_margin": 0.332,
+            "ebitda": 2381851352.4,
+            "fcff": -1386783820.2992,
+            "nol_balance_end": 0.0,
+            "nol_used": 435300000.0,
+            "nwc": -244543260.0,
+            "present_value_fcff": -1295454292.6662307,
+            "revenue": 4890865200.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 3604469835.096,
+            "cash_taxes": 256323495.73802403,
+            "da": 786891302.028,
+            "delta_nwc": 860792.2751999795,
+            "discount_factor": 0.8726230022114448,
+            "ebit": 1675316965.6080003,
+            "ebit_margin": 0.33,
+            "ebitda": 2462208267.636,
+            "fcff": -1399445855.4732237,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -243682467.72480002,
+            "present_value_fcff": -1221188643.8354082,
+            "revenue": 5076718077.6,
+            "revenue_growth": 0.038,
+            "year": 2027
+          },
+          {
+            "capex": 3681635949.87552,
+            "cash_taxes": 264746441.1555487,
+            "da": 809959908.9726144,
+            "delta_nwc": -3513088.9096992016,
+            "discount_factor": 0.8151546027197056,
+            "ebit": 1730368896.4414947,
+            "ebit_margin": 0.329,
+            "ebitda": 2540328805.414109,
+            "fcff": -1402540496.7072608,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -247195556.63449922,
+            "present_value_fcff": -1143287341.3917058,
+            "revenue": 5259479928.3936,
+            "revenue_growth": 0.036,
+            "year": 2028
+          },
+          {
+            "capex": 3783275399.491726,
+            "cash_taxes": 273179701.65193206,
+            "da": 838308505.7866559,
+            "delta_nwc": -3208282.7563200593,
+            "discount_factor": 0.7614709039885152,
+            "ebit": 1785488246.0910594,
+            "ebit_margin": 0.328,
+            "ebitda": 2623796751.877715,
+            "fcff": -1429450066.5096226,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -250403839.39081928,
+            "present_value_fcff": -1088484634.3515255,
+            "revenue": 5443561725.887376,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 3883763548.951607,
+            "cash_taxes": 281606629.1559389,
+            "da": 861182352.1588347,
+            "delta_nwc": -2885087.714720309,
+            "discount_factor": 0.7113226566917471,
+            "ebit": 1840566203.6335878,
+            "ebit_margin": 0.327,
+            "ebitda": 2701748555.7924223,
+            "fcff": -1460736534.6004033,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -253288927.1055396,
+            "present_value_fcff": -1039054992.5186551,
+            "revenue": 5628642824.567547,
+            "revenue_growth": 0.034,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": -30780881203.33222,
+        "terminal_value_present_value": -21895138192.867336,
+        "upside_downside_pct": -2.2371659938890325
+      }
+    },
+    "ticker": "ATO"
+  },
+  "assumptions": {
+    "cash": 203803000.0,
+    "current_price": 180.49,
+    "debt": 8995947000.0,
+    "diluted_shares": 160573000.0,
+    "investments": 619429000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 435300000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.323,
+    "tax_rate": 0.153,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.0725
+  },
+  "company_name": "Atmos Energy Corporation",
+  "comps": [
+    {
+      "company_name": "NiSource Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E shown by StockAnalysis; EV/NTM revenue and EV/NTM EBITDA not available from the same source on a clearly forward basis, so left null.",
+      "pe_ntm": 21.95,
+      "source": "https://stockanalysis.com/stocks/ni/",
+      "ticker": "NI"
+    },
+    {
+      "company_name": "ONE Gas, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E shown by StockAnalysis; EV/NTM revenue and EV/NTM EBITDA not available from the same source on a clearly forward basis, so left null.",
+      "pe_ntm": 17.89,
+      "source": "https://stockanalysis.com/stocks/ogs/",
+      "ticker": "OGS"
+    },
+    {
+      "company_name": "Spire Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E shown by StockAnalysis; EV/NTM revenue and EV/NTM EBITDA not available from the same source on a clearly forward basis, so left null.",
+      "pe_ntm": 16.17,
+      "source": "https://stockanalysis.com/stocks/sr/",
+      "ticker": "SR"
+    },
+    {
+      "company_name": "Southwest Gas Holdings, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E shown by StockAnalysis; EV/NTM revenue and EV/NTM EBITDA not available from the same source on a clearly forward basis, so left null.",
+      "pe_ntm": 19.26,
+      "source": "https://stockanalysis.com/stocks/swx/",
+      "ticker": "SWX"
+    },
+    {
+      "company_name": "CenterPoint Energy, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E shown by StockAnalysis; EV/NTM revenue and EV/NTM EBITDA not available from the same source on a clearly forward basis, so left null.",
+      "pe_ntm": 22.03,
+      "source": "https://stockanalysis.com/stocks/cnp/",
+      "ticker": "CNP"
+    },
+    {
+      "company_name": "Chesapeake Utilities Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward P/E shown by StockAnalysis; EV/NTM revenue and EV/NTM EBITDA not available from the same source on a clearly forward basis, so left null.",
+      "pe_ntm": 18.99,
+      "source": "https://stockanalysis.com/stocks/cpk/",
+      "ticker": "CPK"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.73,
+      "2027": 0.72,
+      "2028": 0.71,
+      "2029": 0.705,
+      "2030": 0.7
+    },
+    "da_pct_sales": {
+      "2026": 0.154,
+      "2027": 0.154,
+      "2028": 0.153,
+      "2029": 0.153,
+      "2030": 0.152
+    },
+    "ebit_margin": {
+      "2026": 0.328,
+      "2027": 0.326,
+      "2028": 0.325,
+      "2029": 0.324,
+      "2030": 0.323
+    },
+    "nwc_pct_sales": {
+      "2026": -0.045,
+      "2027": -0.048,
+      "2028": -0.05,
+      "2029": -0.049,
+      "2030": -0.048
+    },
+    "revenue_growth": {
+      "2026": 0.035,
+      "2027": 0.032,
+      "2028": 0.03,
+      "2029": 0.029,
+      "2030": 0.028
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 2805973000.0,
+      "2024": 2937124000.0,
+      "2025": 3561399000.0
+    },
+    "da": {
+      "2023": 604327000.0,
+      "2024": 669972000.0,
+      "2025": 734745000.0
+    },
+    "ebit": {
+      "2023": 1067147000.0,
+      "2024": 1355362000.0,
+      "2025": 1559971000.0
+    },
+    "nwc": {
+      "2023": -466824000.0,
+      "2024": -73561000.0,
+      "2025": -309920000.0
+    },
+    "revenue": {
+      "2023": 4275357000.0,
+      "2024": 4165187000.0,
+      "2025": 4702755000.0
+    }
+  },
+  "notes": [
+    "Fiscal year ends September 30; historical years are FY2023, FY2024, FY2025, and forecast years are FY2026\u2013FY2030.",
+    "EBIT is defined here as 'Operating income' from Atmos\u2019 consolidated statements of comprehensive income.",
+    "D&A is 'Depreciation and amortization expense' from the consolidated statement of comprehensive income (not the cash flow add-back).",
+    "Capex is 'Capital expenditures' from the consolidated statement of cash flows; values are converted from 'in thousands' to full USD.",
+    "NWC is calculated as (Total current assets - Total current liabilities) from the balance sheet. For a regulated utility with regulatory deferrals, this NWC may not map 1:1 to 'operating working capital' used in other DCF conventions; it is treated consistently across years and forecasts.",
+    "Cash includes cash and cash equivalents plus restricted cash and cash equivalents at FY2025 year-end. If your DCF implementation uses only unrestricted cash, adjust accordingly.",
+    "Debt is computed as (Long-term debt + Securitized long-term debt + current maturities of long-term debt + current maturities of securitized long-term debt) from FY2025 balance sheet line items.",
+    "Tax_rate is set to the simple average of Atmos\u2019 reported effective income tax expense rates for FY2023\u2013FY2025; actual cash taxes may differ due to regulatory/deferral mechanics.",
+    "Terminal method is Gordon growth; therefore terminal_exit_ebitda_multiple is set to null.",
+    "NOL balance is taken as tax-effected federal NOL carryforwards disclosed in the FY2025 10-K; NOL utilization percent is assumed at 0.80 due to limited sourcing for a precise utilization schedule.",
+    "Comps: P/E NTM is proxied using StockAnalysis 'Forward PE'. EV/NTM Revenue and EV/NTM EBITDA were left null because the collected sources did not provide clearly labeled forward/next-twelve-month EV multiples on the requested NTM basis."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Implementation of distribution and pipeline rate actions (formula mechanisms and/or completed rate cases) that increase annual operating income.",
+      "Successful execution of the FY2026 capital program, supporting sustained rate base additions and earnings growth.",
+      "Credit and liquidity management (financing at reasonable costs) as debt maturities and new issuances affect the effective discount rate."
+    ],
+    "company_overview": [
+      "Atmos Energy is a regulated natural gas distribution utility plus pipeline and storage operations, serving millions of customers across multiple states.",
+      "The company reports two operating segments: a Distribution segment and a Pipeline and Storage segment, with operating results shaped by rate regulation and periodic rate actions.",
+      "Atmos is capital-intensive, consistently investing to improve safety/reliability and expand/modernize system capacity."
+    ],
+    "current_context": [
+      "FY2025 performance: Atmos reported diluted EPS of $7.46 and forecasted further earnings growth alongside a continued multi-year infrastructure capex program.",
+      "FY2026 guidance (initial): diluted EPS expected at $8.15 to $8.35 and capex guidance of approximately $4.2 billion.",
+      "Capital plan execution and regulatory outcomes remain the primary drivers of near-term earnings power (annual operating income / rate outcomes)."
+    ],
+    "investment_highlights": [
+      "Rate-regulated model supports visibility: recurring rate mechanisms and periodic rate case outcomes translate into operating income durability.",
+      "Capex intensity focused on safety and reliability supports continued rate base growth and earnings scaling over the forecast horizon.",
+      "Utility working capital is structurally influenced by purchased gas cost timing and regulatory deferrals; the model keeps a persistently negative NWC as a base assumption.",
+      "Margins are modeled to normalize modestly from historical volatility, converging toward a steady-state EBIT margin near the terminal year."
+    ],
+    "key_risks": [
+      "Regulatory risk: adverse or delayed rate proceedings could reduce allowed returns and/or delay recovery of costs.",
+      "Financing and discount-rate risk: higher interest rates or changes in credit spreads could raise WACC and pressure valuation.",
+      "Working-capital / cash conversion risk if purchased gas cost timing and collections move against expectations.",
+      "Execution risk on capex and safety/reliability programs could lead to higher-than-anticipated costs or operational disruptions."
+    ],
+    "sources": [
+      {
+        "label": "Atmos Energy FY2025 Form 10-K (SEC)",
+        "notes": "Provides FY2023\u2013FY2025 consolidated operating revenues, operating income (EBIT), depreciation/amortization, cash flow capex, balance sheet current assets/liabilities (for NWC), cash/debt, and federal NOL carryforwards.",
+        "url": "https://www.sec.gov/Archives/edgar/data/731802/000073180225000056/ato-20250930.htm"
+      },
+      {
+        "label": "Atmos Energy FY2024 Form 10-K (SEC)",
+        "notes": "Supports FY2023 balance sheet and FY2024 cash flow / capex lines used to compute historical NWC and capex (cross-check).",
+        "url": "https://www.sec.gov/Archives/edgar/data/731802/000073180224000030/ato-20240930.htm"
+      },
+      {
+        "label": "Atmos Energy FY2025 earnings release with FY2026 guidance (Investor Relations)",
+        "notes": "Used for FY2026 guidance context (diluted EPS range and capex guidance) and the latest company narrative for the 'current_context' section.",
+        "url": "https://www.investors.atmosenergy.com/news/news-details/2025/Atmos-Energy-Corporation-Reports-Earnings-for-Fiscal-2025-Initiates-Fiscal-2026-Guidance-Raises-Dividend/default.aspx"
+      },
+      {
+        "label": "Q4 2025 earnings presentation (FY2026 guidance detail)",
+        "notes": "Used for additional FY2026 guidance detail to support current-context bullets.",
+        "url": "https://s201.q4cdn.com/158157484/files/doc_financials/2025/q4/Q4-2025-Earnings-Presentation.pdf"
+      }
+    ],
+    "subtitle": "Atmos Energy (ATO) \u2014 DCF & comps valuation input package",
+    "valuation_summary": [
+      "Base-case DCF uses observed FY2023\u2013FY2025 fundamentals (revenue, operating income/EBIT, D&A, capex) and applies sober growth/margin normalization.",
+      "Terminal value is modeled via Gordon growth using a conservative terminal growth rate and a utility-appropriate WACC range.",
+      "Comps provide forward P/E context for regulated gas peers; EV/forward revenue/EBITDA were not available on a clearly NTM basis from the collected sources, so only P/E NTM is populated."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 180.49,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.32,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.018,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0745
+      },
+      "description": "Modestly weaker growth and operating margins, with slightly worse terminal economics (higher WACC, lower terminal growth).",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.74,
+          "2027": 0.73,
+          "2028": 0.72,
+          "2029": 0.715,
+          "2030": 0.71
+        },
+        "da_pct_sales": {
+          "2026": 0.155,
+          "2027": 0.154,
+          "2028": 0.153,
+          "2029": 0.153,
+          "2030": 0.152
+        },
+        "ebit_margin": {
+          "2026": 0.324,
+          "2027": 0.323,
+          "2028": 0.322,
+          "2029": 0.321,
+          "2030": 0.32
+        },
+        "nwc_pct_sales": {
+          "2026": -0.06,
+          "2027": -0.058,
+          "2028": -0.057,
+          "2029": -0.056,
+          "2030": -0.055
+        },
+        "revenue_growth": {
+          "2026": 0.03,
+          "2027": 0.027,
+          "2028": 0.026,
+          "2029": 0.025,
+          "2030": 0.024
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 180.49,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.327,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0705
+      },
+      "description": "Modestly stronger top-line growth and operating margins, with slightly improved terminal economics (lower WACC, higher terminal growth).",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.72,
+          "2027": 0.71,
+          "2028": 0.7,
+          "2029": 0.695,
+          "2030": 0.69
+        },
+        "da_pct_sales": {
+          "2026": 0.155,
+          "2027": 0.155,
+          "2028": 0.154,
+          "2029": 0.154,
+          "2030": 0.153
+        },
+        "ebit_margin": {
+          "2026": 0.332,
+          "2027": 0.33,
+          "2028": 0.329,
+          "2029": 0.328,
+          "2030": 0.327
+        },
+        "nwc_pct_sales": {
+          "2026": -0.05,
+          "2027": -0.048,
+          "2028": -0.047,
+          "2029": -0.046,
+          "2030": -0.045
+        },
+        "revenue_growth": {
+          "2026": 0.04,
+          "2027": 0.038,
+          "2028": 0.036,
+          "2029": 0.035,
+          "2030": 0.034
+        }
+      }
+    }
+  },
+  "ticker": "ATO"
+}

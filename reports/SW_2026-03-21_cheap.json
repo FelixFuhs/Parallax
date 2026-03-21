@@ -1,0 +1,686 @@
+{
+  "_meta": {
+    "cost_usd": 0.024768,
+    "generated_at": "2026-03-21T17:20:03Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11753,
+      "prompt": 2514,
+      "reasoning": 7659
+    }
+  },
+  "_valuation": {
+    "company_name": "Smurfit Westrock plc",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 36.21,
+        "description": "Base case",
+        "enterprise_value": 25024026729.743553,
+        "equity_value": 12116026729.743553,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 27090645097.16408,
+        "implied_market_cap": 12116026729.743553,
+        "investments_adjustment": 0.0,
+        "net_debt": 12881000000.0,
+        "per_share_value": 23.034271349322346,
+        "projected_years": [
+          {
+            "capex": 2220724275.0000005,
+            "cash_taxes": 95430867.02325001,
+            "da": 2537970600.0000005,
+            "delta_nwc": 57941557.50000048,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1760717103.7500002,
+            "ebit_margin": 0.0555,
+            "ebitda": 4298687703.750001,
+            "fcff": 1924591004.2267494,
+            "nol_balance_end": 1023426316.9999998,
+            "nol_used": 1408573683.0000002,
+            "nwc": 2886941557.5000005,
+            "present_value_fcff": 1773816593.7573729,
+            "revenue": 31724632500.000004,
+            "revenue_growth": 0.0175,
+            "year": 2026
+          },
+          {
+            "capex": 2255345366.4472504,
+            "cash_taxes": 213011371.83517015,
+            "da": 2571998440.8195004,
+            "delta_nwc": 37252649.71312475,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1809446139.2700002,
+            "ebit_margin": 0.056,
+            "ebitda": 4381444580.0895,
+            "fcff": 1875835192.0939555,
+            "nol_balance_end": 0.0,
+            "nol_used": 1023426316.9999998,
+            "nwc": 2924194207.213125,
+            "present_value_fcff": 1593438121.0847168,
+            "revenue": 32311538201.250004,
+            "revenue_growth": 0.0185,
+            "year": 2027
+          },
+          {
+            "capex": 2288319291.181626,
+            "cash_taxes": 504138141.39463973,
+            "da": 2607696228.2242413,
+            "delta_nwc": 39096961.22351217,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 1860288344.6296668,
+            "ebit_margin": 0.0565,
+            "ebitda": 4467984572.853909,
+            "fcff": 1636430179.0541306,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2963291168.4366374,
+            "present_value_fcff": 1281174439.6979275,
+            "revenue": 32925457427.07375,
+            "revenue_growth": 0.019,
+            "year": 2028
+          },
+          {
+            "capex": 2326228016.590287,
+            "cash_taxes": 523065628.6943457,
+            "da": 2648476053.5205436,
+            "delta_nwc": 51070677.01513481,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 1930131471.1968474,
+            "ebit_margin": 0.0575,
+            "ebitda": 4578607524.717391,
+            "fcff": 1678243202.4176235,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3014361845.451772,
+            "present_value_fcff": 1210977137.6120546,
+            "revenue": 33567503846.90169,
+            "revenue_growth": 0.0195,
+            "year": 2029
+          },
+          {
+            "capex": 2362480920.744941,
+            "cash_taxes": 538166305.9749129,
+            "da": 2691173918.4138026,
+            "delta_nwc": 50015580.73188305,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 1985853527.582704,
+            "ebit_margin": 0.058,
+            "ebitda": 4677027445.996507,
+            "fcff": 1726364638.5447698,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3064377426.1836553,
+            "present_value_fcff": 1148110901.7911944,
+            "revenue": 34238853923.839725,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 27090645097.16408,
+        "terminal_value_present_value": 18016509535.800285,
+        "upside_downside_pct": -0.3638698881711586
+      },
+      "bear": {
+        "current_price": 36.21,
+        "description": "Modestly lower growth and margin with higher reinvestment needs.",
+        "enterprise_value": 22189720441.766167,
+        "equity_value": 9281720441.766167,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 23974550520.494312,
+        "implied_market_cap": 9281720441.766167,
+        "investments_adjustment": 0.0,
+        "net_debt": 12881000000.0,
+        "per_share_value": 17.645856353167616,
+        "projected_years": [
+          {
+            "capex": 2242487216.9999995,
+            "cash_taxes": 89873202.47849995,
+            "da": 2558330487.0,
+            "delta_nwc": 108342410.99999952,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 1658177167.4999998,
+            "ebit_margin": 0.0525,
+            "ebitda": 4216507654.5,
+            "fcff": 1775804824.0215006,
+            "nol_balance_end": 1105458266.0,
+            "nol_used": 1326541734.0,
+            "nwc": 2937342410.9999995,
+            "present_value_fcff": 1629178737.6344042,
+            "revenue": 31584326999.999996,
+            "revenue_growth": 0.013,
+            "year": 2026
+          },
+          {
+            "capex": 2280287339.5536,
+            "cash_taxes": 160417538.25681397,
+            "da": 2610160367.607,
+            "delta_nwc": 25109539.965000153,
+            "discount_factor": 0.84167999326656,
+            "ebit": 1697404901.6339998,
+            "ebit_margin": 0.053,
+            "ebitda": 4307565269.240999,
+            "fcff": 1841750851.4655857,
+            "nol_balance_end": 0.0,
+            "nol_used": 1105458266.0,
+            "nwc": 2962451950.9649997,
+            "present_value_fcff": 1550164844.2602353,
+            "revenue": 32026507577.999996,
+            "revenue_growth": 0.014,
+            "year": 2027
+          },
+          {
+            "capex": 2323098773.5584908,
+            "cash_taxes": 471069196.7613676,
+            "da": 2664253138.9062414,
+            "delta_nwc": 26710107.32005167,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 1738262718.6766331,
+            "ebit_margin": 0.0535,
+            "ebitda": 4402515857.582874,
+            "fcff": 1581637779.9429646,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2989162058.2850513,
+            "present_value_fcff": 1221314565.112414,
+            "revenue": 32490891937.880993,
+            "revenue_growth": 0.0145,
+            "year": 2028
+          },
+          {
+            "capex": 2364540906.225258,
+            "cash_taxes": 482603788.3082347,
+            "da": 2710812587.0532246,
+            "delta_nwc": 38241779.810885906,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 1780825787.115257,
+            "ebit_margin": 0.054,
+            "ebitda": 4491638374.168482,
+            "fcff": 1606251899.8241029,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3027403838.0959373,
+            "present_value_fcff": 1137909341.1567626,
+            "revenue": 32978255316.949203,
+            "revenue_growth": 0.015,
+            "year": 2029
+          },
+          {
+            "capex": 2411238115.754058,
+            "cash_taxes": 494621963.2031884,
+            "da": 2762877007.6348586,
+            "delta_nwc": 36877934.008178234,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 1825173295.9527247,
+            "ebit_margin": 0.0545,
+            "ebitda": 4588050303.587584,
+            "fcff": 1645312290.6221585,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3064281772.1041155,
+            "present_value_fcff": 1069340097.9377654,
+            "revenue": 33489418274.36192,
+            "revenue_growth": 0.0155,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 23974550520.494312,
+        "terminal_value_present_value": 15581812855.664583,
+        "upside_downside_pct": -0.5126800233866994
+      },
+      "bull": {
+        "current_price": 36.21,
+        "description": "Modestly higher growth and margin (closer to plan upside) with slightly lower capex intensity.",
+        "enterprise_value": 27394540993.430008,
+        "equity_value": 14486540993.430008,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 29715477957.954712,
+        "implied_market_cap": 14486540993.430008,
+        "investments_adjustment": 0.0,
+        "net_debt": 12881000000.0,
+        "per_share_value": 27.54095245899241,
+        "projected_years": [
+          {
+            "capex": 2195453695.5,
+            "cash_taxes": 99161325.24675001,
+            "da": 2529544475.25,
+            "delta_nwc": 34635255.0,
+            "discount_factor": 0.9242144177449167,
+            "ebit": 1829544746.25,
+            "ebit_margin": 0.0575,
+            "ebitda": 4359089221.5,
+            "fcff": 2029838945.7532501,
+            "nol_balance_end": 968364203.0,
+            "nol_used": 1463635797.0,
+            "nwc": 2863635255.0,
+            "present_value_fcff": 1876006419.3652956,
+            "revenue": 31818169500.0,
+            "revenue_growth": 0.0205,
+            "year": 2026
+          },
+          {
+            "capex": 2235060952.8935995,
+            "cash_taxes": 248193766.940221,
+            "da": 2566421733.7004995,
+            "delta_nwc": 43893164.82524967,
+            "discount_factor": 0.8541722899675755,
+            "ebit": 1884208361.451,
+            "ebit_margin": 0.058,
+            "ebitda": 4450630095.1515,
+            "fcff": 1923482210.4924293,
+            "nol_balance_end": 0.0,
+            "nol_used": 968364203.0,
+            "nwc": 2907528419.8252497,
+            "present_value_fcff": 1642985204.4482124,
+            "revenue": 32486351059.499996,
+            "revenue_growth": 0.021,
+            "year": 2027
+          },
+          {
+            "capex": 2276477801.8593564,
+            "cash_taxes": 526095347.4020016,
+            "da": 2614962839.4536047,
+            "delta_nwc": 45919457.22260332,
+            "discount_factor": 0.789438345626225,
+            "ebit": 1941311245.025836,
+            "ebit_margin": 0.0585,
+            "ebitda": 4556274084.479441,
+            "fcff": 1707781477.9954796,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2953447877.047853,
+            "present_value_fcff": 1348188184.6798606,
+            "revenue": 33184807607.279247,
+            "revenue_growth": 0.0215,
+            "year": 2028
+          },
+          {
+            "capex": 2319777338.8253345,
+            "cash_taxes": 542264910.3871093,
+            "da": 2662317559.9091926,
+            "delta_nwc": 58192878.620125294,
+            "discount_factor": 0.7296103009484519,
+            "ebit": 2000977529.103724,
+            "ebit_margin": 0.059,
+            "ebitda": 4663295089.012917,
+            "fcff": 1743059961.1803474,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3011640755.6679783,
+            "present_value_fcff": 1271754502.8479903,
+            "revenue": 33914873374.639393,
+            "revenue_growth": 0.022,
+            "year": 2029
+          },
+          {
+            "capex": 2365036737.3437905,
+            "cash_taxes": 563863597.4957484,
+            "da": 2711816317.5994787,
+            "delta_nwc": 57358529.59485865,
+            "discount_factor": 0.6743163594717669,
+            "ebit": 2080677481.5341268,
+            "ebit_margin": 0.06,
+            "ebitda": 4792493799.133606,
+            "fcff": 1806234934.6992078,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 3068999285.262837,
+            "present_value_fcff": 1217973765.5170944,
+            "revenue": 34677958025.56878,
+            "revenue_growth": 0.0225,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 29715477957.954712,
+        "terminal_value_present_value": 20037632916.571556,
+        "upside_downside_pct": -0.23941031596265094
+      }
+    },
+    "ticker": "SW"
+  },
+  "assumptions": {
+    "cash": 892000000.0,
+    "current_price": 36.21,
+    "debt": 13773000000.0,
+    "diluted_shares": 526000000.0,
+    "investments": 0.0,
+    "minority_interest": 27000000.0,
+    "net_debt_override": null,
+    "nol_balance": 2432000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.058,
+    "tax_rate": 0.271,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Smurfit Westrock plc",
+  "comps": [
+    {
+      "company_name": "Packaging Corporation of America",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward (NTM) EV/Revenue, EV/EBITDA, and P/E data not available from primary/accessible sources in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PKG"
+    },
+    {
+      "company_name": "International Paper",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward (NTM) EV/Revenue, EV/EBITDA, and P/E data not available from primary/accessible sources in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "IP"
+    },
+    {
+      "company_name": "Graphic Packaging Holding Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward (NTM) EV/Revenue, EV/EBITDA, and P/E data not available from primary/accessible sources in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "GPK"
+    },
+    {
+      "company_name": "Amcor plc",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward (NTM) EV/Revenue, EV/EBITDA, and P/E data not available from primary/accessible sources in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "AMCR"
+    },
+    {
+      "company_name": "Berry Global Group, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward (NTM) EV/Revenue, EV/EBITDA, and P/E data not available from primary/accessible sources in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "BERY"
+    },
+    {
+      "company_name": "Silgan Holdings Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward (NTM) EV/Revenue, EV/EBITDA, and P/E data not available from primary/accessible sources in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SLGN"
+    },
+    {
+      "company_name": "Sonoco Products Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward (NTM) EV/Revenue, EV/EBITDA, and P/E data not available from primary/accessible sources in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SON"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.07,
+      "2027": 0.0698,
+      "2028": 0.0695,
+      "2029": 0.0693,
+      "2030": 0.069
+    },
+    "da_pct_sales": {
+      "2026": 0.08,
+      "2027": 0.0796,
+      "2028": 0.0792,
+      "2029": 0.0789,
+      "2030": 0.0786
+    },
+    "ebit_margin": {
+      "2026": 0.0555,
+      "2027": 0.056,
+      "2028": 0.0565,
+      "2029": 0.0575,
+      "2030": 0.058
+    },
+    "nwc_pct_sales": {
+      "2026": 0.091,
+      "2027": 0.0905,
+      "2028": 0.09,
+      "2029": 0.0898,
+      "2030": 0.0895
+    },
+    "revenue_growth": {
+      "2026": 0.0175,
+      "2027": 0.0185,
+      "2028": 0.019,
+      "2029": 0.0195,
+      "2030": 0.02
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 929000000.0,
+      "2024": 1466000000.0,
+      "2025": 2192000000.0
+    },
+    "da": {
+      "2023": 580000000.0,
+      "2024": 1464000000.0,
+      "2025": 2550000000.0
+    },
+    "ebit": {
+      "2023": 1372000000.0,
+      "2024": 1007000000.0,
+      "2025": 1719000000.0
+    },
+    "nwc": {
+      "2023": 642000000.0,
+      "2024": 2920000000.0,
+      "2025": 2829000000.0
+    },
+    "revenue": {
+      "2023": 12093000000.0,
+      "2024": 21109000000.0,
+      "2025": 31179000000.0
+    }
+  },
+  "notes": [
+    "Ticker ambiguity check: this package assumes NYSE ticker SW corresponds to Smurfit Westrock plc.",
+    "EBIT definition: used Operating profit as the EBIT proxy from the consolidated statements of operations. ([s203.q4cdn.com](https://s203.q4cdn.com/463220948/files/doc_financials/2025/q4/SW-10K-December-31-2025.pdf))",
+    "D&A definition: used Depreciation, depletion and amortization from cash flow statement. ([s203.q4cdn.com](https://s203.q4cdn.com/463220948/files/doc_financials/2025/q4/SW-10K-December-31-2025.pdf))",
+    "Capex definition: used Capital expenditures from cash flow statement. ([s203.q4cdn.com](https://s203.q4cdn.com/463220948/files/doc_financials/2025/q4/SW-10K-December-31-2025.pdf))",
+    "NWC construction: NWC level computed as (Total current assets - Cash and cash equivalents) - (Total current liabilities - Current portion of debt). Historical NWC for 2023 uses the 2024 Annual Report balance sheet. ([s203.q4cdn.com](https://s203.q4cdn.com/463220948/files/doc_financials/2025/q4/SW-10K-December-31-2025.pdf))",
+    "Merger comparability caution: 2024\u20132025 results reflect the Smurfit Kappa/WestRock combination; 2023 includes a different operating/combination basis, so only used as a historical reference and smoothed into base-case ratios. ([smurfitwestrock.com](https://www.smurfitwestrock.com/newsroom/press-releases/2026/smurfit-westrock-reports-fourth-quarter-and--full-year-2025-results))",
+    "Tax rate: used FY 2025 effective tax rate (income tax expense / income before income taxes) as the DCF tax_rate. ([s203.q4cdn.com](https://s203.q4cdn.com/463220948/files/doc_financials/2025/q4/SW-10K-December-31-2025.pdf))",
+    "WACC is an analyst assumption (not explicitly provided in the filings/press releases retrieved in this run).",
+    "Terminal framework: terminal_method = gordon_growth; therefore terminal_exit_ebitda_multiple is null.",
+    "NOL utilization percent not disclosed in the retrieved materials; set to null and left for the model operator to parameterize. NOL carryforwards (balance) are from FY 2025. ([s203.q4cdn.com](https://s203.q4cdn.com/463220948/files/doc_financials/2025/q4/SW-10K-December-31-2025.pdf))",
+    "Comps forward NTM multiples (EV/NTM Revenue, EV/NTM EBITDA, P/E NTM) were not sourced from accessible primary/quality inputs in this run; comp multiple fields are left null."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Delivery of the 2026 adjusted EBITDA guidance ($5.0B\u2013$5.3B) as synergies and operating improvements translate into results. ([smurfitwestrock.com](https://www.smurfitwestrock.com/newsroom/press-releases/2026/smurfit-westrock-reports-fourth-quarter-and--full-year-2025-results))",
+      "Progress toward medium-term targets (e.g., ~$7B adjusted EBITDA by 2030) and associated capital return policy execution. ([smurfitwestrock.com](https://www.smurfitwestrock.com/newsroom/press-releases/2026/smurfit-westrock-medium-term-investor-update))",
+      "Improving working capital discipline and operational stability across regions, particularly in North America and Europe recovery cycles."
+    ],
+    "company_overview": [
+      "Smurfit Westrock is a global paper-based packaging company with operations across North America, EMEA & APAC, and Latin America.",
+      "The company reports in USD and provides net sales, operating profit, and D&A in its consolidated financial statements. ([s203.q4cdn.com](https://s203.q4cdn.com/463220948/files/doc_financials/2025/q4/SW-10K-December-31-2025.pdf))"
+    ],
+    "current_context": [
+      "FY 2025 produced net sales of $31.179B with operating profit of $1.719B (EBIT proxied by operating profit). ([s203.q4cdn.com](https://s203.q4cdn.com/463220948/files/doc_financials/2025/q4/SW-10K-December-31-2025.pdf))",
+      "In its FY 2025 results release (Feb 2026), management guided 2026 adjusted EBITDA to $5.0B\u2013$5.3B and discussed an accelerated growth path via its medium-term plan. ([smurfitwestrock.com](https://www.smurfitwestrock.com/newsroom/press-releases/2026/smurfit-westrock-reports-fourth-quarter-and--full-year-2025-results))",
+      "A Medium-Term Investor Update (Feb 11, 2026) targets ~$7B adjusted EBITDA by 2030 and assumes market growth of 1.6% (North America), 1.7% (Europe), and 2.0% (Latin America) with through-the-cycle pricing around current levels. ([smurfitwestrock.com](https://www.smurfitwestrock.com/newsroom/press-releases/2026/smurfit-westrock-medium-term-investor-update))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth is anchored to the company\u2019s stated market growth assumptions (low-to-mid single digits) rather than aggressive pricing or volume outperformance. ([smurfitwestrock.com](https://www.smurfitwestrock.com/newsroom/press-releases/2026/smurfit-westrock-medium-term-investor-update))",
+      "Base-case EBIT margin modestly expands from 2025 levels, consistent with a gradual improvement in operating leverage while recognizing integration and downtime risks. ([smurfitwestrock.com](https://www.smurfitwestrock.com/newsroom/press-releases/2026/smurfit-westrock-medium-term-investor-update))",
+      "Capital intensity and D&A intensity are modeled using recent historical ratios (2024\u20132025) to reflect ongoing reinvestment and asset base evolution. ([s203.q4cdn.com](https://s203.q4cdn.com/463220948/files/doc_financials/2025/q4/SW-10K-December-31-2025.pdf))",
+      "Working capital intensity (NWC as % of sales) is kept relatively stable vs. 2025 with a gradual normalization, to avoid overstating FCF generation. ([s203.q4cdn.com](https://s203.q4cdn.com/463220948/files/doc_financials/2025/q4/SW-10K-December-31-2025.pdf))"
+    ],
+    "key_risks": [
+      "Sustained weakness in corrugated/paper market pricing and/or volume declines that compress revenue growth and margin.",
+      "Integration execution risk (downtime, costs, and synergy realization) given the company\u2019s post-combination operating ramp. ([smurfitwestrock.com](https://www.smurfitwestrock.com/newsroom/press-releases/2026/smurfit-westrock-reports-fourth-quarter-and--full-year-2025-results))",
+      "Leverage and interest-rate exposure impacting effective cost of capital and downstream valuation sensitivity."
+    ],
+    "sources": [
+      {
+        "label": "Smurfit Westrock \u2014 2025 Form 10-K (Annual Report PDF)",
+        "notes": "Used for net sales, operating profit (EBIT proxy), D&A, capex, balance-sheet cash/debt, diluted shares, effective tax rate, NOL carryforwards, and reporting currency. ([s203.q4cdn.com](https://s203.q4cdn.com/463220948/files/doc_financials/2025/q4/SW-10K-December-31-2025.pdf))",
+        "url": null
+      },
+      {
+        "label": "Smurfit Westrock \u2014 2024 Annual Report PDF (for 2023 balance-sheet working capital inputs)",
+        "notes": "Used for 2023 current assets/liabilities and current portion of debt to construct NWC level. ([s203.q4cdn.com](https://s203.q4cdn.com/463220948/files/doc_financials/2024/ar/2024-Annual-Report.pdf))",
+        "url": null
+      },
+      {
+        "label": "Smurfit Westrock \u2014 Medium-Term Investor Update (Feb 11, 2026 press release)",
+        "notes": "Used for market growth assumptions and medium-term targets (adjusted EBITDA ~$7B by 2030, ~7% CAGR, market growth 1.6%/1.7%/2.0%). ([smurfitwestrock.com](https://www.smurfitwestrock.com/newsroom/press-releases/2026/smurfit-westrock-medium-term-investor-update))",
+        "url": null
+      },
+      {
+        "label": "Smurfit Westrock \u2014 FY 2025 Results press release (Feb 2026)",
+        "notes": "Used for 2026 adjusted EBITDA guidance context and discussion of operating initiatives feeding the medium-term plan. ([smurfitwestrock.com](https://www.smurfitwestrock.com/newsroom/press-releases/2026/smurfit-westrock-reports-fourth-quarter-and--full-year-2025-results))",
+        "url": null
+      }
+    ],
+    "subtitle": "Smurfit Westrock (SW) \u2014 DCF & Comps Valuation Input Package",
+    "valuation_summary": [
+      "DCF base case uses (i) historical net sales/operating profit, (ii) normalized D&A and capex intensity, and (iii) a gordon_growth terminal framework with a conservative terminal growth assumption. ([s203.q4cdn.com](https://s203.q4cdn.com/463220948/files/doc_financials/2025/q4/SW-10K-December-31-2025.pdf))",
+      "Comps coverage is included (peer set provided), but forward NTM EV/Revenue, EV/EBITDA, and P/E were not pulled from accessible primary/quality sources in this run, so comp multiples are left null for the model to populate later."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 36.21,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.0545,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.09
+      },
+      "description": "Modestly lower growth and margin with higher reinvestment needs.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.071,
+          "2027": 0.0712,
+          "2028": 0.0715,
+          "2029": 0.0717,
+          "2030": 0.072
+        },
+        "da_pct_sales": {
+          "2026": 0.081,
+          "2027": 0.0815,
+          "2028": 0.082,
+          "2029": 0.0822,
+          "2030": 0.0825
+        },
+        "ebit_margin": {
+          "2026": 0.0525,
+          "2027": 0.053,
+          "2028": 0.0535,
+          "2029": 0.054,
+          "2030": 0.0545
+        },
+        "nwc_pct_sales": {
+          "2026": 0.093,
+          "2027": 0.0925,
+          "2028": 0.092,
+          "2029": 0.0918,
+          "2030": 0.0915
+        },
+        "revenue_growth": {
+          "2026": 0.013,
+          "2027": 0.014,
+          "2028": 0.0145,
+          "2029": 0.015,
+          "2030": 0.0155
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 36.21,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.06,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.082
+      },
+      "description": "Modestly higher growth and margin (closer to plan upside) with slightly lower capex intensity.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.069,
+          "2027": 0.0688,
+          "2028": 0.0686,
+          "2029": 0.0684,
+          "2030": 0.0682
+        },
+        "da_pct_sales": {
+          "2026": 0.0795,
+          "2027": 0.079,
+          "2028": 0.0788,
+          "2029": 0.0785,
+          "2030": 0.0782
+        },
+        "ebit_margin": {
+          "2026": 0.0575,
+          "2027": 0.058,
+          "2028": 0.0585,
+          "2029": 0.059,
+          "2030": 0.06
+        },
+        "nwc_pct_sales": {
+          "2026": 0.09,
+          "2027": 0.0895,
+          "2028": 0.089,
+          "2029": 0.0888,
+          "2030": 0.0885
+        },
+        "revenue_growth": {
+          "2026": 0.0205,
+          "2027": 0.021,
+          "2028": 0.0215,
+          "2029": 0.022,
+          "2030": 0.0225
+        }
+      }
+    }
+  },
+  "ticker": "SW"
+}

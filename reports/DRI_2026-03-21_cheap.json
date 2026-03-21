@@ -1,0 +1,702 @@
+{
+  "_meta": {
+    "cost_usd": 0.026143,
+    "generated_at": "2026-03-21T17:14:47Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12949,
+      "prompt": 2514,
+      "reasoning": 7563
+    }
+  },
+  "_valuation": {
+    "company_name": "Darden Restaurants, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 203.05,
+        "description": "Base case",
+        "enterprise_value": 20733797285.287945,
+        "equity_value": 18844897285.287945,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 23140860537.090683,
+        "implied_market_cap": 18844897285.287945,
+        "investments_adjustment": 0.0,
+        "net_debt": 1888900000.0,
+        "per_share_value": 159.16298382844548,
+        "projected_years": [
+          {
+            "capex": 688069982.5,
+            "cash_taxes": 167507950.2,
+            "da": 553052476.5,
+            "delta_nwc": -118269775.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1479999585.0,
+            "ebit_margin": 0.114,
+            "ebitda": 2033052061.5,
+            "fcff": 1295743903.8,
+            "nol_balance_end": 0.0,
+            "nol_used": 84100000.0,
+            "nwc": -1428069775.0,
+            "present_value_fcff": 1194234012.718894,
+            "revenue": 12982452500.0,
+            "revenue_growth": 0.075,
+            "year": 2026
+          },
+          {
+            "capex": 714963132.85375,
+            "cash_taxes": 186405947.73075002,
+            "da": 576583171.65625,
+            "delta_nwc": -50696477.01250005,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1553382897.7562501,
+            "ebit_margin": 0.1145,
+            "ebitda": 2129966069.4125001,
+            "fcff": 1279293465.8405,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1478766252.0125,
+            "present_value_fcff": 1086702597.9235067,
+            "revenue": 13566662862.5,
+            "revenue_growth": 0.045,
+            "year": 2027
+          },
+          {
+            "capex": 742164291.8930625,
+            "cash_taxes": 195931373.05976853,
+            "da": 599386018.59554,
+            "delta_nwc": -62108182.58452511,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 1632761442.1647377,
+            "ebit_margin": 0.1155,
+            "ebitda": 2232147460.7602777,
+            "fcff": 1356159978.391972,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1540874434.5970252,
+            "present_value_fcff": 1061748629.8507179,
+            "revenue": 14136462702.725,
+            "revenue_growth": 0.042,
+            "year": 2028
+          },
+          {
+            "capex": 768910479.3266183,
+            "cash_taxes": 205532858.52745932,
+            "da": 621891267.2182782,
+            "delta_nwc": -54284016.77846408,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 1712773821.0621612,
+            "ebit_margin": 0.1165,
+            "ebitda": 2334665088.2804394,
+            "fcff": 1414505767.2048256,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1595158451.3754892,
+            "present_value_fcff": 1020670986.5637143,
+            "revenue": 14701921210.834002,
+            "revenue_growth": 0.04,
+            "year": 2029
+          },
+          {
+            "capex": 793550899.2759761,
+            "cash_taxes": 214258742.80451354,
+            "da": 643997075.9508883,
+            "delta_nwc": -52985724.04384565,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 1785489523.3709462,
+            "ebit_margin": 0.117,
+            "ebitda": 2429486599.3218346,
+            "fcff": 1474662681.2851906,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1648144175.419335,
+            "present_value_fcff": 980717667.0829698,
+            "revenue": 15260594216.845694,
+            "revenue_growth": 0.038,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 23140860537.090683,
+        "terminal_value_present_value": 15389723391.148142,
+        "upside_downside_pct": -0.2161389616919701
+      },
+      "bear": {
+        "current_price": 203.05,
+        "description": "Modestly weaker sales growth and limited margin expansion vs base case; slightly higher WACC and lower terminal growth.",
+        "enterprise_value": 18663271716.100098,
+        "equity_value": 16774371716.100098,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 20630717834.665283,
+        "implied_market_cap": 16774371716.100096,
+        "investments_adjustment": 0.0,
+        "net_debt": 1888900000.0,
+        "per_share_value": 141.67543679138595,
+        "projected_years": [
+          {
+            "capex": 684869657.0,
+            "cash_taxes": 163580607.35999998,
+            "da": 550480139.4,
+            "delta_nwc": -111627590.0,
+            "discount_factor": 0.9191176470588235,
+            "ebit": 1447271728.0,
+            "ebit_margin": 0.112,
+            "ebitda": 1997751867.4,
+            "fcff": 1260929193.04,
+            "nol_balance_end": 0.0,
+            "nol_used": 84100000.0,
+            "nwc": -1421427590.0,
+            "present_value_fcff": 1158942273.014706,
+            "revenue": 12922069000.0,
+            "revenue_growth": 0.07,
+            "year": 2026
+          },
+          {
+            "capex": 709594743.8246,
+            "cash_taxes": 181774744.623,
+            "da": 572253825.6650001,
+            "delta_nwc": -46235162.88199997,
+            "discount_factor": 0.844777249134948,
+            "ebit": 1514789538.525,
+            "ebit_margin": 0.1125,
+            "ebitda": 2087043364.19,
+            "fcff": 1241909038.6244004,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1467662752.882,
+            "present_value_fcff": 1049136501.3249488,
+            "revenue": 13464795898.0,
+            "revenue_growth": 0.042,
+            "year": 2027
+          },
+          {
+            "capex": 734470954.2461549,
+            "cash_taxes": 190542750.41585964,
+            "da": 593172732.5721328,
+            "delta_nwc": -57238847.36239791,
+            "discount_factor": 0.776449677513739,
+            "ebit": 1587856253.465497,
+            "ebit_margin": 0.1135,
+            "ebitda": 2181028986.03763,
+            "fcff": 1313254128.738013,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1524901600.2443979,
+            "present_value_fcff": 1019675744.7522165,
+            "revenue": 13989922938.022,
+            "revenue_growth": 0.039,
+            "year": 2028
+          },
+          {
+            "capex": 758013196.5662584,
+            "cash_taxes": 199141516.6504855,
+            "da": 613077594.9283504,
+            "delta_nwc": -47649677.52690315,
+            "discount_factor": 0.71364860065601,
+            "ebit": 1659512638.7540457,
+            "ebit_margin": 0.1145,
+            "ebitda": 2272590233.682396,
+            "fcff": 1363085197.9925554,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1572551277.771301,
+            "present_value_fcff": 972763844.1223074,
+            "revenue": 14493560163.790792,
+            "revenue_growth": 0.036,
+            "year": 2029
+          },
+          {
+            "capex": 780043408.0152204,
+            "cash_taxes": 207011519.81942388,
+            "da": 633035227.2738905,
+            "delta_nwc": -47538877.33723378,
+            "discount_factor": 0.6559270226617738,
+            "ebit": 1725095998.4951992,
+            "ebit_margin": 0.115,
+            "ebitda": 2358131225.7690897,
+            "fcff": 1418615175.2716794,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1620090155.1085348,
+            "present_value_fcff": 930508028.2187631,
+            "revenue": 15000834769.52347,
+            "revenue_growth": 0.035,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 20630717834.665283,
+        "terminal_value_present_value": 13532245324.667156,
+        "upside_downside_pct": -0.30226330070728424
+      },
+      "bull": {
+        "current_price": 203.05,
+        "description": "Modestly better sales growth and gradual EBIT margin expansion vs base case; slightly lower WACC and higher terminal growth.",
+        "enterprise_value": 23141003307.85612,
+        "equity_value": 21252103307.85612,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 26071855368.131496,
+        "implied_market_cap": 21252103307.85612,
+        "investments_adjustment": 0.0,
+        "net_debt": 1888900000.0,
+        "per_share_value": 179.49411577581182,
+        "projected_years": [
+          {
+            "capex": 691270308.0,
+            "cash_taxes": 171464277.12,
+            "da": 555624813.6,
+            "delta_nwc": -124911960.0,
+            "discount_factor": 0.9242144177449167,
+            "ebit": 1512968976.0,
+            "ebit_margin": 0.116,
+            "ebitda": 2068593789.6,
+            "fcff": 1330771164.48,
+            "nol_balance_end": 0.0,
+            "nol_used": 84100000.0,
+            "nwc": -1434711960.0,
+            "present_value_fcff": 1229917896.931608,
+            "revenue": 13042836000.0,
+            "revenue_growth": 0.08,
+            "year": 2026
+          },
+          {
+            "capex": 720350615.1456,
+            "cash_taxes": 191091111.94944,
+            "da": 580927915.44,
+            "delta_nwc": -55197281.9519999,
+            "discount_factor": 0.8541722899675755,
+            "ebit": 1592425932.9120002,
+            "ebit_margin": 0.1165,
+            "ebitda": 2173353848.352,
+            "fcff": 1317109403.2089603,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1489909241.952,
+            "present_value_fcff": 1125038355.0768244,
+            "revenue": 13668892128.0,
+            "revenue_growth": 0.048,
+            "year": 2027
+          },
+          {
+            "capex": 749909594.3723999,
+            "cash_taxes": 201404291.06001598,
+            "da": 605641272.407424,
+            "delta_nwc": -67045915.887839794,
+            "discount_factor": 0.789438345626225,
+            "ebit": 1678369092.1667998,
+            "ebit_margin": 0.1175,
+            "ebitda": 2284010364.5742235,
+            "fcff": 1399742395.0296478,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1556955157.8398397,
+            "present_value_fcff": 1105010320.6350951,
+            "revenue": 14283992273.759998,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 779176066.1421067,
+            "cash_taxes": 211852460.04858044,
+            "da": 630194026.72679,
+            "delta_nwc": -59499969.81634736,
+            "discount_factor": 0.7296103009484519,
+            "ebit": 1765437167.0715036,
+            "ebit_margin": 0.1185,
+            "ebitda": 2395631193.7982936,
+            "fcff": 1464102637.4239538,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1616455127.656187,
+            "present_value_fcff": 1068224365.9103131,
+            "revenue": 14898203941.531677,
+            "revenue_growth": 0.043,
+            "year": 2029
+          },
+          {
+            "capex": 806469575.7629927,
+            "cash_taxes": 221468952.7287603,
+            "da": 654481078.792275,
+            "delta_nwc": -58520145.08233619,
+            "discount_factor": 0.6743163594717669,
+            "ebit": 1845574606.0730026,
+            "ebit_margin": 0.119,
+            "ebitda": 2500055684.8652773,
+            "fcff": 1530637301.4558609,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1674975272.7385232,
+            "present_value_fcff": 1032133772.7894056,
+            "revenue": 15509030303.134476,
+            "revenue_growth": 0.041,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 26071855368.131496,
+        "terminal_value_present_value": 17580678596.512875,
+        "upside_downside_pct": -0.11601026458600439
+      }
+    },
+    "ticker": "DRI"
+  },
+  "assumptions": {
+    "cash": 240000000.0,
+    "current_price": 203.05,
+    "debt": 2128900000.0,
+    "diluted_shares": 118400000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 84100000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.117,
+    "tax_rate": 0.12,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Darden Restaurants, Inc.",
+  "comps": [
+    {
+      "company_name": "Restaurant Brands International Inc.",
+      "ev_ntm_ebitda": 17.29,
+      "ev_ntm_revenue": 5.12,
+      "notes": "StockAnalysis reports EV/Sales, EV/EBITDA, and forward PE; used here as proxies for EV/NTM multiples (timing not explicitly stated). ([stockanalysis.com](https://stockanalysis.com/stocks/qsr/statistics/))",
+      "pe_ntm": 18.28,
+      "source": "https://stockanalysis.com/stocks/qsr/statistics/",
+      "ticker": "QSR"
+    },
+    {
+      "company_name": "Yum! Brands, Inc.",
+      "ev_ntm_ebitda": 19.15,
+      "ev_ntm_revenue": 6.78,
+      "notes": "StockAnalysis EV/Sales and EV/EBITDA used as proxies for EV/NTM; forward PE reported. ([stockanalysis.com](https://stockanalysis.com/stocks/yum/statistics/))",
+      "pe_ntm": 23.46,
+      "source": "https://stockanalysis.com/stocks/yum/statistics/",
+      "ticker": "YUM"
+    },
+    {
+      "company_name": "Texas Roadhouse, Inc.",
+      "ev_ntm_ebitda": 17.76,
+      "ev_ntm_revenue": 2.06,
+      "notes": "StockAnalysis EV/Sales and EV/EBITDA used as proxies for EV/NTM; forward PE reported. ([stockanalysis.com](https://stockanalysis.com/stocks/txrh/statistics/))",
+      "pe_ntm": 27.24,
+      "source": "https://stockanalysis.com/stocks/txrh/statistics/",
+      "ticker": "TXRH"
+    },
+    {
+      "company_name": "Brinker International, Inc.",
+      "ev_ntm_ebitda": 9.87,
+      "ev_ntm_revenue": 1.41,
+      "notes": "StockAnalysis EV/Sales and EV/EBITDA used as proxies for EV/NTM; forward PE reported. ([stockanalysis.com](https://stockanalysis.com/stocks/eat/statistics/))",
+      "pe_ntm": 12.64,
+      "source": "https://stockanalysis.com/stocks/eat/statistics/",
+      "ticker": "EAT"
+    },
+    {
+      "company_name": "Cracker Barrel Old Country Store, Inc.",
+      "ev_ntm_ebitda": 13.83,
+      "ev_ntm_revenue": 0.54,
+      "notes": "Forward PE not available on StockAnalysis page (shown as n/a). ([stockanalysis.com](https://stockanalysis.com/stocks/cbrl/statistics/))",
+      "pe_ntm": null,
+      "source": "https://stockanalysis.com/stocks/cbrl/statistics/",
+      "ticker": "CBRL"
+    },
+    {
+      "company_name": "Bloomin' Brands, Inc.",
+      "ev_ntm_ebitda": 8.34,
+      "ev_ntm_revenue": 0.62,
+      "notes": "StockAnalysis EV/Sales and EV/EBITDA used as proxies for EV/NTM; forward PE reported. ([stockanalysis.com](https://stockanalysis.com/stocks/blmn/statistics/))",
+      "pe_ntm": 6.76,
+      "source": "https://stockanalysis.com/stocks/blmn/statistics/",
+      "ticker": "BLMN"
+    },
+    {
+      "company_name": "The Cheesecake Factory Incorporated",
+      "ev_ntm_ebitda": 14.3,
+      "ev_ntm_revenue": 1.27,
+      "notes": "StockAnalysis EV/Sales and EV/EBITDA used as proxies for EV/NTM; forward PE reported. ([stockanalysis.com](https://stockanalysis.com/stocks/cake/statistics/))",
+      "pe_ntm": 14.17,
+      "source": "https://stockanalysis.com/stocks/cake/statistics/",
+      "ticker": "CAKE"
+    },
+    {
+      "company_name": "Dine Brands Global, Inc.",
+      "ev_ntm_ebitda": 9.88,
+      "ev_ntm_revenue": 2.1,
+      "notes": "StockAnalysis EV/Sales and EV/EBITDA used as proxies for EV/NTM; forward PE reported. ([stockanalysis.com](https://stockanalysis.com/stocks/din/statistics/))",
+      "pe_ntm": 5.98,
+      "source": "https://stockanalysis.com/stocks/din/statistics/",
+      "ticker": "DIN"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.053,
+      "2027": 0.0527,
+      "2028": 0.0525,
+      "2029": 0.0523,
+      "2030": 0.052
+    },
+    "da_pct_sales": {
+      "2026": 0.0426,
+      "2027": 0.0425,
+      "2028": 0.0424,
+      "2029": 0.0423,
+      "2030": 0.0422
+    },
+    "ebit_margin": {
+      "2026": 0.114,
+      "2027": 0.1145,
+      "2028": 0.1155,
+      "2029": 0.1165,
+      "2030": 0.117
+    },
+    "nwc_pct_sales": {
+      "2026": -0.11,
+      "2027": -0.109,
+      "2028": -0.109,
+      "2029": -0.1085,
+      "2030": -0.108
+    },
+    "revenue_growth": {
+      "2026": 0.075,
+      "2027": 0.045,
+      "2028": 0.042,
+      "2029": 0.04,
+      "2030": 0.038
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 564900000.0,
+      "2024": 601200000.0,
+      "2025": 644600000.0
+    },
+    "da": {
+      "2023": 387800000.0,
+      "2024": 459900000.0,
+      "2025": 516100000.0
+    },
+    "ebit": {
+      "2023": 1201800000.0,
+      "2024": 1314200000.0,
+      "2025": 1362300000.0
+    },
+    "nwc": {
+      "2023": -939700000.0,
+      "2024": -1369700000.0,
+      "2025": -1309800000.0
+    },
+    "revenue": {
+      "2023": 10487800000.0,
+      "2024": 11390000000.0,
+      "2025": 12076700000.0
+    }
+  },
+  "notes": [
+    "Historical years are the last 3 completed Darden fiscal years ending in late May: FY2023 (5/28/2023), FY2024 (5/26/2024), FY2025 (5/25/2025). ([investor.darden.com](https://investor.darden.com/news/news-details/2024/Darden-Restaurants-Reports-Fiscal-2024-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-And-Provides-Fiscal-2025-Outlook/default.aspx))",
+    "EBIT is proxied as Operating income from the consolidated statements; D&A is proxied as Depreciation and amortization from the consolidated statements.",
+    "Capex is proxied as Purchases of land, buildings and equipment from the cash flow statements (excluding purchases of capitalized software and changes in other assets). ([darden.com](https://www.darden.com/sites/default/files/2025-06/DRI%20Q4%20FY25%20Earnings%20Release%20-%20Final.pdf))",
+    "NWC is defined as Total current assets minus Total current liabilities from the consolidated balance sheet (can be negative for restaurant operators due to accounts payable and unearned revenue). ([darden.com](https://www.darden.com/sites/default/files/2025-06/DRI%20Q4%20FY25%20Earnings%20Release%20-%20Final.pdf))",
+    "Base-case forecast driver values (post-FY2026) are sober, steady-state assumptions derived primarily from recent ratios, with revenue growth decelerating after the management-provided FY2026 outlook. ([investor.darden.com](https://investor.darden.com/news/news-details/2025/Darden-Restaurants-Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-Authorizes-New-1-Billion-Share-Repurchase-Program-And-Provides-Fiscal-2026-Outlook/default.aspx))",
+    "WACC and terminal growth are not directly disclosed in the provided filing excerpts; they are assumed for DCF purposes (WACC=0.085, terminal growth=0.02). Adjust to your pipeline\u2019s standard capital structure methodology if needed.",
+    "NOL balance uses the 10-K deferred tax asset line item for 'Net operating loss, credit and charitable contribution carryforwards' (tax-effected). Gross NOL and an explicit annual utilization percent are not separately disclosed here, so nol_utilization_pct is set to null. ([fintel.io](https://fintel.io/doc/sec-darden-restaurants-inc-940944-10k-2025-july-18-20287-8239))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Outperformance vs fiscal 2026 guidance (total sales growth and same-restaurant sales) could support faster cash flow generation. ([investor.darden.com](https://investor.darden.com/news/news-details/2025/Darden-Restaurants-Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-Authorizes-New-1-Billion-Share-Repurchase-Program-And-Provides-Fiscal-2026-Outlook/default.aspx))",
+      "Sustained EBIT margin stability or upside from labor/commodity cost management would improve valuation multiples and DCF returns. ([darden.com](https://www.darden.com/sites/default/files/2025-06/DRI%20Q4%20FY25%20Earnings%20Release%20-%20Final.pdf))",
+      "Capital spending execution within the $700 million to $750 million range could reinforce unit economics and long-term growth. ([investor.darden.com](https://investor.darden.com/news/news-details/2025/Darden-Restaurants-Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-Authorizes-New-1-Billion-Share-Repurchase-Program-And-Provides-Fiscal-2026-Outlook/default.aspx))"
+    ],
+    "company_overview": [
+      "Darden Restaurants is a multi-brand full-service restaurant operator with a portfolio including Olive Garden and LongHorn Steakhouse (and additional brands via acquisitions). ([sec.gov](https://www.sec.gov/Archives/edgar/data/940944/000119312525172298/d56753dars.pdf?utm_source=openai))",
+      "The company reports results on a consolidated basis with fiscal years ending in late May (e.g., fiscal 2025 ended 5/25/2025). ([darden.com](https://www.darden.com/sites/default/files/2025-06/DRI%20Q4%20FY25%20Earnings%20Release%20-%20Final.pdf))",
+      "Strategy emphasizes same-restaurant sales growth, unit growth through new restaurant openings, and disciplined capital spending. ([investor.darden.com](https://investor.darden.com/news/news-details/2025/Darden-Restaurants-Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-Authorizes-New-1-Billion-Share-Repurchase-Program-And-Provides-Fiscal-2026-Outlook/default.aspx))"
+    ],
+    "current_context": [
+      "Fiscal 2025 total sales increased 6.0% to $12.1 billion; consolidated same-restaurant sales grew 2.0%, with reported diluted net earnings per share from continuing operations of $8.88. ([investor.darden.com](https://investor.darden.com/news/news-details/2025/Darden-Restaurants-Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-Authorizes-New-1-Billion-Share-Repurchase-Program-And-Provides-Fiscal-2026-Outlook/default.aspx))",
+      "Fiscal 2026 outlook provided: total sales growth of 7% to 8% (including ~2% from a 53rd week) and same-restaurant sales growth of 2% to 3.5%, with total capital spending of $700 million to $750 million and an effective tax rate of ~13%. ([investor.darden.com](https://investor.darden.com/news/news-details/2025/Darden-Restaurants-Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-Authorizes-New-1-Billion-Share-Repurchase-Program-And-Provides-Fiscal-2026-Outlook/default.aspx))",
+      "Latest FY financial base for the model: fiscal 2025 sales of $12,076.7 million, operating income of $1,362.3 million, and depreciation & amortization of $516.1 million. ([darden.com](https://www.darden.com/sites/default/files/2025-06/DRI%20Q4%20FY25%20Earnings%20Release%20-%20Final.pdf))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth anchors to management\u2019s fiscal 2026 total sales growth outlook, followed by gradual deceleration toward a mature restaurant-growth profile. ([investor.darden.com](https://investor.darden.com/news/news-details/2025/Darden-Restaurants-Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-Authorizes-New-1-Billion-Share-Repurchase-Program-And-Provides-Fiscal-2026-Outlook/default.aspx))",
+      "EBIT margin is modeled to expand modestly from fiscal 2025 levels, consistent with a stable cost structure and gradual operating leverage. ([darden.com](https://www.darden.com/sites/default/files/2025-06/DRI%20Q4%20FY25%20Earnings%20Release%20-%20Final.pdf))",
+      "Reinvestment intensity (capex as a % of sales) is held near recent levels to support ongoing unit growth and remodel/capex needs. ([investor.darden.com](https://investor.darden.com/news/news-details/2025/Darden-Restaurants-Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-Authorizes-New-1-Billion-Share-Repurchase-Program-And-Provides-Fiscal-2026-Outlook/default.aspx))",
+      "Model working-capital behavior uses negative NWC as a percent of sales (driven by accounts payable and unearned revenue), consistent with the company\u2019s historical balance sheet pattern. ([darden.com](https://www.darden.com/sites/default/files/2025-06/DRI%20Q4%20FY25%20Earnings%20Release%20-%20Final.pdf))"
+    ],
+    "key_risks": [
+      "Consumer demand softness and/or higher-than-expected labor and commodity inflation could pressure same-restaurant sales and margins. ([investor.darden.com](https://investor.darden.com/news/news-details/2025/Darden-Restaurants-Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-Authorizes-New-1-Billion-Share-Repurchase-Program-And-Provides-Fiscal-2026-Outlook/default.aspx))",
+      "Operational disruption and integration execution risk related to acquired brands could affect costs and growth cadence. ([investor.darden.com](https://investor.darden.com/news/news-details/2025/Darden-Restaurants-Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-Authorizes-New-1-Billion-Share-Repurchase-Program-And-Provides-Fiscal-2026-Outlook/default.aspx))",
+      "Higher discount rates (WACC) or lower terminal growth assumptions would reduce intrinsic value sensitivity. ([investor.darden.com](https://investor.darden.com/news/news-details/2025/Darden-Restaurants-Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-Authorizes-New-1-Billion-Share-Repurchase-Program-And-Provides-Fiscal-2026-Outlook/default.aspx))"
+    ],
+    "sources": [
+      {
+        "label": "Darden FY2025 Q4 & FY2025 Results / FY2026 Outlook (press release HTML)",
+        "notes": "Provides fiscal 2026 outlook (sales growth, same-restaurant sales, openings, capital spending, effective tax rate). ([investor.darden.com](https://investor.darden.com/news/news-details/2025/Darden-Restaurants-Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-Authorizes-New-1-Billion-Share-Repurchase-Program-And-Provides-Fiscal-2026-Outlook/default.aspx))",
+        "url": "https://investor.darden.com/news/news-details/2025/Darden-Restaurants-Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-Authorizes-New-1-Billion-Share-Repurchase-Program-And-Provides-Fiscal-2026-Outlook/default.aspx"
+      },
+      {
+        "label": "Darden FY2025 Q4 Earnings Release (Exhibit 99.1 PDF)",
+        "notes": "Contains fiscal 2025 consolidated income statement, balance sheet, cash flow statement; used for revenue, operating income (EBIT), D&A, capex, cash, and debt. ([darden.com](https://www.darden.com/sites/default/files/2025-06/DRI%20Q4%20FY25%20Earnings%20Release%20-%20Final.pdf))",
+        "url": "https://www.darden.com/sites/default/files/2025-06/DRI%20Q4%20FY25%20Earnings%20Release%20-%20Final.pdf"
+      },
+      {
+        "label": "Darden FY2024 Q4 & FY2024 Results (press release HTML)",
+        "notes": "Contains fiscal 2024 and fiscal 2023 consolidated financial statement lines for revenue, operating income (EBIT), D&A, capex, and balance sheet items used to compute NWC. ([investor.darden.com](https://investor.darden.com/news/news-details/2024/Darden-Restaurants-Reports-Fiscal-2024-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-And-Provides-Fiscal-2025-Outlook/default.aspx))",
+        "url": "https://investor.darden.com/news/news-details/2024/Darden-Restaurants-Reports-Fiscal-2024-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-And-Provides-Fiscal-2025-Outlook/default.aspx"
+      },
+      {
+        "label": "Darden FY2023 Q4 & FY2023 Results (press release HTML)",
+        "notes": "Contains fiscal 2023 consolidated financial statement lines and balance sheet items used to compute NWC; used for FY2023 capex and D&A. ([investor.darden.com](https://investor.darden.com/news/news-details/2023/Darden-Restaurants-Reports-Fiscal-2023-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-And-Provides-Fiscal-2024-Outlook/))",
+        "url": "https://investor.darden.com/news/news-details/2023/Darden-Restaurants-Reports-Fiscal-2023-Fourth-Quarter-and-Full-Year-Results-Increases-Quarterly-Dividend-And-Provides-Fiscal-2024-Outlook/"
+      },
+      {
+        "label": "Darden FY2025 Form 10-K (SEC PDF)",
+        "notes": "Used for effective tax rate history and deferred tax asset disclosure related to net operating loss/credit/carryforwards. ([fintel.io](https://fintel.io/doc/sec-darden-restaurants-inc-940944-10k-2025-july-18-20287-8239))",
+        "url": "https://www.sec.gov/Archives/edgar/data/940944/000119312525172298/d56753dars.pdf"
+      },
+      {
+        "label": "StockAnalysis.com peer statistics pages (valuation comps)",
+        "notes": "Peer EV/Sales, EV/EBITDA, and forward P/E used as proxies for EV/NTM revenue, EV/NTM EBITDA, and P/E NTM where available (timing may differ). ([stockanalysis.com](https://stockanalysis.com/stocks/qsr/statistics/))",
+        "url": "https://stockanalysis.com/"
+      }
+    ],
+    "subtitle": "DRI valuation inputs: DCF (Gordon terminal) + comps multiples",
+    "valuation_summary": [
+      "DCF base case uses explicit 5-year operating assumptions (growth and EBIT margin) plus a long-run Gordon-growth terminal value; terminal growth set to a conservative steady-state level.",
+      "Comps are included using restaurant peer EV/Sales and EV/EBITDA plus forward P/E where available; StockAnalysis multiples are used as proxies for EV/NTM measures. ([stockanalysis.com](https://stockanalysis.com/stocks/qsr/statistics/))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 203.05,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.115,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.018,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.088
+      },
+      "description": "Modestly weaker sales growth and limited margin expansion vs base case; slightly higher WACC and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.053,
+          "2027": 0.0527,
+          "2028": 0.0525,
+          "2029": 0.0523,
+          "2030": 0.052
+        },
+        "da_pct_sales": {
+          "2026": 0.0426,
+          "2027": 0.0425,
+          "2028": 0.0424,
+          "2029": 0.0423,
+          "2030": 0.0422
+        },
+        "ebit_margin": {
+          "2026": 0.112,
+          "2027": 0.1125,
+          "2028": 0.1135,
+          "2029": 0.1145,
+          "2030": 0.115
+        },
+        "nwc_pct_sales": {
+          "2026": -0.11,
+          "2027": -0.109,
+          "2028": -0.109,
+          "2029": -0.1085,
+          "2030": -0.108
+        },
+        "revenue_growth": {
+          "2026": 0.07,
+          "2027": 0.042,
+          "2028": 0.039,
+          "2029": 0.036,
+          "2030": 0.035
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 203.05,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.119,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.082
+      },
+      "description": "Modestly better sales growth and gradual EBIT margin expansion vs base case; slightly lower WACC and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.053,
+          "2027": 0.0527,
+          "2028": 0.0525,
+          "2029": 0.0523,
+          "2030": 0.052
+        },
+        "da_pct_sales": {
+          "2026": 0.0426,
+          "2027": 0.0425,
+          "2028": 0.0424,
+          "2029": 0.0423,
+          "2030": 0.0422
+        },
+        "ebit_margin": {
+          "2026": 0.116,
+          "2027": 0.1165,
+          "2028": 0.1175,
+          "2029": 0.1185,
+          "2030": 0.119
+        },
+        "nwc_pct_sales": {
+          "2026": -0.11,
+          "2027": -0.109,
+          "2028": -0.109,
+          "2029": -0.1085,
+          "2030": -0.108
+        },
+        "revenue_growth": {
+          "2026": 0.08,
+          "2027": 0.048,
+          "2028": 0.045,
+          "2029": 0.043,
+          "2030": 0.041
+        }
+      }
+    }
+  },
+  "ticker": "DRI"
+}

@@ -1,0 +1,675 @@
+{
+  "_meta": {
+    "cost_usd": 0.021099,
+    "generated_at": "2026-03-21T17:19:53Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [
+      "margin_reversal"
+    ],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 9913,
+      "prompt": 2515,
+      "reasoning": 6564
+    }
+  },
+  "_valuation": {
+    "company_name": "Moderna, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 51.38,
+        "description": "Base case",
+        "enterprise_value": -3279996981.671591,
+        "equity_value": 4265003018.328409,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 873374345.7834,
+        "implied_market_cap": 4265003018.328409,
+        "investments_adjustment": 5540000000.0,
+        "net_debt": -2005000000.0,
+        "per_share_value": 10.964018041975345,
+        "projected_years": [
+          {
+            "capex": 166406400.00000003,
+            "cash_taxes": 0.0,
+            "da": 187207200.0,
+            "delta_nwc": 513972000.0,
+            "discount_factor": 0.9132420091324202,
+            "ebit": -1664064000.0000002,
+            "ebit_margin": -0.8,
+            "ebitda": -1476856800.0000002,
+            "fcff": -2157235200.0,
+            "nol_balance_end": 7453064000.0,
+            "nol_used": 0.0,
+            "nwc": -728028000.0,
+            "present_value_fcff": -1970077808.2191782,
+            "revenue": 2080080000.0000002,
+            "revenue_growth": 0.07,
+            "year": 2026
+          },
+          {
+            "capex": 165366360.00000003,
+            "cash_taxes": 0.0,
+            "da": 187415208.00000006,
+            "delta_nwc": 66562559.99999988,
+            "discount_factor": 0.8340109672442193,
+            "ebit": -1322930880.0000002,
+            "ebit_margin": -0.6,
+            "ebitda": -1135515672.0000002,
+            "fcff": -1367444592.0,
+            "nol_balance_end": 8775994880.0,
+            "nol_used": 0.0,
+            "nwc": -661465440.0000001,
+            "present_value_fcff": -1140463786.8267968,
+            "revenue": 2204884800.0000005,
+            "revenue_growth": 0.06,
+            "year": 2027
+          },
+          {
+            "capex": 160515613.44000006,
+            "cash_taxes": 0.0,
+            "da": 183446415.36000004,
+            "delta_nwc": 88195392.0,
+            "discount_factor": 0.7616538513645839,
+            "ebit": -687924057.6000001,
+            "ebit_margin": -0.3,
+            "ebitda": -504477642.2400001,
+            "fcff": -753188647.6800002,
+            "nol_balance_end": 9463918937.6,
+            "nol_used": 0.0,
+            "nwc": -573270048.0000001,
+            "present_value_fcff": -573669034.3095548,
+            "revenue": 2293080192.0000005,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 165331081.84320006,
+            "cash_taxes": 0.0,
+            "da": 184226062.62528005,
+            "delta_nwc": 53658076.49279994,
+            "discount_factor": 0.6955742934836383,
+            "ebit": -236187259.77600008,
+            "ebit_margin": -0.1,
+            "ebitda": -51961197.15072003,
+            "fcff": -270950355.48672,
+            "nol_balance_end": 9700106197.376001,
+            "nol_used": 0.0,
+            "nwc": -519611971.5072002,
+            "present_value_fcff": -188466102.08681592,
+            "revenue": 2361872597.7600007,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 158127370.42003208,
+            "cash_taxes": 4597857.386059393,
+            "da": 182454658.17696008,
+            "delta_nwc": 33066216.368639946,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 72981863.27078402,
+            "ebit_margin": 0.03,
+            "ebitda": 255436521.4477441,
+            "fcff": 59645077.2730127,
+            "nol_balance_end": 9649018893.086452,
+            "nol_used": 51087304.289548814,
+            "nwc": -486545755.13856024,
+            "present_value_fcff": 37888203.18169207,
+            "revenue": 2432728775.692801,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 873374345.7834,
+        "terminal_value_present_value": 554791546.5890625,
+        "upside_downside_pct": -0.7866092245625662
+      },
+      "bear": {
+        "current_price": 51.38,
+        "description": "Modestly weaker top-line and slower margin recovery vs. base case, reflecting greater COVID-seasonality uncertainty and/or delayed expansion of the seasonal franchise and pipeline monetization.",
+        "enterprise_value": -4585384201.845275,
+        "equity_value": 2959615798.154725,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": -714679555.7260792,
+        "implied_market_cap": 2959615798.154725,
+        "investments_adjustment": 5540000000.0,
+        "net_debt": -2005000000.0,
+        "per_share_value": 7.608266833302635,
+        "projected_years": [
+          {
+            "capex": 164851200.0,
+            "cash_taxes": 0.0,
+            "da": 185457600.0,
+            "delta_nwc": 520776000.0,
+            "discount_factor": 0.9049773755656109,
+            "ebit": -1751544000.0,
+            "ebit_margin": -0.85,
+            "ebitda": -1566086400.0,
+            "fcff": -2251713600.0,
+            "nol_balance_end": 7540544000.0,
+            "nol_used": 0.0,
+            "nwc": -721224000.0,
+            "present_value_fcff": -2037749864.2533937,
+            "revenue": 2060640000.0,
+            "revenue_growth": 0.06,
+            "year": 2026
+          },
+          {
+            "capex": 162275400.0,
+            "cash_taxes": 0.0,
+            "da": 183912120.0,
+            "delta_nwc": 72122400.0,
+            "discount_factor": 0.8189840502856207,
+            "ebit": -1406386800.0,
+            "ebit_margin": -0.65,
+            "ebitda": -1222474680.0,
+            "fcff": -1456872480.0,
+            "nol_balance_end": 8946930800.0,
+            "nol_used": 0.0,
+            "nwc": -649101600.0,
+            "present_value_fcff": -1193155324.420057,
+            "revenue": 2163672000.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 156000751.20000002,
+            "cash_taxes": 0.0,
+            "da": 178286572.8,
+            "delta_nwc": 91956060.0,
+            "discount_factor": 0.7411620364575753,
+            "ebit": -780003756.0,
+            "ebit_margin": -0.35,
+            "ebitda": -601717183.2,
+            "fcff": -849673994.4000001,
+            "nol_balance_end": 9726934556.0,
+            "nol_used": 0.0,
+            "nwc": -557145540.0,
+            "present_value_fcff": -629746108.0145465,
+            "revenue": 2228582160.0,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 159120766.224,
+            "cash_taxes": 0.0,
+            "da": 177305996.6496,
+            "delta_nwc": 57051703.29600006,
+            "discount_factor": 0.6707348746222401,
+            "ebit": -340973070.47999996,
+            "ebit_margin": -0.15,
+            "ebitda": -163667073.83039996,
+            "fcff": -379839543.35040003,
+            "nol_balance_end": 10067907626.48,
+            "nol_used": 0.0,
+            "nwc": -500093836.70399994,
+            "present_value_fcff": -254771628.4856995,
+            "revenue": 2273153803.2,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 150710097.15216,
+            "cash_taxes": 0.0,
+            "da": 173896265.9448,
+            "delta_nwc": 36370460.851199925,
+            "discount_factor": 0.6069998865359639,
+            "ebit": -46372337.58528,
+            "ebit_margin": -0.02,
+            "ebitda": 127523928.35951999,
+            "fcff": -59556629.643839926,
+            "nol_balance_end": 10114279964.065279,
+            "nol_used": 0.0,
+            "nwc": -463723375.8528,
+            "present_value_fcff": -36150867.43627526,
+            "revenue": 2318616879.264,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": -714679555.7260792,
+        "terminal_value_present_value": -433810409.2353032,
+        "upside_downside_pct": -0.8519216264440904
+      },
+      "bull": {
+        "current_price": 51.38,
+        "description": "Modestly stronger revenue growth and faster operating leverage vs. base case, consistent with upside to seasonal franchise execution and pipeline commercialization cadence.",
+        "enterprise_value": -1361858534.4063594,
+        "equity_value": 6183141465.59364,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 3215653356.1794977,
+        "implied_market_cap": 6183141465.59364,
+        "investments_adjustment": 5540000000.0,
+        "net_debt": -2005000000.0,
+        "per_share_value": 15.894965207181595,
+        "projected_years": [
+          {
+            "capex": 167961600.00000003,
+            "cash_taxes": 0.0,
+            "da": 188956800.0,
+            "delta_nwc": 507168000.0,
+            "discount_factor": 0.9174311926605504,
+            "ebit": -1574640000.0000002,
+            "ebit_margin": -0.75,
+            "ebitda": -1385683200.0000002,
+            "fcff": -2060812800.0000002,
+            "nol_balance_end": 7363640000.0,
+            "nol_used": 0.0,
+            "nwc": -734832000.0,
+            "present_value_fcff": -1890653944.9541285,
+            "revenue": 2099520000.0000002,
+            "revenue_growth": 0.08,
+            "year": 2026
+          },
+          {
+            "capex": 168486480.00000003,
+            "cash_taxes": 0.0,
+            "da": 190951344.00000006,
+            "delta_nwc": 60886079.99999988,
+            "discount_factor": 0.84167999326656,
+            "ebit": -1235567520.0000005,
+            "ebit_margin": -0.55,
+            "ebitda": -1044616176.0000005,
+            "fcff": -1273988736.0000005,
+            "nol_balance_end": 8599207520.0,
+            "nol_used": 0.0,
+            "nwc": -673945920.0000001,
+            "present_value_fcff": -1072290830.7381536,
+            "revenue": 2246486400.0000005,
+            "revenue_growth": 0.07,
+            "year": 2027
+          },
+          {
+            "capex": 165116750.40000004,
+            "cash_taxes": 0.0,
+            "da": 188704857.60000005,
+            "delta_nwc": 84243240.0,
+            "discount_factor": 0.7721834800610642,
+            "ebit": -589702680.0000001,
+            "ebit_margin": -0.25,
+            "ebitda": -400997822.4000001,
+            "fcff": -650357812.8000002,
+            "nol_balance_end": 9188910200.0,
+            "nol_used": 0.0,
+            "nwc": -589702680.0000001,
+            "present_value_fcff": -502195559.17280626,
+            "revenue": 2358810720.0000005,
+            "revenue_growth": 0.05,
+            "year": 2028
+          },
+          {
+            "capex": 171721420.41600007,
+            "cash_taxes": 0.0,
+            "da": 191346725.60640004,
+            "delta_nwc": 50006787.26399994,
+            "discount_factor": 0.7084252110651963,
+            "ebit": -122658157.44000004,
+            "ebit_margin": -0.05,
+            "ebitda": 68688568.1664,
+            "fcff": -153039639.5136,
+            "nol_balance_end": 9311568357.44,
+            "nol_used": 0.0,
+            "nwc": -539695892.7360002,
+            "present_value_fcff": -108417138.92376363,
+            "revenue": 2453163148.8000007,
+            "revenue_growth": 0.04,
+            "year": 2029
+          },
+          {
+            "capex": 165833828.85888007,
+            "cash_taxes": 12858499.960750083,
+            "da": 191346725.60640004,
+            "delta_nwc": 29437957.785600007,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 204103173.98016006,
+            "ebit_margin": 0.08,
+            "ebitda": 395449899.58656013,
+            "fcff": 187319612.98132995,
+            "nol_balance_end": 9168696135.653889,
+            "nol_used": 142872221.78611204,
+            "nwc": -510257934.9504002,
+            "present_value_fcff": 121744895.74582528,
+            "revenue": 2551289674.752001,
+            "revenue_growth": 0.04,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 3215653356.1794977,
+        "terminal_value_present_value": 2089954043.6366675,
+        "upside_downside_pct": -0.6906390578594473
+      }
+    },
+    "ticker": "MRNA"
+  },
+  "assumptions": {
+    "cash": 2595000000.0,
+    "current_price": 51.38,
+    "debt": 590000000.0,
+    "diluted_shares": 389000000.0,
+    "investments": 5540000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 5789000000.0,
+    "nol_utilization_pct": 0.7,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.03,
+    "tax_rate": 0.21,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.095
+  },
+  "company_name": "Moderna, Inc.",
+  "comps": [
+    {
+      "company_name": "BioNTech SE",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E not pulled from a primary/paid terminal in this run; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "BNTX"
+    },
+    {
+      "company_name": "Novavax, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not available from primary sources captured here; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "NVAX"
+    },
+    {
+      "company_name": "CureVac N.V.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not available from primary sources captured here; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CVAC"
+    },
+    {
+      "company_name": "Pfizer Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Pfizer includes multiple segments; NTM EV/Revenue, EV/EBITDA, and P/E not sourced here; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PFE"
+    },
+    {
+      "company_name": "GSK plc",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "GSK includes multiple segments; NTM multiples not sourced here; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "GSK"
+    },
+    {
+      "company_name": "Inovio Pharmaceuticals, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Vaccine/biotech peer selected; NTM multiples not sourced from primary/terminal data here; left null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "INO"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.08,
+      "2027": 0.075,
+      "2028": 0.07,
+      "2029": 0.07,
+      "2030": 0.065
+    },
+    "da_pct_sales": {
+      "2026": 0.09,
+      "2027": 0.085,
+      "2028": 0.08,
+      "2029": 0.078,
+      "2030": 0.075
+    },
+    "ebit_margin": {
+      "2026": -0.8,
+      "2027": -0.6,
+      "2028": -0.3,
+      "2029": -0.1,
+      "2030": 0.03
+    },
+    "nwc_pct_sales": {
+      "2026": -0.35,
+      "2027": -0.3,
+      "2028": -0.25,
+      "2029": -0.22,
+      "2030": -0.2
+    },
+    "revenue_growth": {
+      "2026": 0.07,
+      "2027": 0.06,
+      "2028": 0.04,
+      "2029": 0.03,
+      "2030": 0.03
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 707000000.0,
+      "2024": 1051000000.0,
+      "2025": 192000000.0
+    },
+    "da": {
+      "2023": 621000000.0,
+      "2024": 189000000.0,
+      "2025": 215000000.0
+    },
+    "ebit": {
+      "2023": -4239000000.0,
+      "2024": -3945000000.0,
+      "2025": -3074000000.0
+    },
+    "nwc": {
+      "2023": -1294000000.0,
+      "2024": -1132000000.0,
+      "2025": -1242000000.0
+    },
+    "revenue": {
+      "2023": 6848000000.0,
+      "2024": 3236000000.0,
+      "2025": 1944000000.0
+    }
+  },
+  "notes": [
+    "EBIT definition: used 'Loss from operations' from the Consolidated Statements of Operations as the EBIT proxy (can be negative, consistent with Moderna\u2019s GAAP losses).",
+    "DA definition: used 'Depreciation and amortization' from the Consolidated Statements of Cash Flows to populate historical DA.",
+    "Capex definition: used 'Purchases of property, plant and equipment' from the Consolidated Statements of Cash Flows; reported as absolute positive values in the package.",
+    "NWC construction (historical): computed as (Accounts receivable + Inventory + Prepaid expenses & other current assets) - (Accounts payable + Accrued liabilities + Deferred revenue + Other current liabilities). Cash and marketable investments excluded from NWC; this may not match every DCF convention.",
+    "Forecast drivers (2026-2030) for D&A%, capex%, and NWC% are modeled assumptions (not company-issued line-item guidance) intended to produce a plausible operating-leverage trajectory toward cash breakeven in 2028.",
+    "Tax rate: modeled using US federal statutory 0.21 rather than effective rate (Moderna\u2019s effective tax rate is impacted by valuation allowances and can be non-meaningful for DCF normalization).",
+    "WACC: assumed at 0.095 due to lack of an explicitly provided company WACC in the sourced materials; treat as a sensitive input.",
+    "Comps: EV/NTM Revenue, EV/NTM EBITDA, and P/NTM were not populated from primary market-data sources in this run; peers are listed with nulls and notes."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Seasonal franchise performance: further mNEXSPIKE uptake and additional approvals/label expansions for the flu/COVID combination and/or Norovirus programs in the mid-to-late decade.",
+      "Regulatory and clinical readouts in oncology and rare disease programs that could create incremental revenue diversification beyond respiratory vaccines."
+    ],
+    "company_overview": [
+      "Moderna is an mRNA therapeutics company advancing medicines designed to direct cells to produce therapeutic or preventive proteins. (Platform overview in 10-K.)",
+      "Commercial portfolio is centered on seasonal vaccines, including Spikevax, mRESVIA, and mNEXSPIKE, with management emphasizing a multi-product seasonal franchise approach.",
+      "Company strategy includes expanding geographic reach (including UK, Canada, Australia) and reinvesting cash generated from marketed products into oncology and rare disease programs."
+    ],
+    "current_context": [
+      "FY 2025 total revenue was $1.944B (down from $3.236B in 2024), driven primarily by lower COVID vaccine volumes, while other revenue was relatively consistent.",
+      "Management reiterated an approach to return to revenue growth via seasonal vaccine execution and geographic partnerships, targeting up to 10% revenue growth in 2026 and a cash breakeven in 2028."
+    ],
+    "investment_highlights": [
+      "Base-case top-line recovery assumes continued uptake and geographic expansion of the seasonal vaccine franchise as management scales partnerships and onshore manufacturing.",
+      "Base-case margin improvement reflects operating expense discipline and manufacturing efficiency, consistent with the company\u2019s multi-year cost-down narrative into cash breakeven in 2028.",
+      "Working-capital intensity is modeled as remaining negative (deferred revenue and payables financing), with gradual normalization as revenue mix and deposits evolve.",
+      "Capex is modeled as relatively modest as management transitions from heavy manufacturing resizing toward steady-state operations."
+    ],
+    "key_risks": [
+      "COVID/respiratory vaccine demand volatility and competitive/contracting dynamics (including potential changes in procurement or market adoption).",
+      "Regulatory outcomes, especially for flu/COVID combination products and other pipeline programs; delays can push margin recovery out beyond the model horizon.",
+      "Continued GAAP losses and high dependence on external capital markets or partnership economics if cash burn accelerates."
+    ],
+    "sources": [
+      {
+        "label": "Moderna FY 2025 Form 10-K (SEC)",
+        "notes": "Provides FY 2025/2024/2023 revenue, loss from operations (EBIT proxy), depreciation & amortization, capex (purchases of PP&E), and 2025 balance sheet items; also includes NOL carryforward and tax reconciliation.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000033/mrna-20251231.htm"
+      },
+      {
+        "label": "Moderna FY 2024 Form 10-K (SEC)",
+        "notes": "Provides FY 2024 and FY 2023 balance sheet items used to compute historical net working capital.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285225000022/mrna-20241231.htm"
+      },
+      {
+        "label": "Moderna 2025 Shareholder Letter",
+        "notes": "Management narrative on seasonal franchise strategy, cost discipline, target up to 10% revenue growth in 2026, and cash breakeven in 2028.",
+        "url": "https://www.modernatx.com/en-US/media-center/all-media/blogs/moderna-2025-shareholder-letter"
+      },
+      {
+        "label": "Moderna FY 2025 earnings coverage (company press release republished)",
+        "notes": "Used for confirmation of FY 2025 results context and 2026 directional framework; primary modeling numbers are taken from SEC filings.",
+        "url": "https://www.biospace.com/press-releases/moderna-reports-fourth-quarter-and-fiscal-year-2025-financial-results-and-provides-business-updates"
+      }
+    ],
+    "subtitle": "DCF Inputs | Moderna (MRNA) | Seasonal Franchise + Pipeline Transition",
+    "valuation_summary": [
+      "DCF uses historical profitability signals (loss from operations), normalized D&A and capex intensity, and an explicit improvement path for EBIT margin consistent with a 2028 cash breakeven goal.",
+      "Terminal value is computed with a Gordon-growth approach using a conservative long-run growth rate, avoiding reliance on a hard terminal EV/EBITDA multiple."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 51.38,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": -0.02,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.105
+      },
+      "description": "Modestly weaker top-line and slower margin recovery vs. base case, reflecting greater COVID-seasonality uncertainty and/or delayed expansion of the seasonal franchise and pipeline monetization.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.08,
+          "2027": 0.075,
+          "2028": 0.07,
+          "2029": 0.07,
+          "2030": 0.065
+        },
+        "da_pct_sales": {
+          "2026": 0.09,
+          "2027": 0.085,
+          "2028": 0.08,
+          "2029": 0.078,
+          "2030": 0.075
+        },
+        "ebit_margin": {
+          "2026": -0.85,
+          "2027": -0.65,
+          "2028": -0.35,
+          "2029": -0.15,
+          "2030": -0.02
+        },
+        "nwc_pct_sales": {
+          "2026": -0.35,
+          "2027": -0.3,
+          "2028": -0.25,
+          "2029": -0.22,
+          "2030": -0.2
+        },
+        "revenue_growth": {
+          "2026": 0.06,
+          "2027": 0.05,
+          "2028": 0.03,
+          "2029": 0.02,
+          "2030": 0.02
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 51.38,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.08,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.03,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.09
+      },
+      "description": "Modestly stronger revenue growth and faster operating leverage vs. base case, consistent with upside to seasonal franchise execution and pipeline commercialization cadence.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.08,
+          "2027": 0.075,
+          "2028": 0.07,
+          "2029": 0.07,
+          "2030": 0.065
+        },
+        "da_pct_sales": {
+          "2026": 0.09,
+          "2027": 0.085,
+          "2028": 0.08,
+          "2029": 0.078,
+          "2030": 0.075
+        },
+        "ebit_margin": {
+          "2026": -0.75,
+          "2027": -0.55,
+          "2028": -0.25,
+          "2029": -0.05,
+          "2030": 0.08
+        },
+        "nwc_pct_sales": {
+          "2026": -0.35,
+          "2027": -0.3,
+          "2028": -0.25,
+          "2029": -0.22,
+          "2030": -0.2
+        },
+        "revenue_growth": {
+          "2026": 0.08,
+          "2027": 0.07,
+          "2028": 0.05,
+          "2029": 0.04,
+          "2030": 0.04
+        }
+      }
+    }
+  },
+  "ticker": "MRNA"
+}

@@ -1,0 +1,690 @@
+{
+  "_meta": {
+    "cost_usd": 0.024527,
+    "generated_at": "2026-03-21T17:19:43Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11402,
+      "prompt": 2515,
+      "reasoning": 7817
+    }
+  },
+  "_valuation": {
+    "company_name": "Nordson Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 262.73,
+        "description": "Base case",
+        "enterprise_value": 11808175194.83445,
+        "equity_value": 9934359194.83445,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 13430242740.432985,
+        "implied_market_cap": 9934359194.83445,
+        "investments_adjustment": 13996000.0,
+        "net_debt": 1887812000.0,
+        "per_share_value": 174.54422648876326,
+        "projected_years": [
+          {
+            "capex": 59860000.00001289,
+            "cash_taxes": 127473397.20003042,
+            "da": 153300000.000033,
+            "delta_nwc": 44757000.000163436,
+            "discount_factor": 0.9223390518354546,
+            "ebit": 746060000.0001606,
+            "ebit_margin": 0.2555,
+            "ebitda": 899360000.0001936,
+            "fcff": 667269602.7999868,
+            "nol_balance_end": 0.0,
+            "nol_used": 73022000.0,
+            "nwc": 759200000.0001634,
+            "present_value_fcff": 615448812.7651603,
+            "revenue": 2920000000.0006285,
+            "revenue_growth": 0.0459625309,
+            "year": 2026
+          },
+          {
+            "capex": 60502400.00001303,
+            "cash_taxes": 146677178.3680316,
+            "da": 158213776.00003406,
+            "delta_nwc": 24306080.000005245,
+            "discount_factor": 0.8507093265407255,
+            "ebit": 774430720.0001668,
+            "ebit_margin": 0.256,
+            "ebitda": 932644496.0002009,
+            "fcff": 701158837.632151,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 783506080.0001687,
+            "present_value_fcff": 596482362.5601251,
+            "revenue": 3025120000.0006514,
+            "revenue_growth": 0.036,
+            "year": 2027
+          },
+          {
+            "capex": 61621089.37601327,
+            "cash_taxes": 151841933.9197703,
+            "da": 162654652.160035,
+            "delta_nwc": 25075219.68000555,
+            "discount_factor": 0.7846424336291511,
+            "ebit": 801699756.7041726,
+            "ebit_margin": 0.2563,
+            "ebitda": 964354408.8642076,
+            "fcff": 725816165.8884186,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 808581299.6801742,
+            "present_value_fcff": 569506162.7700684,
+            "revenue": 3127974080.000674,
+            "revenue_growth": 0.034,
+            "year": 2028
+          },
+          {
+            "capex": 62301736.53582143,
+            "cash_taxes": 156945434.33162546,
+            "da": 166891180.25398797,
+            "delta_nwc": 24260566.964485288,
+            "discount_factor": 0.7237063582633748,
+            "ebit": 828645376.6189306,
+            "ebit_margin": 0.2567,
+            "ebitda": 995536556.8729186,
+            "fcff": 752028819.0409864,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 832841866.6446595,
+            "present_value_fcff": 544248037.9372588,
+            "revenue": 3228069250.5606956,
+            "revenue_growth": 0.032,
+            "year": 2029
+          },
+          {
+            "capex": 63234648.54923346,
+            "cash_taxes": 161999847.67646202,
+            "da": 171399178.96239594,
+            "delta_nwc": 25818097.86598432,
+            "discount_factor": 0.6675026362879309,
+            "ebit": 855331825.1133158,
+            "ebit_margin": 0.257,
+            "ebitda": 1026731004.0757117,
+            "fcff": 775678409.9840319,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 858659964.5106438,
+            "present_value_fcff": 517767383.57597184,
+            "revenue": 3328139397.328077,
+            "revenue_growth": 0.031,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 13430242740.432985,
+        "terminal_value_present_value": 8964722435.225864,
+        "upside_downside_pct": -0.3356517090215687
+      },
+      "bear": {
+        "current_price": 262.73,
+        "description": "Moderately weaker end-market growth and margin compression vs. base case; slightly lower terminal growth and higher WACC.",
+        "enterprise_value": 10679716716.399904,
+        "equity_value": 8805900716.399904,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 11966480893.173424,
+        "implied_market_cap": 8805900716.399904,
+        "investments_adjustment": 13996000.0,
+        "net_debt": 1887812000.0,
+        "per_share_value": 154.71749097617374,
+        "projected_years": [
+          {
+            "capex": 59518766.84,
+            "cash_taxes": 125293153.84353602,
+            "da": 152426110.2,
+            "delta_nwc": 40429164.80000007,
+            "discount_factor": 0.9203865623561895,
+            "ebit": 734548683.44,
+            "ebit_margin": 0.253,
+            "ebitda": 886974793.6400001,
+            "fcff": 661733708.1564639,
+            "nol_balance_end": 0.0,
+            "nol_used": 73022000.0,
+            "nwc": 754872164.8000001,
+            "present_value_fcff": 609050812.8453418,
+            "revenue": 2903354480.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 59867169.37759999,
+            "cash_taxes": 143719820.83048856,
+            "da": 156552647.922424,
+            "delta_nwc": 20407678.639919877,
+            "discount_factor": 0.8471114241658441,
+            "ebit": 758816371.8610799,
+            "ebit_margin": 0.2535,
+            "ebitda": 915369019.7835039,
+            "fcff": 691374350.9354955,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 775279843.43992,
+            "present_value_fcff": 585671111.0527036,
+            "revenue": 2993358468.8799996,
+            "revenue_growth": 0.031,
+            "year": 2027
+          },
+          {
+            "capex": 60738236.69204407,
+            "cash_taxes": 148206600.56245103,
+            "da": 160324279.59321278,
+            "delta_nwc": 21716815.69172442,
+            "discount_factor": 0.7796699716206572,
+            "ebit": 782505810.7837963,
+            "ebit_margin": 0.2538,
+            "ebitda": 942830090.3770092,
+            "fcff": 712168437.4307896,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 796996659.1316444,
+            "present_value_fcff": 555256345.4007915,
+            "revenue": 3083159222.9463997,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 61171112.24694575,
+            "cash_taxes": 152596505.76492652,
+            "da": 163862513.1174661,
+            "delta_nwc": 20731162.615091562,
+            "discount_factor": 0.7175977649522846,
+            "ebit": 805683768.5582181,
+            "ebit_margin": 0.2542,
+            "ebitda": 969546281.6756842,
+            "fcff": 735047501.0487204,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 817727821.7467359,
+            "present_value_fcff": 527468443.88632375,
+            "revenue": 3169487681.188899,
+            "revenue_growth": 0.028,
+            "year": 2029
+          },
+          {
+            "capex": 61846213.12303898,
+            "cash_taxes": 156901564.1484559,
+            "da": 167635788.20192143,
+            "delta_nwc": 22078651.187161803,
+            "discount_factor": 0.6604673400389182,
+            "ebit": 828413749.4638642,
+            "ebit_margin": 0.2545,
+            "ebitda": 996049537.6657857,
+            "fcff": 755223109.207129,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 839806472.9338977,
+            "present_value_fcff": 498800198.07395387,
+            "revenue": 3255063848.580999,
+            "revenue_growth": 0.027,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 11966480893.173424,
+        "terminal_value_present_value": 7903469805.140789,
+        "upside_downside_pct": -0.4111160089210455
+      },
+      "bull": {
+        "current_price": 262.73,
+        "description": "Moderately stronger growth and margin expansion vs. base case; slightly higher terminal growth and marginally lower WACC.",
+        "enterprise_value": 12709886684.580437,
+        "equity_value": 10836070684.580437,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 14589589241.54479,
+        "implied_market_cap": 10836070684.580437,
+        "investments_adjustment": 13996000.0,
+        "net_debt": 1887812000.0,
+        "per_share_value": 190.38707366259817,
+        "projected_years": [
+          {
+            "capex": 60091062.675000004,
+            "cash_taxes": 129406793.97202002,
+            "da": 153891745.875,
+            "delta_nwc": 47687551.0,
+            "discount_factor": 0.9237875288683602,
+            "ebit": 756268008.3000001,
+            "ebit_margin": 0.258,
+            "ebitda": 910159754.1750001,
+            "fcff": 672974346.5279801,
+            "nol_balance_end": 0.0,
+            "nol_used": 73022000.0,
+            "nwc": 762130551.0,
+            "present_value_fcff": 621685308.5708823,
+            "revenue": 2931271350.0,
+            "revenue_growth": 0.05,
+            "year": 2026
+          },
+          {
+            "capex": 60853193.226,
+            "cash_taxes": 148968312.7512819,
+            "da": 159131100.28599,
+            "delta_nwc": 25918301.27670002,
+            "discount_factor": 0.8533833984927116,
+            "ebit": 786527522.44605,
+            "ebit_margin": 0.2585,
+            "ebitda": 945658622.73204,
+            "fcff": 709918815.4780582,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 788048852.2767,
+            "present_value_fcff": 605832931.4065856,
+            "revenue": 3042659661.3,
+            "revenue_growth": 0.038,
+            "year": 2027
+          },
+          {
+            "capex": 62038309.16407634,
+            "cash_taxes": 154361138.55680022,
+            "da": 163755942.97116598,
+            "delta_nwc": 26007133.454961777,
+            "discount_factor": 0.7883449408708652,
+            "ebit": 815000731.5564953,
+            "ebit_margin": 0.2588,
+            "ebitda": 978756674.5276613,
+            "fcff": 736350093.351823,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 814055985.7316618,
+            "present_value_fcff": 580497870.8036989,
+            "revenue": 3149152749.4455,
+            "revenue_growth": 0.035,
+            "year": 2028
+          },
+          {
+            "capex": 62784343.450419985,
+            "cash_taxes": 159701509.07527846,
+            "da": 168183966.65216133,
+            "delta_nwc": 25237310.13405621,
+            "discount_factor": 0.7282632248229701,
+            "ebit": 843196985.6139306,
+            "ebit_margin": 0.2592,
+            "ebitda": 1011380952.266092,
+            "fcff": 763657789.6063373,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 839293295.865718,
+            "present_value_fcff": 556143884.5198925,
+            "revenue": 3253074790.1772013,
+            "revenue_growth": 0.033,
+            "year": 2029
+          },
+          {
+            "capex": 63786290.48579457,
+            "cash_taxes": 165002711.94597176,
+            "da": 172894418.9483379,
+            "delta_nwc": 26857385.467702985,
+            "discount_factor": 0.6727604848249147,
+            "ebit": 871186441.1086153,
+            "ebit_margin": 0.2595,
+            "ebitda": 1044080860.0569532,
+            "fcff": 788434472.1574839,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 866150681.333421,
+            "present_value_fcff": 530427557.7413446,
+            "revenue": 3357173183.462872,
+            "revenue_growth": 0.032,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 14589589241.54479,
+        "terminal_value_present_value": 9815299131.538033,
+        "upside_downside_pct": -0.2753508405488595
+      }
+    },
+    "ticker": "NDSN"
+  },
+  "assumptions": {
+    "cash": 108442000.0,
+    "current_price": 262.73,
+    "debt": 1996254000.0,
+    "diluted_shares": 56916000.0,
+    "investments": 13996000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 73022000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.257,
+    "tax_rate": 0.1894,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.0842
+  },
+  "company_name": "Nordson Corporation",
+  "comps": [
+    {
+      "company_name": "AMETEK, Inc.",
+      "ev_ntm_ebitda": 21.22,
+      "ev_ntm_revenue": 6.76,
+      "notes": "EV/Sales and EV/EBITDA shown as proxies for EV/NTM revenue and EV/NTM EBITDA (not explicitly labeled NTM on the page).",
+      "pe_ntm": 26.0,
+      "source": "StockAnalysis.com statistics (EV/Sales, EV/EBITDA, forward P/E)",
+      "ticker": "AME"
+    },
+    {
+      "company_name": "Illinois Tool Works Inc.",
+      "ev_ntm_ebitda": 17.75,
+      "ev_ntm_revenue": 5.15,
+      "notes": "EV/Sales and EV/EBITDA used as proxies for EV/NTM multiples.",
+      "pe_ntm": 22.86,
+      "source": "StockAnalysis.com statistics (EV/Sales, EV/EBITDA, forward P/E)",
+      "ticker": "ITW"
+    },
+    {
+      "company_name": "MKS Instruments, Inc.",
+      "ev_ntm_ebitda": 21.27,
+      "ev_ntm_revenue": 4.85,
+      "notes": "EV/Sales and EV/EBITDA used as proxies for EV/NTM multiples.",
+      "pe_ntm": 22.96,
+      "source": "StockAnalysis.com statistics (EV/Sales, EV/EBITDA, forward P/E)",
+      "ticker": "MKSI"
+    },
+    {
+      "company_name": "KLA Corporation",
+      "ev_ntm_ebitda": 34.37,
+      "ev_ntm_revenue": 15.48,
+      "notes": "EV/Sales and EV/EBITDA used as proxies for EV/NTM multiples.",
+      "pe_ntm": 35.63,
+      "source": "StockAnalysis.com statistics (EV/Sales, EV/EBITDA, forward P/E)",
+      "ticker": "KLAC"
+    },
+    {
+      "company_name": "Mettler-Toledo International Inc.",
+      "ev_ntm_ebitda": 22.01,
+      "ev_ntm_revenue": 6.63,
+      "notes": "EV/Sales and EV/EBITDA used as proxies for EV/NTM multiples.",
+      "pe_ntm": 25.9,
+      "source": "StockAnalysis.com statistics (EV/Sales, EV/EBITDA, forward P/E)",
+      "ticker": "MTD"
+    },
+    {
+      "company_name": "Waters Corporation",
+      "ev_ntm_ebitda": 27.68,
+      "ev_ntm_revenue": 9.57,
+      "notes": "EV/Sales and EV/EBITDA used as proxies for EV/NTM multiples.",
+      "pe_ntm": 20.78,
+      "source": "StockAnalysis.com statistics (EV/Sales, EV/EBITDA, forward P/E)",
+      "ticker": "WAT"
+    },
+    {
+      "company_name": "Keysight Technologies, Inc.",
+      "ev_ntm_ebitda": 37.47,
+      "ev_ntm_revenue": 8.49,
+      "notes": "EV/Sales and EV/EBITDA used as proxies for EV/NTM multiples.",
+      "pe_ntm": 30.37,
+      "source": "StockAnalysis.com statistics (EV/Sales, EV/EBITDA, forward P/E)",
+      "ticker": "KEYS"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0205,
+      "2027": 0.02,
+      "2028": 0.0197,
+      "2029": 0.0193,
+      "2030": 0.019
+    },
+    "da_pct_sales": {
+      "2026": 0.0525,
+      "2027": 0.0523,
+      "2028": 0.052,
+      "2029": 0.0517,
+      "2030": 0.0515
+    },
+    "ebit_margin": {
+      "2026": 0.2555,
+      "2027": 0.256,
+      "2028": 0.2563,
+      "2029": 0.2567,
+      "2030": 0.257
+    },
+    "nwc_pct_sales": {
+      "2026": 0.26,
+      "2027": 0.259,
+      "2028": 0.2585,
+      "2029": 0.258,
+      "2030": 0.258
+    },
+    "revenue_growth": {
+      "2026": 0.0459625309,
+      "2027": 0.036,
+      "2028": 0.034,
+      "2029": 0.032,
+      "2030": 0.031
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 34583000.0,
+      "2024": 64410000.0,
+      "2025": 58060000.0
+    },
+    "da": {
+      "2023": 111898000.0,
+      "2024": 136175000.0,
+      "2025": 150523000.0
+    },
+    "ebit": {
+      "2023": 672761000.0,
+      "2024": 674001000.0,
+      "2025": 711725000.0
+    },
+    "nwc": {
+      "2023": 668975000.0,
+      "2024": 756856000.0,
+      "2025": 714443000.0
+    },
+    "revenue": {
+      "2023": 2628632000.0,
+      "2024": 2689921000.0,
+      "2025": 2791687000.0
+    }
+  },
+  "notes": [
+    "Fiscal years for Nordson end on October 31; historical years 2023-2025 correspond to fiscal years ended Oct 31, 2023/2024/2025.",
+    "EBIT is proxied by consolidated operating profit from the income statement (not adjusted for interest/other).",
+    "DA is modeled as depreciation + amortization from the cash flow statement reconciliation.",
+    "Capex is modeled as additions to property, plant and equipment (cash flow investing activity).",
+    "NWC construction (for historical and forecast % of sales) is defined as (Receivables - net + Inventories - net + Prepaid expenses and other current assets) minus (Accounts payable + Accrued liabilities + Customer advance payments + Income taxes payable), excluding cash, interest-bearing debt, and lease liability lines.",
+    "Base-case FY2026 revenue uses the midpoint of management\u2019s FY2026 sales guidance ($2.860B-$2.980B) issued in Q1 FY2026 results; subsequent growth rates are a gradual deceleration to a mature run-rate.",
+    "Terminal value uses Gordon growth (terminal_exit_ebitda_multiple intentionally left null).",
+    "Comps: EV/Sales and EV/EBITDA are used as proxies for EV/NTM revenue and EV/NTM EBITDA because the underlying public pages do not explicitly label these as NTM multiples; forward P/E is used where available.",
+    "NOL balance uses state + foreign operating loss carryforward amounts disclosed in the FY2025 tax note; NOL utilization percent is assumed (0.80) due to lack of a company-specific utilization schedule."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained order entry/backlog improvement across segments, especially in end markets management highlights as inflecting.",
+      "Semiconductor/electronics cycle strength translating into higher demand for Advanced Technology Solutions.",
+      "Corporate actions (acquisitions/divestitures) and disciplined capital allocation (buybacks/dividends) influencing per-share value."
+    ],
+    "company_overview": [
+      "Nordson is a precision technology company with three reporting segments: Industrial Precision Solutions, Medical and Fluid Solutions, and Advanced Technology Solutions.",
+      "The company designs and manufactures products/systems that dispense, apply, and control adhesives/coatings/polymers/biomaterials and other fluids, plus advanced technology systems serving industrial and semiconductor-linked end markets.",
+      "Nordson sells through a direct, applications-focused model and operates globally (management describes operations across 35+ countries)."
+    ],
+    "current_context": [
+      "In fiscal Q1 2026 (ended January 31, 2026), Nordson reported record sales of about $669 million (+9% Y/Y) supported by organic growth and backlog growth of ~4% Y/Y.",
+      "Management increased full-year guidance (FY2026 sales expected in the range of $2.860B-$2.980B; adjusted EPS $11.00-$11.60), reflecting strengthening backlog and order entry momentum."
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth is anchored to FY2026 guidance midpoint and then decelerates to a mature rate consistent with a global industrial precision platform.",
+      "EBIT margin in the base case stabilizes around the company\u2019s recent historical range (~25%+) with modest normalization post acquisitions/divestitures.",
+      "Capital intensity and working-capital intensity are modeled using normalized historical D&A, capex, and NWC as % of sales (with gradual normalization over the forecast horizon).",
+      "Terminal assumptions (Gordon growth) are set to reflect long-run, steady-state profitability and reinvestment economics for a mature specialty industrial."
+    ],
+    "key_risks": [
+      "End-market demand cyclicality (including semiconductor-related spending) causing revenue and margin volatility.",
+      "Integration risk from acquisitions or margin dilution from mix shifts and competitive pricing.",
+      "Macro/FX impacts and potential tariffs affecting demand, costs, and customer behavior."
+    ],
+    "sources": [
+      {
+        "label": "Nordson FY2025 Annual Report (Form 10-K) PDF",
+        "notes": "Historical revenue, operating profit (EBIT), depreciation/amortization components, capex, balance-sheet items used for NWC, effective tax rate, and NOL/carryforward disclosures.",
+        "url": "`https://s202.q4cdn.com/528247721/files/doc_financials/2025/ar/Nordson2025Annual-Report.pdf`"
+      },
+      {
+        "label": "Nordson Q1 FY2026 Results & FY2026 Guidance Press Release",
+        "notes": "Current operating context: record Q1 sales, backlog growth, and updated FY2026 guidance range.",
+        "url": "`https://investors.nordson.com/news/news-details/2026/Nordson-Corporation-Reports-Record-First-Quarter-Fiscal-2026-Results-and-Increases-Full-Year-Guidance/default.aspx`"
+      },
+      {
+        "label": "Nordson FY2025 Results Press Release (Q4 and Full Year)",
+        "notes": "Recent full-year narrative and baseline for the FY2026 starting point.",
+        "url": "`https://investors.nordson.com/news/news-details/2025/Nordson-Corporation-Reports-Record-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx`"
+      },
+      {
+        "label": "Nordson Investor Day Presentation (Oct 2024)",
+        "notes": "Business strategy framing (e.g., scalable growth framework) used for investment thesis bullets.",
+        "url": "`https://s202.q4cdn.com/528247721/files/doc_events/2024/Oct/03/ndsn-investor-day-presentation_final-10-3-24-v2.pdf`"
+      },
+      {
+        "label": "WACC reference (market-data summary)",
+        "notes": "Used as a market-data reference to set/triangulate WACC inputs; final WACC in this package is aligned to the base-case tax rate.",
+        "url": "`https://valueinvesting.io/NDSN/valuation/wacc`"
+      }
+    ],
+    "subtitle": "Nordson (NDSN) DCF Valuation Input Package",
+    "valuation_summary": [
+      "DCF uses FY2026 guidance for near-term revenue and historical EBIT margin characteristics to avoid promotional forecasting.",
+      "WACC and terminal growth are set in a conservative industrial range, producing a steady-state valuation framework without relying on an aggressive exit multiple.",
+      "Comps provide a directional cross-check using enterprise multiples and forward P/E from public market-data sources (EV/Sales and EV/EBITDA as NTM proxies)."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 262.73,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.2545,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0865
+      },
+      "description": "Moderately weaker end-market growth and margin compression vs. base case; slightly lower terminal growth and higher WACC.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0205,
+          "2027": 0.02,
+          "2028": 0.0197,
+          "2029": 0.0193,
+          "2030": 0.019
+        },
+        "da_pct_sales": {
+          "2026": 0.0525,
+          "2027": 0.0523,
+          "2028": 0.052,
+          "2029": 0.0517,
+          "2030": 0.0515
+        },
+        "ebit_margin": {
+          "2026": 0.253,
+          "2027": 0.2535,
+          "2028": 0.2538,
+          "2029": 0.2542,
+          "2030": 0.2545
+        },
+        "nwc_pct_sales": {
+          "2026": 0.26,
+          "2027": 0.259,
+          "2028": 0.2585,
+          "2029": 0.258,
+          "2030": 0.258
+        },
+        "revenue_growth": {
+          "2026": 0.04,
+          "2027": 0.031,
+          "2028": 0.03,
+          "2029": 0.028,
+          "2030": 0.027
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 262.73,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.2595,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.027,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0825
+      },
+      "description": "Moderately stronger growth and margin expansion vs. base case; slightly higher terminal growth and marginally lower WACC.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0205,
+          "2027": 0.02,
+          "2028": 0.0197,
+          "2029": 0.0193,
+          "2030": 0.019
+        },
+        "da_pct_sales": {
+          "2026": 0.0525,
+          "2027": 0.0523,
+          "2028": 0.052,
+          "2029": 0.0517,
+          "2030": 0.0515
+        },
+        "ebit_margin": {
+          "2026": 0.258,
+          "2027": 0.2585,
+          "2028": 0.2588,
+          "2029": 0.2592,
+          "2030": 0.2595
+        },
+        "nwc_pct_sales": {
+          "2026": 0.26,
+          "2027": 0.259,
+          "2028": 0.2585,
+          "2029": 0.258,
+          "2030": 0.258
+        },
+        "revenue_growth": {
+          "2026": 0.05,
+          "2027": 0.038,
+          "2028": 0.035,
+          "2029": 0.033,
+          "2030": 0.032
+        }
+      }
+    }
+  },
+  "ticker": "NDSN"
+}

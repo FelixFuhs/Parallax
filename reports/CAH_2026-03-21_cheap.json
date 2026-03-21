@@ -1,0 +1,674 @@
+{
+  "_meta": {
+    "cost_usd": 0.023848,
+    "generated_at": "2026-03-21T17:32:38Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11383,
+      "prompt": 2514,
+      "reasoning": 7293
+    }
+  },
+  "_valuation": {
+    "company_name": "Cardinal Health, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 207.83,
+        "description": "Base case",
+        "enterprise_value": 30876902709.899784,
+        "equity_value": 26076902709.899784,
+        "exit_multiple_terminal_value": 31134972480.662827,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 26076902709.899784,
+        "investments_adjustment": 0.0,
+        "net_debt": 4653000000.0,
+        "per_share_value": 107.75579632189994,
+        "projected_years": [
+          {
+            "capex": 549211215.0,
+            "cash_taxes": 96193760.03999999,
+            "da": 782918115.0,
+            "delta_nwc": 472741300.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2290327620.0,
+            "ebit_margin": 0.0098,
+            "ebitda": 3073245735.0,
+            "fcff": 1955099459.96,
+            "nol_balance_end": 11021737904.0,
+            "nol_used": 1832262096.0,
+            "nwc": -5375258700.0,
+            "present_value_fcff": 1801934986.138249,
+            "revenue": 233706900000.0,
+            "revenue_growth": 0.05,
+            "year": 2026
+          },
+          {
+            "capex": 565687551.45,
+            "cash_taxes": 100090588.89059998,
+            "da": 806405658.45,
+            "delta_nwc": -161257761.0,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2383109259.3,
+            "ebit_margin": 0.0099,
+            "ebitda": 3189514917.75,
+            "fcff": 2684994538.4094,
+            "nol_balance_end": 9115250496.56,
+            "nol_used": 1906487407.4400003,
+            "nwc": -5536516461.0,
+            "present_value_fcff": 2280782805.673852,
+            "revenue": 240718107000.0,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 579829740.2362499,
+            "cash_taxes": 103629145.06349997,
+            "da": 826565799.9112499,
+            "delta_nwc": -138412911.52499962,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2467360596.7499995,
+            "ebit_margin": 0.01,
+            "ebitda": 3293926396.661249,
+            "fcff": 2748880422.8864994,
+            "nol_balance_end": 7141362019.16,
+            "nol_used": 1973888477.3999996,
+            "nwc": -5674929372.525,
+            "present_value_fcff": 2152120744.6955285,
+            "revenue": 246736059674.99997,
+            "revenue_growth": 0.025,
+            "year": 2028
+          },
+          {
+            "capex": 592585994.5214474,
+            "cash_taxes": 106968076.11744595,
+            "da": 844750247.5092975,
+            "delta_nwc": -124848446.19554996,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2546858955.1772847,
+            "ebit_margin": 0.0101,
+            "ebitda": 3391609202.686582,
+            "fcff": 2816903578.2432384,
+            "nol_balance_end": 5103874855.018172,
+            "nol_used": 2037487164.1418278,
+            "nwc": -5799777818.72055,
+            "present_value_fcff": 2032605183.3227015,
+            "revenue": 252164252987.84998,
+            "revenue_growth": 0.022,
+            "year": 2029
+          },
+          {
+            "capex": 604437714.4118764,
+            "cash_taxes": 109107437.63979483,
+            "da": 861645252.4594835,
+            "delta_nwc": -115995556.37441158,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2597796134.2808304,
+            "ebit_margin": 0.0101,
+            "ebitda": 3459441386.740314,
+            "fcff": 2861891791.063054,
+            "nol_balance_end": 3025637947.593508,
+            "nol_used": 2078236907.4246645,
+            "nwc": -5915773375.094961,
+            "present_value_fcff": 1903288037.5932295,
+            "revenue": 257207538047.607,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 31134972480.662827,
+        "terminal_value_present_value": 20706170952.476223,
+        "upside_downside_pct": -0.48151952883654947
+      },
+      "bear": {
+        "current_price": 207.83,
+        "description": "Modestly lower growth and margin with a lower terminal exit multiple (execution/mix/competitive pressure).",
+        "enterprise_value": 27507225908.27732,
+        "equity_value": 22707225908.27732,
+        "exit_multiple_terminal_value": 27631104961.252056,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 22707225908.27732,
+        "investments_adjustment": 0.0,
+        "net_debt": 4653000000.0,
+        "per_share_value": 93.83151201767488,
+        "projected_years": [
+          {
+            "capex": 546595923.5,
+            "cash_taxes": 90851220.30599998,
+            "da": 779189933.4999999,
+            "delta_nwc": 498337770.00000095,
+            "discount_factor": 0.9191176470588235,
+            "ebit": 2163124292.9999995,
+            "ebit_margin": 0.0093,
+            "ebitda": 2942314226.4999995,
+            "fcff": 1806529312.6939983,
+            "nol_balance_end": 11123500565.6,
+            "nol_used": 1730499434.3999996,
+            "nwc": -5349662229.999999,
+            "present_value_fcff": 1660412971.2261014,
+            "revenue": 232594009999.99997,
+            "revenue_growth": 0.045,
+            "year": 2026
+          },
+          {
+            "capex": 560260821.5874999,
+            "cash_taxes": 94123818.02669995,
+            "da": 798669681.8374999,
+            "delta_nwc": -133741555.74999905,
+            "discount_factor": 0.844777249134948,
+            "ebit": 2241043286.3499994,
+            "ebit_margin": 0.0094,
+            "ebitda": 3039712968.187499,
+            "fcff": 2519069884.3232985,
+            "nol_balance_end": 9330665936.52,
+            "nol_used": 1792834629.0799997,
+            "nwc": -5483403785.749998,
+            "present_value_fcff": 2128052927.2573278,
+            "revenue": 238408860249.99994,
+            "revenue_growth": 0.025,
+            "year": 2027
+          },
+          {
+            "capex": 571466038.0192499,
+            "cash_taxes": 97027637.94454494,
+            "da": 814643075.4742498,
+            "delta_nwc": -109668075.71500015,
+            "discount_factor": 0.776449677513739,
+            "ebit": 2310181855.8224993,
+            "ebit_margin": 0.0095,
+            "ebitda": 3124824931.296749,
+            "fcff": 2565999331.0479546,
+            "nol_balance_end": 7482520451.862001,
+            "nol_used": 1848145484.6579995,
+            "nwc": -5593071861.464998,
+            "present_value_fcff": 1992369353.0926542,
+            "revenue": 243177037454.99994,
+            "revenue_growth": 0.02,
+            "year": 2028
+          },
+          {
+            "capex": 581180960.665577,
+            "cash_taxes": 99715814.18738751,
+            "da": 828492007.757312,
+            "delta_nwc": -95082221.64490509,
+            "discount_factor": 0.71364860065601,
+            "ebit": 2374186052.080655,
+            "ebit_margin": 0.0096,
+            "ebitda": 3202678059.837967,
+            "fcff": 2616863506.6299076,
+            "nol_balance_end": 5583171610.197477,
+            "nol_used": 1899348841.664524,
+            "nwc": -5688154083.109903,
+            "present_value_fcff": 1867520979.614213,
+            "revenue": 247311047091.73492,
+            "revenue_growth": 0.017,
+            "year": 2029
+          },
+          {
+            "capex": 589898675.0755607,
+            "cash_taxes": 101211551.40019831,
+            "da": 840919387.8736717,
+            "delta_nwc": -85322311.24664783,
+            "discount_factor": 0.6559270226617738,
+            "ebit": 2409798842.8618646,
+            "ebit_margin": 0.0096,
+            "ebitda": 3250718230.735536,
+            "fcff": 2644930315.506425,
+            "nol_balance_end": 3655332535.9079857,
+            "nol_used": 1927839074.2894917,
+            "nwc": -5773476394.356551,
+            "present_value_fcff": 1734881266.9979954,
+            "revenue": 251020712798.11093,
+            "revenue_growth": 0.015,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 27631104961.252056,
+        "terminal_value_present_value": 18123988410.089027,
+        "upside_downside_pct": -0.5485179617106535
+      },
+      "bull": {
+        "current_price": 207.83,
+        "description": "Modestly higher growth and margin with a higher terminal exit multiple (more favorable execution/market environment).",
+        "enterprise_value": 34397871033.200806,
+        "equity_value": 29597871033.200806,
+        "exit_multiple_terminal_value": 34922424870.1709,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 29597871033.200806,
+        "investments_adjustment": 0.0,
+        "net_debt": 4653000000.0,
+        "per_share_value": 122.30525220330911,
+        "projected_years": [
+          {
+            "capex": 551826506.5,
+            "cash_taxes": 101583041.15399997,
+            "da": 786646296.5,
+            "delta_nwc": 447144830.0,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 2418643837.0,
+            "ebit_margin": 0.0103,
+            "ebitda": 3205290133.5,
+            "fcff": 2104735755.8460002,
+            "nol_balance_end": 10919084930.4,
+            "nol_used": 1934915069.6000001,
+            "nwc": -5400855170.0,
+            "present_value_fcff": 1943430984.160665,
+            "revenue": 234819790000.0,
+            "revenue_growth": 0.055,
+            "year": 2026
+          },
+          {
+            "capex": 571140434.2275,
+            "cash_taxes": 106159209.22151993,
+            "da": 814178916.8774999,
+            "delta_nwc": -189029930.94999886,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 2527600219.5599995,
+            "ebit_margin": 0.0104,
+            "ebitda": 3341779136.4374995,
+            "fcff": 2853509423.9384785,
+            "nol_balance_end": 8897004754.751999,
+            "nol_used": 2022080175.6479998,
+            "nwc": -5589885100.949999,
+            "present_value_fcff": 2432889577.7336802,
+            "revenue": 243038482649.99997,
+            "revenue_growth": 0.035,
+            "year": 2027
+          },
+          {
+            "capex": 588274647.2543249,
+            "cash_taxes": 110395369.97410946,
+            "da": 838604284.383825,
+            "delta_nwc": -167696553.02850056,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 2628461189.85975,
+            "ebit_margin": 0.0105,
+            "ebitda": 3467065474.2435746,
+            "fcff": 2936092010.0436406,
+            "nol_balance_end": 6794235802.864199,
+            "nol_used": 2102768951.8878,
+            "nwc": -5757581653.978499,
+            "present_value_fcff": 2311448870.9465313,
+            "revenue": 250329637129.49997,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 604158062.7301917,
+            "cash_taxes": 114455816.82020476,
+            "da": 861246600.0621881,
+            "delta_nwc": -155454704.6574192,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 2725138495.7191625,
+            "ebit_margin": 0.0106,
+            "ebitda": 3586385095.7813506,
+            "fcff": 3023225920.8883734,
+            "nol_balance_end": 4614125006.288868,
+            "nol_used": 2180110796.5753303,
+            "nwc": -5913036358.635919,
+            "present_value_fcff": 2197641137.550922,
+            "revenue": 257088537331.99646,
+            "revenue_growth": 0.027,
+            "year": 2029
+          },
+          {
+            "capex": 619262014.2984464,
+            "cash_taxes": 117317212.24070996,
+            "da": 882777765.0637429,
+            "delta_nwc": -147825908.96589756,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 2793266958.1121416,
+            "ebit_margin": 0.0106,
+            "ebitda": 3676044723.1758842,
+            "fcff": 3087291405.602626,
+            "nol_balance_end": 2379511439.7991548,
+            "nol_used": 2234613566.489713,
+            "nwc": -6060862267.601816,
+            "present_value_fcff": 2072217518.045763,
+            "revenue": 263515750765.29636,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 34922424870.1709,
+        "terminal_value_present_value": 23440242944.76325,
+        "upside_downside_pct": -0.41151300484381903
+      }
+    },
+    "ticker": "CAH"
+  },
+  "assumptions": {
+    "cash": 3874000000.0,
+    "current_price": 207.83,
+    "debt": 8527000000.0,
+    "diluted_shares": 242000000.0,
+    "investments": 0.0,
+    "minority_interest": 147000000.0,
+    "net_debt_override": null,
+    "nol_balance": 12854000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.01,
+    "tax_rate": 0.21,
+    "terminal_exit_ebitda_multiple": 9.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.085
+  },
+  "company_name": "Cardinal Health, Inc.",
+  "comps": [
+    {
+      "company_name": "McKesson Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Multiples (EV/NTM Revenue, EV/NTM EBITDA, P/E NTM) not populated due to lack of consistent, non-paywalled sources accessible during this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "MCK"
+    },
+    {
+      "company_name": "Cencora Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Multiples not populated due to non-accessible or inconsistent forward/NTM inputs from free sources during this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "COR"
+    },
+    {
+      "company_name": "Henry Schein, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Multiples not populated due to non-accessible or inconsistent forward/NTM inputs from free sources during this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "HSIC"
+    },
+    {
+      "company_name": "Patterson Companies, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Multiples not populated due to non-accessible or inconsistent forward/NTM inputs from free sources during this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PDCO"
+    },
+    {
+      "company_name": "Owens & Minor, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Multiples not populated due to non-accessible or inconsistent forward/NTM inputs from free sources during this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "OMI"
+    },
+    {
+      "company_name": "Option Care Health, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Included as a healthcare services/distribution peer, but EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM not populated due to data-access limits during this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "OPCH"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.00235,
+      "2027": 0.00235,
+      "2028": 0.00235,
+      "2029": 0.00235,
+      "2030": 0.00235
+    },
+    "da_pct_sales": {
+      "2026": 0.00335,
+      "2027": 0.00335,
+      "2028": 0.00335,
+      "2029": 0.00335,
+      "2030": 0.00335
+    },
+    "ebit_margin": {
+      "2026": 0.0098,
+      "2027": 0.0099,
+      "2028": 0.01,
+      "2029": 0.0101,
+      "2030": 0.0101
+    },
+    "nwc_pct_sales": {
+      "2026": -0.023,
+      "2027": -0.023,
+      "2028": -0.023,
+      "2029": -0.023,
+      "2030": -0.023
+    },
+    "revenue_growth": {
+      "2026": 0.05,
+      "2027": 0.03,
+      "2028": 0.025,
+      "2029": 0.022,
+      "2030": 0.02
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 481000000.0,
+      "2024": 511000000.0,
+      "2025": 547000000.0
+    },
+    "da": {
+      "2023": 692000000.0,
+      "2024": 710000000.0,
+      "2025": 790000000.0
+    },
+    "ebit": {
+      "2023": 752000000.0,
+      "2024": 1243000000.0,
+      "2025": 2275000000.0
+    },
+    "nwc": {
+      "2023": -3287000000.0,
+      "2024": -5455000000.0,
+      "2025": -5848000000.0
+    },
+    "revenue": {
+      "2023": 204979000000.0,
+      "2024": 226827000000.0,
+      "2025": 222578000000.0
+    }
+  },
+  "notes": [
+    "EBIT is modeled as GAAP \u201cOperating earnings\u201d from Cardinal Health\u2019s consolidated statements of earnings. ([sec.gov](https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm))",
+    "D&A is modeled from cash flow \u201cDepreciation and amortization,\u201d and capex from cash flow \u201cAdditions to property and equipment.\u201d ([sec.gov](https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm))",
+    "NWC is computed as: (Current assets \u2212 Cash and equivalents) \u2212 (Total current liabilities \u2212 Current portion of long-term obligations and other short-term borrowings). This is a modeling approximation of operating working capital and may differ from any company-defined NWC metric. ([sec.gov](https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm))",
+    "Tax rate (0.21) is a normalized modeling assumption because GAAP effective tax rates are volatile year to year due to discrete items; GAAP tax expense and EBT are available in filings. ([sec.gov](https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm))",
+    "NOL balance uses the sum of gross loss and credit carryforwards disclosed (federal/state/international) because the filing provides gross carryforwards rather than a single consolidated \u201cNOL\u201d figure; credits are included in the carryforward totals, and utilization percent is assumed at 0.80 for the DCF schedule. ([sec.gov](https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm))",
+    "Peer comps multiples are left null because consistent EV/NTM Revenue and EV/NTM EBITDA inputs were not accessible in a non-paywalled way during this run."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Sustained execution against multi-year improvement initiatives (profit/cash flow generation) translating into higher-than-modeled earnings durability. ([s201.q4cdn.com](https://s201.q4cdn.com/566741227/files/doc_events/2025/Jun/2025-Investor-Day-Press-Release.pdf))",
+      "Further guidance raises and/or operating outperformance (volume mix, cost optimization), particularly in Pharma and the \u201cOther\u201d growth areas. ([newsroom.cardinalhealth.com](https://newsroom.cardinalhealth.com/2026-02-05-Cardinal-Health-Reports-Second-Quarter-Fiscal-Year-2026-Results-and-Raises-Outlook))",
+      "Ongoing shareholder returns (repurchases) supported by disciplined leverage and free cash flow. ([newsroom.cardinalhealth.com](https://newsroom.cardinalhealth.com/2026-02-05-Cardinal-Health-Reports-Second-Quarter-Fiscal-Year-2026-Results-and-Raises-Outlook))"
+    ],
+    "company_overview": [
+      "Cardinal Health is a global healthcare services and products company with segments spanning pharmaceutical distribution/specialty services and medical products distribution/manufacturing, plus Other businesses. ([sec.gov](https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm))",
+      "The model uses GAAP operating earnings as EBIT and reflects the company\u2019s historically low (but improving) operating margin profile driven by distribution/supply chain economics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm))",
+      "Working-capital structure is modeled with negative net working capital (distributor-like), which typically supports cash conversion despite modest EBIT margins. ([sec.gov](https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm))"
+    ],
+    "current_context": [
+      "Q2 FY26: revenue of $65.6 billion (+19% YoY) and GAAP operating earnings of $707 million (+29% YoY). ([newsroom.cardinalhealth.com](https://newsroom.cardinalhealth.com/2026-02-05-Cardinal-Health-Reports-Second-Quarter-Fiscal-Year-2026-Results-and-Raises-Outlook))",
+      "Q2 FY26: Cardinal raised FY26 non-GAAP diluted EPS guidance to $10.15-$10.35 (+23%-26%). ([newsroom.cardinalhealth.com](https://newsroom.cardinalhealth.com/2026-02-05-Cardinal-Health-Reports-Second-Quarter-Fiscal-Year-2026-Results-and-Raises-Outlook))",
+      "Cardinal completed an annual baseline share repurchase of $750 million during the quarter/year-to-date context. ([newsroom.cardinalhealth.com](https://newsroom.cardinalhealth.com/2026-02-05-Cardinal-Health-Reports-Second-Quarter-Fiscal-Year-2026-Results-and-Raises-Outlook))"
+    ],
+    "investment_highlights": [
+      "Base case ties forecast revenue growth to a normalization from the FY2024 OptumRx expiration impact and continued scaling in higher-growth parts of the portfolio, with growth tapering toward mature rates. ([newsroom.cardinalhealth.com](https://newsroom.cardinalhealth.com/2026-02-05-Cardinal-Health-Reports-Second-Quarter-Fiscal-Year-2026-Results-and-Raises-Outlook))",
+      "EBIT margin assumptions move modestly toward ~1.0% as cost optimization and mix stabilization offset the inherently low-margin distribution base. ([sec.gov](https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm))",
+      "Capex is held at a stable sales ratio consistent with management\u2019s FY26 capex ~$600 million communicated in investor materials. ([s201.q4cdn.com](https://s201.q4cdn.com/566741227/files/doc_events/2025/Jun/2025-Investor-Day-Press-Release.pdf))",
+      "Negative modeled NWC (accounts payable/receivables dynamics) is maintained through the forecast to avoid overstating free-cash conversion. ([sec.gov](https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm))"
+    ],
+    "key_risks": [
+      "Customer contract or payer mix changes (and related working capital swings) that pressure revenue and cash generation versus the base case. ([sec.gov](https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm))",
+      "Margin compression from pricing pressure, tariffs/cost inflation, and unfavorable operating leverage. ([newsroom.cardinalhealth.com](https://newsroom.cardinalhealth.com/2026-02-05-Cardinal-Health-Reports-Second-Quarter-Fiscal-Year-2026-Results-and-Raises-Outlook))",
+      "Tax and legal/regulatory risks, including utilization and timing uncertainty of loss/credit carryforwards. ([sec.gov](https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm))"
+    ],
+    "sources": [
+      {
+        "label": "Cardinal Health Fiscal 2025 Form 10-K (SEC; fiscal year ended June 30, 2025)",
+        "notes": "Provides FY2023-2025 revenue, operating earnings (EBIT proxy), depreciation/amortization, capex (additions to property & equipment), diluted weighted-average shares, and FY2024-2025 balance sheet (cash, current liabilities, debt components). ([sec.gov](https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm))",
+        "url": null
+      },
+      {
+        "label": "Cardinal Health Fiscal 2024 Form 10-K (SEC; fiscal year ended June 30, 2024)",
+        "notes": "Provides balance sheet line items for FY2024 and FY2023 needed to compute NWC (current assets/liabilities excluding cash and current short-term debt). ([sec.gov](https://www.sec.gov/Archives/edgar/data/721371/000072137124000056/cah-20240630.htm))",
+        "url": null
+      },
+      {
+        "label": "Cardinal Health Q2 FY2026 Earnings Press Release (Feb 5, 2026)",
+        "notes": "Provides Q2 FY26 performance and FY26 guidance raise context used in the current_context section. ([newsroom.cardinalhealth.com](https://newsroom.cardinalhealth.com/2026-02-05-Cardinal-Health-Reports-Second-Quarter-Fiscal-Year-2026-Results-and-Raises-Outlook))",
+        "url": null
+      },
+      {
+        "label": "Cardinal Health Investor Day 2025 Press Release (Jun 12, 2025) - FY26 preliminary guidance",
+        "notes": "Provides FY26 preliminary guidance inputs, including capex guidance (~$600M) and segment growth ranges used as qualitative support for revenue growth staging. ([s201.q4cdn.com](https://s201.q4cdn.com/566741227/files/doc_events/2025/Jun/2025-Investor-Day-Press-Release.pdf))",
+        "url": null
+      }
+    ],
+    "subtitle": "CAH DCF Input Package (Fiscal Years 2026-2030 Forecast; FY2023-2025 History)",
+    "valuation_summary": [
+      "DCF anchors to audited GAAP operating earnings and uses a conservative WACC (0.085) and terminal growth (0.02). ([sec.gov](https://www.sec.gov/Archives/edgar/data/721371/000072137125000079/cah-20250630.htm))",
+      "Terminal value uses an EBITDA exit-multiple framework (exit_multiple) with a moderate terminal multiple assumption to reflect durable but competitive healthcare distribution cash flows.",
+      "Comps peer set is provided, but EV/NTM Revenue, EV/NTM EBITDA, and P/E NTM multiples are left null pending consistent non-paywalled NTM inputs."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.0095,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 8.5,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.088
+      },
+      "description": "Modestly lower growth and margin with a lower terminal exit multiple (execution/mix/competitive pressure).",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.00235,
+          "2027": 0.00235,
+          "2028": 0.00235,
+          "2029": 0.00235,
+          "2030": 0.00235
+        },
+        "da_pct_sales": {
+          "2026": 0.00335,
+          "2027": 0.00335,
+          "2028": 0.00335,
+          "2029": 0.00335,
+          "2030": 0.00335
+        },
+        "ebit_margin": {
+          "2026": 0.0093,
+          "2027": 0.0094,
+          "2028": 0.0095,
+          "2029": 0.0096,
+          "2030": 0.0096
+        },
+        "nwc_pct_sales": {
+          "2026": -0.023,
+          "2027": -0.023,
+          "2028": -0.023,
+          "2029": -0.023,
+          "2030": -0.023
+        },
+        "revenue_growth": {
+          "2026": 0.045,
+          "2027": 0.025,
+          "2028": 0.02,
+          "2029": 0.017,
+          "2030": 0.015
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.0105,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 9.5,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.083
+      },
+      "description": "Modestly higher growth and margin with a higher terminal exit multiple (more favorable execution/market environment).",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.00235,
+          "2027": 0.00235,
+          "2028": 0.00235,
+          "2029": 0.00235,
+          "2030": 0.00235
+        },
+        "da_pct_sales": {
+          "2026": 0.00335,
+          "2027": 0.00335,
+          "2028": 0.00335,
+          "2029": 0.00335,
+          "2030": 0.00335
+        },
+        "ebit_margin": {
+          "2026": 0.0103,
+          "2027": 0.0104,
+          "2028": 0.0105,
+          "2029": 0.0106,
+          "2030": 0.0106
+        },
+        "nwc_pct_sales": {
+          "2026": -0.023,
+          "2027": -0.023,
+          "2028": -0.023,
+          "2029": -0.023,
+          "2030": -0.023
+        },
+        "revenue_growth": {
+          "2026": 0.055,
+          "2027": 0.035,
+          "2028": 0.03,
+          "2029": 0.027,
+          "2030": 0.025
+        }
+      }
+    }
+  },
+  "ticker": "CAH"
+}

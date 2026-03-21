@@ -1,0 +1,687 @@
+{
+  "_meta": {
+    "cost_usd": 0.026965,
+    "generated_at": "2026-03-21T17:20:12Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12863,
+      "prompt": 2514,
+      "reasoning": 8307
+    }
+  },
+  "_valuation": {
+    "company_name": "Nucor Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 158.58,
+        "description": "Base case",
+        "enterprise_value": 30601320931.593586,
+        "equity_value": 24991320931.593586,
+        "exit_multiple_terminal_value": 48676777577.87645,
+        "gordon_terminal_value": 26574966927.57392,
+        "implied_market_cap": 24991320931.593586,
+        "investments_adjustment": 0.0,
+        "net_debt": 4422000000.0,
+        "per_share_value": 108.18753650040513,
+        "projected_years": [
+          {
+            "capex": 2500738240.0,
+            "cash_taxes": 459296268.0,
+            "da": 1520719200.0,
+            "delta_nwc": 133001600.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2872469600.0,
+            "ebit_margin": 0.085,
+            "ebitda": 4393188800.0,
+            "fcff": 1300152692.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 632000000.0,
+            "nwc": 5407001600.0,
+            "present_value_fcff": 1198297411.981567,
+            "revenue": 33793760000.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 2680183105.6,
+            "cash_taxes": 642199718.16,
+            "da": 1566340776.0,
+            "delta_nwc": 162210048.0,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 3132681552.0,
+            "ebit_margin": 0.09,
+            "ebitda": 4699022328.0,
+            "fcff": 1214429456.2400002,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5569211648.0,
+            "present_value_fcff": 1031603522.0454886,
+            "revenue": 34807572800.0,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 2796440398.752,
+            "cash_taxes": 698213804.6883999,
+            "da": 1613330999.28,
+            "delta_nwc": 95372749.47200012,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 3405920998.48,
+            "ebit_margin": 0.095,
+            "ebitda": 5019251997.76,
+            "fcff": 1429225044.8476,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5664584397.472,
+            "present_value_fcff": 1118951862.0912085,
+            "revenue": 35851799984.0,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 2852369206.72704,
+            "cash_taxes": 734667914.9121312,
+            "da": 1645597619.2656,
+            "delta_nwc": 113291687.94944,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 3583745926.40064,
+            "ebit_margin": 0.098,
+            "ebitda": 5229343545.66624,
+            "fcff": 1529014736.0776286,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5777876085.42144,
+            "present_value_fcff": 1103297713.8203685,
+            "revenue": 36568835983.68,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 2872116378.158227,
+            "cash_taxes": 764654360.4187487,
+            "da": 1678509571.6509118,
+            "delta_nwc": 78257309.00507545,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 3730021270.33536,
+            "ebit_margin": 0.1,
+            "ebitda": 5408530841.986272,
+            "fcff": 1693502794.4042206,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5856133394.426516,
+            "present_value_fcff": 1126256282.7447045,
+            "revenue": 37300212703.3536,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "average",
+        "terminal_value": 37625872252.72519,
+        "terminal_value_present_value": 25022914138.910248,
+        "upside_downside_pct": -0.3177731334316741
+      },
+      "bear": {
+        "current_price": 158.58,
+        "description": "Modestly weaker cycle: slower growth and lower margin normalization; slightly higher WACC and terminal growth reduced.",
+        "enterprise_value": 27706180306.885033,
+        "equity_value": 22096180306.885033,
+        "exit_multiple_terminal_value": 45423176686.74878,
+        "gordon_terminal_value": 23159846467.547527,
+        "implied_market_cap": 22096180306.885033,
+        "investments_adjustment": 0.0,
+        "net_debt": 4422000000.0,
+        "per_share_value": 95.65446020296551,
+        "projected_years": [
+          {
+            "capex": 2443223860.0,
+            "cash_taxes": 419328648.0,
+            "da": 1506096900.0,
+            "delta_nwc": 147948840.0,
+            "discount_factor": 0.9191176470588235,
+            "ebit": 2677505600.0,
+            "ebit_margin": 0.08,
+            "ebitda": 4183602500.0,
+            "fcff": 1173101152.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 632000000.0,
+            "nwc": 5421948840.0,
+            "present_value_fcff": 1078217970.5882351,
+            "revenue": 33468820000.0,
+            "revenue_growth": 0.03,
+            "year": 2026
+          },
+          {
+            "capex": 2560364730.0,
+            "cash_taxes": 594858072.27,
+            "da": 1536218838.0,
+            "delta_nwc": 108438976.80000019,
+            "discount_factor": 0.844777249134948,
+            "ebit": 2901746694.0,
+            "ebit_margin": 0.085,
+            "ebitda": 4437965532.0,
+            "fcff": 1174303752.9299998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5530387816.8,
+            "present_value_fcff": 992025094.0490509,
+            "revenue": 34138196400.0,
+            "revenue_growth": 0.02,
+            "year": 2027
+          },
+          {
+            "capex": 2646392984.928,
+            "cash_taxes": 642446718.0516,
+            "da": 1566943214.76,
+            "delta_nwc": 40965835.680000305,
+            "discount_factor": 0.776449677513739,
+            "ebit": 3133886429.52,
+            "ebit_margin": 0.09,
+            "ebitda": 4700829644.28,
+            "fcff": 1371024105.6204,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5571353652.4800005,
+            "present_value_fcff": 1064531224.672522,
+            "revenue": 34820960328.0,
+            "revenue_growth": 0.02,
+            "year": 2028
+          },
+          {
+            "capex": 2699320844.6265597,
+            "cash_taxes": 677138840.8263863,
+            "da": 1598282079.0551999,
+            "delta_nwc": 75909693.51503944,
+            "discount_factor": 0.71364860065601,
+            "ebit": 3303116296.71408,
+            "ebit_margin": 0.093,
+            "ebitda": 4901398375.7692795,
+            "fcff": 1449028996.8012938,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5647263345.99504,
+            "present_value_fcff": 1034097515.8772253,
+            "revenue": 35517379534.56,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 2703760517.0683794,
+            "cash_taxes": 702076480.9320892,
+            "da": 1622256310.2410276,
+            "delta_nwc": 48658809.96234608,
+            "discount_factor": 0.6559270226617738,
+            "ebit": 3424763321.6199474,
+            "ebit_margin": 0.095,
+            "ebitda": 5047019631.860975,
+            "fcff": 1592523823.89816,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5695922155.957386,
+            "present_value_fcff": 1044579410.3274632,
+            "revenue": 36050140227.57839,
+            "revenue_growth": 0.015,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "average",
+        "terminal_value": 34291511577.148155,
+        "terminal_value_present_value": 22492729091.370537,
+        "upside_downside_pct": -0.3968062794616881
+      },
+      "bull": {
+        "current_price": 158.58,
+        "description": "Modestly stronger steel cycle: slightly higher growth and margin expansion; slightly lower WACC and terminal growth.",
+        "enterprise_value": 34284844042.911324,
+        "equity_value": 28674844042.911324,
+        "exit_multiple_terminal_value": 51836325006.86641,
+        "gordon_terminal_value": 31665807723.70163,
+        "implied_market_cap": 28674844042.911324,
+        "investments_adjustment": 0.0,
+        "net_debt": 4422000000.0,
+        "per_share_value": 124.13352399528712,
+        "projected_years": [
+          {
+            "capex": 2524783800.0,
+            "cash_taxes": 499930015.0,
+            "da": 1535341500.0,
+            "delta_nwc": 116754600.0,
+            "discount_factor": 0.9242144177449167,
+            "ebit": 3070683000.0,
+            "ebit_margin": 0.09,
+            "ebitda": 4606024500.0,
+            "fcff": 1464556085.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 632000000.0,
+            "nwc": 5390754600.0,
+            "present_value_fcff": 1353563849.3530498,
+            "revenue": 34118700000.0,
+            "revenue_growth": 0.05,
+            "year": 2026
+          },
+          {
+            "capex": 2732225496.0,
+            "cash_taxes": 691040149.8,
+            "da": 1596755160.0,
+            "delta_nwc": 215630184.0,
+            "discount_factor": 0.8541722899675755,
+            "ebit": 3370927560.0,
+            "ebit_margin": 0.095,
+            "ebitda": 4967682720.0,
+            "fcff": 1328786890.1999998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5606384784.0,
+            "present_value_fcff": 1135012940.8810272,
+            "revenue": 35483448000.0,
+            "revenue_growth": 0.04,
+            "year": 2027
+          },
+          {
+            "capex": 2850740212.32,
+            "cash_taxes": 734248344.4296,
+            "da": 1644657814.8,
+            "delta_nwc": 95095640.64000034,
+            "discount_factor": 0.789438345626225,
+            "ebit": 3581699241.1200004,
+            "ebit_margin": 0.098,
+            "ebitda": 5226357055.92,
+            "fcff": 1546272858.5303998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5701480424.64,
+            "present_value_fcff": 1220687087.3249726,
+            "revenue": 36547951440.0,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 2973906808.6728005,
+            "cash_taxes": 787144194.548712,
+            "da": 1693997549.2440002,
+            "delta_nwc": 171044412.7392006,
+            "discount_factor": 0.7296103009484519,
+            "ebit": 3839727778.2864003,
+            "ebit_margin": 0.102,
+            "ebitda": 5533725327.5304,
+            "fcff": 1601629911.5696874,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5872524837.379201,
+            "present_value_fcff": 1168565681.788402,
+            "revenue": 37644389983.200005,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 2994987667.0633926,
+            "cash_taxes": 826501404.2761476,
+            "da": 1727877500.2288802,
+            "delta_nwc": 79053218.96471977,
+            "discount_factor": 0.6743163594717669,
+            "ebit": 4031714167.2007203,
+            "ebit_margin": 0.105,
+            "ebitda": 5759591667.429601,
+            "fcff": 1859049377.1253405,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 5951578056.343921,
+            "present_value_fcff": 1253587408.0614154,
+            "revenue": 38397277782.864006,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "average",
+        "terminal_value": 41751066365.28402,
+        "terminal_value_present_value": 28153427075.502457,
+        "upside_downside_pct": -0.21721828732950488
+      }
+    },
+    "ticker": "NUE"
+  },
+  "assumptions": {
+    "cash": 2699000000.0,
+    "current_price": 158.58,
+    "debt": 7121000000.0,
+    "diluted_shares": 231000000.0,
+    "investments": 0.0,
+    "minority_interest": 1188000000.0,
+    "net_debt_override": null,
+    "nol_balance": 632000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.1,
+    "tax_rate": 0.205,
+    "terminal_exit_ebitda_multiple": 9.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "average",
+    "wacc": 0.085
+  },
+  "company_name": "Nucor Corporation",
+  "comps": [
+    {
+      "company_name": "Steel Dynamics, Inc.",
+      "ev_ntm_ebitda": 13.5,
+      "ev_ntm_revenue": 1.51,
+      "notes": "Used StockAnalysis EV / Sales and EV / EBITDA as an NTM proxy; EV / Sales and EV / EBITDA are not explicitly labeled NTM. ([stockanalysis.com](https://stockanalysis.com/stocks/stld/statistics/))",
+      "pe_ntm": 12.03,
+      "source": "StockAnalysis.com (valuation ratios)",
+      "ticker": "STLD"
+    },
+    {
+      "company_name": "Commercial Metals Company",
+      "ev_ntm_ebitda": 9.97,
+      "ev_ntm_revenue": 1.12,
+      "notes": "Used StockAnalysis EV / Sales and EV / EBITDA as an NTM proxy; EV / Sales and EV / EBITDA are not explicitly labeled NTM. ([stockanalysis.com](https://stockanalysis.com/stocks/cmc/statistics/))",
+      "pe_ntm": 8.13,
+      "source": "StockAnalysis.com (valuation ratios)",
+      "ticker": "CMC"
+    },
+    {
+      "company_name": "ArcelorMittal",
+      "ev_ntm_ebitda": 10.73,
+      "ev_ntm_revenue": 0.76,
+      "notes": "Used StockAnalysis EV / Sales and EV / EBITDA as an NTM proxy; EV / Sales and EV / EBITDA are not explicitly labeled NTM. ([stockanalysis.com](https://stockanalysis.com/stocks/mt/statistics/))",
+      "pe_ntm": 9.85,
+      "source": "StockAnalysis.com (valuation ratios)",
+      "ticker": "MT"
+    },
+    {
+      "company_name": "Gerdau",
+      "ev_ntm_ebitda": 5.12,
+      "ev_ntm_revenue": 0.64,
+      "notes": "Used StockAnalysis EV / Sales and EV / EBITDA as an NTM proxy; EV / Sales and EV / EBITDA are not explicitly labeled NTM. ([stockanalysis.com](https://stockanalysis.com/stocks/ggb/statistics/))",
+      "pe_ntm": 7.27,
+      "source": "StockAnalysis.com (valuation ratios)",
+      "ticker": "GGB"
+    },
+    {
+      "company_name": "Cleveland-Cliffs Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": 0.66,
+      "notes": "StockAnalysis shows EV / Sales but EV / EBITDA and forward PE were n/a in the fetched page. ([stockanalysis.com](https://stockanalysis.com/stocks/clf/statistics/))",
+      "pe_ntm": null,
+      "source": "StockAnalysis.com (valuation ratios)",
+      "ticker": "CLF"
+    },
+    {
+      "company_name": "United States Steel Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "StockAnalysis statistics page returned n/a for EV / Sales, EV / EBITDA, and forward PE in the fetched page. ([stockanalysis.com](https://stockanalysis.com/stocks/x/statistics/))",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "X"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.074,
+      "2027": 0.077,
+      "2028": 0.078,
+      "2029": 0.078,
+      "2030": 0.077
+    },
+    "da_pct_sales": {
+      "2026": 0.045,
+      "2027": 0.045,
+      "2028": 0.045,
+      "2029": 0.045,
+      "2030": 0.045
+    },
+    "ebit_margin": {
+      "2026": 0.085,
+      "2027": 0.09,
+      "2028": 0.095,
+      "2029": 0.098,
+      "2030": 0.1
+    },
+    "nwc_pct_sales": {
+      "2026": 0.16,
+      "2027": 0.16,
+      "2028": 0.158,
+      "2029": 0.158,
+      "2030": 0.157
+    },
+    "revenue_growth": {
+      "2026": 0.04,
+      "2027": 0.03,
+      "2028": 0.03,
+      "2029": 0.02,
+      "2030": 0.02
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 2214000000.0,
+      "2024": 3173000000.0,
+      "2025": 3422000000.0
+    },
+    "da": {
+      "2023": 1169000000.0,
+      "2024": 1356000000.0,
+      "2025": 1480000000.0
+    },
+    "ebit": {
+      "2023": 6243000000.0,
+      "2024": 2872000000.0,
+      "2025": 2627000000.0
+    },
+    "nwc": {
+      "2023": 4854000000.0,
+      "2024": 4626000000.0,
+      "2025": 5274000000.0
+    },
+    "revenue": {
+      "2023": 34714000000.0,
+      "2024": 30734000000.0,
+      "2025": 32494000000.0
+    }
+  },
+  "notes": [
+    "Historical financials are from Nucor\u2019s 2025 Form 10-K (covering 2023\u20132025): revenue = Net sales; EBIT is constructed as (Earnings before income taxes and noncontrolling interests) + (interest expense (income), net) using the sign convention shown in the statement. ([s202.q4cdn.com](https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf))",
+    "D&A is constructed as (Depreciation + Amortization) from the consolidated statements of cash flows; capex is taken as (Capital expenditures) from the consolidated cash flow statement (absolute values). ([s202.q4cdn.com](https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf))",
+    "NWC is calculated at each fiscal year-end using a working-capital approximation from balance sheet line items: (Accounts receivable + Inventories + Other current assets) - (Accounts payable + Salaries/wages accruals + Accrued expenses/other current liabilities), excluding cash/short-term investments and excluding short-term debt/current portion of long-term debt. ([s202.q4cdn.com](https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf))",
+    "2026 capex assumption is anchored to Nucor\u2019s stated estimate that capital expenditures for 2026 are approximately $2.50 billion; the model converts this into capex_pct_sales. ([s202.q4cdn.com](https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf))",
+    "Base-case forecast drivers (growth, margins, DA%, capex%, NWC%) are modeled assumptions intended for DCF QA chaining; they are not company-issued multi-year guidance.",
+    "Comps multiples: EV/Sales and EV/EBITDA are taken from StockAnalysis valuation ratios and treated as NTM proxies due to data-label limitations in the fetched pages; where forward PE or EV/EBITDA was n/a, the fields are set to null. ([stockanalysis.com](https://stockanalysis.com/stocks/stld/statistics/))",
+    "NOLs: nol_balance uses state + foreign NOL carryforwards disclosed in the 10-K; nol_utilization_pct was not disclosed in a usable form, so it is set to null. ([s202.q4cdn.com](https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf))",
+    "Assumptions: WACC, terminal growth, terminal exit EBITDA multiple, and terminal method are DCF-model inputs and not directly disclosed by the company; they are sober base-case choices for valuation sensitivity."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Sustained improvement (or deterioration) in realized steel pricing and product spreads as demand/backlogs evolve through 2026.",
+      "Capacity expansion execution and utilization ramps (and any associated impairment risk) as new/expanded facilities contribute to earnings power.",
+      "Industry and policy dynamics (import pressure, trade policy, and domestic construction activity) that can shift margins faster than volumes."
+    ],
+    "company_overview": [
+      "Nucor manufactures steel and steel products and also produces/procures ferrous and non-ferrous materials used in its steel manufacturing business. ([s202.q4cdn.com](https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf))",
+      "Operates three segments: steel mills, steel products, and raw materials; most operations and customers are located in North America. ([s202.q4cdn.com](https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf))",
+      "Uses scrap steel as its primary raw material in electric arc furnace (\u201cEAF\u201d) steelmaking; in 2025 recycled ~20 million gross tons of scrap steel. ([s202.q4cdn.com](https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf))"
+    ],
+    "current_context": [
+      "Q4 2025: net sales of $7.69 billion and net earnings attributable to Nucor stockholders of $378 million (diluted EPS $1.64). ([investors.nucor.com](https://investors.nucor.com/news/news-details/2026/Nucor-Reports-Results-for-the-Fourth-Quarter-of-2025/default.aspx))",
+      "Full-year 2025: net sales of $32.49 billion and net earnings attributable to Nucor stockholders of $1.74 billion (diluted EPS $7.52). ([s202.q4cdn.com](https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf))",
+      "Balance sheet strength: cash and cash equivalents plus short-term investments of $2.70 billion at end of Q4 2025. ([investors.nucor.com](https://investors.nucor.com/news/news-details/2026/Nucor-Reports-Results-for-the-Fourth-Quarter-of-2025/default.aspx))",
+      "2026 outlook framing: management highlighted robust end-market demand and expects higher earnings beginning in early 2026. ([investors.nucor.com](https://investors.nucor.com/news/news-details/2026/Nucor-Reports-Results-for-the-Fourth-Quarter-of-2025/default.aspx))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue trajectory assumes modest steel-cycle growth from 2025 levels, with gradual normalization rather than mean-reversion to extreme peaks. (Base-case assumption; not company-guaranteed.)",
+      "Base-case EBIT margin rises toward a mid-cycle target as utilization and realized pricing stabilize; this is consistent with Nucor\u2019s historically cyclical earnings power. ([s202.q4cdn.com](https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf))",
+      "Capital intensity steps down versus 2025: 2026 capex is guided/estimated at approximately $2.50 billion, informing capex as a % of sales in the model. ([s202.q4cdn.com](https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf))",
+      "Working-capital intensity is kept roughly stable (NWC as a % of sales), reflecting an industrial cash conversion that varies less than pricing/volume over short horizons. ([s202.q4cdn.com](https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf))"
+    ],
+    "key_risks": [
+      "Steel price and cost volatility (scrap, natural gas/electricity, and iron ore) compressing margins versus the base-case path. ([s202.q4cdn.com](https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf))",
+      "Downcycle demand leading to lower utilization and weaker operating leverage than assumed. ([s202.q4cdn.com](https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf))",
+      "Execution/asset risks, including potential impairments or delays that affect the margin and capex trajectory assumed in the DCF."
+    ],
+    "sources": [
+      {
+        "label": "Nucor 2025 Form 10-K (annual report PDF)",
+        "notes": "Provides consolidated statements (net sales, interest expense/income, depreciation, amortization, capital expenditures) and balance sheet line items used for NWC. ([s202.q4cdn.com](https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf))",
+        "url": "https://s202.q4cdn.com/531038915/files/doc_financials/2025/ar/a1091887-5d3b-4cc2-b1c5-7623695cc1b5.pdf"
+      },
+      {
+        "label": "Nucor Q4 and Full-Year 2025 results (press release)",
+        "notes": "Used for Q4 2025 highlights, cash & short-term investments, and qualitative 2026 outlook framing. ([investors.nucor.com](https://investors.nucor.com/news/news-details/2026/Nucor-Reports-Results-for-the-Fourth-Quarter-of-2025/default.aspx))",
+        "url": "https://investors.nucor.com/news/news-details/2026/Nucor-Reports-Results-for-the-Fourth-Quarter-of-2025/default.aspx"
+      },
+      {
+        "label": "Nucor annual reports landing page",
+        "notes": "Used only to locate the official annual report PDFs for 2023\u20132025. ([investors.nucor.com](https://investors.nucor.com/financials/annual-reports/default.aspx))",
+        "url": "https://investors.nucor.com/financials/annual-reports/default.aspx"
+      },
+      {
+        "label": "StockAnalysis: STLD statistics (EV/Sales, EV/EBITDA, forward P/E)",
+        "notes": "Comp multiples reference point; EV/Sales and EV/EBITDA treated as NTM proxies due to missing explicit NTM labels. ([stockanalysis.com](https://stockanalysis.com/stocks/stld/statistics/))",
+        "url": "https://stockanalysis.com/stocks/stld/statistics/"
+      },
+      {
+        "label": "StockAnalysis: CMC statistics (EV/Sales, EV/EBITDA, forward P/E)",
+        "notes": "Comp multiples reference point; EV/Sales and EV/EBITDA treated as NTM proxies due to missing explicit NTM labels. ([stockanalysis.com](https://stockanalysis.com/stocks/cmc/statistics/))",
+        "url": "https://stockanalysis.com/stocks/cmc/statistics/"
+      },
+      {
+        "label": "StockAnalysis: MT & GGB & CLF statistics (forward P/E and EV multiples where available)",
+        "notes": "Comp multiples reference point; EV/Sales and EV/EBITDA treated as NTM proxies due to missing explicit NTM labels; CLF EV/EBITDA and forward PE shown as n/a on the fetched page. ([stockanalysis.com](https://stockanalysis.com/stocks/mt/statistics/))",
+        "url": "https://stockanalysis.com/stocks/mt/statistics/ , https://stockanalysis.com/stocks/ggb/statistics/ , https://stockanalysis.com/stocks/clf/statistics/"
+      }
+    ],
+    "subtitle": "Nucor (NUE) \u2014 DCF Input Package (2026\u20132030) with Comps Context",
+    "valuation_summary": [
+      "DCF base case uses EBIT margins that interpolate between 2024/2025 performance and a normalized target, with a terminal growth rate consistent with long-run macro assumptions. (Base-case assumption.)",
+      "Terminal value anchors on an economically sensible exit EBITDA multiple consistent with large-cap steel peers, applied under an average terminal method. (Assumption.)",
+      "Peer comps provide a directional check on EV/earnings and forward P/E levels; where NTM inputs are unavailable, the closest available valuation ratio proxy is used. ([stockanalysis.com](https://stockanalysis.com/stocks/stld/statistics/))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 158.58,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.095,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 9.0,
+        "terminal_growth": 0.018,
+        "terminal_method": "average",
+        "wacc": 0.088
+      },
+      "description": "Modestly weaker cycle: slower growth and lower margin normalization; slightly higher WACC and terminal growth reduced.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.073,
+          "2027": 0.075,
+          "2028": 0.076,
+          "2029": 0.076,
+          "2030": 0.075
+        },
+        "da_pct_sales": {
+          "2026": 0.045,
+          "2027": 0.045,
+          "2028": 0.045,
+          "2029": 0.045,
+          "2030": 0.045
+        },
+        "ebit_margin": {
+          "2026": 0.08,
+          "2027": 0.085,
+          "2028": 0.09,
+          "2029": 0.093,
+          "2030": 0.095
+        },
+        "nwc_pct_sales": {
+          "2026": 0.162,
+          "2027": 0.162,
+          "2028": 0.16,
+          "2029": 0.159,
+          "2030": 0.158
+        },
+        "revenue_growth": {
+          "2026": 0.03,
+          "2027": 0.02,
+          "2028": 0.02,
+          "2029": 0.02,
+          "2030": 0.015
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 158.58,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.105,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 9.0,
+        "terminal_growth": 0.022,
+        "terminal_method": "average",
+        "wacc": 0.082
+      },
+      "description": "Modestly stronger steel cycle: slightly higher growth and margin expansion; slightly lower WACC and terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.074,
+          "2027": 0.077,
+          "2028": 0.078,
+          "2029": 0.079,
+          "2030": 0.078
+        },
+        "da_pct_sales": {
+          "2026": 0.045,
+          "2027": 0.045,
+          "2028": 0.045,
+          "2029": 0.045,
+          "2030": 0.045
+        },
+        "ebit_margin": {
+          "2026": 0.09,
+          "2027": 0.095,
+          "2028": 0.098,
+          "2029": 0.102,
+          "2030": 0.105
+        },
+        "nwc_pct_sales": {
+          "2026": 0.158,
+          "2027": 0.158,
+          "2028": 0.156,
+          "2029": 0.156,
+          "2030": 0.155
+        },
+        "revenue_growth": {
+          "2026": 0.05,
+          "2027": 0.04,
+          "2028": 0.03,
+          "2029": 0.03,
+          "2030": 0.02
+        }
+      }
+    }
+  },
+  "ticker": "NUE"
+}

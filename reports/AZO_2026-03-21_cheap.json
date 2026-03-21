@@ -1,0 +1,687 @@
+{
+  "_meta": {
+    "cost_usd": 0.023382,
+    "generated_at": "2026-03-21T17:32:34Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [
+      "internal_inconsistency"
+    ],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11214,
+      "prompt": 2514,
+      "reasoning": 7089
+    }
+  },
+  "_valuation": {
+    "company_name": "AutoZone, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 3282.9,
+        "description": "Base case",
+        "enterprise_value": 38929748230.098785,
+        "equity_value": 30525916230.098785,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 43488449512.39567,
+        "implied_market_cap": 30525916230.098785,
+        "investments_adjustment": 124140000.0,
+        "net_debt": 8527972000.0,
+        "per_share_value": 1770.1314137488423,
+        "projected_years": [
+          {
+            "capex": 1339346066.24,
+            "cash_taxes": 707438705.1352,
+            "da": 649976767.44,
+            "delta_nwc": -224361582.8000002,
+            "discount_factor": 0.9157509157509157,
+            "ebit": 3840771807.6,
+            "ebit_margin": 0.195,
+            "ebitda": 4490748575.04,
+            "fcff": 2668325386.4648,
+            "nol_balance_end": 0.0,
+            "nol_used": 338600000.0,
+            "nwc": -1674182582.8000002,
+            "present_value_fcff": 2443521416.1765566,
+            "revenue": 19696265680.0,
+            "revenue_growth": 0.04,
+            "year": 2026
+          },
+          {
+            "capex": 1304680638.6432,
+            "cash_taxes": 811225958.3463672,
+            "da": 682918771.7898,
+            "delta_nwc": -78982025.37679958,
+            "discount_factor": 0.8385997396986407,
+            "ebit": 4015970090.8236,
+            "ebit_margin": 0.197,
+            "ebitda": 4698888862.6133995,
+            "fcff": 2661964291.0006323,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1753164608.1767998,
+            "present_value_fcff": 2232322561.520207,
+            "revenue": 20385634978.8,
+            "revenue_growth": 0.035,
+            "year": 2027
+          },
+          {
+            "capex": 1259832241.68984,
+            "cash_taxes": 839804172.3104475,
+            "da": 713904936.9575762,
+            "delta_nwc": -73592142.27346826,
+            "discount_factor": 0.7679484795775097,
+            "ebit": 4157446397.5764723,
+            "ebit_margin": 0.198,
+            "ebitda": 4871351334.534048,
+            "fcff": 2845307062.807229,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1826756750.450268,
+            "present_value_fcff": 2185049232.8139615,
+            "revenue": 20997204028.164,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 1251937292.9752505,
+            "cash_taxes": 863318689.1351401,
+            "da": 733894275.1923883,
+            "delta_nwc": -72734314.7535603,
+            "discount_factor": 0.7032495234226279,
+            "ebit": 4273854896.708614,
+            "ebit_margin": 0.198,
+            "ebitda": 5007749171.901002,
+            "fcff": 2965227504.5441723,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1899491065.2038283,
+            "present_value_fcff": 2085294829.4103575,
+            "revenue": 21585125740.952595,
+            "revenue_growth": 0.028,
+            "year": 2029
+          },
+          {
+            "capex": 1261110971.4151552,
+            "cash_taxes": 889370856.6481827,
+            "da": 747816681.2953025,
+            "delta_nwc": -69612030.51457167,
+            "discount_factor": 0.6440013950756664,
+            "ebit": 4402826023.010805,
+            "ebit_margin": 0.199,
+            "ebitda": 5150642704.3061075,
+            "fcff": 3069772906.757341,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1969103095.7184,
+            "present_value_fcff": 1976938034.5172112,
+            "revenue": 22124753884.476406,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 43488449512.39567,
+        "terminal_value_present_value": 28006622155.660496,
+        "upside_downside_pct": -0.4608025179722678
+      },
+      "bear": {
+        "current_price": 3282.9,
+        "description": "Modestly weaker growth and EBIT margin compression; slightly higher WACC.",
+        "enterprise_value": 34872801234.74159,
+        "equity_value": 26468969234.741592,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 38892590678.09844,
+        "implied_market_cap": 26468969234.741592,
+        "investments_adjustment": 124140000.0,
+        "net_debt": 8527972000.0,
+        "per_share_value": 1534.8778912578482,
+        "projected_years": [
+          {
+            "capex": 1334194735.216,
+            "cash_taxes": 692564691.3326081,
+            "da": 647476856.796,
+            "delta_nwc": -217922419.02000022,
+            "discount_factor": 0.9115770282588879,
+            "ebit": 3767138075.9040003,
+            "ebit_margin": 0.192,
+            "ebitda": 4414614932.700001,
+            "fcff": 2605777925.1713924,
+            "nol_balance_end": 0.0,
+            "nol_used": 338600000.0,
+            "nwc": -1667743419.0200002,
+            "present_value_fcff": 2375367297.3303485,
+            "revenue": 19620510812.0,
+            "revenue_growth": 0.036,
+            "year": 2026
+          },
+          {
+            "capex": 1293384072.72704,
+            "cash_taxes": 787872991.552131,
+            "da": 677005725.56806,
+            "delta_nwc": -70241428.70695972,
+            "discount_factor": 0.8309726784493053,
+            "ebit": 3900361344.31748,
+            "ebit_margin": 0.193,
+            "ebitda": 4577367069.88554,
+            "fcff": 2566351434.3133287,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1737984847.72696,
+            "present_value_fcff": 2132567925.2135632,
+            "revenue": 20209126136.36,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 1244073804.9543216,
+            "cash_taxes": 812546071.1424994,
+            "da": 704975156.1407824,
+            "delta_nwc": -65922169.45680642,
+            "discount_factor": 0.7574956047851461,
+            "ebit": 4022505302.6856403,
+            "ebit_margin": 0.194,
+            "ebitda": 4727480458.826423,
+            "fcff": 2736782752.186408,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1803907017.1837664,
+            "present_value_fcff": 2073100906.0329998,
+            "revenue": 20734563415.90536,
+            "revenue_growth": 0.026,
+            "year": 2028
+          },
+          {
+            "capex": 1231467190.3974512,
+            "cash_taxes": 832047176.8499193,
+            "da": 721894559.8881611,
+            "delta_nwc": -64525961.35029745,
+            "discount_factor": 0.6905155923292126,
+            "ebit": 4119045429.950095,
+            "ebit_margin": 0.194,
+            "ebitda": 4840939989.838256,
+            "fcff": 2841951583.9411836,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1868432978.5340638,
+            "present_value_fcff": 1962411881.3560903,
+            "revenue": 21232192937.88709,
+            "revenue_growth": 0.024,
+            "year": 2029
+          },
+          {
+            "capex": 1236860167.4036746,
+            "cash_taxes": 854735473.5794867,
+            "da": 733436379.9691964,
+            "delta_nwc": -62804826.71027017,
+            "discount_factor": 0.6294581516218893,
+            "ebit": 4231363730.5915184,
+            "ebit_margin": 0.195,
+            "ebitda": 4964800110.560715,
+            "fcff": 2936009296.2878237,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1931237805.244334,
+            "present_value_fcff": 1848094984.7860174,
+            "revenue": 21699301182.520607,
+            "revenue_growth": 0.022,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 38892590678.09844,
+        "terminal_value_present_value": 24481258240.022568,
+        "upside_downside_pct": -0.5324627947065557
+      },
+      "bull": {
+        "current_price": 3282.9,
+        "description": "Modestly higher top-line growth and EBIT margin recovery; slightly lower WACC.",
+        "enterprise_value": 42754021254.78312,
+        "equity_value": 34350189254.78312,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 47840016918.93325,
+        "implied_market_cap": 34350189254.78312,
+        "investments_adjustment": 124140000.0,
+        "net_debt": 8527972000.0,
+        "per_share_value": 1991.8926793147648,
+        "projected_years": [
+          {
+            "capex": 1345785230.02,
+            "cash_taxes": 723162006.76294,
+            "da": 653101655.745,
+            "delta_nwc": -232410537.5250001,
+            "discount_factor": 0.9191176470588235,
+            "ebit": 3918609934.4700003,
+            "ebit_margin": 0.198,
+            "ebitda": 4571711590.215,
+            "fcff": 2735174890.9570603,
+            "nol_balance_end": 0.0,
+            "nol_used": 338600000.0,
+            "nwc": -1682231537.525,
+            "present_value_fcff": 2513947510.0708275,
+            "revenue": 19790959265.0,
+            "revenue_growth": 0.045,
+            "year": 2026
+          },
+          {
+            "capex": 1317286248.6784003,
+            "cash_taxes": 827379259.755849,
+            "da": 689517020.7926002,
+            "delta_nwc": -87871859.13660002,
+            "discount_factor": 0.844777249134948,
+            "ebit": 4095936929.4844007,
+            "ebit_margin": 0.199,
+            "ebitda": 4785453950.277,
+            "fcff": 2728660300.9793515,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1770103396.6616,
+            "present_value_fcff": 2305110142.885076,
+            "revenue": 20582597635.600002,
+            "revenue_growth": 0.04,
+            "year": 2027
+          },
+          {
+            "capex": 1276944357.3126242,
+            "cash_taxes": 859809200.5905004,
+            "da": 723601802.4771538,
+            "delta_nwc": -81465921.44170475,
+            "discount_factor": 0.776449677513739,
+            "ebit": 4256481191.042081,
+            "ebit_margin": 0.2,
+            "ebitda": 4980082993.519235,
+            "fcff": 2924795357.0578146,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1851569318.1033049,
+            "present_value_fcff": 2270956411.781221,
+            "revenue": 21282405955.210403,
+            "revenue_growth": 0.034,
+            "year": 2028
+          },
+          {
+            "capex": 1272645311.3096716,
+            "cash_taxes": 890895602.2378498,
+            "da": 746033458.3539454,
+            "delta_nwc": -79340809.4010241,
+            "discount_factor": 0.71364860065601,
+            "ebit": 4410374268.504207,
+            "ebit_margin": 0.201,
+            "ebitda": 5156407726.858152,
+            "fcff": 3072207622.7116547,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -1930910127.504329,
+            "present_value_fcff": 2192476670.8728995,
+            "revenue": 21942160539.821922,
+            "revenue_growth": 0.031,
+            "year": 2029
+          },
+          {
+            "capex": 1285722838.9914052,
+            "cash_taxes": 920397100.3895669,
+            "da": 762411086.9808683,
+            "delta_nwc": -76622024.6050582,
+            "discount_factor": 0.6559270226617738,
+            "ebit": 4556421289.057261,
+            "ebit_margin": 0.202,
+            "ebitda": 5318832376.03813,
+            "fcff": 3189334461.262216,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -2007532152.1093872,
+            "present_value_fcff": 2091970657.4483178,
+            "revenue": 22556541034.936935,
+            "revenue_growth": 0.028,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 47840016918.93325,
+        "terminal_value_present_value": 31379559861.724773,
+        "upside_downside_pct": -0.39325210048592263
+      }
+    },
+    "ticker": "AZO"
+  },
+  "assumptions": {
+    "cash": 271803000.0,
+    "current_price": 3282.9,
+    "debt": 8799775000.0,
+    "diluted_shares": 17245000.0,
+    "investments": 124140000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 338600000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.199,
+    "tax_rate": 0.202,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.092
+  },
+  "company_name": "AutoZone, Inc.",
+  "comps": [
+    {
+      "company_name": "O'Reilly Automotive, Inc.",
+      "ev_ntm_ebitda": 20.5,
+      "ev_ntm_revenue": 4.58,
+      "notes": "EV / Sales and EV / EBITDA are provided by the source but are not explicitly labeled NTM. Used as proxy; Forward PE is labeled Forward on the source. ([stockanalysis.com](https://stockanalysis.com/stocks/orly/statistics/))",
+      "pe_ntm": 27.08,
+      "source": "StockAnalysis.com statistics page",
+      "ticker": "ORLY"
+    },
+    {
+      "company_name": "Advance Auto Parts, Inc.",
+      "ev_ntm_ebitda": 11.38,
+      "ev_ntm_revenue": 0.63,
+      "notes": "EV / Sales and EV / EBITDA are provided by the source but are not explicitly labeled NTM. Used as proxy; Forward PE is labeled Forward on the source. ([stockanalysis.com](https://stockanalysis.com/stocks/aap/statistics/))",
+      "pe_ntm": 17.58,
+      "source": "StockAnalysis.com statistics page",
+      "ticker": "AAP"
+    },
+    {
+      "company_name": "Genuine Parts Company",
+      "ev_ntm_ebitda": 9.79,
+      "ev_ntm_revenue": 0.81,
+      "notes": "EV / Sales and EV / EBITDA are provided by the source but are not explicitly labeled NTM. Used as proxy; Forward PE is labeled Forward on the source. ([stockanalysis.com](https://stockanalysis.com/stocks/gpc/statistics/))",
+      "pe_ntm": 12.46,
+      "source": "StockAnalysis.com statistics page",
+      "ticker": "GPC"
+    },
+    {
+      "company_name": "LKQ Corporation",
+      "ev_ntm_ebitda": 7.99,
+      "ev_ntm_revenue": 0.88,
+      "notes": "EV / Sales and EV / EBITDA are provided by the source but are not explicitly labeled NTM. Used as proxy; Forward PE is labeled Forward on the source. ([stockanalysis.com](https://stockanalysis.com/stocks/lkq/statistics/))",
+      "pe_ntm": 9.3,
+      "source": "StockAnalysis.com statistics page",
+      "ticker": "LKQ"
+    },
+    {
+      "company_name": "Dorman Products, Inc.",
+      "ev_ntm_ebitda": 8.71,
+      "ev_ntm_revenue": 1.69,
+      "notes": "EV / Sales and EV / EBITDA are provided by the source but are not explicitly labeled NTM. Used as proxy; Forward PE is labeled Forward on the source. ([stockanalysis.com](https://stockanalysis.com/stocks/dorm/statistics/))",
+      "pe_ntm": 12.31,
+      "source": "StockAnalysis.com statistics page",
+      "ticker": "DORM"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.068,
+      "2027": 0.064,
+      "2028": 0.06,
+      "2029": 0.058,
+      "2030": 0.057
+    },
+    "da_pct_sales": {
+      "2026": 0.033,
+      "2027": 0.0335,
+      "2028": 0.034,
+      "2029": 0.034,
+      "2030": 0.0338
+    },
+    "ebit_margin": {
+      "2026": 0.195,
+      "2027": 0.197,
+      "2028": 0.198,
+      "2029": 0.198,
+      "2030": 0.199
+    },
+    "nwc_pct_sales": {
+      "2026": -0.085,
+      "2027": -0.086,
+      "2028": -0.087,
+      "2029": -0.088,
+      "2030": -0.089
+    },
+    "revenue_growth": {
+      "2026": 0.04,
+      "2027": 0.035,
+      "2028": 0.03,
+      "2029": 0.028,
+      "2030": 0.025
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 796657000.0,
+      "2024": 1072696000.0,
+      "2025": 1327257000.0
+    },
+    "da": {
+      "2023": 497577000.0,
+      "2024": 549755000.0,
+      "2025": 613199000.0
+    },
+    "ebit": {
+      "2023": 3473986000.0,
+      "2024": 3788708000.0,
+      "2025": 3610156000.0
+    },
+    "nwc": {
+      "2023": -2009484000.0,
+      "2024": -1705656000.0,
+      "2025": -1449821000.0
+    },
+    "revenue": {
+      "2023": 17457209000.0,
+      "2024": 18490268000.0,
+      "2025": 18938717000.0
+    }
+  },
+  "notes": [
+    "EBIT is modeled as operating profit (\"Operating profit\") from AutoZone\u2019s Consolidated Statements of Income. ([sec.gov](https://www.sec.gov/Archives/edgar/data/866787/000110465925102611/azo-20250830x10k.htm))",
+    "D&A uses the cash flow line \"Depreciation and amortization of property and equipment\" (used as a practical D&A proxy). ([sec.gov](https://www.sec.gov/Archives/edgar/data/866787/000110465925102611/azo-20250830x10k.htm))",
+    "Capex is modeled as cash flow line \"Capital expenditures\" using absolute values. ([sec.gov](https://www.sec.gov/Archives/edgar/data/866787/000110465925102611/azo-20250830x10k.htm))",
+    "NWC is computed as (Total current assets \u2212 cash and cash equivalents \u2212 Total current liabilities), which can differ from other NWC constructions that treat taxes, operating leases, or short-term debt differently.",
+    "WACC is an assumption (not disclosed in the sources reviewed); base WACC set to 0.092 and adjusted in bull/bear.",
+    "Comps EV/Sales and EV/EBITDA are taken from StockAnalysis and may not be explicitly labeled NTM; they are used as proxies for EV/NTM inputs. ([stockanalysis.com](https://stockanalysis.com/stocks/orly/statistics/))",
+    "NOL utilization percent is assumed (0.80) because the filing provides NOL balance/carryforward characteristics but not an explicit utilization schedule for valuation modeling. ([sec.gov](https://www.sec.gov/Archives/edgar/data/866787/000110465925102611/azo-20250830x10k.htm))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Margin volatility drivers (especially LIFO-related charges) abating or re-emerging, impacting EBIT in the near-to-medium term.",
+      "Sustained delivery of international expansion and domestic store openings (progress toward ~350\u2013360 openings in FY2026). ([globenewswire.com](https://www.globenewswire.com/news-release/2026/03/03/3248165/0/en/AutoZone-2nd-Quarter-Total-Company-Same-Store-Sales-Increase-3-3-Domestic-Same-Store-Sales-Increase-3-4-EPS-of-27-63.html))",
+      "Inventory and working-capital normalization (or further stretch) affecting cash flow and deleveraging dynamics.",
+      "Update/trajectory of capital return (repurchase pace and authorization usage) as operating cash flows evolve."
+    ],
+    "company_overview": [
+      "AutoZone is a leading retailer and distributor of automotive replacement parts and accessories in the Americas.",
+      "Store model supports extensive DIY and commercial customer programs, including commercial credit and prompt parts delivery.",
+      "International expansion (Mexico and Brazil) remains a key growth lever alongside domestic store openings."
+    ],
+    "current_context": [
+      "FY2026 Q2 (12 weeks ended Feb 14, 2026): net sales of $4.274B (+8.1% YoY) and operating profit (EBIT) of $698.5M (-1.2% YoY). ([globenewswire.com](https://www.globenewswire.com/news-release/2026/03/03/3248165/0/en/AutoZone-2nd-Quarter-Total-Company-Same-Store-Sales-Increase-3-3-Domestic-Same-Store-Sales-Increase-3-4-EPS-of-27-63.html))",
+      "Gross margin declined due to a non-cash LIFO charge; management highlighted continued investment to support growth initiatives and disciplined capital allocation. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/03/03/3248165/0/en/AutoZone-2nd-Quarter-Total-Company-Same-Store-Sales-Increase-3-3-Domestic-Same-Store-Sales-Increase-3-4-EPS-of-27-63.html))",
+      "Inventory increased +13.1% YoY; net inventory (inventory less AP) remained negative, but improved versus prior year and quarter. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/03/03/3248165/0/en/AutoZone-2nd-Quarter-Total-Company-Same-Store-Sales-Increase-3-3-Domestic-Same-Store-Sales-Increase-3-4-EPS-of-27-63.html))",
+      "Store expansion: 64 net new stores in Q2 FY2026; FY2026 store openings targeted at ~350\u2013360. ([globenewswire.com](https://www.globenewswire.com/news-release/2026/03/03/3248165/0/en/AutoZone-2nd-Quarter-Total-Company-Same-Store-Sales-Increase-3-3-Domestic-Same-Store-Sales-Increase-3-4-EPS-of-27-63.html))"
+    ],
+    "investment_highlights": [
+      "Base case assumes mid-single-digit revenue growth from continued store expansion plus steady same-store sales, with growth gradually tapering to long-run levels by 2030.",
+      "EBIT margin recovers toward a steady-state level as operating deleverage from investments and LIFO-related impacts normalizes.",
+      "Capital intensity (capex as a % of sales) moderates after the growth initiative ramp, supporting steadier D&A and cash generation over the forecast horizon.",
+      "Net working capital remains structurally negative (retailer model with high accounts payable vs inventory), but is assumed to stabilize/improve slightly as operations scale.",
+      "Terminal value is anchored to a conservative Gordon-growth framework with 2% terminal growth."
+    ],
+    "key_risks": [
+      "Adverse gross margin pressure from competitive pricing, input-cost moves, or continued non-cash LIFO effects.",
+      "Weaker DIY/commercial demand driven by macro conditions, vehicle parc aging, or repair intensity declines.",
+      "International risks: currency translation and local execution variability (Mexico/Brazil) affecting consolidated results.",
+      "Execution risk in distribution/store expansion causing higher-than-expected operating costs or under-absorption."
+    ],
+    "sources": [
+      {
+        "label": "AutoZone FY2025 Form 10-K (fiscal year ended Aug 30, 2025)",
+        "notes": "Primary source for net sales, operating profit (EBIT), cash and cash equivalents, marketable debt securities fair value, capex, depreciation and amortization, and NOL carryforwards. ([sec.gov](https://www.sec.gov/Archives/edgar/data/866787/000110465925102611/azo-20250830x10k.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/866787/000110465925102611/azo-20250830x10k.htm"
+      },
+      {
+        "label": "AutoZone FY2026 Q2 earnings release (March 3, 2026)",
+        "notes": "Most recent operating update used for current_context bullets (net sales, EBIT, margin commentary, inventory, and store expansion). ([globenewswire.com](https://www.globenewswire.com/news-release/2026/03/03/3248165/0/en/AutoZone-2nd-Quarter-Total-Company-Same-Store-Sales-Increase-3-3-Domestic-Same-Store-Sales-Increase-3-4-EPS-of-27-63.html))",
+        "url": "https://www.globenewswire.com/news-release/2026/03/03/3248165/0/en/AutoZone-2nd-Quarter-Total-Company-Same-Store-Sales-Increase-3-3-Domestic-Same-Store-Sales-Increase-3-4-EPS-of-27-63.html"
+      },
+      {
+        "label": "StockAnalysis peer multiples: ORLY (EV/Sales, EV/EBITDA, Forward PE)",
+        "notes": "Used for EV/NTM proxy multiples and forward P/E. ([stockanalysis.com](https://stockanalysis.com/stocks/orly/statistics/))",
+        "url": "https://stockanalysis.com/stocks/orly/statistics/"
+      },
+      {
+        "label": "StockAnalysis peer multiples: AAP (EV/Sales, EV/EBITDA, Forward PE)",
+        "notes": "Used for EV/NTM proxy multiples and forward P/E. ([stockanalysis.com](https://stockanalysis.com/stocks/aap/statistics/))",
+        "url": "https://stockanalysis.com/stocks/aap/statistics/"
+      },
+      {
+        "label": "StockAnalysis peer multiples: GPC (EV/Sales, EV/EBITDA, Forward PE)",
+        "notes": "Used for EV/NTM proxy multiples and forward P/E. ([stockanalysis.com](https://stockanalysis.com/stocks/gpc/statistics/))",
+        "url": "https://stockanalysis.com/stocks/gpc/statistics/"
+      },
+      {
+        "label": "StockAnalysis peer multiples: LKQ (EV/Sales, EV/EBITDA, Forward PE)",
+        "notes": "Used for EV/NTM proxy multiples and forward P/E. ([stockanalysis.com](https://stockanalysis.com/stocks/lkq/statistics/))",
+        "url": "https://stockanalysis.com/stocks/lkq/statistics/"
+      },
+      {
+        "label": "StockAnalysis peer multiples: DORM (EV/Sales, EV/EBITDA, Forward PE)",
+        "notes": "Used for EV/NTM proxy multiples and forward P/E. ([stockanalysis.com](https://stockanalysis.com/stocks/dorm/statistics/))",
+        "url": "https://stockanalysis.com/stocks/dorm/statistics/"
+      }
+    ],
+    "subtitle": "AutoZone (AZO) \u2014 DCF input package (FY25 base year)",
+    "valuation_summary": [
+      "DCF base case links revenue growth and EBIT margin trajectories to recent operating performance and management\u2019s store expansion cadence.",
+      "Terminal assumptions (2% growth, Gordon method) are economically consistent for a mature specialty retailer/distributor business.",
+      "Comps provide cross-checks using EV/Sales, EV/EBITDA, and forward P/E multiples versus a set of aftermarket/auto parts peers."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 3282.9,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.195,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.097
+      },
+      "description": "Modestly weaker growth and EBIT margin compression; slightly higher WACC.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.068,
+          "2027": 0.064,
+          "2028": 0.06,
+          "2029": 0.058,
+          "2030": 0.057
+        },
+        "da_pct_sales": {
+          "2026": 0.033,
+          "2027": 0.0335,
+          "2028": 0.034,
+          "2029": 0.034,
+          "2030": 0.0338
+        },
+        "ebit_margin": {
+          "2026": 0.192,
+          "2027": 0.193,
+          "2028": 0.194,
+          "2029": 0.194,
+          "2030": 0.195
+        },
+        "nwc_pct_sales": {
+          "2026": -0.085,
+          "2027": -0.086,
+          "2028": -0.087,
+          "2029": -0.088,
+          "2030": -0.089
+        },
+        "revenue_growth": {
+          "2026": 0.036,
+          "2027": 0.03,
+          "2028": 0.026,
+          "2029": 0.024,
+          "2030": 0.022
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 3282.9,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.202,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.088
+      },
+      "description": "Modestly higher top-line growth and EBIT margin recovery; slightly lower WACC.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.068,
+          "2027": 0.064,
+          "2028": 0.06,
+          "2029": 0.058,
+          "2030": 0.057
+        },
+        "da_pct_sales": {
+          "2026": 0.033,
+          "2027": 0.0335,
+          "2028": 0.034,
+          "2029": 0.034,
+          "2030": 0.0338
+        },
+        "ebit_margin": {
+          "2026": 0.198,
+          "2027": 0.199,
+          "2028": 0.2,
+          "2029": 0.201,
+          "2030": 0.202
+        },
+        "nwc_pct_sales": {
+          "2026": -0.085,
+          "2027": -0.086,
+          "2028": -0.087,
+          "2029": -0.088,
+          "2030": -0.089
+        },
+        "revenue_growth": {
+          "2026": 0.045,
+          "2027": 0.04,
+          "2028": 0.034,
+          "2029": 0.031,
+          "2030": 0.028
+        }
+      }
+    }
+  },
+  "ticker": "AZO"
+}

@@ -1,0 +1,705 @@
+{
+  "_meta": {
+    "cost_usd": 0.026806,
+    "generated_at": "2026-03-21T17:14:55Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12776,
+      "prompt": 2515,
+      "reasoning": 8266
+    }
+  },
+  "_valuation": {
+    "company_name": "Charter Communications, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 213.01,
+        "description": "Base case",
+        "enterprise_value": 135388795881.6023,
+        "equity_value": 36644795881.602295,
+        "exit_multiple_terminal_value": 132609732766.81572,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 36644795881.602295,
+        "investments_adjustment": 0.0,
+        "net_debt": 94279000000.0,
+        "per_share_value": 266.03614006643977,
+        "projected_years": [
+          {
+            "capex": 11405384617.5,
+            "cash_taxes": 2950861570.5195003,
+            "da": 8739547731.0,
+            "delta_nwc": -407786.5,
+            "discount_factor": 0.95047999239616,
+            "ebit": 12999390178.5,
+            "ebit_margin": 0.2365,
+            "ebitda": 21738937909.5,
+            "fcff": 7383099507.980499,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8162407786.5,
+            "present_value_fcff": 7017488364.205398,
+            "revenue": 54965709000.0,
+            "revenue_growth": 0.0035,
+            "year": 2026
+          },
+          {
+            "capex": 11384470165.225498,
+            "cash_taxes": 2972228802.821887,
+            "da": 8765766374.192999,
+            "delta_nwc": 3078079.7040014267,
+            "discount_factor": 0.9034122159454043,
+            "ebit": 13093518955.162498,
+            "ebit_margin": 0.2375,
+            "ebitda": 21859285329.3555,
+            "fcff": 7499508281.604108,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8159329706.795999,
+            "present_value_fcff": 6775147395.184878,
+            "revenue": 55130606126.99999,
+            "revenue_growth": 0.003,
+            "year": 2027
+          },
+          {
+            "capex": 11385297124.317402,
+            "cash_taxes": 2992205309.038748,
+            "da": 8787680790.12848,
+            "delta_nwc": 7235892.054169655,
+            "discount_factor": 0.8586752361423862,
+            "ebit": 13181521185.19272,
+            "ebit_margin": 0.2385,
+            "ebitda": 21969201975.3212,
+            "fcff": 7584463649.910884,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8152093814.741829,
+            "present_value_fcff": 6512591115.600573,
+            "revenue": 55268432642.31749,
+            "revenue_growth": 0.0025,
+            "year": 2028
+          },
+          {
+            "capex": 11380378233.812237,
+            "cash_taxes": 3004475232.695938,
+            "da": 8805256151.708738,
+            "delta_nwc": 11385297.12431717,
+            "discount_factor": 0.816153631919386,
+            "ebit": 13235573712.316908,
+            "ebit_margin": 0.239,
+            "ebitda": 22040829864.025646,
+            "fcff": 7644591100.393154,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8140708517.617512,
+            "present_value_fcff": 6239160791.124488,
+            "revenue": 55378969507.60213,
+            "revenue_growth": 0.002,
+            "year": 2029
+          },
+          {
+            "capex": 11369717782.182024,
+            "cash_taxes": 3015276886.853654,
+            "da": 8818464035.936302,
+            "delta_nwc": 15519956.204504967,
+            "discount_factor": 0.7757376978608365,
+            "ebit": 13283158091.866316,
+            "ebit_margin": 0.2395,
+            "ebitda": 22101622127.80262,
+            "fcff": 7701107502.562434,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8125188561.413007,
+            "present_value_fcff": 5974039405.016599,
+            "revenue": 55462037961.86353,
+            "revenue_growth": 0.0015,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 132609732766.81572,
+        "terminal_value_present_value": 102870368810.47035,
+        "upside_downside_pct": 0.2489373271979709
+      },
+      "bear": {
+        "current_price": 213.01,
+        "description": "Modestly weaker growth and EBIT margin vs base case; slightly lower terminal multiple and growth; higher discount rate.",
+        "enterprise_value": 126774005191.47606,
+        "equity_value": 28030005191.47606,
+        "exit_multiple_terminal_value": 124408492571.78012,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 28030005191.47606,
+        "investments_adjustment": 0.0,
+        "net_debt": 94279000000.0,
+        "per_share_value": 203.49395344637136,
+        "projected_years": [
+          {
+            "capex": 11394019012.5,
+            "cash_taxes": 2910526654.2075,
+            "da": 8730838665.0,
+            "delta_nwc": 7726152.5,
+            "discount_factor": 0.9478672985781991,
+            "ebit": 12821703322.5,
+            "ebit_margin": 0.2335,
+            "ebitda": 21552541987.5,
+            "fcff": 7240270168.2925,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8154273847.5,
+            "present_value_fcff": 6862815325.395734,
+            "revenue": 54910935000.0,
+            "revenue_growth": 0.0025,
+            "year": 2026
+          },
+          {
+            "capex": 11361786293.654999,
+            "cash_taxes": 2928837419.325405,
+            "da": 8748300342.33,
+            "delta_nwc": 11201830.740000725,
+            "discount_factor": 0.8984524157139329,
+            "ebit": 12902367486.015,
+            "ebit_margin": 0.2345,
+            "ebitda": 21650667828.345,
+            "fcff": 7348842284.624593,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8143072016.759999,
+            "present_value_fcff": 6602585103.321663,
+            "revenue": 55020756870.0,
+            "revenue_growth": 0.002,
+            "year": 2027
+          },
+          {
+            "capex": 11351277329.092829,
+            "cash_taxes": 2945739121.8315973,
+            "da": 8761422792.843494,
+            "delta_nwc": 15337035.97751236,
+            "discount_factor": 0.8516136641838227,
+            "ebit": 12976824325.249327,
+            "ebit_margin": 0.2355,
+            "ebitda": 21738247118.09282,
+            "fcff": 7425893631.190882,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8127734980.782487,
+            "present_value_fcff": 6323992485.097779,
+            "revenue": 55103288005.305,
+            "revenue_growth": 0.0015,
+            "year": 2028
+          },
+          {
+            "capex": 11335049410.775267,
+            "cash_taxes": 2954945338.3652196,
+            "da": 8770184215.63634,
+            "delta_nwc": 19451460.665872574,
+            "discount_factor": 0.8072167433022016,
+            "ebit": 13017380345.221231,
+            "ebit_margin": 0.236,
+            "ebitda": 21787564560.85757,
+            "fcff": 7478118351.051212,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8108283520.116614,
+            "present_value_fcff": 6036462341.36399,
+            "revenue": 55158391293.3103,
+            "revenue_growth": 0.001,
+            "year": 2029
+          },
+          {
+            "capex": 11313123950.236176,
+            "cash_taxes": 2962686418.6848984,
+            "da": 8774569307.744156,
+            "delta_nwc": 23538843.484420776,
+            "discount_factor": 0.7651343538409494,
+            "ebit": 13051482020.638319,
+            "ebit_margin": 0.2365,
+            "ebitda": 21826051328.382477,
+            "fcff": 7526702115.976982,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8084744676.632194,
+            "present_value_fcff": 5758938360.061355,
+            "revenue": 55185970488.956955,
+            "revenue_growth": 0.0005,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 124408492571.78012,
+        "terminal_value_present_value": 95189211576.23553,
+        "upside_downside_pct": -0.04467417752043856
+      },
+      "bull": {
+        "current_price": 213.01,
+        "description": "Modestly stronger top-line and EBIT margin expansion vs base case; slightly higher terminal multiple and growth.",
+        "enterprise_value": 143630865244.57532,
+        "equity_value": 44886865244.57532,
+        "exit_multiple_terminal_value": 141059721554.3729,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 44886865244.57532,
+        "investments_adjustment": 0.0,
+        "net_debt": 94279000000.0,
+        "per_share_value": 325.8724215010446,
+        "projected_years": [
+          {
+            "capex": 11422433024.999998,
+            "cash_taxes": 2992760024.3549995,
+            "da": 8752611329.999998,
+            "delta_nwc": -12608694.999998093,
+            "discount_factor": 0.9519276534983341,
+            "ebit": 13183964864.999998,
+            "ebit_margin": 0.2395,
+            "ebitda": 21936576194.999996,
+            "fcff": 7533991840.644997,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8174608694.999998,
+            "present_value_fcff": 7171815174.340787,
+            "revenue": 55047869999.99999,
+            "revenue_growth": 0.005,
+            "year": 2026
+          },
+          {
+            "capex": 11412854695.619997,
+            "cash_taxes": 3017276914.4083796,
+            "da": 8787621775.32,
+            "delta_nwc": -5064404.039999962,
+            "discount_factor": 0.9061662574948445,
+            "ebit": 13291968785.939999,
+            "ebit_margin": 0.2405,
+            "ebitda": 22079590561.26,
+            "fcff": 7654523355.271623,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8179673099.039998,
+            "present_value_fcff": 6936270781.753366,
+            "revenue": 55268061479.99999,
+            "revenue_growth": 0.004,
+            "year": 2027
+          },
+          {
+            "capex": 11425068937.207077,
+            "cash_taxes": 3040427144.0396147,
+            "da": 8818378451.533619,
+            "delta_nwc": -898105.9990501404,
+            "discount_factor": 0.8626047191764346,
+            "ebit": 13393952176.385967,
+            "ebit_margin": 0.2415,
+            "ebitda": 22212330627.919586,
+            "fcff": 7747732652.671944,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8180571205.039048,
+            "present_value_fcff": 6683230749.112174,
+            "revenue": 55461499695.17999,
+            "revenue_growth": 0.0035,
+            "year": 2028
+          },
+          {
+            "capex": 11431530201.921564,
+            "cash_taxes": 3055862190.327782,
+            "da": 8844833586.888218,
+            "delta_nwc": 3272228.4820165634,
+            "discount_factor": 0.8211372862222128,
+            "ebit": 13461947975.012257,
+            "ebit_margin": 0.242,
+            "ebitda": 22306781561.900475,
+            "fcff": 7816116941.169112,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8177298976.557032,
+            "present_value_fcff": 6418105053.867068,
+            "revenue": 55627884194.265526,
+            "revenue_growth": 0.003,
+            "year": 2029
+          },
+          {
+            "capex": 11432225550.473993,
+            "cash_taxes": 3069831395.071791,
+            "da": 8866945670.85544,
+            "delta_nwc": 7440229.510982513,
+            "discount_factor": 0.781663290073501,
+            "ebit": 13523486321.902163,
+            "ebit_margin": 0.2425,
+            "ebitda": 22390431992.757603,
+            "fcff": 7880934817.700838,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -8169858747.046049,
+            "present_value_fcff": 6160237438.458844,
+            "revenue": 55766953904.75119,
+            "revenue_growth": 0.0025,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 141059721554.3729,
+        "terminal_value_present_value": 110261206047.04306,
+        "upside_downside_pct": 0.5298456480965428
+      }
+    },
+    "ticker": "CHTR"
+  },
+  "assumptions": {
+    "cash": 477000000.0,
+    "current_price": 213.01,
+    "debt": 94756000000.0,
+    "diluted_shares": 137743676.0,
+    "investments": 0.0,
+    "minority_interest": 4465000000.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.2395,
+    "tax_rate": 0.227,
+    "terminal_exit_ebitda_multiple": 6.0,
+    "terminal_growth": 0.015,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.0521
+  },
+  "company_name": "Charter Communications, Inc.",
+  "comps": [
+    {
+      "company_name": "Comcast Corporation",
+      "ev_ntm_ebitda": 5.42,
+      "ev_ntm_revenue": 1.62,
+      "notes": "EV/Sales and EV/EBITDA are presented by StockAnalysis (not explicitly labeled as NTM on-page). ([stockanalysis.com](https://stockanalysis.com/stocks/cmcsa/statistics/))",
+      "pe_ntm": 7.9,
+      "source": "StockAnalysis statistics (multiples shown as EV / Sales and EV / EBITDA; forward P/E shown).",
+      "ticker": "CMCSA"
+    },
+    {
+      "company_name": "Optimum Communications, Inc. (formerly Altice USA)",
+      "ev_ntm_ebitda": 7.96,
+      "ev_ntm_revenue": 3.03,
+      "notes": "EV/Sales and EV/EBITDA are presented by StockAnalysis (not explicitly labeled as NTM on-page). ([stockanalysis.com](https://stockanalysis.com/stocks/atus/statistics/))",
+      "pe_ntm": 31.88,
+      "source": "StockAnalysis statistics (multiples shown as EV / Sales and EV / EBITDA; forward P/E shown).",
+      "ticker": "OPTU"
+    },
+    {
+      "company_name": "Frontier Communications Parent, Inc.",
+      "ev_ntm_ebitda": 9.49,
+      "ev_ntm_revenue": 3.49,
+      "notes": "Forward P/E not available on-page. EV/Sales and EV/EBITDA are presented by StockAnalysis (not explicitly labeled as NTM on-page). ([stockanalysis.com](https://stockanalysis.com/stocks/fybr/statistics/))",
+      "pe_ntm": null,
+      "source": "StockAnalysis statistics.",
+      "ticker": "FYBR"
+    },
+    {
+      "company_name": "Lumen Technologies, Inc.",
+      "ev_ntm_ebitda": 10.01,
+      "ev_ntm_revenue": 1.97,
+      "notes": "Forward P/E not available on-page. EV/Sales and EV/EBITDA are presented by StockAnalysis (not explicitly labeled as NTM on-page). ([stockanalysis.com](https://stockanalysis.com/stocks/lumn/statistics/))",
+      "pe_ntm": null,
+      "source": "StockAnalysis statistics.",
+      "ticker": "LUMN"
+    },
+    {
+      "company_name": "AT&T Inc.",
+      "ev_ntm_ebitda": 7.67,
+      "ev_ntm_revenue": 2.7,
+      "notes": "EV/Sales and EV/EBITDA are presented by StockAnalysis (not explicitly labeled as NTM on-page). ([stockanalysis.com](https://stockanalysis.com/stocks/t/statistics/))",
+      "pe_ntm": 12.3,
+      "source": "StockAnalysis statistics.",
+      "ticker": "T"
+    },
+    {
+      "company_name": "Verizon Communications Inc.",
+      "ev_ntm_ebitda": 7.53,
+      "ev_ntm_revenue": 2.72,
+      "notes": "EV/Sales and EV/EBITDA are presented by StockAnalysis (not explicitly labeled as NTM on-page). ([stockanalysis.com](https://stockanalysis.com/stocks/vz/statistics/))",
+      "pe_ntm": 10.17,
+      "source": "StockAnalysis statistics.",
+      "ticker": "VZ"
+    },
+    {
+      "company_name": "DISH Network Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "StockAnalysis page shows valuation ratios as unavailable (n/a), likely due to data/operating state. ([stockanalysis.com](https://stockanalysis.com/stocks/dish/statistics/))",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "DISH"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.2075,
+      "2027": 0.2065,
+      "2028": 0.206,
+      "2029": 0.2055,
+      "2030": 0.205
+    },
+    "da_pct_sales": {
+      "2026": 0.159,
+      "2027": 0.159,
+      "2028": 0.159,
+      "2029": 0.159,
+      "2030": 0.159
+    },
+    "ebit_margin": {
+      "2026": 0.2365,
+      "2027": 0.2375,
+      "2028": 0.2385,
+      "2029": 0.239,
+      "2030": 0.2395
+    },
+    "nwc_pct_sales": {
+      "2026": -0.1485,
+      "2027": -0.148,
+      "2028": -0.1475,
+      "2029": -0.147,
+      "2030": -0.1465
+    },
+    "revenue_growth": {
+      "2026": 0.0035,
+      "2027": 0.003,
+      "2028": 0.0025,
+      "2029": 0.002,
+      "2030": 0.0015
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 11115000000.0,
+      "2024": 11269000000.0,
+      "2025": 11659000000.0
+    },
+    "da": {
+      "2023": 8696000000.0,
+      "2024": 8673000000.0,
+      "2025": 8711000000.0
+    },
+    "ebit": {
+      "2023": 12559000000.0,
+      "2024": 13118000000.0,
+      "2025": 12908000000.0
+    },
+    "nwc": {
+      "2023": -9082000000.0,
+      "2024": -9253000000.0,
+      "2025": -8162000000.0
+    },
+    "revenue": {
+      "2023": 54607000000.0,
+      "2024": 55085000000.0,
+      "2025": 54774000000.0
+    }
+  },
+  "notes": [
+    "Definition choice: historical NWC is computed as Total current assets minus Total current liabilities from the company\u2019s consolidated balance sheets (this includes cash and is not explicitly debt-excluded). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001091667/000109166726000017/chtr-20251231.htm))",
+    "EBIT is taken as \u201cIncome from operations\u201d from Charter\u2019s consolidated statements of operations. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001091667/000109166726000017/chtr-20251231.htm))",
+    "Capex is taken as \u201cPurchases of property, plant and equipment\u201d from the consolidated statements of cash flows. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001091667/000109166726000017/chtr-20251231.htm))",
+    "WACC is sourced from StockAnalysis\u2019s company statistics and may differ from a fully re-estimated CAPM-based WACC. ([stockanalysis.com](https://stockanalysis.com/stocks/chtr/statistics/))",
+    "Comps multiples (EV/Sales and EV/EBITDA) come from StockAnalysis and are not explicitly labeled as NTM on the pages; they are used as the closest available proxy for EV/NTM revenue and EV/NTM EBITDA. ([stockanalysis.com](https://stockanalysis.com/stocks/cmcsa/statistics/))",
+    "NOL balance and NOL utilization percent are not provided as explicit balances/utilization rates in the portions reviewed; set to null. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001091667/000109166726000017/chtr-20251231.htm))",
+    "Investments (as a distinct bridge line item) are not isolated in the schema-required sense from the referenced tables; set to null pending a specific investment/equity-method line-item mapping."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Evidence of sustained customer/connectivity growth and steady operating leverage as the network evolution continues. ([corporate.charter.com](https://corporate.charter.com/newsroom/charter-announces-fourth-quarter-and-full-year-2025-results))",
+      "2026\u20132027 capex execution and any improvements in cash conversion/free cash flow versus guidance. ([corporate.charter.com](https://corporate.charter.com/newsroom/charter-announces-fourth-quarter-and-full-year-2025-results))",
+      "Capital allocation (buybacks/refinancings) that can change equity value even if enterprise value is range-bound."
+    ],
+    "company_overview": [
+      "Charter is a leading broadband connectivity company operating primarily under the Spectrum brand, delivering Internet plus mobile, TV, and voice services. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001091667/000109166726000017/chtr-20251231.htm))",
+      "2025 results showed modest revenue compression with stable profitability, reflecting a mature network and product mix. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001091667/000109166726000017/chtr-20251231.htm))",
+      "Capital intensity remains material: 2025 capex was $11.7B and the company guided 2026 capex to approximately $11.4B. ([corporate.charter.com](https://corporate.charter.com/newsroom/charter-announces-fourth-quarter-and-full-year-2025-results))"
+    ],
+    "current_context": [
+      "Full-year 2025 revenue was $54.8B (down 0.6% YoY) and full-year 2025 Adjusted EBITDA was $22.7B (up 0.6% YoY). ([corporate.charter.com](https://corporate.charter.com/newsroom/charter-announces-fourth-quarter-and-full-year-2025-results))",
+      "Full-year 2025 capex totaled $11.7B; full-year free cash flow was $5.0B (up from $4.3B in 2024). ([corporate.charter.com](https://corporate.charter.com/newsroom/charter-announces-fourth-quarter-and-full-year-2025-results))",
+      "Company expects 2026 capex of approximately $11.4B, dependent on network evolution pace and expansion initiatives. ([corporate.charter.com](https://corporate.charter.com/newsroom/charter-announces-fourth-quarter-and-full-year-2025-results))"
+    ],
+    "investment_highlights": [
+      "Base case assumes low-to-mid single-digit (actually sub-1%) annual revenue growth, consistent with 2023\u20132025 stability/near-flat performance. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001091667/000109166726000017/chtr-20251231.htm))",
+      "EBIT margin is held near the recent range (about 0.236 in 2025) with only gradual improvement into the terminal period. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001091667/000109166726000017/chtr-20251231.htm))",
+      "Depreciation and amortization and capex intensity are modeled using recent run-rate percentages of sales, with 2026 capex aligned to company guidance. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001091667/000109166726000017/chtr-20251231.htm))",
+      "Net working capital is negative as structured (current liabilities exceed current assets); the forecast maintains a similar negative NWC-to-sales profile. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001091667/000109166726000017/chtr-20251231.htm))"
+    ],
+    "key_risks": [
+      "Competitive and macro pressure could reduce revenue growth and compress margins below base-case assumptions. ([corporate.charter.com](https://corporate.charter.com/newsroom/charter-announces-fourth-quarter-and-full-year-2025-results))",
+      "Higher-than-modeled capex intensity or slower network evolution could reduce free cash flow durability. ([corporate.charter.com](https://corporate.charter.com/newsroom/charter-announces-fourth-quarter-and-full-year-2025-results))",
+      "Working capital volatility could make cash flows less resilient than the negative NWC-to-sales structure suggests. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001091667/000109166726000017/chtr-20251231.htm))",
+      "Leverage/credit conditions and interest expense sensitivity could raise effective discounting and reduce valuation support."
+    ],
+    "sources": [
+      {
+        "label": "Charter 2025 Form 10-K (SEC HTML)",
+        "notes": "Provides 2025/2024/2023 revenue, income from operations (EBIT), depreciation and amortization, purchases of PP&E, balance sheet cash/debt, and effective tax rate. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001091667/000109166726000017/chtr-20251231.htm))",
+        "url": "`https://www.sec.gov/Archives/edgar/data/1091667/000109166726000017/chtr-20251231.htm`"
+      },
+      {
+        "label": "Charter: 4Q & Full-Year 2025 Earnings Release",
+        "notes": "Provides full-year 2025 operating highlights and 2026 capex guidance (~$11.4B). ([corporate.charter.com](https://corporate.charter.com/newsroom/charter-announces-fourth-quarter-and-full-year-2025-results))",
+        "url": "`https://corporate.charter.com/newsroom/charter-announces-fourth-quarter-and-full-year-2025-results`"
+      },
+      {
+        "label": "StockAnalysis: CHTR Statistics (WACC, EV/EBITDA, forward P/E)",
+        "notes": "Used for WACC assumption and reference trading multiples. ([stockanalysis.com](https://stockanalysis.com/stocks/chtr/statistics/))",
+        "url": "`https://stockanalysis.com/stocks/chtr/statistics/`"
+      },
+      {
+        "label": "StockAnalysis: CMCSA Statistics (comps)",
+        "notes": "Peer EV/Sales, EV/EBITDA, and forward P/E inputs (as available on-page). ([stockanalysis.com](https://stockanalysis.com/stocks/cmcsa/statistics/))",
+        "url": "`https://stockanalysis.com/stocks/cmcsa/statistics/`"
+      },
+      {
+        "label": "StockAnalysis: OPTU Statistics (comps)",
+        "notes": "Peer EV/Sales, EV/EBITDA, and forward P/E inputs (as available on-page). ([stockanalysis.com](https://stockanalysis.com/stocks/atus/statistics/))",
+        "url": "`https://stockanalysis.com/stocks/optu/statistics/`"
+      },
+      {
+        "label": "StockAnalysis: FYBR Statistics (comps)",
+        "notes": "Peer EV/Sales and EV/EBITDA; forward P/E not available on-page. ([stockanalysis.com](https://stockanalysis.com/stocks/fybr/statistics/))",
+        "url": "`https://stockanalysis.com/stocks/fybr/statistics/`"
+      },
+      {
+        "label": "StockAnalysis: LUMN Statistics (comps)",
+        "notes": "Peer EV/Sales and EV/EBITDA; forward P/E not available on-page. ([stockanalysis.com](https://stockanalysis.com/stocks/lumn/statistics/))",
+        "url": "`https://stockanalysis.com/stocks/lumn/statistics/`"
+      },
+      {
+        "label": "StockAnalysis: VZ Statistics (comps)",
+        "notes": "Peer EV/Sales, EV/EBITDA, and forward P/E inputs (as available on-page). ([stockanalysis.com](https://stockanalysis.com/stocks/vz/statistics/))",
+        "url": "`https://stockanalysis.com/stocks/vz/statistics/`"
+      }
+    ],
+    "subtitle": "CHTR DCF Input Package (Base / Bull / Bear)",
+    "valuation_summary": [
+      "DCF base case uses effective tax rate from the latest 10-K and a discount rate (WACC) sourced from StockAnalysis\u2019s company statistics. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001091667/000109166726000017/chtr-20251231.htm))",
+      "Terminal value is based on an exit EV/EBITDA multiple (6.0x) designed to remain economically consistent with cable/broadband peer multiple ranges. ([stockanalysis.com](https://stockanalysis.com/stocks/chtr/statistics/))",
+      "Comps provide a sanity check using EV/Sales and EV/EBITDA plus forward P/E where available (not explicitly NTM-labeled on-page). ([stockanalysis.com](https://stockanalysis.com/stocks/cmcsa/statistics/))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 213.01,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.2365,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 5.7,
+        "terminal_growth": 0.013,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.055
+      },
+      "description": "Modestly weaker growth and EBIT margin vs base case; slightly lower terminal multiple and growth; higher discount rate.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.2075,
+          "2027": 0.2065,
+          "2028": 0.206,
+          "2029": 0.2055,
+          "2030": 0.205
+        },
+        "da_pct_sales": {
+          "2026": 0.159,
+          "2027": 0.159,
+          "2028": 0.159,
+          "2029": 0.159,
+          "2030": 0.159
+        },
+        "ebit_margin": {
+          "2026": 0.2335,
+          "2027": 0.2345,
+          "2028": 0.2355,
+          "2029": 0.236,
+          "2030": 0.2365
+        },
+        "nwc_pct_sales": {
+          "2026": -0.1485,
+          "2027": -0.148,
+          "2028": -0.1475,
+          "2029": -0.147,
+          "2030": -0.1465
+        },
+        "revenue_growth": {
+          "2026": 0.0025,
+          "2027": 0.002,
+          "2028": 0.0015,
+          "2029": 0.001,
+          "2030": 0.0005
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 213.01,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.2425,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 6.3,
+        "terminal_growth": 0.017,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.0505
+      },
+      "description": "Modestly stronger top-line and EBIT margin expansion vs base case; slightly higher terminal multiple and growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.2075,
+          "2027": 0.2065,
+          "2028": 0.206,
+          "2029": 0.2055,
+          "2030": 0.205
+        },
+        "da_pct_sales": {
+          "2026": 0.159,
+          "2027": 0.159,
+          "2028": 0.159,
+          "2029": 0.159,
+          "2030": 0.159
+        },
+        "ebit_margin": {
+          "2026": 0.2395,
+          "2027": 0.2405,
+          "2028": 0.2415,
+          "2029": 0.242,
+          "2030": 0.2425
+        },
+        "nwc_pct_sales": {
+          "2026": -0.1485,
+          "2027": -0.148,
+          "2028": -0.1475,
+          "2029": -0.147,
+          "2030": -0.1465
+        },
+        "revenue_growth": {
+          "2026": 0.005,
+          "2027": 0.004,
+          "2028": 0.0035,
+          "2029": 0.003,
+          "2030": 0.0025
+        }
+      }
+    }
+  },
+  "ticker": "CHTR"
+}

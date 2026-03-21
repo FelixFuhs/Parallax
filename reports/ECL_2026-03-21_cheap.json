@@ -1,0 +1,670 @@
+{
+  "_meta": {
+    "cost_usd": 0.024957,
+    "generated_at": "2026-03-21T17:34:05Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11406,
+      "prompt": 2514,
+      "reasoning": 8157
+    }
+  },
+  "_valuation": {
+    "company_name": "Ecolab Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 256.48,
+        "description": "Base case",
+        "enterprise_value": 35483017974.07097,
+        "equity_value": 28729217974.07097,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 39232560973.212585,
+        "implied_market_cap": 28729217974.07097,
+        "investments_adjustment": 0.0,
+        "net_debt": 6753800000.0,
+        "per_share_value": 94.87852699495036,
+        "projected_years": [
+          {
+            "capex": 1011563000.0,
+            "cash_taxes": 465153150.00000006,
+            "da": 1003271500.0,
+            "delta_nwc": 5244500.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2736195000.0,
+            "ebit_margin": 0.165,
+            "ebitda": 3739466500.0,
+            "fcff": 2257505850.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -140955500.0,
+            "present_value_fcff": 2080650552.9953916,
+            "revenue": 16583000000.0,
+            "revenue_growth": 0.03,
+            "year": 2026
+          },
+          {
+            "capex": 1033369645.0,
+            "cash_taxes": 482011427.8,
+            "da": 1033369645.0,
+            "delta_nwc": 4311580.0,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2835361340.0,
+            "ebit_margin": 0.166,
+            "ebitda": 3868730985.0,
+            "fcff": 2349038332.2,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -136643920.0,
+            "present_value_fcff": 1995403030.1768992,
+            "revenue": 17080490000.0,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 1050450135.0,
+            "cash_taxes": 491085438.1125,
+            "da": 1059203886.125,
+            "delta_nwc": 5337653.125,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2888737871.25,
+            "ebit_margin": 0.165,
+            "ebitda": 3947941757.375,
+            "fcff": 2401068531.1375,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -131306266.875,
+            "present_value_fcff": 1879815997.9147246,
+            "revenue": 17507502250.0,
+            "revenue_growth": 0.025,
+            "year": 2028
+          },
+          {
+            "capex": 1062530311.5525,
+            "cash_taxes": 500907146.8747501,
+            "da": 1080387963.8475,
+            "delta_nwc": 6302700.810000002,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2946512628.675,
+            "ebit_margin": 0.165,
+            "ebitda": 4026900592.5225,
+            "fcff": 2457160433.28525,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -125003566.065,
+            "present_value_fcff": 1773023780.9793384,
+            "revenue": 17857652295.0,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 1074673515.1131,
+            "cash_taxes": 507828772.9042921,
+            "da": 1101995723.12445,
+            "delta_nwc": 6607331.349149987,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2987228075.9076004,
+            "ebit_margin": 0.164,
+            "ebitda": 4089223799.03205,
+            "fcff": 2500114179.665508,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -118396234.71585001,
+            "present_value_fcff": 1662689492.8850691,
+            "revenue": 18214805340.9,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 39232560973.212585,
+        "terminal_value_present_value": 26091435119.119545,
+        "upside_downside_pct": -0.6300743644925517
+      },
+      "bear": {
+        "current_price": 256.48,
+        "description": "Modestly lower growth and margin pressure vs. base case.",
+        "enterprise_value": 32137909386.621765,
+        "equity_value": 25384109386.621765,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 35360976884.82688,
+        "implied_market_cap": 25384109386.621765,
+        "investments_adjustment": 0.0,
+        "net_debt": 6753800000.0,
+        "per_share_value": 83.83127274313661,
+        "projected_years": [
+          {
+            "capex": 993531000.0,
+            "cash_taxes": 432719700.00000006,
+            "da": 993531000.0,
+            "delta_nwc": -9809000.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2545410000.0,
+            "ebit_margin": 0.155,
+            "ebitda": 3538941000.0,
+            "fcff": 2122499300.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -156009000.0,
+            "present_value_fcff": 1956220552.9953916,
+            "revenue": 16422000000.0,
+            "revenue_growth": 0.02,
+            "year": 2026
+          },
+          {
+            "capex": 1005026400.0,
+            "cash_taxes": 444221668.8,
+            "da": 1013401620.0,
+            "delta_nwc": 5255040.0,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2613068640.0,
+            "ebit_margin": 0.156,
+            "ebitda": 3626470260.0,
+            "fcff": 2171967151.2,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -150753960.0,
+            "present_value_fcff": 1844988979.3370001,
+            "revenue": 16750440000.0,
+            "revenue_growth": 0.02,
+            "year": 2027
+          },
+          {
+            "capex": 1011600947.6999998,
+            "cash_taxes": 447994705.40999997,
+            "da": 1028602644.2999998,
+            "delta_nwc": 6239538.900000006,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2635262972.9999995,
+            "ebit_margin": 0.155,
+            "ebitda": 3663865617.299999,
+            "fcff": 2198030425.2899995,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -144514421.1,
+            "present_value_fcff": 1720855820.556681,
+            "revenue": 17001696599.999998,
+            "revenue_growth": 0.015,
+            "year": 2028
+          },
+          {
+            "capex": 1015137300.5927998,
+            "cash_taxes": 450445669.9918559,
+            "da": 1040945876.0315998,
+            "delta_nwc": 6868685.426400006,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2649680411.7167993,
+            "ebit_margin": 0.154,
+            "ebitda": 3690626287.748399,
+            "fcff": 2218174631.7373433,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -137645735.6736,
+            "present_value_fcff": 1600577772.2772045,
+            "revenue": 17205716959.199997,
+            "revenue_growth": 0.012,
+            "year": 2029
+          },
+          {
+            "capex": 1018612855.4185582,
+            "cash_taxes": 455851018.0317582,
+            "da": 1053437226.5439789,
+            "delta_nwc": 7054343.95327203,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2681476576.657401,
+            "ebit_margin": 0.154,
+            "ebitda": 3734913803.20138,
+            "fcff": 2253395585.7977915,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -130591391.72032796,
+            "present_value_fcff": 1498610421.1931858,
+            "revenue": 17412185562.710396,
+            "revenue_growth": 0.012,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 35360976884.82688,
+        "terminal_value_present_value": 23516655840.262302,
+        "upside_downside_pct": -0.6731469403339965
+      },
+      "bull": {
+        "current_price": 256.48,
+        "description": "Modestly higher organic growth and margin expansion vs. base case.",
+        "enterprise_value": 37348104273.9008,
+        "equity_value": 30594304273.900803,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 41325000260.159584,
+        "implied_market_cap": 30594304273.900803,
+        "investments_adjustment": 0.0,
+        "net_debt": 6753800000.0,
+        "per_share_value": 101.03799297853634,
+        "projected_years": [
+          {
+            "capex": 1016473499.9999999,
+            "cash_taxes": 487240739.99999994,
+            "da": 1008141749.9999999,
+            "delta_nwc": 21223750.000000015,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2866121999.9999995,
+            "ebit_margin": 0.172,
+            "ebitda": 3874263749.9999995,
+            "fcff": 2349325759.9999995,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -124976249.99999999,
+            "present_value_fcff": 2165277198.1566815,
+            "revenue": 16663499999.999998,
+            "revenue_growth": 0.035,
+            "year": 2026
+          },
+          {
+            "capex": 1041410427.7499998,
+            "cash_taxes": 506245961.65499985,
+            "da": 1041410427.7499998,
+            "delta_nwc": 1039802.4000000209,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2977917421.499999,
+            "ebit_margin": 0.173,
+            "ebitda": 4019327849.249999,
+            "fcff": 2470631657.444999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -123936447.59999996,
+            "present_value_fcff": 2098691123.1455324,
+            "revenue": 17213395499.999996,
+            "revenue_growth": 0.033,
+            "year": 2027
+          },
+          {
+            "capex": 1061722234.4399997,
+            "cash_taxes": 517412635.5837599,
+            "da": 1070569919.7269998,
+            "delta_nwc": 68853.58199998736,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 3043603738.727999,
+            "ebit_margin": 0.172,
+            "ebitda": 4114173658.454999,
+            "fcff": 2534969934.84924,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -123867594.01799998,
+            "present_value_fcff": 1984648491.2718883,
+            "revenue": 17695370573.999996,
+            "revenue_growth": 0.028,
+            "year": 2028
+          },
+          {
+            "capex": 1077090663.7835188,
+            "cash_taxes": 526235724.3056621,
+            "da": 1095193027.8807206,
+            "delta_nwc": 2581754.5667466074,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 3095504260.6215415,
+            "ebit_margin": 0.171,
+            "ebitda": 4190697288.502262,
+            "fcff": 2584789145.8463345,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -121285839.45125337,
+            "present_value_fcff": 1865117377.8976433,
+            "revenue": 18102364097.201996,
+            "revenue_growth": 0.023,
+            "year": 2029
+          },
+          {
+            "capex": 1091536350.3330858,
+            "cash_taxes": 534667805.50213873,
+            "da": 1119287274.4940965,
+            "delta_nwc": 4731957.975008607,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 3145104738.2478747,
+            "ebit_margin": 0.17,
+            "ebitda": 4264392012.741971,
+            "fcff": 2633455898.9317384,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -116553881.47624476,
+            "present_value_fcff": 1751367793.0164871,
+            "revenue": 18500616107.34044,
+            "revenue_growth": 0.022,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 41325000260.159584,
+        "terminal_value_present_value": 27483002290.412567,
+        "upside_downside_pct": -0.6060589793413275
+      }
+    },
+    "ticker": "ECL"
+  },
+  "assumptions": {
+    "cash": 646200000.0,
+    "current_price": 256.48,
+    "debt": 7400000000.0,
+    "diluted_shares": 302800000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.165,
+    "tax_rate": 0.17,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Ecolab Inc.",
+  "comps": [
+    {
+      "company_name": "Sealed Air Corp.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Multiples not populated due to data-access limitations in this run; peer included for qualitative comparability to hygiene/industrial solutions.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SEE"
+    },
+    {
+      "company_name": "Ashland Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Multiples not populated due to data-access limitations in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ASH"
+    },
+    {
+      "company_name": "DuPont de Nemours, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Multiples not populated due to data-access limitations in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "DD"
+    },
+    {
+      "company_name": "The Dow Chemical Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Multiples not populated due to data-access limitations in this run; included as chemicals/industrial backdrop.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "DOW"
+    },
+    {
+      "company_name": "Ecolab (selected peer baseline)",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Self-comparison placeholder; multiples not populated due to data-access limitations in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ECL"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.061,
+      "2027": 0.0605,
+      "2028": 0.06,
+      "2029": 0.0595,
+      "2030": 0.059
+    },
+    "da_pct_sales": {
+      "2026": 0.0605,
+      "2027": 0.0605,
+      "2028": 0.0605,
+      "2029": 0.0605,
+      "2030": 0.0605
+    },
+    "ebit_margin": {
+      "2026": 0.165,
+      "2027": 0.166,
+      "2028": 0.165,
+      "2029": 0.165,
+      "2030": 0.164
+    },
+    "nwc_pct_sales": {
+      "2026": -0.0085,
+      "2027": -0.008,
+      "2028": -0.0075,
+      "2029": -0.007,
+      "2030": -0.0065
+    },
+    "revenue_growth": {
+      "2026": 0.03,
+      "2027": 0.03,
+      "2028": 0.025,
+      "2029": 0.02,
+      "2030": 0.02
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 774800000.0,
+      "2024": 994500000.0,
+      "2025": 1000000000.0
+    },
+    "da": {
+      "2023": 923600000.0,
+      "2024": 935400000.0,
+      "2025": 976400000.0
+    },
+    "ebit": {
+      "2023": 2000000000.0,
+      "2024": 2800000000.0,
+      "2025": 2700000000.0
+    },
+    "nwc": {
+      "2023": 380500000.0,
+      "2024": -100000000.0,
+      "2025": -146200000.0
+    },
+    "revenue": {
+      "2023": 15300000000.0,
+      "2024": 15700000000.0,
+      "2025": 16100000000.0
+    }
+  },
+  "notes": [
+    "Ticker mapping correction: This package is for Ecolab Inc. (ECL). Prior Eastman data is not used.",
+    "SEC HTML extraction for Ecolab 2025 10-K was not reliably accessible in this run (tool retrieval errors/400). Therefore, historical revenue, operating income (EBIT proxy), and capex were populated from Stocktitan, and historical D&A was populated from Barchart. This may introduce rounding vs. GAAP line items.",
+    "NWC is approximated (not extracted from a dedicated GAAP \u201cnet working capital\u201d schedule): NWC \u2248 (Current Assets \u2212 Cash & Equivalents) \u2212 Current Liabilities, assuming limited short-term debt disclosure within current liabilities. This approximation can materially affect sign/magnitude (notably negative NWC in 2024-2025).",
+    "EBIT in this package is proxied by \u201cOperating Income\u201d from the data fallback sources; if your DCF pipeline distinguishes EBIT vs. operating income adjustments, you should reconcile to GAAP EBT/EBIT definitions from the 10-K.",
+    "Tax rate, WACC, and NOL items were not extracted from the 2025 10-K due to extraction constraints; tax_rate (0.17) and NOL fields are therefore placeholder assumptions or null where unavailable."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained pricing/volume mix that supports EBIT margin normalization.",
+      "Continued delivery of free-cash-flow conversion supported by working-capital discipline and capex governance.",
+      "Execution of multi-year restructuring/efficiency initiatives and successful absorption of any portfolio changes."
+    ],
+    "company_overview": [
+      "Ecolab is a global specialty chemicals and services company focused on water treatment, food & beverage hygiene, and infection prevention solutions for commercial and institutional customers.",
+      "Business model blends product sales with recurring service/solutions work, supporting cash generation and margin discipline across cycles.",
+      "Operates across multiple end-markets with a strategy centered on customer outcomes, technical application expertise, and operational excellence."
+    ],
+    "current_context": [
+      "Ecolab reported record 2025 performance and provided a strong outlook for 2026, highlighting continued momentum in sales, operating income margin, EPS, and free cash flows.",
+      "In the most recent earnings release referenced in this package, Ecolab disclosed a 2026 adjusted diluted EPS outlook range of $8.43 to $8.63.",
+      "Market pricing as of 2026-03-21 is $256.48 per share (last trade: 2026-03-20 close), implying the stock is priced for continued execution against multi-year margin and cash-flow expectations."
+    ],
+    "investment_highlights": [
+      "Base case assumes mid-single-digit revenue growth over 2026-2030, consistent with recent low-to-mid single digit top-line comp growth and ongoing customer spend on hygiene/water solutions.",
+      "Base case EBIT margin is modeled to normalize and hold around ~16-17% as operating leverage offsets cost pressures.",
+      "D&A intensity is held roughly stable at ~6.0% of sales, consistent with a steady reinvestment profile.",
+      "Capex scales with sales at ~5.9-6.1% of revenue, reflecting disciplined investment rather than aggressive growth capex.",
+      "Working capital is modeled modestly negative (based on an approximation using current assets/liabilities less cash), reflecting ongoing working capital efficiency assumptions."
+    ],
+    "key_risks": [
+      "Demand softness or delay in discretionary hygiene/water spending leading to lower volume growth.",
+      "Margin compression from input-cost volatility, labor inflation, or competitive pricing pressure.",
+      "Foreign exchange and macro-driven timing effects on service calls and product demand."
+    ],
+    "sources": [
+      {
+        "label": "Ecolab 2026 outlook earnings release (company site)",
+        "notes": "Used for the latest qualitative current-context (2026 outlook range and record 2025 performance narrative).",
+        "url": "https://www.ecolab.com/news/2026/02/ecolab-announces-record-fourth-quarter-and-strong-2026-outlook-reported-diluted-eps-1-98-adjusted-d"
+      },
+      {
+        "label": "Ecolab 2025 Form 10-K (SEC filing landing page)",
+        "notes": "Primary source reference for 2025 annual financial statements; direct line-item extraction was limited in this run due to SEC retrieval constraints.",
+        "url": "https://www.sec.gov/Archives/edgar/data/31462/000110465926018357/0001104659-26-018357-index.htm"
+      },
+      {
+        "label": "Ecolab 2024 Form 10-K (SEC filing HTML)",
+        "notes": "Primary source reference for 2024/2023 annual figures; used indirectly due to extraction limitations for this run.",
+        "url": "https://www.sec.gov/Archives/edgar/data/31462/000155837025001263/ecl-20241231x10k.htm"
+      },
+      {
+        "label": "Stocktitan \u2014 Ecolab financials (used for revenue, operating income, capex, cash/current assets/liabilities snapshots)",
+        "notes": "Used as a data fallback for historical revenue and operating income (EBIT proxy), capex, and balance-sheet aggregates required to approximate NWC.",
+        "url": "https://www.stocktitan.net/financials/ECL/"
+      },
+      {
+        "label": "Barchart \u2014 Ecolab cash flow (used for depreciation & amortization and working-capital component shown)",
+        "notes": "Used for historical D&A for 2023-2025.",
+        "url": "https://www.barchart.com/stocks/quotes/ECL/cash-flow"
+      }
+    ],
+    "subtitle": "Ecolab (ECL) \u2014 DCF Valuation Input Package",
+    "valuation_summary": [
+      "The DCF uses a Gordon-growth terminal framework with a 2.0% long-run growth assumption, aligning with a mature specialty-solutions industry backdrop.",
+      "WACC is set at 8.5% to reflect equity risk and credit spreads for a large-cap U.S. industrial chemicals/services company.",
+      "Scenario work is calibrated to modest (not extreme) changes in growth and margin to reflect realistic execution variance."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 256.48,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.155,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.085
+      },
+      "description": "Modestly lower growth and margin pressure vs. base case.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0605,
+          "2027": 0.06,
+          "2028": 0.0595,
+          "2029": 0.059,
+          "2030": 0.0585
+        },
+        "da_pct_sales": {
+          "2026": 0.0605,
+          "2027": 0.0605,
+          "2028": 0.0605,
+          "2029": 0.0605,
+          "2030": 0.0605
+        },
+        "ebit_margin": {
+          "2026": 0.155,
+          "2027": 0.156,
+          "2028": 0.155,
+          "2029": 0.154,
+          "2030": 0.154
+        },
+        "nwc_pct_sales": {
+          "2026": -0.0095,
+          "2027": -0.009,
+          "2028": -0.0085,
+          "2029": -0.008,
+          "2030": -0.0075
+        },
+        "revenue_growth": {
+          "2026": 0.02,
+          "2027": 0.02,
+          "2028": 0.015,
+          "2029": 0.012,
+          "2030": 0.012
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 256.48,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.172,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.085
+      },
+      "description": "Modestly higher organic growth and margin expansion vs. base case.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.061,
+          "2027": 0.0605,
+          "2028": 0.06,
+          "2029": 0.0595,
+          "2030": 0.059
+        },
+        "da_pct_sales": {
+          "2026": 0.0605,
+          "2027": 0.0605,
+          "2028": 0.0605,
+          "2029": 0.0605,
+          "2030": 0.0605
+        },
+        "ebit_margin": {
+          "2026": 0.172,
+          "2027": 0.173,
+          "2028": 0.172,
+          "2029": 0.171,
+          "2030": 0.17
+        },
+        "nwc_pct_sales": {
+          "2026": -0.0075,
+          "2027": -0.0072,
+          "2028": -0.007,
+          "2029": -0.0067,
+          "2030": -0.0063
+        },
+        "revenue_growth": {
+          "2026": 0.035,
+          "2027": 0.033,
+          "2028": 0.028,
+          "2029": 0.023,
+          "2030": 0.022
+        }
+      }
+    }
+  },
+  "ticker": "ECL"
+}

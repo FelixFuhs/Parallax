@@ -1,0 +1,669 @@
+{
+  "_meta": {
+    "cost_usd": 0.023364,
+    "generated_at": "2026-03-21T17:19:55Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10931,
+      "prompt": 2515,
+      "reasoning": 7358
+    }
+  },
+  "_valuation": {
+    "company_name": "Paychex, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 92.55,
+        "description": "Base case",
+        "enterprise_value": 31253786773.983665,
+        "equity_value": 27997986773.983665,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 35899815038.45188,
+        "implied_market_cap": 27997986773.983665,
+        "investments_adjustment": 34500000.0,
+        "net_debt": 3290300000.0,
+        "per_share_value": 77.34250490050736,
+        "projected_years": [
+          {
+            "capex": 188100592.0,
+            "cash_taxes": 563796255.6589999,
+            "da": 208674094.24999997,
+            "delta_nwc": 190403812.5,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 2368891830.5,
+            "ebit_margin": 0.403,
+            "ebitda": 2577565924.75,
+            "fcff": 1635265264.591,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2204303812.5,
+            "present_value_fcff": 1507156925.8903227,
+            "revenue": 5878143500.0,
+            "revenue_growth": 0.055,
+            "year": 2026
+          },
+          {
+            "capex": 200591646.9375,
+            "cash_taxes": 594923964.56325,
+            "da": 219725004.03,
+            "delta_nwc": 122559291.9749999,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 2499680523.375,
+            "ebit_margin": 0.405,
+            "ebitda": 2719405527.405,
+            "fcff": 1801330623.92925,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2326863104.475,
+            "present_value_fcff": 1530149821.7666547,
+            "revenue": 6172050675.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 212843167.527375,
+            "cash_taxes": 624765644.4153547,
+            "da": 230257608.50688753,
+            "delta_nwc": 111158632.6567502,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 2625065732.837625,
+            "ebit_margin": 0.407,
+            "ebitda": 2855323341.3445125,
+            "fcff": 1906555896.7450325,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2438021737.13175,
+            "present_value_fcff": 1492658051.6725476,
+            "revenue": 6449792955.375,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 223126717.4154249,
+            "cash_taxes": 652605324.3345609,
+            "da": 240600496.49012685,
+            "delta_nwc": 95676228.70003271,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 2742039177.876306,
+            "ebit_margin": 0.408,
+            "ebitda": 2982639674.366433,
+            "fcff": 2011231403.9164143,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2533697965.831783,
+            "present_value_fcff": 1451252860.7782176,
+            "revenue": 6720684259.500751,
+            "revenue_growth": 0.042,
+            "year": 2029
+          },
+          {
+            "capex": 234148639.60100618,
+            "cash_taxes": 680373041.0758549,
+            "da": 251622418.67570812,
+            "delta_nwc": 94358407.00339079,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 2858710256.621239,
+            "ebit_margin": 0.409,
+            "ebitda": 3110332675.2969475,
+            "fcff": 2101452587.616696,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2628056372.8351736,
+            "present_value_fcff": 1397561425.6521251,
+            "revenue": 6989511629.880781,
+            "revenue_growth": 0.04,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 35899815038.45188,
+        "terminal_value_present_value": 23875007688.223797,
+        "upside_downside_pct": -0.16431653267955304
+      },
+      "bear": {
+        "current_price": 92.55,
+        "description": "Modestly lower growth and operating profitability; slightly higher discount rate and lower terminal growth.",
+        "enterprise_value": 28867516940.316235,
+        "equity_value": 25611716940.316235,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 32820278079.389153,
+        "implied_market_cap": 25611716940.316235,
+        "investments_adjustment": 34500000.0,
+        "net_debt": 3290300000.0,
+        "per_share_value": 70.75059928264153,
+        "projected_years": [
+          {
+            "capex": 187209120.0,
+            "cash_taxes": 558339499.8299999,
+            "da": 207685117.49999997,
+            "delta_nwc": 179956875.0,
+            "discount_factor": 0.9199632014719411,
+            "ebit": 2345964285.0,
+            "ebit_margin": 0.401,
+            "ebitda": 2553649402.5,
+            "fcff": 1628143907.67,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2193856875.0,
+            "present_value_fcff": 1497832481.7571297,
+            "revenue": 5850285000.0,
+            "revenue_growth": 0.05,
+            "year": 2026
+          },
+          {
+            "capex": 198690304.3125,
+            "cash_taxes": 586374826.0870501,
+            "da": 217642302.57,
+            "delta_nwc": 110950655.0250001,
+            "discount_factor": 0.8463322920625034,
+            "ebit": 2463759773.4750004,
+            "ebit_margin": 0.403,
+            "ebitda": 2681402076.0450006,
+            "fcff": 1785386290.6204503,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2304807530.025,
+            "present_value_fcff": 1511030071.5577765,
+            "revenue": 6113547825.0,
+            "revenue_growth": 0.045,
+            "year": 2027
+          },
+          {
+            "capex": 209816961.354,
+            "cash_taxes": 612856269.8458201,
+            "da": 226983803.6466,
+            "delta_nwc": 98550390.93900013,
+            "discount_factor": 0.7785945649149065,
+            "ebit": 2575026343.8900003,
+            "ebit_margin": 0.405,
+            "ebitda": 2802010147.5366,
+            "fcff": 1880786525.3977804,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2403357920.964,
+            "present_value_fcff": 1464370166.4399037,
+            "revenue": 6358089738.0,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 218898856.7357592,
+            "cash_taxes": 637101166.5259922,
+            "da": 236041538.28735477,
+            "delta_nwc": 82330904.01736164,
+            "discount_factor": 0.7162783485877705,
+            "ebit": 2676895657.672236,
+            "ebit_margin": 0.406,
+            "ebitda": 2912937195.959591,
+            "fcff": 1974606268.6804776,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2485688824.981362,
+            "present_value_fcff": 1414367717.241512,
+            "revenue": 6593339058.306,
+            "revenue_growth": 0.037,
+            "year": 2029
+          },
+          {
+            "capex": 228607548.49911478,
+            "cash_taxes": 661023844.5646342,
+            "da": 245667813.31248152,
+            "delta_nwc": 80175002.94900084,
+            "discount_factor": 0.6589497227118405,
+            "ebit": 2777411111.6161103,
+            "ebit_margin": 0.407,
+            "ebitda": 3023078924.9285917,
+            "fcff": 2053272528.9158418,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2565863827.9303627,
+            "present_value_fcff": 1353003363.5809336,
+            "revenue": 6824105925.346709,
+            "revenue_growth": 0.035,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 32820278079.389153,
+        "terminal_value_present_value": 21626913139.73898,
+        "upside_downside_pct": -0.23554187701089646
+      },
+      "bull": {
+        "current_price": 92.55,
+        "description": "Modestly higher growth and operating profitability; slightly lower discount rate and higher terminal growth.",
+        "enterprise_value": 33993455147.927467,
+        "equity_value": 30737655147.927467,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 39441135018.591125,
+        "implied_market_cap": 30737655147.927467,
+        "investments_adjustment": 34500000.0,
+        "net_debt": 3290300000.0,
+        "per_share_value": 84.91064957991013,
+        "projected_years": [
+          {
+            "capex": 188992064.0,
+            "cash_taxes": 569279532.78,
+            "da": 209663070.99999997,
+            "delta_nwc": 200850750.0,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 2391930810.0,
+            "ebit_margin": 0.405,
+            "ebitda": 2601593881.0,
+            "fcff": 1642471534.22,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2214750750.0,
+            "present_value_fcff": 1516594214.4228995,
+            "revenue": 5906002000.0,
+            "revenue_growth": 0.06,
+            "year": 2026
+          },
+          {
+            "capex": 202502043.57500002,
+            "cash_taxes": 603555783.1672599,
+            "da": 221817623.116,
+            "delta_nwc": 134272955.4699998,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 2535948668.77,
+            "ebit_margin": 0.407,
+            "ebitda": 2757766291.886,
+            "fcff": 1817435509.6737401,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2349023705.47,
+            "present_value_fcff": 1549537517.7648869,
+            "revenue": 6230832110.0,
+            "revenue_growth": 0.055,
+            "year": 2027
+          },
+          {
+            "capex": 215898332.61150002,
+            "cash_taxes": 636847742.2142009,
+            "da": 233562741.64335,
+            "delta_nwc": 123993558.98900032,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 2675830849.6394997,
+            "ebit_margin": 0.409,
+            "ebitda": 2909393591.28285,
+            "fcff": 1932653957.4681485,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2473017264.459,
+            "present_value_fcff": 1521488697.4382312,
+            "revenue": 6542373715.5,
+            "revenue_growth": 0.05,
+            "year": 2028
+          },
+          {
+            "capex": 227415527.3002662,
+            "cash_taxes": 668409854.034939,
+            "da": 245225177.02860028,
+            "delta_nwc": 109381946.14944458,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 2808444764.852685,
+            "ebit_margin": 0.41,
+            "ebitda": 3053669941.881285,
+            "fcff": 2048462614.3966355,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2582399210.6084447,
+            "present_value_fcff": 1489066919.8848064,
+            "revenue": 6849865280.1285,
+            "revenue_growth": 0.047,
+            "year": 2029
+          },
+          {
+            "capex": 239796658.79409844,
+            "cash_taxes": 700191927.4603319,
+            "da": 257691931.83843413,
+            "delta_nwc": 109049855.25964499,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 2941982888.4887896,
+            "ebit_margin": 0.411,
+            "ebitda": 3199674820.327224,
+            "fcff": 2150636378.8131485,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 2691449065.8680897,
+            "present_value_fcff": 1443526312.7528462,
+            "revenue": 7158109217.734282,
+            "revenue_growth": 0.045,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 39441135018.591125,
+        "terminal_value_present_value": 26473241485.663795,
+        "upside_downside_pct": -0.08254295429594671
+      }
+    },
+    "ticker": "PAYX"
+  },
+  "assumptions": {
+    "cash": 1676500000.0,
+    "current_price": 92.55,
+    "debt": 4966800000.0,
+    "diluted_shares": 362000000.0,
+    "investments": 34500000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.409,
+    "tax_rate": 0.238,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.025,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Paychex, Inc.",
+  "comps": [
+    {
+      "company_name": "Automatic Data Processing",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and forward P/E could not be captured from primary/accessible sources without a paid market-data feed.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ADP"
+    },
+    {
+      "company_name": "Paycom Software",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not available from primary/accessible sources used in this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PAYC"
+    },
+    {
+      "company_name": "Workday",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and NTM P/E not captured.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "WDAY"
+    },
+    {
+      "company_name": "TriNet Group",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not captured from accessible sources.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "TRU"
+    },
+    {
+      "company_name": "Ceridian HCM Holding",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not captured from accessible sources.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CDAY"
+    },
+    {
+      "company_name": "Insperity",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiples not captured from accessible sources.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "NSP"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.032,
+      "2027": 0.0325,
+      "2028": 0.033,
+      "2029": 0.0332,
+      "2030": 0.0335
+    },
+    "da_pct_sales": {
+      "2026": 0.0355,
+      "2027": 0.0356,
+      "2028": 0.0357,
+      "2029": 0.0358,
+      "2030": 0.036
+    },
+    "ebit_margin": {
+      "2026": 0.403,
+      "2027": 0.405,
+      "2028": 0.407,
+      "2029": 0.408,
+      "2030": 0.409
+    },
+    "nwc_pct_sales": {
+      "2026": 0.375,
+      "2027": 0.377,
+      "2028": 0.378,
+      "2029": 0.377,
+      "2030": 0.376
+    },
+    "revenue_growth": {
+      "2026": 0.055,
+      "2027": 0.05,
+      "2028": 0.045,
+      "2029": 0.042,
+      "2030": 0.04
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 143000000.0,
+      "2024": 161400000.0,
+      "2025": 191800000.0
+    },
+    "da": {
+      "2023": 176600000.0,
+      "2024": 176500000.0,
+      "2025": 209500000.0
+    },
+    "ebit": {
+      "2023": 2033100000.0,
+      "2024": 2174100000.0,
+      "2025": 2207700000.0
+    },
+    "nwc": {
+      "2023": 1897900000.0,
+      "2024": 2104900000.0,
+      "2025": 2013900000.0
+    },
+    "revenue": {
+      "2023": 5007100000.0,
+      "2024": 5278300000.0,
+      "2025": 5571700000.0
+    }
+  },
+  "notes": [
+    "EBIT is modeled as GAAP operating income from Paychex\u2019s consolidated statements of income; historical revenue and EBIT are taken directly from the FY2025 Form 10-K. ([sec.gov](https://www.sec.gov/Archives/edgar/data/723531/000095017025095300/payx-20250531.htm))",
+    "NWC is operationally defined as (current assets before funds held for clients) minus (current liabilities before client fund obligations) to exclude pass-through client funds; FY2025 and FY2024 come from the FY2025 10-K, while FY2023 comes from the FY2024 annual report PDF. ([sec.gov](https://www.sec.gov/Archives/edgar/data/723531/000095017025095300/payx-20250531.htm))",
+    "NOL balance and NOL utilization could not be retrieved from the accessible text in the FY2025 10-K run; comps forward NTM multiples were also not captured from accessible sources, so those inputs are set to null and flagged here."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Continued progress in integrating Paycor and translating customer/product mix into sustainable margin outcomes. ([investor.paychex.com](https://investor.paychex.com/news-events/press-releases/detail/819/paychex-reports-second-quarter-results))",
+      "Further AI-driven productivity improvements and operating discipline could support margin durability versus historical volatility from acquisition-related costs. ([investor.paychex.com](https://investor.paychex.com/news-events/press-releases/detail/819/paychex-reports-second-quarter-results))",
+      "Potential changes to fiscal 2026 guidance (particularly EPS growth), reflecting updated operating performance and cost/investment balance. ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_9a51e3023384418eb905bdbacbb718f5/paychex/news/2025-12-19_Paychex_Reports_Second_Quarter_819.pdf))"
+    ],
+    "company_overview": [
+      "Paychex is an industry-leading HCM (human capital management) provider delivering a full suite of technology and advisory solutions across HR, employee benefits, insurance, and payroll. ([sec.gov](https://www.sec.gov/Archives/edgar/data/723531/000095017025095300/payx-20250531.htm))",
+      "As of May 31, 2025, Paychex served approximately 800,000 clients and their employees across the U.S. and parts of Europe. ([sec.gov](https://www.sec.gov/Archives/edgar/data/723531/000095017025095300/payx-20250531.htm))",
+      "The company provides integrated HCM solutions intended to span the employee life cycle, enabling customization across client needs. ([sec.gov](https://www.sec.gov/Archives/edgar/data/723531/000095017025095300/payx-20250531.htm))"
+    ],
+    "current_context": [
+      "Q2 FY2026: Total revenue increased 18% to $1,557.6 million; operating income increased 6% to $571.9 million. ([investor.paychex.com](https://investor.paychex.com/news-events/press-releases/detail/819/paychex-reports-second-quarter-results))",
+      "Q2 FY2026: Adjusted diluted EPS increased 11% to $1.26; Paychex raised fiscal 2026 adjusted diluted EPS growth guidance to 10% to 11%. ([investor.paychex.com](https://investor.paychex.com/news-events/press-releases/detail/819/paychex-reports-second-quarter-results))",
+      "As of 2026-03-21, PAYX closed at $92.55."
+    ],
+    "investment_highlights": [
+      "Revenue durability supported by client growth and retention, with Paycor-related contribution highlighted in quarterly results (Paycor contributed ~17% to Management Solutions revenue growth year-over-year in Q2). ([investor.paychex.com](https://investor.paychex.com/news-events/press-releases/detail/819/paychex-reports-second-quarter-results))",
+      "Operating margin trajectory supported by disciplined cost management and productivity improvements, including benefits attributed to expanding AI capabilities. ([investor.paychex.com](https://investor.paychex.com/news-events/press-releases/detail/819/paychex-reports-second-quarter-results))",
+      "DCF base-case reflects stable-to-slightly-improving EBIT margins and reinvestment intensity (capex, D&A, and working-capital intensity) anchored to the last three completed fiscal years. ([sec.gov](https://www.sec.gov/Archives/edgar/data/723531/000095017025095300/payx-20250531.htm))"
+    ],
+    "key_risks": [
+      "Integration execution risk (Paycor-related amortization/intangibles and acquisition costs) could pressure GAAP margins longer than modeled.",
+      "Client demand or pricing realization could weaken, leading to lower-than-modeled revenue growth and operating leverage.",
+      "Interest rate and investment portfolio dynamics may affect items flowing through total revenue (e.g., interest on funds held for clients), impacting comparability to operating margin assumptions."
+    ],
+    "sources": [
+      {
+        "label": "Paychex FY2025 Form 10-K (SEC)",
+        "notes": "Historical income statement (revenue, operating income) and balance sheet components (cash, restricted cash, short-term debt, long-term debt) and depreciation/amortization line items. ([sec.gov](https://www.sec.gov/Archives/edgar/data/723531/000095017025095300/payx-20250531.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/723531/000095017025095300/payx-20250531.htm"
+      },
+      {
+        "label": "Paychex FY2024 Annual Report (PDF, includes FY2024 and FY2023 balance sheet)",
+        "notes": "Operational working-capital inputs for FY2023 (current assets before funds held for clients; current liabilities before client fund obligations) used to compute NWC. ([sec.gov](https://www.sec.gov/Archives/edgar/data/723531/000119312524210394/d659696dars.pdf))",
+        "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312524210394/d659696dars.pdf"
+      },
+      {
+        "label": "Paychex Q2 FY2026 Earnings Release (Investor Relations HTML)",
+        "notes": "Latest quarter performance (revenue, operating income, adjusted EPS) and updated fiscal 2026 adjusted diluted EPS guidance range. ([investor.paychex.com](https://investor.paychex.com/news-events/press-releases/detail/819/paychex-reports-second-quarter-results))",
+        "url": "https://investor.paychex.com/news-events/press-releases/detail/819/paychex-reports-second-quarter-results"
+      },
+      {
+        "label": "Paychex Q2 FY2026 Earnings Release (PDF copy)",
+        "notes": "Business outlook update section for fiscal 2026 adjusted diluted EPS guidance range. ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_9a51e3023384418eb905bdbacbb718f5/paychex/news/2025-12-19_Paychex_Reports_Second_Quarter_819.pdf))",
+        "url": "https://d1io3yog0oux5.cloudfront.net/_9a51e3023384418eb905bdbacbb718f5/paychex/news/2025-12-19_Paychex_Reports_Second_Quarter_819.pdf"
+      }
+    ],
+    "subtitle": "Paychex (PAYX) DCF Input Package",
+    "valuation_summary": [
+      "Base-case DCF uses GAAP operating income as EBIT, with historical revenue growth dynamics and margins used to set a sober medium-term profile before a Gordon Growth terminal value.",
+      "Working-capital and reinvestment assumptions are tied to Paychex\u2019s recurring cash flow and balance-sheet \u201ccurrent assets before funds held for clients\u201d framework (operational NWC definition used for the model)."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.407,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.023,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.087
+      },
+      "description": "Modestly lower growth and operating profitability; slightly higher discount rate and lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.032,
+          "2027": 0.0325,
+          "2028": 0.033,
+          "2029": 0.0332,
+          "2030": 0.0335
+        },
+        "da_pct_sales": {
+          "2026": 0.0355,
+          "2027": 0.0356,
+          "2028": 0.0357,
+          "2029": 0.0358,
+          "2030": 0.036
+        },
+        "ebit_margin": {
+          "2026": 0.401,
+          "2027": 0.403,
+          "2028": 0.405,
+          "2029": 0.406,
+          "2030": 0.407
+        },
+        "nwc_pct_sales": {
+          "2026": 0.375,
+          "2027": 0.377,
+          "2028": 0.378,
+          "2029": 0.377,
+          "2030": 0.376
+        },
+        "revenue_growth": {
+          "2026": 0.05,
+          "2027": 0.045,
+          "2028": 0.04,
+          "2029": 0.037,
+          "2030": 0.035
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.411,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.027,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.083
+      },
+      "description": "Modestly higher growth and operating profitability; slightly lower discount rate and higher terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.032,
+          "2027": 0.0325,
+          "2028": 0.033,
+          "2029": 0.0332,
+          "2030": 0.0335
+        },
+        "da_pct_sales": {
+          "2026": 0.0355,
+          "2027": 0.0356,
+          "2028": 0.0357,
+          "2029": 0.0358,
+          "2030": 0.036
+        },
+        "ebit_margin": {
+          "2026": 0.405,
+          "2027": 0.407,
+          "2028": 0.409,
+          "2029": 0.41,
+          "2030": 0.411
+        },
+        "nwc_pct_sales": {
+          "2026": 0.375,
+          "2027": 0.377,
+          "2028": 0.378,
+          "2029": 0.377,
+          "2030": 0.376
+        },
+        "revenue_growth": {
+          "2026": 0.06,
+          "2027": 0.055,
+          "2028": 0.05,
+          "2029": 0.047,
+          "2030": 0.045
+        }
+      }
+    }
+  },
+  "ticker": "PAYX"
+}

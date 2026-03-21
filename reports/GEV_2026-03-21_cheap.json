@@ -1,0 +1,680 @@
+{
+  "_meta": {
+    "cost_usd": 0.024547,
+    "generated_at": "2026-03-21T17:15:54Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11408,
+      "prompt": 2514,
+      "reasoning": 7827
+    }
+  },
+  "_valuation": {
+    "company_name": "GE Vernova Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 851.07,
+        "description": "Base case",
+        "enterprise_value": 63808096043.579155,
+        "equity_value": 72593096043.57916,
+        "exit_multiple_terminal_value": 81066604480.86816,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 72593096043.57916,
+        "investments_adjustment": 0.0,
+        "net_debt": -8785000000.0,
+        "per_share_value": 263.01846392601146,
+        "projected_years": [
+          {
+            "capex": 1327811840.0,
+            "cash_taxes": 169296009.6,
+            "da": 1161835360.0,
+            "delta_nwc": 756000000.0,
+            "discount_factor": 0.9132420091324202,
+            "ebit": 3527000200.0000005,
+            "ebit_margin": 0.085,
+            "ebitda": 4688835560.0,
+            "fcff": 2435727710.4000006,
+            "nol_balance_end": 2127399839.9999995,
+            "nol_used": 2821600160.0000005,
+            "nwc": 0.0,
+            "present_value_fcff": 2224408867.945206,
+            "revenue": 41494120000.0,
+            "revenue_growth": 0.09,
+            "year": 2026
+          },
+          {
+            "capex": 1414949492.0,
+            "cash_taxes": 442460986.56,
+            "da": 1300840662.0,
+            "delta_nwc": 228217660.0,
+            "discount_factor": 0.8340109672442193,
+            "ebit": 3970987283.9999995,
+            "ebit_margin": 0.087,
+            "ebitda": 5271827946.0,
+            "fcff": 3186199807.4399996,
+            "nol_balance_end": 0.0,
+            "nol_used": 2127399839.9999995,
+            "nwc": 228217660.0,
+            "present_value_fcff": 2657325583.236379,
+            "revenue": 45643532000.0,
+            "revenue_growth": 0.1,
+            "year": 2027
+          },
+          {
+            "capex": 1492543496.3999999,
+            "cash_taxes": 1062690969.4367999,
+            "da": 1442792046.52,
+            "delta_nwc": 120042489.16000003,
+            "discount_factor": 0.7616538513645839,
+            "ebit": 4427879039.32,
+            "ebit_margin": 0.089,
+            "ebitda": 5870671085.84,
+            "fcff": 3195394130.8432007,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 348260149.16,
+            "present_value_fcff": 2433784246.384511,
+            "revenue": 49751449880.0,
+            "revenue_growth": 0.09,
+            "year": 2028
+          },
+          {
+            "capex": 1529359569.3112001,
+            "cash_taxes": 1151765965.301952,
+            "da": 1529359569.3112001,
+            "delta_nwc": 20895608.94959998,
+            "discount_factor": 0.6955742934836383,
+            "ebit": 4799024855.4248,
+            "ebit_margin": 0.091,
+            "ebitda": 6328384424.736,
+            "fcff": 3626363281.1732473,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 369155758.1096,
+            "present_value_fcff": 2522405077.21709,
+            "revenue": 52736536872.8,
+            "revenue_growth": 0.06,
+            "year": 2029
+          },
+          {
+            "capex": 1550454184.0603201,
+            "cash_taxes": 1235933478.150941,
+            "da": 1605827547.77676,
+            "delta_nwc": 73831151.62192005,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 5149722825.628921,
+            "ebit_margin": 0.093,
+            "ebitda": 6755550373.405681,
+            "fcff": 3895331559.5724998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 442986909.73152006,
+            "present_value_fcff": 2474422372.0859914,
+            "revenue": 55373363716.44,
+            "revenue_growth": 0.05,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 81066604480.86816,
+        "terminal_value_present_value": 51495749896.70998,
+        "upside_downside_pct": -0.690955545459232
+      },
+      "bear": {
+        "current_price": 851.07,
+        "description": "Modestly weaker growth and margin realization; higher WACC and lower terminal assumptions.",
+        "enterprise_value": 51642663483.659966,
+        "equity_value": 60427663483.659966,
+        "exit_multiple_terminal_value": 67011308514.71056,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 60427663483.659966,
+        "investments_adjustment": 0.0,
+        "net_debt": -8785000000.0,
+        "per_share_value": 218.94080972340566,
+        "projected_years": [
+          {
+            "capex": 1309539200.0,
+            "cash_taxes": 159109012.79999998,
+            "da": 1145846800.0,
+            "delta_nwc": 756000000.0,
+            "discount_factor": 0.9049773755656109,
+            "ebit": 3314771100.0,
+            "ebit_margin": 0.081,
+            "ebitda": 4460617900.0,
+            "fcff": 2235969687.2,
+            "nol_balance_end": 2297183120.0,
+            "nol_used": 2651816880.0,
+            "nwc": 0.0,
+            "present_value_fcff": 2023501979.3665156,
+            "revenue": 40923100000.0,
+            "revenue_growth": 0.075,
+            "year": 2026
+          },
+          {
+            "capex": 1376448468.5,
+            "cash_taxes": 333155196.12,
+            "da": 1265444559.75,
+            "delta_nwc": 222007817.5,
+            "discount_factor": 0.8189840502856207,
+            "ebit": 3685329770.5,
+            "ebit_margin": 0.083,
+            "ebitda": 4950774330.25,
+            "fcff": 3019162848.13,
+            "nol_balance_end": 0.0,
+            "nol_used": 2297183120.0,
+            "nwc": 222007817.5,
+            "present_value_fcff": 2472646217.833378,
+            "revenue": 44401563500.0,
+            "revenue_growth": 0.085,
+            "year": 2027
+          },
+          {
+            "capex": 1431950422.875,
+            "cash_taxes": 973726287.5550001,
+            "da": 1384218742.1125,
+            "delta_nwc": 112113947.83750004,
+            "discount_factor": 0.7411620364575753,
+            "ebit": 4057192864.8125005,
+            "ebit_margin": 0.085,
+            "ebitda": 5441411606.925,
+            "fcff": 2923620948.6575007,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 334121765.33750004,
+            "present_value_fcff": 2166876856.1370215,
+            "revenue": 47731680762.5,
+            "revenue_growth": 0.075,
+            "year": 2028
+          },
+          {
+            "capex": 1439587491.7970002,
+            "cash_taxes": 1036502994.0938399,
+            "da": 1439587491.7970002,
+            "delta_nwc": 13364870.613499999,
+            "discount_factor": 0.6707348746222401,
+            "ebit": 4318762475.391,
+            "ebit_margin": 0.087,
+            "ebitda": 5758349967.188,
+            "fcff": 3268894610.68366,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 347486635.95100003,
+            "present_value_fcff": 2192561616.850221,
+            "revenue": 49640947993.0,
+            "revenue_growth": 0.04,
+            "year": 2029
+          },
+          {
+            "capex": 1445544405.55616,
+            "cash_taxes": 1102743875.095699,
+            "da": 1497170991.4688802,
+            "delta_nwc": 65526051.35075998,
+            "discount_factor": 0.6069998865359639,
+            "ebit": 4594766146.2320795,
+            "ebit_margin": 0.089,
+            "ebitda": 6091937137.70096,
+            "fcff": 3478122805.698341,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 413012687.30176,
+            "present_value_fcff": 2111220148.4170415,
+            "revenue": 51626585912.72,
+            "revenue_growth": 0.04,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 67011308514.71056,
+        "terminal_value_present_value": 40675856665.055786,
+        "upside_downside_pct": -0.7427464136634994
+      },
+      "bull": {
+        "current_price": 851.07,
+        "description": "Modestly stronger revenue growth and EBIT margin expansion; slightly lower WACC and higher terminal exit multiple.",
+        "enterprise_value": 76785239055.26692,
+        "equity_value": 85570239055.26692,
+        "exit_multiple_terminal_value": 97050147611.45163,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 85570239055.26692,
+        "investments_adjustment": 0.0,
+        "net_debt": -8785000000.0,
+        "per_share_value": 310.03709802632943,
+        "projected_years": [
+          {
+            "capex": 1346084480.0,
+            "cash_taxes": 181721404.79999998,
+            "da": 1177823920.0,
+            "delta_nwc": 756000000.0,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 3785862600.0,
+            "ebit_margin": 0.09,
+            "ebitda": 4963686520.0,
+            "fcff": 2679880635.2,
+            "nol_balance_end": 1920309920.0,
+            "nol_used": 3028690080.0,
+            "nwc": 0.0,
+            "present_value_fcff": 2458606087.3394494,
+            "revenue": 42065140000.0,
+            "revenue_growth": 0.105,
+            "year": 2026
+          },
+          {
+            "capex": 1453981564.1,
+            "cash_taxes": 574735713.8879999,
+            "da": 1336724986.3500001,
+            "delta_nwc": 234513155.5,
+            "discount_factor": 0.84167999326656,
+            "ebit": 4315042061.2,
+            "ebit_margin": 0.092,
+            "ebitda": 5651767047.55,
+            "fcff": 3388536614.062,
+            "nol_balance_end": 0.0,
+            "nol_used": 1920309920.0,
+            "nwc": 234513155.5,
+            "present_value_fcff": 2852063474.507196,
+            "revenue": 46902631100.0,
+            "revenue_growth": 0.115,
+            "year": 2027
+          },
+          {
+            "capex": 1554822220.965,
+            "cash_taxes": 1169226310.16568,
+            "da": 1502994813.5995002,
+            "delta_nwc": 128278696.05849999,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 4871776292.357,
+            "ebit_margin": 0.094,
+            "ebitda": 6374771105.956501,
+            "fcff": 3522443878.767321,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 362791851.5585,
+            "present_value_fcff": 2719972972.6263433,
+            "revenue": 51827407365.5,
+            "revenue_growth": 0.105,
+            "year": 2028
+          },
+          {
+            "capex": 1608204450.5514653,
+            "cash_taxes": 1277690708.3001986,
+            "da": 1608204450.5514653,
+            "delta_nwc": 25395429.609095037,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 5323711284.584161,
+            "ebit_margin": 0.096,
+            "ebitda": 6931915735.135626,
+            "fcff": 4020625146.674867,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 388187281.167595,
+            "present_value_fcff": 2848312218.1471786,
+            "revenue": 55455325881.08501,
+            "revenue_growth": 0.07,
+            "year": 2029
+          },
+          {
+            "capex": 1645914072.150603,
+            "cash_taxes": 1382567820.6065066,
+            "da": 1704696717.5845532,
+            "delta_nwc": 82073882.30400586,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 5760699252.527111,
+            "ebit_margin": 0.098,
+            "ebitda": 7465395970.111664,
+            "fcff": 4354840195.050549,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 470261163.4716009,
+            "present_value_fcff": 2830347325.076959,
+            "revenue": 58782645433.95011,
+            "revenue_growth": 0.06,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 97050147611.45163,
+        "terminal_value_present_value": 63075936977.56979,
+        "upside_downside_pct": -0.6357090509284438
+      }
+    },
+    "ticker": "GEV"
+  },
+  "assumptions": {
+    "cash": 8848000000.0,
+    "current_price": 851.07,
+    "debt": 63000000.0,
+    "diluted_shares": 276000000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 4949000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.093,
+    "tax_rate": 0.24,
+    "terminal_exit_ebitda_multiple": 12.0,
+    "terminal_growth": 0.025,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.095
+  },
+  "company_name": "GE Vernova Inc.",
+  "comps": [
+    {
+      "company_name": "Eaton Corporation plc",
+      "ev_ntm_ebitda": 19.6,
+      "ev_ntm_revenue": 4.84,
+      "notes": "EV/Revenue, EV/EBITDA, and P/E taken from MarketScreener 'Valuation' table for fiscal period 2026 (used as NTM proxy; exact 'NTM' labeling may differ by provider).",
+      "pe_ntm": 28.9,
+      "source": "MarketScreener Valuation (fiscal period 2026 column)",
+      "ticker": "ETN"
+    },
+    {
+      "company_name": "Emerson Electric Co.",
+      "ev_ntm_ebitda": 16.3,
+      "ev_ntm_revenue": 4.68,
+      "notes": "EV/Revenue, EV/EBITDA, and P/E taken from MarketScreener 'Valuation' table for fiscal period 2026.",
+      "pe_ntm": 28.3,
+      "source": "MarketScreener Valuation (fiscal period 2026 column)",
+      "ticker": "EMR"
+    },
+    {
+      "company_name": "ABB Ltd",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": 4.19,
+      "notes": "EV/EBITDA not visible in retrieved snippet; EV/Revenue and P/E taken for fiscal period 2026.",
+      "pe_ntm": 27.9,
+      "source": "MarketScreener Valuation (fiscal period 2026 column)",
+      "ticker": "ABBNY"
+    },
+    {
+      "company_name": "Schneider Electric SE",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": 3.61,
+      "notes": "EV/EBITDA not visible in retrieved snippet; EV/Revenue and P/E taken for fiscal period 2026.",
+      "pe_ntm": 27.0,
+      "source": "MarketScreener Valuation (fiscal period 2026 column)",
+      "ticker": "SBGSY"
+    },
+    {
+      "company_name": "Rockwell Automation, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": 4.99,
+      "notes": "EV/EBITDA not visible in retrieved snippet; EV/Sales and P/E taken for fiscal period 2026.",
+      "pe_ntm": 32.2,
+      "source": "MarketScreener Valuation (fiscal period 2026 column)",
+      "ticker": "ROK"
+    },
+    {
+      "company_name": "Siemens AG",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": 2.85,
+      "notes": "EV/Revenue visible for fiscal period 2026 in retrieved snippet; EV/EBITDA and P/E not visible.",
+      "pe_ntm": null,
+      "source": "MarketScreener Valuation (fiscal period 2026 column)",
+      "ticker": "SIEGY"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.032,
+      "2027": 0.031,
+      "2028": 0.03,
+      "2029": 0.029,
+      "2030": 0.028
+    },
+    "da_pct_sales": {
+      "2026": 0.028,
+      "2027": 0.0285,
+      "2028": 0.029,
+      "2029": 0.029,
+      "2030": 0.029
+    },
+    "ebit_margin": {
+      "2026": 0.085,
+      "2027": 0.087,
+      "2028": 0.089,
+      "2029": 0.091,
+      "2030": 0.093
+    },
+    "nwc_pct_sales": {
+      "2026": 0.0,
+      "2027": 0.005,
+      "2028": 0.007,
+      "2029": 0.007,
+      "2030": 0.008
+    },
+    "revenue_growth": {
+      "2026": 0.09,
+      "2027": 0.1,
+      "2028": 0.09,
+      "2029": 0.06,
+      "2030": 0.05
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 744000000.0,
+      "2024": 883000000.0,
+      "2025": 1277000000.0
+    },
+    "da": {
+      "2023": 964000000.0,
+      "2024": 1172000000.0,
+      "2025": 853000000.0
+    },
+    "ebit": {
+      "2023": -923000000.0,
+      "2024": 471000000.0,
+      "2025": 1388000000.0
+    },
+    "nwc": {
+      "2023": -1878000000.0,
+      "2024": 2468000000.0,
+      "2025": -756000000.0
+    },
+    "revenue": {
+      "2023": 33239000000.0,
+      "2024": 34935000000.0,
+      "2025": 38068000000.0
+    }
+  },
+  "notes": [
+    "Historical data (2023-2025) are taken from GE Vernova filings where the financial statement tables are presented in USD millions; all amounts here are scaled into full USD units (i.e., multiplied by 1,000,000) to satisfy the 'not millions' rule.",
+    "EBIT is proxied as operating income (loss) from the Consolidated and Combined Statement of Income; this differs from some providers\u2019 EBIT definitions (which may include/exclude certain items).",
+    "D&A is calculated as depreciation and amortization of PP&E plus amortization of intangible assets (as shown separately in the filing).",
+    "NWC is defined here as Current assets minus Current liabilities at year-end (includes cash and other current items). This can materially differ from a 'cash-excluded' or 'working capital change' convention used in other DCF pipelines.",
+    "Base-case EBIT margin is modeled using a normalized conversion from the company\u2019s margin disclosures (company emphasizes adjusted EBITDA margin in investor materials); non-recurring/reconciling items may cause actual EBIT realization to diverge from the modeled path.",
+    "Tax rate: the company reports highly volatile effective tax outcomes in 2023-2025 due to valuation allowance dynamics; the base-case uses a normalized forward tax rate assumption (0.24).",
+    "Cash: modeled cash includes cash, cash equivalents, and restricted cash per the filing; this may overstate distributable cash depending on how the pipeline treats restricted cash.",
+    "Debt: modeled debt is limited to short-term borrowings disclosed as ~<$0.1B excluding finance leases; if your DCF requires a different debt definition (e.g., including other borrowings/lease liabilities), adjust 'debt' and/or use 'net_debt_override'.",
+    "Investments is set to null because the schema\u2019s 'investments' mapping is ambiguous relative to this pipeline (capex is already modeled explicitly; non-capex investing such as equity-method investments acquisitions may require a separate convention)."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Closing and integration milestones related to the Prolec GE transaction (timing targeted for mid-2026 in investor messaging).",
+      "Sustained backlog conversion and continued margin expansion in Power and Electrification.",
+      "Additional free-cash-flow deployment (buybacks/dividend) if guidance is maintained."
+    ],
+    "company_overview": [
+      "GE Vernova operates across Power, Wind, and Electrification, delivering both equipment and services tied to the long-cycle global electric power transition.",
+      "Revenue is split between equipment and services, with services contributing to more recurring cash-generation characteristics than equipment alone.",
+      "In 2025, the company emphasized backlog growth, margin expansion, and substantial free cash flow generation."
+    ],
+    "current_context": [
+      "FY2025 results: revenue of $38.1B, operating income (EBIT) of $1.39B, and adjusted EBITDA of $3.2B.",
+      "FY2025 cash generation: cash from operating activities of $5.0B and free cash flow of $3.7B.",
+      "2026 outlook: revenue guidance of $41B\u2013$42B and adjusted EBITDA margin guidance of 11%\u201313%.",
+      "Management also expanded its multi-year outlook to 2028 and disclosed the planned Prolec GE-related expansion (timing targeted mid-2026, per investor materials)."
+    ],
+    "investment_highlights": [
+      "Base case ties revenue growth to the company\u2019s stated 2026 guidance and its multi-year 2028 revenue/outlook framing.",
+      "EBIT margin expansion is modeled as normalization toward a higher-quality earnings profile after 2025\u2019s margin/cash inflections.",
+      "Reinvestment intensity is held near recent levels via capex as a percent of sales, while D&A as a percent of sales stabilizes near historical averages.",
+      "Working-capital intensity is normalized from volatile historical year-end levels toward modest positive NWC as a percent of sales.",
+      "Terminal value uses an economically consistent exit multiple framework (exit EBITDA multiple) with a terminal growth rate reflecting long-cycle electrification demand."
+    ],
+    "key_risks": [
+      "Wind segment cyclicality and execution risk could pressure consolidated margins and earnings quality.",
+      "Working capital volatility driven by project timing (contract liabilities/receivables/inventory) may cause FCF swings vs. model assumptions.",
+      "Tax/regulatory adjustments (including valuation allowance dynamics) could create earnings volatility that differs from modeled normalized tax rates.",
+      "Commodity, supply chain, and project execution risks may impact unit economics and cash conversion."
+    ],
+    "sources": [
+      {
+        "label": "GE Vernova 2025 Form 10-K (PDF)",
+        "notes": "Historical revenue, operating income (EBIT), depreciation & amortization, additions to property/plant/equipment, balance sheet current assets/liabilities used for NWC.",
+        "url": "https://www.gevernova.com/sites/default/files/gevernova_2025_form10-k.pdf"
+      },
+      {
+        "label": "GE Vernova FY2025 earnings press release (Jan 28, 2026)",
+        "notes": "FY2025 revenue, operating performance highlights, and cash/FCF commentary.",
+        "url": "https://www.gevernova.com/news/press-releases/ge-vernova-reports-fourth-quarter-full-year-2025-financial-results"
+      },
+      {
+        "label": "GE Vernova Investor Update / multi-year outlook (Dec 9, 2025)",
+        "notes": "2026 revenue and adjusted EBITDA margin guidance; multi-year outlook to 2028 used for base-case growth rationale.",
+        "url": "https://www.gevernova.com/news/press-releases/ge-vernova-raises-multi-year-financial-outlook-doubles-dividend-increases-buyback-authorization"
+      },
+      {
+        "label": "GE Vernova 2024 Form 10-K (SEC HTML)",
+        "notes": "Historical 2023/current balance sheet numbers used to compute 2023 NWC under the same definition.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681025000011/gev-20241231.htm"
+      }
+    ],
+    "subtitle": "GE Vernova DCF & Multiples \u2014 backlog-driven growth in Power & Electrification",
+    "valuation_summary": [
+      "DCF mechanics use historical operating profitability (EBIT), cash reinvestment (capex), and reinvestment efficiency (D&A as % of sales) to produce forward FCF.",
+      "Scenario design is restrained: bull/bear changes only growth, margin, and terminal/WACC assumptions to reflect plausible operating and market uncertainty.",
+      "Comps provide a directional valuation cross-check using EV/Revenue and EV/EBITDA style metrics from peer valuation screens."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.089,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 11.0,
+        "terminal_growth": 0.02,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.105
+      },
+      "description": "Modestly weaker growth and margin realization; higher WACC and lower terminal assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.032,
+          "2027": 0.031,
+          "2028": 0.03,
+          "2029": 0.029,
+          "2030": 0.028
+        },
+        "da_pct_sales": {
+          "2026": 0.028,
+          "2027": 0.0285,
+          "2028": 0.029,
+          "2029": 0.029,
+          "2030": 0.029
+        },
+        "ebit_margin": {
+          "2026": 0.081,
+          "2027": 0.083,
+          "2028": 0.085,
+          "2029": 0.087,
+          "2030": 0.089
+        },
+        "nwc_pct_sales": {
+          "2026": 0.0,
+          "2027": 0.005,
+          "2028": 0.007,
+          "2029": 0.007,
+          "2030": 0.008
+        },
+        "revenue_growth": {
+          "2026": 0.075,
+          "2027": 0.085,
+          "2028": 0.075,
+          "2029": 0.04,
+          "2030": 0.04
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.098,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 13.0,
+        "terminal_growth": 0.025,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.09
+      },
+      "description": "Modestly stronger revenue growth and EBIT margin expansion; slightly lower WACC and higher terminal exit multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.032,
+          "2027": 0.031,
+          "2028": 0.03,
+          "2029": 0.029,
+          "2030": 0.028
+        },
+        "da_pct_sales": {
+          "2026": 0.028,
+          "2027": 0.0285,
+          "2028": 0.029,
+          "2029": 0.029,
+          "2030": 0.029
+        },
+        "ebit_margin": {
+          "2026": 0.09,
+          "2027": 0.092,
+          "2028": 0.094,
+          "2029": 0.096,
+          "2030": 0.098
+        },
+        "nwc_pct_sales": {
+          "2026": 0.0,
+          "2027": 0.005,
+          "2028": 0.007,
+          "2029": 0.007,
+          "2030": 0.008
+        },
+        "revenue_growth": {
+          "2026": 0.105,
+          "2027": 0.115,
+          "2028": 0.105,
+          "2029": 0.07,
+          "2030": 0.06
+        }
+      }
+    }
+  },
+  "ticker": "GEV"
+}

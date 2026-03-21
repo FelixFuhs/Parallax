@@ -1,0 +1,688 @@
+{
+  "_meta": {
+    "cost_usd": 0.027049,
+    "generated_at": "2026-03-21T17:15:02Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12654,
+      "prompt": 2514,
+      "reasoning": 8583
+    }
+  },
+  "_valuation": {
+    "company_name": "Johnson & Johnson",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 235.37,
+        "description": "Base case",
+        "enterprise_value": 393976363876.8841,
+        "equity_value": 366145363876.8841,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 434318182584.63873,
+        "implied_market_cap": 366145363876.8841,
+        "investments_adjustment": 393000000.0,
+        "net_debt": 28224000000.0,
+        "per_share_value": 150.71431788790815,
+        "projected_years": [
+          {
+            "capex": 5068054365.0,
+            "cash_taxes": 4307846210.25,
+            "da": 8098949622.5,
+            "delta_nwc": -3803306100.000002,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 25340271825.0,
+            "ebit_margin": 0.255,
+            "ebitda": 33439221447.5,
+            "fcff": 27866626972.25,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -13912306100.000002,
+            "present_value_fcff": 25683527163.364056,
+            "revenue": 99373615000.0,
+            "revenue_growth": 0.055,
+            "year": 2026
+          },
+          {
+            "capex": 5192271383.75,
+            "cash_taxes": 4466391844.30175,
+            "da": 8411479641.675,
+            "delta_nwc": -106826636.1249981,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 26272893201.775,
+            "ebit_margin": 0.253,
+            "ebitda": 34684372843.450005,
+            "fcff": 25132536251.523247,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -14019132736.125,
+            "present_value_fcff": 21348965789.482258,
+            "revenue": 103845427675.0,
+            "revenue_growth": 0.045,
+            "year": 2027
+          },
+          {
+            "capex": 5399962239.1,
+            "cash_taxes": 4645047518.07382,
+            "da": 8693939204.951,
+            "delta_nwc": -20769085.534999847,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 27323808929.846,
+            "ebit_margin": 0.253,
+            "ebitda": 36017748134.797,
+            "fcff": 25993507463.158176,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -14039901821.66,
+            "present_value_fcff": 20350527499.526142,
+            "revenue": 107999244782.0,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 5578160992.990299,
+            "cash_taxes": 4779368338.794088,
+            "da": 8925057588.78448,
+            "delta_nwc": -128627100.53536034,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 28113931404.67111,
+            "ebit_margin": 0.252,
+            "ebitda": 37038988993.45559,
+            "fcff": 26810086762.20656,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -14168528922.19536,
+            "present_value_fcff": 19345469166.60093,
+            "revenue": 111563219859.80598,
+            "revenue_growth": 0.033,
+            "year": 2029
+          },
+          {
+            "capex": 5745505822.780009,
+            "cash_taxes": 4922749388.957912,
+            "da": 9192809316.448013,
+            "delta_nwc": -195235634.75466156,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 28957349346.811245,
+            "ebit_margin": 0.252,
+            "ebitda": 38150158663.25926,
+            "fcff": 27677139086.275997,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -14363764556.950022,
+            "present_value_fcff": 18406554679.04534,
+            "revenue": 114910116455.60017,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 434318182584.63873,
+        "terminal_value_present_value": 288841319578.86536,
+        "upside_downside_pct": -0.35967065519009156
+      },
+      "bear": {
+        "current_price": 235.37,
+        "description": "Modestly lower growth and less margin expansion vs. base; slightly higher WACC/lower terminal growth.",
+        "enterprise_value": 375535330141.46533,
+        "equity_value": 347704330141.46533,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 411164604871.57544,
+        "implied_market_cap": 347704330141.46533,
+        "investments_adjustment": 393000000.0,
+        "net_debt": 28224000000.0,
+        "per_share_value": 143.12354085019567,
+        "projected_years": [
+          {
+            "capex": 5053642836.0,
+            "cash_taxes": 4245059982.2400002,
+            "da": 8026373916.0,
+            "delta_nwc": -4259200219.999998,
+            "discount_factor": 0.9208103130755064,
+            "ebit": 24970941072.0,
+            "ebit_margin": 0.252,
+            "ebitda": 32997314988.0,
+            "fcff": 27957812389.759995,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -14368200219.999998,
+            "present_value_fcff": 25743841979.52117,
+            "revenue": 99091036000.0,
+            "revenue_growth": 0.052,
+            "year": 2026
+          },
+          {
+            "capex": 5167597527.400001,
+            "cash_taxes": 4392457898.29,
+            "da": 8319832019.114,
+            "delta_nwc": -101072856.72000313,
+            "discount_factor": 0.8478916326662121,
+            "ebit": 25837987637.0,
+            "ebit_margin": 0.25,
+            "ebitda": 34157819656.114,
+            "fcff": 24698837087.143997,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -14469273076.720001,
+            "present_value_fcff": 20941937302.775314,
+            "revenue": 103351950548.0,
+            "revenue_growth": 0.043,
+            "year": 2027
+          },
+          {
+            "capex": 5363966233.4412,
+            "cash_taxes": 4559371298.42502,
+            "da": 8582345973.50592,
+            "delta_nwc": -13435753.571239471,
+            "discount_factor": 0.780747359729477,
+            "ebit": 26819831167.206,
+            "ebit_margin": 0.25,
+            "ebitda": 35402177140.71192,
+            "fcff": 25492275362.416943,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -14482708830.29124,
+            "present_value_fcff": 19903026682.703823,
+            "revenue": 107279324668.824,
+            "revenue_growth": 0.038,
+            "year": 2028
+          },
+          {
+            "capex": 5530249186.677877,
+            "cash_taxes": 4681908961.441491,
+            "da": 8793096206.817825,
+            "delta_nwc": -117149022.53835487,
+            "discount_factor": 0.7189202207453748,
+            "ebit": 27540640949.655827,
+            "ebit_margin": 0.249,
+            "ebitda": 36333737156.47365,
+            "fcff": 26238728030.89264,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -14599857852.829596,
+            "present_value_fcff": 18863552148.047188,
+            "revenue": 110604983733.55754,
+            "revenue_growth": 0.031,
+            "year": 2029
+          },
+          {
+            "capex": 5685096163.904858,
+            "cash_taxes": 4813002412.361853,
+            "da": 9039302900.608725,
+            "delta_nwc": -181392173.3230343,
+            "discount_factor": 0.6619891535408606,
+            "ebit": 28311778896.24619,
+            "ebit_margin": 0.249,
+            "ebitda": 37351081796.85491,
+            "fcff": 27034375393.91124,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -14781250026.15263,
+            "present_value_fcff": 17896463283.52117,
+            "revenue": 113701923278.09715,
+            "revenue_growth": 0.028,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 411164604871.57544,
+        "terminal_value_present_value": 272186508744.89664,
+        "upside_downside_pct": -0.39192105684583567
+      },
+      "bull": {
+        "current_price": 235.37,
+        "description": "Modestly higher growth and margin expansion vs. base; slightly lower WACC/terminal growth.",
+        "enterprise_value": 412814415445.70917,
+        "equity_value": 384983415445.70917,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 457923145988.96893,
+        "implied_market_cap": 384983415445.70917,
+        "investments_adjustment": 393000000.0,
+        "net_debt": 28224000000.0,
+        "per_share_value": 158.46851710122218,
+        "projected_years": [
+          {
+            "capex": 5082465894.0,
+            "cash_taxes": 4370920668.84,
+            "da": 8121979811.0,
+            "delta_nwc": -3344586190.0,
+            "discount_factor": 0.9225092250922509,
+            "ebit": 25711298052.0,
+            "ebit_margin": 0.258,
+            "ebitda": 33833277863.0,
+            "fcff": 27724477490.16,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -13453586190.0,
+            "present_value_fcff": 25576086245.535053,
+            "revenue": 99656194000.0,
+            "revenue_growth": 0.058,
+            "year": 2026
+          },
+          {
+            "capex": 5217001755.900001,
+            "cash_taxes": 4540878328.335361,
+            "da": 8503712862.117001,
+            "delta_nwc": -110618375.34000015,
+            "discount_factor": 0.8510232703803052,
+            "ebit": 26711048990.208,
+            "ebit_margin": 0.256,
+            "ebitda": 35214761852.325,
+            "fcff": 25567500143.429638,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -13564204565.34,
+            "present_value_fcff": 21758537587.510414,
+            "revenue": 104340035118.0,
+            "revenue_growth": 0.047,
+            "year": 2027
+          },
+          {
+            "capex": 5436115829.6478,
+            "cash_taxes": 4713112424.304643,
+            "da": 8806507644.029436,
+            "delta_nwc": -134807325.3724575,
+            "discount_factor": 0.7850768176940084,
+            "ebit": 27724190731.20378,
+            "ebit_margin": 0.255,
+            "ebitda": 36530698375.233215,
+            "fcff": 26516277446.65323,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -13699011890.712458,
+            "present_value_fcff": 20817314714.909924,
+            "revenue": 108722316592.95601,
+            "revenue_growth": 0.042,
+            "year": 2028
+          },
+          {
+            "capex": 5626379883.685473,
+            "cash_taxes": 4878071359.155306,
+            "da": 9058471612.733612,
+            "delta_nwc": -141882623.15380478,
+            "discount_factor": 0.72424060672879,
+            "ebit": 28694537406.795914,
+            "ebit_margin": 0.255,
+            "ebitda": 37753009019.529526,
+            "fcff": 27390440399.842552,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -13840894513.866262,
+            "present_value_fcff": 19837269173.750732,
+            "revenue": 112527597673.70946,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 5812050419.847094,
+            "cash_taxes": 5039047714.00743,
+            "da": 9357401175.953821,
+            "delta_nwc": -108026493.76675987,
+            "discount_factor": 0.6681186408937176,
+            "ebit": 29641457141.220177,
+            "ebit_margin": 0.255,
+            "ebitda": 38998858317.173996,
+            "fcff": 28255786677.086235,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -13948921007.633022,
+            "present_value_fcff": 18878217792.07767,
+            "revenue": 116241008396.94186,
+            "revenue_growth": 0.033,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 457923145988.96893,
+        "terminal_value_present_value": 305946989931.92535,
+        "upside_downside_pct": -0.3267259332063467
+      }
+    },
+    "ticker": "JNJ"
+  },
+  "assumptions": {
+    "cash": 19709000000.0,
+    "current_price": 235.37,
+    "debt": 47933000000.0,
+    "diluted_shares": 2429400000.0,
+    "investments": 393000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.252,
+    "tax_rate": 0.17,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Johnson & Johnson",
+  "comps": [
+    {
+      "company_name": "Pfizer",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM not collected from an auditable free source in this pass.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PFE"
+    },
+    {
+      "company_name": "Merck & Co.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM not collected from an auditable free source in this pass.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "MRK"
+    },
+    {
+      "company_name": "Bristol Myers Squibb",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM not collected from an auditable free source in this pass.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "BMY"
+    },
+    {
+      "company_name": "AbbVie",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM not collected from an auditable free source in this pass.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ABBV"
+    },
+    {
+      "company_name": "Eli Lilly",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM not collected from an auditable free source in this pass.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "LLY"
+    },
+    {
+      "company_name": "Amgen",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM not collected from an auditable free source in this pass.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "AMGN"
+    },
+    {
+      "company_name": "Medtronic",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM not collected from an auditable free source in this pass.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "MDT"
+    },
+    {
+      "company_name": "Abbott Laboratories",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and P/E NTM not collected from an auditable free source in this pass.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ABT"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.051,
+      "2027": 0.05,
+      "2028": 0.05,
+      "2029": 0.05,
+      "2030": 0.05
+    },
+    "da_pct_sales": {
+      "2026": 0.0815,
+      "2027": 0.081,
+      "2028": 0.0805,
+      "2029": 0.08,
+      "2030": 0.08
+    },
+    "ebit_margin": {
+      "2026": 0.255,
+      "2027": 0.253,
+      "2028": 0.253,
+      "2029": 0.252,
+      "2030": 0.252
+    },
+    "nwc_pct_sales": {
+      "2026": -0.14,
+      "2027": -0.135,
+      "2028": -0.13,
+      "2029": -0.127,
+      "2030": -0.125
+    },
+    "revenue_growth": {
+      "2026": 0.055,
+      "2027": 0.045,
+      "2028": 0.04,
+      "2029": 0.033,
+      "2030": 0.03
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 4543000000.0,
+      "2024": 4424000000.0,
+      "2025": 4832000000.0
+    },
+    "da": {
+      "2023": 7486000000.0,
+      "2024": 7339000000.0,
+      "2025": 7503000000.0
+    },
+    "ebit": {
+      "2023": 21207000000.0,
+      "2024": 20902000000.0,
+      "2025": 24556000000.0
+    },
+    "nwc": {
+      "2023": -12263000000.0,
+      "2024": -12967000000.0,
+      "2025": -10109000000.0
+    },
+    "revenue": {
+      "2023": 85159000000.0,
+      "2024": 88821000000.0,
+      "2025": 94193000000.0
+    }
+  },
+  "notes": [
+    "EBIT definition: JNJ does not present a labeled 'Operating income' / 'EBIT' line in the extracted statement table; EBIT here is modeled as Gross profit - Selling, marketing & administrative - R&D - In-process R&D impairments - Restructuring (all from consolidated statements of earnings). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000016/jnj-20251228.htm))",
+    "Working capital (NWC) definition for this package: (Total current assets - Cash & cash equivalents - Marketable securities) - (Total current liabilities - Loans and notes payable). NWC can be negative (as observed in historical data). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000016/jnj-20251228.htm))",
+    "Tax rate: base-case uses a normalized effective tax rate assumption of 0.17, anchored to reported effective tax rates for continuing operations (17.7% in 2025; 15.7% in 2024). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000016/jnj-20251228.htm))",
+    "Cash/debt/investments: cash = cash & cash equivalents; investments = marketable securities (short-term). Debt = Loans and notes payable + Long-term debt. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000016/jnj-20251228.htm))",
+    "NOL fields: JNJ discloses 'Net operating loss & tax credit carryforwards' within deferred tax disclosures, but not a standalone NOL principal balance and NOL utilization percent suitable for direct DCF tax-shield modeling in this pass; therefore nol_balance and nol_utilization_pct are set to null.",
+    "WACC, terminal growth, and scenario deltas are modeling assumptions (not directly sourced from filings/consensus); adjust if your pipeline uses a different capital structure or discount-rate framework.",
+    "Stock price: current_price set to $235.37 from the latest available market data timestamp provided by the pricing lookup tool (trade time 2026-03-20 UTC)."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "2026 execution vs. guidance (sales growth and adjusted EPS trajectory) provides near-term directional confirmation for the DCF path. ([investor.jnj.com](https://investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results/default.aspx))",
+      "Major portfolio launches/label expansions in Innovative Medicine could lift growth above the base-case trajectory. ([investor.jnj.com](https://investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results/default.aspx))",
+      "MedTech innovation/adoption cycles could continue to support mid-single-digit revenue growth even as legacy products mature. ([s203.q4cdn.com](https://s203.q4cdn.com/636242992/files/doc_news/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results-2026.pdf))"
+    ],
+    "company_overview": [
+      "Johnson & Johnson (JNJ) operates in two reporting segments: Innovative Medicine and MedTech. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000016/jnj-20251228.htm))",
+      "Innovative Medicine is focused across oncology, immunology, neuroscience, pulmonary hypertension, infectious diseases, and cardiovascular/metabolism therapeutic areas. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000016/jnj-20251228.htm))",
+      "MedTech spans cardiovascular and other surgical/vision-adjacent medical technologies, supporting recurring demand in elective and chronic care cycles. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000016/jnj-20251228.htm))"
+    ],
+    "current_context": [
+      "On 2026-01-21, JNJ reported FY2025 sales of $94.193B (+6.0% reported) and guided FY2026 to midpoint reported sales of $100.5B (+6.7%) and adjusted EPS of $11.53 (+6.9%). ([investor.jnj.com](https://investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results/default.aspx))",
+      "Management highlighted FY2025 as an acceleration year, with FY2025 free cash flow estimated at ~$19.7B. ([investor.jnj.com](https://investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results/default.aspx))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth decelerates from the FY2026 guided run-rate toward a mid/late-cycle steady state consistent with the terminal growth assumption (2%). ([investor.jnj.com](https://investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results/default.aspx))",
+      "EBIT margin is modeled to remain broadly stable with modest improvement versus FY2024, reflecting operating leverage and disciplined reinvestment (capex ~5% of sales). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000016/jnj-20251228.htm))",
+      "Historically, JNJ exhibits negative net working capital (rebates/payables dynamics), which is carried forward in the model as a working-capital tailwind. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000016/jnj-20251228.htm))",
+      "Tax rate is anchored to recent effective tax levels from continuing operations rather than a static statutory rate. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000016/jnj-20251228.htm))"
+    ],
+    "key_risks": [
+      "Patent expiry, biosimilar competition, and reimbursement pressure could reduce organic growth and/or pressure EBIT margin vs. assumptions. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000016/jnj-20251228.htm))",
+      "Working-capital dynamics (rebates/collections/payables) may normalize, reducing the modeled tailwind from negative NWC.",
+      "Regulatory, manufacturing, and litigation risks can create discrete charges that affect profitability and cash flow timing. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000016/jnj-20251228.htm))"
+    ],
+    "sources": [
+      {
+        "label": "FY2025 Form 10-K (SEC)",
+        "notes": "Used for: FY2023\u2013FY2025 revenue and earnings statement line items (to build EBIT proxy), cash-flow D&A and capex, balance-sheet cash/debt/current assets/current liabilities (to build NWC), and diluted share count. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000016/jnj-20251228.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm"
+      },
+      {
+        "label": "Johnson & Johnson reports Q4 and Full-Year 2025 results (Investor Relations)",
+        "notes": "Used for: FY2026 sales and adjusted EPS guidance midpoint; FY2025 sales growth and FCF context. ([investor.jnj.com](https://investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results/default.aspx))",
+        "url": "https://investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results/default.aspx"
+      },
+      {
+        "label": "FY2025 earnings release PDF",
+        "notes": "Secondary confirmation of FY2025 results and FY2026 guidance figures referenced in current_context. ([s203.q4cdn.com](https://s203.q4cdn.com/636242992/files/doc_news/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results-2026.pdf))",
+        "url": "https://s203.q4cdn.com/636242992/files/doc_news/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results-2026.pdf"
+      }
+    ],
+    "subtitle": "JNJ: FY2025 Base-Case DCF Input Package (2026\u20132030)",
+    "valuation_summary": [
+      "DCF base-case is anchored on FY2025 actuals (revenue, operating cash-flow components, and balance-sheet working capital inputs) from JNJ\u2019s FY2025 Form 10-K. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000016/jnj-20251228.htm))",
+      "Reinvestment intensity is modeled via capex as a percent of sales and depreciation as a percent of sales, both tied to recent historical averages. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000016/jnj-20251228.htm))",
+      "Terminal value uses a Gordon growth approach (terminal method = gordon_growth) with terminal growth set to 2.0% to reflect long-run macro conditions.",
+      "Comps are included as peer placeholders; NTM EV/Revenue, EV/EBITDA, and P/E NTM were not populated from a verifiable free market-data source in this pass."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 235.37,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.249,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.019,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.086
+      },
+      "description": "Modestly lower growth and less margin expansion vs. base; slightly higher WACC/lower terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.051,
+          "2027": 0.05,
+          "2028": 0.05,
+          "2029": 0.05,
+          "2030": 0.05
+        },
+        "da_pct_sales": {
+          "2026": 0.081,
+          "2027": 0.0805,
+          "2028": 0.08,
+          "2029": 0.0795,
+          "2030": 0.0795
+        },
+        "ebit_margin": {
+          "2026": 0.252,
+          "2027": 0.25,
+          "2028": 0.25,
+          "2029": 0.249,
+          "2030": 0.249
+        },
+        "nwc_pct_sales": {
+          "2026": -0.145,
+          "2027": -0.14,
+          "2028": -0.135,
+          "2029": -0.132,
+          "2030": -0.13
+        },
+        "revenue_growth": {
+          "2026": 0.052,
+          "2027": 0.043,
+          "2028": 0.038,
+          "2029": 0.031,
+          "2030": 0.028
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 235.37,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.255,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.021,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.084
+      },
+      "description": "Modestly higher growth and margin expansion vs. base; slightly lower WACC/terminal growth.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.051,
+          "2027": 0.05,
+          "2028": 0.05,
+          "2029": 0.05,
+          "2030": 0.05
+        },
+        "da_pct_sales": {
+          "2026": 0.0815,
+          "2027": 0.0815,
+          "2028": 0.081,
+          "2029": 0.0805,
+          "2030": 0.0805
+        },
+        "ebit_margin": {
+          "2026": 0.258,
+          "2027": 0.256,
+          "2028": 0.255,
+          "2029": 0.255,
+          "2030": 0.255
+        },
+        "nwc_pct_sales": {
+          "2026": -0.135,
+          "2027": -0.13,
+          "2028": -0.126,
+          "2029": -0.123,
+          "2030": -0.12
+        },
+        "revenue_growth": {
+          "2026": 0.058,
+          "2027": 0.047,
+          "2028": 0.042,
+          "2029": 0.035,
+          "2030": 0.033
+        }
+      }
+    }
+  },
+  "ticker": "JNJ"
+}

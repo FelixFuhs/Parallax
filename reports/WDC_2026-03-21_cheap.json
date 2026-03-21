@@ -1,0 +1,674 @@
+{
+  "_meta": {
+    "cost_usd": 0.027558,
+    "generated_at": "2026-03-21T17:24:01Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 12850,
+      "prompt": 2514,
+      "reasoning": 8794
+    }
+  },
+  "_valuation": {
+    "company_name": "Western Digital Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 293.1,
+        "description": "Base case",
+        "enterprise_value": 11628509875.828028,
+        "equity_value": 9793509875.828028,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 12509382477.66321,
+        "implied_market_cap": 9793509875.828028,
+        "investments_adjustment": 991000000.0,
+        "net_debt": 2597000000.0,
+        "per_share_value": 27.279971798963867,
+        "projected_years": [
+          {
+            "capex": 539308000.0,
+            "cash_taxes": 105610240.0,
+            "da": 490280000.0,
+            "delta_nwc": 52280000.0,
+            "discount_factor": 0.8773469029654326,
+            "ebit": 1863064000.0,
+            "ebit_margin": 0.19,
+            "ebitda": 2353344000.0,
+            "fcff": 1656145760.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 1203000000.0,
+            "nwc": 490280000.0,
+            "present_value_fcff": 1453014353.3953326,
+            "revenue": 9805600000.0,
+            "revenue_growth": 0.03,
+            "year": 2026
+          },
+          {
+            "capex": 532689220.0,
+            "cash_taxes": 273380128.00000006,
+            "da": 512587739.99999994,
+            "delta_nwc": 32358480.0,
+            "discount_factor": 0.7697375881430362,
+            "ebit": 1708625800.0000002,
+            "ebit_margin": 0.17,
+            "ebitda": 2221213540.0,
+            "fcff": 1382785712.0000002,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 522638480.0,
+            "present_value_fcff": 1064382138.8735312,
+            "revenue": 10050740000.0,
+            "revenue_growth": 0.025,
+            "year": 2027
+          },
+          {
+            "capex": 534136526.56,
+            "cash_taxes": 276107496.80640006,
+            "da": 523864670.28,
+            "delta_nwc": -19317522.27999997,
+            "discount_factor": 0.6753268890533745,
+            "ebit": 1725671855.0400002,
+            "ebit_margin": 0.168,
+            "ebitda": 2249536525.32,
+            "fcff": 1458610024.2336001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 503320957.72,
+            "present_value_fcff": 985038570.0077443,
+            "revenue": 10271856280.0,
+            "revenue_growth": 0.022,
+            "year": 2028
+          },
+          {
+            "capex": 534341963.6856,
+            "cash_taxes": 278276912.852736,
+            "da": 523864670.28000003,
+            "delta_nwc": -410874.2512000203,
+            "discount_factor": 0.5924959546002584,
+            "ebit": 1739230705.3296,
+            "ebit_margin": 0.166,
+            "ebitda": 2263095375.6096,
+            "fcff": 1450887373.322464,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 502910083.4688,
+            "present_value_fcff": 859644899.2741548,
+            "revenue": 10477293405.6,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 533294234.3450401,
+            "cash_taxes": 281579355.73418117,
+            "da": 522628349.6581392,
+            "delta_nwc": -1613503.1844623685,
+            "discount_factor": 0.5198244907880842,
+            "ebit": 1759870973.338632,
+            "ebit_margin": 0.165,
+            "ebitda": 2282499322.9967713,
+            "fcff": 1469239236.1020124,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 501296580.28433764,
+            "present_value_fcff": 763746537.7526025,
+            "revenue": 10665884686.9008,
+            "revenue_growth": 0.018,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 12509382477.66321,
+        "terminal_value_present_value": 6502683376.524662,
+        "upside_downside_pct": -0.9069260600513004
+      },
+      "bear": {
+        "current_price": 293.1,
+        "description": "Modestly softer demand and margin normalization; slightly higher discount rate and lower terminal assumptions.",
+        "enterprise_value": 10218098504.702133,
+        "equity_value": 8383098504.702133,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 10810676986.481346,
+        "implied_market_cap": 8383098504.702133,
+        "investments_adjustment": 991000000.0,
+        "net_debt": 2597000000.0,
+        "per_share_value": 23.351249316719034,
+        "projected_years": [
+          {
+            "capex": 536690000.0,
+            "cash_taxes": 88550400.0,
+            "da": 487900000.0,
+            "delta_nwc": 49900000.0,
+            "discount_factor": 0.8733624454148472,
+            "ebit": 1756440000.0,
+            "ebit_margin": 0.18,
+            "ebitda": 2244340000.0,
+            "fcff": 1569199600.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 1203000000.0,
+            "nwc": 487900000.0,
+            "present_value_fcff": 1370480000.0,
+            "revenue": 9758000000.0,
+            "revenue_growth": 0.025,
+            "year": 2026
+          },
+          {
+            "capex": 527517480.0,
+            "cash_taxes": 254800896.0,
+            "da": 507611159.99999994,
+            "delta_nwc": 29664320.0,
+            "discount_factor": 0.7627619610610018,
+            "ebit": 1592505600.0,
+            "ebit_margin": 0.16,
+            "ebitda": 2100116760.0,
+            "fcff": 1288134064.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 517564320.0,
+            "present_value_fcff": 982539664.766118,
+            "revenue": 9953160000.0,
+            "revenue_growth": 0.02,
+            "year": 2027
+          },
+          {
+            "capex": 526362913.4399999,
+            "cash_taxes": 255893354.84159997,
+            "da": 516240549.71999985,
+            "delta_nwc": -21568497.72000009,
+            "discount_factor": 0.666167651581661,
+            "ebit": 1599333467.7599998,
+            "ebit_margin": 0.158,
+            "ebitda": 2115574017.4799995,
+            "fcff": 1354886246.9183998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 495995822.2799999,
+            "present_value_fcff": 902581389.269921,
+            "revenue": 10122363719.999998,
+            "revenue_growth": 0.017,
+            "year": 2028
+          },
+          {
+            "capex": 523984157.9657998,
+            "cash_taxes": 258087883.29609594,
+            "da": 513709958.7899999,
+            "delta_nwc": -2834261.841600001,
+            "discount_factor": 0.5818058092416253,
+            "ebit": 1613049270.6005995,
+            "ebit_margin": 0.157,
+            "ebitda": 2126759229.3905995,
+            "fcff": 1347521449.9703038,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 493161560.4383999,
+            "present_value_fcff": 783995807.6704209,
+            "revenue": 10274199175.799997,
+            "revenue_growth": 0.015,
+            "year": 2029
+          },
+          {
+            "capex": 520388188.25426984,
+            "cash_taxes": 258112541.37411782,
+            "da": 509980424.48918444,
+            "delta_nwc": -3996663.4793863297,
+            "discount_factor": 0.50812734431583,
+            "ebit": 1613203383.5882363,
+            "ebit_margin": 0.155,
+            "ebitda": 2123183808.0774207,
+            "fcff": 1348679741.9284194,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 489164896.9590136,
+            "present_value_fcff": 685301055.5986466,
+            "revenue": 10407763765.085396,
+            "revenue_growth": 0.013,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 10810676986.481346,
+        "terminal_value_present_value": 5493200587.397026,
+        "upside_downside_pct": -0.9203300944499522
+      },
+      "bull": {
+        "current_price": 293.1,
+        "description": "Modestly stronger demand and execution; slightly higher margins and valuation inputs.",
+        "enterprise_value": 13313169806.916368,
+        "equity_value": 11478169806.916368,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 14552399326.963545,
+        "implied_market_cap": 11478169806.916368,
+        "investments_adjustment": 991000000.0,
+        "net_debt": 2597000000.0,
+        "per_share_value": 31.9726178465637,
+        "projected_years": [
+          {
+            "capex": 541926000.0,
+            "cash_taxes": 122822400.0,
+            "da": 492660000.0,
+            "delta_nwc": 54660000.0,
+            "discount_factor": 0.8818342151675486,
+            "ebit": 1970640000.0,
+            "ebit_margin": 0.2,
+            "ebitda": 2463300000.0,
+            "fcff": 1743891600.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 1203000000.0,
+            "nwc": 492660000.0,
+            "present_value_fcff": 1537823280.4232805,
+            "revenue": 9853200000.0,
+            "revenue_growth": 0.035,
+            "year": 2026
+          },
+          {
+            "capex": 537886188.0,
+            "cash_taxes": 292285324.8,
+            "da": 517588595.99999994,
+            "delta_nwc": 35077392.0,
+            "discount_factor": 0.7776315830401663,
+            "ebit": 1826783280.0,
+            "ebit_margin": 0.18,
+            "ebitda": 2344371876.0,
+            "fcff": 1479122971.2,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 527737392.0,
+            "present_value_fcff": 1150212737.6053305,
+            "revenue": 10148796000.0,
+            "revenue_growth": 0.03,
+            "year": 2027
+          },
+          {
+            "capex": 541986301.584,
+            "cash_taxes": 295174078.09344,
+            "da": 531563488.09199995,
+            "delta_nwc": -17019530.89199996,
+            "discount_factor": 0.6857421367197235,
+            "ebit": 1844837988.0839999,
+            "ebit_margin": 0.177,
+            "ebitda": 2376401476.1759996,
+            "fcff": 1556260627.39056,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 510717861.10800004,
+            "present_value_fcff": 1067193487.91958,
+            "revenue": 10422813492.0,
+            "revenue_growth": 0.027,
+            "year": 2028
+          },
+          {
+            "capex": 544852575.2943,
+            "cash_taxes": 300844088.633088,
+            "da": 534169191.465,
+            "delta_nwc": 2084562.698399961,
+            "discount_factor": 0.6047108789415552,
+            "ebit": 1880275553.9567997,
+            "ebit_margin": 0.176,
+            "ebitda": 2414444745.4217997,
+            "fcff": 1566663518.796012,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 512802423.8064,
+            "present_value_fcff": 947378473.4568061,
+            "revenue": 10683383829.3,
+            "revenue_growth": 0.025,
+            "year": 2029
+          },
+          {
+            "capex": 546455082.8686949,
+            "cash_taxes": 306014846.4064691,
+            "da": 535525981.211321,
+            "delta_nwc": 865354.0901731849,
+            "discount_factor": 0.5332547433347048,
+            "ebit": 1912592790.040432,
+            "ebit_margin": 0.175,
+            "ebitda": 2448118771.251753,
+            "fcff": 1594783487.886416,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 513667777.8965732,
+            "present_value_fcff": 850425859.5072961,
+            "revenue": 10929101657.373898,
+            "revenue_growth": 0.023,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 14552399326.963545,
+        "terminal_value_present_value": 7760135968.004076,
+        "upside_downside_pct": -0.8909156675313419
+      }
+    },
+    "ticker": "WDC"
+  },
+  "assumptions": {
+    "cash": 2114000000.0,
+    "current_price": 293.1,
+    "debt": 4711000000.0,
+    "diluted_shares": 359000000.0,
+    "investments": 991000000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 1203000000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 229000000.0,
+    "target_ebit_margin": 0.165,
+    "tax_rate": 0.16,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.1398
+  },
+  "company_name": "Western Digital Corporation",
+  "comps": [
+    {
+      "company_name": "Seagate Technology Holdings plc",
+      "ev_ntm_ebitda": 32.76,
+      "ev_ntm_revenue": 9.29,
+      "notes": "EV/Sales and EV/EBITDA are taken as displayed on StockAnalysis; the page does not explicitly label them as NTM. Treat as NTM proxies.",
+      "pe_ntm": 24.64,
+      "source": "StockAnalysis statistics (EV/Sales, EV/EBITDA, forward PE) as proxies for NTM multiples.",
+      "ticker": "STX"
+    },
+    {
+      "company_name": "Micron Technology, Inc.",
+      "ev_ntm_ebitda": 21.22,
+      "ev_ntm_revenue": 11.15,
+      "notes": "EV/Sales and EV/EBITDA shown on StockAnalysis are used as NTM proxies; forward PE is used as P/E NTM proxy.",
+      "pe_ntm": 9.91,
+      "source": "StockAnalysis statistics (EV/Sales, EV/EBITDA, forward PE) as proxies for NTM multiples.",
+      "ticker": "MU"
+    },
+    {
+      "company_name": "NetApp, Inc.",
+      "ev_ntm_ebitda": 11.23,
+      "ev_ntm_revenue": 2.93,
+      "notes": "EV/Sales and EV/EBITDA are used as NTM proxies (StockAnalysis does not explicitly provide EV/NTM).",
+      "pe_ntm": 12.06,
+      "source": "StockAnalysis statistics (EV/Sales, EV/EBITDA, forward PE) as proxies for NTM multiples.",
+      "ticker": "NTAP"
+    },
+    {
+      "company_name": "Pure Storage, Inc.",
+      "ev_ntm_ebitda": 72.58,
+      "ev_ntm_revenue": 5.23,
+      "notes": "High EV/EBITDA reflects current market expectations; treat as a rough proxy due to NTM labeling limitations.",
+      "pe_ntm": 26.89,
+      "source": "StockAnalysis statistics (EV/Sales, EV/EBITDA, forward PE) as proxies for NTM multiples.",
+      "ticker": "PSTG"
+    },
+    {
+      "company_name": "Dell Technologies Inc.",
+      "ev_ntm_ebitda": 13.61,
+      "ev_ntm_revenue": 1.04,
+      "notes": "EV/Sales and EV/EBITDA used as NTM proxies; forward PE used as P/E NTM proxy.",
+      "pe_ntm": 11.53,
+      "source": "StockAnalysis statistics (EV/Sales, EV/EBITDA, forward PE) as proxies for NTM multiples.",
+      "ticker": "DELL"
+    },
+    {
+      "company_name": "Hewlett Packard Enterprise Company",
+      "ev_ntm_ebitda": 6.03,
+      "ev_ntm_revenue": 1.01,
+      "notes": "Non-primary market-data source; used only to populate required fields when StockAnalysis NTM labeling is unavailable.",
+      "pe_ntm": 10.27,
+      "source": "Stocknear summary (EV/Sales, EV/EBITDA, forward PE) used as NTM proxies.",
+      "ticker": "HPE"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.055,
+      "2027": 0.053,
+      "2028": 0.052,
+      "2029": 0.051,
+      "2030": 0.05
+    },
+    "da_pct_sales": {
+      "2026": 0.05,
+      "2027": 0.051,
+      "2028": 0.051,
+      "2029": 0.05,
+      "2030": 0.049
+    },
+    "ebit_margin": {
+      "2026": 0.19,
+      "2027": 0.17,
+      "2028": 0.168,
+      "2029": 0.166,
+      "2030": 0.165
+    },
+    "nwc_pct_sales": {
+      "2026": 0.05,
+      "2027": 0.052,
+      "2028": 0.049,
+      "2029": 0.048,
+      "2030": 0.047
+    },
+    "revenue_growth": {
+      "2026": 0.03,
+      "2027": 0.025,
+      "2028": 0.022,
+      "2029": 0.02,
+      "2030": 0.018
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 821000000.0,
+      "2024": 487000000.0,
+      "2025": 412000000.0
+    },
+    "da": {
+      "2023": 828000000.0,
+      "2024": 568000000.0,
+      "2025": 451000000.0
+    },
+    "ebit": {
+      "2023": -548000000.0,
+      "2024": -403000000.0,
+      "2025": 2334000000.0
+    },
+    "nwc": {
+      "2023": 2452000000.0,
+      "2024": 1973000000.0,
+      "2025": 438000000.0
+    },
+    "revenue": {
+      "2023": 6255000000.0,
+      "2024": 6317000000.0,
+      "2025": 9520000000.0
+    }
+  },
+  "notes": [
+    "EBIT is proxied as \u201cOperating income (loss)\u201d from the Consolidated Statements of Operations; this excludes interest and taxes by definition. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))",
+    "D&A and capex come from the Consolidated Statements of Cash Flows: \u201cDepreciation and amortization\u201d and \u201cPurchases of property, plant and equipment\u201d (converted to absolute positive outflows). ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))",
+    "NWC is computed as Total current assets minus Total current liabilities at fiscal year-end (includes cash), which may overstate working-capital needs versus a cash-excluded definition. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))",
+    "Forecast NWC_pct_sales is judgmental and set to a normalized low level despite volatile historical NWC driven by post-separation reporting and balance-sheet structure. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))",
+    "Comps EV/NTM inputs are populated using EV/Sales and EV/EBITDA shown in market-data statistics pages, which are not explicitly labeled as NTM; therefore they are treated as proxies and flagged accordingly."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained AI/data-center HDD demand and ongoing ramp of high-capacity drives could keep revenue growth above base-case. ([westerndigital.com](https://www.westerndigital.com/en-ap/company/newsroom/press-releases/2026/2026-01-29-western-digital-reports-fiscal-second-quarter-2026-financial-results))",
+      "Shareholder return execution (repurchases and dividends) and further balance-sheet optimization can change equity value perception. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))",
+      "Monetization of WDC\u2019s retained Sandisk stake is expected within about one year from separation actions; realization could affect net asset value. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))"
+    ],
+    "company_overview": [
+      "Western Digital is a leading developer and manufacturer of data storage devices based on HDD technology, serving cloud/hyperscale, enterprise client, and consumer end markets. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))",
+      "Post-separation (Flash spun out to Sandisk in Feb 2025), WDC reports on a continuing-operations basis focused on its HDD business. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))",
+      "FY2025 fundamentals show a sharp revenue recovery versus FY2024, with operating income returning to profitability. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))"
+    ],
+    "current_context": [
+      "Fiscal Q2 2026 (ended Jan 2, 2026): revenue of $3.017B (+25% YoY) and operating income of $908M (operating margin 30.1%). ([westerndigital.com](https://www.westerndigital.com/en-ap/company/newsroom/press-releases/2026/2026-01-29-western-digital-reports-fiscal-second-quarter-2026-financial-results))",
+      "Fiscal Q2 2026: cash flow from operations of $745M and free cash flow of $653M, with management highlighting capital returns. ([westerndigital.com](https://www.westerndigital.com/en-ap/company/newsroom/press-releases/2026/2026-01-29-western-digital-reports-fiscal-second-quarter-2026-financial-results))",
+      "Q3 FY2026 outlook (midpoint): revenue expected to be ~$3.2B, and company guides non-GAAP tax rate ~0.16. ([westerndigital.com](https://www.westerndigital.com/en-ap/company/newsroom/press-releases/2026/2026-01-29-western-digital-reports-fiscal-second-quarter-2026-financial-results))"
+    ],
+    "investment_highlights": [
+      "Base-case thesis chains HDD revenue growth to continued data center build-out and adoption of higher-capacity drives, consistent with management\u2019s recent demand framing. ([westerndigital.com](https://www.westerndigital.com/en-ap/company/newsroom/press-releases/2026/2026-01-29-western-digital-reports-fiscal-second-quarter-2026-financial-results))",
+      "EBIT margins are assumed to normalize after FY2024 weakness while remaining meaningfully above pre-rebound levels; target EBIT margin of 0.165 by 2030. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))",
+      "Capital intensity is modeled via normalized D&A and capex as a percent of sales (capex ~0.05\u20130.055 of revenue), supported by FY cash flow statement trends. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))",
+      "Working capital intensity is set low in the forecast (NWC ~0.05 of sales) reflecting FY2025\u2019s post-separation balance sheet structure; DCF includes explicit NWC driver. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))",
+      "Liquidity and capital allocation (deleveraging and shareholder returns) are supported by FY2025 cash generation and announced repurchase/dividend actions. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))"
+    ],
+    "key_risks": [
+      "HDD industry cyclicality and potential manufacturing underutilization charges can pressure margins and cash flow versus modeled normalization. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))",
+      "Macroeconomic shocks, tariffs/trade restrictions, and demand volatility could create downside to both revenue growth and EBIT margin. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))",
+      "Balance sheet and tax uncertainties (including NOL limitations under 382/383) can alter effective tax rate and value-accretion from tax shields. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))"
+    ],
+    "sources": [
+      {
+        "label": "WDC FY2025 Form 10-K (FY ended June 27, 2025)",
+        "notes": "Primary source for FY2025 revenue, operating income (EBIT proxy), D&A, capex, balance sheet (cash/debt/NWC components), preferred equity, and NOL/carryforward disclosures.",
+        "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm"
+      },
+      {
+        "label": "WDC FY2024 Form 10-K (FY ended June 28, 2024)",
+        "notes": "Primary source for FY2024 and FY2023 revenue/EBIT proxy and for FY2023 balance sheet values to compute historical NWC.",
+        "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000031/wdc-20240628.htm"
+      },
+      {
+        "label": "WDC Fiscal Second Quarter 2026 Financial Results (press release)",
+        "notes": "Primary source for current quarter results and near-term guidance used in current_context bullets (revenue, operating income, FCF, and guided tax rate).",
+        "url": "https://www.westerndigital.com/en-ap/company/newsroom/press-releases/2026/2026-01-29-western-digital-reports-fiscal-second-quarter-2026-financial-results"
+      },
+      {
+        "label": "StockAnalysis WDC statistics (WACC/beta/multiples proxies)",
+        "notes": "Used for WACC and for market multiple cross-checks in the comps section; labeling may differ from strict NTM definitions.",
+        "url": "https://stockanalysis.com/stocks/wdc/statistics/"
+      }
+    ],
+    "subtitle": "WDC DCF Inputs: HDD demand rebound, margin normalization, and disciplined capital allocation",
+    "valuation_summary": [
+      "DCF base case uses operating income as EBIT and a gordon_growth terminal value with 0.02 terminal growth and conservative long-run normalization of margins. ([sec.gov](https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm))",
+      "Discount rate uses a StockAnalysis-derived WACC input (0.1398) and is stress-tested in bull/bear scenarios. ([stockanalysis.com](https://stockanalysis.com/stocks/wdc/statistics/))",
+      "Comparable multiples are used as a cross-check with EV/Sales and EV/EBITDA proxies and forward P/E from market-data summaries, flagged as NTM-labeling limitations in notes."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 293.1,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.155,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.018,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.145
+      },
+      "description": "Modestly softer demand and margin normalization; slightly higher discount rate and lower terminal assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.055,
+          "2027": 0.053,
+          "2028": 0.052,
+          "2029": 0.051,
+          "2030": 0.05
+        },
+        "da_pct_sales": {
+          "2026": 0.05,
+          "2027": 0.051,
+          "2028": 0.051,
+          "2029": 0.05,
+          "2030": 0.049
+        },
+        "ebit_margin": {
+          "2026": 0.18,
+          "2027": 0.16,
+          "2028": 0.158,
+          "2029": 0.157,
+          "2030": 0.155
+        },
+        "nwc_pct_sales": {
+          "2026": 0.05,
+          "2027": 0.052,
+          "2028": 0.049,
+          "2029": 0.048,
+          "2030": 0.047
+        },
+        "revenue_growth": {
+          "2026": 0.025,
+          "2027": 0.02,
+          "2028": 0.017,
+          "2029": 0.015,
+          "2030": 0.013
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 293.1,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.175,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.022,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.134
+      },
+      "description": "Modestly stronger demand and execution; slightly higher margins and valuation inputs.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.055,
+          "2027": 0.053,
+          "2028": 0.052,
+          "2029": 0.051,
+          "2030": 0.05
+        },
+        "da_pct_sales": {
+          "2026": 0.05,
+          "2027": 0.051,
+          "2028": 0.051,
+          "2029": 0.05,
+          "2030": 0.049
+        },
+        "ebit_margin": {
+          "2026": 0.2,
+          "2027": 0.18,
+          "2028": 0.177,
+          "2029": 0.176,
+          "2030": 0.175
+        },
+        "nwc_pct_sales": {
+          "2026": 0.05,
+          "2027": 0.052,
+          "2028": 0.049,
+          "2029": 0.048,
+          "2030": 0.047
+        },
+        "revenue_growth": {
+          "2026": 0.035,
+          "2027": 0.03,
+          "2028": 0.027,
+          "2029": 0.025,
+          "2030": 0.023
+        }
+      }
+    }
+  },
+  "ticker": "WDC"
+}

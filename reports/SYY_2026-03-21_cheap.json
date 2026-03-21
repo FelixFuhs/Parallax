@@ -1,0 +1,668 @@
+{
+  "_meta": {
+    "cost_usd": 0.02237,
+    "generated_at": "2026-03-21T17:38:17Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10516,
+      "prompt": 2514,
+      "reasoning": 6978
+    }
+  },
+  "_valuation": {
+    "company_name": "Sysco Corporation",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 81.33,
+        "description": "Base case",
+        "enterprise_value": 42275171421.6331,
+        "equity_value": 30287171421.633102,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 46549593174.33191,
+        "implied_market_cap": 30287171421.633102,
+        "investments_adjustment": 0.0,
+        "net_debt": 11961000000.0,
+        "per_share_value": 61.83255520673165,
+        "projected_years": [
+          {
+            "capex": 700595700.0,
+            "cash_taxes": 780288460.875,
+            "da": 975829725.0,
+            "delta_nwc": -111787350.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 3211063625.0,
+            "ebit_margin": 0.0385,
+            "ebitda": 4186893350.0,
+            "fcff": 2817796539.125,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1818212650.0,
+            "present_value_fcff": 2597047501.497696,
+            "revenue": 83404250000.0,
+            "revenue_growth": 0.025,
+            "year": 2026
+          },
+          {
+            "capex": 733773910.65,
+            "cash_taxes": 812748460.8474,
+            "da": 1006806063.4499999,
+            "delta_nwc": 16222126.624999762,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 3344643871.7999997,
+            "ebit_margin": 0.0392,
+            "ebitda": 4351449935.25,
+            "fcff": 2788705437.1275997,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1834434776.6249998,
+            "present_value_fcff": 2368880576.8885303,
+            "revenue": 85322547750.0,
+            "revenue_growth": 0.023,
+            "year": 2027
+          },
+          {
+            "capex": 758636901.0643499,
+            "cash_taxes": 843342635.0521557,
+            "da": 1037675761.2259501,
+            "delta_nwc": 14197671.945600271,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 3470545823.2599,
+            "ebit_margin": 0.0398,
+            "ebitda": 4508221584.48585,
+            "fcff": 2892044376.423744,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1848632448.5706,
+            "present_value_fcff": 2264204963.3231983,
+            "revenue": 87199643800.5,
+            "revenue_growth": 0.022,
+            "year": 2028
+          },
+          {
+            "capex": 774568275.9867011,
+            "cash_taxes": 858889381.0656672,
+            "da": 1050563868.5796638,
+            "delta_nwc": 21015114.155920267,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 3534524201.916326,
+            "ebit_margin": 0.0397,
+            "ebitda": 4585088070.49599,
+            "fcff": 2930615299.2877016,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1869647562.7265203,
+            "present_value_fcff": 2114656637.048237,
+            "revenue": 89030836320.31049,
+            "revenue_growth": 0.021,
+            "year": 2029
+          },
+          {
+            "capex": 799140786.8111069,
+            "cash_taxes": 873860450.3779454,
+            "da": 1062494000.6465853,
+            "delta_nwc": 19230660.645186663,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 3596133540.649981,
+            "ebit_margin": 0.0396,
+            "ebitda": 4658627541.296566,
+            "fcff": 2966395643.462328,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1888878223.371707,
+            "present_value_fcff": 1972787846.3473768,
+            "revenue": 90811453046.71669,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 46549593174.33191,
+        "terminal_value_present_value": 30957593896.528065,
+        "upside_downside_pct": -0.23973250698719228
+      },
+      "bear": {
+        "current_price": 81.33,
+        "description": "Modestly weaker revenue growth and margin compression vs base case; slightly higher WACC.",
+        "enterprise_value": 39774907833.33297,
+        "equity_value": 27786907833.33297,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 43739003361.57252,
+        "implied_market_cap": 27786907833.33297,
+        "investments_adjustment": 0.0,
+        "net_debt": 11961000000.0,
+        "per_share_value": 56.728160207186555,
+        "projected_years": [
+          {
+            "capex": 699228684.0,
+            "cash_taxes": 758538259.875,
+            "da": 973925667.0,
+            "delta_nwc": -115335082.0,
+            "discount_factor": 0.9199632014719411,
+            "ebit": 3121556625.0,
+            "ebit_margin": 0.0375,
+            "ebitda": 4095482292.0,
+            "fcff": 2753050430.125,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1814664918.0,
+            "present_value_fcff": 2532705087.5114994,
+            "revenue": 83241510000.0,
+            "revenue_growth": 0.023,
+            "year": 2026
+          },
+          {
+            "capex": 730910402.7059999,
+            "cash_taxes": 788924291.1812458,
+            "da": 1002877064.1779999,
+            "delta_nwc": 12611088.764999628,
+            "discount_factor": 0.8463322920625034,
+            "ebit": 3246602021.321999,
+            "ebit_margin": 0.0382,
+            "ebitda": 4249479085.499999,
+            "fcff": 2717033302.8477535,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1827276006.7649996,
+            "present_value_fcff": 2299513022.8092933,
+            "revenue": 84989581709.99998,
+            "revenue_growth": 0.021,
+            "year": 2027
+          },
+          {
+            "capex": 754197548.0945398,
+            "cash_taxes": 817342087.6384552,
+            "da": 1031603542.7959799,
+            "delta_nwc": 10538708.132040024,
+            "discount_factor": 0.7785945649149065,
+            "ebit": 3363547685.7549596,
+            "ebit_margin": 0.0388,
+            "ebitda": 4395151228.55094,
+            "fcff": 2813072884.685905,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1837814714.8970397,
+            "present_value_fcff": 2190243258.725943,
+            "revenue": 86689373344.19998,
+            "revenue_growth": 0.02,
+            "year": 2028
+          },
+          {
+            "capex": 768527301.508336,
+            "cash_taxes": 830725011.0476485,
+            "da": 1042370362.9653293,
+            "delta_nwc": 17251185.29549575,
+            "discount_factor": 0.7162783485877705,
+            "ebit": 3418621444.640529,
+            "ebit_margin": 0.0387,
+            "ebitda": 4460991807.605859,
+            "fcff": 2844488309.7543783,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1855065900.1925354,
+            "present_value_fcff": 2037445389.0880847,
+            "revenue": 88336471437.73978,
+            "revenue_growth": 0.019,
+            "year": 2029
+          },
+          {
+            "capex": 791353445.727848,
+            "cash_taxes": 843492846.6179625,
+            "da": 1052140376.7063434,
+            "delta_nwc": 15405880.61874175,
+            "discount_factor": 0.6589497227118405,
+            "ebit": 3471163977.8516974,
+            "ebit_margin": 0.0386,
+            "ebitda": 4523304354.558041,
+            "fcff": 2873052181.5934887,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1870471780.8112772,
+            "present_value_fcff": 1893196938.3976777,
+            "revenue": 89926527923.6191,
+            "revenue_growth": 0.018,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 43739003361.57252,
+        "terminal_value_present_value": 28821804136.80047,
+        "upside_downside_pct": -0.30249403409336584
+      },
+      "bull": {
+        "current_price": 81.33,
+        "description": "Modestly stronger revenue growth and margin expansion vs base case; slightly lower WACC.",
+        "enterprise_value": 44956355461.41049,
+        "equity_value": 32968355461.410492,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 49563158565.2851,
+        "implied_market_cap": 32968355461.410492,
+        "investments_adjustment": 0.0,
+        "net_debt": 11961000000.0,
+        "per_share_value": 67.30630704215491,
+        "projected_years": [
+          {
+            "capex": 701962716.0,
+            "cash_taxes": 802117753.515,
+            "da": 977733783.0,
+            "delta_nwc": -108239618.0,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 3300896105.0,
+            "ebit_margin": 0.0395,
+            "ebitda": 4278629888.0,
+            "fcff": 2882789036.485,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1821760382.0,
+            "present_value_fcff": 2661855066.006464,
+            "revenue": 83566990000.0,
+            "revenue_growth": 0.027,
+            "year": 2026
+          },
+          {
+            "capex": 736643016.85,
+            "cash_taxes": 836740810.9768499,
+            "da": 1010742744.05,
+            "delta_nwc": 19847160.12499976,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 3443377822.95,
+            "ebit_margin": 0.0402,
+            "ebitda": 4454120567.0,
+            "fcff": 2860889579.04815,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1841607542.1249998,
+            "present_value_fcff": 2439181865.5031724,
+            "revenue": 85656164750.0,
+            "revenue_growth": 0.025,
+            "year": 2027
+          },
+          {
+            "capex": 763093640.5248,
+            "cash_taxes": 869610987.3125377,
+            "da": 1043771761.1776,
+            "delta_nwc": 17885007.199800253,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 3578646038.3232,
+            "ebit_margin": 0.0408,
+            "ebitda": 4622417799.5008,
+            "fcff": 2971828164.463662,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1859492549.3248,
+            "present_value_fcff": 2339582285.53421,
+            "revenue": 87711912704.0,
+            "revenue_growth": 0.024,
+            "year": 2028
+          },
+          {
+            "capex": 780644794.2568703,
+            "cash_taxes": 887431618.3540083,
+            "da": 1058805583.0150654,
+            "delta_nwc": 24822471.29523182,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 3651981968.5350137,
+            "ebit_margin": 0.0407,
+            "ebitda": 4710787551.550079,
+            "fcff": 3017888667.6439686,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1884315020.6200318,
+            "present_value_fcff": 2193761385.3926764,
+            "revenue": 89729286696.19199,
+            "revenue_growth": 0.023,
+            "year": 2029
+          },
+          {
+            "capex": 806989312.8308723,
+            "cash_taxes": 904726723.0144112,
+            "da": 1072928972.7410461,
+            "delta_nwc": 23114264.252938747,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 3723155238.742433,
+            "ebit_margin": 0.0406,
+            "ebitda": 4796084211.4834795,
+            "fcff": 3061253911.3852563,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1907429284.8729706,
+            "present_value_fcff": 2054740919.7741086,
+            "revenue": 91703331003.50821,
+            "revenue_growth": 0.022,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 49563158565.2851,
+        "terminal_value_present_value": 33267233939.199856,
+        "upside_downside_pct": -0.17242952118338972
+      }
+    },
+    "ticker": "SYY"
+  },
+  "assumptions": {
+    "cash": 1348000000.0,
+    "current_price": 81.33,
+    "debt": 13309000000.0,
+    "diluted_shares": 489825648.0,
+    "investments": 0.0,
+    "minority_interest": 27000000.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.0395,
+    "tax_rate": 0.243,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Sysco Corporation",
+  "comps": [
+    {
+      "company_name": "US Foods Holding Corp.",
+      "ev_ntm_ebitda": 16.21,
+      "ev_ntm_revenue": null,
+      "notes": "EV/EBITDA shown appears to be based on StockAnalysis' EV/EBITDA; NTM-specific mapping not verifiable from the captured snippet.",
+      "pe_ntm": 20.92,
+      "source": "stockanalysis.com statistics (multiples not explicitly labeled NTM in accessible snippet)",
+      "ticker": "USFD"
+    },
+    {
+      "company_name": "Performance Food Group Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward/NTM EV/Revenue and EV/EBITDA not captured reliably within tool-call limits.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "PFGC"
+    },
+    {
+      "company_name": "SpartanNash Company",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Forward/NTM EV/Revenue and EV/EBITDA not captured reliably within tool-call limits.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SPTN"
+    },
+    {
+      "company_name": "McKesson Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Used as a distribution peer proxy; valuation multiples not captured reliably within tool-call limits.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "MCK"
+    },
+    {
+      "company_name": "Cardinal Health, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "Used as a distribution peer proxy; valuation multiples not captured reliably within tool-call limits.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CAH"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0084,
+      "2027": 0.0086,
+      "2028": 0.0087,
+      "2029": 0.0087,
+      "2030": 0.0088
+    },
+    "da_pct_sales": {
+      "2026": 0.0117,
+      "2027": 0.0118,
+      "2028": 0.0119,
+      "2029": 0.0118,
+      "2030": 0.0117
+    },
+    "ebit_margin": {
+      "2026": 0.0385,
+      "2027": 0.0392,
+      "2028": 0.0398,
+      "2029": 0.0397,
+      "2030": 0.0396
+    },
+    "nwc_pct_sales": {
+      "2026": 0.0218,
+      "2027": 0.0215,
+      "2028": 0.0212,
+      "2029": 0.021,
+      "2030": 0.0208
+    },
+    "revenue_growth": {
+      "2026": 0.025,
+      "2027": 0.023,
+      "2028": 0.022,
+      "2029": 0.021,
+      "2030": 0.02
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 751000000.0,
+      "2024": 753000000.0,
+      "2025": 692000000.0
+    },
+    "da": {
+      "2023": 776000000.0,
+      "2024": 873000000.0,
+      "2025": 945000000.0
+    },
+    "ebit": {
+      "2023": 3039000000.0,
+      "2024": 3202000000.0,
+      "2025": 3088000000.0
+    },
+    "nwc": {
+      "2023": 1386000000.0,
+      "2024": 1575000000.0,
+      "2025": 1930000000.0
+    },
+    "revenue": {
+      "2023": 76325000000.0,
+      "2024": 78844000000.0,
+      "2025": 81370000000.0
+    }
+  },
+  "notes": [
+    "FY-year mapping: schema years 2023/2024/2025 correspond to Sysco fiscal years ended Jul. 1, 2023; Jun. 29, 2024; and Jun. 28, 2025. ([sec.gov](https://www.sec.gov/Archives/edgar/data/96021/000009602125000099/syy-20250628.htm))",
+    "Historical revenue and EBIT: revenue = Sales; EBIT approximated as Operating income from consolidated results of operations. ([sec.gov](https://www.sec.gov/Archives/edgar/data/96021/000009602125000099/syy-20250628.htm))",
+    "Historical D&A: sourced from 'Depreciation and amortization' in the consolidated cash flows. ([sec.gov](https://www.sec.gov/Archives/edgar/data/96021/000009602125000099/syy-20250628.htm))",
+    "Historical capex: uses 'capital expenditures, net of proceeds from sales of assets' definition (net of asset-sale proceeds) for FY2023-FY2025. ([sec.gov](https://www.sec.gov/Archives/edgar/data/96021/000009602124000128/syy-20240629.htm))",
+    "Historical NWC construction (balance-sheet based): NWC = (Accounts receivable + Inventories + Prepaid expenses and other current assets + Income tax receivable) - (Accounts payable + Accrued expenses + Accrued income taxes + Current operating lease liabilities). Excludes cash/restricted cash and excludes interest-bearing debt. ([sec.gov](https://www.sec.gov/Archives/edgar/data/96021/000009602125000099/syy-20250628.htm))",
+    "tax_rate uses Sysco's disclosed FY2025 effective income tax rate of 24.3%. ([sec.gov](https://www.sec.gov/Archives/edgar/data/96021/000009602125000099/syy-20250628.htm))",
+    "NOL: the filing provides a deferred tax asset line item for net operating tax loss carryforwards, but does not provide a clean, directly usable NOL carryforward USD balance suitable for this field; nol_balance and nol_utilization_pct set to null. ([sec.gov](https://www.sec.gov/Archives/edgar/data/96021/000009602125000099/syy-20250628.htm))",
+    "WACC and terminal growth are analyst assumptions for DCF discounting (not explicitly provided by the company).",
+    "Comps: EV/NTM Revenue and EV/NTM EBITDA are not consistently available in the captured sources within tool-call limits; only USFD has EV/EBITDA and forward P/E filled and EV/Revenue is left null (multiples may be trailing vs NTM)."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Sustained improvement in U.S. Foodservice volume/exit velocity and local business execution.",
+      "Continued gross margin expansion driven by strategic sourcing efficiencies and product cost management.",
+      "Operational and technology transformation that improves productivity, expense control, and inventory/receivables management."
+    ],
+    "company_overview": [
+      "Sysco is a leading foodservice distributor serving restaurants, healthcare, educational facilities, lodging establishments, and other foodservice customers.",
+      "The company operates primarily through U.S. Foodservice Operations, International Foodservice Operations, and SYGMA (specialty distribution), supported by a global support center.",
+      "Business model is characterized by broadline distribution with operational execution focused on supply chain performance, product cost management, and expense discipline."
+    ],
+    "current_context": [
+      "Q1 FY2026: sales increased 3.2% to $21.1 billion; operating income decreased 1.0% to $800 million.",
+      "Gross profit increased 3.9% to $3.9 billion; management highlighted momentum in sales performance and continued margin/gross profit expansion drivers.",
+      "FY26 guidance reiterated: sales growth of 3%-5% and adjusted EPS growth of 1%-3% (with stated EPS headwind from lapping fiscal 2025 items)."
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth is set in the mid-single to low-single range, consistent with reiterated FY26 sales growth guidance.",
+      "Base-case EBIT margin converges toward a normalized ~3.9% range, reflecting cost control and gradual margin stabilization.",
+      "Depreciation rises gradually as the capital base compounds; D&A is modeled as a modestly increasing percent of sales.",
+      "Capex is modeled at just under ~1% of sales net of proceeds from asset sales, consistent with the company\u2019s capital intensity framing in filings.",
+      "Working capital intensity is assumed to gradually normalize (modeled via NWC as a percent of sales trending slightly down over the forecast horizon)."
+    ],
+    "key_risks": [
+      "Product cost inflation (e.g., meat/seafood) and inability to pass through costs to customers quickly enough.",
+      "Labor, transportation, and wage inflation pressuring operating expenses and margin.",
+      "Working capital volatility impacting cash conversion and free cash flow despite stable reported income."
+    ],
+    "sources": [
+      {
+        "label": "Sysco FY2025 Form 10-K (SEC, fiscal year ended June 28, 2025)",
+        "notes": "Provides consolidated results of operations, balance sheet items used for NWC construction, and effective tax rate (used for tax_rate). ([sec.gov](https://www.sec.gov/Archives/edgar/data/96021/000009602125000099/syy-20250628.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602125000099/syy-20250628.htm"
+      },
+      {
+        "label": "Sysco Q1 FY2026 results press release (guidance and quarter highlights)",
+        "notes": "Used for current_context sales/operating income highlights and reiterated FY26 guidance (sales growth 3%-5%, adjusted EPS growth 1%-3%). ([investors.sysco.com](https://investors.sysco.com/~/media/Files/S/Sysco-IR/documents/quarterly-results/syy-2026-q1-press-release.pdf))",
+        "url": "https://investors.sysco.com/~/media/Files/S/Sysco-IR/documents/quarterly-results/syy-2026-q1-press-release.pdf"
+      },
+      {
+        "label": "Sysco FY2024 Q4 & full-year results press release",
+        "notes": "Supports historical operating narrative and provides additional quarterly context; not the primary source for the FY2023-2025 DCF input line items.",
+        "url": "https://investors.sysco.com/annual-reports-and-sec-filings/news-releases/2024/07-30-2024-130425605"
+      },
+      {
+        "label": "Sysco FY2024 Form 10-K (SEC, fiscal year ended June 29, 2024)",
+        "notes": "Used as the source for FY2023 balance sheet line items for NWC construction and FY2023 capex net of proceeds from sales of assets. ([sec.gov](https://www.sec.gov/Archives/edgar/data/96021/000009602124000128/syy-20240629.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/96021/000009602124000128/syy-20240629.htm"
+      }
+    ],
+    "subtitle": "Sysco (SYY) DCF Input Package \u2014 FY2023-2025 History, FY2026-2030 Base Case",
+    "valuation_summary": [
+      "DCF uses a Gordon Growth terminal value (terminal method: gordon_growth) with terminal growth at 2.0% and an 8.5% base-case WACC to reflect a stable, mature distribution cash-flow profile.",
+      "Scenario ranges are kept modest (growth/margin and WACC deltas are small) to avoid overly promotional outcomes for a low-margin sector."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 81.33,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.0385,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.087
+      },
+      "description": "Modestly weaker revenue growth and margin compression vs base case; slightly higher WACC.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0084,
+          "2027": 0.0086,
+          "2028": 0.0087,
+          "2029": 0.0087,
+          "2030": 0.0088
+        },
+        "da_pct_sales": {
+          "2026": 0.0117,
+          "2027": 0.0118,
+          "2028": 0.0119,
+          "2029": 0.0118,
+          "2030": 0.0117
+        },
+        "ebit_margin": {
+          "2026": 0.0375,
+          "2027": 0.0382,
+          "2028": 0.0388,
+          "2029": 0.0387,
+          "2030": 0.0386
+        },
+        "nwc_pct_sales": {
+          "2026": 0.0218,
+          "2027": 0.0215,
+          "2028": 0.0212,
+          "2029": 0.021,
+          "2030": 0.0208
+        },
+        "revenue_growth": {
+          "2026": 0.023,
+          "2027": 0.021,
+          "2028": 0.02,
+          "2029": 0.019,
+          "2030": 0.018
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 81.33,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.0405,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.083
+      },
+      "description": "Modestly stronger revenue growth and margin expansion vs base case; slightly lower WACC.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0084,
+          "2027": 0.0086,
+          "2028": 0.0087,
+          "2029": 0.0087,
+          "2030": 0.0088
+        },
+        "da_pct_sales": {
+          "2026": 0.0117,
+          "2027": 0.0118,
+          "2028": 0.0119,
+          "2029": 0.0118,
+          "2030": 0.0117
+        },
+        "ebit_margin": {
+          "2026": 0.0395,
+          "2027": 0.0402,
+          "2028": 0.0408,
+          "2029": 0.0407,
+          "2030": 0.0406
+        },
+        "nwc_pct_sales": {
+          "2026": 0.0218,
+          "2027": 0.0215,
+          "2028": 0.0212,
+          "2029": 0.021,
+          "2030": 0.0208
+        },
+        "revenue_growth": {
+          "2026": 0.027,
+          "2027": 0.025,
+          "2028": 0.024,
+          "2029": 0.023,
+          "2030": 0.022
+        }
+      }
+    }
+  },
+  "ticker": "SYY"
+}

@@ -1,0 +1,699 @@
+{
+  "_meta": {
+    "cost_usd": 0.024217,
+    "generated_at": "2026-03-21T17:34:45Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11548,
+      "prompt": 2515,
+      "reasoning": 7423
+    }
+  },
+  "_valuation": {
+    "company_name": "Steel Dynamics, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 163.95,
+        "description": "Base case",
+        "enterprise_value": 21838593647.751316,
+        "equity_value": 18256082647.751316,
+        "exit_multiple_terminal_value": 26815124773.59109,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 18256082647.751316,
+        "investments_adjustment": 0.0,
+        "net_debt": 3441285000.0,
+        "per_share_value": 123.0161090519886,
+        "projected_years": [
+          {
+            "capex": 1024704753.875,
+            "cash_taxes": 375771346.4725,
+            "da": 549614367.9875,
+            "delta_nwc": -27311443.550000012,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 1769944574.875,
+            "ebit_margin": 0.095,
+            "ebitda": 2319558942.8625,
+            "fcff": 946394286.0649998,
+            "nol_balance_end": 0.0,
+            "nol_used": 61893000.0,
+            "nwc": 335357919.45,
+            "present_value_fcff": 868251638.5917429,
+            "revenue": 18630995525.0,
+            "revenue_growth": 0.025,
+            "year": 2026
+          },
+          {
+            "capex": 988188002.6459999,
+            "cash_taxes": 418079539.58100003,
+            "da": 570108463.0649999,
+            "delta_nwc": 6707158.388999999,
+            "discount_factor": 0.84167999326656,
+            "ebit": 1900361543.5500002,
+            "ebit_margin": 0.1,
+            "ebitda": 2470470006.6150002,
+            "fcff": 1057495305.9990001,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 342065077.839,
+            "present_value_fcff": 890072642.0326571,
+            "revenue": 19003615435.5,
+            "revenue_growth": 0.02,
+            "year": 2027
+          },
+          {
+            "capex": 1027335450.4431299,
+            "cash_taxes": 447763186.89125097,
+            "da": 591202476.1984049,
+            "delta_nwc": 10718039.105621994,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 2035287213.1420498,
+            "ebit_margin": 0.105,
+            "ebitda": 2626489689.3404546,
+            "fcff": 1140673012.9004514,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 352783116.944622,
+            "present_value_fcff": 880808856.7132097,
+            "revenue": 19383687744.21,
+            "revenue_growth": 0.02,
+            "year": 2028
+          },
+          {
+            "capex": 1062419925.2601498,
+            "cash_taxes": 484778277.0075943,
+            "da": 609907734.8715675,
+            "delta_nwc": 7259191.060206592,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 2203537622.761792,
+            "ebit_margin": 0.112,
+            "ebitda": 2813445357.63336,
+            "fcff": 1258987964.3054087,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 360042308.0048286,
+            "present_value_fcff": 891898814.341601,
+            "revenue": 19674443060.373146,
+            "revenue_growth": 0.015,
+            "year": 2029
+          },
+          {
+            "capex": 1098325783.8453307,
+            "cash_taxes": 518409769.9749961,
+            "da": 623050262.8358966,
+            "delta_nwc": 9394546.561328113,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 2356408045.3408914,
+            "ebit_margin": 0.118,
+            "ebitda": 2979458308.176788,
+            "fcff": 1353328207.7951329,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 369436854.5661567,
+            "present_value_fcff": 879570478.2089458,
+            "revenue": 19969559706.27874,
+            "revenue_growth": 0.015,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 26815124773.59109,
+        "terminal_value_present_value": 17427991217.86316,
+        "upside_downside_pct": -0.24967301584636414
+      },
+      "bear": {
+        "current_price": 163.95,
+        "description": "Modestly weaker demand/spreads and slower margin recovery; higher WACC and lower exit multiple versus base case.",
+        "enterprise_value": 19243283569.081062,
+        "equity_value": 15660772569.081062,
+        "exit_multiple_terminal_value": 23517679639.067013,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 15660772569.081062,
+        "investments_adjustment": 0.0,
+        "net_debt": 3441285000.0,
+        "per_share_value": 105.52796804049125,
+        "projected_years": [
+          {
+            "capex": 964085856.24,
+            "cash_taxes": 353477769.876,
+            "da": 537663265.98,
+            "delta_nwc": -38217392.149999976,
+            "discount_factor": 0.9157509157509157,
+            "ebit": 1668610135.8,
+            "ebit_margin": 0.09,
+            "ebitda": 2206273401.7799997,
+            "fcff": 926927167.814,
+            "nol_balance_end": 0.0,
+            "nol_used": 61893000.0,
+            "nwc": 324451970.85,
+            "present_value_fcff": 848834402.7600732,
+            "revenue": 18540112620.0,
+            "revenue_growth": 0.02,
+            "year": 2026
+          },
+          {
+            "capex": 940910715.465,
+            "cash_taxes": 389160671.91632396,
+            "da": 549491857.83156,
+            "delta_nwc": 10512243.855539978,
+            "discount_factor": 0.8385997396986407,
+            "ebit": 1768912145.0742,
+            "ebit_margin": 0.094,
+            "ebitda": 2318404002.90576,
+            "fcff": 977820371.6688962,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 334964214.70554,
+            "present_value_fcff": 819999909.1535645,
+            "revenue": 18818214309.3,
+            "revenue_growth": 0.015,
+            "year": 2027
+          },
+          {
+            "capex": 955024376.196975,
+            "cash_taxes": 411806511.01613563,
+            "da": 563464381.9562151,
+            "delta_nwc": 8844560.725370944,
+            "discount_factor": 0.7679484795775097,
+            "ebit": 1871847777.346071,
+            "ebit_margin": 0.098,
+            "ebitda": 2435312159.302286,
+            "fcff": 1059636711.3638046,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 343808775.43091094,
+            "present_value_fcff": 813746401.3963462,
+            "revenue": 19100487523.9395,
+            "revenue_growth": 0.015,
+            "year": 2028
+          },
+          {
+            "capex": 983866112.3581235,
+            "cash_taxes": 437145217.76539373,
+            "da": 578744771.9753668,
+            "delta_nwc": 7296386.234144926,
+            "discount_factor": 0.7032495234226279,
+            "ebit": 1987023717.115426,
+            "ebit_margin": 0.103,
+            "ebitda": 2565768489.0907927,
+            "fcff": 1137460772.7331307,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 351105161.6650559,
+            "present_value_fcff": 799918746.3365083,
+            "revenue": 19291492399.178894,
+            "revenue_growth": 0.01,
+            "year": 2029
+          },
+          {
+            "capex": 1013189180.8048756,
+            "cash_taxes": 480095796.44292563,
+            "da": 584532219.6951206,
+            "delta_nwc": 7407933.081284702,
+            "discount_factor": 0.6440013950756664,
+            "ebit": 2182253620.1951165,
+            "ebit_margin": 0.112,
+            "ebitda": 2766785839.890237,
+            "fcff": 1266092929.561151,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 358513094.7463406,
+            "present_value_fcff": 815365612.9328188,
+            "revenue": 19484407323.170685,
+            "revenue_growth": 0.01,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 23517679639.067013,
+        "terminal_value_present_value": 15145418496.501753,
+        "upside_downside_pct": -0.3563405426014562
+      },
+      "bull": {
+        "current_price": 163.95,
+        "description": "Modestly higher growth and margin normalization versus base case; slightly lower WACC and higher exit multiple.",
+        "enterprise_value": 24749600751.625343,
+        "equity_value": 21167089751.625343,
+        "exit_multiple_terminal_value": 30453923329.729,
+        "gordon_terminal_value": null,
+        "implied_market_cap": 21167089751.625343,
+        "investments_adjustment": 0.0,
+        "net_debt": 3441285000.0,
+        "per_share_value": 142.63153116914197,
+        "projected_years": [
+          {
+            "capex": 1067147070.51,
+            "cash_taxes": 398264865.46,
+            "da": 561656352.9,
+            "delta_nwc": -16314612.045000017,
+            "discount_factor": 0.9199632014719411,
+            "ebit": 1872187843.0,
+            "ebit_margin": 0.1,
+            "ebitda": 2433844195.9,
+            "fcff": 984746871.9750001,
+            "nol_balance_end": 0.0,
+            "nol_used": 61893000.0,
+            "nwc": 346354750.955,
+            "present_value_fcff": 905930884.9816009,
+            "revenue": 18721878430.0,
+            "revenue_growth": 0.03,
+            "year": 2026
+          },
+          {
+            "capex": 1036255971.1005,
+            "cash_taxes": 443287276.526325,
+            "da": 585292724.4178749,
+            "delta_nwc": 12496853.852025032,
+            "discount_factor": 0.8463322920625034,
+            "ebit": 2014942166.02875,
+            "ebit_margin": 0.105,
+            "ebitda": 2600234890.4466248,
+            "fcff": 1108194788.9677749,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 358851604.807025,
+            "present_value_fcff": 937901035.7988192,
+            "revenue": 19189925390.75,
+            "revenue_growth": 0.025,
+            "year": 2027
+          },
+          {
+            "capex": 1080776598.00704,
+            "cash_taxes": 475541703.1230976,
+            "da": 609164991.603968,
+            "delta_nwc": 14507583.59540701,
+            "discount_factor": 0.7785945649149065,
+            "ebit": 2161553196.01408,
+            "ebit_margin": 0.11,
+            "ebitda": 2770718187.618048,
+            "fcff": 1199892302.8925033,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 373359188.402432,
+            "present_value_fcff": 934229625.5153338,
+            "revenue": 19650483600.128002,
+            "revenue_growth": 0.024,
+            "year": 2028
+          },
+          {
+            "capex": 1122435623.2393115,
+            "cash_taxes": 511509948.30477196,
+            "da": 631370038.0721127,
+            "delta_nwc": 11475882.422474742,
+            "discount_factor": 0.7162783485877705,
+            "ebit": 2325045219.5671453,
+            "ebit_margin": 0.116,
+            "ebitda": 2956415257.639258,
+            "fcff": 1310993803.6727,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 384835070.82490677,
+            "present_value_fcff": 939036476.7034813,
+            "revenue": 20043493272.13056,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 1165328698.841671,
+            "cash_taxes": 562219986.2832623,
+            "da": 650130747.774827,
+            "delta_nwc": 13830010.357770145,
+            "discount_factor": 0.6589497227118405,
+            "ebit": 2555545392.1966467,
+            "ebit_margin": 0.125,
+            "ebitda": 3205676139.9714737,
+            "fcff": 1464297444.4887702,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 398665081.1826769,
+            "present_value_fcff": 964898395.0135318,
+            "revenue": 20444363137.573174,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "exit_multiple",
+        "terminal_value": 30453923329.729,
+        "terminal_value_present_value": 20067604333.612576,
+        "upside_downside_pct": -0.13003030698907003
+      }
+    },
+    "ticker": "STLD"
+  },
+  "assumptions": {
+    "cash": 769878000.0,
+    "current_price": 163.95,
+    "debt": 4211163000.0,
+    "diluted_shares": 148404000.0,
+    "investments": 0.0,
+    "minority_interest": 141226000.0,
+    "net_debt_override": null,
+    "nol_balance": 61893000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.118,
+    "tax_rate": 0.22,
+    "terminal_exit_ebitda_multiple": 9.0,
+    "terminal_growth": 0.02,
+    "terminal_method": "exit_multiple",
+    "wacc": 0.09
+  },
+  "company_name": "Steel Dynamics, Inc.",
+  "comps": [
+    {
+      "company_name": "Nucor Corp",
+      "ev_ntm_ebitda": 10.0,
+      "ev_ntm_revenue": null,
+      "notes": "Source provides EV/EBITDA and P/E; EV/NTM Revenue not provided. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/stld/relative-valuation/ratio/enterprise-value-to-ebitda))",
+      "pe_ntm": 21.3,
+      "source": "AlphaSpread peer comparison",
+      "ticker": "NUE"
+    },
+    {
+      "company_name": "ArcelorMittal SA",
+      "ev_ntm_ebitda": 7.4,
+      "ev_ntm_revenue": null,
+      "notes": "Source provides EV/EBITDA and P/E; EV/NTM Revenue not provided. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/stld/relative-valuation/ratio/enterprise-value-to-ebitda))",
+      "pe_ntm": 12.5,
+      "source": "AlphaSpread peer comparison",
+      "ticker": "MT"
+    },
+    {
+      "company_name": "Allegheny Technologies Inc",
+      "ev_ntm_ebitda": 24.4,
+      "ev_ntm_revenue": null,
+      "notes": "Source provides EV/EBITDA and P/E; EV/NTM Revenue not provided. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/stld/relative-valuation/ratio/enterprise-value-to-ebitda))",
+      "pe_ntm": 48.3,
+      "source": "AlphaSpread peer comparison",
+      "ticker": "ATI"
+    },
+    {
+      "company_name": "JSW Steel Ltd",
+      "ev_ntm_ebitda": 13.0,
+      "ev_ntm_revenue": null,
+      "notes": "Source provides EV/EBITDA and P/E; EV/NTM Revenue not provided. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/stld/relative-valuation/ratio/enterprise-value-to-ebitda))",
+      "pe_ntm": 37.8,
+      "source": "AlphaSpread peer comparison",
+      "ticker": "JSWSTEEL"
+    },
+    {
+      "company_name": "Tata Steel Ltd",
+      "ev_ntm_ebitda": 9.9,
+      "ev_ntm_revenue": null,
+      "notes": "Source provides EV/EBITDA and P/E; EV/NTM Revenue not provided. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/stld/relative-valuation/ratio/enterprise-value-to-ebitda))",
+      "pe_ntm": 26.2,
+      "source": "AlphaSpread peer comparison",
+      "ticker": "TATASTEEL"
+    },
+    {
+      "company_name": "Baoshan Iron & Steel Co Ltd",
+      "ev_ntm_ebitda": 13.1,
+      "ev_ntm_revenue": null,
+      "notes": "Source provides EV/EBITDA and P/E; EV/NTM Revenue not provided. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/stld/relative-valuation/ratio/enterprise-value-to-ebitda))",
+      "pe_ntm": 16.0,
+      "source": "AlphaSpread peer comparison",
+      "ticker": "600019"
+    },
+    {
+      "company_name": "Kumba Iron Ore Ltd",
+      "ev_ntm_ebitda": 3.5,
+      "ev_ntm_revenue": null,
+      "notes": "Source provides EV/EBITDA and P/E; EV/NTM Revenue not provided. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/stld/relative-valuation/ratio/enterprise-value-to-ebitda))",
+      "pe_ntm": 7.2,
+      "source": "AlphaSpread peer comparison",
+      "ticker": "KIO"
+    },
+    {
+      "company_name": "Vale SA",
+      "ev_ntm_ebitda": 4.8,
+      "ev_ntm_revenue": null,
+      "notes": "Source provides EV/EBITDA and P/E; EV/NTM Revenue not provided. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/stld/relative-valuation/ratio/enterprise-value-to-ebitda))",
+      "pe_ntm": 24.4,
+      "source": "AlphaSpread peer comparison",
+      "ticker": "VALE3"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.055,
+      "2027": 0.052,
+      "2028": 0.053,
+      "2029": 0.054,
+      "2030": 0.055
+    },
+    "da_pct_sales": {
+      "2026": 0.0295,
+      "2027": 0.03,
+      "2028": 0.0305,
+      "2029": 0.031,
+      "2030": 0.0312
+    },
+    "ebit_margin": {
+      "2026": 0.095,
+      "2027": 0.1,
+      "2028": 0.105,
+      "2029": 0.112,
+      "2030": 0.118
+    },
+    "nwc_pct_sales": {
+      "2026": 0.018,
+      "2027": 0.018,
+      "2028": 0.0182,
+      "2029": 0.0183,
+      "2030": 0.0185
+    },
+    "revenue_growth": {
+      "2026": 0.025,
+      "2027": 0.02,
+      "2028": 0.02,
+      "2029": 0.015,
+      "2030": 0.015
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 1657905000.0,
+      "2024": 1868006000.0,
+      "2025": 948025000.0
+    },
+    "da": {
+      "2023": 437804000.0,
+      "2024": 478907000.0,
+      "2025": 551390000.0
+    },
+    "ebit": {
+      "2023": 3151181000.0,
+      "2024": 1943037000.0,
+      "2025": 1475986000.0
+    },
+    "nwc": {
+      "2023": 279342279.0,
+      "2024": 297047047.0,
+      "2025": 362669363.0
+    },
+    "revenue": {
+      "2023": 18795316000.0,
+      "2024": 17540390000.0,
+      "2025": 18176581000.0
+    }
+  },
+  "notes": [
+    "Historical revenue and EBIT are from Steel Dynamics FY2023-FY2025 consolidated statements of income; EBIT is proxied by operating income (values converted from 'in thousands' to full dollars). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001022671/000110465926021395/stld-20251231x10k.htm))",
+    "D&A and capex use cash flow statement lines 'Depreciation and amortization' and 'Purchases of property, plant and equipment' (absolute values converted from thousands to dollars). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001022671/000110465926021395/stld-20251231x10k.htm))",
+    "NWC is constructed from balance-sheet totals: (Total current assets \u2212 cash & equivalents \u2212 short-term investments) \u2212 (Total current liabilities \u2212 current maturities of long-term debt). This includes income taxes payable and accrued items as part of working capital by construction. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001022671/000110465926021395/stld-20251231x10k.htm))",
+    "Cash uses 'Cash and equivalents' only; investments uses short-term investments (0 in FY2025). Debt uses current maturities of long-term debt + long-term debt. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001022671/000110465926021395/stld-20251231x10k.htm))",
+    "Minority interest is set equal to 'Redeemable noncontrolling interests' at Dec 31, 2025. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001022671/000110465926021395/stld-20251231x10k.htm))",
+    "NOL balance is set to net operating loss carryforwards disclosed in the deferred tax footnote; NOL utilization percent is an assumption (not explicitly provided as a single utilization factor). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001022671/000110465926021395/stld-20251231x10k.htm))",
+    "Comps: EV/NTM revenue and true EV/NTM EBITDA were not available from the captured peer-multiples source; EV/EBITDA and P/E are used as the closest available anchors and EV/NTM revenue is set to null. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/stld/relative-valuation/ratio/enterprise-value-to-ebitda))",
+    "WACC, terminal growth, and terminal exit EBITDA multiple are model assumptions for DCF (not explicitly stated as final inputs in company filings)."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Improving steel and scrap market spreads that translate into higher operating margins.",
+      "Upside from aluminum/flat-roll and other expansion ramp-ups and utilization improvements as noted in the company\u2019s latest outlook materials. ([s27.q4cdn.com](https://s27.q4cdn.com/542031646/files/doc_earnings/2025/q4/earnings-result/4Q-2025-Supplemental-Financial-Information.pdf?utm_source=openai))",
+      "Capital allocation updates (share repurchases/dividend) driven by free cash flow generation."
+    ],
+    "company_overview": [
+      "Steel Dynamics is a major U.S. producer of steel products with integrated downstream fabrication and metals recycling exposure.",
+      "Results are driven by steel/recycling spreads, shipment volumes, and input costs (notably scrap and energy).",
+      "The company has a large capital program tied to capacity expansions and facility improvements across divisions."
+    ],
+    "current_context": [
+      "For FY2025, Steel Dynamics reported consolidated net sales of $18.18B and operating income (EBIT proxy) of $1.48B, down from FY2024 as metal spread compression weighed on profitability. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001022671/000110465926021395/stld-20251231x10k.htm))",
+      "Management highlighted record steel shipments during 2025 and stable underlying domestic demand, with operating performance affected by metal spreads. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001022671/000110465926021395/stld-20251231x10k.htm))",
+      "The latest annual results materials include forward-looking operating outlook/guidance details in supplemental attachments. ([ir.steeldynamics.com](https://ir.steeldynamics.com/steel-dynamics-reports-fourth-quarter-and-annual-2025-results/?utm_source=openai))"
+    ],
+    "investment_highlights": [
+      "DCF base case assumes modest revenue growth from ongoing demand and capacity utilization while avoiding aggressive cyclic expansion.",
+      "EBIT margin recovery is modeled as mean reversion from FY2024/FY2025 spread compression toward a more normalized level by the terminal year.",
+      "Capital intensity is reflected through a sustained (but normalized) capex rate relative to sales, supporting long-run productivity and capacity.",
+      "Working capital intensity is modeled as stable to slightly improving, consistent with a mature, high-turnover manufacturing/recycling profile."
+    ],
+    "key_risks": [
+      "Downside from further metal spread compression or weaker construction/manufacturing demand.",
+      "Cost inflation (scrap, energy, labor) that outpaces selling price/metal spread recovery.",
+      "Execution and cyclicality risk around capex projects (timing, ramp, and utilization)."
+    ],
+    "sources": [
+      {
+        "label": "Steel Dynamics, Inc. Form 10-K (FY ended Dec 31, 2025)",
+        "notes": "Consolidated statements used for FY2023-FY2025 net sales, operating income (EBIT proxy), income tax expense, D&A, purchases of PP&E, and balance sheet items for cash/current assets/current liabilities. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001022671/000110465926021395/stld-20251231x10k.htm))",
+        "url": null
+      },
+      {
+        "label": "Steel Dynamics: Fourth Quarter and Annual 2025 Results (IR release)",
+        "notes": "Used for latest context framing for FY2025 results and reported outlook/guidance references. ([ir.steeldynamics.com](https://ir.steeldynamics.com/steel-dynamics-reports-fourth-quarter-and-annual-2025-results/?utm_source=openai))",
+        "url": null
+      },
+      {
+        "label": "4Q 2025 Supplemental Financial Information (guidance attachments)",
+        "notes": "Used to support that the company provides forward-looking outlook ranges/assumptions in supplemental attachments (numeric guidance not extracted into the DCF drivers in this package). ([s27.q4cdn.com](https://s27.q4cdn.com/542031646/files/doc_earnings/2025/q4/earnings-result/4Q-2025-Supplemental-Financial-Information.pdf?utm_source=openai))",
+        "url": null
+      },
+      {
+        "label": "AlphaSpread: Peer valuation multiples snapshot",
+        "notes": "Used for EV/EBITDA and P/E peer anchors; EV/NTM revenue not available in the source. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/stld/relative-valuation/ratio/enterprise-value-to-ebitda))",
+        "url": null
+      },
+      {
+        "label": "STLD price snapshot",
+        "notes": "Used for current_price as of 2026-03-21.",
+        "url": null
+      }
+    ],
+    "subtitle": "DCF & Valuation Inputs \u2014 Steel Dynamics (STLD)",
+    "valuation_summary": [
+      "Selected DCF structure uses operating cash earnings dynamics (EBIT margin) with explicit D&A, capex, and working capital assumptions.",
+      "Terminal value relies on an exit multiple that is consistent with market EV/EBITDA ranges for steel/recycling-related peers (conservatively centered). ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/stld/relative-valuation/ratio/enterprise-value-to-ebitda))",
+      "Comps are used directionally due to data availability limits for EV/NTM revenue; P/E and EV/EBITDA provide the closest available anchor. ([alphaspread.com](https://www.alphaspread.com/security/nasdaq/stld/relative-valuation/ratio/enterprise-value-to-ebitda))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.112,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 8.5,
+        "terminal_growth": 0.0185,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.092
+      },
+      "description": "Modestly weaker demand/spreads and slower margin recovery; higher WACC and lower exit multiple versus base case.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.052,
+          "2027": 0.05,
+          "2028": 0.05,
+          "2029": 0.051,
+          "2030": 0.052
+        },
+        "da_pct_sales": {
+          "2026": 0.029,
+          "2027": 0.0292,
+          "2028": 0.0295,
+          "2029": 0.03,
+          "2030": 0.03
+        },
+        "ebit_margin": {
+          "2026": 0.09,
+          "2027": 0.094,
+          "2028": 0.098,
+          "2029": 0.103,
+          "2030": 0.112
+        },
+        "nwc_pct_sales": {
+          "2026": 0.0175,
+          "2027": 0.0178,
+          "2028": 0.018,
+          "2029": 0.0182,
+          "2030": 0.0184
+        },
+        "revenue_growth": {
+          "2026": 0.02,
+          "2027": 0.015,
+          "2028": 0.015,
+          "2029": 0.01,
+          "2030": 0.01
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.125,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": 9.5,
+        "terminal_growth": 0.021,
+        "terminal_method": "exit_multiple",
+        "wacc": 0.087
+      },
+      "description": "Modestly higher growth and margin normalization versus base case; slightly lower WACC and higher exit multiple.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.057,
+          "2027": 0.054,
+          "2028": 0.055,
+          "2029": 0.056,
+          "2030": 0.057
+        },
+        "da_pct_sales": {
+          "2026": 0.03,
+          "2027": 0.0305,
+          "2028": 0.031,
+          "2029": 0.0315,
+          "2030": 0.0318
+        },
+        "ebit_margin": {
+          "2026": 0.1,
+          "2027": 0.105,
+          "2028": 0.11,
+          "2029": 0.116,
+          "2030": 0.125
+        },
+        "nwc_pct_sales": {
+          "2026": 0.0185,
+          "2027": 0.0187,
+          "2028": 0.019,
+          "2029": 0.0192,
+          "2030": 0.0195
+        },
+        "revenue_growth": {
+          "2026": 0.03,
+          "2027": 0.025,
+          "2028": 0.024,
+          "2029": 0.02,
+          "2030": 0.02
+        }
+      }
+    }
+  },
+  "ticker": "STLD"
+}

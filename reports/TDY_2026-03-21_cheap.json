@@ -1,0 +1,667 @@
+{
+  "_meta": {
+    "cost_usd": 0.024534,
+    "generated_at": "2026-03-21T17:22:04Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 11599,
+      "prompt": 2514,
+      "reasoning": 7626
+    }
+  },
+  "_valuation": {
+    "company_name": "Teledyne Technologies Incorporated",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 616.18,
+        "description": "Base case",
+        "enterprise_value": 18896476597.38846,
+        "equity_value": 16773476597.388458,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 21213899092.458652,
+        "implied_market_cap": 16773476597.388458,
+        "investments_adjustment": 0.0,
+        "net_debt": 2123000000.0,
+        "per_share_value": 353.87081429089574,
+        "projected_years": [
+          {
+            "capex": 117978296.80000001,
+            "cash_taxes": 169987844.16,
+            "da": 358472517.2,
+            "delta_nwc": 16229448.0,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 1218676912.0,
+            "ebit_margin": 0.188,
+            "ebitda": 1577149429.2,
+            "fcff": 1272953840.24,
+            "nol_balance_end": 0.0,
+            "nol_used": 274300000.0,
+            "nwc": 1309429448.0,
+            "present_value_fcff": 1167847559.853211,
+            "revenue": 6482324000.0,
+            "revenue_growth": 0.06,
+            "year": 2026
+          },
+          {
+            "capex": 123877211.64,
+            "cash_taxes": 231555095.60399997,
+            "da": 376396143.06,
+            "delta_nwc": 65471472.400000095,
+            "discount_factor": 0.84167999326656,
+            "ebit": 1286417197.8,
+            "ebit_margin": 0.189,
+            "ebitda": 1662813340.86,
+            "fcff": 1241909561.2159998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1374900920.4,
+            "present_value_fcff": 1045290431.1219592,
+            "revenue": 6806440200.0,
+            "revenue_growth": 0.05,
+            "year": 2027
+          },
+          {
+            "capex": 128832300.1056,
+            "cash_taxes": 240817299.42815998,
+            "da": 391451988.7824,
+            "delta_nwc": 54996036.815999985,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 1337873885.712,
+            "ebit_margin": 0.189,
+            "ebitda": 1729325874.4944,
+            "fcff": 1304680238.14464,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1429896957.216,
+            "present_value_fcff": 1007452526.6574261,
+            "revenue": 7078697808.0,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 133341430.60929601,
+            "cash_taxes": 250564666.30977598,
+            "da": 405152808.389784,
+            "delta_nwc": 42719941.27128005,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 1392025923.9431999,
+            "ebit_margin": 0.19,
+            "ebitda": 1797178732.332984,
+            "fcff": 1370552694.1426315,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1472616898.4872801,
+            "present_value_fcff": 970934081.6239672,
+            "revenue": 7326452231.28,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 137341673.5275749,
+            "cash_taxes": 258081606.29906926,
+            "da": 417307392.6414775,
+            "delta_nwc": 44178506.954618454,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 1433786701.661496,
+            "ebit_margin": 0.19,
+            "ebitda": 1851094094.3029735,
+            "fcff": 1411492307.5217109,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1516795405.4418986,
+            "present_value_fcff": 917373152.1770358,
+            "revenue": 7546245798.2184,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 21213899092.458652,
+        "terminal_value_present_value": 13787578845.95486,
+        "upside_downside_pct": -0.42570220667516667
+      },
+      "bear": {
+        "current_price": 616.18,
+        "description": "Modestly weaker growth, slight margin compression, and slightly higher WACC; terminal growth modestly lower.",
+        "enterprise_value": 16777865775.984709,
+        "equity_value": 14654865775.984709,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 18679836107.566254,
+        "implied_market_cap": 14654865775.984709,
+        "investments_adjustment": 0.0,
+        "net_debt": 2123000000.0,
+        "per_share_value": 309.174383459593,
+        "projected_years": [
+          {
+            "capex": 117421795.4,
+            "cash_taxes": 165469175.1,
+            "da": 356781609.1,
+            "delta_nwc": 35859882.0,
+            "discount_factor": 0.9132420091324202,
+            "ebit": 1193573195.0,
+            "ebit_margin": 0.185,
+            "ebitda": 1550354804.1,
+            "fcff": 1231603951.6,
+            "nol_balance_end": 0.0,
+            "nol_used": 274300000.0,
+            "nwc": 1329059882.0,
+            "present_value_fcff": 1124752467.2146118,
+            "revenue": 6451747000.0,
+            "revenue_growth": 0.055,
+            "year": 2026
+          },
+          {
+            "capex": 122705776.193,
+            "cash_taxes": 225724691.5902,
+            "da": 372836781.5095,
+            "delta_nwc": 59807694.68999982,
+            "discount_factor": 0.8340109672442193,
+            "ebit": 1254026064.39,
+            "ebit_margin": 0.186,
+            "ebitda": 1626862845.8995001,
+            "fcff": 1218624683.4263003,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1388867576.6899998,
+            "present_value_fcff": 1016346350.9320493,
+            "revenue": 6742075615.0,
+            "revenue_growth": 0.045,
+            "year": 2027
+          },
+          {
+            "capex": 127000478.359755,
+            "cash_taxes": 233625055.79585695,
+            "da": 385886068.86233246,
+            "delta_nwc": 41632316.922625065,
+            "discount_factor": 0.7616538513645839,
+            "ebit": 1297916976.6436498,
+            "ebit_margin": 0.186,
+            "ebitda": 1683803045.5059824,
+            "fcff": 1281545194.4277453,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1430499893.612625,
+            "present_value_fcff": 976093833.0336666,
+            "revenue": 6978048261.525,
+            "revenue_growth": 0.035,
+            "year": 2028
+          },
+          {
+            "capex": 130810492.71054764,
+            "cash_taxes": 241927537.61741942,
+            "da": 397462650.92820245,
+            "delta_nwc": 42914996.8083787,
+            "discount_factor": 0.6955742934836383,
+            "ebit": 1344041875.6523302,
+            "ebit_margin": 0.187,
+            "ebitda": 1741504526.5805326,
+            "fcff": 1325851499.4441867,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1473414890.4210036,
+            "present_value_fcff": 922228219.9901127,
+            "revenue": 7187389709.370749,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 134080755.02831133,
+            "cash_taxes": 247975726.05785486,
+            "da": 407399217.2014075,
+            "delta_nwc": 29468297.808419943,
+            "discount_factor": 0.6352276652818615,
+            "ebit": 1377642922.5436382,
+            "ebit_margin": 0.187,
+            "ebitda": 1785042139.7450457,
+            "fcff": 1373517360.8504596,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1502883188.2294235,
+            "present_value_fcff": 872496226.3571415,
+            "revenue": 7367074452.105018,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 18679836107.566254,
+        "terminal_value_present_value": 11865948678.457127,
+        "upside_downside_pct": -0.49824015148237033
+      },
+      "bull": {
+        "current_price": 616.18,
+        "description": "Modestly faster top-line growth, slightly higher EBIT margin, and slightly lower WACC; terminal growth modestly higher.",
+        "enterprise_value": 23483510037.160202,
+        "equity_value": 21360510037.160202,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 27312353588.39407,
+        "implied_market_cap": 21360510037.160202,
+        "investments_adjustment": 0.0,
+        "net_debt": 2123000000.0,
+        "per_share_value": 450.64367167004644,
+        "projected_years": [
+          {
+            "capex": 118534798.2,
+            "cash_taxes": 174539536.38,
+            "da": 360163425.3,
+            "delta_nwc": -3645602.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 1243964091.0,
+            "ebit_margin": 0.191,
+            "ebitda": 1604127516.3,
+            "fcff": 1314698783.72,
+            "nol_balance_end": 0.0,
+            "nol_used": 274300000.0,
+            "nwc": 1289554398.0,
+            "present_value_fcff": 1211703948.1290324,
+            "revenue": 6512901000.0,
+            "revenue_growth": 0.065,
+            "year": 2026
+          },
+          {
+            "capex": 125054212.10100001,
+            "cash_taxes": 237465580.78079998,
+            "da": 379972413.6915,
+            "delta_nwc": 70925491.8900001,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 1319253226.56,
+            "ebit_margin": 0.192,
+            "ebitda": 1699225640.2515,
+            "fcff": 1265780355.4796999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1360479889.89,
+            "present_value_fcff": 1075223814.886449,
+            "revenue": 6871110555.0,
+            "revenue_growth": 0.055,
+            "year": 2027
+          },
+          {
+            "capex": 130681651.64554499,
+            "cash_taxes": 248151531.91593596,
+            "da": 397071172.3076175,
+            "delta_nwc": 61221595.045049906,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 1378619621.7552,
+            "ebit_margin": 0.192,
+            "ebitda": 1775690794.0628173,
+            "fcff": 1335636015.4562864,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1421701484.93505,
+            "present_value_fcff": 1045680253.0564775,
+            "revenue": 7180310529.974999,
+            "revenue_growth": 0.045,
+            "year": 2028
+          },
+          {
+            "capex": 135908917.7113668,
+            "cash_taxes": 259421747.32378474,
+            "da": 412954019.1999222,
+            "delta_nwc": 49400536.44622803,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 1441231929.576582,
+            "ebit_margin": 0.193,
+            "ebitda": 1854185948.776504,
+            "fcff": 1409454747.2951243,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1471102021.381278,
+            "present_value_fcff": 1017026300.4875484,
+            "revenue": 7467522951.174,
+            "revenue_growth": 0.04,
+            "year": 2029
+          },
+          {
+            "capex": 140665729.83126462,
+            "cash_taxes": 268501508.4801172,
+            "da": 427407409.87191945,
+            "delta_nwc": 51488570.74834442,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 1491675047.1117623,
+            "ebit_margin": 0.193,
+            "ebitda": 1919082456.9836817,
+            "fcff": 1458426647.9239554,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 1522590592.1296225,
+            "present_value_fcff": 969919967.403722,
+            "revenue": 7728886254.465089,
+            "revenue_growth": 0.035,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 27312353588.39407,
+        "terminal_value_present_value": 18163955753.19697,
+        "upside_downside_pct": -0.2686493043103534
+      }
+    },
+    "ticker": "TDY"
+  },
+  "assumptions": {
+    "cash": 352400000.0,
+    "current_price": 616.18,
+    "debt": 2475400000.0,
+    "diluted_shares": 47400000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": 2123000000.0,
+    "nol_balance": 274300000.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.188,
+    "tax_rate": 0.18,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.022,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.09
+  },
+  "company_name": "Teledyne Technologies Incorporated",
+  "comps": [
+    {
+      "company_name": "AMETEK, Inc.",
+      "ev_ntm_ebitda": 19.1,
+      "ev_ntm_revenue": 6.09,
+      "notes": "EV/Revenue and EV/EBITDA taken from MarketScreener 'Fiscal Period ... 2026' rows; used as NTM-style forward multiples.",
+      "pe_ntm": 29.4,
+      "source": "MarketScreener valuation (fiscal period 2026 estimates; used as NTM proxy)",
+      "ticker": "AME"
+    },
+    {
+      "company_name": "Fortive Corporation",
+      "ev_ntm_ebitda": 15.8,
+      "ev_ntm_revenue": 4.75,
+      "notes": "EV/Revenue and EV/EBITDA taken from MarketScreener 'Fiscal Period ... 2026' rows; used as NTM-style forward multiples.",
+      "pe_ntm": 30.0,
+      "source": "MarketScreener valuation (fiscal period 2026 estimates; used as NTM proxy)",
+      "ticker": "FTV"
+    },
+    {
+      "company_name": "Curtiss-Wright Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and NTM P/E not captured from accessible sources within this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CW"
+    },
+    {
+      "company_name": "Roper Technologies, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and NTM P/E not captured from accessible sources within this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "ROP"
+    },
+    {
+      "company_name": "Mercury Systems, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM EV/Revenue, EV/EBITDA, and NTM P/E not captured from accessible sources within this run.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "MRCY"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0182,
+      "2027": 0.0182,
+      "2028": 0.0182,
+      "2029": 0.0182,
+      "2030": 0.0182
+    },
+    "da_pct_sales": {
+      "2026": 0.0553,
+      "2027": 0.0553,
+      "2028": 0.0553,
+      "2029": 0.0553,
+      "2030": 0.0553
+    },
+    "ebit_margin": {
+      "2026": 0.188,
+      "2027": 0.189,
+      "2028": 0.189,
+      "2029": 0.19,
+      "2030": 0.19
+    },
+    "nwc_pct_sales": {
+      "2026": 0.202,
+      "2027": 0.202,
+      "2028": 0.202,
+      "2029": 0.201,
+      "2030": 0.201
+    },
+    "revenue_growth": {
+      "2026": 0.06,
+      "2027": 0.05,
+      "2028": 0.04,
+      "2029": 0.035,
+      "2030": 0.03
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 114900000.0,
+      "2024": 83700000.0,
+      "2025": 117300000.0
+    },
+    "da": {
+      "2023": 316400000.0,
+      "2024": 309900000.0,
+      "2025": 336300000.0
+    },
+    "ebit": {
+      "2023": 1034400000.0,
+      "2024": 989100000.0,
+      "2025": 1149800000.0
+    },
+    "nwc": {
+      "2023": 1167100000.0,
+      "2024": 1033500000.0,
+      "2025": 1293200000.0
+    },
+    "revenue": {
+      "2023": 5635500000.0,
+      "2024": 5670000000.0,
+      "2025": 6115400000.0
+    }
+  },
+  "notes": [
+    "Historical financials (net sales, operating income/EBIT) are from Teledyne\u2019s consolidated statements in the FY2025 Form 10-K; D&A is from depreciation & amortization totals; capex is purchases of property, plant and equipment. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001094285/000109428526000017/tdy-20251228.htm))",
+    "Operating NWC definition used for this package: (Total current assets minus cash and cash equivalents) minus (Total current liabilities minus current portion of long-term debt and other debt). This excludes cash because it is modeled separately and excludes current debt because it is not part of operating working capital. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001094285/000109428526000017/tdy-20251228.htm))",
+    "Base-case revenue growth and forecast utilization rates are not explicitly provided by management in the Q4 2025 earnings release (which provides EPS guidance rather than revenue guidance). Forecasts are therefore modeled as assumptions anchored to FY2023\u2013FY2025 run-rate and normalization. ([teledyne.com](https://www.teledyne.com/en-us/investors/Documents/2025%20Q4%20-%20Teledyne%20Earnings%20Release.pdf))",
+    "Comps: only AME and FTV had forward valuation multiples captured from accessible pages during this run; CW/ROP/MRCY have null multiples due to sourcing gaps within the research constraints. ([marketscreener.com](https://www.marketscreener.com/quote/stock/AMETEK-INC-445555/valuation/))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Sustained demand and order conversion in defense/space and other longer-cycle businesses could support above-base growth versus the modeled deceleration. ([teledyne.com](https://www.teledyne.com/en-us/investors/Documents/2025%20Q4%20-%20Teledyne%20Earnings%20Release.pdf))",
+      "Continued bolt-on M&A activity (management completed multiple acquisitions in 2025 and 2024) could add incremental revenue and synergies. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001094285/000109428526000017/tdy-20251228.htm))",
+      "Capital deployment and balance-sheet flexibility (free cash flow and leverage management) can influence downside protection and potential valuation re-rating. ([teledyne.com](https://www.teledyne.com/en-us/investors/Documents/2025%20Q4%20-%20Teledyne%20Earnings%20Release.pdf))"
+    ],
+    "company_overview": [
+      "Teledyne provides enabling technologies for industrial growth markets including aerospace and defense, factory automation, environmental monitoring, electronics design/development, and medical imaging/pharmaceutical research. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001094285/000109428526000017/tdy-20251228.htm))",
+      "Operations are organized into four reporting segments: Digital Imaging, Instrumentation, Aerospace and Defense Electronics, and Engineered Systems. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001094285/000109428526000017/tdy-20251228.htm))",
+      "FY2025 net sales were $6,115.4 million with operating income (EBIT) of $1,149.8 million (operating margin ~18.8%). ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001094285/000109428526000017/tdy-20251228.htm))"
+    ],
+    "current_context": [
+      "In the FY2025 Q4 earnings release, management highlighted FY2025 results and provided FY2026 GAAP diluted EPS guidance of $19.76 to $20.22 and non-GAAP diluted EPS guidance of $23.45 to $23.85. ([teledyne.com](https://www.teledyne.com/en-us/investors/Documents/2025%20Q4%20-%20Teledyne%20Earnings%20Release.pdf))",
+      "Free cash flow for FY2025 was $1,074.0 million, supported by cash from operations of $1,191.3 million. ([teledyne.com](https://www.teledyne.com/en-us/investors/Documents/2025%20Q4%20-%20Teledyne%20Earnings%20Release.pdf))",
+      "As of December 28, 2025, the release reported net debt of $2,123.0 million (total debt net of cash and cash equivalents). ([teledyne.com](https://www.teledyne.com/en-us/investors/Documents/2025%20Q4%20-%20Teledyne%20Earnings%20Release.pdf))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes gradual deceleration from FY2025 as the incremental contribution from acquisitions normalizes (FY2025 net sales included $270.1 million incremental net sales from acquisitions). ([teledyne.com](https://www.teledyne.com/en-us/investors/Documents/2025%20Q4%20-%20Teledyne%20Earnings%20Release.pdf))",
+      "Base-case profitability holds near the company\u2019s current run-rate (FY2025 operating margin ~18.8%) while bull/bear scenarios test modest margin expansion/compression. ([teledyne.com](https://www.teledyne.com/en-us/investors/Documents/2025%20Q4%20-%20Teledyne%20Earnings%20Release.pdf))",
+      "Reinvestment intensity modeled as capex of ~1.8% of sales based on FY2023\u2013FY2025 purchases of property, plant and equipment. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001094285/000109428526000017/tdy-20251228.htm))",
+      "Working-capital intensity normalized in the forecast using an operating NWC definition that excludes cash and excludes the current portion of debt. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001094285/000109428526000017/tdy-20251228.htm))"
+    ],
+    "key_risks": [
+      "Integration risk and acquisition-related accounting impacts (e.g., amortization and potential impairments) could pressure reported margins versus the base-case. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001094285/000109428526000017/tdy-20251228.htm))",
+      "Working-capital swings (receivables, inventories, payables) could materially differ from the normalized NWC % sales assumption. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001094285/000109428526000017/tdy-20251228.htm))",
+      "Higher interest expense or credit-spread widening could reduce equity value versus WACC and terminal assumptions. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001094285/000109428526000017/tdy-20251228.htm))"
+    ],
+    "sources": [
+      {
+        "label": "Teledyne FY2025 Form 10-K (SEC) \u2014 fiscal year ended Dec 28, 2025",
+        "notes": "Provides net sales, operating income (EBIT), cash flow items (D&A, capex), balance sheet line items used for NWC, and NOL carryforward disclosure. ([sec.gov](https://www.sec.gov/Archives/edgar/data/0001094285/000109428526000017/tdy-20251228.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094285/000109428526000017/tdy-20251228.htm"
+      },
+      {
+        "label": "Teledyne FY2024 Form 10-K (SEC) \u2014 fiscal year ended Dec 29, 2024",
+        "notes": "Provides the FY2023 balance sheet line items needed to compute operating NWC for 2023. ([sec.gov](https://www.sec.gov/Archives/edgar/data/1094285/000109428525000053/tdy-20241229.htm))",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094285/000109428525000053/tdy-20241229.htm"
+      },
+      {
+        "label": "Teledyne Q4 2025 / FY2025 earnings release (PDF)",
+        "notes": "Provides FY2026 GAAP and non-GAAP EPS guidance and net debt disclosed for context. ([teledyne.com](https://www.teledyne.com/en-us/investors/Documents/2025%20Q4%20-%20Teledyne%20Earnings%20Release.pdf))",
+        "url": "https://www.teledyne.com/en-us/investors/Documents/2025%20Q4%20-%20Teledyne%20Earnings%20Release.pdf"
+      },
+      {
+        "label": "MarketScreener valuation \u2014 AMETEK (AME)",
+        "notes": "Forward EV/Revenue, EV/EBITDA, and P/E shown for fiscal period 2026 and used as NTM-style proxies. ([marketscreener.com](https://www.marketscreener.com/quote/stock/AMETEK-INC-445555/valuation/))",
+        "url": "https://www.marketscreener.com/quote/stock/AMETEK-INC-445555/valuation/"
+      },
+      {
+        "label": "MarketScreener valuation \u2014 Fortive (FTV)",
+        "notes": "Forward EV/Revenue, EV/EBITDA, and P/E shown for fiscal period 2026 and used as NTM-style proxies. ([marketscreener.com](https://www.marketscreener.com/quote/stock/FORTIVE-CORPORATION-50919726/valuation/))",
+        "url": "https://www.marketscreener.com/quote/stock/FORTIVE-CORPORATION-50919726/valuation/"
+      }
+    ],
+    "subtitle": "Teledyne (TDY) \u2014 DCF Valuation Input Package (FY2026\u20132030)",
+    "valuation_summary": [
+      "DCF explicitly forecasts FY2026\u2013FY2030 revenue growth and EBIT margins, then applies a Gordon-growth terminal value with a conservative terminal growth rate relative to WACC. (Assumption-based)",
+      "Comps are directionally anchored using forward EV/Revenue and EV/EBITDA multiples from selected industrial/technology peers where accessible (notably AME and FTV). ([marketscreener.com](https://www.marketscreener.com/quote/stock/AMETEK-INC-445555/valuation/))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 616.18,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.182,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.095
+      },
+      "description": "Modestly weaker growth, slight margin compression, and slightly higher WACC; terminal growth modestly lower.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0182,
+          "2027": 0.0182,
+          "2028": 0.0182,
+          "2029": 0.0182,
+          "2030": 0.0182
+        },
+        "da_pct_sales": {
+          "2026": 0.0553,
+          "2027": 0.0553,
+          "2028": 0.0553,
+          "2029": 0.0553,
+          "2030": 0.0553
+        },
+        "ebit_margin": {
+          "2026": 0.185,
+          "2027": 0.186,
+          "2028": 0.186,
+          "2029": 0.187,
+          "2030": 0.187
+        },
+        "nwc_pct_sales": {
+          "2026": 0.206,
+          "2027": 0.206,
+          "2028": 0.205,
+          "2029": 0.205,
+          "2030": 0.204
+        },
+        "revenue_growth": {
+          "2026": 0.055,
+          "2027": 0.045,
+          "2028": 0.035,
+          "2029": 0.03,
+          "2030": 0.025
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 616.18,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.192,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.03,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.085
+      },
+      "description": "Modestly faster top-line growth, slightly higher EBIT margin, and slightly lower WACC; terminal growth modestly higher.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0182,
+          "2027": 0.0182,
+          "2028": 0.0182,
+          "2029": 0.0182,
+          "2030": 0.0182
+        },
+        "da_pct_sales": {
+          "2026": 0.0553,
+          "2027": 0.0553,
+          "2028": 0.0553,
+          "2029": 0.0553,
+          "2030": 0.0553
+        },
+        "ebit_margin": {
+          "2026": 0.191,
+          "2027": 0.192,
+          "2028": 0.192,
+          "2029": 0.193,
+          "2030": 0.193
+        },
+        "nwc_pct_sales": {
+          "2026": 0.198,
+          "2027": 0.198,
+          "2028": 0.198,
+          "2029": 0.197,
+          "2030": 0.197
+        },
+        "revenue_growth": {
+          "2026": 0.065,
+          "2027": 0.055,
+          "2028": 0.045,
+          "2029": 0.04,
+          "2030": 0.035
+        }
+      }
+    }
+  },
+  "ticker": "TDY"
+}

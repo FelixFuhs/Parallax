@@ -1,0 +1,674 @@
+{
+  "_meta": {
+    "cost_usd": 0.022767,
+    "generated_at": "2026-03-21T17:20:59Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10615,
+      "prompt": 2514,
+      "reasoning": 7196
+    }
+  },
+  "_valuation": {
+    "company_name": "PulteGroup, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 114.55,
+        "description": "Base case",
+        "enterprise_value": 40731081920.68765,
+        "equity_value": 40592165920.68765,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 45176334641.75097,
+        "implied_market_cap": 40592165920.68765,
+        "investments_adjustment": 15744000.0,
+        "net_debt": 154660000.0,
+        "per_share_value": 203.4317741606201,
+        "projected_years": [
+          {
+            "capex": 121252918.81199999,
+            "cash_taxes": 827551170.8919001,
+            "da": 115903525.335,
+            "delta_nwc": 215077040.20000076,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 3477105760.05,
+            "ebit_margin": 0.195,
+            "ebitda": 3593009285.385,
+            "fcff": 2429128155.4810996,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 13908423040.2,
+            "present_value_fcff": 2238827793.070138,
+            "revenue": 17831311590.0,
+            "revenue_growth": 0.03,
+            "year": 2026
+          },
+          {
+            "capex": 124248579.15912002,
+            "cash_taxes": 904789280.1751441,
+            "da": 120539666.34840001,
+            "delta_nwc": 370891281.0720005,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 3801635630.9880004,
+            "ebit_margin": 0.205,
+            "ebitda": 3922175297.3364005,
+            "fcff": 2522246156.9301357,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 14279314321.272001,
+            "present_value_fcff": 2142535332.6085804,
+            "revenue": 18544564053.600002,
+            "revenue_growth": 0.04,
+            "year": 2027
+          },
+          {
+            "capex": 126677917.05014162,
+            "cash_taxes": 950161152.371244,
+            "da": 122839192.29104641,
+            "delta_nwc": 115903525.33500099,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 3992273749.459008,
+            "ebit_margin": 0.208,
+            "ebitda": 4115112941.750055,
+            "fcff": 2922370346.993668,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 14395217846.607002,
+            "present_value_fcff": 2287947411.2751637,
+            "revenue": 19193623795.476,
+            "revenue_growth": 0.035,
+            "year": 2028
+          },
+          {
+            "capex": 128501311.31071183,
+            "cash_taxes": 983371111.8796042,
+            "da": 128501311.31071183,
+            "delta_nwc": 234162210.30480576,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 4131811394.452119,
+            "ebit_margin": 0.209,
+            "ebitda": 4260312705.7628307,
+            "fcff": 2914278072.267709,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 14629380056.911808,
+            "present_value_fcff": 2102868114.1543627,
+            "revenue": 19769432509.340282,
+            "revenue_growth": 0.03,
+            "year": 2029
+          },
+          {
+            "capex": 131713844.09347962,
+            "cash_taxes": 1012778142.7372478,
+            "da": 133740210.925687,
+            "delta_nwc": 365734501.42279434,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 4255370347.635495,
+            "ebit_margin": 0.21,
+            "ebitda": 4389110558.561182,
+            "fcff": 2878884070.30766,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 14995114558.334602,
+            "present_value_fcff": 1914588675.1360939,
+            "revenue": 20263668322.073788,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 45176334641.75097,
+        "terminal_value_present_value": 30044314594.443317,
+        "upside_downside_pct": 0.7759212061162821
+      },
+      "bear": {
+        "current_price": 114.55,
+        "description": "Modestly weaker housing cycle (lower growth and operating leverage) with less favorable financing/terminal assumptions.",
+        "enterprise_value": 36545558090.86322,
+        "equity_value": 36406642090.86322,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 40749335856.69649,
+        "implied_market_cap": 36406642090.86322,
+        "investments_adjustment": 15744000.0,
+        "net_debt": 154660000.0,
+        "per_share_value": 182.4555951571048,
+        "projected_years": [
+          {
+            "capex": 117115362.045,
+            "cash_taxes": 781301422.8547499,
+            "da": 113566411.68,
+            "delta_nwc": 325007941.75,
+            "discount_factor": 0.9174311926605504,
+            "ebit": 3282779087.625,
+            "ebit_margin": 0.185,
+            "ebitda": 3396345499.305,
+            "fcff": 2172920772.65525,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 14018353941.75,
+            "present_value_fcff": 1993505296.0139909,
+            "revenue": 17744751825.0,
+            "revenue_growth": 0.025,
+            "year": 2026
+          },
+          {
+            "capex": 119377817.90268749,
+            "cash_taxes": 852357619.8251888,
+            "da": 117541236.08880001,
+            "delta_nwc": 306984206.5725002,
+            "discount_factor": 0.84167999326656,
+            "ebit": 3581334537.080625,
+            "ebit_margin": 0.195,
+            "ebitda": 3698875773.169425,
+            "fcff": 2420156128.8690486,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 14325338148.3225,
+            "present_value_fcff": 2036996994.2505245,
+            "revenue": 18365818138.875,
+            "revenue_growth": 0.035,
+            "year": 2027
+          },
+          {
+            "capex": 121067473.17146403,
+            "cash_taxes": 891434938.395636,
+            "da": 119175793.90315989,
+            "delta_nwc": 51424290.788850784,
+            "discount_factor": 0.7721834800610642,
+            "ebit": 3745524951.242168,
+            "ebit_margin": 0.198,
+            "ebitda": 3864700745.145328,
+            "fcff": 2800774042.789377,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 14376762439.111351,
+            "present_value_fcff": 2162711447.225797,
+            "revenue": 18916792683.041252,
+            "revenue_growth": 0.03,
+            "year": 2028
+          },
+          {
+            "capex": 122155188.75073889,
+            "cash_taxes": 918335563.4305547,
+            "da": 124094160.00075062,
+            "delta_nwc": 165521935.9766121,
+            "discount_factor": 0.7084252110651963,
+            "ebit": 3858552787.5233393,
+            "ebit_margin": 0.199,
+            "ebitda": 3982646947.52409,
+            "fcff": 2776634259.3661838,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 14542284375.087963,
+            "present_value_fcff": 1967037711.2423437,
+            "revenue": 19389712500.117283,
+            "revenue_growth": 0.025,
+            "year": 2029
+          },
+          {
+            "capex": 124598292.52575366,
+            "cash_taxes": 941409321.3056943,
+            "da": 128553793.87577759,
+            "delta_nwc": 93070620.00056267,
+            "discount_factor": 0.6499313862983452,
+            "ebit": 3955501350.023926,
+            "ebit_margin": 0.2,
+            "ebitda": 4084055143.8997035,
+            "fcff": 2924976910.0676928,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 14635354995.088526,
+            "present_value_fcff": 1901034298.0509458,
+            "revenue": 19777506750.11963,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 40749335856.69649,
+        "terminal_value_present_value": 26484272344.079617,
+        "upside_downside_pct": 0.5928031004548651
+      },
+      "bull": {
+        "current_price": 114.55,
+        "description": "Modestly higher homebuilding recovery (growth and margin) with slightly more favorable financing/terminal assumptions.",
+        "enterprise_value": 46162003605.450775,
+        "equity_value": 46023087605.450775,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 51809977949.01165,
+        "implied_market_cap": 46023087605.450775,
+        "investments_adjustment": 15744000.0,
+        "net_debt": 154660000.0,
+        "per_share_value": 230.64939136827144,
+        "projected_years": [
+          {
+            "capex": 125425099.485,
+            "cash_taxes": 874212943.4104499,
+            "da": 118257950.943,
+            "delta_nwc": 103414943.35000038,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 3673163627.7749996,
+            "ebit_margin": 0.205,
+            "ebitda": 3791421578.7179995,
+            "fcff": 2688368592.472549,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 13796760943.35,
+            "present_value_fcff": 2482334803.760433,
+            "revenue": 17917871355.0,
+            "revenue_growth": 0.035,
+            "year": 2026
+          },
+          {
+            "capex": 129196811.40522748,
+            "cash_taxes": 958116063.7109406,
+            "da": 123579558.735435,
+            "delta_nwc": 433612486.79099846,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 4025697746.6846247,
+            "ebit_margin": 0.215,
+            "ebitda": 4149277305.4200597,
+            "fcff": 2628351943.512893,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 14230373430.140999,
+            "present_value_fcff": 2240921300.7478914,
+            "revenue": 18724175565.975,
+            "revenue_growth": 0.045,
+            "year": 2027
+          },
+          {
+            "capex": 132417369.60257518,
+            "cash_taxes": 1010344530.0676486,
+            "da": 126575426.82599099,
+            "delta_nwc": 179752085.43335915,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 4245145084.3178515,
+            "ebit_margin": 0.218,
+            "ebitda": 4371720511.143843,
+            "fcff": 3049206526.04026,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 14410125515.574358,
+            "present_value_fcff": 2400498675.718883,
+            "revenue": 19473142588.614,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 135036507.28074378,
+            "cash_taxes": 1050503407.8338697,
+            "da": 133021037.02282222,
+            "delta_nwc": 302807367.25294876,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 4413879864.848192,
+            "ebit_margin": 0.219,
+            "ebitda": 4546900901.871015,
+            "fcff": 3058553619.5034523,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 14712932882.827307,
+            "present_value_fcff": 2223321521.9492817,
+            "revenue": 20154702579.21549,
+            "revenue_growth": 0.035,
+            "year": 2029
+          },
+          {
+            "capex": 139087602.4991661,
+            "cash_taxes": 1086959233.8591547,
+            "da": 139087602.4991661,
+            "delta_nwc": 441387986.4848194,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 4567055604.45023,
+            "ebit_margin": 0.22,
+            "ebitda": 4706143206.949396,
+            "fcff": 3038708384.1062555,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": 15154320869.312126,
+            "present_value_fcff": 2039608160.846221,
+            "revenue": 20759343656.591953,
+            "revenue_growth": 0.03,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 51809977949.01165,
+        "terminal_value_present_value": 34775319142.42806,
+        "upside_downside_pct": 1.0135258958382494
+      }
+    },
+    "ticker": "PHM"
+  },
+  "assumptions": {
+    "cash": 2008776000.0,
+    "current_price": 114.55,
+    "debt": 2163436000.0,
+    "diluted_shares": 199537000.0,
+    "investments": 15744000.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.21,
+    "tax_rate": 0.238,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "PulteGroup, Inc.",
+  "comps": [
+    {
+      "company_name": "D.R. Horton, Inc.",
+      "ev_ntm_ebitda": 10.27,
+      "ev_ntm_revenue": 1.37,
+      "notes": "EV/Sales and EV/EBITDA taken from Finviz valuation panel; Finviz does not explicitly label these as NTM in the panel (treated as proxy). Forward P/E is labeled forward P/E.",
+      "pe_ntm": 11.99,
+      "source": "Finviz",
+      "ticker": "DHI"
+    },
+    {
+      "company_name": "Lennar Corporation",
+      "ev_ntm_ebitda": 8.88,
+      "ev_ntm_revenue": 0.74,
+      "notes": "EV/Sales and EV/EBITDA taken from Finviz valuation panel; interpreted as proxies for NTM multiples (labeling not explicitly stated as NTM). Forward P/E is labeled forward P/E.",
+      "pe_ntm": 11.77,
+      "source": "Finviz",
+      "ticker": "LEN"
+    },
+    {
+      "company_name": "NVR, Inc.",
+      "ev_ntm_ebitda": 11.48,
+      "ev_ntm_revenue": 1.67,
+      "notes": "EV/Sales and EV/EBITDA taken from Finviz valuation panel; interpreted as proxies for NTM multiples (labeling not explicitly stated as NTM). Forward P/E is labeled forward P/E.",
+      "pe_ntm": 13.69,
+      "source": "Finviz",
+      "ticker": "NVR"
+    },
+    {
+      "company_name": "Toll Brothers, Inc.",
+      "ev_ntm_ebitda": 7.86,
+      "ev_ntm_revenue": 1.26,
+      "notes": "EV/Sales and EV/EBITDA taken from Finviz valuation panel; interpreted as proxies for NTM multiples (labeling not explicitly stated as NTM). Forward P/E is labeled forward P/E.",
+      "pe_ntm": 9.24,
+      "source": "Finviz",
+      "ticker": "TOL"
+    },
+    {
+      "company_name": "KB Home",
+      "ev_ntm_ebitda": 8.36,
+      "ev_ntm_revenue": 0.76,
+      "notes": "EV/Sales and EV/EBITDA taken from Finviz valuation panel; interpreted as proxies for NTM multiples (labeling not explicitly stated as NTM). Forward P/E is labeled forward P/E.",
+      "pe_ntm": 9.4,
+      "source": "Finviz",
+      "ticker": "KBH"
+    },
+    {
+      "company_name": "Meritage Homes Corporation",
+      "ev_ntm_ebitda": 8.96,
+      "ev_ntm_revenue": 0.86,
+      "notes": "EV/Sales and EV/EBITDA taken from Finviz valuation panel; interpreted as proxies for NTM multiples (labeling not explicitly stated as NTM). Forward P/E is labeled forward P/E.",
+      "pe_ntm": 8.02,
+      "source": "Finviz",
+      "ticker": "MTH"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.0068,
+      "2027": 0.0067,
+      "2028": 0.0066,
+      "2029": 0.0065,
+      "2030": 0.0065
+    },
+    "da_pct_sales": {
+      "2026": 0.0065,
+      "2027": 0.0065,
+      "2028": 0.0064,
+      "2029": 0.0065,
+      "2030": 0.0066
+    },
+    "ebit_margin": {
+      "2026": 0.195,
+      "2027": 0.205,
+      "2028": 0.208,
+      "2029": 0.209,
+      "2030": 0.21
+    },
+    "nwc_pct_sales": {
+      "2026": 0.78,
+      "2027": 0.77,
+      "2028": 0.75,
+      "2029": 0.74,
+      "2030": 0.74
+    },
+    "revenue_growth": {
+      "2026": 0.03,
+      "2027": 0.04,
+      "2028": 0.035,
+      "2029": 0.03,
+      "2030": 0.025
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 92201000.0,
+      "2024": 118545000.0,
+      "2025": 122716000.0
+    },
+    "da": {
+      "2023": 80824000.0,
+      "2024": 89162000.0,
+      "2025": 112507000.0
+    },
+    "ebit": {
+      "2023": 3449267000.0,
+      "2024": 4005879000.0,
+      "2025": 2911321000.0
+    },
+    "nwc": {
+      "2023": 11592399000.0,
+      "2024": 13157225000.0,
+      "2025": 13693346000.0
+    },
+    "revenue": {
+      "2023": 16061578000.0,
+      "2024": 17946950000.0,
+      "2025": 17311953000.0
+    }
+  },
+  "notes": [
+    "EBIT is modeled as income before income taxes (as presented in PulteGroup\u2019s consolidated statements). This is an accounting proxy for EBIT to match available line-item data; interest effects are therefore embedded in the EBIT proxy.",
+    "All SEC statement figures are reported in ($000\u2019s omitted); all historical and forecast inputs here are converted to full currency units (i.e., multiplied by 1,000).",
+    "NWC is computed as a balance-sheet proxy using: (House and land inventory + residential mortgage loans available-for-sale + other assets) \u2212 (accounts payable + accrued and other liabilities). This is not guaranteed to match any DCF pipeline\u2019s specific NWC definition; a notes flag is included to avoid silent definition drift.",
+    "Terminal value method is set to Gordon Growth (terminal_exit_ebitda_multiple = null).",
+    "NOL balance and NOL utilization percent are set to null because the 10-K disclosure available in the extracted sections provides state NOL carryforward information via deferred tax components rather than a directly usable NOL dollar balance and utilization schedule for the pipeline.",
+    "Peer comps EV multiples are populated from Finviz EV/Sales and EV/EBITDA fields. These are treated as proxies for EV/NTM Revenue and EV/NTM EBITDA because the source panel does not explicitly label them as NTM."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "Sustained improvement in mortgage affordability (rate declines and/or better pricing dynamics) supporting stronger sales pace and community production.",
+      "Operational execution on land pipeline/turning assets, supporting delivery growth and improved gross margin realization.",
+      "Additional capital return (repurchases/dividends) if cash generation remains resilient through the cycle."
+    ],
+    "company_overview": [
+      "PulteGroup is one of the largest U.S. homebuilders with multiple brands (Centex, Pulte Homes, Del Webb, DiVosta, and John Wieland) operating across 45+ markets.",
+      "Homebuilding is the core revenue driver (home sale revenues plus land sale/other), supported by Financial Services (mortgage banking, title, and insurance agency operations).",
+      "The company manages a land/inventory platform intended to support community count growth and to generate cash flows through cycles."
+    ],
+    "current_context": [
+      "In full-year 2025, PulteGroup delivered 29,572 homes and generated $16,743,522,000 of home sale revenues, with net income of $2,218,730,000.",
+      "Management noted weakened consumer demand in 2025 tied to affordability challenges (rates and higher housing costs), with gross margin from home sales compressing year-over-year.",
+      "Capital allocation remained active: the company repurchased 10.6 million shares for about $1.2 billion in 2025 and ended the year with $2.0 billion of cash."
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth assumes housing demand stabilizes and the company maintains production/cadence discipline consistent with a late-cycle normalization.",
+      "Margins recover gradually from the 2025 compressed level toward a ~0.21 target EBIT margin as gross margin improves and SG&A leverage stabilizes.",
+      "Reinvestment intensity is modeled with modest ongoing capex (communities, construction operations, and technology) while D&A scales with sales.",
+      "Working capital intensity is projected to normalize from elevated inventory/mortgage-related levels, reducing NWC as a percentage of sales over time."
+    ],
+    "key_risks": [
+      "Housing downturn and/or increased incentives leading to lower-than-modeled gross margins and profitability.",
+      "Interest-rate volatility and secondary-market/hedging dynamics that can pressure Financial Services results and overall pre-tax earnings.",
+      "Inventory/land impairments and working capital strain if market conditions deteriorate materially."
+    ],
+    "sources": [
+      {
+        "label": "PulteGroup FY 2025 Form 10-K (SEC HTML)",
+        "notes": "Supplies 2023\u20132025 revenues, income before income taxes, depreciation & amortization, capex, and balance sheet items used for NWC proxy.",
+        "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000007/phm-20251231.htm"
+      },
+      {
+        "label": "PulteGroup FY 2024 Form 10-K (SEC HTML)",
+        "notes": "Supplies 2023 balance sheet items (and confirmation of FY 2023 operating cash flow components) used in NWC proxy.",
+        "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241625000007/phm-20241231.htm"
+      },
+      {
+        "label": "PulteGroup Reports Fourth Quarter 2025 Financial Results (Company press release)",
+        "notes": "Provides narrative and selected full-year 2025 operating/capital allocation context.",
+        "url": "https://www.pultegroupinc.com/investor-relations/news/news-details/2026/PulteGroup-Reports-Fourth-Quarter-2025-Financial-Results/default.aspx"
+      },
+      {
+        "label": "Finviz PHM quote (market valuation multiples snapshot)",
+        "notes": "Used for market multiples (forward P/E; EV/EBITDA and EV/Sales) where needed for peer comps context.",
+        "url": "https://finviz.com/quote.ashx?p=d&t=PHM&ta=1&ty=c"
+      }
+    ],
+    "subtitle": "PulteGroup (PHM) DCF Inputs & Peer Valuation Setup",
+    "valuation_summary": [
+      "DCF base case uses a Gordon-growth terminal value with a 2.0% terminal growth rate and an 8.5% WACC, consistent with a mature, cyclical homebuilding cash-flow profile.",
+      "Tax rate is anchored to the company\u2019s recent effective tax rate trend (2023\u20132025).",
+      "Peer comps provide a triangulation range using EV/Sales, EV/EBITDA, and forward P/E inputs from a consistent market-data source (with the caveat that EV multiples are not explicitly labeled as NTM)."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.2,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.017,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.09
+      },
+      "description": "Modestly weaker housing cycle (lower growth and operating leverage) with less favorable financing/terminal assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.0066,
+          "2027": 0.0065,
+          "2028": 0.0064,
+          "2029": 0.0063,
+          "2030": 0.0063
+        },
+        "da_pct_sales": {
+          "2026": 0.0064,
+          "2027": 0.0064,
+          "2028": 0.0063,
+          "2029": 0.0064,
+          "2030": 0.0065
+        },
+        "ebit_margin": {
+          "2026": 0.185,
+          "2027": 0.195,
+          "2028": 0.198,
+          "2029": 0.199,
+          "2030": 0.2
+        },
+        "nwc_pct_sales": {
+          "2026": 0.79,
+          "2027": 0.78,
+          "2028": 0.76,
+          "2029": 0.75,
+          "2030": 0.74
+        },
+        "revenue_growth": {
+          "2026": 0.025,
+          "2027": 0.035,
+          "2028": 0.03,
+          "2029": 0.025,
+          "2030": 0.02
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.22,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.023,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.083
+      },
+      "description": "Modestly higher homebuilding recovery (growth and margin) with slightly more favorable financing/terminal assumptions.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.007,
+          "2027": 0.0069,
+          "2028": 0.0068,
+          "2029": 0.0067,
+          "2030": 0.0067
+        },
+        "da_pct_sales": {
+          "2026": 0.0066,
+          "2027": 0.0066,
+          "2028": 0.0065,
+          "2029": 0.0066,
+          "2030": 0.0067
+        },
+        "ebit_margin": {
+          "2026": 0.205,
+          "2027": 0.215,
+          "2028": 0.218,
+          "2029": 0.219,
+          "2030": 0.22
+        },
+        "nwc_pct_sales": {
+          "2026": 0.77,
+          "2027": 0.76,
+          "2028": 0.74,
+          "2029": 0.73,
+          "2030": 0.73
+        },
+        "revenue_growth": {
+          "2026": 0.035,
+          "2027": 0.045,
+          "2028": 0.04,
+          "2029": 0.035,
+          "2030": 0.03
+        }
+      }
+    }
+  },
+  "ticker": "PHM"
+}
