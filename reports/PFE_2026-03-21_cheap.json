@@ -1,0 +1,688 @@
+{
+  "_meta": {
+    "cost_usd": 0.022533,
+    "generated_at": "2026-03-21T14:29:15Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10945,
+      "prompt": 2514,
+      "reasoning": 6679
+    }
+  },
+  "_valuation": {
+    "company_name": "Pfizer Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 26.97,
+        "description": "Base case",
+        "enterprise_value": 155407962900.0907,
+        "equity_value": 103909962900.0907,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 172657634254.70303,
+        "implied_market_cap": 103909962900.0907,
+        "investments_adjustment": 12454000000.0,
+        "net_debt": 63653000000.0,
+        "per_share_value": 18.188335883089568,
+        "projected_years": [
+          {
+            "capex": 2759733900.0,
+            "cash_taxes": 1103893560.0,
+            "da": 6562033940.0,
+            "delta_nwc": 541717700.0,
+            "discount_factor": 0.9216589861751152,
+            "ebit": 7359290400.0,
+            "ebit_margin": 0.12,
+            "ebitda": 13921324340.0,
+            "fcff": 9515979180.0,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3986282300.0,
+            "present_value_fcff": 8770487723.502304,
+            "revenue": 61327420000.0,
+            "revenue_growth": -0.02,
+            "year": 2026
+          },
+          {
+            "capex": 2787331239.0,
+            "cash_taxes": 1124223599.73,
+            "da": 6627654279.4,
+            "delta_nwc": 145959259.5999999,
+            "discount_factor": 0.8494552867973413,
+            "ebit": 7494823998.2,
+            "ebit_margin": 0.121,
+            "ebitda": 14122478277.599998,
+            "fcff": 10064964179.269999,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3840323040.4,
+            "present_value_fcff": 8549737033.506763,
+            "revenue": 61940694200.0,
+            "revenue_growth": 0.01,
+            "year": 2027
+          },
+          {
+            "capex": 2843077863.7799997,
+            "cash_taxes": 1165661924.1497998,
+            "da": 6760207364.988,
+            "delta_nwc": 49552555.36000013,
+            "discount_factor": 0.7829080984307294,
+            "ebit": 7771079494.332,
+            "ebit_margin": 0.123,
+            "ebitda": 14531286859.32,
+            "fcff": 10472994516.030201,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3790770485.04,
+            "present_value_fcff": 8199392221.420662,
+            "revenue": 63179508084.0,
+            "revenue_growth": 0.02,
+            "year": 2028
+          },
+          {
+            "capex": 2899939421.0555997,
+            "cash_taxes": 1198641627.369648,
+            "da": 6895411512.28776,
+            "delta_nwc": 53070786.79055977,
+            "discount_factor": 0.7215742842679533,
+            "ebit": 7990944182.46432,
+            "ebit_margin": 0.124,
+            "ebitda": 14886355694.752079,
+            "fcff": 10734703859.536272,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3737699698.24944,
+            "present_value_fcff": 7745886254.273322,
+            "revenue": 64443098245.68,
+            "revenue_growth": 0.02,
+            "year": 2029
+          },
+          {
+            "capex": 2957938209.476712,
+            "cash_taxes": 1232474253.94863,
+            "da": 7033319742.533516,
+            "delta_nwc": 56709926.456198215,
+            "discount_factor": 0.6650454232884362,
+            "ebit": 8216495026.324201,
+            "ebit_margin": 0.125,
+            "ebitda": 15249814768.857716,
+            "fcff": 11002692378.976175,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3680989771.793242,
+            "present_value_fcff": 7317290210.488662,
+            "revenue": 65731960210.593605,
+            "revenue_growth": 0.02,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 172657634254.70303,
+        "terminal_value_present_value": 114825169456.89897,
+        "upside_downside_pct": -0.32560860648537004
+      },
+      "bear": {
+        "current_price": 26.97,
+        "description": "Modestly weaker growth and margin compression versus base case; slightly higher WACC.",
+        "enterprise_value": 144936166044.2432,
+        "equity_value": 93438166044.2432,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 160634760627.73157,
+        "implied_market_cap": 93438166044.2432,
+        "investments_adjustment": 12454000000.0,
+        "net_debt": 63653000000.0,
+        "per_share_value": 16.3553590135206,
+        "projected_years": [
+          {
+            "capex": 2745653625.0,
+            "cash_taxes": 1070804913.75,
+            "da": 6528554175.0,
+            "delta_nwc": 562055875.0,
+            "discount_factor": 0.9199632014719411,
+            "ebit": 7138699425.0,
+            "ebit_margin": 0.117,
+            "ebitda": 13667253600.0,
+            "fcff": 9288739186.25,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3965944125.0,
+            "present_value_fcff": 8545298239.420423,
+            "revenue": 61014525000.0,
+            "revenue_growth": -0.025,
+            "year": 2026
+          },
+          {
+            "capex": 2759381893.1249995,
+            "cash_taxes": 1085356877.9624999,
+            "da": 6561196945.874999,
+            "delta_nwc": 164129072.25000048,
+            "discount_factor": 0.8463322920625034,
+            "ebit": 7235712519.749999,
+            "ebit_margin": 0.118,
+            "ebitda": 13796909465.624998,
+            "fcff": 9788041622.287498,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3801815052.7499995,
+            "present_value_fcff": 8283935700.993763,
+            "revenue": 61319597624.99999,
+            "revenue_growth": 0.005,
+            "year": 2027
+          },
+          {
+            "capex": 2800772621.5218744,
+            "cash_taxes": 1120309048.6087496,
+            "da": 6659614900.063124,
+            "delta_nwc": 67451557.38750076,
+            "discount_factor": 0.7785945649149065,
+            "ebit": 7468726990.7249975,
+            "ebit_margin": 0.12,
+            "ebitda": 14128341890.78812,
+            "fcff": 10139808663.269997,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3734363495.3624988,
+            "present_value_fcff": 7894799914.499103,
+            "revenue": 62239391589.374985,
+            "revenue_growth": 0.015,
+            "year": 2028
+          },
+          {
+            "capex": 2842784210.8447022,
+            "cash_taxes": 1146589631.7073631,
+            "da": 6759509123.56407,
+            "delta_nwc": 70330512.49599361,
+            "discount_factor": 0.7162783485877705,
+            "ebit": 7643930878.0490885,
+            "ebit_margin": 0.121,
+            "ebitda": 14403440001.61316,
+            "fcff": 10343735646.565102,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3664032982.866505,
+            "present_value_fcff": 7408993887.150105,
+            "revenue": 63172982463.21561,
+            "revenue_growth": 0.015,
+            "year": 2029
+          },
+          {
+            "capex": 2885425974.0073724,
+            "cash_taxes": 1173406562.762998,
+            "da": 6860901760.41753,
+            "delta_nwc": 73280659.65733051,
+            "discount_factor": 0.6589497227118405,
+            "ebit": 7822710418.419988,
+            "ebit_margin": 0.122,
+            "ebitda": 14683612178.837517,
+            "fcff": 10551498982.409817,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3590752323.2091746,
+            "present_value_fcff": 6952907328.653215,
+            "revenue": 64120577200.16383,
+            "revenue_growth": 0.015,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 160634760627.73157,
+        "terminal_value_present_value": 105850230973.5266,
+        "upside_downside_pct": -0.3935721537441379
+      },
+      "bull": {
+        "current_price": 26.97,
+        "description": "Modestly better growth and margin expansion versus base case; slightly lower WACC.",
+        "enterprise_value": 166752133180.95395,
+        "equity_value": 115254133180.95395,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 185677382758.87595,
+        "implied_market_cap": 115254133180.95395,
+        "investments_adjustment": 12454000000.0,
+        "net_debt": 63653000000.0,
+        "per_share_value": 20.174012459470323,
+        "projected_years": [
+          {
+            "capex": 2773814175.0,
+            "cash_taxes": 1137263811.75,
+            "da": 6595513705.0,
+            "delta_nwc": 521379525.0,
+            "discount_factor": 0.9233610341643583,
+            "ebit": 7581758745.0,
+            "ebit_margin": 0.123,
+            "ebitda": 14177272450.0,
+            "fcff": 9744814938.25,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -4006620475.0,
+            "present_value_fcff": 8997982399.122808,
+            "revenue": 61640315000.0,
+            "revenue_growth": -0.015,
+            "year": 2026
+          },
+          {
+            "capex": 2815421387.6249995,
+            "cash_taxes": 1163707506.8849998,
+            "da": 6694446410.574999,
+            "delta_nwc": 127595452.05000067,
+            "discount_factor": 0.8525955994130733,
+            "ebit": 7758050045.899999,
+            "ebit_margin": 0.124,
+            "ebitda": 14452496456.474998,
+            "fcff": 10345772109.914997,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3879025022.9499993,
+            "present_value_fcff": 8820759773.444033,
+            "revenue": 62564919724.99999,
+            "revenue_growth": 0.015,
+            "year": 2027
+          },
+          {
+            "capex": 2885806922.315624,
+            "cash_taxes": 1212038907.3725622,
+            "da": 6861807570.839374,
+            "delta_nwc": 31282459.86250019,
+            "discount_factor": 0.7872535543980363,
+            "ebit": 8080259382.483748,
+            "ebit_margin": 0.126,
+            "ebitda": 14942066953.323122,
+            "fcff": 10812938663.772434,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3847742563.087499,
+            "present_value_fcff": 8512524396.542803,
+            "revenue": 64129042718.124985,
+            "revenue_growth": 0.025,
+            "year": 2028
+          },
+          {
+            "capex": 2957952095.3735147,
+            "cash_taxes": 1252199720.3747878,
+            "da": 7033352760.110356,
+            "delta_nwc": 35270973.49496889,
+            "discount_factor": 0.7269192561385377,
+            "ebit": 8347998135.831919,
+            "ebit_margin": 0.127,
+            "ebitda": 15381350895.942276,
+            "fcff": 11135928106.699003,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3812471589.5925303,
+            "present_value_fcff": 8094920575.733874,
+            "revenue": 65732268786.0781,
+            "revenue_growth": 0.025,
+            "year": 2029
+          },
+          {
+            "capex": 3031900897.757852,
+            "cash_taxes": 1293611049.710017,
+            "da": 7209186579.113115,
+            "delta_nwc": 39439361.27164745,
+            "discount_factor": 0.6712089161020662,
+            "ebit": 8624073664.733446,
+            "ebit_margin": 0.128,
+            "ebitda": 15833260243.846561,
+            "fcff": 11468308935.107044,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -3773032228.320883,
+            "present_value_fcff": 7697631209.85684,
+            "revenue": 67375575505.73005,
+            "revenue_growth": 0.025,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 185677382758.87595,
+        "terminal_value_present_value": 124628314826.2536,
+        "upside_downside_pct": -0.251983223601397
+      }
+    },
+    "ticker": "PFE"
+  },
+  "assumptions": {
+    "cash": 1142000000.0,
+    "current_price": 26.97,
+    "debt": 64795000000.0,
+    "diluted_shares": 5713000000.0,
+    "investments": 12454000000.0,
+    "minority_interest": 299000000.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.125,
+    "tax_rate": 0.15,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.085
+  },
+  "company_name": "Pfizer Inc.",
+  "comps": [
+    {
+      "company_name": "Eli Lilly and Company",
+      "ev_ntm_ebitda": 20.43,
+      "ev_ntm_revenue": 10.17,
+      "notes": "Multiples shown as MarketScreener 'Y' estimates; treated as NTM/next-year proxies for DCF comps. ([marketscreener.com](https://www.marketscreener.com/quote/stock/GSK-PLC-9590199/valuation/))",
+      "pe_ntm": 26.91,
+      "source": "MarketScreener peer comparison table (P/E (Y), EV / Sales (Y), EV / EBITDA (Y))",
+      "ticker": "LLY"
+    },
+    {
+      "company_name": "Johnson & Johnson",
+      "ev_ntm_ebitda": 15.93,
+      "ev_ntm_revenue": 5.86,
+      "notes": "Multiples shown as MarketScreener 'Y' estimates; treated as NTM/next-year proxies for DCF comps. ([marketscreener.com](https://www.marketscreener.com/quote/stock/GSK-PLC-9590199/valuation/))",
+      "pe_ntm": 25.18,
+      "source": "MarketScreener peer comparison table (P/E (Y), EV / Sales (Y), EV / EBITDA (Y))",
+      "ticker": "JNJ"
+    },
+    {
+      "company_name": "AbbVie Inc.",
+      "ev_ntm_ebitda": 12.44,
+      "ev_ntm_revenue": 6.2,
+      "notes": "Multiples shown as MarketScreener 'Y' estimates; treated as NTM/next-year proxies for DCF comps. ([marketscreener.com](https://www.marketscreener.com/quote/stock/GSK-PLC-9590199/valuation/))",
+      "pe_ntm": 23.01,
+      "source": "MarketScreener peer comparison table (P/E (Y), EV / Sales (Y), EV / EBITDA (Y))",
+      "ticker": "ABBV"
+    },
+    {
+      "company_name": "Merck & Co., Inc.",
+      "ev_ntm_ebitda": 14.63,
+      "ev_ntm_revenue": 4.69,
+      "notes": "Multiples shown as MarketScreener 'Y' estimates; treated as NTM/next-year proxies for DCF comps. ([marketscreener.com](https://www.marketscreener.com/quote/stock/GSK-PLC-9590199/valuation/))",
+      "pe_ntm": 26.69,
+      "source": "MarketScreener peer comparison table (P/E (Y), EV / Sales (Y), EV / EBITDA (Y))",
+      "ticker": "MRK"
+    },
+    {
+      "company_name": "Novartis AG",
+      "ev_ntm_ebitda": 13.35,
+      "ev_ntm_revenue": 5.45,
+      "notes": "Multiples shown as MarketScreener 'Y' estimates; treated as NTM/next-year proxies for DCF comps. ([marketscreener.com](https://www.marketscreener.com/quote/stock/GSK-PLC-9590199/valuation/))",
+      "pe_ntm": 20.12,
+      "source": "MarketScreener peer comparison table (P/E (Y), EV / Sales (Y), EV / EBITDA (Y))",
+      "ticker": "NVS"
+    },
+    {
+      "company_name": "Amgen Inc.",
+      "ev_ntm_ebitda": 10.76,
+      "ev_ntm_revenue": 6.05,
+      "notes": "Multiples shown as MarketScreener 'Y' estimates; treated as NTM/next-year proxies for DCF comps. ([marketscreener.com](https://www.marketscreener.com/quote/stock/GSK-PLC-9590199/valuation/))",
+      "pe_ntm": 23.35,
+      "source": "MarketScreener peer comparison table (P/E (Y), EV / Sales (Y), EV / EBITDA (Y))",
+      "ticker": "AMGN"
+    },
+    {
+      "company_name": "Gilead Sciences, Inc.",
+      "ev_ntm_ebitda": 10.77,
+      "ev_ntm_revenue": 5.95,
+      "notes": "Multiples shown as MarketScreener 'Y' estimates; treated as NTM/next-year proxies for DCF comps. ([marketscreener.com](https://www.marketscreener.com/quote/stock/GSK-PLC-9590199/valuation/))",
+      "pe_ntm": 19.56,
+      "source": "MarketScreener peer comparison table (P/E (Y), EV / Sales (Y), EV / EBITDA (Y))",
+      "ticker": "GILD"
+    },
+    {
+      "company_name": "Novo Nordisk A/S",
+      "ev_ntm_ebitda": 8.52,
+      "ev_ntm_revenue": 4.1,
+      "notes": "Multiples shown as MarketScreener 'Y' estimates; treated as NTM/next-year proxies for DCF comps. ([marketscreener.com](https://www.marketscreener.com/quote/stock/GSK-PLC-9590199/valuation/))",
+      "pe_ntm": 11.36,
+      "source": "MarketScreener peer comparison table (P/E (Y), EV / Sales (Y), EV / EBITDA (Y))",
+      "ticker": "NVO"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.045,
+      "2027": 0.045,
+      "2028": 0.045,
+      "2029": 0.045,
+      "2030": 0.045
+    },
+    "da_pct_sales": {
+      "2026": 0.107,
+      "2027": 0.107,
+      "2028": 0.107,
+      "2029": 0.107,
+      "2030": 0.107
+    },
+    "ebit_margin": {
+      "2026": 0.12,
+      "2027": 0.121,
+      "2028": 0.123,
+      "2029": 0.124,
+      "2030": 0.125
+    },
+    "nwc_pct_sales": {
+      "2026": -0.065,
+      "2027": -0.062,
+      "2028": -0.06,
+      "2029": -0.058,
+      "2030": -0.056
+    },
+    "revenue_growth": {
+      "2026": -0.02,
+      "2027": 0.01,
+      "2028": 0.02,
+      "2029": 0.02,
+      "2030": 0.02
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 3907000000.0,
+      "2024": 2909000000.0,
+      "2025": 2629000000.0
+    },
+    "da": {
+      "2023": 6290000000.0,
+      "2024": 7013000000.0,
+      "2025": 6592000000.0
+    },
+    "ebit": {
+      "2023": 1058000000.0,
+      "2024": 8023000000.0,
+      "2025": 7520000000.0
+    },
+    "nwc": {
+      "2023": -6801000000.0,
+      "2024": -6168000000.0,
+      "2025": -4528000000.0
+    },
+    "revenue": {
+      "2023": 59553000000.0,
+      "2024": 63627000000.0,
+      "2025": 62579000000.0
+    }
+  },
+  "notes": [
+    "EBIT definition: Pfizer\u2019s filings in this package do not present a line explicitly labeled 'Operating income'. For DCF input purposes, historical 'ebit' is set to 'Income from continuing operations before provision/(benefit) for taxes on income' (includes net other income/deductions and restructuring items; excludes discontinued operations). ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/2025-Form-10-K.pdf))",
+    "D&A definition: uses 'Depreciation and amortization' from the consolidated cash flow statement (absolute value). ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/2025-Form-10-K.pdf))",
+    "Capex definition: uses 'Purchases of property, plant and equipment' from the consolidated cash flow statement (reported as an outflow; modeled here as absolute value). ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/2025-Form-10-K.pdf))",
+    "NWC construction (level, not change): NWC = (Total current assets \u2212 Cash and cash equivalents \u2212 Short-term investments) \u2212 (Total current liabilities \u2212 Short-term borrowings, incl. current portion of long-term debt). Values for 2025/2024 from the FY2025 balance sheet and for 2023 from the FY2023 balance sheet. ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/2025-Form-10-K.pdf))",
+    "Tax rate: base-case tax_rate = 0.15 using Pfizer\u2019s stated effective tax rate on adjusted income for FY2026 (~15.0%). ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/Q4-2025-PFE-Earnings-Release-FINAL2.pdf))",
+    "NOL balance: null because FY2025 10-K disclosures provided net deferred tax asset components related to 'net operating loss/tax credit carryforwards' rather than a single explicit NOL principal balance suitable for cash tax shield modeling. NOL utilization percent is set to 0.80 as a placeholder assumption. ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/2025-Form-10-K.pdf))",
+    "Comps: MarketScreener provides 'P/E (Y)', 'EV / Sales (Y)', and 'EV / EBITDA (Y)' estimates; these are treated as NTM/next-year proxies (not strictly defined as NTM Revenue/EBITDA in the source table). ([marketscreener.com](https://www.marketscreener.com/quote/stock/GSK-PLC-9590199/valuation/))"
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-20",
+    "catalysts": [
+      "~20 key pivotal study starts planned for 2026, including obesity-related pivotal trials and PF-08634404 pivotal trials. ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/Q4-2025-PFE-Earnings-Release-FINAL2.pdf))",
+      "Potential incremental upside from late-stage pipeline data readouts and associated regulatory and commercial milestones during 2026. ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/Q4-2025-PFE-Earnings-Release-FINAL2.pdf))"
+    ],
+    "company_overview": [
+      "Pfizer is a global biopharmaceutical company, with Biopharma as its only reportable segment for commercial operations. ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/2025-Form-10-K.pdf))",
+      "In FY2025, Pfizer reported total revenues of $62.6 billion and focused on portfolio execution post-COVID transition. ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/Q4-2025-PFE-Earnings-Release-FINAL2.pdf))"
+    ],
+    "current_context": [
+      "FY2025 revenues were $62.6 billion (2% YoY operational decline); non-COVID portfolio revenues grew 6% operationally. ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/Q4-2025-PFE-Earnings-Release-FINAL2.pdf))",
+      "Pfizer reaffirmed FY2026 guidance with revenues in a range of $59.5 to $62.5 billion and adjusted diluted EPS of $2.80 to $3.00, including an effective tax rate on adjusted income of ~15.0%. ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/Q4-2025-PFE-Earnings-Release-FINAL2.pdf))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue outlook reflects near-term COVID-19 normalization and loss-of-exclusivity headwinds consistent with FY2026 revenue guidance, followed by gradual stabilization. ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/Q4-2025-PFE-Earnings-Release-FINAL2.pdf))",
+      "EBIT margin is modeled to remain in the low-teens (rising modestly to 12.5% by 2030) to reflect cost-management progress and stable operating margins assumptions in guidance. ([pfizer.com](https://www.pfizer.com/news/press-release/press-release-detail/pfizer-reaffirms-full-year-2025-eps-guidance-and-provides))",
+      "Reinvestment intensity uses historical D&A, capex, and working-capital intensity (NWC) to reflect Pfizer\u2019s cash generation and capital allocation requirements. ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/2025-Form-10-K.pdf))",
+      "Terminal economics use Gordon growth with long-run growth at 2.0% and WACC at 8.5%, consistent with a mature developed-market pharma profile (base-case assumption)."
+    ],
+    "key_risks": [
+      "Revenue compression risk from ongoing loss of exclusivity and COVID-19 normalization versus expectations. ([pfizer.com](https://www.pfizer.com/news/press-release/press-release-detail/pfizer-reaffirms-full-year-2025-eps-guidance-and-provides))",
+      "Pricing and reimbursement pressure risk (e.g., Most-Favored-Nation drug pricing, TrumpRx) and tariff impacts referenced in FY2026 guidance. ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/Q4-2025-PFE-Earnings-Release-FINAL2.pdf))"
+    ],
+    "sources": [
+      {
+        "label": "Pfizer Inc. FY2025 Form 10-K (filed Feb 26, 2026)",
+        "notes": "Provides historical revenue, the pre-tax continuing-operations proxy used as EBIT, D&A, capex, and balance-sheet inputs (cash, debt, current assets/liabilities). ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/2025-Form-10-K.pdf))",
+        "url": null
+      },
+      {
+        "label": "Pfizer Q4 & FY2025 Earnings Release (Feb 3, 2026)",
+        "notes": "Provides FY2025 revenues ($62.6B), FY2026 revenue guidance ($59.5B-$62.5B), EPS guidance, and effective tax rate on adjusted income (~15%). ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/Q4-2025-PFE-Earnings-Release-FINAL2.pdf))",
+        "url": null
+      },
+      {
+        "label": "Pfizer FY2026 Guidance Press Release (Dec 16, 2025)",
+        "notes": "Supports FY2026 revenue guidance range and notes on LOE and operational revenue growth framing. ([pfizer.com](https://www.pfizer.com/news/press-release/press-release-detail/pfizer-reaffirms-full-year-2025-eps-guidance-and-provides))",
+        "url": null
+      },
+      {
+        "label": "MarketScreener Peer Valuation Multiples (peer comparison table)",
+        "notes": "Used for peer EV/Sales, EV/EBITDA, and P/E 'Y' estimates for comp cross-checks. ([marketscreener.com](https://www.marketscreener.com/quote/stock/GSK-PLC-9590199/valuation/))",
+        "url": null
+      }
+    ],
+    "subtitle": "Pfizer (PFE) DCF Input Package \u2014 FY25 Base Case",
+    "valuation_summary": [
+      "The DCF chains explicit revenue growth and operating margin assumptions from FY2025, with QA support via an internally consistent forecast revenue path. ([s206.q4cdn.com](https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/2025-Form-10-K.pdf))",
+      "Comps provide a cross-check on valuation reasonableness using peer forward valuation multiples (EV/Sales, EV/EBITDA, P/E) from MarketScreener estimates. ([marketscreener.com](https://www.marketscreener.com/quote/stock/GSK-PLC-9590199/valuation/))"
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.122,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.087
+      },
+      "description": "Modestly weaker growth and margin compression versus base case; slightly higher WACC.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.045,
+          "2027": 0.045,
+          "2028": 0.045,
+          "2029": 0.045,
+          "2030": 0.045
+        },
+        "da_pct_sales": {
+          "2026": 0.107,
+          "2027": 0.107,
+          "2028": 0.107,
+          "2029": 0.107,
+          "2030": 0.107
+        },
+        "ebit_margin": {
+          "2026": 0.117,
+          "2027": 0.118,
+          "2028": 0.12,
+          "2029": 0.121,
+          "2030": 0.122
+        },
+        "nwc_pct_sales": {
+          "2026": -0.065,
+          "2027": -0.062,
+          "2028": -0.06,
+          "2029": -0.058,
+          "2030": -0.056
+        },
+        "revenue_growth": {
+          "2026": -0.025,
+          "2027": 0.005,
+          "2028": 0.015,
+          "2029": 0.015,
+          "2030": 0.015
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": null,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.128,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.02,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.083
+      },
+      "description": "Modestly better growth and margin expansion versus base case; slightly lower WACC.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.045,
+          "2027": 0.045,
+          "2028": 0.045,
+          "2029": 0.045,
+          "2030": 0.045
+        },
+        "da_pct_sales": {
+          "2026": 0.107,
+          "2027": 0.107,
+          "2028": 0.107,
+          "2029": 0.107,
+          "2030": 0.107
+        },
+        "ebit_margin": {
+          "2026": 0.123,
+          "2027": 0.124,
+          "2028": 0.126,
+          "2029": 0.127,
+          "2030": 0.128
+        },
+        "nwc_pct_sales": {
+          "2026": -0.065,
+          "2027": -0.062,
+          "2028": -0.06,
+          "2029": -0.058,
+          "2030": -0.056
+        },
+        "revenue_growth": {
+          "2026": -0.015,
+          "2027": 0.015,
+          "2028": 0.025,
+          "2029": 0.025,
+          "2030": 0.025
+        }
+      }
+    }
+  },
+  "ticker": "PFE"
+}

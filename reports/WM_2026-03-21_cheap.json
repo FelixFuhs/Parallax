@@ -1,0 +1,693 @@
+{
+  "_meta": {
+    "cost_usd": 0.023048,
+    "generated_at": "2026-03-21T14:14:05Z",
+    "model": "openai/gpt-5.4-nano:online",
+    "quality_flags": [],
+    "reasoning_effort": "high",
+    "tier": "cheap",
+    "tokens": {
+      "completion": 10923,
+      "prompt": 2514,
+      "reasoning": 7113
+    }
+  },
+  "_valuation": {
+    "company_name": "Waste Management, Inc.",
+    "currency": "USD",
+    "scenarios": {
+      "base": {
+        "current_price": 231.24,
+        "description": "Base case",
+        "enterprise_value": 79021724694.9565,
+        "equity_value": 56315724694.9565,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 88128656830.52122,
+        "implied_market_cap": 56315724694.9565,
+        "investments_adjustment": 0.0,
+        "net_debt": 22706000000.0,
+        "per_share_value": 139.3263846980616,
+        "projected_years": [
+          {
+            "capex": 3552957472.0,
+            "cash_taxes": 1006505125.5232,
+            "da": 2943121488.0,
+            "delta_nwc": 83707840.0,
+            "discount_factor": 0.9423294383716548,
+            "ebit": 4560512576.0,
+            "ebit_margin": 0.172,
+            "ebitda": 7503634064.0,
+            "fcff": 2860463626.4768,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -530292160.0,
+            "present_value_fcff": 2695499082.62043,
+            "revenue": 26514608000.0,
+            "revenue_growth": 0.052,
+            "year": 2026
+          },
+          {
+            "capex": 3657425027.52,
+            "cash_taxes": 1070143167.6166,
+            "da": 3020146424.24,
+            "delta_nwc": 3844618.160000026,
+            "discount_factor": 0.8879847704218383,
+            "ebit": 4848858938.0,
+            "ebit_margin": 0.175,
+            "ebitda": 7869005362.24,
+            "fcff": 3137592548.9434,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -526447541.84,
+            "present_value_fcff": 2786134399.2507753,
+            "revenue": 27707765360.0,
+            "revenue_growth": 0.045,
+            "year": 2027
+          },
+          {
+            "capex": 3774905952.6464005,
+            "cash_taxes": 1112948894.321264,
+            "da": 3112136205.2352,
+            "delta_nwc": 7758174.300799966,
+            "discount_factor": 0.8367741899941937,
+            "ebit": 5042813295.5199995,
+            "ebit_margin": 0.175,
+            "ebitda": 8154949500.755199,
+            "fcff": 3259336479.486735,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -518689367.5392,
+            "present_value_fcff": 2727328642.5410395,
+            "revenue": 28816075974.4,
+            "revenue_growth": 0.04,
+            "year": 2028
+          },
+          {
+            "capex": 3888441291.9855366,
+            "cash_taxes": 1161842329.175789,
+            "da": 3200486294.172711,
+            "delta_nwc": 10200890.894937515,
+            "discount_factor": 0.788516952501125,
+            "ebit": 5264351287.611188,
+            "ebit_margin": 0.176,
+            "ebitda": 8464837581.783899,
+            "fcff": 3404353069.7276363,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -508488476.6442625,
+            "present_value_fcff": 2684390107.7794857,
+            "revenue": 29911086861.427204,
+            "revenue_growth": 0.038,
+            "year": 2029
+          },
+          {
+            "capex": 4001295822.713701,
+            "cash_taxes": 1204830495.3552933,
+            "da": 3287886489.9818006,
+            "delta_nwc": -18814073.635837674,
+            "discount_factor": 0.7430427369969139,
+            "ebit": 5459132285.252801,
+            "ebit_margin": 0.176,
+            "ebitda": 8747018775.234602,
+            "fcff": 3559706530.8014455,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -527302550.28010017,
+            "present_value_fcff": 2645014083.5524955,
+            "revenue": 31017797075.300007,
+            "revenue_growth": 0.037,
+            "year": 2030
+          }
+        ],
+        "scenario": "base",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 88128656830.52122,
+        "terminal_value_present_value": 65483358379.212265,
+        "upside_downside_pct": -0.3974814707746861
+      },
+      "bear": {
+        "current_price": 231.24,
+        "description": "Modestly weaker growth and less operating leverage versus base case, with slightly lower EBIT margin and more working-capital drag.",
+        "enterprise_value": 70848632769.28685,
+        "equity_value": 48142632769.28685,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 78540704765.82387,
+        "implied_market_cap": 48142632769.28685,
+        "investments_adjustment": 0.0,
+        "net_debt": 22706000000.0,
+        "per_share_value": 119.10596924613273,
+        "projected_years": [
+          {
+            "capex": 3559056840.0,
+            "cash_taxes": 977491006.5984,
+            "da": 2952699008.0,
+            "delta_nwc": 60368936.0,
+            "discount_factor": 0.9411764705882353,
+            "ebit": 4429048512.0,
+            "ebit_margin": 0.168,
+            "ebitda": 7381747520.0,
+            "fcff": 2784830737.4016,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -553631064.0,
+            "present_value_fcff": 2621017164.6132703,
+            "revenue": 26363384000.0,
+            "revenue_growth": 0.046,
+            "year": 2026
+          },
+          {
+            "capex": 3670468500.784,
+            "cash_taxes": 1033749105.0674472,
+            "da": 3013071157.3599997,
+            "delta_nwc": 5799944.480000019,
+            "discount_factor": 0.8858131487889274,
+            "ebit": 4683956071.896,
+            "ebit_margin": 0.171,
+            "ebitda": 7697027229.256,
+            "fcff": 2987009678.924553,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -547831119.52,
+            "present_value_fcff": 2645932449.151161,
+            "revenue": 27391555975.999996,
+            "revenue_growth": 0.039,
+            "year": 2027
+          },
+          {
+            "capex": 3774227714.821088,
+            "cash_taxes": 1070964072.8498753,
+            "da": 3093164067.033824,
+            "delta_nwc": 8655731.688416004,
+            "discount_factor": 0.833706492977814,
+            "ebit": 4852578490.484256,
+            "ebit_margin": 0.171,
+            "ebitda": 7945742557.51808,
+            "fcff": 3091895038.1587005,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -539175387.831584,
+            "present_value_fcff": 2577732968.9187946,
+            "revenue": 28377651991.135998,
+            "revenue_growth": 0.036,
+            "year": 2028
+          },
+          {
+            "capex": 3873208964.9661703,
+            "cash_taxes": 1113852739.3462257,
+            "da": 3168989153.154139,
+            "delta_nwc": 11010528.972560823,
+            "discount_factor": 0.7846649345673543,
+            "ebit": 5046908651.319554,
+            "ebit_margin": 0.172,
+            "ebitda": 8215897804.473694,
+            "fcff": 3217825571.188737,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -528164858.85902315,
+            "present_value_fcff": 2524914891.2659698,
+            "revenue": 29342492158.83462,
+            "revenue_growth": 0.034,
+            "year": 2029
+          },
+          {
+            "capex": 3970714066.409977,
+            "cash_taxes": 1150609879.744651,
+            "da": 3243255000.8081493,
+            "delta_nwc": -17429440.34234768,
+            "discount_factor": 0.7385081737104511,
+            "ebit": 5213456636.813099,
+            "ebit_margin": 0.172,
+            "ebitda": 8456711637.621248,
+            "fcff": 3352817131.808968,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -545594299.2013708,
+            "present_value_fcff": 2476082856.7973537,
+            "revenue": 30310794400.07616,
+            "revenue_growth": 0.033,
+            "year": 2030
+          }
+        ],
+        "scenario": "bear",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 78540704765.82387,
+        "terminal_value_present_value": 58002952438.540306,
+        "upside_downside_pct": -0.4849248864983017
+      },
+      "bull": {
+        "current_price": 231.24,
+        "description": "Modestly higher growth and operating leverage versus base case, with slightly better EBIT margin and improved working-capital dynamics.",
+        "enterprise_value": 87715385961.09225,
+        "equity_value": 65009385961.092255,
+        "exit_multiple_terminal_value": null,
+        "gordon_terminal_value": 98421425618.45628,
+        "implied_market_cap": 65009385961.092255,
+        "investments_adjustment": 0.0,
+        "net_debt": 22706000000.0,
+        "per_share_value": 160.83470054698728,
+        "projected_years": [
+          {
+            "capex": 3546555656.0,
+            "cash_taxes": 1035786245.5424,
+            "da": 2933241520.0,
+            "delta_nwc": 107349192.0,
+            "discount_factor": 0.9433962264150942,
+            "ebit": 4693186432.0,
+            "ebit_margin": 0.176,
+            "ebitda": 7626427952.0,
+            "fcff": 2936736858.4575996,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -506650808.0,
+            "present_value_fcff": 2770506470.243018,
+            "revenue": 26665832000.0,
+            "revenue_growth": 0.058,
+            "year": 2026
+          },
+          {
+            "capex": 3664391967.6080003,
+            "cash_taxes": 1105060335.8621705,
+            "da": 3021025438.944,
+            "delta_nwc": -10839660.707999945,
+            "discount_factor": 0.8899964400142398,
+            "ebit": 5007069940.472,
+            "ebit_margin": 0.179,
+            "ebitda": 8028095379.416,
+            "fcff": 3269482736.6538286,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -517490468.70799994,
+            "present_value_fcff": 2909827996.3099217,
+            "revenue": 27972457768.0,
+            "revenue_growth": 0.049,
+            "year": 2027
+          },
+          {
+            "capex": 3796421968.27296,
+            "cash_taxes": 1153682990.640106,
+            "da": 3124747312.347744,
+            "delta_nwc": 6433665.286639929,
+            "discount_factor": 0.8396192830323018,
+            "ebit": 5227381017.852768,
+            "ebit_margin": 0.179,
+            "ebitda": 8352128330.200512,
+            "fcff": 3395589706.000806,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -511056803.42136,
+            "present_value_fcff": 2851002594.424261,
+            "revenue": 29203245909.792,
+            "revenue_growth": 0.044,
+            "year": 2028
+          },
+          {
+            "capex": 3921674689.9800577,
+            "cash_taxes": 1207693401.0399053,
+            "da": 3237661662.6579547,
+            "delta_nwc": 9447250.051817715,
+            "discount_factor": 0.7920936632380204,
+            "ebit": 5472104218.576825,
+            "ebit_margin": 0.18,
+            "ebitda": 8709765881.23478,
+            "fcff": 3570950540.162998,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -501609553.3695423,
+            "present_value_fcff": 2828527294.5994973,
+            "revenue": 30400578992.09347,
+            "revenue_growth": 0.041,
+            "year": 2029
+          },
+          {
+            "capex": 4046925075.427483,
+            "cash_taxes": 1256001137.0815015,
+            "da": 3351359828.088384,
+            "delta_nwc": -20064382.13478172,
+            "discount_factor": 0.747258172866057,
+            "ebit": 5690988387.319898,
+            "ebit_margin": 0.18,
+            "ebitda": 9042348215.408281,
+            "fcff": 3759486385.034079,
+            "nol_balance_end": 0.0,
+            "nol_used": 0.0,
+            "nwc": -521673935.504324,
+            "present_value_fcff": 2809306926.9953837,
+            "revenue": 31616602151.77721,
+            "revenue_growth": 0.04,
+            "year": 2030
+          }
+        ],
+        "scenario": "bull",
+        "terminal_method": "gordon_growth",
+        "terminal_value": 98421425618.45628,
+        "terminal_value_present_value": 73546214678.52017,
+        "upside_downside_pct": -0.3044685151920633
+      }
+    },
+    "ticker": "WM"
+  },
+  "assumptions": {
+    "cash": 201000000.0,
+    "current_price": 231.24,
+    "debt": 22907000000.0,
+    "diluted_shares": 404200000.0,
+    "investments": 0.0,
+    "minority_interest": 0.0,
+    "net_debt_override": null,
+    "nol_balance": 0.0,
+    "nol_utilization_pct": 0.8,
+    "preferred_equity": 0.0,
+    "target_ebit_margin": 0.176,
+    "tax_rate": 0.2207,
+    "terminal_exit_ebitda_multiple": null,
+    "terminal_growth": 0.02,
+    "terminal_method": "gordon_growth",
+    "wacc": 0.0612
+  },
+  "company_name": "Waste Management, Inc.",
+  "comps": [
+    {
+      "company_name": "Republic Services, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiple inputs not captured in available sources during this run; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "RSG"
+    },
+    {
+      "company_name": "Waste Connections, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiple inputs not captured in available sources during this run; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "WCN"
+    },
+    {
+      "company_name": "Casella Waste Systems, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiple inputs not captured in available sources during this run; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CWST"
+    },
+    {
+      "company_name": "Clean Harbors, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiple inputs not captured in available sources during this run; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CLH"
+    },
+    {
+      "company_name": "Stericycle, Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiple inputs not captured in available sources during this run; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "SRCL"
+    },
+    {
+      "company_name": "Covanta Holding Corporation",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiple inputs not captured in available sources during this run; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "CVA"
+    },
+    {
+      "company_name": "GFL Environmental Inc.",
+      "ev_ntm_ebitda": null,
+      "ev_ntm_revenue": null,
+      "notes": "NTM multiple inputs not captured in available sources during this run; set to null.",
+      "pe_ntm": null,
+      "source": null,
+      "ticker": "GFL"
+    }
+  ],
+  "currency": "USD",
+  "forecast": {
+    "capex_pct_sales": {
+      "2026": 0.134,
+      "2027": 0.132,
+      "2028": 0.131,
+      "2029": 0.13,
+      "2030": 0.129
+    },
+    "da_pct_sales": {
+      "2026": 0.111,
+      "2027": 0.109,
+      "2028": 0.108,
+      "2029": 0.107,
+      "2030": 0.106
+    },
+    "ebit_margin": {
+      "2026": 0.172,
+      "2027": 0.175,
+      "2028": 0.175,
+      "2029": 0.176,
+      "2030": 0.176
+    },
+    "nwc_pct_sales": {
+      "2026": -0.02,
+      "2027": -0.019,
+      "2028": -0.018,
+      "2029": -0.017,
+      "2030": -0.017
+    },
+    "revenue_growth": {
+      "2026": 0.052,
+      "2027": 0.045,
+      "2028": 0.04,
+      "2029": 0.038,
+      "2030": 0.037
+    }
+  },
+  "forecast_years": 5,
+  "historical": {
+    "capex": {
+      "2023": 2895000000.0,
+      "2024": 3231000000.0,
+      "2025": 3227000000.0
+    },
+    "da": {
+      "2023": 2071000000.0,
+      "2024": 2267000000.0,
+      "2025": 2863000000.0
+    },
+    "ebit": {
+      "2023": 3575000000.0,
+      "2024": 4056000000.0,
+      "2025": 4308000000.0
+    },
+    "nwc": {
+      "2023": -422000000.0,
+      "2024": -1484000000.0,
+      "2025": -614000000.0
+    },
+    "revenue": {
+      "2023": 20426000000.0,
+      "2024": 22063000000.0,
+      "2025": 25204000000.0
+    }
+  },
+  "notes": [
+    "Historical financials (revenue, Operating Income as EBIT proxy, Depreciation/Amortization, effective tax rate, diluted shares) are sourced from WM Investor Relations fundamentals pages; displayed values appear to be in $ millions and were converted to full $ in this package. ([investors.wm.com](https://investors.wm.com/financial-information/fundamentals/income-statement))",
+    "Capex is sourced from WM Investor Relations cash flow fundamentals (Purchase of Fixed Assets) and converted from displayed $ millions to full $. ([investors.wm.com](https://investors.wm.com/financial-information/fundamentals/cash-flow/))",
+    "NWC is computed as Total Current Assets minus Total Current Liabilities from the WM Investor Relations balance sheet page; this includes cash and other non-operating current items because a dedicated 'operating NWC' build was not available in the source tables. ([investors.wm.com](https://investors.wm.com/financial-information/fundamentals/balance-sheet/))",
+    "2026 revenue growth in the base case is set to the midpoint of WM\u2019s 2026 outlook range (5.2%); subsequent forecast growth and margins are conservative decelerations/normalizations around observed historical performance. ([fortune.com](https://fortune.com/company-assets/742/quartr/earnings-release-8-k-d2347-2026-01-28-10-03-10.pdf))",
+    "WACC is an estimate computed using CAPM with Rf proxied by the last available 10Y DGS10 business-day observation near as-of date (2026-03-19), beta from StockAnalysis, and cost of debt estimated as 2025 interest expense divided by 2025 total debt; treat as a model input approximation. ([fred.stlouisfed.org](https://fred.stlouisfed.org/data/DGS10.txt))",
+    "NOL balance was not located in accessible materials during this run; nol_balance is set to null and nol_utilization_pct is assumed at 0.80 for modeling completeness."
+  ],
+  "presentation": {
+    "as_of_date": "2026-03-21",
+    "catalysts": [
+      "Quarterly earnings and guidance updates, particularly around Healthcare Solutions integration and margin trajectory.",
+      "Progress commissioning sustainability growth projects (recycling/renewable natural gas) that can shift segment margins and cash flow.",
+      "Capital return cadence (dividends/buybacks) and leverage trajectory against management\u2019s stated target range."
+    ],
+    "company_overview": [
+      "Waste Management (WM) is a leading North American provider of integrated waste management services, including collection and disposal, recycling, and renewable energy.",
+      "WM also provides healthcare-focused environmental solutions through its Healthcare Solutions platform.",
+      "Management emphasizes operational excellence, disciplined pricing/cost execution, and growth investments in sustainability and technology/automation."
+    ],
+    "current_context": [
+      "Full-year 2025 revenue was $25,204m (+14.2% YoY) and income from operations (EBIT proxy) was $4,308m. ([fortune.com](https://fortune.com/company-assets/742/quartr/earnings-release-8-k-d2347-2026-01-28-10-03-10.pdf))",
+      "2026 outlook (midpoint) implies revenue growth of 5.2% and adjusted operating EBITDA growth of 6.2% on a comparable basis. ([fortune.com](https://fortune.com/company-assets/742/quartr/earnings-release-8-k-d2347-2026-01-28-10-03-10.pdf))"
+    ],
+    "investment_highlights": [
+      "Base-case revenue growth starts at the 2026 midpoint (+5.2%) consistent with management\u2019s core price / yield / volume outlook. ([fortune.com](https://fortune.com/company-assets/742/quartr/earnings-release-8-k-d2347-2026-01-28-10-03-10.pdf))",
+      "Model holds EBIT margin in a tight band in the high-teens, reflecting a mature waste platform with modest upside from execution and mix improvements.",
+      "DCF capital intensity (capex as % of sales) is forecast to remain roughly in the low-to-mid teens, supporting asset base and sustainability projects.",
+      "Working capital is modeled as modestly negative (structural industry pattern), supporting free-cash-flow conversion even with steady capex."
+    ],
+    "key_risks": [
+      "Execution risk in Healthcare Solutions optimization and synergy capture.",
+      "Regulatory, environmental, and litigation risk (landfill, remediation, and healthcare-related liabilities).",
+      "Interest rate/credit spread increases that raise effective discount rates and pressure valuation multiples.",
+      "Commodity/recycling margin volatility affecting sustainability growth economics."
+    ],
+    "sources": [
+      {
+        "label": "WM 2025 Earnings Release (Exhibit 99.1 PDF)",
+        "notes": "Provides FY2025 reported revenue/operating income and FY2026 financial outlook ranges and midpoint growth rates. ([fortune.com](https://fortune.com/company-assets/742/quartr/earnings-release-8-k-d2347-2026-01-28-10-03-10.pdf))",
+        "url": "https://fortune.com/company-assets/742/quartr/earnings-release-8-k-d2347-2026-01-28-10-03-10.pdf"
+      },
+      {
+        "label": "WM Financial Statements \u2014 Income Statement (Investor Relations)",
+        "notes": "Supplies historical total revenue, Operating Income (EBIT proxy), Depreciation/Amortization, effective tax rate, and diluted weighted average shares (site values displayed in $ millions). ([investors.wm.com](https://investors.wm.com/financial-information/fundamentals/income-statement))",
+        "url": "https://investors.wm.com/financial-information/fundamentals/income-statement/"
+      },
+      {
+        "label": "WM Financial Statements \u2014 Cash Flow (Investor Relations)",
+        "notes": "Supplies historical capex (Purchase of Fixed Assets) and related cash flow line items used to populate D&A and capex inputs (site values displayed in $ millions). ([investors.wm.com](https://investors.wm.com/financial-information/fundamentals/cash-flow/))",
+        "url": "https://investors.wm.com/financial-information/fundamentals/cash-flow/"
+      },
+      {
+        "label": "WM Financial Statements \u2014 Balance Sheet (Investor Relations)",
+        "notes": "Supplies historical cash/debt and current assets/current liabilities used to compute NWC (site values displayed in $ millions). ([investors.wm.com](https://investors.wm.com/financial-information/fundamentals/balance-sheet/))",
+        "url": "https://investors.wm.com/financial-information/fundamentals/balance-sheet/"
+      },
+      {
+        "label": "FRED DGS10 (10Y Treasury Yield)",
+        "notes": "Used for the risk-free rate; last available business-day observation near as-of date shown at 2026-03-19 (4.25%). ([fred.stlouisfed.org](https://fred.stlouisfed.org/data/DGS10.txt))",
+        "url": "https://fred.stlouisfed.org/series/DGS10"
+      },
+      {
+        "label": "StockAnalysis \u2014 WM Beta",
+        "notes": "Used for beta in CAPM (beta reported as 0.53). ([stockanalysis.com](https://stockanalysis.com/stocks/wm/statistics/?utm_source=openai))",
+        "url": "https://stockanalysis.com/stocks/wm/statistics/"
+      }
+    ],
+    "subtitle": "Waste Management (WM) \u2014 DCF Input Package",
+    "valuation_summary": [
+      "DCF base-case is anchored to management\u2019s 2026 revenue outlook midpoint and uses conservative deceleration through 2030.",
+      "Terminal assumptions (gordon growth) use a 2.0% long-run growth rate and a mid-single-digit WACC estimate appropriate for a steady, infrastructure-like cash generator.",
+      "Peer set is selected from integrated waste and environmental services companies; NTM multiple inputs were not reliably retrievable in this run, so comp outputs should be treated as qualitative until sourced."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 231.24,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.172,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.019,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.0625
+      },
+      "description": "Modestly weaker growth and less operating leverage versus base case, with slightly lower EBIT margin and more working-capital drag.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.135,
+          "2027": 0.134,
+          "2028": 0.133,
+          "2029": 0.132,
+          "2030": 0.131
+        },
+        "da_pct_sales": {
+          "2026": 0.112,
+          "2027": 0.11,
+          "2028": 0.109,
+          "2029": 0.108,
+          "2030": 0.107
+        },
+        "ebit_margin": {
+          "2026": 0.168,
+          "2027": 0.171,
+          "2028": 0.171,
+          "2029": 0.172,
+          "2030": 0.172
+        },
+        "nwc_pct_sales": {
+          "2026": -0.021,
+          "2027": -0.02,
+          "2028": -0.019,
+          "2029": -0.018,
+          "2030": -0.018
+        },
+        "revenue_growth": {
+          "2026": 0.046,
+          "2027": 0.039,
+          "2028": 0.036,
+          "2029": 0.034,
+          "2030": 0.033
+        }
+      }
+    },
+    "bull": {
+      "assumptions": {
+        "cash": null,
+        "current_price": 231.24,
+        "debt": null,
+        "diluted_shares": null,
+        "investments": null,
+        "minority_interest": null,
+        "net_debt_override": null,
+        "nol_balance": null,
+        "nol_utilization_pct": null,
+        "preferred_equity": null,
+        "target_ebit_margin": 0.18,
+        "tax_rate": null,
+        "terminal_exit_ebitda_multiple": null,
+        "terminal_growth": 0.021,
+        "terminal_method": "gordon_growth",
+        "wacc": 0.06
+      },
+      "description": "Modestly higher growth and operating leverage versus base case, with slightly better EBIT margin and improved working-capital dynamics.",
+      "forecast": {
+        "capex_pct_sales": {
+          "2026": 0.133,
+          "2027": 0.131,
+          "2028": 0.13,
+          "2029": 0.129,
+          "2030": 0.128
+        },
+        "da_pct_sales": {
+          "2026": 0.11,
+          "2027": 0.108,
+          "2028": 0.107,
+          "2029": 0.1065,
+          "2030": 0.106
+        },
+        "ebit_margin": {
+          "2026": 0.176,
+          "2027": 0.179,
+          "2028": 0.179,
+          "2029": 0.18,
+          "2030": 0.18
+        },
+        "nwc_pct_sales": {
+          "2026": -0.019,
+          "2027": -0.0185,
+          "2028": -0.0175,
+          "2029": -0.0165,
+          "2030": -0.0165
+        },
+        "revenue_growth": {
+          "2026": 0.058,
+          "2027": 0.049,
+          "2028": 0.044,
+          "2029": 0.041,
+          "2030": 0.04
+        }
+      }
+    }
+  },
+  "ticker": "WM"
+}
