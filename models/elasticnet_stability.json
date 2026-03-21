@@ -1,0 +1,682 @@
+{
+  "artifacts": {
+    "bootstrap_spearman_plot": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\plots\\bootstrap_spearman.png",
+    "coefficient_stability_plot": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\plots\\coefficient_stability.png",
+    "frozen_coefficients": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\models\\frozen_elasticnet_coefficients.json",
+    "model_freeze_doc": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\docs\\model_freeze.md",
+    "spearman_stability_plot": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\plots\\spearman_stability.png"
+  },
+  "bootstrap": {
+    "samples": 1000,
+    "spearman_stats": {
+      "lower": 0.34871780514171824,
+      "mean": 0.6450408438044497,
+      "std": 0.12496171432096832,
+      "upper": 0.832491765480896
+    }
+  },
+  "generated_at": "2026-03-21T16:35:52.327925+00:00",
+  "matched_tickers": [
+    "AAPL",
+    "ABBV",
+    "ABNB",
+    "AEP",
+    "ALB",
+    "AMD",
+    "APA",
+    "APD",
+    "AVGO",
+    "AXON",
+    "BKNG",
+    "CAT",
+    "CMG",
+    "COP",
+    "COST",
+    "CSCO",
+    "CVX",
+    "DHI",
+    "DHR",
+    "DIS",
+    "DVN",
+    "EA",
+    "EPAM",
+    "EQT",
+    "ETN",
+    "EXC",
+    "FANG",
+    "FTNT",
+    "GIS",
+    "GOOGL",
+    "HCA",
+    "HON",
+    "ISRG",
+    "JCI",
+    "KDP",
+    "KMB",
+    "KMI",
+    "KR",
+    "LLY",
+    "LMT",
+    "MDLZ",
+    "META",
+    "MOS",
+    "MTCH",
+    "NEE",
+    "NEM",
+    "NFLX",
+    "NVDA",
+    "OMC",
+    "ORLY",
+    "PEP",
+    "PG",
+    "PSX",
+    "PWR",
+    "REGN",
+    "SHW",
+    "SO",
+    "STZ",
+    "TMUS",
+    "TSLA",
+    "UNP",
+    "VMC",
+    "VST",
+    "VZ",
+    "WM",
+    "ZTS"
+  ],
+  "repeated_cv": {
+    "coefficient_sign_summary": [
+      {
+        "expected_sign": "positive",
+        "expected_sign_share": 1.0,
+        "feature": "fcf_to_ev",
+        "negative_share": 0.0,
+        "positive_share": 1.0,
+        "sign_flip": false,
+        "zero_share": 0.0
+      },
+      {
+        "expected_sign": "positive",
+        "expected_sign_share": 0.0,
+        "feature": "gross_profitability_assets",
+        "negative_share": 0.156,
+        "positive_share": 0.0,
+        "sign_flip": false,
+        "zero_share": 0.844
+      },
+      {
+        "expected_sign": "negative",
+        "expected_sign_share": 0.104,
+        "feature": "asset_growth_1y",
+        "negative_share": 0.104,
+        "positive_share": 0.004,
+        "sign_flip": true,
+        "zero_share": 0.892
+      },
+      {
+        "expected_sign": "positive",
+        "expected_sign_share": 0.724,
+        "feature": "cash_earnings_gap",
+        "negative_share": 0.0,
+        "positive_share": 0.724,
+        "sign_flip": false,
+        "zero_share": 0.276
+      },
+      {
+        "expected_sign": "positive",
+        "expected_sign_share": 0.0,
+        "feature": "momentum_12_1",
+        "negative_share": 0.996,
+        "positive_share": 0.0,
+        "sign_flip": false,
+        "zero_share": 0.004
+      }
+    ],
+    "folds": 250,
+    "repeats": 50,
+    "spearman_stats": {
+      "lower": 0.3623626373626374,
+      "mean": 0.6618912549269735,
+      "std": 0.1581761276028225,
+      "upper": 0.8791208791208791
+    },
+    "top_quartile_rates": [
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.997032967032967,
+        "company_name": "EPAM SYSTEMS, INC.",
+        "ticker": "EPAM",
+        "top_quartile_hits": 50,
+        "top_quartile_rate": 1.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.9893406593406593,
+        "company_name": "MATCH GROUP, INC.",
+        "ticker": "MTCH",
+        "top_quartile_hits": 50,
+        "top_quartile_rate": 1.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.964065934065934,
+        "company_name": "OMNICOM GROUP INC.",
+        "ticker": "OMC",
+        "top_quartile_hits": 50,
+        "top_quartile_rate": 1.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.9468131868131868,
+        "company_name": "T-MOBILE US, INC.",
+        "ticker": "TMUS",
+        "top_quartile_hits": 50,
+        "top_quartile_rate": 1.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.9267032967032968,
+        "company_name": "DEVON ENERGY CORP/DE",
+        "ticker": "DVN",
+        "top_quartile_hits": 50,
+        "top_quartile_rate": 1.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.9213186813186813,
+        "company_name": "GENERAL MILLS, INC.",
+        "ticker": "GIS",
+        "top_quartile_hits": 50,
+        "top_quartile_rate": 1.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.9080219780219781,
+        "company_name": "Airbnb, Inc.",
+        "ticker": "ABNB",
+        "top_quartile_hits": 50,
+        "top_quartile_rate": 1.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.9318681318681318,
+        "company_name": "Booking Holdings Inc.",
+        "ticker": "BKNG",
+        "top_quartile_hits": 49,
+        "top_quartile_rate": 0.98
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.886043956043956,
+        "company_name": "EQT CORPORATION",
+        "ticker": "EQT",
+        "top_quartile_hits": 48,
+        "top_quartile_rate": 0.96
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.8647252747252747,
+        "company_name": "ConocoPhillips",
+        "ticker": "COP",
+        "top_quartile_hits": 48,
+        "top_quartile_rate": 0.96
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.8548351648351649,
+        "company_name": "Verizon Communications Inc.",
+        "ticker": "VZ",
+        "top_quartile_hits": 44,
+        "top_quartile_rate": 0.88
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.8210989010989012,
+        "company_name": "KIMBERLY-CLARK CORPORATION",
+        "ticker": "KMB",
+        "top_quartile_hits": 43,
+        "top_quartile_rate": 0.86
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.8142857142857143,
+        "company_name": "FORTINET, INC.",
+        "ticker": "FTNT",
+        "top_quartile_hits": 38,
+        "top_quartile_rate": 0.76
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.7901098901098901,
+        "company_name": "CONSTELLATION BRANDS, INC.",
+        "ticker": "STZ",
+        "top_quartile_hits": 37,
+        "top_quartile_rate": 0.74
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.8018681318681318,
+        "company_name": "Zoetis Inc.",
+        "ticker": "ZTS",
+        "top_quartile_hits": 35,
+        "top_quartile_rate": 0.7
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.7875824175824175,
+        "company_name": "REGENERON PHARMACEUTICALS, INC.",
+        "ticker": "REGN",
+        "top_quartile_hits": 35,
+        "top_quartile_rate": 0.7
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.7908791208791208,
+        "company_name": "ABBVIE INC.",
+        "ticker": "ABBV",
+        "top_quartile_hits": 34,
+        "top_quartile_rate": 0.68
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.7632967032967034,
+        "company_name": "CHIPOTLE MEXICAN GRILL, INC.",
+        "ticker": "CMG",
+        "top_quartile_hits": 33,
+        "top_quartile_rate": 0.66
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.7426373626373626,
+        "company_name": "WALT DISNEY CO/",
+        "ticker": "DIS",
+        "top_quartile_hits": 30,
+        "top_quartile_rate": 0.6
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.7219780219780221,
+        "company_name": "MONDELEZ INTERNATIONAL, INC.",
+        "ticker": "MDLZ",
+        "top_quartile_hits": 21,
+        "top_quartile_rate": 0.42
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.7116483516483517,
+        "company_name": "DANAHER CORPORATION",
+        "ticker": "DHR",
+        "top_quartile_hits": 20,
+        "top_quartile_rate": 0.4
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.6876923076923077,
+        "company_name": "Meta Platforms, Inc.",
+        "ticker": "META",
+        "top_quartile_hits": 17,
+        "top_quartile_rate": 0.34
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.6682417582417582,
+        "company_name": "Keurig Dr Pepper Inc.",
+        "ticker": "KDP",
+        "top_quartile_hits": 16,
+        "top_quartile_rate": 0.32
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.6645054945054945,
+        "company_name": "PROCTER & GAMBLE CO",
+        "ticker": "PG",
+        "top_quartile_hits": 15,
+        "top_quartile_rate": 0.3
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.6302197802197802,
+        "company_name": "INTUITIVE SURGICAL, INC.",
+        "ticker": "ISRG",
+        "top_quartile_hits": 12,
+        "top_quartile_rate": 0.24
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.6231868131868132,
+        "company_name": "DIAMONDBACK ENERGY, INC.",
+        "ticker": "FANG",
+        "top_quartile_hits": 9,
+        "top_quartile_rate": 0.18
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.5898901098901099,
+        "company_name": "HCA Healthcare, Inc.",
+        "ticker": "HCA",
+        "top_quartile_hits": 9,
+        "top_quartile_rate": 0.18
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.6163736263736264,
+        "company_name": "Kroger Co.",
+        "ticker": "KR",
+        "top_quartile_hits": 7,
+        "top_quartile_rate": 0.14
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.6078021978021978,
+        "company_name": "CISCO SYSTEMS, INC.",
+        "ticker": "CSCO",
+        "top_quartile_hits": 7,
+        "top_quartile_rate": 0.14
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.57,
+        "company_name": "LOCKHEED MARTIN CORPORATION",
+        "ticker": "LMT",
+        "top_quartile_hits": 6,
+        "top_quartile_rate": 0.12
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.5613186813186813,
+        "company_name": "NETFLIX INC",
+        "ticker": "NFLX",
+        "top_quartile_hits": 5,
+        "top_quartile_rate": 0.1
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.5584615384615385,
+        "company_name": "WASTE MANAGEMENT INC",
+        "ticker": "WM",
+        "top_quartile_hits": 5,
+        "top_quartile_rate": 0.1
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.5912087912087912,
+        "company_name": "THE SHERWIN-WILLIAMS COMPANY",
+        "ticker": "SHW",
+        "top_quartile_hits": 4,
+        "top_quartile_rate": 0.08
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.5537362637362637,
+        "company_name": "UNION PACIFIC CORP",
+        "ticker": "UNP",
+        "top_quartile_hits": 4,
+        "top_quartile_rate": 0.08
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.5490109890109891,
+        "company_name": "PepsiCo, Inc.",
+        "ticker": "PEP",
+        "top_quartile_hits": 4,
+        "top_quartile_rate": 0.08
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.33560439560439564,
+        "company_name": "NEWMONT CORPORATION",
+        "ticker": "NEM",
+        "top_quartile_hits": 4,
+        "top_quartile_rate": 0.08
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.45065934065934066,
+        "company_name": "ELI LILLY AND COMPANY",
+        "ticker": "LLY",
+        "top_quartile_hits": 3,
+        "top_quartile_rate": 0.06
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.46769230769230774,
+        "company_name": "Phillips 66",
+        "ticker": "PSX",
+        "top_quartile_hits": 2,
+        "top_quartile_rate": 0.04
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.4513186813186813,
+        "company_name": "ELECTRONIC ARTS INC.",
+        "ticker": "EA",
+        "top_quartile_hits": 2,
+        "top_quartile_rate": 0.04
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.38252747252747255,
+        "company_name": "D.R. Horton, Inc.",
+        "ticker": "DHI",
+        "top_quartile_hits": 2,
+        "top_quartile_rate": 0.04
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.4742857142857143,
+        "company_name": "HONEYWELL INTERNATIONAL INC",
+        "ticker": "HON",
+        "top_quartile_hits": 1,
+        "top_quartile_rate": 0.02
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.42417582417582417,
+        "company_name": "NEXTERA ENERGY, INC.",
+        "ticker": "NEE",
+        "top_quartile_hits": 1,
+        "top_quartile_rate": 0.02
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.4372527472527473,
+        "company_name": "AMERICAN ELECTRIC POWER COMPANY, INC.",
+        "ticker": "AEP",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.4042857142857143,
+        "company_name": "VULCAN MATERIALS COMPANY",
+        "ticker": "VMC",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.39307692307692305,
+        "company_name": "KINDER MORGAN, INC.",
+        "ticker": "KMI",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.39142857142857146,
+        "company_name": "O REILLY AUTOMOTIVE INC",
+        "ticker": "ORLY",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.3881318681318682,
+        "company_name": "COSTCO WHOLESALE CORP /NEW",
+        "ticker": "COST",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.3753846153846154,
+        "company_name": "APA CORPORATION",
+        "ticker": "APA",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.35494505494505496,
+        "company_name": "Axon Enterprise, Inc.",
+        "ticker": "AXON",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.34362637362637366,
+        "company_name": "Apple Inc.",
+        "ticker": "AAPL",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.3273626373626374,
+        "company_name": "Vistra Corp.",
+        "ticker": "VST",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.3205494505494506,
+        "company_name": "EATON CORPORATION plc",
+        "ticker": "ETN",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.25032967032967035,
+        "company_name": "JOHNSON CONTROLS INTERNATIONAL PLC",
+        "ticker": "JCI",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.2189010989010989,
+        "company_name": "NVIDIA CORP",
+        "ticker": "NVDA",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.21813186813186813,
+        "company_name": "ADVANCED MICRO DEVICES, INC.",
+        "ticker": "AMD",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.21406593406593408,
+        "company_name": "ALBEMARLE CORPORATION",
+        "ticker": "ALB",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.20901098901098902,
+        "company_name": "Broadcom Inc.",
+        "ticker": "AVGO",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.17648351648351648,
+        "company_name": "ALPHABET INC.",
+        "ticker": "GOOGL",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.1723076923076923,
+        "company_name": "CATERPILLAR INC",
+        "ticker": "CAT",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.16043956043956042,
+        "company_name": "The Southern Company",
+        "ticker": "SO",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.1564835164835165,
+        "company_name": "EXELON CORPORATION",
+        "ticker": "EXC",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.1556043956043956,
+        "company_name": "Tesla, Inc.",
+        "ticker": "TSLA",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.14406593406593407,
+        "company_name": "Quanta Services, Inc.",
+        "ticker": "PWR",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.12098901098901099,
+        "company_name": "AIR PRODUCTS AND CHEMICALS, INC.",
+        "ticker": "APD",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.09725274725274727,
+        "company_name": "Mosaic Co",
+        "ticker": "MOS",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      },
+      {
+        "appearances": 50,
+        "average_heldout_rank": 0.07582417582417583,
+        "company_name": "Chevron Corp",
+        "ticker": "CVX",
+        "top_quartile_hits": 0,
+        "top_quartile_rate": 0.0
+      }
+    ]
+  },
+  "verdict": "No",
+  "verdict_reasons": [
+    "Repeated-CV fold Spearman is materially positive on average (0.662).",
+    "The 5th percentile fold Spearman stays positive (0.362).",
+    "The bootstrap OOB Spearman 95% interval stays above zero (0.349 to 0.832).",
+    "Only 1/5 coefficients keep the expected sign in at least 75% of folds.",
+    "The top-10 stable names land in the held-out top quartile 99.0% of the time on average."
+  ]
+}
