@@ -59,12 +59,12 @@ No, at least not with GPT-5.4 Nano and public data. The distilled signal does no
 
 ## Setup And Usage
 
-This repo is a research workflow, not a packaged product. There is no `pyproject.toml` or `requirements.txt`, so installation is manual.
+This repo is a research workflow, not a packaged product. Install the dependencies into a virtual environment before running the scripts.
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\Activate.ps1
-pip install pandas numpy scipy scikit-learn xgboost matplotlib requests yfinance joblib pyarrow pytest
+pip install -r requirements.txt
 ```
 
 Set the required environment variables:
@@ -84,13 +84,13 @@ Core commands:
 python openrouter.py --file tickers.txt --tier cheap --parallel 20
 
 # 2. Pull current EDGAR feature data
-python edgar.py --file tickers.txt --output edgar_features_full.json
+python edgar.py --file tickers.txt --output data/edgar_features_full.json
 
 # 3. Distill the AI cross-section into a surrogate
-python distill.py --tickers-file tickers.txt --edgar-file edgar_features_full.json --reports-dir reports
+python distill.py --tickers-file tickers.txt --edgar-file data/edgar_features_full.json --reports-dir reports
 
 # 4. Run stability diagnostics / freeze artifacts
-python stability.py --tickers-file tickers.txt --edgar-file edgar_features_full.json --reports-dir reports
+python stability.py --tickers-file tickers.txt --edgar-file data/edgar_features_full.json --reports-dir reports
 
 # 5. Backtest the frozen surrogate
 python backtest.py --start-year 2012 --end-year 2025 --tickers-file tickers.txt
@@ -103,7 +103,7 @@ Auxiliary usage:
 python dcf.py reports\AAPL_2026-03-20_cheap.json --output-dir valuations
 
 # Run tests
-pytest
+python -m pytest
 ```
 
 `parser.py` and `historical.py` are library modules used by the scripts above rather than standalone CLIs.
