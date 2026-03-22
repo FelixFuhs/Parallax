@@ -193,6 +193,16 @@ def load_price_history(
         threads=True,
     )
     close_frame = extract_adjusted_close_frame(history, normalized_tickers)
+    missing_tickers = [
+        ticker for ticker in normalized_tickers if ticker not in close_frame.columns
+    ]
+    if missing_tickers:
+        LOGGER.warning(
+            "Price history download omitted %d ticker(s): %s",
+            len(missing_tickers),
+            ", ".join(missing_tickers),
+        )
+    close_frame = close_frame.reindex(columns=normalized_tickers)
     close_frame.to_parquet(PRICE_CACHE_PATH)
     return close_frame.loc[:, normalized_tickers]
 
@@ -483,6 +493,28 @@ def latest_snapshot_before(
     return None, None
 
 
+def previous_snapshot_for_growth(
+    history: TickerHistory,
+    snapshot_index: int,
+) -> FilingSnapshot | None:
+    current_snapshot = history.filings[snapshot_index]
+    current_period_end = current_snapshot.period_end
+    current_fy = current_snapshot.fy
+
+    for index in range(snapshot_index - 1, -1, -1):
+        candidate = history.filings[index]
+        if current_period_end is not None and candidate.period_end is not None:
+            if candidate.period_end < current_period_end:
+                return candidate
+            continue
+        if current_fy is not None and candidate.fy is not None:
+            if candidate.fy < current_fy:
+                return candidate
+            continue
+        return candidate
+    return None
+
+
 def price_on_or_after(series: pd.Series, target: pd.Timestamp) -> float | None:
     eligible = series[series.index > target]
     if eligible.empty:
@@ -572,18 +604,14 @@ def build_point_in_time_feature_matrix(
             continue
 
         price_features = build_price_features_for_rebalance(series, normalized_rebalance)
-        if (
-            price_features["current_price"] is None
-            or price_features["price_return_1m"] is None
-            or price_features["price_return_12m"] is None
-        ):
+        if price_features["current_price"] is None:
             continue
 
         snapshot_index, snapshot = latest_snapshot_before(history, normalized_rebalance)
         if snapshot is None or snapshot_index is None:
             continue
 
-        previous_snapshot = history.filings[snapshot_index - 1] if snapshot_index > 0 else None
+        previous_snapshot = previous_snapshot_for_growth(history, snapshot_index)
         rows.append(
             build_feature_row(
                 history,
