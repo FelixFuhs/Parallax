@@ -1,10 +1,25 @@
 # Parallax Model Freeze
 
-Generated: 2026-03-21T17:52:53.133407+00:00
+Updated: 2026-03-22
 
 ## Frozen Statement
 
 This spec is frozen. Any changes after seeing backtest results must be documented as post-hoc modifications and flagged as such.
+
+## Research Framing
+
+- Primary frozen model: XGBoost regressor.
+- Frozen training slice: `n=264` matched set, not `n=66`.
+- Backtest framing: supervised interpolation today, economic falsification backward.
+- This is a prototype-grade, survivor-biased historical falsification test, not proof of alpha.
+
+## Model Status
+
+- Primary model: `models/frozen_xgb_regressor.json`
+- Primary metadata: `models/frozen_model_metadata.json`
+- Elastic net is retained as a transparency baseline only, not the primary model.
+- Baseline-only Elastic Net artifacts remain: `models/frozen_elasticnet_coefficients.json`, `models/distill_elasticnet_v2.pkl`
+- XGBoost ranker is dropped from the frozen spec.
 
 ## Universe
 
@@ -12,7 +27,7 @@ This spec is frozen. Any changes after seeing backtest results must be documente
 - Current frozen research slice: `tickers.txt` in this repo.
 - Matched training sample used for the frozen model: 264 tickers.
 - Entry requirements: latest successful cheap valuation report, no `stale_price` quality flag, base-case upside present, EDGAR row present with no extraction error, fiscal year >= 2024, and not in the hard-coded broken ticker list.
-- Missing feature values are allowed at the row level and are median-imputed inside each training fold and in the final full-sample fit.
+- Missing feature values are allowed at the row level.
 
 ## Exclusion Rules
 
@@ -30,23 +45,41 @@ This spec is frozen. Any changes after seeing backtest results must be documente
 ## Winsorization
 
 - None.
-- No percentiles are clipped before ranking, after ranking, or before Elastic Net fitting.
+- No percentiles are clipped before ranking, after ranking, or before model fitting.
 
-## Scaling And Normalization
+## Feature Handling
 
 - Features are used in the fixed order: `fcf_to_ev`, `gross_profitability_assets`, `asset_growth_1y`, `cash_earnings_gap`, `momentum_12_1`.
-- Missing feature values are imputed with the training-fold median (`SimpleImputer(strategy='median')`).
-- Imputed features are standardized with `StandardScaler()` fit on the training fold only.
-- The target is left on percentile-rank scale; no target normalization is applied.
-- Final frozen coefficients come from refitting the same pipeline on the full matched sample.
+- Monotonic constraints are fixed at `(1, 1, -1, 1, 0)` in that same feature order.
+- The XGBoost regressor is fit on the raw feature matrix with missing values left as missing for native tree handling.
+- No feature standardization or target normalization is applied in the frozen primary model.
 
-## ElasticNetCV Search Space
+## Frozen Primary Model
 
-- Estimator: `ElasticNetCV(random_state=42, max_iter=100000)`.
-- `l1_ratio` remains at the sklearn default of `0.5` (not searched).
-- Alpha search uses sklearn's default auto-generated log-spaced alpha path, from `alpha_max` down to `alpha_max * eps`, with `eps=1e-3` and the default number of alpha values.
-- Inner CV is sklearn's default 5-fold cross-validation.
-- On the frozen full-sample fit, the selected alpha is `0.082141` and the selected `l1_ratio` is `0.50`.
+- Estimator: `XGBRegressor(objective="reg:squarederror")`
+- Hyperparameters:
+  - `max_depth=2`
+  - `learning_rate=0.05`
+  - `n_estimators=200`
+  - `subsample=0.8`
+  - `colsample_bytree=0.8`
+  - `reg_alpha=1.0`
+  - `reg_lambda=1.0`
+  - `min_child_weight=5`
+  - `random_state=42`
+  - `n_jobs=1`
+  - `monotone_constraints=(1, 1, -1, 1, 0)`
+
+## Stability Results
+
+- Spearman CV mean: `0.6196`
+- Spearman CV std: `0.0901`
+- Spearman CV p05: `0.4577`
+- Spearman CV p95: `0.7448`
+- Bootstrap CI: `[0.4959, 0.7193]`
+- Top-Q stability: `90.8%`
+
+These are the frozen stability numbers for the primary model decision.
 
 ## Feature Set
 
@@ -148,81 +181,3 @@ EDGAR values are taken from the latest selected annual filing context; when a pr
 - Fallback logic:
   - If either component return is missing, the feature is null.
   - If 1-month gross return equals zero (a -100% return), the feature is null to avoid division by zero.
-
-## Frozen CV Metrics
-
-| Metric | Value |
-| --- | --- |
-| Spearman (CV) | 0.3692 |
-| R^2 (CV) | -0.2561 |
-| MAE (CV) | 0.2556 |
-
-## Stability Checks
-
-| Diagnostic | Value |
-| --- | --- |
-| Repeated-CV fold Spearman mean | 0.4170 |
-| Repeated-CV fold Spearman std | 0.2372 |
-| Repeated-CV fold Spearman 5th pct | 0.0000 |
-| Repeated-CV fold Spearman 95th pct | 0.6847 |
-| Bootstrap OOB Spearman mean | 0.4957 |
-| Bootstrap OOB Spearman 95% CI | [0.0000, 0.6894] |
-
-### Coefficient Sign Stability
-
-| Feature | Expected | Expected Sign % | Positive % | Negative % | Zero % | Flip? |
-| --- | --- | --- | --- | --- | --- | --- |
-| fcf_to_ev | positive | 67.2% | 67.2% | 0.0% | 34.4% | No |
-| gross_profitability_assets | positive | 0.0% | 0.0% | 1.2% | 98.8% | No |
-| asset_growth_1y | negative | 38.8% | 0.0% | 38.8% | 61.2% | No |
-| cash_earnings_gap | positive | 0.0% | 0.0% | 3.6% | 96.4% | No |
-| momentum_12_1 | positive | 0.0% | 0.0% | 83.6% | 21.6% | No |
-
-### Top-Quartile Stability
-
-Top-quartile means the top 25% of predicted names inside each held-out fold.
-
-Most consistently top-ranked:
-
-| Ticker | Company | Top Quartile % | Hold-out Appearances |
-| --- | --- | --- | --- |
-| F | FORD MOTOR CO | 100.0% | 50 |
-| ACN | Accenture plc | 100.0% | 50 |
-| CAG | Conagra Brands, Inc. | 100.0% | 50 |
-| CDW | CDW CORP | 100.0% | 50 |
-| BLDR | BUILDERS FIRSTSOURCE, INC. | 100.0% | 50 |
-| BKNG | Booking Holdings Inc. | 98.0% | 50 |
-| CPB | THE CAMPBELL'S COMPANY | 98.0% | 50 |
-| ABNB | Airbnb, Inc. | 98.0% | 50 |
-| CMCSA | Comcast Corporation | 92.0% | 50 |
-| UNH | UNITEDHEALTH GROUP INCORPORATED | 90.0% | 50 |
-
-Most consistently bottom-ranked:
-
-| Ticker | Company | Top Quartile % | Hold-out Appearances |
-| --- | --- | --- | --- |
-| INTC | INTEL CORPORATION | 0.0% | 50 |
-| GEV | GE Vernova Inc. | 0.0% | 50 |
-| PWR | Quanta Services, Inc. | 0.0% | 50 |
-| GOOG | ALPHABET INC. | 0.0% | 50 |
-| TER | TERADYNE, INC. | 0.0% | 50 |
-| WBD | Warner Bros. Discovery, Inc. | 0.0% | 50 |
-| STX | Seagate Technology Holdings plc | 0.0% | 50 |
-| MU | Micron Technology, Inc. | 0.0% | 50 |
-| WDC | WESTERN DIGITAL CORP | 0.0% | 50 |
-| SNDK | Sandisk Corporation | 0.0% | 50 |
-
-## Backcasting Verdict
-
-Is the model stable enough to trust for backcasting? No.
-
-- Repeated-CV fold Spearman mean is too weak (0.417).
-- The 5th percentile fold Spearman is non-positive (0.000).
-- The bootstrap OOB Spearman interval reaches zero or below (0.000 to 0.689).
-- Only 0/5 coefficients keep the expected sign in at least 75% of folds.
-- The top-10 stable names land in the held-out top quartile 97.6% of the time on average.
-
-## Frozen Linear Parameters
-
-- Frozen scoring payload: `models/frozen_elasticnet_coefficients.json`.
-- This payload includes the intercept, standardized-feature coefficients, imputer medians, scaler means/scales, and the selected alpha.

@@ -1,0 +1,57 @@
+{
+  "artifact_role": "primary_model_freeze",
+  "feature_names": [
+    "fcf_to_ev",
+    "gross_profitability_assets",
+    "asset_growth_1y",
+    "cash_earnings_gap",
+    "momentum_12_1"
+  ],
+  "hyperparameters": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.05,
+    "max_depth": 2,
+    "min_child_weight": 5,
+    "monotone_constraints": [
+      1,
+      1,
+      -1,
+      1,
+      0
+    ],
+    "n_estimators": 200,
+    "n_jobs": 1,
+    "objective": "reg:squarederror",
+    "random_state": 42,
+    "reg_alpha": 1.0,
+    "reg_lambda": 1.0,
+    "subsample": 0.8
+  },
+  "model_type": "xgboost_regressor",
+  "monotonic_constraints": [
+    1,
+    1,
+    -1,
+    1,
+    0
+  ],
+  "source_artifacts": {
+    "frozen_model": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\models\\frozen_xgb_regressor.json",
+    "source_metadata": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\models\\distill_v2_metadata.json",
+    "source_model": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\models\\distill_xgb_regressor_v2.json"
+  },
+  "stability": {
+    "bootstrap_ci": {
+      "lower": 0.4958702645040548,
+      "upper": 0.7192631073715245
+    },
+    "spearman_cv_mean": 0.6195618744742717,
+    "spearman_cv_p05": 0.45765602322206095,
+    "spearman_cv_p95": 0.7448234155781325,
+    "spearman_cv_std": 0.0900674145342724,
+    "top_quartile_stability": 0.907878787878788
+  },
+  "training_data_hash_sha256": "8bacc04471676e223951126def27c519768d58d7cd5a94963d4caec5ad5095d2",
+  "training_date": "2026-03-21T17:52:13.413951+00:00",
+  "training_set_size": 264
+}
