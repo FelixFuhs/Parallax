@@ -1,28 +1,30 @@
 from __future__ import annotations
 
 import argparse
-from concurrent.futures import ThreadPoolExecutor, as_completed
+import csv
 import json
 import os
 import re
-import socket
 import sys
 import threading
 import time
+from collections.abc import Mapping
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import asdict, dataclass, fields
-from datetime import date, datetime, timezone
+from datetime import UTC, date, datetime
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from typing import Any, Mapping
+from typing import Any
 from urllib import error, request
 
 from dcf import DCFError, DCFResult, run_dcf
 from parser import ParseError, ScenarioOverrides, ValuationInput, parse_input
-
+from research_scaffolds import render_sector_dcf_prompt_context
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 DEFAULT_PROMPT_TEMPLATE = Path("templates") / "dcf_research_prompt.md"
 DEFAULT_REPORTS_DIR = Path("reports")
+DEFAULT_SECTOR_MAP = Path("data") / "sector_map_wikipedia.csv"
 MAX_RETRIES = 3
 RETRYABLE_HTTP_STATUS_CODES = {429}
 
@@ -144,9 +146,10 @@ def main() -> int:
     except (OSError, OpenRouterError):
         print(f"Error: unable to read prompt template '{DEFAULT_PROMPT_TEMPLATE}'.", file=sys.stderr)
         return 1
+    sector_lookup = _load_sector_lookup(Path(args.sector_map))
 
     if args.dry_run:
-        _print_dry_run(prompt_template, tickers, _tiers_for_cli(args.tier))
+        _print_dry_run(prompt_template, tickers, _tiers_for_cli(args.tier), sector_lookup=sector_lookup)
         return 0
 
     if args.parallel < 1:
@@ -171,6 +174,7 @@ def main() -> int:
         tickers=tickers,
         selected_tiers=selected_tiers,
         prompt_template=prompt_template,
+        sector_lookup=sector_lookup,
         api_key=api_key,
         rate_limiters=rate_limiters,
         run_date=run_date,
@@ -198,6 +202,11 @@ def _parse_args() -> argparse.Namespace:
     cli.add_argument("--tier", choices=("cheap", "full", "both"), default="cheap", help="Model tier to run.")
     cli.add_argument("--parallel", type=int, default=1, help="Number of tickers to process concurrently.")
     cli.add_argument("--dry-run", action="store_true", help="Print the rendered prompt without calling the API.")
+    cli.add_argument(
+        "--sector-map",
+        default=str(DEFAULT_SECTOR_MAP),
+        help="Optional ticker/sector CSV used to append sector-specific DCF prompt context.",
+    )
     cli.add_argument(
         "--compare",
         metavar="TICKER",
@@ -257,11 +266,41 @@ def _load_prompt_template(path: Path) -> str:
     return template
 
 
-def _render_prompt(template: str, ticker: str) -> str:
-    return template.replace("{TICKER}", ticker)
+def _render_prompt(template: str, ticker: str, sector_name: str | None = None) -> str:
+    prompt = template.replace("{TICKER}", ticker)
+    return prompt + "\n" + render_sector_dcf_prompt_context(sector_name)
 
 
-def _print_dry_run(prompt_template: str, tickers: list[str], tiers: list[str]) -> None:
+def _load_sector_lookup(path: Path) -> dict[str, str]:
+    if not path.exists():
+        return {}
+    lookup: dict[str, str] = {}
+    with path.open("r", encoding="utf-8", newline="") as handle:
+        reader = csv.DictReader(handle)
+        for row in reader:
+            ticker = str(row.get("ticker") or "").strip().upper().replace(".", "-")
+            if not ticker:
+                continue
+            sector = str(row.get("sector") or "").strip()
+            sub_industry = str(row.get("sub_industry") or "").strip()
+            combined = " - ".join(value for value in (sector, sub_industry) if value)
+            if combined:
+                lookup[ticker] = combined
+    return lookup
+
+
+def _sector_name_for_ticker(sector_lookup: Mapping[str, str], ticker: str) -> str | None:
+    return sector_lookup.get(ticker.strip().upper().replace(".", "-"))
+
+
+def _print_dry_run(
+    prompt_template: str,
+    tickers: list[str],
+    tiers: list[str],
+    *,
+    sector_lookup: Mapping[str, str] | None = None,
+) -> None:
+    sector_lookup = sector_lookup or {}
     for index, ticker in enumerate(tickers, start=1):
         if index > 1:
             print()
@@ -274,7 +313,7 @@ def _print_dry_run(prompt_template: str, tickers: list[str], tiers: list[str]) -
                 f"| max_tokens={config.max_tokens} | timeout={config.timeout_seconds}s"
             )
         print()
-        print(_render_prompt(prompt_template, ticker))
+        print(_render_prompt(prompt_template, ticker, _sector_name_for_ticker(sector_lookup, ticker)))
 
 
 def _run_tickers(
@@ -282,6 +321,7 @@ def _run_tickers(
     tickers: list[str],
     selected_tiers: list[str],
     prompt_template: str,
+    sector_lookup: Mapping[str, str],
     api_key: str,
     rate_limiters: dict[str, RateLimiter],
     run_date: str,
@@ -293,6 +333,7 @@ def _run_tickers(
                 ticker=ticker,
                 selected_tiers=selected_tiers,
                 prompt_template=prompt_template,
+                sector_lookup=sector_lookup,
                 api_key=api_key,
                 rate_limiters=rate_limiters,
                 run_date=run_date,
@@ -306,6 +347,7 @@ def _run_tickers(
                 ticker=ticker,
                 selected_tiers=selected_tiers,
                 prompt_template=prompt_template,
+                sector_lookup=sector_lookup,
                 api_key=api_key,
                 rate_limiters=rate_limiters,
                 run_date=run_date,
@@ -333,12 +375,13 @@ def _process_ticker(
     ticker: str,
     selected_tiers: list[str],
     prompt_template: str,
+    sector_lookup: Mapping[str, str],
     api_key: str,
     rate_limiters: dict[str, RateLimiter],
     run_date: str,
 ) -> TickerRunResult:
     lines = [ticker]
-    prompt = _render_prompt(prompt_template, ticker)
+    prompt = _render_prompt(prompt_template, ticker, _sector_name_for_ticker(sector_lookup, ticker))
     done = 0
     failed = 0
     skipped = 0
@@ -514,7 +557,7 @@ def _request_openrouter(
             raise OpenRouterError(
                 f"OpenRouter HTTP {exc.code}: {_truncate(response_body)}"
             ) from exc
-        except (error.URLError, socket.timeout, TimeoutError) as exc:
+        except (error.URLError, TimeoutError) as exc:
             if attempt <= MAX_RETRIES:
                 delay = _retry_delay_seconds(attempt, None)
                 log_lines.append(
@@ -1038,12 +1081,12 @@ def _parse_retry_after_seconds(value: str | None) -> float | None:
     except (TypeError, ValueError, IndexError):
         return None
     if retry_at.tzinfo is None:
-        retry_at = retry_at.replace(tzinfo=timezone.utc)
-    return (retry_at - datetime.now(timezone.utc)).total_seconds()
+        retry_at = retry_at.replace(tzinfo=UTC)
+    return (retry_at - datetime.now(UTC)).total_seconds()
 
 
 def _utc_timestamp() -> str:
-    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    return datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
 def _coerce_int(value: Any) -> int:

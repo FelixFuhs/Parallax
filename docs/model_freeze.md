@@ -18,7 +18,7 @@ This spec is frozen. Any changes after seeing backtest results must be documente
 - Primary model: `models/frozen_xgb_regressor.json`
 - Primary metadata: `models/frozen_model_metadata.json`
 - Elastic net is retained as a transparency baseline only, not the primary model.
-- Baseline-only Elastic Net artifacts remain: `models/frozen_elasticnet_coefficients.json`, `models/distill_elasticnet_v2.pkl`
+- Baseline-only Elastic Net artifacts remain: `models/frozen_elasticnet_coefficients.json`, `models/frozen_elasticnet_metadata.json`, `models/distill_elasticnet_v2.pkl`, and `docs/freeze_elasticnet_baseline.md`
 - XGBoost ranker is dropped from the frozen spec.
 
 ## Universe
@@ -127,7 +127,7 @@ EDGAR values are taken from the latest selected annual filing context; when a pr
   - total_debt component fallback: us-gaap/LongTermDebtAndFinanceLeaseObligationsCurrent
 - Fallback logic:
   - Capex is forced positive with abs().
-  - Market cap is current yfinance auto-adjusted close times shares_outstanding.
+  - Legacy frozen artifacts used the available `current_price` field. New v2 price paths separate raw close for market cap and enterprise value from adjusted close for returns and momentum.
   - Total debt uses the direct total-debt tags first; if none are available, long-term and short-term debt components are summed.
   - If enterprise value is zero or negative, the feature is set to null.
 
@@ -175,7 +175,7 @@ EDGAR values are taken from the latest selected annual filing context; when a pr
 
 - Formula: `(1 + price_return_12m) / (1 + price_return_1m) - 1`
 - Tags used:
-  - price source: yfinance auto-adjusted close history over the trailing ~400 calendar days
+  - price source: adjusted close history for return inputs; raw close is used separately for valuation fields in the v2 price model.
   - price_return_1m: latest price versus price on or before latest_date - 1 month
   - price_return_12m: latest price versus price on or before latest_date - 12 months
 - Fallback logic:

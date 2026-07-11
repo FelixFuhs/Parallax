@@ -2,11 +2,13 @@ import pytest
 
 from dcf import run_dcf
 from openrouter import (
-    OpenRouterError,
     TIER_CONFIGS,
+    OpenRouterError,
     UsageStats,
     _build_saved_report,
     _extract_json_object_with_healing,
+    _load_sector_lookup,
+    _render_prompt,
 )
 from parser import parse_input
 
@@ -78,3 +80,27 @@ def test_extract_json_object_with_healing_returns_first_json_object_when_multipl
 def test_extract_json_object_with_healing_raises_for_missing_json():
     with pytest.raises(OpenRouterError):
         _extract_json_object_with_healing("no json here")
+
+
+def test_render_prompt_appends_sector_specific_context():
+    prompt = _render_prompt("Research {TICKER}", "ADBE", "Information Technology - Application Software")
+
+    assert prompt.startswith("Research ADBE")
+    assert "Sector-specific DCF template context" in prompt
+    assert "Selected template: Software" in prompt
+    assert "recurring revenue growth" in prompt
+
+
+def test_load_sector_lookup_combines_sector_and_sub_industry(tmp_path):
+    sector_path = tmp_path / "sector_map.csv"
+    sector_path.write_text(
+        "ticker,sector,sub_industry\n"
+        "NXPI,Information Technology,Semiconductors\n"
+        "NEE,Utilities,Multi-Utilities\n",
+        encoding="utf-8",
+    )
+
+    lookup = _load_sector_lookup(sector_path)
+
+    assert lookup["NXPI"] == "Information Technology - Semiconductors"
+    assert lookup["NEE"] == "Utilities - Multi-Utilities"

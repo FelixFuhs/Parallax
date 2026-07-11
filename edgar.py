@@ -6,15 +6,17 @@ import logging
 import os
 import sys
 import time
+from collections.abc import Iterable, Sequence
 from dataclasses import dataclass
-from datetime import date, datetime, timezone
+from datetime import UTC, date, datetime
 from pathlib import Path
-from typing import Any, Iterable, Sequence
+from typing import Any
 
 import pandas as pd
 import requests
 import yfinance as yf
 
+from price_model import extract_price_panels
 
 SEC_TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"
 SEC_COMPANYFACTS_URL = "https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json"
@@ -58,6 +60,8 @@ RAW_FIELD_NAMES = (
 )
 DERIVED_FIELD_NAMES = (
     "current_price",
+    "raw_close_price",
+    "adjusted_close_price",
     "price_return_1m",
     "price_return_3m",
     "price_return_6m",
@@ -731,6 +735,9 @@ def compute_derived_fields(
     operating_cash_flow = coerce_float(record.get("operating_cash_flow"))
     capex = abs_if_present(coerce_float(record.get("capex")))
     current_price = coerce_float(record.get("current_price"))
+    raw_close_price = coerce_float(record.get("raw_close_price"))
+    adjusted_close_price = coerce_float(record.get("adjusted_close_price"))
+    valuation_price = raw_close_price if raw_close_price is not None else current_price
     price_return_1m = coerce_float(record.get("price_return_1m"))
     price_return_12m = coerce_float(record.get("price_return_12m"))
     shares_outstanding = coerce_float(record.get("shares_outstanding"))
@@ -746,8 +753,8 @@ def compute_derived_fields(
     current_liabilities = coerce_float(record.get("current_liabilities"))
 
     market_cap = None
-    if current_price is not None and shares_outstanding not in (None, 0):
-        market_cap = current_price * shares_outstanding
+    if valuation_price is not None and shares_outstanding not in (None, 0):
+        market_cap = valuation_price * shares_outstanding
 
     free_cash_flow = None
     if operating_cash_flow is not None and capex is not None:
@@ -772,6 +779,8 @@ def compute_derived_fields(
             momentum_12_1 = ((1.0 + price_return_12m) / recent_month_gross_return) - 1.0
 
     record["capex"] = capex
+    record["raw_close_price"] = raw_close_price
+    record["adjusted_close_price"] = adjusted_close_price
     record["momentum_12_1"] = momentum_12_1
     record["market_cap"] = market_cap
     record["free_cash_flow"] = free_cash_flow
@@ -850,6 +859,8 @@ def fetch_price_features(tickers: Sequence[str]) -> dict[str, dict[str, float | 
     features = {
         ticker: {
             "current_price": None,
+            "raw_close_price": None,
+            "adjusted_close_price": None,
             "price_return_1m": None,
             "price_return_3m": None,
             "price_return_6m": None,
@@ -860,12 +871,12 @@ def fetch_price_features(tickers: Sequence[str]) -> dict[str, dict[str, float | 
     if not unique_tickers:
         return features
 
-    start = (datetime.now(timezone.utc) - pd.Timedelta(days=400)).date().isoformat()
+    start = (datetime.now(UTC) - pd.Timedelta(days=400)).date().isoformat()
     try:
         history = yf.download(
             unique_tickers,
             start=start,
-            auto_adjust=True,
+            auto_adjust=False,
             progress=False,
             threads=True,
         )
@@ -873,25 +884,28 @@ def fetch_price_features(tickers: Sequence[str]) -> dict[str, dict[str, float | 
         LOGGER.warning("Unable to fetch yfinance history: %s", exc)
         return features
 
-    close_by_ticker = extract_close_frame(history, unique_tickers)
+    panels = extract_price_panels(history, unique_tickers)
     for ticker in unique_tickers:
-        series = close_by_ticker.get(ticker)
-        if series is None or series.empty:
+        if ticker not in panels.raw_close.columns or ticker not in panels.adjusted_close.columns:
+            LOGGER.warning("%s missing yfinance price history", ticker)
+            continue
+        raw_series = panels.raw_close[ticker].dropna()
+        adjusted_series = panels.adjusted_close[ticker].dropna()
+        if raw_series.empty or adjusted_series.empty:
             LOGGER.warning("%s missing yfinance price history", ticker)
             continue
 
-        index = pd.to_datetime(series.index)
-        if getattr(index, "tz", None) is not None:
-            index = index.tz_localize(None)
-        series.index = index
-        latest_price = float(series.iloc[-1])
-        latest_date = pd.Timestamp(series.index[-1])
+        latest_raw_price = float(raw_series.iloc[-1])
+        latest_adjusted_price = float(adjusted_series.iloc[-1])
+        latest_date = pd.Timestamp(adjusted_series.index[-1])
 
-        features[ticker]["current_price"] = latest_price
+        features[ticker]["current_price"] = latest_raw_price
+        features[ticker]["raw_close_price"] = latest_raw_price
+        features[ticker]["adjusted_close_price"] = latest_adjusted_price
         for field_name, offset in PRICE_WINDOWS.items():
-            baseline = price_on_or_before(series, latest_date - offset)
+            baseline = price_on_or_before(adjusted_series, latest_date - offset)
             features[ticker][field_name] = (
-                (latest_price / baseline) - 1.0 if baseline not in (None, 0.0) else None
+                (latest_adjusted_price / baseline) - 1.0 if baseline not in (None, 0.0) else None
             )
 
     return features

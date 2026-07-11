@@ -3,10 +3,10 @@ from __future__ import annotations
 import json
 import os
 import re
+from collections.abc import Mapping
 from dataclasses import dataclass, field, replace
 from pathlib import Path
-from typing import Any, Literal, Mapping, TypeAlias, cast
-
+from typing import Any, Literal, TypeAlias, cast
 
 TerminalMethod: TypeAlias = Literal["gordon_growth", "exit_multiple", "average"]
 

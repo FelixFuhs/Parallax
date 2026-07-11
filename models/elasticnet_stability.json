@@ -1,10 +1,10 @@
 {
   "artifacts": {
-    "bootstrap_spearman_plot": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\plots\\bootstrap_spearman.png",
-    "coefficient_stability_plot": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\plots\\coefficient_stability.png",
-    "frozen_coefficients": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\models\\frozen_elasticnet_coefficients.json",
-    "model_freeze_doc": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\docs\\model_freeze.md",
-    "spearman_stability_plot": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\plots\\spearman_stability.png"
+    "bootstrap_spearman_plot": "plots\\bootstrap_spearman.png",
+    "coefficient_stability_plot": "plots\\coefficient_stability.png",
+    "elasticnet_freeze_doc": "docs/freeze_elasticnet_baseline.md",
+    "frozen_coefficients": "models\\frozen_elasticnet_coefficients.json",
+    "spearman_stability_plot": "plots\\spearman_stability.png"
   },
   "bootstrap": {
     "samples": 1000,
@@ -2453,6 +2453,7 @@
       }
     ]
   },
+  "stale_artifact_warning": "Generated before stability.py was changed to write the Elastic Net baseline freeze doc separately.",
   "verdict": "No",
   "verdict_reasons": [
     "Repeated-CV fold Spearman mean is too weak (0.417).",

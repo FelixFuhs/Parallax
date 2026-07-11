@@ -1,9 +1,9 @@
 {
   "artifacts": {
-    "annual_returns_plot": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\plots\\backtest_annual_returns.png",
-    "cumulative_plot": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\plots\\backtest_cumulative.png",
-    "summary": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\results\\backtest_summary.json",
-    "universe_plot": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\plots\\universe_size.png"
+    "annual_returns_plot": "plots/backtest_annual_returns.png",
+    "cumulative_plot": "plots/backtest_cumulative.png",
+    "summary": "results/backtest_summary.json",
+    "universe_plot": "plots/universe_size.png"
   },
   "assumptions": {
     "additive_benchmark_broad_mode_missing_features": "cross-sectional median imputation before z-scoring",
@@ -20,10 +20,11 @@
       "cash_earnings_gap",
       "momentum_12_1"
     ],
-    "model_path": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\models\\distill_xgb_regressor_v2.json",
+    "model_artifact_role": "primary_model_freeze",
+    "model_path": "models/frozen_xgb_regressor.json",
     "start_year": 2012,
     "t_plus_one_trading": true,
-    "tickers_file": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\tickers.txt"
+    "tickers_file": "tickers.txt"
   },
   "runs": {
     "broad": {
@@ -12485,6 +12486,7 @@
       }
     }
   },
+  "stale_artifact_warning": "Generated before the 2026-05-19 v2 label-decomposition changes; paths were normalized to repo-relative form without regenerating the historical backtest.",
   "universe_counts": {
     "2012-01-31": {
       "broad_count": 281,

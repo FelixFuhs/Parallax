@@ -1,9 +1,10 @@
 import json
 import logging
+from collections.abc import Iterable, Sequence
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
-from typing import Any, Iterable, Sequence
+from typing import Any
 
 import pandas as pd
 import yfinance as yf
@@ -11,7 +12,6 @@ import yfinance as yf
 from edgar import (
     DEFAULT_SEC_EMAIL,
     DEFAULT_SEC_NAME,
-    EdgarError,
     FIELD_SPECS,
     GROSS_PROFIT_FALLBACK_SPECS,
     LONG_TERM_DEBT_SPEC,
@@ -27,19 +27,48 @@ from edgar import (
     normalize_ticker,
     price_on_or_before,
 )
-
+from price_model import PricePanels, extract_price_panels, load_price_panels
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 EDGAR_CACHE_DIR = DATA_DIR / "edgar_cache"
 COMPANY_TICKERS_CACHE_PATH = EDGAR_CACHE_DIR / "company_tickers.json"
 PRICE_CACHE_PATH = DATA_DIR / "price_cache.parquet"
+PRICE_PANEL_CACHE_PATH = DATA_DIR / "price_panels.parquet"
 FEATURE_ORDER = (
     "fcf_to_ev",
     "gross_profitability_assets",
     "asset_growth_1y",
     "cash_earnings_gap",
     "momentum_12_1",
+)
+HISTORICAL_FEATURE_COLUMNS = (
+    "current_price",
+    "raw_close_price",
+    "adjusted_close_price",
+    "price_return_1m",
+    "price_return_3m",
+    "price_return_6m",
+    "price_return_12m",
+    "momentum_12_1",
+    "market_cap",
+    "free_cash_flow",
+    "fcf_yield",
+    "fcf_to_ev",
+    "roic",
+    "roe",
+    "gross_margin",
+    "gross_profitability_assets",
+    "operating_margin",
+    "net_margin",
+    "book_to_market",
+    "debt_to_equity",
+    "current_ratio",
+    "asset_turnover",
+    "asset_growth_1y",
+    "cash_earnings_gap",
+    "accruals",
+    "capex_intensity",
 )
 LOGGER = logging.getLogger("historical")
 
@@ -127,29 +156,23 @@ def load_company_facts_cached(
 
 
 def extract_adjusted_close_frame(history: pd.DataFrame, tickers: Sequence[str]) -> pd.DataFrame:
-    if history.empty:
-        return pd.DataFrame(index=pd.DatetimeIndex([], name="date"))
+    return extract_price_panels(history, tickers).adjusted_close
 
-    if isinstance(history.columns, pd.MultiIndex):
-        level_zero = history.columns.get_level_values(0)
-        close_key = "Close" if "Close" in level_zero else "Adj Close"
-        if close_key not in level_zero:
-            return pd.DataFrame(index=pd.DatetimeIndex([], name="date"))
-        close_frame = history[close_key].copy()
-    else:
-        close_key = "Close" if "Close" in history.columns else "Adj Close"
-        if close_key not in history.columns:
-            return pd.DataFrame(index=pd.DatetimeIndex([], name="date"))
-        close_frame = history[[close_key]].copy()
-        close_frame.columns = [tickers[0]]
 
-    close_frame.index = pd.to_datetime(close_frame.index)
-    if getattr(close_frame.index, "tz", None) is not None:
-        close_frame.index = close_frame.index.tz_localize(None)
-    close_frame.index.name = "date"
-    close_frame = close_frame.sort_index()
-    close_frame.columns = [normalize_ticker(str(column)) for column in close_frame.columns]
-    return close_frame.astype(float)
+def load_price_panel_history(
+    tickers: Sequence[str],
+    *,
+    start: str,
+    end: str,
+    refresh: bool = False,
+) -> PricePanels:
+    return load_price_panels(
+        tickers,
+        start=start,
+        end=end,
+        cache_path=PRICE_PANEL_CACHE_PATH,
+        refresh=refresh,
+    )
 
 
 def load_price_history(
@@ -179,7 +202,7 @@ def load_price_history(
             return cached.loc[:, normalized_tickers]
 
     LOGGER.info(
-        "Downloading adjusted close history for %d tickers from %s to %s",
+        "Downloading raw and adjusted close history for %d tickers from %s to %s",
         len(normalized_tickers),
         start,
         end,
@@ -188,11 +211,11 @@ def load_price_history(
         normalized_tickers,
         start=start,
         end=(end_ts + pd.Timedelta(days=5)).date().isoformat(),
-        auto_adjust=True,
+        auto_adjust=False,
         progress=False,
         threads=True,
     )
-    close_frame = extract_adjusted_close_frame(history, normalized_tickers)
+    close_frame = extract_price_panels(history, normalized_tickers).adjusted_close
     missing_tickers = [
         ticker for ticker in normalized_tickers if ticker not in close_frame.columns
     ]
@@ -226,10 +249,15 @@ def _iter_relevant_facts(company_facts: dict[str, Any]) -> dict[str, list[FactRe
         "gross_profit": FIELD_SPECS["gross_profit"],
         "net_income": FIELD_SPECS["net_income"],
         "total_assets": FIELD_SPECS["total_assets"],
+        "total_equity": FIELD_SPECS["total_equity"],
+        "operating_income": FIELD_SPECS["operating_income"],
         "cash": FIELD_SPECS["cash"],
         "operating_cash_flow": FIELD_SPECS["operating_cash_flow"],
         "capex": FIELD_SPECS["capex"],
+        "da": FIELD_SPECS["da"],
         "shares_outstanding": FIELD_SPECS["shares_outstanding"],
+        "current_assets": FIELD_SPECS["current_assets"],
+        "current_liabilities": FIELD_SPECS["current_liabilities"],
     }
     facts_by_name = {
         field_name: list(iter_field_facts(company_facts, field_name, spec))
@@ -368,14 +396,22 @@ def build_ticker_history(
         gross_profit_fact = _select_fact_for_filing(facts_by_name["gross_profit"], filing)
         net_income_fact = _select_fact_for_filing(facts_by_name["net_income"], filing)
         total_assets_fact = _select_fact_for_filing(facts_by_name["total_assets"], filing)
+        total_equity_fact = _select_fact_for_filing(facts_by_name["total_equity"], filing)
+        operating_income_fact = _select_fact_for_filing(facts_by_name["operating_income"], filing)
         cash_fact = _select_fact_for_filing(facts_by_name["cash"], filing)
         operating_cash_flow_fact = _select_fact_for_filing(
             facts_by_name["operating_cash_flow"],
             filing,
         )
         capex_fact = _select_fact_for_filing(facts_by_name["capex"], filing)
+        da_fact = _select_fact_for_filing(facts_by_name["da"], filing)
         shares_outstanding_fact = _select_fact_for_filing(
             facts_by_name["shares_outstanding"],
+            filing,
+        )
+        current_assets_fact = _select_fact_for_filing(facts_by_name["current_assets"], filing)
+        current_liabilities_fact = _select_fact_for_filing(
+            facts_by_name["current_liabilities"],
             filing,
         )
 
@@ -402,13 +438,24 @@ def build_ticker_history(
         raw_fields["gross_profit"] = gross_profit_value
         raw_fields["net_income"] = net_income_fact.value if net_income_fact is not None else None
         raw_fields["total_assets"] = total_assets_fact.value if total_assets_fact is not None else None
+        raw_fields["total_equity"] = total_equity_fact.value if total_equity_fact is not None else None
+        raw_fields["operating_income"] = (
+            operating_income_fact.value if operating_income_fact is not None else None
+        )
         raw_fields["cash"] = cash_fact.value if cash_fact is not None else None
         raw_fields["operating_cash_flow"] = (
             operating_cash_flow_fact.value if operating_cash_flow_fact is not None else None
         )
         raw_fields["capex"] = abs(capex_fact.value) if capex_fact is not None else None
+        raw_fields["da"] = abs(da_fact.value) if da_fact is not None else None
         raw_fields["shares_outstanding"] = (
             shares_outstanding_fact.value if shares_outstanding_fact is not None else None
+        )
+        raw_fields["current_assets"] = (
+            current_assets_fact.value if current_assets_fact is not None else None
+        )
+        raw_fields["current_liabilities"] = (
+            current_liabilities_fact.value if current_liabilities_fact is not None else None
         )
         raw_fields["total_debt"] = total_debt_value
 
@@ -523,24 +570,40 @@ def price_on_or_after(series: pd.Series, target: pd.Timestamp) -> float | None:
 
 
 def build_price_features_for_rebalance(
-    series: pd.Series,
+    raw_series: pd.Series,
     rebalance_date: pd.Timestamp,
+    adjusted_series: pd.Series | None = None,
 ) -> dict[str, float | None]:
-    current_price = price_on_or_before(series, rebalance_date)
-    baseline_1m = price_on_or_before(series, rebalance_date - pd.DateOffset(months=1))
-    baseline_12m = price_on_or_before(series, rebalance_date - pd.DateOffset(months=12))
+    if adjusted_series is None:
+        adjusted_series = raw_series
+    current_price = price_on_or_before(raw_series, rebalance_date)
+    adjusted_close_price = price_on_or_before(adjusted_series, rebalance_date)
+    baseline_1m = price_on_or_before(adjusted_series, rebalance_date - pd.DateOffset(months=1))
+    baseline_3m = price_on_or_before(adjusted_series, rebalance_date - pd.DateOffset(months=3))
+    baseline_6m = price_on_or_before(adjusted_series, rebalance_date - pd.DateOffset(months=6))
+    baseline_12m = price_on_or_before(adjusted_series, rebalance_date - pd.DateOffset(months=12))
     return {
         "current_price": current_price,
+        "raw_close_price": current_price,
+        "adjusted_close_price": adjusted_close_price,
         "price_return_1m": (
-            (current_price / baseline_1m) - 1.0
-            if current_price not in (None, 0.0) and baseline_1m not in (None, 0.0)
+            (adjusted_close_price / baseline_1m) - 1.0
+            if adjusted_close_price not in (None, 0.0) and baseline_1m not in (None, 0.0)
             else None
         ),
-        "price_return_3m": None,
-        "price_return_6m": None,
+        "price_return_3m": (
+            (adjusted_close_price / baseline_3m) - 1.0
+            if adjusted_close_price not in (None, 0.0) and baseline_3m not in (None, 0.0)
+            else None
+        ),
+        "price_return_6m": (
+            (adjusted_close_price / baseline_6m) - 1.0
+            if adjusted_close_price not in (None, 0.0) and baseline_6m not in (None, 0.0)
+            else None
+        ),
         "price_return_12m": (
-            (current_price / baseline_12m) - 1.0
-            if current_price not in (None, 0.0) and baseline_12m not in (None, 0.0)
+            (adjusted_close_price / baseline_12m) - 1.0
+            if adjusted_close_price not in (None, 0.0) and baseline_12m not in (None, 0.0)
             else None
         ),
     }
@@ -583,27 +646,44 @@ def build_feature_row(
     }
     for feature_name in FEATURE_ORDER:
         row[feature_name] = record.get(feature_name)
+    for feature_name in HISTORICAL_FEATURE_COLUMNS:
+        row[feature_name] = record.get(feature_name)
     row["feature_null_count"] = int(sum(pd.isna(row[feature_name]) for feature_name in FEATURE_ORDER))
     return row
 
 
 def build_point_in_time_feature_matrix(
     histories: dict[str, TickerHistory],
-    price_frame: pd.DataFrame,
+    price_frame: pd.DataFrame | PricePanels,
     rebalance_date: pd.Timestamp,
 ) -> pd.DataFrame:
     rows: list[dict[str, Any]] = []
     normalized_rebalance = pd.Timestamp(rebalance_date).normalize()
+    if isinstance(price_frame, PricePanels):
+        raw_price_frame = price_frame.raw_close
+        adjusted_price_frame = price_frame.adjusted_close
+    else:
+        raw_price_frame = price_frame
+        adjusted_price_frame = price_frame
 
     for ticker, history in histories.items():
-        if ticker not in price_frame.columns:
+        if ticker not in raw_price_frame.columns:
             continue
 
-        series = price_frame[ticker].dropna()
-        if series.empty:
+        raw_series = raw_price_frame[ticker].dropna()
+        adjusted_series = (
+            adjusted_price_frame[ticker].dropna()
+            if ticker in adjusted_price_frame.columns
+            else raw_series
+        )
+        if raw_series.empty or adjusted_series.empty:
             continue
 
-        price_features = build_price_features_for_rebalance(series, normalized_rebalance)
+        price_features = build_price_features_for_rebalance(
+            raw_series,
+            normalized_rebalance,
+            adjusted_series=adjusted_series,
+        )
         if price_features["current_price"] is None:
             continue
 
@@ -624,7 +704,16 @@ def build_point_in_time_feature_matrix(
 
     if not rows:
         return pd.DataFrame(
-            columns=["company_name", "cik", "rebalance_date", "filing_date", "period_end", "feature_null_count", *FEATURE_ORDER]
+            columns=[
+                "company_name",
+                "cik",
+                "rebalance_date",
+                "filing_date",
+                "period_end",
+                "feature_null_count",
+                *FEATURE_ORDER,
+                *[feature for feature in HISTORICAL_FEATURE_COLUMNS if feature not in FEATURE_ORDER],
+            ]
         ).set_index(pd.Index([], name="ticker"))
 
     frame = pd.DataFrame(rows).set_index("ticker").sort_index()

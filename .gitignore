@@ -2,9 +2,21 @@
 .env.local
 .env.*
 !.env.example
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+.venv*/
 __pycache__/
 *.pyc
 *.py[cod]
 tmp/
 data/edgar_cache/
 data/price_cache.parquet
+
+# Generated research artifacts and public-data caches.
+# Keep code, tests, docs, and source JSON visible; regenerate these outputs locally.
+data/*.parquet
+data/*_wikipedia.csv
+results/*.parquet
+results/*.csv
+results/*.json

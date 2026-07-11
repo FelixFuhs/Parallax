@@ -4,10 +4,11 @@ import argparse
 import json
 import math
 import warnings
+from collections.abc import Callable, Sequence
 from dataclasses import asdict, dataclass
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-from typing import Any, Callable, Sequence
+from typing import Any
 
 import joblib
 import matplotlib.pyplot as plt
@@ -21,7 +22,6 @@ from sklearn.model_selection import KFold, LeaveOneOut
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from xgboost import XGBRanker, XGBRegressor
-
 
 ROOT = Path(__file__).resolve().parent
 TICKERS_PATH = ROOT / "tickers.txt"
@@ -116,6 +116,13 @@ FEATURE_SPECS: tuple[FeatureSpec, ...] = (
 CONSENSUS_FEATURES = tuple(spec.name for spec in FEATURE_SPECS)
 MONOTONIC_CONSTRAINTS = tuple(spec.monotonic_constraint for spec in FEATURE_SPECS)
 PredictorFn = Callable[[pd.DataFrame, np.ndarray, pd.DataFrame], np.ndarray]
+
+
+def repo_relative(path: Path) -> str:
+    try:
+        return path.relative_to(ROOT).as_posix()
+    except ValueError:
+        return path.as_posix()
 
 
 def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
@@ -807,10 +814,15 @@ def print_comparison_table(
     )
 
 
-def determine_verdict(elasticnet_metrics: ModelMetrics, xgb_metrics: ModelMetrics) -> str:
+def determine_verdict(
+    elasticnet_metrics: ModelMetrics,
+    xgb_metrics: ModelMetrics,
+    *,
+    xgb_model_name: str = "XGBoost Regressor",
+) -> str:
     spearman_gap = xgb_metrics.spearman - elasticnet_metrics.spearman
     if spearman_gap > 0.01:
-        return "Verdict: XGBoost Ranker wins."
+        return f"Verdict: {xgb_model_name} wins."
     if spearman_gap < -0.01:
         return "Verdict: Elastic Net wins."
 
@@ -826,7 +838,7 @@ def determine_verdict(elasticnet_metrics: ModelMetrics, xgb_metrics: ModelMetric
         xgb_secondary += 1
 
     if xgb_secondary > elasticnet_secondary:
-        return "Verdict: XGBoost Ranker wins."
+        return f"Verdict: {xgb_model_name} wins."
     if elasticnet_secondary > xgb_secondary:
         return "Verdict: Elastic Net wins."
     return "Verdict: Models are tied."
@@ -952,7 +964,7 @@ def find_surprises(
 
 def write_feature_spec(path: Path) -> None:
     payload = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": datetime.now(UTC).isoformat(),
         "feature_order": list(CONSENSUS_FEATURES),
         "features": [asdict(spec) for spec in FEATURE_SPECS],
     }
@@ -1086,10 +1098,10 @@ def main(argv: Sequence[str] | None = None) -> int:
     surprises = find_surprises(frame, elasticnet_full_predictions, xgb_regressor_full_predictions, xgb_full_predictions)
     used_features, ignored_features = used_and_ignored_features(importance)
     xgb_degenerate = len(used_features) == 0
-    verdict = determine_verdict(elasticnet_metrics, xgb_metrics)
+    verdict = determine_verdict(elasticnet_metrics, xgb_regressor_metrics)
 
     metadata = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": datetime.now(UTC).isoformat(),
         "matched_tickers": match_summary.matched_tickers,
         "coverage": coverage,
         "feature_order": list(CONSENSUS_FEATURES),
@@ -1164,14 +1176,14 @@ def main(argv: Sequence[str] | None = None) -> int:
         },
         "surprises": surprises,
         "artifacts": {
-            "elasticnet_model": str(ELASTICNET_MODEL_PATH),
-            "xgboost_regressor_model": str(XGB_REGRESSOR_MODEL_PATH),
-            "xgboost_model": str(XGB_MODEL_PATH),
-            "metadata": str(METADATA_PATH),
-            "feature_spec": str(FEATURE_SPEC_PATH),
-            "feature_importance_plot": str(FEATURE_IMPORTANCE_PATH),
-            "predicted_vs_actual_plot": str(PREDICTED_VS_ACTUAL_PATH),
-            "elasticnet_coefficients_plot": str(ELASTICNET_COEFFICIENTS_PATH),
+            "elasticnet_model": repo_relative(ELASTICNET_MODEL_PATH),
+            "xgboost_regressor_model": repo_relative(XGB_REGRESSOR_MODEL_PATH),
+            "xgboost_model": repo_relative(XGB_MODEL_PATH),
+            "metadata": repo_relative(METADATA_PATH),
+            "feature_spec": repo_relative(FEATURE_SPEC_PATH),
+            "feature_importance_plot": repo_relative(FEATURE_IMPORTANCE_PATH),
+            "predicted_vs_actual_plot": repo_relative(PREDICTED_VS_ACTUAL_PATH),
+            "elasticnet_coefficients_plot": repo_relative(ELASTICNET_COEFFICIENTS_PATH),
         },
     }
     METADATA_PATH.write_text(json.dumps(metadata, indent=2, sort_keys=True), encoding="utf-8")

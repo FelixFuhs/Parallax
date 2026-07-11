@@ -1,0 +1,42 @@
+{
+  "artifact_role": "baseline_model_freeze",
+  "feature_names": [
+    "fcf_to_ev",
+    "gross_profitability_assets",
+    "asset_growth_1y",
+    "cash_earnings_gap",
+    "momentum_12_1"
+  ],
+  "final_cv_metrics": {
+    "mae": 0.25561815877405236,
+    "r2": -0.2561035485785468,
+    "spearman": 0.3691797701335692
+  },
+  "generated_at": "2026-05-19T15:41:44Z",
+  "model_family": "ElasticNetCV",
+  "model_type": "elasticnet_baseline",
+  "primary_model": false,
+  "primary_model_reference": "models/frozen_xgb_regressor.json",
+  "source_artifacts": {
+    "baseline_freeze_doc": "docs/freeze_elasticnet_baseline.md",
+    "frozen_coefficients": "models/frozen_elasticnet_coefficients.json",
+    "source_metadata": "models/distill_v2_metadata.json"
+  },
+  "stability": {
+    "bootstrap_oob_spearman_ci": {
+      "lower": 0.0,
+      "upper": 0.6893567369316718
+    },
+    "bootstrap_oob_spearman_mean": 0.49567280509728245,
+    "spearman_cv_mean": 0.4169548792587215,
+    "spearman_cv_p05": 0.0,
+    "spearman_cv_p95": 0.6846718271246572,
+    "spearman_cv_std": 0.23716473823718934
+  },
+  "training_set_size": 264,
+  "verdict": "no",
+  "verdict_reasons": [
+    "Elastic Net is retained as a transparent baseline only; the primary frozen model is the XGBoost regressor.",
+    "The repeated-CV and bootstrap intervals are materially weaker than the XGBoost regressor stability profile."
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "artifacts": {
-    "elasticnet_coefficients_plot": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\plots\\elasticnet_coefficients.png",
-    "elasticnet_model": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\models\\distill_elasticnet_v2.pkl",
-    "feature_importance_plot": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\plots\\feature_importance_v2.png",
-    "feature_spec": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\models\\feature_spec.json",
-    "metadata": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\models\\distill_v2_metadata.json",
-    "predicted_vs_actual_plot": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\plots\\predicted_vs_actual_v2.png",
-    "xgboost_model": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\models\\distill_xgb_v2.json",
-    "xgboost_regressor_model": "C:\\Users\\Anwender\\OneDrive\\Desktop\\Parallax\\models\\distill_xgb_regressor_v2.json"
+    "elasticnet_coefficients_plot": "plots/elasticnet_coefficients.png",
+    "elasticnet_model": "models/distill_elasticnet_v2.pkl",
+    "feature_importance_plot": "plots/feature_importance_v2.png",
+    "feature_spec": "models/feature_spec.json",
+    "metadata": "models/distill_v2_metadata.json",
+    "predicted_vs_actual_plot": "plots/predicted_vs_actual_v2.png",
+    "xgboost_model": "models/distill_xgb_v2.json",
+    "xgboost_regressor_model": "models/frozen_xgb_regressor.json"
   },
   "comparison": {
     "elasticnet_cv_mean": {
@@ -63,7 +63,7 @@
         "top_quartile_overlap_stability": 0.907878787878788
       }
     },
-    "verdict": "Verdict: Elastic Net wins.",
+    "verdict": "Verdict: XGBoost regressor is the primary frozen model; Elastic Net is retained as a baseline.",
     "xgboost_cv": {
       "mae": 0.3245333563774629,
       "r2": -0.827116853302376,

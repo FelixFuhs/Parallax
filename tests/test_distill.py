@@ -17,4 +17,4 @@ def test_determine_verdict_uses_spearman_as_primary_metric():
     elasticnet_metrics = ModelMetrics(spearman=0.20, r2=0.05, mae=0.20)
     xgb_metrics = ModelMetrics(spearman=0.24, r2=-0.10, mae=0.30)
 
-    assert determine_verdict(elasticnet_metrics, xgb_metrics) == "Verdict: XGBoost Ranker wins."
+    assert determine_verdict(elasticnet_metrics, xgb_metrics) == "Verdict: XGBoost Regressor wins."

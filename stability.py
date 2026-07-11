@@ -3,10 +3,11 @@ from __future__ import annotations
 import argparse
 import json
 import math
+from collections.abc import Sequence
 from dataclasses import asdict, dataclass
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-from typing import Any, Sequence
+from typing import Any
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -26,19 +27,19 @@ from distill import (
     build_training_frame,
     elasticnet_coefficients,
     fractional_percentile_rank,
+    latest_successful_cheap_reports,
     load_edgar_payload,
     load_ticker_universe,
-    latest_successful_cheap_reports,
     safe_spearman,
 )
-
 
 SPEARMAN_STABILITY_PATH = PLOTS_DIR / "spearman_stability.png"
 COEFFICIENT_STABILITY_PATH = PLOTS_DIR / "coefficient_stability.png"
 BOOTSTRAP_SPEARMAN_PATH = PLOTS_DIR / "bootstrap_spearman.png"
 STABILITY_METADATA_PATH = MODELS_DIR / "elasticnet_stability.json"
 FROZEN_COEFFICIENTS_PATH = MODELS_DIR / "frozen_elasticnet_coefficients.json"
-MODEL_FREEZE_PATH = Path(__file__).resolve().parent / "docs" / "model_freeze.md"
+FROZEN_ELASTICNET_METADATA_PATH = MODELS_DIR / "frozen_elasticnet_metadata.json"
+ELASTICNET_FREEZE_PATH = Path(__file__).resolve().parent / "docs" / "freeze_elasticnet_baseline.md"
 
 EXPECTED_SIGNS: dict[str, int] = {
     "fcf_to_ev": 1,
@@ -142,6 +143,14 @@ FEATURE_DEFINITION_DETAILS: dict[str, dict[str, Any]] = {
         ],
     },
 }
+
+
+def repo_relative(path: Path) -> str:
+    root = Path(__file__).resolve().parent
+    try:
+        return path.relative_to(root).as_posix()
+    except ValueError:
+        return path.as_posix()
 
 
 @dataclass(frozen=True)
@@ -346,7 +355,7 @@ def build_frozen_coefficients_payload(
     imputer = pipeline.named_steps["imputer"]
     scaler = pipeline.named_steps["scaler"]
     return {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": datetime.now(UTC).isoformat(),
         "model_family": "ElasticNetCV",
         "feature_order": list(CONSENSUS_FEATURES),
         "matched_tickers": matched_tickers,
@@ -366,6 +375,46 @@ def build_frozen_coefficients_payload(
         "selected_alpha": float(model.alpha_),
         "selected_l1_ratio": float(model.l1_ratio_),
         "final_cv_metrics": cv_metrics,
+    }
+
+
+def build_frozen_elasticnet_metadata(
+    *,
+    matched_count: int,
+    final_cv_metrics: dict[str, float],
+    fold_stats: SummaryStats,
+    bootstrap_stats: SummaryStats,
+    verdict: str,
+    verdict_reasons: list[str],
+) -> dict[str, Any]:
+    return {
+        "generated_at": datetime.now(UTC).isoformat(),
+        "artifact_role": "baseline_model_freeze",
+        "primary_model": False,
+        "primary_model_reference": "models/frozen_xgb_regressor.json",
+        "model_type": "elasticnet_baseline",
+        "model_family": "ElasticNetCV",
+        "feature_names": list(CONSENSUS_FEATURES),
+        "training_set_size": int(matched_count),
+        "final_cv_metrics": final_cv_metrics,
+        "stability": {
+            "spearman_cv_mean": fold_stats.mean,
+            "spearman_cv_std": fold_stats.std,
+            "spearman_cv_p05": fold_stats.lower,
+            "spearman_cv_p95": fold_stats.upper,
+            "bootstrap_oob_spearman_mean": bootstrap_stats.mean,
+            "bootstrap_oob_spearman_ci": {
+                "lower": bootstrap_stats.lower,
+                "upper": bootstrap_stats.upper,
+            },
+        },
+        "verdict": verdict,
+        "verdict_reasons": verdict_reasons,
+        "source_artifacts": {
+            "frozen_coefficients": repo_relative(FROZEN_COEFFICIENTS_PATH),
+            "baseline_freeze_doc": repo_relative(ELASTICNET_FREEZE_PATH),
+            "source_metadata": repo_relative(METADATA_PATH),
+        },
     }
 
 
@@ -514,13 +563,13 @@ def write_model_freeze_doc(
     ]
 
     sections: list[str] = []
-    sections.append("# Parallax Model Freeze")
+    sections.append("# Parallax Elastic Net Baseline Freeze")
     sections.append("")
-    sections.append(f"Generated: {datetime.now(timezone.utc).isoformat()}")
+    sections.append(f"Generated: {datetime.now(UTC).isoformat()}")
     sections.append("")
     sections.append("## Frozen Statement")
     sections.append("")
-    sections.append("This spec is frozen. Any changes after seeing backtest results must be documented as post-hoc modifications and flagged as such.")
+    sections.append("This baseline spec is frozen for transparency. It is not the primary Parallax frozen model; the primary model remains the XGBoost regressor documented separately.")
     sections.append("")
     sections.append("## Universe")
     sections.append("")
@@ -634,7 +683,7 @@ def write_model_freeze_doc(
     sections.append("")
     sections.append(markdown_table(["Ticker", "Company", "Top Quartile %", "Hold-out Appearances"], bottom_rows))
     sections.append("")
-    sections.append("## Backcasting Verdict")
+    sections.append("## Baseline Backcasting Verdict")
     sections.append("")
     sections.append(f"Is the model stable enough to trust for backcasting? {verdict}.")
     sections.append("")
@@ -718,7 +767,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         top_quartile_rates,
     )
     write_model_freeze_doc(
-        MODEL_FREEZE_PATH,
+        ELASTICNET_FREEZE_PATH,
         tickers_file_label=tickers_path.name,
         matched_count=len(matched_tickers),
         final_cv_metrics=final_cv_metrics,
@@ -730,9 +779,21 @@ def main(argv: Sequence[str] | None = None) -> int:
         verdict=verdict,
         verdict_reasons=verdict_reasons,
     )
+    frozen_elasticnet_metadata = build_frozen_elasticnet_metadata(
+        matched_count=len(matched_tickers),
+        final_cv_metrics=final_cv_metrics,
+        fold_stats=fold_stats,
+        bootstrap_stats=bootstrap_stats,
+        verdict=verdict,
+        verdict_reasons=verdict_reasons,
+    )
+    FROZEN_ELASTICNET_METADATA_PATH.write_text(
+        json.dumps(frozen_elasticnet_metadata, indent=2, sort_keys=True),
+        encoding="utf-8",
+    )
 
     stability_metadata = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": datetime.now(UTC).isoformat(),
         "matched_tickers": matched_tickers,
         "repeated_cv": {
             "repeats": args.repeats,
@@ -748,11 +809,12 @@ def main(argv: Sequence[str] | None = None) -> int:
         "verdict": verdict,
         "verdict_reasons": verdict_reasons,
         "artifacts": {
-            "spearman_stability_plot": str(SPEARMAN_STABILITY_PATH),
-            "coefficient_stability_plot": str(COEFFICIENT_STABILITY_PATH),
-            "bootstrap_spearman_plot": str(BOOTSTRAP_SPEARMAN_PATH),
-            "frozen_coefficients": str(FROZEN_COEFFICIENTS_PATH),
-            "model_freeze_doc": str(MODEL_FREEZE_PATH),
+            "spearman_stability_plot": repo_relative(SPEARMAN_STABILITY_PATH),
+            "coefficient_stability_plot": repo_relative(COEFFICIENT_STABILITY_PATH),
+            "bootstrap_spearman_plot": repo_relative(BOOTSTRAP_SPEARMAN_PATH),
+            "frozen_coefficients": repo_relative(FROZEN_COEFFICIENTS_PATH),
+            "frozen_elasticnet_metadata": repo_relative(FROZEN_ELASTICNET_METADATA_PATH),
+            "elasticnet_freeze_doc": repo_relative(ELASTICNET_FREEZE_PATH),
         },
     }
     STABILITY_METADATA_PATH.write_text(json.dumps(stability_metadata, indent=2, sort_keys=True), encoding="utf-8")
@@ -788,7 +850,8 @@ def main(argv: Sequence[str] | None = None) -> int:
     print(f"Saved bootstrap spearman plot: {BOOTSTRAP_SPEARMAN_PATH}")
     print(f"Saved stability metadata: {STABILITY_METADATA_PATH}")
     print(f"Saved frozen coefficients: {FROZEN_COEFFICIENTS_PATH}")
-    print(f"Saved model freeze doc: {MODEL_FREEZE_PATH}")
+    print(f"Saved Elastic Net baseline metadata: {FROZEN_ELASTICNET_METADATA_PATH}")
+    print(f"Saved Elastic Net baseline freeze doc: {ELASTICNET_FREEZE_PATH}")
     return 0
 
 

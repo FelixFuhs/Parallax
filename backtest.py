@@ -13,12 +13,11 @@ from xgboost import XGBRegressor
 import historical
 from edgar import DEFAULT_SEC_EMAIL, DEFAULT_SEC_NAME, SecClient, normalize_ticker
 
-
 ROOT = Path(__file__).resolve().parent
 TICKERS_PATH = ROOT / "tickers.txt"
 FEATURE_SPEC_PATH = ROOT / "models" / "feature_spec.json"
-DEFAULT_MODEL_PATH = ROOT / "models" / "distill_xgb_regressor_v2.json"
 FROZEN_MODEL_PATH = ROOT / "models" / "frozen_xgb_regressor.json"
+DEFAULT_MODEL_PATH = FROZEN_MODEL_PATH
 PLOTS_DIR = ROOT / "plots"
 RESULTS_DIR = ROOT / "results"
 SUMMARY_PATH = RESULTS_DIR / "backtest_summary.json"
@@ -128,6 +127,48 @@ def assign_buckets(scores: pd.Series) -> pd.Series:
     boundaries = np.floor(np.arange(len(ordered)) * bucket_count / len(ordered)).astype(int)
     bucket_labels = pd.Series([labels[index] for index in boundaries], index=ordered.index, dtype="object")
     return bucket_labels.reindex(scores.index)
+
+
+def _unconstrained_bucket_frame(base_frame: pd.DataFrame, score_column: str) -> pd.DataFrame:
+    output = base_frame.copy()
+    output["bucket"] = assign_buckets(pd.to_numeric(output[score_column], errors="coerce"))
+    output = output[output["bucket"].notna()].copy()
+    if output.empty:
+        output["weight"] = pd.Series(dtype=float)
+        return output
+    output["weight"] = output.groupby("bucket")["bucket"].transform(lambda values: 1.0 / len(values))
+    return output
+
+
+def _sector_neutral_bucket_frame(base_frame: pd.DataFrame, score_column: str) -> pd.DataFrame:
+    if "sector" not in base_frame.columns or base_frame["sector"].nunique(dropna=True) < 2:
+        return pd.DataFrame(columns=[*base_frame.columns, "bucket", "weight"])
+
+    pieces: list[pd.DataFrame] = []
+    for sector, sector_frame in base_frame.dropna(subset=["sector"]).groupby("sector", dropna=False):
+        if len(sector_frame) < 3:
+            continue
+        bucketed = sector_frame.copy()
+        bucketed["bucket"] = assign_buckets(pd.to_numeric(bucketed[score_column], errors="coerce"))
+        bucketed = bucketed[bucketed["bucket"].notna()].copy()
+        if bucketed.empty:
+            continue
+        bucketed["_sector_key"] = str(sector)
+        pieces.append(bucketed)
+    if not pieces:
+        return pd.DataFrame(columns=[*base_frame.columns, "bucket", "weight"])
+
+    output = pd.concat(pieces, axis=0, ignore_index=False)
+    output["weight"] = np.nan
+    for bucket, bucket_frame in output.groupby("bucket", dropna=False):
+        sectors = sorted(bucket_frame["_sector_key"].dropna().unique().tolist())
+        if not sectors:
+            continue
+        sector_weight = 1.0 / len(sectors)
+        for sector in sectors:
+            sector_index = bucket_frame.index[bucket_frame["_sector_key"] == sector]
+            output.loc[sector_index, "weight"] = sector_weight / len(sector_index)
+    return output.drop(columns=["_sector_key"])
 
 
 def median_impute_cross_section(frame: pd.DataFrame) -> pd.DataFrame:
@@ -266,11 +307,13 @@ def first_price_after(series: pd.Series, date_value: pd.Timestamp) -> float | No
 
 
 def compute_forward_return(
-    price_frame: pd.DataFrame,
+    price_frame: pd.DataFrame | historical.PricePanels,
     ticker: str,
     rebalance_date: pd.Timestamp,
     next_rebalance_date: pd.Timestamp,
 ) -> float | None:
+    if isinstance(price_frame, historical.PricePanels):
+        price_frame = price_frame.adjusted_close
     if ticker not in price_frame.columns:
         return None
     series = price_frame[ticker].dropna()
@@ -282,6 +325,229 @@ def compute_forward_return(
     if entry_price in (None, 0.0) or exit_price is None:
         return None
     return float((exit_price / entry_price) - 1.0)
+
+
+def one_way_cost_rate(cost_bps: float) -> float:
+    return float(cost_bps) / 10000.0
+
+
+def portfolio_turnover(previous_weights: pd.Series, current_weights: pd.Series) -> float:
+    if previous_weights.empty:
+        return float(current_weights.abs().sum())
+    aligned = pd.concat({"previous": previous_weights, "current": current_weights}, axis=1).fillna(0.0)
+    if aligned.empty:
+        return 0.0
+    return float(0.5 * (aligned["current"] - aligned["previous"]).abs().sum())
+
+
+def _price_frame_for_returns(price_frame: pd.DataFrame | historical.PricePanels) -> pd.DataFrame:
+    return price_frame.adjusted_close if isinstance(price_frame, historical.PricePanels) else price_frame
+
+
+def _price_frame_for_valuation(price_frame: pd.DataFrame | historical.PricePanels) -> pd.DataFrame:
+    return price_frame.raw_close if isinstance(price_frame, historical.PricePanels) else price_frame
+
+
+def run_audited_signal_backtest(
+    *,
+    signal_name: str,
+    score_column: str,
+    matrices: dict[pd.Timestamp, pd.DataFrame],
+    rebalance_dates: list[pd.Timestamp],
+    price_frame: pd.DataFrame | historical.PricePanels,
+    cost_bps_levels: tuple[int, ...] = (0, 10, 25, 50),
+) -> dict[str, pd.DataFrame]:
+    adjusted_prices = _price_frame_for_returns(price_frame)
+    raw_prices = _price_frame_for_valuation(price_frame)
+    holding_rows: list[dict[str, Any]] = []
+    monthly_rows: list[dict[str, Any]] = []
+    turnover_rows: list[dict[str, Any]] = []
+    exposure_rows: list[dict[str, Any]] = []
+    previous_weights: dict[tuple[str, str, str], pd.Series] = {}
+
+    for index, rebalance_date in enumerate(rebalance_dates[:-1], start=1):
+        next_rebalance_date = rebalance_dates[index]
+        if rebalance_date not in matrices or score_column not in matrices[rebalance_date].columns:
+            continue
+        base_frame = matrices[rebalance_date].copy()
+        base_frame = base_frame[pd.to_numeric(base_frame[score_column], errors="coerce").notna()].copy()
+        if base_frame.empty:
+            continue
+
+        base_frame["entry_price"] = [
+            first_price_after(adjusted_prices[ticker].dropna(), rebalance_date)
+            if ticker in adjusted_prices.columns
+            else None
+            for ticker in base_frame.index
+        ]
+        base_frame["exit_price"] = [
+            first_price_after(adjusted_prices[ticker].dropna(), next_rebalance_date)
+            if ticker in adjusted_prices.columns
+            else None
+            for ticker in base_frame.index
+        ]
+        base_frame["raw_return"] = [
+            (exit_price / entry_price) - 1.0
+            if entry_price not in (None, 0.0) and exit_price is not None
+            else np.nan
+            for entry_price, exit_price in zip(base_frame["entry_price"], base_frame["exit_price"], strict=True)
+        ]
+        base_frame = base_frame[base_frame["raw_return"].notna()].copy()
+        if base_frame.empty:
+            continue
+
+        portfolio_frames = [
+            ("unconstrained", "equal_name", _unconstrained_bucket_frame(base_frame, score_column)),
+            ("sector_neutral", "equal_sector_then_equal_name", _sector_neutral_bucket_frame(base_frame, score_column)),
+        ]
+        for portfolio_mode, weighting_method, mode_frame in portfolio_frames:
+            if mode_frame.empty:
+                continue
+            for bucket, bucket_frame in mode_frame.groupby("bucket"):
+                current_weights = pd.to_numeric(bucket_frame["weight"], errors="coerce").astype(float)
+                current_weights = current_weights[current_weights.notna() & (current_weights > 0.0)]
+                bucket_frame = bucket_frame.loc[current_weights.index].copy()
+                if bucket_frame.empty:
+                    continue
+                total_weight = float(current_weights.sum())
+                if total_weight <= 0.0:
+                    continue
+                current_weights = current_weights / total_weight
+                previous = previous_weights.get((signal_name, portfolio_mode, str(bucket)), pd.Series(dtype=float))
+                turnover = portfolio_turnover(previous, current_weights)
+                previous_weights[(signal_name, portfolio_mode, str(bucket))] = current_weights
+                gross_return = float((bucket_frame["raw_return"] * current_weights).sum())
+                sector_weights = (
+                    bucket_frame.assign(weight=current_weights)
+                    .groupby("sector", dropna=False)["weight"]
+                    .sum()
+                    .to_dict()
+                    if "sector" in bucket_frame.columns
+                    else {}
+                )
+                average_market_cap = (
+                    float((pd.to_numeric(bucket_frame["market_cap"], errors="coerce") * current_weights).sum())
+                    if "market_cap" in bucket_frame.columns and bucket_frame["market_cap"].notna().any()
+                    else None
+                )
+
+                for cost_bps in cost_bps_levels:
+                    cost_rate = one_way_cost_rate(cost_bps)
+                    transaction_cost_drag = turnover * cost_rate
+                    net_return = gross_return - transaction_cost_drag
+                    monthly_rows.append(
+                        {
+                            "date": rebalance_date,
+                            "next_rebalance_date": next_rebalance_date,
+                            "signal_name": signal_name,
+                            "portfolio_mode": portfolio_mode,
+                            "weighting_method": weighting_method,
+                            "bucket": bucket,
+                            "cost_bps_one_way": int(cost_bps),
+                            "gross_return": gross_return,
+                            "transaction_cost_drag": transaction_cost_drag,
+                            "net_return": net_return,
+                            "name_count": int(len(bucket_frame)),
+                        }
+                    )
+                    turnover_rows.append(
+                        {
+                            "date": rebalance_date,
+                            "signal_name": signal_name,
+                            "portfolio_mode": portfolio_mode,
+                            "weighting_method": weighting_method,
+                            "bucket": bucket,
+                            "cost_bps_one_way": int(cost_bps),
+                            "turnover": turnover,
+                            "transaction_cost_drag": transaction_cost_drag,
+                        }
+                    )
+
+                exposure_rows.append(
+                    {
+                        "date": rebalance_date,
+                        "signal_name": signal_name,
+                        "portfolio_mode": portfolio_mode,
+                        "weighting_method": weighting_method,
+                        "bucket": bucket,
+                        "sector_weights": json.dumps({str(key): float(value) for key, value in sector_weights.items()}),
+                        "average_market_cap": average_market_cap,
+                        "name_count": int(len(bucket_frame)),
+                    }
+                )
+
+                for ticker, row in bucket_frame.iterrows():
+                    raw_entry_price = (
+                        first_price_after(raw_prices[ticker].dropna(), rebalance_date)
+                        if ticker in raw_prices.columns
+                        else None
+                    )
+                    weight = float(current_weights.loc[ticker])
+                    base_holding = {
+                        "date": rebalance_date,
+                        "next_rebalance_date": next_rebalance_date,
+                        "ticker": ticker,
+                        "sector": row.get("sector"),
+                        "market_cap": row.get("market_cap"),
+                        "score": row[score_column],
+                        "signal_name": signal_name,
+                        "portfolio_mode": portfolio_mode,
+                        "weighting_method": weighting_method,
+                        "bucket": bucket,
+                        "weight": weight,
+                        "feature_null_count": row.get("feature_null_count"),
+                        "entry_price": row["entry_price"],
+                        "exit_price": row["exit_price"],
+                        "raw_close_entry_price": raw_entry_price,
+                        "raw_return": row["raw_return"],
+                    }
+                    for feature_name in FEATURE_ORDER:
+                        if feature_name in row.index:
+                            base_holding[feature_name] = row[feature_name]
+                    for label_name in (
+                        "raw_ai_implied_irr",
+                        "mechanical_dcf_implied_irr",
+                        "ai_minus_mechanical_irr",
+                        "factor_compressible_ai_score",
+                        "ai_factor_residual",
+                    ):
+                        if label_name in row.index:
+                            base_holding[label_name] = row[label_name]
+                    for cost_bps in cost_bps_levels:
+                        holding_cost = turnover * one_way_cost_rate(cost_bps) * weight
+                        holding_rows.append(
+                            {
+                                **base_holding,
+                                "cost_bps_one_way": int(cost_bps),
+                                "transaction_cost": holding_cost,
+                                "net_return": row["raw_return"] - holding_cost,
+                            }
+                        )
+
+    return {
+        "holdings": pd.DataFrame(holding_rows),
+        "monthly_returns": pd.DataFrame(monthly_rows),
+        "turnover": pd.DataFrame(turnover_rows),
+        "exposures": pd.DataFrame(exposure_rows),
+    }
+
+
+def write_backtest_audit_artifacts(
+    artifacts: dict[str, pd.DataFrame],
+    output_dir: Path = RESULTS_DIR,
+    *,
+    prefix: str = "",
+) -> dict[str, str]:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    written: dict[str, str] = {}
+    for name, frame in artifacts.items():
+        path = output_dir / f"{prefix}{name}.parquet"
+        frame.to_parquet(path, index=False)
+        try:
+            written[name] = str(path.relative_to(ROOT))
+        except ValueError:
+            written[name] = str(path)
+    return written
 
 
 def run_backtest_pass(
@@ -419,7 +685,6 @@ def run_backtest_pass(
     ew = series_by_name.get("EW Universe", pd.Series(dtype=float))
     pure_fcf_q1 = series_by_name.get("Pure FCF/EV Q1", pd.Series(dtype=float))
     additive_q1 = series_by_name.get("Additive Q1", pd.Series(dtype=float))
-    spread = series_by_name.get("Q1-Q5 Spread", pd.Series(dtype=float))
     positive_year_share = None
     spread_annual = annual.get("Q1-Q5 Spread", {})
     if spread_annual:
@@ -592,14 +857,14 @@ def main() -> int:
     )
 
     price_start_year = max(args.start_year - 2, 1990)
-    price_frame = historical.load_price_history(
+    price_panels = historical.load_price_panel_history(
         tickers,
         start=f"{price_start_year}-01-01",
         end=f"{args.end_year + 1}-01-31",
         refresh=args.refresh_price_cache,
     )
     rebalance_dates = build_rebalance_dates(
-        price_frame,
+        price_panels.adjusted_close,
         start_year=args.start_year,
         end_year=args.end_year,
     )
@@ -610,7 +875,7 @@ def main() -> int:
     counts: list[dict[str, Any]] = []
     for index, rebalance_date in enumerate(rebalance_dates, start=1):
         LOGGER.info("Building point-in-time matrix for %s (%d/%d)", rebalance_date.date(), index, len(rebalance_dates))
-        matrix = historical.build_point_in_time_feature_matrix(histories, price_frame, rebalance_date)
+        matrix = historical.build_point_in_time_feature_matrix(histories, price_panels, rebalance_date)
         matrices[rebalance_date] = matrix
         counts.append(
             {
@@ -629,8 +894,8 @@ def main() -> int:
     model = load_model(model_path)
 
     runs = {
-        "broad": run_backtest_pass("broad", matrices, rebalance_dates, price_frame, model),
-        "clean": run_backtest_pass("clean", matrices, rebalance_dates, price_frame, model),
+        "broad": run_backtest_pass("broad", matrices, rebalance_dates, price_panels, model),
+        "clean": run_backtest_pass("clean", matrices, rebalance_dates, price_panels, model),
     }
 
     plot_cumulative(runs)
@@ -641,22 +906,24 @@ def main() -> int:
         "config": {
             "start_year": args.start_year,
             "end_year": args.end_year,
-            "model_path": str(model_path),
-            "tickers_file": str(Path(args.tickers_file)),
+            "model_path": str(model_path.relative_to(ROOT)) if model_path.is_absolute() and model_path.is_relative_to(ROOT) else str(model_path),
+            "tickers_file": str(Path(args.tickers_file).relative_to(ROOT)) if Path(args.tickers_file).is_absolute() and Path(args.tickers_file).is_relative_to(ROOT) else str(Path(args.tickers_file)),
             "feature_order": feature_order,
             "t_plus_one_trading": True,
         },
         "assumptions": {
             "filings_must_be_accepted_before_rebalance_date": True,
+            "raw_close_price_used_for_market_cap_and_ev": True,
+            "adjusted_close_price_used_for_returns_and_momentum": True,
             "broad_universe_allows_up_to_two_missing_features": True,
             "additive_benchmark_broad_mode_missing_features": "cross-sectional median imputation before z-scoring",
             "pure_fcf_ev_sort_uses_only_names_with_non_null_fcf_to_ev": True,
         },
         "artifacts": {
-            "summary": str(SUMMARY_PATH),
-            "universe_plot": str(UNIVERSE_PLOT_PATH),
-            "cumulative_plot": str(CUMULATIVE_PLOT_PATH),
-            "annual_returns_plot": str(ANNUAL_RETURNS_PLOT_PATH),
+            "summary": str(SUMMARY_PATH.relative_to(ROOT)),
+            "universe_plot": str(UNIVERSE_PLOT_PATH.relative_to(ROOT)),
+            "cumulative_plot": str(CUMULATIVE_PLOT_PATH.relative_to(ROOT)),
+            "annual_returns_plot": str(ANNUAL_RETURNS_PLOT_PATH.relative_to(ROOT)),
         },
         "universe_counts": {
             row["date"].date().isoformat(): {
